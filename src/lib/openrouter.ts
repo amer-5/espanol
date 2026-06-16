@@ -10,7 +10,7 @@ export function getOpenRouter() {
       apiKey: process.env.OPENROUTER_API_KEY!,
       defaultHeaders: {
         "HTTP-Referer": "https://espanol.vercel.app",
-        "X-Title": "Español — Učenje španskog",
+        "X-Title": "Espanol - Spanish Learning App",
       },
     });
   }

@@ -7,13 +7,23 @@
  *   pnpm seed:lessons --only=a1  — only generate A1 lessons
  */
 
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 import * as fs from "fs";
 import * as path from "path";
 import { LessonSchema, UnitTestSchema } from "../src/types/lesson";
 import type { Curriculum, Unit, LessonMeta } from "../src/types/curriculum";
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const client = new OpenAI({
+  baseURL: "https://openrouter.ai/api/v1",
+  apiKey: process.env.OPENROUTER_API_KEY!,
+  defaultHeaders: {
+    "HTTP-Referer": "https://espanol.vercel.app",
+    "X-Title": "Español — Učenje španskog",
+  },
+});
+
+// Override with SEED_MODEL env var, e.g. SEED_MODEL=google/gemma-3-27b-it:free
+const MODEL = process.env.SEED_MODEL || "google/gemma-3-12b-it:free";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const LESSONS_DIR = path.join(CONTENT_DIR, "lessons");
@@ -194,14 +204,13 @@ ${goldenLesson}
 Return ONLY valid JSON, no markdown code blocks, no explanations.`;
 
   try {
-    const response = await client.messages.create({
-      model: process.env.SEED_MODEL || "claude-haiku-4-5-20251001",
+    const response = await client.chat.completions.create({
+      model: MODEL,
       max_tokens: 4000,
       messages: [{ role: "user", content: prompt }],
     });
 
-    const rawText =
-      response.content[0].type === "text" ? response.content[0].text : "";
+    const rawText = response.choices[0]?.message?.content ?? "";
 
     // Extract JSON (handle potential markdown wrapping)
     let jsonStr = rawText.trim();
@@ -282,14 +291,13 @@ ${TEST_SCHEMA_DESCRIPTION}
 Return ONLY valid JSON, no markdown, no explanations.`;
 
   try {
-    const response = await client.messages.create({
-      model: process.env.SEED_MODEL || "claude-haiku-4-5-20251001",
+    const response = await client.chat.completions.create({
+      model: MODEL,
       max_tokens: 3000,
       messages: [{ role: "user", content: prompt }],
     });
 
-    const rawText =
-      response.content[0].type === "text" ? response.content[0].text : "";
+    const rawText = response.choices[0]?.message?.content ?? "";
     let jsonStr = rawText.trim();
     if (jsonStr.startsWith("```")) {
       jsonStr = jsonStr.replace(/^```[a-z]*\n?/, "").replace(/\n?```$/, "");

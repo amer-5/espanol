@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import Anthropic from "@anthropic-ai/sdk";
-
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
+import { getOpenRouter, CHAT_MODEL } from "@/lib/openrouter";
 
 export async function POST(req: NextRequest) {
   try {
@@ -32,16 +30,17 @@ PRAVILA:
 
 Hint: ${systemPromptHint}`;
 
-    const response = await client.messages.create({
-      model: "claude-sonnet-4-6",
+    const client = getOpenRouter();
+    const response = await client.chat.completions.create({
+      model: CHAT_MODEL,
       max_tokens: 500,
-      system: systemPrompt,
-      messages,
+      messages: [
+        { role: "system", content: systemPrompt },
+        ...messages,
+      ],
     });
 
-    const text =
-      response.content[0].type === "text" ? response.content[0].text : "";
-
+    const text = response.choices[0]?.message?.content ?? "";
     return NextResponse.json({ message: text });
   } catch (err) {
     console.error("Chat error:", err);

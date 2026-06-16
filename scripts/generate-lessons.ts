@@ -1,4 +1,6 @@
 #!/usr/bin/env tsx
+import { config } from "dotenv";
+config({ path: ".env.local" });
 /**
  * Idempotent lesson + test generator.
  * Usage:

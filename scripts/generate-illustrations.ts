@@ -1,4 +1,6 @@
 #!/usr/bin/env tsx
+import { config } from "dotenv";
+config({ path: ".env.local" });
 /**
  * Illustration generator using Pollinations.ai (free, no API key needed).
  * Usage:

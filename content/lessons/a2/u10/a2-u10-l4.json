@@ -1,0 +1,172 @@
+{
+  "id": "a2-u10-l4",
+  "level": "A2",
+  "unit": 10,
+  "lessonNumber": 4,
+  "title": "Imperfecto u praksi — pripovijedanje",
+  "subtitle": "Solía ir, acostumbraba... — priče iz prošlosti",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti SOLER u imperfectu za habituelne prošle radnje",
+    "Pisati koherentne priče kombinirajući imperfecto, indefinido i narativne markerice",
+    "Razumjeti autentične tekstove s mješovitim prošlim vremenima"
+  ],
+  "prerequisites": ["a2-u10-l1", "a2-u10-l2", "a2-u10-l3"],
+  "vocabulary": [
+    { "es": "soler + infinitivo (en el pasado)", "bs": "obično + infinitiv (navika u prošlosti)", "pos": "glag. o→ue + inf.", "ipa": "so.ˈler", "example_es": "Solía ir al cine los viernes.", "example_bs": "Obično sam išao u kino petkom." },
+    { "es": "había una vez", "bs": "jednom davno / bio jednom", "pos": "izr. (bajka)", "ipa": "a.ˈβi.a ˈu.na βeθ", "example_es": "Había una vez un rey...", "example_bs": "Bio jednom jedan kralj..." },
+    { "es": "en aquel entonces", "bs": "u ono doba / tada", "pos": "izr.", "ipa": "en a.ˈkel en.ˈton.θes", "example_es": "En aquel entonces no había internet.", "example_bs": "U ono doba nije bilo interneta." },
+    { "es": "recuerdo que", "bs": "sjećam se da", "pos": "izr.", "ipa": "re.ˈkwer.ðo ke", "example_es": "Recuerdo que llovía ese día.", "example_bs": "Sjećam se da je tog dana kišilo." },
+    { "es": "me acuerdo de", "bs": "sjećam se (nečega)", "pos": "refl. izr.", "ipa": "me a.ˈkwer.ðo ðe", "example_es": "Me acuerdo de las tardes en el parque.", "example_bs": "Sjećam se popodneva u parku." },
+    { "es": "extrañar / echar de menos", "bs": "nedostajati / čeznuti za", "pos": "glag.", "ipa": "eks.tra.ˈɲar", "example_es": "Extrañaba mucho a mi familia.", "example_bs": "Jako mi je nedostajala porodica." },
+    { "es": "ya no", "bs": "više ne", "pos": "pril.", "ipa": "ˈxa no", "example_es": "Ya no vivo allí.", "example_bs": "Više ne živim tamo." },
+    { "es": "todavía / aún", "bs": "još uvijek", "pos": "pril.", "ipa": "to.ða.ˈβi.a", "example_es": "Todavía recuerdo esa época.", "example_bs": "Još uvijek se sjećam tog doba." },
+    { "es": "sin embargo", "bs": "međutim / ipak", "pos": "vez.", "ipa": "sin em.ˈbar.ɣo", "example_es": "Era difícil; sin embargo, lo disfrutaba.", "example_bs": "Bilo je teško; međutim, uživao sam." },
+    { "es": "por suerte / por desgracia", "bs": "na sreću / na nesreću", "pos": "izr.", "ipa": "por ˈswer.te", "example_es": "Por suerte, todo salió bien.", "example_bs": "Na sreću, sve je ispalo dobro." }
+  ],
+  "grammar": [
+    {
+      "concept": "SOLER + infinitivo u imperfectu",
+      "explanation_bs": "**SOLER** (o→ue) + infinitiv = 'obično + glagol'. U imperfectu: solía, solías, solía, solíamos, solíais, solían. Koristi se za habituelne radnje u prošlosti: 'Solía ir al cine los viernes' = Obično sam išao u kino petkom (navika koja više ne postoji). SOLER u imperfectu je elegantnija zamjena za 'Iba siempre' ili 'Normalmente iba'.",
+      "table": {
+        "headers": ["Zamjenica", "SOLER (imperfecto)", "Primjer"],
+        "rows": [
+          ["yo", "solía", "Solía levantarme tarde."],
+          ["tú", "solías", "¿Solías jugar aquí?"],
+          ["él/ella", "solía", "Solía trabajar mucho."],
+          ["nosotros", "solíamos", "Solíamos cenar juntos."],
+          ["vosotros", "solíais", "¿Solíais ir al campo?"],
+          ["ellos", "solían", "Solían llamarme cada semana."]
+        ]
+      },
+      "examples": [
+        { "es": "De niño solía pasar los veranos en el pueblo.", "bs": "Kao dijete obično sam provodio ljeta u selu." },
+        { "es": "Mis padres solían discutir pero nunca era grave.", "bs": "Moji roditelji su se obično svađali ali nikad nije bilo ozbiljno." },
+        { "es": "Solíamos encontrarnos cada viernes en el mismo bar.", "bs": "Obično smo se nalazili svaki petak u istom kafiću." }
+      ],
+      "tips": "SOLER u imperfectu uvijek + infinitiv. Ne koristimo SOLER u indefinidu — za konkretni slučaj koristimo samo glagol radnje u indefinidu."
+    },
+    {
+      "concept": "Pisanje priče — spajanje svega",
+      "explanation_bs": "U dobrom pripovijedanju kombiniramo: 1) Imperfecto za **pozadinu i opise** (Hacía frío, había poca gente, era tarde...). 2) Indefinido za **konkretne događaje** (llegué, vi, ocurrió...). 3) Markerice za **slijed** (primero, después, de repente, mientras, al final...). 4) SOLER za **navike** (solía hacer...). 5) RECUERDO QUE za **sjećanje** (Recuerdo que todo era diferente...).",
+      "examples": [
+        { "es": "Era un día de verano. Hacía calor y la gente paseaba por el parque. De repente llegó una tormenta y todos corrieron a casa.", "bs": "Bio je ljetni dan. Bilo je toplo i ljudi su šetali parkom. Odjednom je došla oluja i svi su potrčali kući." },
+        { "es": "Recuerdo que solíamos ir a ese restaurante. Un día llegamos y estaba cerrado. Fue una pena.", "bs": "Sjećam se da smo obično išli u taj restoran. Jednog dana smo stigli i bio je zatvoren. Bila je šteta." }
+      ],
+      "tips": "Formula uspješne priče: opis (imp.) + iznenadni događaj (indef.) + reakcija (indef.) + zaključak/osjećaj (imp. ili indef.). Uvježbaj ovu strukturu dok ne postane prirodna."
+    }
+  ],
+  "dialogue": {
+    "title": "Los años universitarios — Studentske godine",
+    "lines": [
+      { "speaker": "Diana", "es": "¿Cuándo viviste en el extranjero?", "bs": "Kad si živio u inozemstvu?" },
+      { "speaker": "Marcos", "es": "Durante la universidad. Viví en Berlín dos años.", "bs": "Za vrijeme fakulteta. Živio sam u Berlinu dvije godine." },
+      { "speaker": "Diana", "es": "¿Cómo era la vida allí?", "bs": "Kakav je bio život tamo?" },
+      { "speaker": "Marcos", "es": "Era muy diferente. Hacía mucho frío en invierno y la gente era bastante seria.", "bs": "Bila je jako drugačija. Zimi je bilo jako hladno i ljudi su bili dosta ozbiljni." },
+      { "speaker": "Diana", "es": "¿Y qué solías hacer los fines de semana?", "bs": "I šta si obično radio vikendom?" },
+      { "speaker": "Marcos", "es": "Solía ir al mercado de los sábados y por las tardes visitaba museos. A veces salía con amigos de la universidad.", "bs": "Obično sam išao na subotnju pijacu a popodneva sam posjećivao muzeje. Ponekad sam izlazio s prijateljima s faksa." },
+      { "speaker": "Diana", "es": "¿No extrañabas España?", "bs": "Nije ti nedostajala Španija?" },
+      { "speaker": "Marcos", "es": "Sí, al principio mucho. Extrañaba el sol, la comida y mi familia. Pero luego me acostumbré y hoy en día recuerdo esa época con mucho cariño.", "bs": "Da, na početku jako. Nedostajalo mi je sunce, hrana i porodica. Ali potom sam se navikao i danas se sjećam tog doba s puno ljubavi." }
+    ]
+  },
+  "reading": {
+    "title": "El último verano de la infancia — Posljednje ljeto djetinjstva",
+    "text_es": "Tenía catorce años y era el último verano antes del instituto. Vivíamos cerca del mar y solíamos ir a la playa cada mañana. Aquel verano había una chica nueva en el barrio — se llamaba Valentina. Era rubia, tenía los ojos verdes y siempre llevaba un libro. Un día me senté a su lado en la playa. Hablamos durante horas. Resulta que le gustaban las mismas películas y la misma música que a mí. Ese verano fuimos juntos a conciertos, vimos películas y exploramos la ciudad. Al final del verano, ella volvió a Madrid con su familia. Me dio su número de teléfono. Todavía somos amigos — hace dos años se casó y yo fui a su boda.",
+    "glossary": [
+      { "es": "el instituto", "bs": "srednja škola" },
+      { "es": "rubia", "bs": "plavuša / plavojka" },
+      { "es": "me senté a su lado", "bs": "sjeo sam pored nje" },
+      { "es": "resulta que", "bs": "ispostavilo se da" },
+      { "es": "la boda", "bs": "vjenčanje / svadba" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko je imao godina tog ljeta?",
+        "options": ["Dvanaest", "Četrnaest", "Šesnaest"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako se djevojčica zvala?",
+        "options": ["Valentina", "Diana", "Carmen"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Jesu li ostali u kontaktu?",
+        "options": ["Ne, izgubili su se", "Da, još su prijatelji", "Da, oženili su se"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik SOLER za 'nosotros' u imperfectu?",
+      "options": ["solemos", "solíamos", "suelemos", "solábamos"],
+      "answerIndex": 1,
+      "explanation_bs": "SOLER u imperfectu: solía, solías, solía, SOLÍAMOS, solíais, solían. Pravilni nastavak -ía!"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De niño, ___ (yo/soler) pasar los veranos con mis abuelos.",
+      "answer": "solía",
+      "acceptedAnswers": ["solía"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (recuerdo) que aquella época ___ (ser) muy diferente.",
+      "answer": "Recuerdo / era",
+      "acceptedAnswers": ["Recuerdo / era"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Obično smo jeli zajedno svake nedjelje ali sada više ne.",
+      "answer": "Solíamos comer juntos cada domingo pero ya no.",
+      "acceptedAnswers": ["Solíamos comer juntos cada domingo pero ya no.", "Solíamos cenar juntos cada domingo pero ya no."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Sjećam se da je sve bilo jednostavnije kad smo bili mladi.",
+      "answer": "Recuerdo que todo era más sencillo cuando éramos jóvenes.",
+      "acceptedAnswers": ["Recuerdo que todo era más sencillo cuando éramos jóvenes.", "Me acuerdo de que todo era más simple cuando éramos jóvenes."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji rečenicu s tipom prošlog vremena",
+      "pairs": [
+        { "es": "Solía ir al gimnasio.", "bs": "imperfecto — navika" },
+        { "es": "Ayer fui al gimnasio.", "bs": "indefinido — konkretan događaj" },
+        { "es": "Hacía frío.", "bs": "imperfecto — opis" },
+        { "es": "Empezó a nevar.", "bs": "indefinido — događaj" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Recuerdo que solíamos ir al parque cada tarde cuando éramos niños. Un día encontramos un perro perdido y lo llevamos a casa.",
+      "answer": "Recuerdo que solíamos ir al parque cada tarde cuando éramos niños. Un día encontramos un perro perdido y lo llevamos a casa."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Napiši kratku priču (4-5 rečenica) o nekom sjećanju iz prošlosti. Koristi imperfecto za pozadinu, indefinido za događaj i soler za naviku.",
+      "modelAnswer_es": "Recuerdo un verano especial cuando tenía diez años. Solíamos pasar las tardes en la piscina del barrio. Hacía mucho calor y siempre había mucha gente. Un día, mientras nadaba, vi a mi actor favorito. Me acerqué y le pedí un autógrafo. Fue el mejor día de ese verano."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te zamoli da podijeliš neko lijepo sjećanje iz prošlosti — vježbaš soler, imperfecto, indefinido i narativne markerice.",
+    "level": "A2",
+    "allowedGrammar": ["soler + infinitivo (imperfecto)", "imperfecto vs indefinido", "recuerdo que / me acuerdo de"],
+    "systemPromptHint": "Zamoli studenta da ispriča sjećanje: ¿Cuál es tu mejor recuerdo de la infancia? ¿Qué solías hacer? ¿Qué pasó un día en particular? Podrži priču pitanjima i ispravi greške u izboru između imperfecta i indefinida."
+  },
+  "illustration": {
+    "prompt": "A person looking at an old photo album, warm nostalgic colors, memories of childhood and youth, Spanish family atmosphere",
+    "alt": "Sjećanja iz prošlosti — album fotografija",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["soler-imperfecto", "recuerdo-que", "pripovijedanje-proslost", "a2", "u10"]
+  }
+}

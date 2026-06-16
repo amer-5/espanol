@@ -1,0 +1,108 @@
+{
+  "id": "test-a2-u10",
+  "level": "A2",
+  "unit": 10,
+  "title": "Test — Jedinica 10: Pretérito imperfecto",
+  "cumulative": true,
+  "timeLimitMinutes": 18,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TRABAJAR za 'ella' u imperfectu?",
+      "options": ["trabajó", "trabajaría", "trabajaba", "trabaje"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u10-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De niño, ___ (yo/vivir) en un pueblo pequeño.",
+      "answer": "vivía",
+      "acceptedAnswers": ["vivía"],
+      "points": 2,
+      "lessonId": "a2-u10-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik SER za 'nosotros' u imperfectu?",
+      "options": ["fuimos", "somos", "éramos", "seríamos"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u10-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mis abuelos ___ (ir) a la iglesia cada domingo.",
+      "answer": "iban",
+      "acceptedAnswers": ["iban"],
+      "points": 2,
+      "lessonId": "a2-u10-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski oblik ide u prazno? 'Mientras ___ (yo/dormir), sonó el teléfono.'",
+      "options": ["dormí", "dormía", "duermo", "duerma"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u10-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando ___ (ella/llegar), nosotros ___ (comer).",
+      "answer": "llegó / comíamos",
+      "acceptedAnswers": ["llegó / comíamos"],
+      "points": 2,
+      "lessonId": "a2-u10-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Dok sam čitao, odjednom je zazvonio telefon.",
+      "answer": "Mientras leía, de repente sonó el teléfono.",
+      "acceptedAnswers": ["Mientras leía, de repente sonó el teléfono.", "Mientras leía, de repente el teléfono sonó."],
+      "points": 3,
+      "lessonId": "a2-u10-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De niño, ___ (yo/soler) ir al cine los sábados.",
+      "answer": "solía",
+      "acceptedAnswers": ["solía"],
+      "points": 2,
+      "lessonId": "a2-u10-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Obično smo zajedno ručali ali sada više ne.",
+      "answer": "Solíamos comer juntos pero ya no.",
+      "acceptedAnswers": ["Solíamos comer juntos pero ya no.", "Solíamos almorzar juntos pero ya no."],
+      "points": 2,
+      "lessonId": "a2-u10-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Cuando era pequeño, vivía en el campo con mis abuelos. Todos los días íbamos al río y solíamos pescar por las tardes.",
+      "answer": "Cuando era pequeño, vivía en el campo con mis abuelos. Todos los días íbamos al río y solíamos pescar por las tardes.",
+      "points": 3,
+      "lessonId": "a2-u10-l1"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o nekom sjećanju iz djetinjstva ili mladosti. Koristi imperfecto za opise i navike, indefinido za konkretne događaje i barem jednom SOLER + infinitivo.",
+      "minWords": 40,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: ispravno imperfecto za opise/navike (3), ispravno indefinido za događaje (3), SOLER + infinitivo (1), diskursni markerici (1), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u10-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u10-l1", "topic": "Imperfecto pravilnih glagola; kada koristiti; ključne riječi (antes, de niño, siempre, todos los días)" },
+    { "lessonId": "a2-u10-l2", "topic": "Nepravilni: SER (era/éramos), IR (iba/íbamos), VER (veía/veíamos); opisivanje osoba u prošlosti" },
+    { "lessonId": "a2-u10-l3", "topic": "Imperfecto vs indefinido: pozadina vs događaj; mientras + imp., cuando + indef." },
+    { "lessonId": "a2-u10-l4", "topic": "SOLER + infinitivo (solía ir...); pripovijedanje sjećanja; recuerdo que" }
+  ]
+}

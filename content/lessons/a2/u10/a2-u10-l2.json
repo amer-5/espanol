@@ -1,0 +1,173 @@
+{
+  "id": "a2-u10-l2",
+  "level": "A2",
+  "unit": 10,
+  "lessonNumber": 2,
+  "title": "Nepravilni imperfecto: SER, IR, VER",
+  "subtitle": "Era, iba, veía — jedina tri nepravilna glagola",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati SER, IR i VER u imperfectu",
+    "Koristiti imperfecto SER za opise osoba i mjesta iz prošlosti",
+    "Koristiti imperfecto IR za uobičajene odlaske u prošlosti"
+  ],
+  "prerequisites": ["a2-u10-l1"],
+  "vocabulary": [
+    { "es": "era / eran", "bs": "bio je / bili su", "pos": "glag. SER indef.", "ipa": "ˈe.ra", "example_es": "Era una persona muy amable.", "example_bs": "Bio je jako ljubazan čovjek." },
+    { "es": "iba / íbamos", "bs": "išao sam / išli smo", "pos": "glag. IR indef.", "ipa": "ˈi.βa", "example_es": "Íbamos al parque cada domingo.", "example_bs": "Išli smo u park svake nedjelje." },
+    { "es": "veía / veíamos", "bs": "vidio sam / vidjeli smo", "pos": "glag. VER indef.", "ipa": "βe.ˈi.a", "example_es": "Veíamos muchas películas juntos.", "example_bs": "Zajedno smo gledali puno filmova." },
+    { "es": "alto/a — bajo/a", "bs": "visok/a — nizak/niska", "pos": "prid.", "ipa": "ˈal.to / ˈba.xo", "example_es": "De niño era muy alto.", "example_bs": "Kao dijete bio sam jako visok." },
+    { "es": "delgado/a — gordo/a", "bs": "mršav/a — debeo/debela", "pos": "prid.", "ipa": "del.ˈɡa.ðo", "example_es": "Era más delgada de joven.", "example_bs": "Bila je mršavija kad je bila mlada." },
+    { "es": "tímido/a — extrovertido/a", "bs": "stidljiv/a — ekstrovertan/a", "pos": "prid.", "ipa": "ˈti.mi.ðo", "example_es": "Era muy tímido de niño.", "example_bs": "Bio je jako stidljiv kao dijete." },
+    { "es": "el aspecto físico", "bs": "fizički izgled", "pos": "izr.", "ipa": "el as.ˈpek.to ˈfi.si.ko", "example_es": "Su aspecto físico ha cambiado mucho.", "example_bs": "Njegov fizički izgled se jako promijenio." },
+    { "es": "la personalidad", "bs": "osobnost / karakter", "pos": "im. ž.", "ipa": "la per.so.na.li.ˈðað", "example_es": "Tenía una personalidad muy fuerte.", "example_bs": "Imala je jako jaku osobnost." },
+    { "es": "parecerse a", "bs": "ličiti na", "pos": "refl. glag.", "ipa": "pa.re.ˈθer.se", "example_es": "Me parecía a mi padre.", "example_bs": "Ličio sam na oca." },
+    { "es": "cambiar / ha cambiado", "bs": "promijeniti se / promijenio se", "pos": "glag.", "ipa": "kam.ˈbjar", "example_es": "Todo ha cambiado mucho.", "example_bs": "Sve se jako promijenilo." }
+  ],
+  "grammar": [
+    {
+      "concept": "SER, IR, VER — jedina nepravilna u imperfectu",
+      "explanation_bs": "Imperfecto ima samo 3 nepravilna glagola. **SER**: era, eras, era, éramos, erais, eran. **IR**: iba, ibas, iba, íbamos, ibais, iban. **VER**: veía, veías, veía, veíamos, veíais, veían. Pazi: era (SER-indef.) vs fue (SER-indef.) — era znači 'bio je trajno/opis', fue znači 'bio je/desio se jednokratno'.",
+      "table": {
+        "headers": ["Zamjenica", "SER", "IR", "VER"],
+        "rows": [
+          ["yo", "era", "iba", "veía"],
+          ["tú", "eras", "ibas", "veías"],
+          ["él/ella", "era", "iba", "veía"],
+          ["nosotros", "éramos", "íbamos", "veíamos"],
+          ["vosotros", "erais", "ibais", "veíais"],
+          ["ellos", "eran", "iban", "veían"]
+        ]
+      },
+      "examples": [
+        { "es": "Antes era muy tímida pero ahora soy más abierta.", "bs": "Nekad sam bila jako stidljiva ali sada sam otvorenija." },
+        { "es": "De niño iba al colegio andando cada mañana.", "bs": "Kao dijete pješke sam išao u školu svako jutro." },
+        { "es": "Veíamos las noticias juntos cada noche.", "bs": "Zajedno smo gledali vijesti svake noći." }
+      ],
+      "tips": "ERA (SER) ≠ FUE: 'Mi abuelo era alto' (opis — imperfecto). 'Mi abuelo fue un héroe' (jednokratna procjena — indefinido). IBA (IR) se koristi za navike odlaska: 'Iba al gimnasio tres veces por semana'."
+    },
+    {
+      "concept": "Opisivanje osoba i mjesta u prošlosti",
+      "explanation_bs": "Za opise prošlosti (izgled, karakter, ambijent) uvijek koristimo imperfecto: 'Era alto y delgado. Tenía el pelo moreno. Era muy simpático.' Svi opisi = imperfecto jer opisuju stanje, ne događaj. Kombiniraj era/tenía/llevaba za potpun opis.",
+      "examples": [
+        { "es": "Era alto, tenía los ojos azules y llevaba siempre una gorra.", "bs": "Bio je visok, imao je plave oči i uvijek je nosio kapu." },
+        { "es": "La casa era antigua, tenía un jardín grande y estaba en el campo.", "bs": "Kuća je bila stara, imala je veliki vrt i bila je na selu." },
+        { "es": "Era una ciudad tranquila donde todo el mundo se conocía.", "bs": "Bio je to miran grad u kome su se svi poznavali." }
+      ],
+      "tips": "Za opis osoba: era (SER za karakter/fizičko), tenía (TENER za osobine), llevaba (LLEVAR za odjeću/stil). Svi u imperfectu!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo era tu mejor amigo de la infancia? — Kakav je bio tvoj najbolji prijatelj iz djetinjstva?",
+    "lines": [
+      { "speaker": "Sofía", "es": "¿Tenías un mejor amigo cuando eras niño?", "bs": "Jesi li imao najboljeg prijatelja kad si bio dijete?" },
+      { "speaker": "Carlos", "es": "Sí, se llamaba Marcos. Era mi vecino.", "bs": "Da, zvao se Marcos. Bio mi je susjed." },
+      { "speaker": "Sofía", "es": "¿Cómo era?", "bs": "Kakav je bio?" },
+      { "speaker": "Carlos", "es": "Era muy divertido — siempre tenía ideas locas. Era moreno, con el pelo rizado.", "bs": "Bio je jako zabavan — uvijek je imao luckaste ideje. Bio je tamnoputan, s kovrčavom kosom." },
+      { "speaker": "Sofía", "es": "¿Qué hacíais juntos?", "bs": "Šta ste radili zajedno?" },
+      { "speaker": "Carlos", "es": "Íbamos al parque cada tarde. A veces veíamos películas en su casa.", "bs": "Išli smo u park svako popodne. Ponekad smo gledali filmove kod njega." },
+      { "speaker": "Sofía", "es": "¿Y qué pasó? ¿Siguen en contacto?", "bs": "I šta je bilo? Jeste li još u kontaktu?" },
+      { "speaker": "Carlos", "es": "Su familia se mudó cuando teníamos doce años. Le vi una vez hace tres años.", "bs": "Njegova se porodica preselila kad smo imali dvanaest godina. Vidio sam ga jednom prije tri godine." }
+    ]
+  },
+  "reading": {
+    "title": "Mi abuela — Moja baka",
+    "text_es": "Mi abuela se llamaba Carmen. Era una mujer muy especial. Era baja, delgada y tenía el pelo blanco. Siempre llevaba un delantal de flores porque le encantaba cocinar. Era muy trabajadora y nunca estaba sin hacer algo. Iba al mercado cada mañana a las siete para comprar los ingredientes más frescos. Veía la televisión solo por las noches, después de cenar. Era muy cariñosa — siempre nos abrazaba cuando llegábamos a su casa. Cocinaba para todos, cantaba mientras trabajaba y era la persona más alegre de la familia. Murió hace cinco años pero la recuerdo cada día.",
+    "glossary": [
+      { "es": "el delantal", "bs": "pregača / kecelja" },
+      { "es": "de flores", "bs": "s cvijetovima / cvjetast" },
+      { "es": "trabajadora", "bs": "vrijedna / radišna" },
+      { "es": "cariñosa", "bs": "nježna / emotivna" },
+      { "es": "nos abrazaba", "bs": "grlila nas je" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kako je izgledala baka fizički?",
+        "options": ["Visoka i debela", "Niska i mršava s bijelom kosom", "Visoka s tamnom kosom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je baka radila svako jutro?",
+        "options": ["Gledala televiziju", "Išla na tržnicu", "Šetala u parku"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakva je bila njena osobnost?",
+        "options": ["Ozbiljna i tiha", "Nježna, vesela i radišna", "Stidljiva i mirna"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik SER za 'nosotros' u imperfectu?",
+      "options": ["fuimos", "somos", "éramos", "seríamos"],
+      "answerIndex": 2,
+      "explanation_bs": "SER u imperfectu: era, eras, era, ÉRAMOS, erais, eran. Nosotros: éramos."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De niño, ___ (yo/ir) al colegio en bicicleta.",
+      "answer": "iba",
+      "acceptedAnswers": ["iba"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mis abuelos ___ (ver) las noticias cada noche.",
+      "answer": "veían",
+      "acceptedAnswers": ["veían"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Bio je visok, imao je crnu kosu i uvijek je bio nasmijan.",
+      "answer": "Era alto, tenía el pelo negro y siempre estaba sonriendo.",
+      "acceptedAnswers": ["Era alto, tenía el pelo negro y siempre estaba sonriendo.", "Era alto, tenía el pelo negro y siempre sonreía."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nekad smo išli na plažu svako ljeto.",
+      "answer": "Antes íbamos a la playa cada verano.",
+      "acceptedAnswers": ["Antes íbamos a la playa cada verano.", "Antes íbamos a la playa todos los veranos."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol s oblikom za 'yo' u imperfectu",
+      "pairs": [
+        { "es": "ser", "bs": "era" },
+        { "es": "ir", "bs": "iba" },
+        { "es": "ver", "bs": "veía" },
+        { "es": "hablar", "bs": "hablaba" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Cuando era joven, era muy tímida y no iba a muchas fiestas.",
+      "answer": "Cuando era joven, era muy tímida y no iba a muchas fiestas."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši nekoga iz tvoje prošlosti (prijatelja, nastavnika, baku) — kakav je bio, šta je radio. Koristi ERA, IBA, TENÍA, VEÍA.",
+      "modelAnswer_es": "Mi mejor amigo se llamaba David. Era moreno y muy alto. Era muy gracioso y siempre hacía reír a todos. Íbamos juntos al colegio y después jugábamos en el parque. Veíamos los partidos de fútbol juntos los fines de semana."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita da opišeš nekoga iz prošlosti — vježbaš ERA, IBA, VEÍA i kombinaciju s pravilnim imperfectom.",
+    "level": "A2",
+    "allowedGrammar": ["imperfecto: ser/ir/ver nepravilni", "imperfecto pravilni", "opisivanje osoba u prošlosti"],
+    "systemPromptHint": "Zamoli studenta da opiše nekoga iz prošlosti (prijatelj, nastavnik, susjed): ¿Cómo era? ¿Qué hacía? ¿Adónde iba? ¿Qué veía? Ispravi greške u oblicima imperfecta posebno era/iba/veía."
+  },
+  "illustration": {
+    "prompt": "An old photograph of a person or family, nostalgic warm sepia tones, memories of the past, Spanish setting",
+    "alt": "Stara fotografija — opisi iz prošlosti",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["era-iba-veia", "imperfecto-irregular", "opisivanje-proslosti", "a2", "u10"]
+  }
+}

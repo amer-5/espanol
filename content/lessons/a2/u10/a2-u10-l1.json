@@ -1,0 +1,173 @@
+{
+  "id": "a2-u10-l1",
+  "level": "A2",
+  "unit": 10,
+  "lessonNumber": 1,
+  "title": "Pretérito imperfecto — tvorba",
+  "subtitle": "Hablaba, comía, vivía — trajno ili habituelno prošlo",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Tvoriti imperfecto pravilnih -AR, -ER i -IR glagola",
+    "Razumjeti razliku između imperfecta i indefinida",
+    "Koristiti imperfecto za opise i uobičajene radnje u prošlosti"
+  ],
+  "prerequisites": ["a2-u9-l4"],
+  "vocabulary": [
+    { "es": "cuando era niño/a", "bs": "kad sam bio/bila dijete", "pos": "izr.", "ipa": "ˈkwan.do ˈe.ra ˈni.ɲo", "example_es": "Cuando era niño, vivía en el campo.", "example_bs": "Kad sam bio dijete, živio sam na selu." },
+    { "es": "de niño / de pequeño", "bs": "kao dijete / kao mali", "pos": "izr.", "ipa": "de ˈni.ɲo", "example_es": "De niño me gustaba mucho el fútbol.", "example_bs": "Kao dijete jako sam volio fudbal." },
+    { "es": "antes", "bs": "ranije / nekad", "pos": "pril.", "ipa": "ˈan.tes", "example_es": "Antes vivía en otra ciudad.", "example_bs": "Nekad sam živio u drugom gradu." },
+    { "es": "siempre (en el pasado)", "bs": "uvijek (u prošlosti)", "pos": "pril.", "ipa": "ˈsjem.pre", "example_es": "Siempre llegaba tarde al colegio.", "example_bs": "Uvijek sam kasnio u školu." },
+    { "es": "todos los días / cada día", "bs": "svaki dan", "pos": "izr.", "ipa": "ˈto.ðos los ˈdi.as", "example_es": "Cada día comía con mis abuelos.", "example_bs": "Svaki dan sam jeo sa djedovima." },
+    { "es": "normalmente / generalmente", "bs": "obično / uglavnom", "pos": "pril.", "ipa": "nor.mal.ˈmen.te", "example_es": "Normalmente me acostaba a las diez.", "example_bs": "Obično sam išao spavati u deset." },
+    { "es": "en aquella época", "bs": "u to doba / tada", "pos": "izr.", "ipa": "en a.ˈke.la ˈe.po.ka", "example_es": "En aquella época todo era diferente.", "example_bs": "U to doba sve je bilo drugačije." },
+    { "es": "el campo / el pueblo", "bs": "selo / seoce", "pos": "im. m.", "ipa": "el ˈkam.po", "example_es": "De niño vivía en un pueblo pequeño.", "example_bs": "Kao dijete živio sam u malom selu." },
+    { "es": "el colegio", "bs": "osnovna škola", "pos": "im. m.", "ipa": "el ko.ˈle.xjo", "example_es": "Iba al colegio a las ocho.", "example_bs": "Išao sam u školu u osam." },
+    { "es": "los veranos", "bs": "ljeta (svako ljeto)", "pos": "im. m. pl.", "ipa": "los βe.ˈra.nos", "example_es": "Los veranos los pasaba con mis abuelos.", "example_bs": "Ljeta sam provodio kod djedova." }
+  ],
+  "grammar": [
+    {
+      "concept": "Tvorba imperfecta pravilnih glagola",
+      "explanation_bs": "Pretérito imperfecto se tvori dodavanjem nastavaka na stablo glagola. **-AR glagoli**: -aba, -abas, -aba, -ábamos, -abais, -aban. **-ER i -IR glagoli**: -ía, -ías, -ía, -íamos, -íais, -ían. Pazi: nastavci -ER/-IR imaju naglasak na 'i' (comía, vivía). Imperfecto ima samo **3 nepravilna glagola**: SER (era), IR (iba), VER (veía) — sve ostalo je pravilno!",
+      "table": {
+        "headers": ["Zamjenica", "HABLAR (-AR)", "COMER (-ER)", "VIVIR (-IR)"],
+        "rows": [
+          ["yo", "hablaba", "comía", "vivía"],
+          ["tú", "hablabas", "comías", "vivías"],
+          ["él/ella", "hablaba", "comía", "vivía"],
+          ["nosotros", "hablábamos", "comíamos", "vivíamos"],
+          ["vosotros", "hablabais", "comíais", "vivíais"],
+          ["ellos", "hablaban", "comían", "vivían"]
+        ]
+      },
+      "examples": [
+        { "es": "Cuando era joven, hablaba mucho por teléfono.", "bs": "Kad sam bio mlad, puno sam pričao telefonom." },
+        { "es": "De niño comía en casa todos los días.", "bs": "Kao dijete, svaki dan sam jeo kod kuće." },
+        { "es": "Antes vivíamos en un apartamento pequeño.", "bs": "Nekad smo živjeli u malom stanu." }
+      ],
+      "tips": "Yo i él/ella imaju ISTI oblik u imperfectu (hablaba, comía) — kontekst razlikuje. Nosotros ima naglasak: hablÁbamos, comÍamos."
+    },
+    {
+      "concept": "Kada koristimo imperfecto",
+      "explanation_bs": "Imperfecto se koristi za: 1) **Habituelne radnje u prošlosti** — 'De niño jugaba al fútbol cada día.' (svaki dan, navika). 2) **Opise u prošlosti** (kako je nešto izgledalo, osjećalo se): 'Hacía mucho calor y la gente estaba cansada.' 3) **Trajno stanje ili okolnost** u prošlosti: 'Tenía doce años y vivía con mis padres.' Ključne riječi → imperfecto: siempre, todos los días, cada día, antes, normalmente, de niño/pequeño, en aquella época.",
+      "examples": [
+        { "es": "Antes fumaba, pero ahora no. (navika → imperfecto)", "bs": "Nekad sam pušio, ali sada ne. (navika u prošlosti)" },
+        { "es": "El pueblo era pequeño y tranquilo. (opis → imperfecto)", "bs": "Selo je bilo malo i mirno. (opis prošlosti)" },
+        { "es": "Tenía cinco años cuando empecé el colegio.", "bs": "Imao sam pet godina kad sam počeo školu." }
+      ],
+      "tips": "Imperfecto = 'filmska scena' (opis, pozadina, navika). Indefinido = 'fotografija' (događaj koji se desio). Zajedno: 'Llovía (imp.) cuando salí (indef.)' — Kišilo je kad sam izišao."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo era tu infancia? — Kakvo je bilo tvoje djetinjstvo?",
+    "lines": [
+      { "speaker": "Rosa", "es": "¿Dónde creciste? ¿En la ciudad o en el campo?", "bs": "Gdje si odrastao? U gradu ili na selu?" },
+      { "speaker": "Miguel", "es": "En un pueblo pequeño. Había un río y muchos árboles.", "bs": "U malom selu. Bila je rijeka i puno drveća." },
+      { "speaker": "Rosa", "es": "¿Y cómo era la vida allí?", "bs": "I kakav je bio život tamo?" },
+      { "speaker": "Miguel", "es": "Era muy tranquila. Todos los días jugábamos fuera hasta la noche.", "bs": "Bio je jako miran. Svaki dan smo se igrali vani do noći." },
+      { "speaker": "Rosa", "es": "¿Qué hacías en verano?", "bs": "Šta si radio ljeti?" },
+      { "speaker": "Miguel", "es": "Los veranos los pasaba con mis abuelos. Íbamos al río, comíamos juntos, hablábamos mucho.", "bs": "Ljeta sam provodio kod djedova. Išli smo na rijeku, jeli zajedno, puno pričali." },
+      { "speaker": "Rosa", "es": "¡Qué bonito! Yo de niña vivía en la ciudad. Era diferente.", "bs": "Kako lijepo! Ja sam kao dijete živjela u gradu. Bilo je drugačije." },
+      { "speaker": "Miguel", "es": "¿Te gustaba la ciudad?", "bs": "Je li ti se sviđao grad?" }
+    ]
+  },
+  "reading": {
+    "title": "Mi barrio de antes — Moja stara četvrt",
+    "text_es": "Cuando tenía diez años, vivía en un barrio pequeño a las afueras de la ciudad. El barrio era tranquilo y todo el mundo se conocía. Había una panadería donde siempre comprábamos el pan por la mañana. Los niños del barrio jugábamos juntos en la calle hasta que nuestros padres nos llamaban para cenar. Mi abuela vivía en el mismo barrio y la visitaba cada día después del colegio. Me preparaba la merienda y me contaba historias. En aquella época no había internet ni móviles, así que pasábamos más tiempo juntos. Ahora el barrio es muy diferente — hay mucho tráfico y la gente no se conoce.",
+    "glossary": [
+      { "es": "a las afueras", "bs": "na periferiji / na rubu grada" },
+      { "es": "todo el mundo", "bs": "svi / svako" },
+      { "es": "la panadería", "bs": "pekara" },
+      { "es": "la merienda", "bs": "popodnevni obrok / užina" },
+      { "es": "me contaba historias", "bs": "pričala mi je priče" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko je imao godina kad je živio u tom kvartu?",
+        "options": ["Pet", "Deset", "Petnaest"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta je baka radila svaki dan za njega?",
+        "options": ["Učila ga matematiku", "Pripremala mu užinu i pričala priče", "Vodila ga u školu"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Čega nije bilo u to doba?",
+        "options": ["Pekarnice", "Interneta i mobitela", "Djece na ulici"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TRABAJAR za 'yo' u imperfectu?",
+      "options": ["trabajé", "trabajaré", "trabajaba", "trabaje"],
+      "answerIndex": 2,
+      "explanation_bs": "Imperfecto -AR glagoli: -aba, -abas, -aba... Yo: trabajaba."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik COMER za 'ellos' u imperfectu?",
+      "options": ["comieron", "comían", "comerán", "coman"],
+      "answerIndex": 1,
+      "explanation_bs": "Imperfecto -ER/-IR: -ía, -ías, -ía, -íamos, -íais, -ían. Ellos: comían."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De niño, ___ (yo/vivir) en un pueblo pequeño.",
+      "answer": "vivía",
+      "acceptedAnswers": ["vivía"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Antes ___ (nosotros/hablar) mucho más.",
+      "answer": "hablábamos",
+      "acceptedAnswers": ["hablábamos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Kad sam bio mali, svaki dan sam se igrao vani.",
+      "answer": "Cuando era pequeño, jugaba fuera todos los días.",
+      "acceptedAnswers": ["Cuando era pequeño, jugaba fuera todos los días.", "Cuando era niño, jugaba fuera cada día.", "De pequeño, jugaba fuera todos los días."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji markeric s tipom prošlosti",
+      "pairs": [
+        { "es": "todos los días", "bs": "imperfecto" },
+        { "es": "ayer", "bs": "indefinido" },
+        { "es": "de niño", "bs": "imperfecto" },
+        { "es": "la semana pasada", "bs": "indefinido" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Cuando era joven, vivía en Madrid y trabajaba en una empresa pequeña.",
+      "answer": "Cuando era joven, vivía en Madrid y trabajaba en una empresa pequeña."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3-4 rečenice o tome kako je izgledao tvoj tipičan dan kad si bio dijete — koristi imperfecto.",
+      "modelAnswer_es": "Cuando era niño, me levantaba a las siete, desayunaba con mi familia y iba al colegio. Por la tarde jugaba con mis amigos en la calle. Siempre cenábamos juntos y luego veía la televisión un poco."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim sjećanjima iz djetinjstva — vježbaš imperfecto za habituelne radnje i opise.",
+    "level": "A2",
+    "allowedGrammar": ["imperfecto pravilni", "cuando era niño/antes", "imperfecto vs indefinido intro"],
+    "systemPromptHint": "Pitaj studenta o djetinjstvu: ¿Dónde vivías de niño? ¿Qué hacías los fines de semana? ¿Cómo era tu colegio? ¿Tenías muchos amigos? Ispravi greške u nastavcima imperfecta."
+  },
+  "illustration": {
+    "prompt": "A child playing outside in a small village, nostalgic warm light, Spanish countryside, memories of childhood",
+    "alt": "Dijete koje se igra u malom španskom selu — sjećanja",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["imperfecto-regular", "hablaba-comia-vivia", "de-nino-antes", "a2", "u10"]
+  }
+}

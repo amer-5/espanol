@@ -1,0 +1,172 @@
+{
+  "id": "a2-u10-l3",
+  "level": "A2",
+  "unit": 10,
+  "lessonNumber": 3,
+  "title": "Imperfecto vs Indefinido — kontrast",
+  "subtitle": "Mientras dormía, sonó el teléfono...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Razumjeti kada koristiti imperfecto a kada indefinido",
+    "Kombinovati imperfecto (pozadina) i indefinido (događaj) u istoj rečenici",
+    "Koristiti cuando + imperfecto za kontekst radnje u indefinidu"
+  ],
+  "prerequisites": ["a2-u10-l1", "a2-u10-l2"],
+  "vocabulary": [
+    { "es": "mientras", "bs": "dok / za vrijeme", "pos": "vez.", "ipa": "ˈmjen.tras", "example_es": "Mientras dormía, sonó el teléfono.", "example_bs": "Dok sam spavao, zazvonio je telefon." },
+    { "es": "cuando de repente", "bs": "kad odjednom", "pos": "izr.", "ipa": "ˈkwan.do de re.ˈpen.te", "example_es": "Caminaba cuando de repente vi un accidente.", "example_bs": "Hodao sam kad odjednom sam vidio nesreću." },
+    { "es": "de pronto / de repente", "bs": "odjednom / iznenada", "pos": "pril.", "ipa": "de ˈpron.to", "example_es": "De pronto empezó a llover.", "example_bs": "Odjednom je počelo kišiti." },
+    { "es": "en ese momento", "bs": "u tom trenutku", "pos": "izr.", "ipa": "en ˈe.se mo.ˈmen.to", "example_es": "En ese momento llegó ella.", "example_bs": "U tom trenutku je ona stigla." },
+    { "es": "interrumpir", "bs": "prekinuti / prekinuti radnju", "pos": "glag.", "ipa": "in.te.rum.ˈpir", "example_es": "El ruido me interrumpió.", "example_bs": "Buka me prekinula." },
+    { "es": "el ruido", "bs": "buka / zvuk", "pos": "im. m.", "ipa": "el ˈrwi.ðo", "example_es": "Oí un ruido extraño.", "example_bs": "Čuo sam čudan zvuk." },
+    { "es": "asustarse", "bs": "uplašiti se", "pos": "refl. glag.", "ipa": "a.sus.ˈtar.se", "example_es": "Me asusté cuando oí el ruido.", "example_bs": "Uplašio sam se kad sam čuo buku." },
+    { "es": "estar a punto de", "bs": "biti na rubu / upravo namjeravati", "pos": "izr.", "ipa": "es.ˈtar a ˈpun.to ðe", "example_es": "Estaba a punto de salir cuando llamó.", "example_bs": "Upravo sam namjeravao izaći kad je zvao." },
+    { "es": "ocurrir / pasar", "bs": "desiti se / dogoditi se", "pos": "glag.", "ipa": "o.ku.ˈrir", "example_es": "¿Qué ocurrió?", "example_bs": "Šta se desilo?" },
+    { "es": "inesperadamente", "bs": "neočekivano / iznenada", "pos": "pril.", "ipa": "i.nes.pe.ra.ða.ˈmen.te", "example_es": "Llegó inesperadamente.", "example_bs": "Stigao je neočekivano." }
+  ],
+  "grammar": [
+    {
+      "concept": "Imperfecto = pozadina, Indefinido = događaj",
+      "explanation_bs": "Ključno pravilo: **Imperfecto** opisuje trajnu pozadinu (šta se ODVIJALO) dok **Indefinido** opisuje konkretan, završen događaj koji je PREKINUO ili se desio. Slika: Imperfecto = film koji teče, Indefinido = nešto što se iznenada pojavi na ekranu. Najčešći obrazac: 'Hacía X (imp.) cuando/mientras Y (indef.)' ili 'Mientras hacía X (imp.), Y ocurrió (indef.)'.",
+      "table": {
+        "headers": ["Imperfecto (pozadina)", "Indefinido (događaj)", "Bosanski"],
+        "rows": [
+          ["Dormía...", "...sonó el teléfono.", "Spavao sam... zazvonio je telefon."],
+          ["Caminaba por la calle...", "...vi a mi ex.", "Hodao sam... vidio sam bivšu."],
+          ["Hacía sol...", "...empezó a llover.", "Bilo je sunčano... počela je kiša."],
+          ["Estaba a punto de salir...", "...llegó mi jefe.", "Upravo sam htio izaći... stigao je šef."]
+        ]
+      },
+      "examples": [
+        { "es": "Mientras comía, escuché un ruido extraño.", "bs": "Dok sam jeo, čuo sam čudan zvuk." },
+        { "es": "Cuando llegué, todos dormían.", "bs": "Kad sam stigao, svi su spavali." },
+        { "es": "Llovía mucho cuando salí de casa.", "bs": "Jako je kišilo kad sam izišao iz kuće." }
+      ],
+      "tips": "Pitaj se: 'Trajalo je (pozadina)?' → imperfecto. 'Desilo se u jednom trenutku (događaj)?' → indefinido. MIENTRAS + imperfecto, CUANDO + indefinido (ili obrnuto)."
+    },
+    {
+      "concept": "CUANDO + imperfecto vs CUANDO + indefinido",
+      "explanation_bs": "'Cuando era niño...' + nastavak u imperfectu = opis navike/stanja u prošlosti: 'Cuando era niño, iba al parque.' (Navika). 'Cuando llegué...' + radnja koja je bila u toku = 'Cuando llegué, ella dormía.' (Stigao sam i zatekao je da spava). Ovo je najčešća kombinacija u pričanju priča!",
+      "examples": [
+        { "es": "Cuando era pequeño, vivía en Madrid. (navika)", "bs": "Kad sam bio mali, živio sam u Madridu. (navika)" },
+        { "es": "Cuando sonó el teléfono, estaba en la ducha. (zateklo ga)", "bs": "Kad je zazvonio telefon, bio je u tušu. (zateklo ga)" },
+        { "es": "Cuando la vi, hablaba con otra persona. (zatekao je u toku)", "bs": "Kad sam je vidio, pričala je s nekim drugim. (u toku)" }
+      ],
+      "tips": "Korisna provjera: 'Cuando + indef. → imp. u drugom dijelu' (zatekao, prekinuo). 'Cuando + imp. → imp. u drugom dijelu' (navika, opis)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué pasó anoche? — Šta se desilo sinoć?",
+    "lines": [
+      { "speaker": "Javier", "es": "¿Viste las noticias? Hubo un accidente en el centro.", "bs": "Jesi li vidio vijesti? Bila je nesreća u centru." },
+      { "speaker": "Elena", "es": "Sí. ¿Sabes qué ocurrió?", "bs": "Da. Znaš li šta se desilo?" },
+      { "speaker": "Javier", "es": "Un coche chocó con otro. Llovía mucho y el conductor no vio bien.", "bs": "Jedan auto je udario u drugi. Jako je kišilo i vozač nije dobro vidio." },
+      { "speaker": "Elena", "es": "¿Había mucha gente cuando pasó?", "bs": "Je li bilo puno ljudi kad se desilo?" },
+      { "speaker": "Javier", "es": "Sí, eran las seis de la tarde. Muchas personas volvían del trabajo.", "bs": "Da, bilo je šest popodne. Puno je ljudi se vraćalo s posla." },
+      { "speaker": "Elena", "es": "Qué susto. ¿Estabas cerca cuando ocurrió?", "bs": "Kakav strah. Jesi li bio blizu kad se desilo?" },
+      { "speaker": "Javier", "es": "Sí, estaba en la cafetería de enfrente. Oí el ruido y salí corriendo.", "bs": "Da, bio sam u kafiću nasuprot. Čuo sam buku i istrčao sam." },
+      { "speaker": "Elena", "es": "¿Te asustaste?", "bs": "Jesi li se uplašio?" }
+    ]
+  },
+  "reading": {
+    "title": "Una noche de tormenta — Olujne noći",
+    "text_es": "Era una noche de noviembre. Llovía mucho y hacía mucho viento. Yo estaba en casa, leía un libro y escuchaba música. De repente, se fue la luz. Me quedé en la oscuridad total. Busqué una linterna pero no la encontré. Mientras buscaba, oí un ruido extraño en la ventana. Me acerqué despacio y miré. Era solo una rama del árbol que golpeaba el cristal. Me reí de mí mismo. Cinco minutos después, volvió la luz. Continué leyendo pero ya no pude concentrarme — pensaba en el ruido todo el tiempo.",
+    "glossary": [
+      { "es": "la tormenta", "bs": "oluja" },
+      { "es": "la oscuridad", "bs": "tama / mrak" },
+      { "es": "la linterna", "bs": "baterijska lampa" },
+      { "es": "la rama", "bs": "grana" },
+      { "es": "golpeaba el cristal", "bs": "udarala je u staklo" },
+      { "es": "me reí de mí mismo", "bs": "nasmijao sam se sam sebi" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je osoba radila kad je nestalo struje?",
+        "options": ["Spavala je", "Čitala je knjigu i slušala muziku", "Kuhala je večeru"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta je stvaralo čudnu buku?",
+        "options": ["Neko na prozoru", "Grana drveta", "Životinja u kući"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Je li se mogao koncentrirati nakon toga?",
+        "options": ["Da, odmah", "Ne, mislio je na buku", "Da, čitao je dalje mirno"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik glagola u ovoj rečenici: 'Mientras ___ (yo/comer), sonó el teléfono.'?",
+      "options": ["comí", "comía", "comeré", "como"],
+      "answerIndex": 1,
+      "explanation_bs": "Mentre = pozadinska radnja koja je trajala = imperfecto: comía. Sonó = događaj koji se desio = indefinido."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando ___ (yo/llegar), ella ___ (dormir).",
+      "answer": "llegué / dormía",
+      "acceptedAnswers": ["llegué / dormía"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (llover) mucho cuando ___ (nosotros/salir) del teatro.",
+      "answer": "Llovía / salimos",
+      "acceptedAnswers": ["Llovía / salimos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Dok sam čitao, odjednom je nestalo struje.",
+      "answer": "Mientras leía, de repente se fue la luz.",
+      "acceptedAnswers": ["Mientras leía, de repente se fue la luz.", "Mientras leía, de repente la luz se fue."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Kad sam stigao na stanicu, voz je već otišao.",
+      "answer": "Cuando llegué a la estación, el tren ya se había ido.",
+      "acceptedAnswers": ["Cuando llegué a la estación, el tren ya se había ido.", "Cuando llegué a la estación, el tren ya fue.", "Cuando llegué, el tren ya había salido."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Razvrstaj u imperfecto (pozadina) ili indefinido (događaj)",
+      "pairs": [
+        { "es": "Llovía mucho", "bs": "imperfecto (pozadina)" },
+        { "es": "Sonó el teléfono", "bs": "indefinido (događaj)" },
+        { "es": "Dormía tranquilamente", "bs": "imperfecto (pozadina)" },
+        { "es": "Llegó de repente", "bs": "indefinido (događaj)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Estaba a punto de salir cuando de repente empezó a llover y tuve que volver a casa.",
+      "answer": "Estaba a punto de salir cuando de repente empezó a llover y tuve que volver a casa."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj kratku priču koristeći i imperfecto i indefinido — šta se desilo (indefinido) dok si nešto radio (imperfecto)?",
+      "modelAnswer_es": "Ayer mientras caminaba por el parque, vi a una amiga que no veía desde hacía años. Hablábamos y tomábamos un café cuando de repente empezó a llover. Corrimos hacia un bar cercano y estuvimos allí dos horas más."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita da ispričaš priču u kojoj se nešto iznenada desilo — vježbaš kontrast imperfecto/indefinido.",
+    "level": "A2",
+    "allowedGrammar": ["imperfecto vs indefinido", "mientras + imperfecto", "cuando + indefinido"],
+    "systemPromptHint": "Zamoli studenta da ispriča priču koristeći i imperfecto i indefinido: ¿Qué hacías cuando pasó eso? ¿Qué ocurrió de repente? Podrži pitanjima i ispravi greške u izboru između imperfecta i indefinida."
+  },
+  "illustration": {
+    "prompt": "A rainy night in a Spanish city, a person walking and then stopping surprised, contrast between continuous background and sudden event",
+    "alt": "Kišna noć — iznenadan događaj prekida radnju",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["imperfecto-vs-indefinido", "mientras-cuando", "pozadina-dogadaj", "a2", "u10"]
+  }
+}

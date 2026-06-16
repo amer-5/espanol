@@ -1,0 +1,256 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Početni nivo (A1)",
+      "units": [
+        {
+          "id": 1,
+          "title": "U1 — Prvi kontakt",
+          "description": "Alfabet, izgovor, pozdravi, predstavljanje, glagol ser, lične zamjenice, brojevi 0–20",
+          "level": "A1",
+          "testId": "test-a1-u1",
+          "lessons": [
+            { "id": "a1-u1-l1", "title": "Pozdravi i predstavljanje", "lessonNumber": 1, "prerequisites": [], "estimatedMinutes": 20 },
+            { "id": "a1-u1-l2", "title": "Alfabet i izgovor", "lessonNumber": 2, "prerequisites": ["a1-u1-l1"], "estimatedMinutes": 25 },
+            { "id": "a1-u1-l3", "title": "Glagol SER — lične zamjenice", "lessonNumber": 3, "prerequisites": ["a1-u1-l2"], "estimatedMinutes": 20 },
+            { "id": "a1-u1-l4", "title": "Brojevi 0–20", "lessonNumber": 4, "prerequisites": ["a1-u1-l3"], "estimatedMinutes": 15 }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "U2 — Ja i drugi",
+          "description": "Nacionalnosti, zanimanja, rod i broj imenica, određeni/neodređeni član, glagol tener, de",
+          "level": "A1",
+          "testId": "test-a1-u2",
+          "lessons": [
+            { "id": "a1-u2-l1", "title": "Nacionalnosti i zanimanja", "lessonNumber": 1, "prerequisites": ["a1-u1-l4"], "estimatedMinutes": 20 },
+            { "id": "a1-u2-l2", "title": "Rod i broj imenica", "lessonNumber": 2, "prerequisites": ["a1-u2-l1"], "estimatedMinutes": 20 },
+            { "id": "a1-u2-l3", "title": "Određeni i neodređeni član", "lessonNumber": 3, "prerequisites": ["a1-u2-l2"], "estimatedMinutes": 20 },
+            { "id": "a1-u2-l4", "title": "Glagol TENER i prijedlog DE", "lessonNumber": 4, "prerequisites": ["a1-u2-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "U3 — Svakodnevni glagoli",
+          "description": "Prezent pravilnih glagola (-ar/-er/-ir), dani u sedmici, sati, brojevi do 100",
+          "level": "A1",
+          "testId": "test-a1-u3",
+          "lessons": [
+            { "id": "a1-u3-l1", "title": "Prezent glagola na -ar", "lessonNumber": 1, "prerequisites": ["a1-u2-l4"], "estimatedMinutes": 25 },
+            { "id": "a1-u3-l2", "title": "Prezent glagola na -er i -ir", "lessonNumber": 2, "prerequisites": ["a1-u3-l1"], "estimatedMinutes": 25 },
+            { "id": "a1-u3-l3", "title": "Dani u sedmici i sati", "lessonNumber": 3, "prerequisites": ["a1-u3-l2"], "estimatedMinutes": 20 },
+            { "id": "a1-u3-l4", "title": "Brojevi 21–100", "lessonNumber": 4, "prerequisites": ["a1-u3-l3"], "estimatedMinutes": 15 }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "U4 — Porodica i opisi",
+          "description": "Posvojni pridjevi, pridjevi, boje, ser vs estar, opisivanje osobe",
+          "level": "A1",
+          "testId": "test-a1-u4",
+          "lessons": [
+            { "id": "a1-u4-l1", "title": "Porodica i posvojni pridjevi", "lessonNumber": 1, "prerequisites": ["a1-u3-l4"], "estimatedMinutes": 20 },
+            { "id": "a1-u4-l2", "title": "Pridjevi i slaganje u rodu/broju", "lessonNumber": 2, "prerequisites": ["a1-u4-l1"], "estimatedMinutes": 20 },
+            { "id": "a1-u4-l3", "title": "Boje i izgled", "lessonNumber": 3, "prerequisites": ["a1-u4-l2"], "estimatedMinutes": 15 },
+            { "id": "a1-u4-l4", "title": "SER vs ESTAR — osnovna razlika", "lessonNumber": 4, "prerequisites": ["a1-u4-l3"], "estimatedMinutes": 25 }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "U5 — Grad i orijentacija",
+          "description": "Hay, predlozi mjesta, glagol ir, upitne riječi, traženje puta",
+          "level": "A1",
+          "testId": "test-a1-u5",
+          "lessons": [
+            { "id": "a1-u5-l1", "title": "HAY i predlozi mjesta", "lessonNumber": 1, "prerequisites": ["a1-u4-l4"], "estimatedMinutes": 20 },
+            { "id": "a1-u5-l2", "title": "Glagol IR — gdje ideš?", "lessonNumber": 2, "prerequisites": ["a1-u5-l1"], "estimatedMinutes": 20 },
+            { "id": "a1-u5-l3", "title": "Upitne riječi", "lessonNumber": 3, "prerequisites": ["a1-u5-l2"], "estimatedMinutes": 20 },
+            { "id": "a1-u5-l4", "title": "Traženje puta u gradu", "lessonNumber": 4, "prerequisites": ["a1-u5-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "U6 — Hrana i kupovina",
+          "description": "Glagol gustar, demonstrativi, cijene, u restoranu, hrana i piće",
+          "level": "A1",
+          "testId": "test-a1-u6",
+          "lessons": [
+            { "id": "a1-u6-l1", "title": "Hrana i piće — vokabular", "lessonNumber": 1, "prerequisites": ["a1-u5-l4"], "estimatedMinutes": 20 },
+            { "id": "a1-u6-l2", "title": "Glagol GUSTAR i ENCANTAR", "lessonNumber": 2, "prerequisites": ["a1-u6-l1"], "estimatedMinutes": 20 },
+            { "id": "a1-u6-l3", "title": "Demonstrativi: este, ese, aquel", "lessonNumber": 3, "prerequisites": ["a1-u6-l2"], "estimatedMinutes": 20 },
+            { "id": "a1-u6-l4", "title": "U restoranu i prodavnici", "lessonNumber": 4, "prerequisites": ["a1-u6-l3"], "estimatedMinutes": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "Osnovni nivo (A2)",
+      "units": [
+        {
+          "id": 7,
+          "title": "U7 — Rutine",
+          "description": "Refleksivni glagoli, prilozi učestalosti, nepravilni prezent (e→ie, o→ue, e→i), dnevna rutina",
+          "level": "A2",
+          "testId": "test-a2-u7",
+          "lessons": [
+            { "id": "a2-u7-l1", "title": "Refleksivni glagoli — jutranja rutina", "lessonNumber": 1, "prerequisites": ["a1-u6-l4"], "estimatedMinutes": 25 },
+            { "id": "a2-u7-l2", "title": "Nepravilni prezent e→ie (querer, empezar)", "lessonNumber": 2, "prerequisites": ["a2-u7-l1"], "estimatedMinutes": 25 },
+            { "id": "a2-u7-l3", "title": "Nepravilni prezent o→ue (poder, volver)", "lessonNumber": 3, "prerequisites": ["a2-u7-l2"], "estimatedMinutes": 25 },
+            { "id": "a2-u7-l4", "title": "Nepravilni prezent e→i i prilozi učestalosti", "lessonNumber": 4, "prerequisites": ["a2-u7-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "U8 — Prošlost I (perfekt)",
+          "description": "Pretérito perfecto, participi (pravilni i nepravilni), ya/todavía no, prošlo iskustvo",
+          "level": "A2",
+          "testId": "test-a2-u8",
+          "lessons": [
+            { "id": "a2-u8-l1", "title": "Pretérito perfecto — tvorba", "lessonNumber": 1, "prerequisites": ["a2-u7-l4"], "estimatedMinutes": 25 },
+            { "id": "a2-u8-l2", "title": "Nepravilni participi", "lessonNumber": 2, "prerequisites": ["a2-u8-l1"], "estimatedMinutes": 20 },
+            { "id": "a2-u8-l3", "title": "Ya / todavía no — prošlo iskustvo", "lessonNumber": 3, "prerequisites": ["a2-u8-l2"], "estimatedMinutes": 20 },
+            { "id": "a2-u8-l4", "title": "Iskustvo i putovanja — perfekt u praksi", "lessonNumber": 4, "prerequisites": ["a2-u8-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "U9 — Prošlost II (indefinido)",
+          "description": "Pretérito indefinido, nepravilni glagoli, izrazi za prošlo vrijeme",
+          "level": "A2",
+          "testId": "test-a2-u9",
+          "lessons": [
+            { "id": "a2-u9-l1", "title": "Pretérito indefinido — pravilni glagoli", "lessonNumber": 1, "prerequisites": ["a2-u8-l4"], "estimatedMinutes": 25 },
+            { "id": "a2-u9-l2", "title": "Nepravilni indefinido: ir, ser, hacer", "lessonNumber": 2, "prerequisites": ["a2-u9-l1"], "estimatedMinutes": 25 },
+            { "id": "a2-u9-l3", "title": "Nepravilni indefinido: tener, estar, poder", "lessonNumber": 3, "prerequisites": ["a2-u9-l2"], "estimatedMinutes": 25 },
+            { "id": "a2-u9-l4", "title": "Pričanje o prošlosti — prilog ayer i drugi", "lessonNumber": 4, "prerequisites": ["a2-u9-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "U10 — Prošlost III (imperfecto)",
+          "description": "Imperfecto, kontrast indefinido vs imperfecto, opis u prošlosti, navike",
+          "level": "A2",
+          "testId": "test-a2-u10",
+          "lessons": [
+            { "id": "a2-u10-l1", "title": "Imperfecto — tvorba i upotreba", "lessonNumber": 1, "prerequisites": ["a2-u9-l4"], "estimatedMinutes": 25 },
+            { "id": "a2-u10-l2", "title": "Navike u prošlosti — antes/de niño", "lessonNumber": 2, "prerequisites": ["a2-u10-l1"], "estimatedMinutes": 20 },
+            { "id": "a2-u10-l3", "title": "Indefinido vs Imperfecto — kontrast", "lessonNumber": 3, "prerequisites": ["a2-u10-l2"], "estimatedMinutes": 30 },
+            { "id": "a2-u10-l4", "title": "Priča u prošlosti — vježba naracije", "lessonNumber": 4, "prerequisites": ["a2-u10-l3"], "estimatedMinutes": 25 }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "U11 — Planovi i budućnost",
+          "description": "Ir a + infinitiv, futuro simple, vrijeme/klima, planiranje putovanja",
+          "level": "A2",
+          "testId": "test-a2-u11",
+          "lessons": [
+            { "id": "a2-u11-l1", "title": "IR A + infinitiv — bliski planovi", "lessonNumber": 1, "prerequisites": ["a2-u10-l4"], "estimatedMinutes": 20 },
+            { "id": "a2-u11-l2", "title": "Futuro simple — tvorba i upotreba", "lessonNumber": 2, "prerequisites": ["a2-u11-l1"], "estimatedMinutes": 25 },
+            { "id": "a2-u11-l3", "title": "Tiempo libre — slobodno vrijeme i klima", "lessonNumber": 3, "prerequisites": ["a2-u11-l2"], "estimatedMinutes": 20 },
+            { "id": "a2-u11-l4", "title": "Planiranje putovanja", "lessonNumber": 4, "prerequisites": ["a2-u11-l3"], "estimatedMinutes": 20 }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "U12 — Savjeti i naredbe",
+          "description": "Afirmativni i negativni imperativ, zamjenice lo/la/le, davanje uputa",
+          "level": "A2",
+          "testId": "test-a2-u12",
+          "lessons": [
+            { "id": "a2-u12-l1", "title": "Afirmativni imperativ", "lessonNumber": 1, "prerequisites": ["a2-u11-l4"], "estimatedMinutes": 25 },
+            { "id": "a2-u12-l2", "title": "Negativni imperativ", "lessonNumber": 2, "prerequisites": ["a2-u12-l1"], "estimatedMinutes": 20 },
+            { "id": "a2-u12-l3", "title": "Direktni i indirektni objekat — lo/la/le", "lessonNumber": 3, "prerequisites": ["a2-u12-l2"], "estimatedMinutes": 25 },
+            { "id": "a2-u12-l4", "title": "Davanje savjeta i uputa — situacije", "lessonNumber": 4, "prerequisites": ["a2-u12-l3"], "estimatedMinutes": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "title": "Srednji nivo (B1)",
+      "units": [
+        {
+          "id": 13,
+          "title": "U13 — Želje i mišljenja",
+          "description": "Uvod u subjuntivo presente, izražavanje mišljenja i želja",
+          "level": "B1",
+          "testId": "test-b1-u13",
+          "lessons": [
+            { "id": "b1-u13-l1", "title": "Uvod u subjuntivo — tvorba", "lessonNumber": 1, "prerequisites": ["a2-u12-l4"], "estimatedMinutes": 30 },
+            { "id": "b1-u13-l2", "title": "Izražavanje mišljenja — creo que/no creo que", "lessonNumber": 2, "prerequisites": ["b1-u13-l1"], "estimatedMinutes": 25 },
+            { "id": "b1-u13-l3", "title": "Želje i preporuke — quiero que, espero que", "lessonNumber": 3, "prerequisites": ["b1-u13-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u13-l4", "title": "Osjećaji i emocije sa subjuntivom", "lessonNumber": 4, "prerequisites": ["b1-u13-l3"], "estimatedMinutes": 25 }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "U14 — Hipoteze",
+          "description": "Condicional simple, uljudne molbe, realni i nerealni uslovi",
+          "level": "B1",
+          "testId": "test-b1-u14",
+          "lessons": [
+            { "id": "b1-u14-l1", "title": "Condicional simple — tvorba", "lessonNumber": 1, "prerequisites": ["b1-u13-l4"], "estimatedMinutes": 25 },
+            { "id": "b1-u14-l2", "title": "Uljudne molbe sa conditionalnom", "lessonNumber": 2, "prerequisites": ["b1-u14-l1"], "estimatedMinutes": 20 },
+            { "id": "b1-u14-l3", "title": "Realni uslov: si + presente", "lessonNumber": 3, "prerequisites": ["b1-u14-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u14-l4", "title": "Nerealni uslov: si + imperfecto subj.", "lessonNumber": 4, "prerequisites": ["b1-u14-l3"], "estimatedMinutes": 30 }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "U15 — Povezivanje misli",
+          "description": "Vezni izrazi, por vs para, relativne rečenice",
+          "level": "B1",
+          "testId": "test-b1-u15",
+          "lessons": [
+            { "id": "b1-u15-l1", "title": "Vezni izrazi: sin embargo, por eso, aunque", "lessonNumber": 1, "prerequisites": ["b1-u14-l4"], "estimatedMinutes": 25 },
+            { "id": "b1-u15-l2", "title": "POR vs PARA — detaljna razlika", "lessonNumber": 2, "prerequisites": ["b1-u15-l1"], "estimatedMinutes": 30 },
+            { "id": "b1-u15-l3", "title": "Relativne rečenice: que, donde, quien", "lessonNumber": 3, "prerequisites": ["b1-u15-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u15-l4", "title": "Složene rečenice — vježba kombiniranja", "lessonNumber": 4, "prerequisites": ["b1-u15-l3"], "estimatedMinutes": 25 }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "U16 — Apstraktne teme",
+          "description": "Posao, zdravlje, mediji, okolina — vokabular za debatu",
+          "level": "B1",
+          "testId": "test-b1-u16",
+          "lessons": [
+            { "id": "b1-u16-l1", "title": "Posao i karijera", "lessonNumber": 1, "prerequisites": ["b1-u15-l4"], "estimatedMinutes": 25 },
+            { "id": "b1-u16-l2", "title": "Zdravlje i tijelo", "lessonNumber": 2, "prerequisites": ["b1-u16-l1"], "estimatedMinutes": 25 },
+            { "id": "b1-u16-l3", "title": "Mediji i tehnologija", "lessonNumber": 3, "prerequisites": ["b1-u16-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u16-l4", "title": "Okolina i klimatske promjene", "lessonNumber": 4, "prerequisites": ["b1-u16-l3"], "estimatedMinutes": 25 }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "U17 — Pripovijedanje",
+          "description": "Miješanje prošlih vremena, indirektni govor, prepričavanje događaja",
+          "level": "B1",
+          "testId": "test-b1-u17",
+          "lessons": [
+            { "id": "b1-u17-l1", "title": "Miješanje prošlih vremena u priči", "lessonNumber": 1, "prerequisites": ["b1-u16-l4"], "estimatedMinutes": 30 },
+            { "id": "b1-u17-l2", "title": "Indirektni govor — estilo indirecto", "lessonNumber": 2, "prerequisites": ["b1-u17-l1"], "estimatedMinutes": 30 },
+            { "id": "b1-u17-l3", "title": "Prepričavanje događaja i vijesti", "lessonNumber": 3, "prerequisites": ["b1-u17-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u17-l4", "title": "Narativna vježba — kratka priča", "lessonNumber": 4, "prerequisites": ["b1-u17-l3"], "estimatedMinutes": 30 }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "U18 — Tečnost i kultura",
+          "description": "Kolokvijalni izrazi, idiomi, regionalne razlike, kulturne teme",
+          "level": "B1",
+          "testId": "test-b1-u18",
+          "lessons": [
+            { "id": "b1-u18-l1", "title": "Kolokvijalni izrazi i žargon", "lessonNumber": 1, "prerequisites": ["b1-u17-l4"], "estimatedMinutes": 25 },
+            { "id": "b1-u18-l2", "title": "Česti idiomi na španskom", "lessonNumber": 2, "prerequisites": ["b1-u18-l1"], "estimatedMinutes": 25 },
+            { "id": "b1-u18-l3", "title": "Španija vs Latinska Amerika — razlike", "lessonNumber": 3, "prerequisites": ["b1-u18-l2"], "estimatedMinutes": 25 },
+            { "id": "b1-u18-l4", "title": "Kulturne teme i finalni razgovor", "lessonNumber": 4, "prerequisites": ["b1-u18-l3"], "estimatedMinutes": 30 }
+          ]
+        }
+      ]
+    }
+  ]
+}

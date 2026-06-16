@@ -1,0 +1,232 @@
+{
+  "id": "a1-u1-l1",
+  "level": "A1",
+  "unit": 1,
+  "lessonNumber": 1,
+  "title": "Pozdravi i predstavljanje",
+  "subtitle": "Hola, ¿cómo te llamas?",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Pozdraviti na španskom u različitim situacijama",
+    "Reći kako se zoveš koristeći me llamo",
+    "Pitati drugu osobu kako se zove"
+  ],
+  "prerequisites": [],
+  "vocabulary": [
+    {
+      "es": "hola",
+      "bs": "zdravo / bok",
+      "pos": "uzv.",
+      "ipa": "ˈo.la",
+      "example_es": "¡Hola! ¿Cómo estás?",
+      "example_bs": "Zdravo! Kako si?"
+    },
+    {
+      "es": "buenos días",
+      "bs": "dobro jutro",
+      "pos": "uzv.",
+      "ipa": "ˈbwe.nos ˈdi.as",
+      "example_es": "¡Buenos días! ¿Cómo te llamas?",
+      "example_bs": "Dobro jutro! Kako se zoveš?"
+    },
+    {
+      "es": "buenas tardes",
+      "bs": "dobar dan / dobro veče",
+      "pos": "uzv.",
+      "ipa": "ˈbwe.nas ˈtar.des",
+      "example_es": "¡Buenas tardes! Soy Marko.",
+      "example_bs": "Dobar dan! Ja sam Marko."
+    },
+    {
+      "es": "buenas noches",
+      "bs": "laku noć / dobra večer",
+      "pos": "uzv.",
+      "ipa": "ˈbwe.nas ˈno.tʃes",
+      "example_es": "¡Buenas noches! Hasta mañana.",
+      "example_bs": "Laku noć! Do sutra."
+    },
+    {
+      "es": "adiós",
+      "bs": "doviđenja / zbogom",
+      "pos": "uzv.",
+      "ipa": "a.ˈðjos",
+      "example_es": "¡Adiós! Hasta luego.",
+      "example_bs": "Doviđenja! Vidimo se."
+    },
+    {
+      "es": "hasta luego",
+      "bs": "vidimo se / doviđenja",
+      "pos": "izraz",
+      "ipa": "ˈas.ta ˈlwe.ɣo",
+      "example_es": "¡Hasta luego! Nos vemos.",
+      "example_bs": "Vidimo se! Čujemo se."
+    },
+    {
+      "es": "me llamo",
+      "bs": "zovem se",
+      "pos": "glag. izraz",
+      "ipa": "me ˈʎa.mo",
+      "example_es": "Me llamo Ana. ¿Y tú?",
+      "example_bs": "Zovem se Ana. A ti?"
+    },
+    {
+      "es": "¿cómo te llamas?",
+      "bs": "kako se zoveš?",
+      "pos": "pitanje",
+      "ipa": "ˈko.mo te ˈʎa.mas",
+      "example_es": "¡Hola! ¿Cómo te llamas?",
+      "example_bs": "Zdravo! Kako se zoveš?"
+    },
+    {
+      "es": "mucho gusto",
+      "bs": "drago mi je",
+      "pos": "izraz",
+      "ipa": "ˈmu.tʃo ˈɣus.to",
+      "example_es": "Me llamo Sofía. ¡Mucho gusto!",
+      "example_bs": "Zovem se Sofía. Drago mi je!"
+    },
+    {
+      "es": "igualmente",
+      "bs": "i meni / obostrano",
+      "pos": "pril.",
+      "ipa": "i.ɣwal.ˈmen.te",
+      "example_es": "¡Mucho gusto! — ¡Igualmente!",
+      "example_bs": "Drago mi je! — I meni!"
+    }
+  ],
+  "grammar": [
+    {
+      "concept": "Osnovi pozdravi — kada koristiti koji",
+      "explanation_bs": "Na španskom postoje pozdravi ovisno o dobu dana. 'Hola' je univerzalan i može se koristiti uvijek. 'Buenos días' je za jutro (do 12h), 'buenas tardes' za popodne i rano večer, 'buenas noches' za kasno veče i oproštaj noću. Zapamti: 'buenas noches' koristi se i kao pozdrav i kao oproštaj!",
+      "examples": [
+        { "es": "¡Hola! ¿Cómo estás?", "bs": "Zdravo! Kako si?" },
+        { "es": "¡Buenos días! ¿Qué tal?", "bs": "Dobro jutro! Šta ima?" },
+        { "es": "¡Buenas noches! Hasta mañana.", "bs": "Laku noć! Do sutra." }
+      ],
+      "tips": "U Španiji se često kaže samo 'buenas' umjesto punog oblika — kratica za sve doba dana!"
+    },
+    {
+      "concept": "Predstavljanje — me llamo vs soy",
+      "explanation_bs": "Postoje dva načina da kažeš kako se zoveš: 'Me llamo...' (dosl. 'zovem se') i 'Soy...' (dosl. 'ja sam'). Oba su ispravna. 'Me llamo' je malo formalniji oblik koji češće čuješ u upoznavanju. 'Soy' je direktniji i kratki.",
+      "examples": [
+        { "es": "Me llamo Marko.", "bs": "Zovem se Marko." },
+        { "es": "Soy Ana.", "bs": "Ja sam Ana." },
+        { "es": "¿Cómo te llamas? Me llamo Carlos.", "bs": "Kako se zoveš? Zovem se Carlos." }
+      ],
+      "tips": "Za pitanje uvijek koristi '¿Cómo te llamas?' a odgovor možeš dati s 'me llamo' ili 'soy'."
+    }
+  ],
+  "dialogue": {
+    "title": "En la cafetería — U kafiću",
+    "lines": [
+      { "speaker": "Ana", "es": "¡Hola! ¿Cómo te llamas?", "bs": "Zdravo! Kako se zoveš?" },
+      { "speaker": "Marko", "es": "Me llamo Marko. ¿Y tú?", "bs": "Zovem se Marko. A ti?" },
+      { "speaker": "Ana", "es": "Soy Ana. ¡Mucho gusto, Marko!", "bs": "Ja sam Ana. Drago mi je, Marko!" },
+      { "speaker": "Marko", "es": "¡Igualmente, Ana! ¿Cómo estás?", "bs": "I meni, Ana! Kako si?" },
+      { "speaker": "Ana", "es": "Muy bien, gracias. ¿Y tú?", "bs": "Odlično, hvala. A ti?" },
+      { "speaker": "Marko", "es": "Bien también. ¡Hasta luego!", "bs": "I ja dobro. Vidimo se!" },
+      { "speaker": "Ana", "es": "¡Hasta luego!", "bs": "Vidimo se!" }
+    ]
+  },
+  "reading": {
+    "title": "Una nueva amiga — Nova prijateljica",
+    "text_es": "Me llamo Sofía. Soy de España. ¡Hola a todos! Por las mañanas digo '¡buenos días!' y por las noches digo '¡buenas noches!'. Cuando conozco a alguien nuevo digo '¡mucho gusto!'. Es muy fácil en español.",
+    "glossary": [
+      { "es": "nueva", "bs": "nova" },
+      { "es": "por las mañanas", "bs": "ujutro / svako jutro" },
+      { "es": "conozco", "bs": "upoznajem" },
+      { "es": "alguien", "bs": "neko" },
+      { "es": "muy fácil", "bs": "jako lako" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Odakle je Sofía?",
+        "options": ["Iz Meksika", "Iz Španije", "Iz Bosne"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta Sofía kaže ujutro?",
+        "options": ["¡Buenas noches!", "¡Hasta luego!", "¡Buenos días!"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Šta kaže kad upozna nekoga novog?",
+        "options": ["¡Hola!", "¡Mucho gusto!", "¡Adiós!"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje je jutarnji pozdrav na španskom?",
+      "options": ["Buenas noches", "Buenos días", "Hasta luego", "Mucho gusto"],
+      "answerIndex": 1,
+      "explanation_bs": "'Buenos días' znači 'dobro jutro' i koristi se do podneva."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako pitaš nekoga kako se zove na španskom?",
+      "options": ["¿Cómo estás?", "¿Qué tal?", "¿Cómo te llamas?", "¿De dónde eres?"],
+      "answerIndex": 2,
+      "explanation_bs": "'¿Cómo te llamas?' dosl. znači 'kako ti se zoveš?' — standardno pitanje za ime."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ llamo Ana. (Zovem se Ana.)",
+      "answer": "Me",
+      "acceptedAnswers": ["Me", "me"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zdravo! Zovem se Marko.",
+      "answer": "¡Hola! Me llamo Marko.",
+      "acceptedAnswers": ["¡Hola! Me llamo Marko.", "Hola! Me llamo Marko.", "¡Hola! Me llamo Marko", "Hola, me llamo Marko."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Drago mi je!",
+      "answer": "¡Mucho gusto!",
+      "acceptedAnswers": ["¡Mucho gusto!", "Mucho gusto!", "¡Mucho gusto", "Mucho gusto"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji parove: pozdravi i prijevodi",
+      "pairs": [
+        { "es": "hola", "bs": "zdravo" },
+        { "es": "adiós", "bs": "doviđenja" },
+        { "es": "buenos días", "bs": "dobro jutro" },
+        { "es": "buenas noches", "bs": "laku noć" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "¡Hola! Me llamo Ana. ¡Mucho gusto!",
+      "answer": "¡Hola! Me llamo Ana. ¡Mucho gusto!"
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Naglas se pozdrav i reci kako se zoveš, kao da upoznaješ nekoga prvog puta",
+      "modelAnswer_es": "¡Hola! Me llamo [tvoje ime]. ¡Mucho gusto!"
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Upoznaj novu osobu u kafiću na španskom. Samo se pozdravi, predstavi se i pitaj drugu osobu kako se zove.",
+    "level": "A1",
+    "allowedGrammar": ["pozdravi", "me llamo", "soy", "mucho gusto"],
+    "systemPromptHint": "Ti si prijateljski govornik španskog po imenu Sofía. Koristi SAMO A1 nivo: pozdravi, me llamo, soy, mucho gusto. Govori polako i jasno. Ispravljaj greške tek na kraju razmjene, kratko i na bosanskom."
+  },
+  "illustration": {
+    "prompt": "Two people greeting each other warmly in a cozy Spanish cafe, waving hello and smiling, one is a young woman named Ana and the other is a young man named Marko",
+    "alt": "Ana i Marko se pozdravljaju u španskom kafiću",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["greetings", "introductions", "a1", "u1"]
+  }
+}

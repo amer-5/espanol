@@ -1,0 +1,172 @@
+{
+  "id": "a1-u6-l3",
+  "level": "A1",
+  "unit": 6,
+  "lessonNumber": 3,
+  "title": "Svakodnevna rutina — refleksivni glagoli",
+  "subtitle": "Levantarse, ducharse, acostarse...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Razumjeti i koristiti refleksivne glagole",
+    "Opisati svakodnevnu jutarnju i večernju rutinu",
+    "Konjugirati najčešće refleksivne glagole"
+  ],
+  "prerequisites": ["a1-u3-l1", "a1-u3-l3", "a1-u5-l1"],
+  "vocabulary": [
+    { "es": "levantarse", "bs": "ustajati se", "pos": "refl. glag.", "ipa": "le.βan.ˈtar.se", "example_es": "Me levanto a las siete.", "example_bs": "Ustajem u sedam." },
+    { "es": "ducharse / bañarse", "bs": "tuširati se / kupati se", "pos": "refl. glag.", "ipa": "du.ˈtʃar.se", "example_es": "Me ducho cada mañana.", "example_bs": "Tuširam se svako jutro." },
+    { "es": "vestirse", "bs": "oblačiti se", "pos": "refl. glag. e→i", "ipa": "βes.ˈtir.se", "example_es": "Me visto rápido.", "example_bs": "Oblačim se brzo." },
+    { "es": "desayunar / almorzar", "bs": "doručkovati / ručati", "pos": "glag.", "ipa": "de.sa.ʝu.ˈnar", "example_es": "Desayuno a las ocho.", "example_bs": "Doručkujem u osam." },
+    { "es": "acostarse", "bs": "leći / ići u krevet", "pos": "refl. glag. o→ue", "ipa": "a.kos.ˈtar.se", "example_es": "Me acuesto a las once.", "example_bs": "Liježem u jedanaest." },
+    { "es": "dormirse", "bs": "zaspati", "pos": "refl. glag. o→ue", "ipa": "dor.ˈmir.se", "example_es": "Me duermo muy rápido.", "example_bs": "Brzo zaspim." },
+    { "es": "peinarse / afeitarse", "bs": "češljati se / brijati se", "pos": "refl. glag.", "ipa": "pei.ˈnar.se", "example_es": "Me peino después de ducharme.", "example_bs": "Češljam se nakon tuširanja." },
+    { "es": "lavarse los dientes", "bs": "prati zube", "pos": "izr.", "ipa": "la.ˈβar.se los ˈðjen.tes", "example_es": "Me lavo los dientes tres veces.", "example_bs": "Perem zube tri puta." },
+    { "es": "quedarse en casa", "bs": "ostati kod kuće", "pos": "refl. izr.", "ipa": "ke.ˈðar.se", "example_es": "Me quedo en casa los domingos.", "example_bs": "Ostajem kod kuće nedjeljom." },
+    { "es": "divertirse", "bs": "zabavljati se / ugoditi si", "pos": "refl. glag. e→ie", "ipa": "di.βer.ˈtir.se", "example_es": "Me divierto con mis amigos.", "example_bs": "Zabavljam se s prijateljima." }
+  ],
+  "grammar": [
+    {
+      "concept": "Refleksivni glagoli — struktura",
+      "explanation_bs": "Refleksivni glagoli imaju povratnu zamjenicu koja se mijenja prema osobi: **me** (ja se), **te** (ti se), **se** (on/ona se), **nos** (mi se), **os** (vi se), **se** (oni se). Zamjenica dolazi ISPRED konjugiranog glagola: 'Me levanto' (Ustajem se). U infinitivu zamjenica je na kraju: levantarse. Refleksivni glagoli označavaju radnje koje osoba radi sebi.",
+      "table": {
+        "headers": ["Zamjenica", "Zamj. povratna", "LEVANTARSE"],
+        "rows": [
+          ["yo", "me", "me levanto"],
+          ["tú", "te", "te levantas"],
+          ["él/ella", "se", "se levanta"],
+          ["nosotros", "nos", "nos levantamos"],
+          ["vosotros", "os", "os levantáis"],
+          ["ellos", "se", "se levantan"]
+        ]
+      },
+      "examples": [
+        { "es": "Me ducho a las siete y media.", "bs": "Tuširam se u pola osam." },
+        { "es": "Ella se viste muy rápido.", "bs": "Ona se oblači jako brzo." },
+        { "es": "Nos acostamos tarde los viernes.", "bs": "Petkom lijegamo kasno." }
+      ],
+      "tips": "Povratna zamjenica ide ISPRED glagola u konjugiranom obliku ali NA KRAJU infinitiva: 'Quiero levantarme temprano' ili 'Me quiero levantar temprano' — oba su ispravna!"
+    },
+    {
+      "concept": "Redoslijed jutarnje rutine",
+      "explanation_bs": "Za opisivanje redoslijeda koristimo veznice: **primero** (prvo), **después/luego** (zatim/onda), **más tarde** (kasnije), **por último/finalmente** (na kraju). 'Primero me levanto, después me ducho y finalmente desayuno.'",
+      "examples": [
+        { "es": "Primero me levanto a las siete.", "bs": "Prvo ustajem u sedam." },
+        { "es": "Después me ducho y me visto.", "bs": "Zatim se tuširam i oblačim." },
+        { "es": "Por último, desayuno y salgo de casa.", "bs": "Na kraju doručkujem i izlazim iz kuće." }
+      ],
+      "tips": "Luego i después su sinonimi i zamjenjivi u svakodnevnom govoru."
+    }
+  ],
+  "dialogue": {
+    "title": "¿A qué hora te levantas? — U koliko se ustaješ?",
+    "lines": [
+      { "speaker": "Ana", "es": "¿A qué hora te levantas normalmente?", "bs": "U koliko se ustaješ normalno?" },
+      { "speaker": "Marko", "es": "Me levanto a las seis y media. Tengo que estar en el trabajo a las ocho.", "bs": "Ustajem u pola sedam. Moram biti na poslu u osam." },
+      { "speaker": "Ana", "es": "¡Qué temprano! ¿Y te duchas por la mañana o por la noche?", "bs": "Kako rano! A tuširate li se ujutro ili navečer?" },
+      { "speaker": "Marko", "es": "Por la mañana. Primero me ducho, después me visto y luego desayuno.", "bs": "Ujutro. Prvo se tuširam, zatim se oblačim i onda doručkujem." },
+      { "speaker": "Ana", "es": "Yo me levanto tarde — a las nueve. Me quedo en la cama un rato.", "bs": "Ja ustajem kasno — u devet. Ostajem u krevetu neko vrijemе." },
+      { "speaker": "Marko", "es": "¿Y a qué hora te acuestas?", "bs": "A u koliko liježeš?" },
+      { "speaker": "Ana", "es": "Me acuesto a las doce o a la una. Me duermo muy tarde.", "bs": "Liježem u dvanaest ili u jedan. Zaspim jako kasno." }
+    ]
+  },
+  "reading": {
+    "title": "La rutina de Carlos — Carlosova rutina",
+    "text_es": "Carlos tiene una rutina muy organizada. De lunes a viernes se levanta a las seis y cuarto. Primero se ducha y luego se afeita. Después desayuna — toma café con leche y tostadas. Se viste en diez minutos y sale de casa a las siete y media. Llega al trabajo a las ocho. A las dos come en el restaurante del trabajo. Por la noche se acuesta a las diez y media. Los fines de semana se levanta tarde y se divierte con sus amigos.",
+    "glossary": [
+      { "es": "organizada", "bs": "organizirana" },
+      { "es": "se afeita", "bs": "brije se" },
+      { "es": "llega", "bs": "stiže / dolazi" },
+      { "es": "diez minutos", "bs": "deset minuta" },
+      { "es": "el restaurante del trabajo", "bs": "restoran na poslu / kantina" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "U koliko se Carlos tušira?",
+        "options": ["U šest i petnaest, odmah po ustajanju", "Nakon doručka", "Navečer"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Koliko mu treba da se obuče?",
+        "options": ["Pet minuta", "Deset minuta", "Dvadeset minuta"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako provodi vikende?",
+        "options": ["Radi", "Spava duže i zabavlja se s prijateljima", "Ustajem rano kao radnim danima"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik LEVANTARSE za 'nosotros'?",
+      "options": ["nos levantan", "nos levantamos", "se levantamos", "levantamos"],
+      "answerIndex": 1,
+      "explanation_bs": "Nosotros: nos levantamos — povratna zamjenica 'nos' ispred konjugiranog glagola."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (ducharse) cada noche.",
+      "answer": "se ducha",
+      "acceptedAnswers": ["se ducha"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿A qué hora ___ (acostarse — tú)?",
+      "answer": "te acuestas",
+      "acceptedAnswers": ["te acuestas"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ustajem u sedam, prvo se tuširam, zatim doručkujem.",
+      "answer": "Me levanto a las siete, primero me ducho y luego desayuno.",
+      "acceptedAnswers": ["Me levanto a las siete, primero me ducho y luego desayuno.", "Me levanto a las siete, primero me ducho, después desayuno."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Vikendima se zabavljamo s prijateljima.",
+      "answer": "Los fines de semana nos divertimos con los amigos.",
+      "acceptedAnswers": ["Los fines de semana nos divertimos con los amigos.", "Los fines de semana nos divertimos con nuestros amigos."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Poredaj rutinu po redoslijedu",
+      "pairs": [
+        { "es": "1. levantarse", "bs": "prvo" },
+        { "es": "2. ducharse", "bs": "drugo" },
+        { "es": "3. vestirse", "bs": "treće" },
+        { "es": "4. desayunar", "bs": "četvrto" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Me levanto a las siete y me acuesto a las once.",
+      "answer": "Me levanto a las siete y me acuesto a las once."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju jutarnju rutinu koristeći refleksivne glagole i redoslijed.",
+      "modelAnswer_es": "Primero me levanto a las [sat]. Después me ducho y me visto. Por último desayuno y salgo de casa."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojoj dnevnoj rutini — koliko se ustaješ, šta radiš ujutro itd.",
+    "level": "A1",
+    "allowedGrammar": ["refleksivni glagoli", "sati", "dani", "primero/después/luego"],
+    "systemPromptHint": "Pitaj studenta o rutini: ¿A qué hora te levantas? ¿Te duchas por la mañana? ¿A qué hora te acuestas? Ispravi greške s povratnim zamjenicama."
+  },
+  "illustration": {
+    "prompt": "A morning routine sequence: alarm clock, person getting up, shower, getting dressed, eating breakfast, leaving house",
+    "alt": "Jutarnja rutina — ustajanje, tuširanje, oblačenje, doručak",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["reflexive-verbs", "daily-routine", "levantarse", "acostarse", "a1", "u6"]
+  }
+}

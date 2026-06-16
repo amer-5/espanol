@@ -1,0 +1,173 @@
+{
+  "id": "a1-u4-l2",
+  "level": "A1",
+  "unit": 4,
+  "lessonNumber": 2,
+  "title": "Glagol ESTAR — lokacija i stanje",
+  "subtitle": "¿Dónde está? ¿Cómo estás?",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati glagol ESTAR u prezentu",
+    "Koristiti ESTAR za lokaciju (gdje nešto je)",
+    "Koristiti ESTAR za privremeno stanje"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u2-l3", "a1-u4-l1"],
+  "vocabulary": [
+    { "es": "estar", "bs": "biti (lokacija/stanje)", "pos": "glag. neprav.", "ipa": "es.ˈtar", "example_es": "¿Dónde está el banco?", "example_bs": "Gdje je banka?" },
+    { "es": "aquí / allí", "bs": "ovdje / tamo", "pos": "pril.", "ipa": "a.ˈki/a.ˈʝi", "example_es": "El libro está aquí.", "example_bs": "Knjiga je ovdje." },
+    { "es": "encima / debajo", "bs": "iznad / ispod", "pos": "pril.", "ipa": "en.ˈθi.ma/de.ˈβa.xo", "example_es": "El gato está encima de la mesa.", "example_bs": "Mačka je iznad stola." },
+    { "es": "al lado de", "bs": "pored", "pos": "prij. izr.", "ipa": "al ˈla.ðo ðe", "example_es": "El banco está al lado del supermercado.", "example_bs": "Banka je pored supermarketa." },
+    { "es": "enfrente de", "bs": "nasuprot / ispred", "pos": "prij. izr.", "ipa": "en.ˈfren.te ðe", "example_es": "La farmacia está enfrente del hotel.", "example_bs": "Apoteka je ispred hotela." },
+    { "es": "cansado / cansada", "bs": "umoran / umorna", "pos": "prid.", "ipa": "kan.ˈsa.ðo", "example_es": "Estoy muy cansado.", "example_bs": "Jako sam umoran." },
+    { "es": "enfermo / enferma", "bs": "bolestan / bolesna", "pos": "prid.", "ipa": "en.ˈfer.mo", "example_es": "María está enferma.", "example_bs": "María je bolesna." },
+    { "es": "contento / triste", "bs": "zadovoljan / tužan", "pos": "prid.", "ipa": "kon.ˈten.to/ˈtris.te", "example_es": "Estoy contento hoy.", "example_bs": "Danas sam zadovoljan." },
+    { "es": "ocupado / libre", "bs": "zauzet / slobodan", "pos": "prid.", "ipa": "o.ku.ˈpa.ðo/ˈli.βre", "example_es": "¿Estás libre esta tarde?", "example_bs": "Jesi li slobodan večeras?" },
+    { "es": "abierto / cerrado", "bs": "otvoren / zatvoren", "pos": "prid.", "ipa": "a.ˈβjer.to/θe.ˈra.ðo", "example_es": "El banco está cerrado.", "example_bs": "Banka je zatvorena." }
+  ],
+  "grammar": [
+    {
+      "concept": "Konjugacija ESTAR",
+      "explanation_bs": "ESTAR je nepravilan glagol, ali jako čest. Konjugacija: estoy, estás, está, estamos, estáis, están. Pazi: naglasci su važni — está (on/ona/Vi) nosi naglasak! ESTAR se koristi za: 1) **lokaciju** (¿Dónde está Madrid? — Gdje je Madrid?), 2) **privremeno stanje** (Estoy cansado — Umoran sam), 3) **progresiv** (Estoy comiendo — Jedem, naučit ćemo kasnije).",
+      "table": {
+        "headers": ["Zamjenica", "ESTAR", "Primjer"],
+        "rows": [
+          ["yo", "estoy", "Estoy en casa."],
+          ["tú", "estás", "¿Estás bien?"],
+          ["él/ella/usted", "está", "Está aquí."],
+          ["nosotros", "estamos", "Estamos en Madrid."],
+          ["vosotros", "estáis", "¿Estáis listos?"],
+          ["ellos/ustedes", "están", "Están en el parque."]
+        ]
+      },
+      "examples": [
+        { "es": "¿Dónde está la farmacia?", "bs": "Gdje je apoteka?" },
+        { "es": "Estoy muy cansado hoy.", "bs": "Danas sam jako umoran." },
+        { "es": "El restaurante está cerrado.", "bs": "Restoran je zatvoren." }
+      ],
+      "tips": "SER vs ESTAR: Soy español (trajno, ko sam) vs Estoy en España (gdje sam sada). Madrid es bonita (trajna osobina) vs Madrid está lejos (lokacija)."
+    },
+    {
+      "concept": "Prijedlozi mjesta sa ESTAR",
+      "explanation_bs": "Za opisivanje lokacije koristimo: **en** (u, na — unutar), **al lado de** (pored), **enfrente de** (nasuprot), **encima de** (iznad), **debajo de** (ispod), **cerca de** (blizu), **lejos de** (daleko od), **entre** (između). Kada slijedi 'de + el' → del!",
+      "examples": [
+        { "es": "El gato está debajo de la mesa.", "bs": "Mačka je ispod stola." },
+        { "es": "La farmacia está entre el banco y el supermercado.", "bs": "Apoteka je između banke i supermarketa." },
+        { "es": "Estamos lejos del hotel.", "bs": "Daleko smo od hotela." }
+      ],
+      "tips": "Zapamti: en casa (kod kuće, bez člana) vs en el banco (u banci, sa članom)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Dónde está el hotel? — Gdje je hotel?",
+    "lines": [
+      { "speaker": "Turista", "es": "Perdona, ¿dónde está el hotel Central?", "bs": "Oprosti, gdje je hotel Central?" },
+      { "speaker": "Local", "es": "Está en la calle Mayor, enfrente del museo.", "bs": "Na je u Ulici glavnoj, nasuprot muzeja." },
+      { "speaker": "Turista", "es": "¿Está lejos?", "bs": "Je li daleko?" },
+      { "speaker": "Local", "es": "No, está cerca. A diez minutos a pie.", "bs": "Ne, blizu je. Deset minuta hoda." },
+      { "speaker": "Turista", "es": "¿Y hay una farmacia cerca?", "bs": "Ima li apoteka blizu?" },
+      { "speaker": "Local", "es": "Sí, está al lado del banco, en la plaza.", "bs": "Da, pored je banke, na trgu." },
+      { "speaker": "Turista", "es": "Muchas gracias. ¡Estás muy amable!", "bs": "Hvala puno. Jako si ljubazan/na!" }
+    ]
+  },
+  "reading": {
+    "title": "Mi ciudad — Moj grad",
+    "text_es": "Vivo en el centro de la ciudad. Mi apartamento está en la tercera planta. El supermercado está debajo — en la planta baja. Al lado de mi edificio hay un parque tranquilo. La universidad está enfrente del parque. El hospital está lejos, al norte de la ciudad. Hoy estoy contento porque hace sol.",
+    "glossary": [
+      { "es": "el centro", "bs": "centar" },
+      { "es": "tercera planta", "bs": "treći sprat" },
+      { "es": "planta baja", "bs": "prizemlje" },
+      { "es": "edificio", "bs": "zgrada" },
+      { "es": "al norte", "bs": "na sjeveru" },
+      { "es": "hace sol", "bs": "sunčano je" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Na kom spratu je stan?",
+        "options": ["Prizemlju", "Drugom", "Trećem"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Gdje je park?",
+        "options": ["Daleko od zgrade", "Pored zgrade", "Nasuprot bolnice"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto je zadovoljan danas?",
+        "options": ["Jer nema posla", "Jer je sunčano", "Jer ide na odmor"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik ESTAR za 'yo'?",
+      "options": ["esto", "esté", "estoy", "soy"],
+      "answerIndex": 2,
+      "explanation_bs": "Yo oblik od ESTAR je 'estoy' — nepravilan, mora se zapamtiti."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La farmacia ___ al lado del banco.",
+      "answer": "está",
+      "acceptedAnswers": ["está", "esta"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Hoy nosotros ___ muy cansados.",
+      "answer": "estamos",
+      "acceptedAnswers": ["estamos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Knjiga je ispod stola.",
+      "answer": "El libro está debajo de la mesa.",
+      "acceptedAnswers": ["El libro está debajo de la mesa.", "El libro está debajo la mesa."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jesi li slobodan večeras?",
+      "answer": "¿Estás libre esta noche?",
+      "acceptedAnswers": ["¿Estás libre esta noche?", "¿Estás libre esta tarde?", "Estás libre esta noche?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji oblik sa zamjenicom",
+      "pairs": [
+        { "es": "estoy", "bs": "yo" },
+        { "es": "está", "bs": "él/ella" },
+        { "es": "estamos", "bs": "nosotros" },
+        { "es": "están", "bs": "ellos" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "El hospital está lejos pero la farmacia está cerca.",
+      "answer": "El hospital está lejos pero la farmacia está cerca."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši gdje se nalaziš sada — koristi ESTAR i prijedloge mjesta.",
+      "modelAnswer_es": "Estoy en casa. Mi casa está al lado de un parque. Estoy en mi habitación."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Tražiš put do hotela u španskom gradu — AI igra mještanina koji daje upute.",
+    "level": "A1",
+    "allowedGrammar": ["estar", "prijedlozi mjesta", "hay", "ser"],
+    "systemPromptHint": "Igraj mještanina u španskom gradu. Odgovaraj na pitanja o lokacijama koristeći ESTAR i prijedloge mjesta (al lado de, enfrente de, cerca de). Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "A Spanish town map with labeled buildings: farmacia, banco, supermercado, hotel, museo, all in a sunny plaza",
+    "alt": "Mapa španskog grada sa oznakama zgrada",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["estar", "location", "prepositions", "states", "a1", "u4"]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "a1-u3-l3",
+  "level": "A1",
+  "unit": 3,
+  "lessonNumber": 3,
+  "title": "Dani u sedmici i sati",
+  "subtitle": "Los días de la semana y las horas",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti dane u sedmici na španskom",
+    "Pitati i reći koliko je sati",
+    "Koristiti a las + sat u rečenicama"
+  ],
+  "prerequisites": ["a1-u1-l4", "a1-u2-l3", "a1-u3-l1"],
+  "vocabulary": [
+    { "es": "lunes", "bs": "ponedjeljak", "pos": "im. m.", "ipa": "ˈlu.nes", "example_es": "El lunes tengo trabajo.", "example_bs": "Ponedjeljkom imam posao." },
+    { "es": "martes", "bs": "utorak", "pos": "im. m.", "ipa": "ˈmar.tes", "example_es": "El martes voy al médico.", "example_bs": "U utorak idem kod doktora." },
+    { "es": "miércoles", "bs": "srijeda", "pos": "im. m.", "ipa": "ˈmjer.ko.les", "example_es": "El miércoles tengo clase.", "example_bs": "U srijedu imam čas." },
+    { "es": "jueves", "bs": "četvrtak", "pos": "im. m.", "ipa": "ˈxwe.βes", "example_es": "El jueves como con mi familia.", "example_bs": "U četvrtak jedem sa porodicom." },
+    { "es": "viernes", "bs": "petak", "pos": "im. m.", "ipa": "ˈbjer.nes", "example_es": "El viernes salimos.", "example_bs": "U petak izlazimo." },
+    { "es": "sábado", "bs": "subota", "pos": "im. m.", "ipa": "ˈsa.βa.ðo", "example_es": "El sábado no trabajo.", "example_bs": "Subotom ne radim." },
+    { "es": "domingo", "bs": "nedjelja", "pos": "im. m.", "ipa": "do.ˈmin.ɡo", "example_es": "El domingo descansamos.", "example_bs": "Nedjeljom se odmaramo." },
+    { "es": "¿Qué hora es?", "bs": "Koliko je sati?", "pos": "pitanje", "ipa": "ke ˈo.ra es", "example_es": "¿Qué hora es? — Son las tres.", "example_bs": "Koliko je sati? — Tri su." },
+    { "es": "a las / al mediodía", "bs": "u + sat / u podne", "pos": "izr.", "ipa": "a las", "example_es": "Trabajo a las nueve.", "example_bs": "Radim u devet." },
+    { "es": "por la mañana / tarde / noche", "bs": "ujutro / poslijepodne / navečer", "pos": "izr.", "ipa": "por la ma.ˈɲa.na", "example_es": "Estudio por la mañana.", "example_bs": "Učim ujutro." }
+  ],
+  "grammar": [
+    {
+      "concept": "Dani u sedmici — upotreba",
+      "explanation_bs": "Dani u sedmici su u španskom **muškog roda** i ne pišu se velikim slovom. Sa određenim članom **el** znači 'u + dan' (jednina) ili 'los' znači 'svakog + dana' (množina). Svi osim subote i nedjelje završavaju na -es i ne mijenjaju oblik u množini (el lunes / los lunes).",
+      "table": {
+        "headers": ["Dan", "Naziv", "El lunes (jednom)", "Los lunes (svaki)"],
+        "rows": [
+          ["ponedjeljak", "lunes", "el lunes", "los lunes"],
+          ["utorak", "martes", "el martes", "los martes"],
+          ["srijeda", "miércoles", "el miércoles", "los miércoles"],
+          ["četvrtak", "jueves", "el jueves", "los jueves"],
+          ["petak", "viernes", "el viernes", "los viernes"],
+          ["subota", "sábado", "el sábado", "los sábados"],
+          ["nedjelja", "domingo", "el domingo", "los domingos"]
+        ]
+      },
+      "examples": [
+        { "es": "El lunes tengo clase.", "bs": "U ponedjeljak imam čas. (jednom)" },
+        { "es": "Los lunes tengo clase.", "bs": "Ponedjeljkom imam čas. (svaki)" },
+        { "es": "El viernes no trabajo.", "bs": "U petak ne radim." }
+      ],
+      "tips": "Sábado i domingo dobivaju -s u množini: los sábados, los domingos. Ostali ostaju isti: los lunes, los martes..."
+    },
+    {
+      "concept": "Sati — ¿Qué hora es?",
+      "explanation_bs": "Za reći koliko je sati koristi se 'Es la una' (za 1 sat) i 'Son las dos/tres/...' (za 2+). Prijedlog 'a las' se koristi za vremenski termin: 'a las tres' (u tri). Polovica: y media (i pol), petnaest minuta: y cuarto (i četvrt), manje petnaest: menos cuarto.",
+      "table": {
+        "headers": ["Sat", "Izraz"],
+        "rows": [
+          ["1:00", "Es la una."],
+          ["2:00", "Son las dos."],
+          ["3:30", "Son las tres y media."],
+          ["4:15", "Son las cuatro y cuarto."],
+          ["4:45", "Son las cinco menos cuarto."],
+          ["12:00", "Es mediodía. / Es medianoche."]
+        ]
+      },
+      "examples": [
+        { "es": "¿Qué hora es? Son las ocho.", "bs": "Koliko je sati? Osam je." },
+        { "es": "La clase empieza a las nueve.", "bs": "Čas počinje u devet." },
+        { "es": "Comemos a la una y media.", "bs": "Jedemo u pola dva." }
+      ],
+      "tips": "Es la una (samo za 1), Son las dos/tres... (za sve ostale). 'A las' = u koliko sati nešto se dešava."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué hora es? — Koliko je sati?",
+    "lines": [
+      { "speaker": "Marko", "es": "Perdona, ¿qué hora es?", "bs": "Oprosti, koliko je sati?" },
+      { "speaker": "Ana", "es": "Son las diez y cuarto.", "bs": "Deset je i četvrt." },
+      { "speaker": "Marko", "es": "¡Uy! Tengo clase a las diez y media.", "bs": "Ups! Imam čas u pola jedanaest." },
+      { "speaker": "Ana", "es": "¿Qué día tienes clase?", "bs": "Koji dan imaš čas?" },
+      { "speaker": "Marko", "es": "Los lunes y los miércoles. ¿Y tú?", "bs": "Ponedjeljkom i srijedom. A ti?" },
+      { "speaker": "Ana", "es": "Yo tengo clase los martes y jueves por la tarde.", "bs": "Ja imam čas utorkom i četvrtkom poslijepodne." }
+    ]
+  },
+  "reading": {
+    "title": "La semana de Diego — Diegova sedmica",
+    "text_es": "Diego tiene una semana muy ocupada. Los lunes y miércoles trabaja en la oficina de las nueve a las seis. Los martes y jueves estudia inglés a las siete de la tarde. El viernes come con sus amigos a las dos. El sábado descansa y lee. El domingo visita a su familia.",
+    "glossary": [
+      { "es": "muy ocupada", "bs": "vrlo zauzeta" },
+      { "es": "de las nueve a las seis", "bs": "od devet do šest" },
+      { "es": "de la tarde", "bs": "poslijepodne" },
+      { "es": "descansa", "bs": "odmara se" },
+      { "es": "visita", "bs": "posjećuje" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kada Diego uči engleski?",
+        "options": ["Ponedjeljkom i srijedom", "Utorkom i četvrtkom", "Petkom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "U koliko sati ima engleski čas?",
+        "options": ["U sedam ujutro", "U sedam navečer", "U pet poslijepodne"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta radi nedjeljom?",
+        "options": ["Radi", "Čita", "Posjećuje porodicu"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako kažeš 'svake srijede' (habitualno)?",
+      "options": ["el miércoles", "los miércoles", "la miércoles", "miércoles"],
+      "answerIndex": 1,
+      "explanation_bs": "Za habitualno (svake srijede) koristimo 'los miércoles' — množina sa određenim članom."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako kažeš 3:30?",
+      "options": ["Son las tres y cuarto", "Son las tres y media", "Es las tres y media", "Son las cuatro menos media"],
+      "answerIndex": 1,
+      "explanation_bs": "3:30 = Son las tres y media. Y cuarto = 15 min, y media = 30 min."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Tengo clase ___ las ocho. (u osam)",
+      "answer": "a",
+      "acceptedAnswers": ["a"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ lunes trabajo en casa. (svake ponedjeljke — određeni mn.)",
+      "answer": "Los",
+      "acceptedAnswers": ["Los", "los"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam čas u ponedjeljak u devet.",
+      "answer": "Tengo clase el lunes a las nueve.",
+      "acceptedAnswers": ["Tengo clase el lunes a las nueve.", "El lunes tengo clase a las nueve."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji dan sa rednim brojem u sedmici",
+      "pairs": [
+        { "es": "lunes", "bs": "1. dan (ponedjeljak)" },
+        { "es": "miércoles", "bs": "3. dan (srijeda)" },
+        { "es": "viernes", "bs": "5. dan (petak)" },
+        { "es": "domingo", "bs": "7. dan (nedjelja)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Los viernes trabajo a las nueve de la mañana.",
+      "answer": "Los viernes trabajo a las nueve de la mañana."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci koji je tvoj omiljeni dan u sedmici i zašto (šta radiš taj dan).",
+      "modelAnswer_es": "Mi día favorito es el viernes. El viernes no trabajo y como con mis amigos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojoj sedmičnoj rutini — koji dan šta radiš i u koliko sati.",
+    "level": "A1",
+    "allowedGrammar": ["dani u sedmici", "sati", "a las", "-AR/-ER/-IR prezent"],
+    "systemPromptHint": "Pitaj studenta o sedmičnoj rutini: ¿Qué haces el lunes? ¿A qué hora trabajas? ¿Qué día tienes clase? Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "A weekly planner calendar with Spanish days of the week, clock showing time, warm colors",
+    "alt": "Sedmični planer sa španskim danima i satom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["days-of-week", "time", "schedule", "a1", "u3"]
+  }
+}

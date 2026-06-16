@@ -1,0 +1,174 @@
+{
+  "id": "a1-u6-l4",
+  "level": "A1",
+  "unit": 6,
+  "lessonNumber": 4,
+  "title": "Transport i pravci",
+  "subtitle": "El transporte y las direcciones",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti nazive prijevoznih sredstava",
+    "Pitati za i dati upute za put",
+    "Koristiti IR + a, COGER, TOMAR za transport"
+  ],
+  "prerequisites": ["a1-u4-l2", "a1-u5-l1", "a1-u6-l3"],
+  "vocabulary": [
+    { "es": "el autobús / el metro", "bs": "autobus / metro", "pos": "im. m.", "ipa": "el au.to.ˈβus/el ˈme.tro", "example_es": "Cojo el autobús número cinco.", "example_bs": "Uzimam autobus broj pet." },
+    { "es": "el tren / el avión", "bs": "voz / avion", "pos": "im. m.", "ipa": "el ˈtren/el a.ˈβjon", "example_es": "Voy a Barcelona en tren.", "example_bs": "Idem u Barcelonu vozom." },
+    { "es": "el taxi / el coche", "bs": "taksi / auto", "pos": "im. m.", "ipa": "el ˈtak.si", "example_es": "Tomo un taxi.", "example_bs": "Uzimam taksi." },
+    { "es": "a pie / en bicicleta", "bs": "pješice / biciklom", "pos": "izr.", "ipa": "a ˈpje/en bi.θi.ˈkle.ta", "example_es": "Voy al trabajo a pie.", "example_bs": "Idem na posao pješice." },
+    { "es": "a la derecha / a la izquierda", "bs": "desno / lijevo", "pos": "izr.", "ipa": "a la ðe.ˈre.tʃa", "example_es": "Gira a la derecha.", "example_bs": "Skrenite desno." },
+    { "es": "todo recto / seguir recto", "bs": "ravno / idi ravno", "pos": "izr.", "ipa": "ˈto.ðo ˈrek.to", "example_es": "Siga todo recto.", "example_bs": "Idite ravno." },
+    { "es": "girar / doblar", "bs": "skrenuti", "pos": "glag.", "ipa": "xi.ˈrar/do.ˈβlar", "example_es": "Dobla en la segunda calle.", "example_bs": "Skrenite u drugu ulicu." },
+    { "es": "la parada / la estación", "bs": "stajalište / stanica", "pos": "im. ž.", "ipa": "la pa.ˈra.ða", "example_es": "La parada está aquí.", "example_bs": "Stajalište je ovdje." },
+    { "es": "coger / tomar", "bs": "uzeti (prijevoz)", "pos": "glag.", "ipa": "ko.ˈxer/to.ˈmar", "example_es": "Coge el metro en la línea 3.", "example_bs": "Uzmi metro na liniji 3." },
+    { "es": "¿cómo se va a...?", "bs": "kako se dolazi do...?", "pos": "pitanje", "ipa": "ˈko.mo se ˈba a", "example_es": "¿Cómo se va al museo?", "example_bs": "Kako se dolazi do muzeja?" }
+  ],
+  "grammar": [
+    {
+      "concept": "Prijevozna sredstva — prijedlozi EN vs A",
+      "explanation_bs": "Za prijevoz koristimo prijedlog **EN** + vozilo: en autobús, en tren, en avión, en coche, en metro, en bicicleta. Iznimka: **A PIE** (pješice) — koristimo 'a' ne 'en'. U Španiji se kaže COGER autobus/metro (uzeti), u Latinskoj Americi TOMAR (jer 'coger' ima drugačije značenje).",
+      "table": {
+        "headers": ["Prijevoz", "Izraz", "Primjer"],
+        "rows": [
+          ["autobus", "en autobús", "Voy en autobús."],
+          ["metro", "en metro", "Cojo el metro."],
+          ["voz", "en tren", "Viajo en tren."],
+          ["avion", "en avión", "Voy en avión."],
+          ["auto", "en coche", "Vengo en coche."],
+          ["pješice", "a pie", "Voy a pie."]
+        ]
+      },
+      "examples": [
+        { "es": "¿Cómo vas al trabajo?", "bs": "Kako ideš na posao?" },
+        { "es": "Voy en metro — cojo la línea 3.", "bs": "Idem metroom — uzimam liniju 3." },
+        { "es": "Ella va a pie porque vive cerca.", "bs": "Ona ide pješice jer živi blizu." }
+      ],
+      "tips": "En Španiji: coger el bus/metro/tren. U Latinskoj Americi: tomar el bus/metro. Oba glagola znače 'uzeti prijevoz'."
+    },
+    {
+      "concept": "Davanje uputa — imperativ (osnove)",
+      "explanation_bs": "Za davanje uputa možemo koristiti: 1) imperativ (naredba): 'Gira a la derecha' (Skrenite desno), 2) 'Tienes que...' (Morate...): 'Tienes que girar a la izquierda', 3) infinitiv: 'Seguir recto y girar'. Na A1 nivou najčešće ćeš čuti imperativ za uputе. Učit ćemo imperativ detaljno na A2.",
+      "examples": [
+        { "es": "Siga todo recto hasta el semáforo.", "bs": "Idite ravno do semafora." },
+        { "es": "Doble a la derecha en la segunda calle.", "bs": "Skrenite desno u drugu ulicu." },
+        { "es": "Está a unos cien metros.", "bs": "Na oko sto metara odavde." }
+      ],
+      "tips": "Uputе u formalnom: Siga, Doble, Cruce (Vi-imperativ). Neformalno: Sigue, Dobla, Cruza (tú-imperativ)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo llego al museo? — Kako doći do muzeja?",
+    "lines": [
+      { "speaker": "Turista", "es": "Perdona, ¿cómo se va al Museo del Prado?", "bs": "Oprosti, kako se dolazi do Prado muzeja?" },
+      { "speaker": "Local", "es": "Puedes ir en metro o a pie — no está muy lejos.", "bs": "Možeš ići metroom ili pješice — nije jako daleko." },
+      { "speaker": "Turista", "es": "Prefiero ir a pie. ¿Cómo voy?", "bs": "Wolim ići pješice. Kako idem?" },
+      { "speaker": "Local", "es": "Sigue todo recto por esta calle hasta la plaza.", "bs": "Idi ravno ovom ulicom do trga." },
+      { "speaker": "Turista", "es": "¿Y después?", "bs": "I onda?" },
+      { "speaker": "Local", "es": "En la plaza, gira a la derecha. El museo está a unos doscientos metros.", "bs": "Na trgu, skreni desno. Muzej je na oko dvjesta metara." },
+      { "speaker": "Turista", "es": "¿Cuánto tiempo tarda a pie?", "bs": "Koliko dugo traje pješice?" },
+      { "speaker": "Local", "es": "Unos quince minutos.", "bs": "Oko petnaest minuta." },
+      { "speaker": "Turista", "es": "Perfecto. ¡Muchas gracias!", "bs": "Odlično. Hvala puno!" }
+    ]
+  },
+  "reading": {
+    "title": "El transporte en Madrid — Transport u Madridu",
+    "text_es": "Madrid tiene un excelente sistema de transporte público. El metro es muy eficiente — hay doce líneas que conectan toda la ciudad. También hay autobuses que llegan a todos los barrios. Para ir al aeropuerto, puedo coger el metro línea 8 o el tren de cercanías. El taxi es más caro pero más cómodo. Yo voy al trabajo en metro cada día — solo tardo veinte minutos. Los fines de semana me gusta ir en bicicleta por el parque.",
+    "glossary": [
+      { "es": "eficiente", "bs": "efikasan" },
+      { "es": "conectan", "bs": "povezuju" },
+      { "es": "el aeropuerto", "bs": "aerodrom" },
+      { "es": "cercanías", "bs": "prigradski vlak" },
+      { "es": "tardo", "bs": "traje mi (u vremenu)" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko linija metroa ima u Madridu?",
+        "options": ["Osam", "Deset", "Dvanaest"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Kojom linijom metroa se ide na aerodrom?",
+        "options": ["Linija 3", "Linija 8", "Linija 1"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko dugo autoru traje put na posao metroom?",
+        "options": ["Deset minuta", "Petnaest minuta", "Dvadeset minuta"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan izraz za 'idem autobusom'?",
+      "options": ["Voy con autobús", "Voy a autobús", "Voy en autobús", "Voy de autobús"],
+      "answerIndex": 2,
+      "explanation_bs": "Prijevoz: voy EN autobús/metro/tren/coche. Iznimka: a pie (pješice)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ todo recto hasta el semáforo. (Idite ravno — formalno)",
+      "answer": "Siga",
+      "acceptedAnswers": ["Siga", "Sigue"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Cómo ___ al aeropuerto? (kako se ide)",
+      "answer": "se va",
+      "acceptedAnswers": ["se va"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Svaki dan idem metroom na posao.",
+      "answer": "Cada día voy al trabajo en metro.",
+      "acceptedAnswers": ["Cada día voy al trabajo en metro.", "Voy al trabajo en metro cada día."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Skrenite lijevo i idite ravno sto metara.",
+      "answer": "Gire a la izquierda y siga todo recto cien metros.",
+      "acceptedAnswers": ["Gire a la izquierda y siga todo recto cien metros.", "Gira a la izquierda y sigue todo recto cien metros."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji prijevozno sredstvo sa prijedlogom",
+      "pairs": [
+        { "es": "metro", "bs": "en metro" },
+        { "es": "pie", "bs": "a pie" },
+        { "es": "avión", "bs": "en avión" },
+        { "es": "bicicleta", "bs": "en bicicleta" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Coge el metro en la línea dos y baja en la tercera parada.",
+      "answer": "Coge el metro en la línea dos y baja en la tercera parada."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši kako se dolazi od tvog doma do škole ili posla (prijevoz i upute).",
+      "modelAnswer_es": "Primero cojo el autobús número diez. Bajo en la plaza central y sigo recto cinco minutos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Tražiš put u španskom gradu — AI igra mještanina i daje upute.",
+    "level": "A1",
+    "allowedGrammar": ["en + prijevoz", "a pie", "upute za put", "estar + lokacija"],
+    "systemPromptHint": "Igraj mještanina u Madrid. Student traži upute. Daj upute koristeći siga/gire/doble, derecha/izquierda, todo recto. Pomeni i prijevozne mogućnosti. Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "A Madrid street scene with metro sign, bus stop, people walking, a taxi, map with directions arrows",
+    "alt": "Madrid transport — metro, autobus, taksi, pješaci",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["transport", "directions", "en-metro", "a-pie", "a1", "u6"]
+  }
+}

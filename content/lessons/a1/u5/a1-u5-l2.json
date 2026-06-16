@@ -1,0 +1,181 @@
+{
+  "id": "a1-u5-l2",
+  "level": "A1",
+  "unit": 5,
+  "lessonNumber": 2,
+  "title": "Nepravilni glagoli u prezentu (II)",
+  "subtitle": "SABER, CONOCER, SALIR, VENIR",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati glagole SABER i CONOCER (znati)",
+    "Razlikovati SABER od CONOCER",
+    "Konjugirati SALIR i VENIR"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u3-l1", "a1-u3-l2", "a1-u5-l1"],
+  "vocabulary": [
+    { "es": "saber", "bs": "znati (činjenicu, vještinu)", "pos": "glag. neprav.", "ipa": "sa.ˈβer", "example_es": "Sé hablar español.", "example_bs": "Znam govoriti španski." },
+    { "es": "conocer", "bs": "poznavati (osobu/mjesto)", "pos": "glag. neprav.", "ipa": "ko.no.ˈθer", "example_es": "Conozco Madrid.", "example_bs": "Poznajem Madrid." },
+    { "es": "salir", "bs": "izlaziti / izaći", "pos": "glag. neprav.", "ipa": "sa.ˈlir", "example_es": "Salgo a las ocho.", "example_bs": "Izlazim/izlazim u osam." },
+    { "es": "venir", "bs": "dolaziti / doći", "pos": "glag. e→ie", "ipa": "be.ˈnir", "example_es": "¿Vienes a la fiesta?", "example_bs": "Dolaziš li na zabavu?" },
+    { "es": "decir", "bs": "reći / govoriti", "pos": "glag. e→i", "ipa": "de.ˈθir", "example_es": "¿Qué dices?", "example_bs": "Šta kažeš?" },
+    { "es": "hacer", "bs": "raditi / praviti", "pos": "glag. neprav.", "ipa": "a.ˈθer", "example_es": "¿Qué haces?", "example_bs": "Šta radiš?" },
+    { "es": "la fiesta", "bs": "zabava / slavlje", "pos": "im. ž.", "ipa": "la ˈfjes.ta", "example_es": "Hay una fiesta el sábado.", "example_bs": "Subotom ima zabava." },
+    { "es": "el idioma", "bs": "jezik", "pos": "im. m.", "ipa": "el i.ˈðjo.ma", "example_es": "¿Cuántos idiomas sabes?", "example_bs": "Koliko jezika znaš?" },
+    { "es": "temprano / tarde", "bs": "rano / kasno", "pos": "pril.", "ipa": "tem.ˈpra.no/ˈtar.ðe", "example_es": "Salgo temprano.", "example_bs": "Izlazim rano." },
+    { "es": "en casa", "bs": "kod kuće", "pos": "izr.", "ipa": "en ˈka.sa", "example_es": "Me quedo en casa.", "example_bs": "Ostajem kod kuće." }
+  ],
+  "grammar": [
+    {
+      "concept": "SABER vs CONOCER — dvije vrste 'znanja'",
+      "explanation_bs": "Španski ima dva glagola za 'znati': **SABER** = znati faktove, informacije, vještine (saber conducir = znati voziti, saber la respuesta = znati odgovor). **CONOCER** = poznavati ljude i mjesta (conocer a María = poznati Mariju, conocer Madrid = poznavati Madrid). Pazi: **yo** oblik: **sé** (saber) i **conozco** (conocer)!",
+      "table": {
+        "headers": ["Zamjenica", "SABER", "CONOCER"],
+        "rows": [
+          ["yo", "sé (nepravilan!)", "conozco (nepravilan!)"],
+          ["tú", "sabes", "conoces"],
+          ["él/ella", "sabe", "conoce"],
+          ["nosotros", "sabemos", "conocemos"],
+          ["vosotros", "sabéis", "conocéis"],
+          ["ellos", "saben", "conocen"]
+        ]
+      },
+      "examples": [
+        { "es": "Sé cocinar.", "bs": "Znam kuhati. (vještina — SABER)" },
+        { "es": "¿Conoces a Ana?", "bs": "Poznaješ li Anu? (osobu — CONOCER + a)" },
+        { "es": "No sé dónde está.", "bs": "Ne znam gdje je. (informacija — SABER)" }
+      ],
+      "tips": "CONOCER + a + osoba: 'Conozco A María' (obavezno osobno 'a' ispred osobe). SABER + infinitiv: 'Sé cocinar' (saber + kuhati = znam kuhati)."
+    },
+    {
+      "concept": "SALIR, VENIR, HACER, DECIR — yo oblici",
+      "explanation_bs": "Mnogi česti španski glagoli imaju nepravilan **yo** oblik ali ostatak je pravilan (osim eventualne e→ie/e→i izmjene). Zapamti yo oblike: **salgo** (salir), **vengo** (venir), **hago** (hacer), **digo** (decir). Venir je još i e→ie: vienes, viene, venimos, venís, vienen.",
+      "table": {
+        "headers": ["Infinitiv", "yo", "tú", "él/ella", "nosotros"],
+        "rows": [
+          ["salir", "salgo", "sales", "sale", "salimos"],
+          ["venir", "vengo", "vienes", "viene", "venimos"],
+          ["hacer", "hago", "haces", "hace", "hacemos"],
+          ["decir", "digo", "dices", "dice", "decimos"]
+        ]
+      },
+      "examples": [
+        { "es": "Salgo del trabajo a las seis.", "bs": "Izlazim s posla u šest." },
+        { "es": "¿De dónde vienes?", "bs": "Odakle dolaziš?" },
+        { "es": "¿Qué haces esta tarde?", "bs": "Šta radiš ovog poslijepodneva?" }
+      ],
+      "tips": "-GO yo oblici su česti: tengo, vengo, salgo, hago, digo, pongo (staviti), traigo (donijeti). Zapamti kao grupu!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Vienes a la fiesta? — Dolaziš li na zabavu?",
+    "lines": [
+      { "speaker": "Carlos", "es": "Oye, ¿sabes que hay una fiesta el sábado?", "bs": "Hej, znaš li da subotom ima zabava?" },
+      { "speaker": "Ana", "es": "Sí, lo sé. ¿Vienes?", "bs": "Da, znam. Dolaziš li?" },
+      { "speaker": "Carlos", "es": "Quiero venir pero no sé a qué hora empieza.", "bs": "Hoću doći ali ne znam u koliko počinje." },
+      { "speaker": "Ana", "es": "Empieza a las nueve. ¿Conoces a los organizadores?", "bs": "Počinje u devet. Poznaješ li organizatore?" },
+      { "speaker": "Carlos", "es": "No, no los conozco. ¿Quién hace la fiesta?", "bs": "Ne, ne poznajem ih. Ko pravi zabavu?" },
+      { "speaker": "Ana", "es": "La hace mi amiga Sofía. ¿La conoces?", "bs": "Pravi je moja prijateljica Sofía. Poznaješ li je?" },
+      { "speaker": "Carlos", "es": "No. ¿A qué hora sales tú?", "bs": "Ne. U koliko sati ti izlaziš?" },
+      { "speaker": "Ana", "es": "Salgo a las ocho y media. ¿Venimos juntos?", "bs": "Izlazim u pola devet. Dolazimo li zajedno?" }
+    ]
+  },
+  "reading": {
+    "title": "Lo que sé hacer — Šta znam raditi",
+    "text_es": "Me llamo Pedro. Sé hablar tres idiomas: español, inglés y un poco de francés. También sé cocinar — hago paella los domingos. Mi amiga María sabe tocar la guitarra muy bien. Yo no sé tocar ningún instrumento. Conozco muchas ciudades de Europa — conozco París, Londres y Roma, pero no conozco Nueva York. ¿Qué sabes hacer tú?",
+    "glossary": [
+      { "es": "tocar la guitarra", "bs": "svirati gitaru" },
+      { "es": "ningún instrumento", "bs": "nijedan instrument" },
+      { "es": "la paella", "bs": "paeja (španjolsko jelo od riže)" },
+      { "es": "Europa", "bs": "Europa / Evropa" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko jezika zna Pedro?",
+        "options": ["Dva", "Tri", "Četiri"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Ko zna svirati gitaru?",
+        "options": ["Pedro", "María", "Oboje"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji grad Pedro ne poznaje?",
+        "options": ["Pariz", "London", "New York"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan yo oblik od SALIR?",
+      "options": ["salio", "salgo", "salo", "salgo"],
+      "answerIndex": 1,
+      "explanation_bs": "Yo oblik od SALIR je 'salgo' — nepravilan yo oblik."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagol koristiš: '¿___ a Juan?' (Poznaješ li Juana?)",
+      "options": ["¿Sabes", "¿Conoces", "¿Puedes", "¿Quieres"],
+      "answerIndex": 1,
+      "explanation_bs": "Za poznavanje osoba koristimo CONOCER: ¿Conoces a Juan? (sa osobnim 'a')."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo ___ (hacer) deporte cada día.",
+      "answer": "hago",
+      "acceptedAnswers": ["hago"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (saber) cocinar? (tú)",
+      "answer": "Sabes",
+      "acceptedAnswers": ["Sabes", "sabes"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Znam govoriti španski ali ne poznajem Španiju.",
+      "answer": "Sé hablar español pero no conozco España.",
+      "acceptedAnswers": ["Sé hablar español pero no conozco España.", "Sé hablar español pero no conozco España"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji yo oblik sa infinitivom",
+      "pairs": [
+        { "es": "vengo", "bs": "venir" },
+        { "es": "salgo", "bs": "salir" },
+        { "es": "hago", "bs": "hacer" },
+        { "es": "conozco", "bs": "conocer" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Sé hablar inglés pero no conozco Londres.",
+      "answer": "Sé hablar inglés pero no conozco Londres."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta znaš raditi (SABER) i koje gradove poznaješ (CONOCER).",
+      "modelAnswer_es": "Sé hablar español y cocinar. Conozco Sarajevo y Mostar."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita šta znaš raditi i koje gradove poznaješ — vježbate SABER vs CONOCER.",
+    "level": "A1",
+    "allowedGrammar": ["saber vs conocer", "salir", "venir", "hacer", "-GO yo oblici"],
+    "systemPromptHint": "Pitaj studenta: ¿Qué sabes hacer? ¿Conoces alguna ciudad española? ¿A qué hora sales del trabajo? Provjeri ispravnost SABER vs CONOCER."
+  },
+  "illustration": {
+    "prompt": "A person confidently showing skills - cooking, playing guitar, speaking different languages illustrated with speech bubbles",
+    "alt": "Osoba pokazuje vještine — kuhanje, gitara, jezici",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["saber", "conocer", "salir", "venir", "hacer", "irregular-yo", "a1", "u5"]
+  }
+}

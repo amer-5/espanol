@@ -1,0 +1,173 @@
+{
+  "id": "a1-u5-l3",
+  "level": "A1",
+  "unit": 5,
+  "lessonNumber": 3,
+  "title": "Hrana i naručivanje u restoranu",
+  "subtitle": "La comida — En el restaurante",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti vokabular za hranu i piće",
+    "Naručiti hranu u restoranu na španskom",
+    "Koristiti ME GUSTA / ME GUSTAN za preferencije"
+  ],
+  "prerequisites": ["a1-u3-l2", "a1-u4-l2", "a1-u5-l1"],
+  "vocabulary": [
+    { "es": "el desayuno / el almuerzo / la cena", "bs": "doručak / ručak / večera", "pos": "im.", "ipa": "el des.a.ˈʝu.no", "example_es": "El almuerzo es a las dos.", "example_bs": "Ručak je u dva." },
+    { "es": "la carne / el pollo", "bs": "meso / piletina", "pos": "im.", "ipa": "la ˈkar.ne/el ˈpo.ʝo", "example_es": "Quiero pollo con arroz.", "example_bs": "Hoću piletinu s rižom." },
+    { "es": "el pescado", "bs": "riba", "pos": "im. m.", "ipa": "el pes.ˈka.ðo", "example_es": "El pescado está muy rico.", "example_bs": "Riba je jako ukusna." },
+    { "es": "las verduras / la ensalada", "bs": "povrće / salata", "pos": "im.", "ipa": "las βer.ˈðu.ras", "example_es": "Pido una ensalada.", "example_bs": "Naručujem salatu." },
+    { "es": "el arroz / la pasta", "bs": "riža / tjestenina", "pos": "im.", "ipa": "el a.ˈros", "example_es": "Me gusta el arroz.", "example_bs": "Volim rižu." },
+    { "es": "el agua / el vino / la cerveza", "bs": "voda / vino / pivo", "pos": "im.", "ipa": "el ˈa.ɣwa", "example_es": "¿Qué quiere beber?", "example_bs": "Što želite piti?" },
+    { "es": "el postre", "bs": "desert", "pos": "im. m.", "ipa": "el ˈpos.tre", "example_es": "¿Hay postre?", "example_bs": "Ima li deserta?" },
+    { "es": "la cuenta", "bs": "račun", "pos": "im. ž.", "ipa": "la ˈkwen.ta", "example_es": "La cuenta, por favor.", "example_bs": "Račun, molim." },
+    { "es": "rico / sabroso", "bs": "ukusan / ukusan", "pos": "prid.", "ipa": "ˈri.ko/sa.ˈβro.so", "example_es": "¡Está muy rico!", "example_bs": "Jako je ukusno!" },
+    { "es": "pedir", "bs": "naručiti / tražiti", "pos": "glag. e→i", "ipa": "pe.ˈðir", "example_es": "¿Qué pide usted?", "example_bs": "Šta naručujete?" }
+  ],
+  "grammar": [
+    {
+      "concept": "ME GUSTA / ME GUSTAN — sviđati se",
+      "explanation_bs": "GUSTAR funkcioniše drugačije od bosanskog! 'Me gusta el café' doslovno znači 'Kafa sviđa se meni' (ne 'Volim kafu'). Glagol se slaže sa ONIM što se sviđa, ne sa osobom: **me gusta** + jednina, **me gustan** + množina. Osobe: me (meni), te (tebi), le (njemu/njoj/Vama), nos (nama), os (vama), les (njima).",
+      "table": {
+        "headers": ["Osobna zamj.", "Oblik", "Primjer"],
+        "rows": [
+          ["a mí", "me gusta/n", "Me gusta el café."],
+          ["a ti", "te gusta/n", "¿Te gustan las verduras?"],
+          ["a él/ella", "le gusta/n", "Le gusta el pescado."],
+          ["a nosotros", "nos gusta/n", "Nos gusta la paella."],
+          ["a vosotros", "os gusta/n", "¿Os gustan los postres?"],
+          ["a ellos", "les gusta/n", "Les gustan las tapas."]
+        ]
+      },
+      "examples": [
+        { "es": "Me gusta el vino.", "bs": "Sviđa mi se vino. / Volim vino. (jednina → gusta)" },
+        { "es": "Me gustan las verduras.", "bs": "Sviđa mi se povrće. / Volim povrće. (množina → gustan)" },
+        { "es": "No me gusta el pescado.", "bs": "Ne volim ribu." }
+      ],
+      "tips": "Zapamti: gusta (jd.) / gustan (mn.) prate ONO što se sviđa, ne osobu. Me gusta el libro (knjiga jd.), Me gustan los libros (knjige mn.)."
+    },
+    {
+      "concept": "PEDIR — naručivanje (e→i glagol)",
+      "explanation_bs": "PEDIR je 'e→i' nepravilan glagol: pido, pides, pide, pedimos, pedís, piden. U restoranu: 'Quiero pedir...' ili samo 'Pido...' ili 'Para mí...' (Za mene...). Uobičajeni izrazi u restoranu su: '¿Qué va a tomar?' (Što ćete uzeti?), 'De primero/segundo...' (Za prvo/drugo jelo...), 'La cuenta, por favor' (Račun, molim).",
+      "examples": [
+        { "es": "Pido la ensalada y el pollo.", "bs": "Naručujem salatu i piletinu." },
+        { "es": "Para mí, una cerveza.", "bs": "Za mene, jedno pivo." },
+        { "es": "¿Me trae la cuenta?", "bs": "Možete li mi donijeti račun?" }
+      ],
+      "tips": "Pido / quiero / me pone / para mí — sve su normalne načine naručivanja u restoranu. ¿Me trae...? = možete li mi donijeti?"
+    }
+  ],
+  "dialogue": {
+    "title": "En el restaurante — U restoranu",
+    "lines": [
+      { "speaker": "Camarero", "es": "Buenas tardes. ¿Qué van a tomar?", "bs": "Dobar dan. Što ćete uzeti?" },
+      { "speaker": "Ana", "es": "Para mí, la ensalada y el pollo con arroz.", "bs": "Za mene, salata i piletina s rižom." },
+      { "speaker": "Marko", "es": "Yo quiero el pescado. ¿Cómo está hoy?", "bs": "Ja hoću ribu. Kakva je danas?" },
+      { "speaker": "Camarero", "es": "Está muy fresco. Es del día.", "bs": "Jako je svježa. Danas je ulovljena." },
+      { "speaker": "Marko", "es": "Perfecto. Y para beber, agua por favor.", "bs": "Odlično. I za piće, vodu molim." },
+      { "speaker": "Ana", "es": "Yo quiero vino blanco. ¿Tienen vino de la casa?", "bs": "Ja hoću bijelo vino. Imate li kućno vino?" },
+      { "speaker": "Camarero", "es": "Sí, tenemos. ¿Y de postre?", "bs": "Da, imamo. A za desert?" },
+      { "speaker": "Ana", "es": "No, gracias. Solo la cuenta cuando pueda.", "bs": "Ne, hvala. Samo račun kad možete." }
+    ]
+  },
+  "reading": {
+    "title": "La comida española — Španjolska kuhinja",
+    "text_es": "La comida española es muy variada y sabrosa. Me gusta mucho la paella — es arroz con verduras, pollo o mariscos. También me gustan las tapas — son pequeños platos para compartir. Para desayunar, los españoles toman café con leche y tostadas. El almuerzo es la comida principal — suelen comer entre las dos y las tres. La cena es más ligera y a las nueve o diez de la noche.",
+    "glossary": [
+      { "es": "variada", "bs": "raznovrsna" },
+      { "es": "mariscos", "bs": "morski plodovi" },
+      { "es": "para compartir", "bs": "za dijeljenje" },
+      { "es": "suelen comer", "bs": "obično jedu" },
+      { "es": "más ligera", "bs": "lakša" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je paella?",
+        "options": ["Tjestenina s mesom", "Riža s povrćem i mesom/morskim plodovima", "Salata s ribom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada Španci jedu ručak?",
+        "options": ["U podne", "Između 14 i 15 sati", "U 17 sati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakva je večera?",
+        "options": ["Jako obilna", "Lakša od ručka", "Jednaka ručku"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'Me ___ las tapas' (množina)?",
+      "options": ["gusta", "gustan", "gustas", "gusto"],
+      "answerIndex": 1,
+      "explanation_bs": "Las tapas su množina → Me gustan las tapas."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ gusta el pescado? (tebi)",
+      "answer": "Te",
+      "acceptedAnswers": ["Te", "te"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo ___ (pedir) el pollo con arroz.",
+      "answer": "pido",
+      "acceptedAnswers": ["pido"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Volim špansku hranu, posebno tapase.",
+      "answer": "Me gusta la comida española, especialmente las tapas.",
+      "acceptedAnswers": ["Me gusta la comida española, especialmente las tapas.", "Me gustan las tapas y la comida española."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Račun, molim.",
+      "answer": "La cuenta, por favor.",
+      "acceptedAnswers": ["La cuenta, por favor.", "La cuenta por favor.", "¿Me trae la cuenta, por favor?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji obrok sa vremenom",
+      "pairs": [
+        { "es": "el desayuno", "bs": "ujutro" },
+        { "es": "el almuerzo", "bs": "oko 14:00" },
+        { "es": "la merienda", "bs": "poslijepodne (oko 17:00)" },
+        { "es": "la cena", "bs": "navečer" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Me gusta el pollo pero no me gustan las verduras.",
+      "answer": "Me gusta el pollo pero no me gustan las verduras."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Naruči obrok u restoranu — reci šta hoćeš za jelo i piće.",
+      "modelAnswer_es": "Para mí, la ensalada de primero y el pollo de segundo. Para beber, agua con gas, por favor."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Naručuješ hranu u španskom restoranu — AI igra konobara.",
+    "level": "A1",
+    "allowedGrammar": ["me gusta/gustan", "pedir", "querer + jelo", "estar + rico"],
+    "systemPromptHint": "Igraj konobara u španskom restoranu. Preporuči jela, pitaj za piće i desert. Student koristi ME GUSTA i PEDIR. Ispravi greške na kraju."
+  },
+  "illustration": {
+    "prompt": "A warm Spanish restaurant scene with tapas, paella, wine on a table, friendly waiter serving guests",
+    "alt": "Španski restoran sa tapasima i paeljom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["food", "restaurant", "me-gusta", "pedir", "a1", "u5"]
+  }
+}

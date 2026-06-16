@@ -1,0 +1,173 @@
+{
+  "id": "a1-u4-l3",
+  "level": "A1",
+  "unit": 4,
+  "lessonNumber": 3,
+  "title": "Posvojni pridjevi",
+  "subtitle": "Mi, tu, su, nuestro... — moj, tvoj, njegov...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti posvojne pridjeve (mi, tu, su, nuestro...)",
+    "Slagati posvojne pridjeve sa imenicom",
+    "Opisati šta pripada kome"
+  ],
+  "prerequisites": ["a1-u2-l2", "a1-u2-l4", "a1-u4-l1"],
+  "vocabulary": [
+    { "es": "mi / mis", "bs": "moj/moja / moji/moje", "pos": "pos. prid.", "ipa": "mi/mis", "example_es": "Mi libro está aquí.", "example_bs": "Moja knjiga je ovdje." },
+    { "es": "tu / tus", "bs": "tvoj/tvoja / tvoji/tvoje", "pos": "pos. prid.", "ipa": "tu/tus", "example_es": "¿Dónde está tu móvil?", "example_bs": "Gdje je tvoj mobitel?" },
+    { "es": "su / sus", "bs": "njegov/njen/Vaš / njihov...", "pos": "pos. prid.", "ipa": "su/sus", "example_es": "Su madre es médica.", "example_bs": "Njegova/njena majka je doktorica." },
+    { "es": "nuestro / nuestra / nuestros / nuestras", "bs": "naš/naša / naši/naše", "pos": "pos. prid.", "ipa": "ˈnwes.tro", "example_es": "Nuestro profesor es bueno.", "example_bs": "Naš profesor je dobar." },
+    { "es": "vuestro / vuestra", "bs": "vaš/vaša", "pos": "pos. prid.", "ipa": "ˈbwes.tro", "example_es": "¿Dónde está vuestra casa?", "example_bs": "Gdje je vaša kuća?" },
+    { "es": "el padre / la madre", "bs": "otac / majka", "pos": "im.", "ipa": "el ˈpa.ðre/la ˈma.ðre", "example_es": "Mi padre trabaja en Madrid.", "example_bs": "Moj otac radi u Madridu." },
+    { "es": "los padres", "bs": "roditelji", "pos": "im. mn.", "ipa": "los ˈpa.ðres", "example_es": "Mis padres son de Bosnia.", "example_bs": "Moji roditelji su iz Bosne." },
+    { "es": "el abuelo / la abuela", "bs": "djed / baka", "pos": "im.", "ipa": "el a.ˈβwe.lo", "example_es": "Mi abuelo tiene setenta años.", "example_bs": "Moj djed ima sedamdeset godina." },
+    { "es": "el hijo / la hija", "bs": "sin / kći", "pos": "im.", "ipa": "el ˈi.xo", "example_es": "Tenemos dos hijos.", "example_bs": "Imamo dvoje djece." },
+    { "es": "el amigo / la amiga", "bs": "prijatelj / prijateljica", "pos": "im.", "ipa": "el a.ˈmi.ɣo", "example_es": "Mi amiga habla español.", "example_bs": "Moja prijateljica govori španski." }
+  ],
+  "grammar": [
+    {
+      "concept": "Posvojni pridjevi — oblici",
+      "explanation_bs": "Posvojni pridjevi se slažu sa imenicom (onim što se posjeduje), ne sa posjednikom! 'Mi libro' (moja knjiga — knjiga je muška, mi ne mijenja oblik). 'Mis libros' (moje knjige — množina). Nuestro/vuestro imaju 4 oblika (kao pravi pridjevi), ali mi/tu/su imaju samo jedninu i množinu (ne mijenjaju rod).",
+      "table": {
+        "headers": ["Posjednik", "Jd. (m/ž)", "Mn. (m/ž)"],
+        "rows": [
+          ["yo", "mi (mi libro / mi casa)", "mis (mis libros / mis casas)"],
+          ["tú", "tu (tu libro / tu casa)", "tus (tus libros / tus casas)"],
+          ["él/ella/usted", "su (su libro / su casa)", "sus (sus libros / sus casas)"],
+          ["nosotros", "nuestro/nuestra", "nuestros/nuestras"],
+          ["vosotros", "vuestro/vuestra", "vuestros/vuestras"],
+          ["ellos/ustedes", "su (isti oblik!)", "sus"]
+        ]
+      },
+      "examples": [
+        { "es": "Mi hermana es alta.", "bs": "Moja sestra je visoka. (mi = isti za m/ž)" },
+        { "es": "Nuestro profesor es simpático.", "bs": "Naš profesor je simpatičan. (nuestro = muški)" },
+        { "es": "Nuestra casa es grande.", "bs": "Naša kuća je velika. (nuestra = ženski)" }
+      ],
+      "tips": "Pazi: 'tu' (bez akcenta) = posvojni tvoj; 'tú' (sa akcentom) = zamjenica ti/Vi. Uvijek piši bez akcenta kad znači 'tvoj'."
+    },
+    {
+      "concept": "Porodični odnosi",
+      "explanation_bs": "Španački vokabular za porodicu je važan za A1 nivo. Zapamti: **padres** (množina od padre = otac) znači RODITELJI (otac i majka zajedno). **Hermanos** (množina od hermano) može značiti braća ILI braća i sestre zajedno. **Los abuelos** = djed i baka (baka i djed).",
+      "examples": [
+        { "es": "Mis padres viven en Sarajevo.", "bs": "Moji roditelji žive u Sarajevu." },
+        { "es": "Tengo dos hermanos.", "bs": "Imam dva brata. (ili: brata i sestru)" },
+        { "es": "Mis abuelos son de Bosnia.", "bs": "Moji baka i djed su iz Bosne." }
+      ],
+      "tips": "Los padres = roditelji (ne samo 'očevi'). Los hermanos = braća i sestre. Los hijos = djeca (sin i kći). Isti princip za sve mješovite grupe."
+    }
+  ],
+  "dialogue": {
+    "title": "La familia — Porodica",
+    "lines": [
+      { "speaker": "Ana", "es": "¿Tienes fotos de tu familia?", "bs": "Imaš li fotografije svoje porodice?" },
+      { "speaker": "Marko", "es": "Sí, mira. Estos son mis padres.", "bs": "Da, pogledaj. Ovo su moji roditelji." },
+      { "speaker": "Ana", "es": "¿Y esta chica? ¿Es tu hermana?", "bs": "A ova djevojka? Je li to tvoja sestra?" },
+      { "speaker": "Marko", "es": "Sí, se llama Maja. Tiene veintitrés años.", "bs": "Da, zove se Maja. Ima dvadeset tri godine." },
+      { "speaker": "Ana", "es": "¿Y tus abuelos? ¿Viven con vosotros?", "bs": "A tvoji baka i djed? Žive li s vama?" },
+      { "speaker": "Marko", "es": "No, nuestros abuelos viven en el pueblo.", "bs": "Ne, naši baka i djed žive u selu." },
+      { "speaker": "Ana", "es": "¿Y tu perro? ¿Cómo se llama?", "bs": "A tvoj pas? Kako se zove?" },
+      { "speaker": "Marko", "es": "Se llama Roki. Es muy viejo pero muy simpático.", "bs": "Zove se Roki. Jako je star ali jako simpatičan." }
+    ]
+  },
+  "reading": {
+    "title": "Mi familia — Moja porodica",
+    "text_es": "Me llamo Lucía. Mi familia es pequeña pero muy unida. Mis padres viven en Valencia. Mi padre es ingeniero y mi madre es profesora. Mi hermano mayor se llama Pablo y tiene veintiocho años. Él vive con su novia en Madrid. Mis abuelos viven cerca de nuestra casa. Su apartamento está al lado del parque. Los domingos toda la familia come junta.",
+    "glossary": [
+      { "es": "unida", "bs": "složna / bliska" },
+      { "es": "mayor", "bs": "stariji" },
+      { "es": "su novia", "bs": "njegova djevojka" },
+      { "es": "junta", "bs": "zajedno" },
+      { "es": "toda la familia", "bs": "cijela porodica" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Čime se bavi Lucíina majka?",
+        "options": ["Inžinjerka je", "Profesorica je", "Doktorica je"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje živi Lucíin brat?",
+        "options": ["U Valenciji", "U Madridu", "Kod bake i djeda"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada cijela porodica jede zajedno?",
+        "options": ["Subotom", "Nedjeljom", "Svaki dan"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'naše knjige' (ženski rod, množina)?",
+      "options": ["nuestro libros", "nuestras libros", "nuestros libros", "nuestra libros"],
+      "answerIndex": 2,
+      "explanation_bs": "Libros je muški rod, množina → nuestros libros. (libros je muški, ne ženski!)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ padre trabaja en un banco. (moj)",
+      "answer": "Mi",
+      "acceptedAnswers": ["Mi", "mi"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella vive con ___ hermanos. (njeni)",
+      "answer": "sus",
+      "acceptedAnswers": ["sus"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Naš profesor je visok i simpatičan.",
+      "answer": "Nuestro profesor es alto y simpático.",
+      "acceptedAnswers": ["Nuestro profesor es alto y simpático.", "Nuestro profesor es simpático y alto."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Moja sestra ima dvadeset pet godina.",
+      "answer": "Mi hermana tiene veinticinco años.",
+      "acceptedAnswers": ["Mi hermana tiene veinticinco años.", "Mi hermana tiene veintinco años."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji posvojni pridjev sa zamjenicom",
+      "pairs": [
+        { "es": "mi/mis", "bs": "yo" },
+        { "es": "tu/tus", "bs": "tú" },
+        { "es": "nuestro/a", "bs": "nosotros" },
+        { "es": "su/sus", "bs": "él/ella/ellos" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Mis padres viven en Sarajevo y mi hermana vive en Madrid.",
+      "answer": "Mis padres viven en Sarajevo y mi hermana vive en Madrid."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju porodicu koristeći posvojne pridjeve.",
+      "modelAnswer_es": "Mi padre se llama [ime] y trabaja en [mjesto]. Mi madre es [zanimanje]. Tengo [broj] hermanos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Pričate o porodicama — AI te pita o tvojoj porodici koristeći posvojne pridjeve.",
+    "level": "A1",
+    "allowedGrammar": ["posvojni pridjevi", "tener", "ser", "estar", "-AR/-ER/-IR prezent"],
+    "systemPromptHint": "Pitaj studenta o porodici: ¿Cómo se llama tu madre? ¿Dónde viven tus padres? ¿Tienes hermanos? Provjeri ispravnost posvojnih pridjeva."
+  },
+  "illustration": {
+    "prompt": "A happy family portrait with parents, grandparents and children in a warm Spanish home setting",
+    "alt": "Sretna porodica u toplom domu",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["possessives", "family", "mi-tu-su", "nuestro", "a1", "u4"]
+  }
+}

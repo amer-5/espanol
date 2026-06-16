@@ -1,0 +1,170 @@
+{
+  "id": "a1-u4-l4",
+  "level": "A1",
+  "unit": 4,
+  "lessonNumber": 4,
+  "title": "Pokazne zamjenice i pitanja",
+  "subtitle": "Este/Esta/Ese/Esa — ¿Cuál? ¿Cuándo? ¿Por qué?",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti pokazne zamjenice (este, esta, ese, esa)",
+    "Koristiti upitne zamjenice (qué, cuál, cuándo, cómo, por qué)",
+    "Postavljati različite tipove pitanja"
+  ],
+  "prerequisites": ["a1-u2-l3", "a1-u4-l1", "a1-u4-l2", "a1-u4-l3"],
+  "vocabulary": [
+    { "es": "este / esta", "bs": "ovaj / ova (blizu)", "pos": "pok. zamj.", "ipa": "ˈes.te/ˈes.ta", "example_es": "Este libro es mío.", "example_bs": "Ova knjiga je moja." },
+    { "es": "estos / estas", "bs": "ovi / ove (blizu, množina)", "pos": "pok. zamj.", "ipa": "ˈes.tos", "example_es": "Estas mesas son nuevas.", "example_bs": "Ovi stolovi su novi." },
+    { "es": "ese / esa", "bs": "taj / ta (malo dalje)", "pos": "pok. zamj.", "ipa": "ˈe.se/ˈe.sa", "example_es": "Ese hombre es mi padre.", "example_bs": "Taj čovjek je moj otac." },
+    { "es": "esos / esas", "bs": "ti / te (malo dalje, množina)", "pos": "pok. zamj.", "ipa": "ˈe.sos", "example_es": "Esas casas son bonitas.", "example_bs": "Te kuće su lijepe." },
+    { "es": "aquel / aquella", "bs": "onaj / ona (daleko)", "pos": "pok. zamj.", "ipa": "a.ˈkel/a.ˈke.ʝa", "example_es": "Aquel edificio es el hospital.", "example_bs": "Ona zgrada je bolnica." },
+    { "es": "¿cuál / cuáles?", "bs": "koji/a? (od nekoliko)", "pos": "upit. zamj.", "ipa": "kwal", "example_es": "¿Cuál es tu libro?", "example_bs": "Koja je tvoja knjiga?" },
+    { "es": "¿cuándo?", "bs": "kada?", "pos": "upit. pril.", "ipa": "ˈkwan.do", "example_es": "¿Cuándo tienes clase?", "example_bs": "Kada imaš čas?" },
+    { "es": "¿por qué?", "bs": "zašto?", "pos": "upit.", "ipa": "por ˈke", "example_es": "¿Por qué estudias español?", "example_bs": "Zašto učiš španski?" },
+    { "es": "porque", "bs": "jer / zato što", "pos": "vez.", "ipa": "por.ˈke", "example_es": "Porque me gusta.", "example_bs": "Jer mi se sviđa." },
+    { "es": "¿cómo?", "bs": "kako?", "pos": "upit. pril.", "ipa": "ˈko.mo", "example_es": "¿Cómo te llamas?", "example_bs": "Kako se zoveš?" }
+  ],
+  "grammar": [
+    {
+      "concept": "Pokazne zamjenice — este, ese, aquel",
+      "explanation_bs": "Španski ima TRI sistema pokazivanja po udaljenosti (bosanski ima dva): **este/esta/estos/estas** = ovaj/ova (blizu mene), **ese/esa/esos/esas** = taj/ta (blizu tebe, malo dalje), **aquel/aquella/aquellos/aquellas** = onaj/ona (daleko od oboje). Slažu se u rodu i broju sa imenicom.",
+      "table": {
+        "headers": ["Udaljenost", "Muški jd.", "Ženski jd.", "Muški mn.", "Ženski mn."],
+        "rows": [
+          ["Blizu (ovaj)", "este", "esta", "estos", "estas"],
+          ["Srednje (taj)", "ese", "esa", "esos", "esas"],
+          ["Daleko (onaj)", "aquel", "aquella", "aquellos", "aquellas"]
+        ]
+      },
+      "examples": [
+        { "es": "Este libro es interesante.", "bs": "Ova knjiga je zanimljiva. (u ruci/blizu)" },
+        { "es": "Esa casa es de mi amiga.", "bs": "Ta kuća je moje prijateljice. (tamo)" },
+        { "es": "Aquel edificio es el banco.", "bs": "Ona zgrada je banka. (daleko)" }
+      ],
+      "tips": "U svakodnevnom govoru este i ese se najčešće koriste. Aquel je za vidljivo ali daleko."
+    },
+    {
+      "concept": "Upitne zamjenice — qué vs cuál",
+      "explanation_bs": "**¿Qué?** = što/šta (tražiš definiciju ili nešto novo): ¿Qué es esto? (Što je ovo?), ¿Qué haces? (Šta radiš?). **¿Cuál?** = koji/koja (biraš između poznatih opcija): ¿Cuál es tu libro? (Koji je tvoj? — od ovih). **¿Cuándo?** = kada, **¿Por qué?** = zašto (odgovor: porque = jer), **¿Cómo?** = kako.",
+      "examples": [
+        { "es": "¿Qué es un abogado?", "bs": "Što je advokat? (definicija)" },
+        { "es": "¿Cuál es tu número de teléfono?", "bs": "Koji je tvoj broj telefona? (tvoj, od svih)" },
+        { "es": "¿Por qué estudias español? — Porque me gusta.", "bs": "Zašto učiš španski? — Jer mi se sviđa." }
+      ],
+      "tips": "Zapamti: ¿Qué? = traži definiciju ili radnju. ¿Cuál? = bira između opcija ili traži specifično. ¿Cuál es la capital de España? (ne Qué!)"
+    }
+  ],
+  "dialogue": {
+    "title": "En la tienda de ropa — U radnji odjeće",
+    "lines": [
+      { "speaker": "Cliente", "es": "Perdona, ¿cuánto cuesta esta camiseta?", "bs": "Oprosti, koliko košta ova majica?" },
+      { "speaker": "Dependienta", "es": "¿Cuál? ¿Esta roja o esa azul?", "bs": "Koja? Ova crvena ili ta plava?" },
+      { "speaker": "Cliente", "es": "Esta roja. ¿De qué talla es?", "bs": "Ova crvena. Kojeg je broja?" },
+      { "speaker": "Dependienta", "es": "Es una M. ¿Por qué? ¿Necesitas otra talla?", "bs": "M je broj. Zašto? Trebaš li drugu veličinu?" },
+      { "speaker": "Cliente", "es": "Sí, porque soy grande. ¿Tienen una L?", "bs": "Da, jer sam krupan/na. Imate li L?" },
+      { "speaker": "Dependienta", "es": "Sí, aquella camiseta de allí es una L.", "bs": "Da, ona majica tamo je L veličina." },
+      { "speaker": "Cliente", "es": "¿Cuándo abren mañana?", "bs": "Kada ste sutra otvoreni?" },
+      { "speaker": "Dependienta", "es": "Abrimos a las diez de la mañana.", "bs": "Otvaramo u deset ujutro." }
+    ]
+  },
+  "reading": {
+    "title": "¿Por qué aprendo español? — Zašto učim španski?",
+    "text_es": "Me llamo Amina. Estudio español porque quiero viajar a España. ¿Cuál es mi razón principal? ¡La cultura! Me gustan mucho la música, la comida y la arquitectura española. Este año voy a Barcelona en verano. ¿Cuándo? En julio. Ese mes hace mucho calor pero no importa. Aquel país tiene muchas cosas interesantes.",
+    "glossary": [
+      { "es": "quiero viajar", "bs": "hoću putovati" },
+      { "es": "razón principal", "bs": "glavni razlog" },
+      { "es": "arquitectura", "bs": "arhitektura" },
+      { "es": "hace mucho calor", "bs": "jako je vruće" },
+      { "es": "no importa", "bs": "nije važno" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto Amina uči španski?",
+        "options": ["Zbog posla", "Zbog putovanja u Španiju", "Zbog škole"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada ide u Barcelonu?",
+        "options": ["U junu", "U julu", "U augustu"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što joj se sviđa u Španiji?",
+        "options": ["Samo muzika", "Muzika, hrana i arhitektura", "Samo hrana"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'one kuće' (daleko — ženski, množina)?",
+      "options": ["esos casas", "aquellas casas", "estas casas", "esas casas"],
+      "answerIndex": 1,
+      "explanation_bs": "Daleko + ženski + množina = aquellas. Casas su ženske, daleko → aquellas casas."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje pitanje koristiš za 'Koji je tvoj broj telefona?'",
+      "options": ["¿Qué es tu número?", "¿Cuál es tu número?", "¿Cómo es tu número?", "¿Cuándo es tu número?"],
+      "answerIndex": 1,
+      "explanation_bs": "¿Cuál? se koristi kad biraš/tražiš specifično, a ne kad tražiš definiciju."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ libro de allí es de mi hermano. (onaj — daleko, muški)",
+      "answer": "Aquel",
+      "acceptedAnswers": ["Aquel", "aquel"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ estudias español? — Porque me gusta. (zašto)",
+      "answer": "Por qué",
+      "acceptedAnswers": ["Por qué", "por qué", "Por que", "por que"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zašto ne radiš danas?",
+      "answer": "¿Por qué no trabajas hoy?",
+      "acceptedAnswers": ["¿Por qué no trabajas hoy?", "Por qué no trabajas hoy?", "¿Por qué no trabaja hoy?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji pokaznu zamjenicu sa udaljenošću",
+      "pairs": [
+        { "es": "este/esta", "bs": "ovaj/ova (blizu mene)" },
+        { "es": "ese/esa", "bs": "taj/ta (malo dalje)" },
+        { "es": "aquel/aquella", "bs": "onaj/ona (daleko)" },
+        { "es": "estos/estas", "bs": "ovi/ove (blizu, množina)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "¿Por qué estudias español? Porque quiero viajar a España.",
+      "answer": "¿Por qué estudias español? Porque quiero viajar a España."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Odgovori: ¿Por qué estudias español? (daj najmanje dvije rečenice)",
+      "modelAnswer_es": "Estudio español porque me gusta la cultura española. También quiero hablar con personas de España y Latinoamérica."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Kupujete u radnji — AI igra prodavača, koristite pokazne zamjenice i pitanja.",
+    "level": "A1",
+    "allowedGrammar": ["pokazne zamjenice", "upitne zamjenice", "estar", "cuánto cuesta"],
+    "systemPromptHint": "Igraj prodavača u radnji. Student koristi este/ese/aquel i pita za cijene. Postavljaj pitanja poput ¿Cuál te gusta más? ¿Por qué? Ispravi greške u pokaznim zamjenicama."
+  },
+  "illustration": {
+    "prompt": "A clothing store with a customer pointing at different items near and far, showing demonstrative pronouns visually",
+    "alt": "Radnja odjeće sa kupcima koji pokazuju na različite predmete",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["demonstratives", "question-words", "este-ese-aquel", "cuál-qué", "a1", "u4"]
+  }
+}

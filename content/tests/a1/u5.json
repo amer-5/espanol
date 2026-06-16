@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u5",
+  "level": "A1",
+  "unit": 5,
+  "title": "Test — Jedinica 5: Planovi, hrana i priroda",
+  "cumulative": true,
+  "timeLimitMinutes": 12,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan yo oblik od SALIR?",
+      "options": ["salo", "salio", "salgo", "sale"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a1-u5-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ gustan las tapas. (meni)",
+      "answer": "Me",
+      "acceptedAnswers": ["Me", "me"],
+      "points": 2,
+      "lessonId": "a1-u5-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Večeras ćemo ići u restoran — znaš li jedan dobar?",
+      "answer": "Esta noche vamos a ir a un restaurante — ¿conoces uno bueno?",
+      "acceptedAnswers": ["Esta noche vamos a ir a un restaurante — ¿conoces uno bueno?", "Esta noche vamos a ir al restaurante — ¿conoces uno bueno?"],
+      "points": 3,
+      "lessonId": "a1-u5-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan izraz za 'sunčano je'?",
+      "options": ["Está sol", "Es sol", "Hace sol", "Hay sol"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a1-u5-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo ___ (saber) cocinar pero no ___ (conocer) muchos restaurantes.",
+      "answer": "sé, conozco",
+      "acceptedAnswers": ["sé, conozco", "se, conozco"],
+      "points": 2,
+      "lessonId": "a1-u5-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Moj rođendan je dvadesetog februara.",
+      "answer": "Mi cumpleaños es el veinte de febrero.",
+      "acceptedAnswers": ["Mi cumpleaños es el veinte de febrero.", "Mi cumpleaños es el 20 de febrero."],
+      "points": 2,
+      "lessonId": "a1-u5-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (querer) pedir el pescado.",
+      "answer": "quiere",
+      "acceptedAnswers": ["quiere"],
+      "points": 2,
+      "lessonId": "a1-u5-l1"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "En invierno hace mucho frío y nieva, pero me gusta el invierno.",
+      "answer": "En invierno hace mucho frío y nieva, pero me gusta el invierno.",
+      "points": 3,
+      "lessonId": "a1-u5-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Hoćeš li doći na zabavu u subotu?",
+      "answer": "¿Quieres venir a la fiesta el sábado?",
+      "acceptedAnswers": ["¿Quieres venir a la fiesta el sábado?", "¿Vienes a la fiesta el sábado?"],
+      "points": 2,
+      "lessonId": "a1-u5-l2"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 3–5 rečenica o svom omiljenom godišnjem dobu: kakvo je vrijeme, šta radiš, šta ješ/piješ, kamo ideš. Koristi IR + a, ME GUSTA i vremenske prilike.",
+      "minWords": 22,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: IR + a + infinitiv (2), ME GUSTA/N ispravno (2), vremenske prilike (2), glagolske konjugacije (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a1-u5-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u5-l1", "topic": "IR, QUERER, PODER — konjugacija i IR + a + infinitiv" },
+    { "lessonId": "a1-u5-l2", "topic": "SABER vs CONOCER, SALIR, VENIR, HACER — yo oblici" },
+    { "lessonId": "a1-u5-l3", "topic": "Hrana, restoran, ME GUSTA/GUSTAN, PEDIR" },
+    { "lessonId": "a1-u5-l4", "topic": "Mjeseci, godišnja doba, HACE + vremenska stanja" }
+  ]
+}

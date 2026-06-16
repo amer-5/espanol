@@ -1,0 +1,194 @@
+{
+  "id": "a1-u5-l1",
+  "level": "A1",
+  "unit": 5,
+  "lessonNumber": 1,
+  "title": "Nepravilni glagoli u prezentu (I)",
+  "subtitle": "IR, QUERER, PODER — ići, htjeti, moći",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati glagol IR (ići) u prezentu",
+    "Konjugirati glagole QUERER i PODER",
+    "Koristiti IR + a + infinitiv za buduće planove"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u3-l1", "a1-u3-l2", "a1-u4-l2"],
+  "vocabulary": [
+    { "es": "ir", "bs": "ići", "pos": "glag. neprav.", "ipa": "ir", "example_es": "Voy al trabajo.", "example_bs": "Idem na posao." },
+    { "es": "querer", "bs": "htjeti / željeti", "pos": "glag. e→ie", "ipa": "ke.ˈrer", "example_es": "Quiero aprender español.", "example_bs": "Hoću/Želim naučiti španski." },
+    { "es": "poder", "bs": "moći", "pos": "glag. o→ue", "ipa": "po.ˈðer", "example_es": "¿Puedes ayudarme?", "example_bs": "Možeš li mi pomoći?" },
+    { "es": "volver", "bs": "vratiti se / vraćati se", "pos": "glag. o→ue", "ipa": "bol.ˈβer", "example_es": "Vuelvo a las seis.", "example_bs": "Vraćam se u šest." },
+    { "es": "ir de compras", "bs": "ići u kupovinu", "pos": "izr.", "ipa": "ir ðe ˈkom.pras", "example_es": "Voy de compras el sábado.", "example_bs": "Idem u kupovinu subotom." },
+    { "es": "ir al médico", "bs": "ići kod doktora", "pos": "izr.", "ipa": "ir al ˈme.ði.ko", "example_es": "Tengo que ir al médico.", "example_bs": "Moram ići kod doktora." },
+    { "es": "el supermercado", "bs": "supermarket", "pos": "im. m.", "ipa": "su.per.mer.ˈka.ðo", "example_es": "Voy al supermercado.", "example_bs": "Idem u supermarket." },
+    { "es": "el parque", "bs": "park", "pos": "im. m.", "ipa": "el ˈpar.ke", "example_es": "Vamos al parque.", "example_bs": "Idemo u park." },
+    { "es": "mañana", "bs": "sutra / ujutro", "pos": "pril./im. ž.", "ipa": "ma.ˈɲa.na", "example_es": "Mañana voy al gimnasio.", "example_bs": "Sutra idem u teretanu." },
+    { "es": "esta noche", "bs": "večeras", "pos": "izr.", "ipa": "ˈes.ta ˈno.tʃe", "example_es": "Esta noche veo una película.", "example_bs": "Večeras gledam film." }
+  ],
+  "grammar": [
+    {
+      "concept": "Glagol IR (ići) — potpuno nepravilan",
+      "explanation_bs": "IR je jedan od najpotrebnijih ali i najnepravilnijih glagola. Oblici: voy, vas, va, vamos, vais, van. Nijedan oblik ne izgleda kao 'ir'! Sa IR se koristi prijedlog **a**: 'Voy a la tienda' (Idem u prodavnicu). A + el = al: 'Voy al banco' (ne: a el banco).",
+      "table": {
+        "headers": ["Zamjenica", "IR", "Primjer"],
+        "rows": [
+          ["yo", "voy", "Voy al trabajo."],
+          ["tú", "vas", "¿Adónde vas?"],
+          ["él/ella", "va", "Va al médico."],
+          ["nosotros", "vamos", "Vamos al parque."],
+          ["vosotros", "vais", "¿Vais al cine?"],
+          ["ellos/ustedes", "van", "Van de compras."]
+        ]
+      },
+      "examples": [
+        { "es": "¿Adónde vas esta tarde?", "bs": "Kamo ideš ovog poslijepodneva?" },
+        { "es": "Vamos al supermercado.", "bs": "Idemo u supermarket." },
+        { "es": "Ella va al gimnasio cada día.", "bs": "Ona ide u teretanu svaki dan." }
+      ],
+      "tips": "¿Dónde? = gdje (si), ¿Adónde? = kamo (ideš). Vamos! bez 'a' = Hajdemo!"
+    },
+    {
+      "concept": "IR + a + infinitiv — bliska budućnost",
+      "explanation_bs": "Kao u engleskom 'going to', u španskom koristimo 'ir + a + infinitiv' za planove i bliske buduće radnje. Primjer: 'Voy a estudiar esta noche' = Večeras ću učiti (planiram). Ovo je najčešći način izražavanja budućnosti na A1 nivou — prostom futurom ćemo se baviti na višim nivoima.",
+      "examples": [
+        { "es": "Voy a comer pizza esta noche.", "bs": "Večeras ću jesti picu. (planiram)" },
+        { "es": "¿Qué vas a hacer mañana?", "bs": "Šta ćeš raditi sutra?" },
+        { "es": "Vamos a estudiar juntos.", "bs": "Učit ćemo zajedno." }
+      ],
+      "tips": "Voy a... + infinitiv = futur / planovi. Infinitiv se NE konjugira: 'Voy a comer' (ne: 'Voy a como')."
+    },
+    {
+      "concept": "QUERER i PODER — e→ie i o→ue izmjene",
+      "explanation_bs": "Ovi glagoli su 'e→ie' (querer) i 'o→ue' (poder) nepravilni. Promjena se dešava u svim oblicima OSIM nosotros/vosotros: quiero, quieres, quiere, queremos, queréis, quieren. Mogu se koristiti sa infinitivom: 'Quiero comer' (Hoću jesti), 'Puedo ayudar' (Mogu pomoći).",
+      "table": {
+        "headers": ["Zamjenica", "QUERER", "PODER"],
+        "rows": [
+          ["yo", "quiero", "puedo"],
+          ["tú", "quieres", "puedes"],
+          ["él/ella", "quiere", "puede"],
+          ["nosotros", "queremos", "podemos"],
+          ["vosotros", "queréis", "podéis"],
+          ["ellos", "quieren", "pueden"]
+        ]
+      },
+      "examples": [
+        { "es": "Quiero ir al cine esta noche.", "bs": "Hoću ići u kino večeras." },
+        { "es": "¿Puedes hablar más despacio?", "bs": "Možeš li govoriti sporije?" },
+        { "es": "No podemos ir — estamos ocupados.", "bs": "Ne možemo ići — zauzeti smo." }
+      ],
+      "tips": "Nosotros/vosotros NEMA izmjenu: queremos (ne: querimos), podemos (ne: puedemos)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué vas a hacer? — Šta ćeš raditi?",
+    "lines": [
+      { "speaker": "Ana", "es": "¿Qué vas a hacer esta tarde?", "bs": "Šta ćeš raditi ovog poslijepodneva?" },
+      { "speaker": "Marko", "es": "Voy al supermercado y después vuelvo a casa.", "bs": "Idem u supermarket i onda se vraćam kući." },
+      { "speaker": "Ana", "es": "¿Puedes ir conmigo? Quiero comprar muchas cosas.", "bs": "Možeš li ići sa mnom? Hoću kupiti puno stvari." },
+      { "speaker": "Marko", "es": "Sí, puedo. ¿Adónde vas después?", "bs": "Da, mogu. Kamo ideš poslije?" },
+      { "speaker": "Ana", "es": "Voy a ir al cine. ¿Quieres venir?", "bs": "Ići ću u kino. Hoćeš li doći?" },
+      { "speaker": "Marko", "es": "No puedo — tengo que estudiar.", "bs": "Ne mogu — moram učiti." },
+      { "speaker": "Ana", "es": "¡Qué pena! ¿Y mañana? ¿Qué vas a hacer?", "bs": "Šteta! A sutra? Šta ćeš raditi?" },
+      { "speaker": "Marko", "es": "Mañana voy a descansar todo el día.", "bs": "Sutra ću se odmarati cijeli dan." }
+    ]
+  },
+  "reading": {
+    "title": "Los planes del fin de semana — Vikend planovi",
+    "text_es": "Este fin de semana tengo muchos planes. El sábado por la mañana voy a ir al gimnasio. Después voy de compras con mi madre. Por la tarde queremos ir al cine — hay una película nueva que quiero ver. El domingo vamos a comer con los abuelos. Mi hermana no puede venir porque tiene que trabajar. ¿Qué vas a hacer tú este fin de semana?",
+    "glossary": [
+      { "es": "fin de semana", "bs": "vikend" },
+      { "es": "el gimnasio", "bs": "teretana" },
+      { "es": "una película nueva", "bs": "novi film" },
+      { "es": "no puede venir", "bs": "ne može doći" },
+      { "es": "tiene que trabajar", "bs": "mora raditi" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta planira subotom ujutro?",
+        "options": ["Ići u kupovinu", "Ići u teretanu", "Ići u kino"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto sestra ne može doći u nedjelju?",
+        "options": ["Jer je bolesna", "Jer mora raditi", "Jer ide na putovanje"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta rade nedjeljom?",
+        "options": ["Idu u kino", "Jedu kod bake i djeda", "Idu u park"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik IR za 'tú'?",
+      "options": ["ires", "vás", "vas", "iba"],
+      "answerIndex": 2,
+      "explanation_bs": "Tú oblik od IR je 'vas' — potpuno nepravilan."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ a hacer esta noche? (Šta ćeš raditi — ¿Qué vas...?)",
+      "answer": "Qué vas",
+      "acceptedAnswers": ["Qué vas", "qué vas"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (querer) ir al cine.",
+      "answer": "quiere",
+      "acceptedAnswers": ["quiere"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Večeras ćemo jesti zajedno.",
+      "answer": "Esta noche vamos a comer juntos.",
+      "acceptedAnswers": ["Esta noche vamos a comer juntos.", "Vamos a comer juntos esta noche."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ne mogu doći jer sam zauzet.",
+      "answer": "No puedo venir porque estoy ocupado.",
+      "acceptedAnswers": ["No puedo venir porque estoy ocupado.", "No puedo venir porque estoy ocupada.", "No puedo ir porque estoy ocupado."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji zamjenicu sa oblikom QUERER",
+      "pairs": [
+        { "es": "yo", "bs": "quiero" },
+        { "es": "tú", "bs": "quieres" },
+        { "es": "ella", "bs": "quiere" },
+        { "es": "ellos", "bs": "quieren" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Mañana voy a ir al médico porque estoy enfermo.",
+      "answer": "Mañana voy a ir al médico porque estoy enfermo."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta planiraš raditi ovog vikenda (koristi IR + a + infinitiv).",
+      "modelAnswer_es": "Este fin de semana voy a descansar y voy a leer un libro. El domingo vamos a comer con la familia."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Razgovarate o vikend planovima — AI te pita šta planiraš, ti pitaš o njenim/njegovim planovima.",
+    "level": "A1",
+    "allowedGrammar": ["ir + a + infinitiv", "querer + infinitiv", "poder + infinitiv", "-AR/-ER/-IR prezent"],
+    "systemPromptHint": "Pitaj studenta o vikend planovima: ¿Qué vas a hacer? ¿Quieres ir al cine? ¿Puedes venir? Koristi samo A1 vokabular."
+  },
+  "illustration": {
+    "prompt": "A weekend planning scene with a calendar, movie tickets, shopping bags and a park in background, sunny Spanish day",
+    "alt": "Vikend planiranje — kino, kupovina, park",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["ir", "querer", "poder", "ir-a-infinitive", "future-plans", "a1", "u5"]
+  }
+}

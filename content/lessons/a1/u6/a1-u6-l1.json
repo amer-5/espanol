@@ -1,0 +1,172 @@
+{
+  "id": "a1-u6-l1",
+  "level": "A1",
+  "unit": 6,
+  "lessonNumber": 1,
+  "title": "Tijelo i zdravlje",
+  "subtitle": "El cuerpo y la salud — Me duele...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti nazive dijelova tijela na španskom",
+    "Reći šta te boli koristeći ME DUELE",
+    "Opisati zdravstveno stanje i ići kod doktora"
+  ],
+  "prerequisites": ["a1-u4-l2", "a1-u5-l1", "a1-u5-l3"],
+  "vocabulary": [
+    { "es": "la cabeza", "bs": "glava", "pos": "im. ž.", "ipa": "la ka.ˈβe.θa", "example_es": "Me duele la cabeza.", "example_bs": "Boli me glava." },
+    { "es": "la garganta / la nariz", "bs": "grlo / nos", "pos": "im. ž./ž.", "ipa": "la ɡar.ˈɡan.ta", "example_es": "Tengo la garganta mal.", "example_bs": "Boli me grlo." },
+    { "es": "el estómago / el pecho", "bs": "stomak / grudi", "pos": "im. m.", "ipa": "el es.ˈto.ma.ɡo", "example_es": "Me duele el estómago.", "example_bs": "Boli me stomak." },
+    { "es": "el brazo / la pierna", "bs": "ruka (od ramena) / noga", "pos": "im.", "ipa": "el ˈbra.θo/la ˈpjer.na", "example_es": "Me duele el brazo.", "example_bs": "Boli me ruka." },
+    { "es": "la mano / el pie", "bs": "šaka / stopalo", "pos": "im.", "ipa": "la ˈma.no/el ˈpje", "example_es": "Me duele el pie.", "example_bs": "Boli me stopalo." },
+    { "es": "el ojo / el oído", "bs": "oko / uho (sluh/bol)", "pos": "im. m.", "ipa": "el ˈo.xo/el o.ˈi.ðo", "example_es": "Me duele el oído.", "example_bs": "Boli me uho." },
+    { "es": "la espalda / el cuello", "bs": "leđa / vrat", "pos": "im. ž./m.", "ipa": "la es.ˈpal.da", "example_es": "Tengo dolor de espalda.", "example_bs": "Imam bolove u leđima." },
+    { "es": "la fiebre", "bs": "temperatura / groznica", "pos": "im. ž.", "ipa": "la ˈfje.βre", "example_es": "Tengo fiebre.", "example_bs": "Imam temperaturu." },
+    { "es": "el médico / el hospital", "bs": "doktor / bolnica", "pos": "im.", "ipa": "el ˈme.ði.ko", "example_es": "Voy al médico.", "example_bs": "Idem kod doktora." },
+    { "es": "la medicina / el medicamento", "bs": "lijek", "pos": "im. ž.", "ipa": "la me.ði.ˈθi.na", "example_es": "Tomo la medicina.", "example_bs": "Uzimam lijek." }
+  ],
+  "grammar": [
+    {
+      "concept": "ME DUELE / ME DUELEN — boli me",
+      "explanation_bs": "DOLER (boljeti) funkcioniše kao GUSTAR — slaže se s onim što boli, ne s osobom. **Me duele** + jedan dio tijela, **me duelen** + više dijelova. Osobe: me (mene), te (tebe), le (njega/nju), nos (nas), os (vas), les (njih).",
+      "table": {
+        "headers": ["Primjer", "Objašnjenje"],
+        "rows": [
+          ["Me duele la cabeza.", "Boli me glava. (jednina)"],
+          ["Me duelen los pies.", "Bole me noge. (množina)"],
+          ["Le duele la espalda.", "Bole ga/je leđa."],
+          ["¿Te duele el estómago?", "Boli li te stomak?"]
+        ]
+      },
+      "examples": [
+        { "es": "Me duele mucho la cabeza.", "bs": "Jako me boli glava." },
+        { "es": "Le duelen las piernas.", "bs": "Bole ga/je noge." },
+        { "es": "¿Dónde te duele?", "bs": "Gdje te boli?" }
+      ],
+      "tips": "DUELE (jd.) / DUELEN (mn.) — prate tijelo, ne osobu. Tengo dolor de + tijelo je alternativa: 'Tengo dolor de cabeza' = boli me glava."
+    },
+    {
+      "concept": "TENER + zdravstvena stanja",
+      "explanation_bs": "Mnoga zdravstvena stanja se izražavaju sa TENER (imati): tengo fiebre (imam temperaturu), tengo tos (imam kašalj), tengo resfriado (prehlađen/a sam), tengo náuseas (muka mi je). Ovo je razlika od bosanskog gdje kažemo 'ja sam prehlađen', ali u španskom 'tengo resfriado' (imam prehladu).",
+      "examples": [
+        { "es": "Tengo fiebre y tos.", "bs": "Imam temperaturu i kašalj." },
+        { "es": "Estoy resfriado/a.", "bs": "Prehlađen/a sam. (ESTAR za stanje)" },
+        { "es": "Me encuentro mal.", "bs": "Loše se osjećam." }
+      ],
+      "tips": "I TENER i ESTAR se koriste za bolesti: Tengo gripe / Estoy enfermo — oba su ispravna."
+    }
+  ],
+  "dialogue": {
+    "title": "En el médico — Kod doktora",
+    "lines": [
+      { "speaker": "Médico", "es": "Buenos días. ¿Cómo se encuentra?", "bs": "Dobro jutro. Kako se osjećate?" },
+      { "speaker": "Paciente", "es": "No me encuentro bien. Me duele mucho la cabeza y tengo fiebre.", "bs": "Ne osjećam se dobro. Jako me boli glava i imam temperaturu." },
+      { "speaker": "Médico", "es": "¿Desde cuándo?", "bs": "Od kada?" },
+      { "speaker": "Paciente", "es": "Desde ayer por la tarde. También tengo tos.", "bs": "Od jučer poslijepodne. Imam i kašalj." },
+      { "speaker": "Médico", "es": "Voy a examinarle. ¿Le duele la garganta?", "bs": "Pregledaću vas. Boli li vas grlo?" },
+      { "speaker": "Paciente", "es": "Sí, un poco. Y me duele el cuerpo.", "bs": "Da, malo. I bole me kosti/tijelo." },
+      { "speaker": "Médico", "es": "Tiene gripe. Debe descansar y tomar este medicamento.", "bs": "Imate gripu. Morate se odmarati i uzimati ovaj lijek." },
+      { "speaker": "Paciente", "es": "¿Cuántas veces al día?", "bs": "Koliko puta dnevno?" },
+      { "speaker": "Médico", "es": "Tres veces — mañana, tarde y noche.", "bs": "Tri puta — ujutro, poslijepodne i navečer." }
+    ]
+  },
+  "reading": {
+    "title": "Un día enfermo — Bolestan dan",
+    "text_es": "Hoy no puedo ir al trabajo porque estoy enfermo. Me duele la cabeza y tengo fiebre. También me duele la garganta — no puedo comer ni beber bien. Mi madre dice que debo ir al médico. El médico dice que tengo gripe. Me receta un medicamento y me dice que debo descansar tres días. No puedo salir de casa. Estoy muy aburrido pero sé que es necesario.",
+    "glossary": [
+      { "es": "ni... ni", "bs": "ni... ni" },
+      { "es": "me receta", "bs": "prepisuje mi (recept)" },
+      { "es": "debo descansar", "bs": "moram se odmarati" },
+      { "es": "es necesario", "bs": "potrebno je" },
+      { "es": "aburrido", "bs": "dosadan/dosađuje mi se" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto ne može ići na posao?",
+        "options": ["Jer ima sastanak", "Jer je bolestan", "Jer pada kiša"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta mu doktor prepisuje?",
+        "options": ["Odmor i vodu", "Lijek i odmor 3 dana", "Odlazak u bolnicu"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako se osjeća kod kuće?",
+        "options": ["Sretno", "Dosadno", "Dobro"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'Me ___ los pies'?",
+      "options": ["duele", "duelen", "dueles", "dolor"],
+      "answerIndex": 1,
+      "explanation_bs": "Los pies su množina → Me duelen los pies."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Tengo ___ y no puedo hablar bien. (kašalj)",
+      "answer": "tos",
+      "acceptedAnswers": ["tos"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ duele la espalda. (njemu)",
+      "answer": "Le",
+      "acceptedAnswers": ["Le", "le"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Boli me glava i imam temperaturu.",
+      "answer": "Me duele la cabeza y tengo fiebre.",
+      "acceptedAnswers": ["Me duele la cabeza y tengo fiebre.", "Tengo fiebre y me duele la cabeza."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ne osjećam se dobro, moram ići kod doktora.",
+      "answer": "No me encuentro bien, tengo que ir al médico.",
+      "acceptedAnswers": ["No me encuentro bien, tengo que ir al médico.", "No me siento bien, tengo que ir al médico."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji dio tijela sa španskim nazivom",
+      "pairs": [
+        { "es": "la cabeza", "bs": "glava" },
+        { "es": "el estómago", "bs": "stomak" },
+        { "es": "la espalda", "bs": "leđa" },
+        { "es": "el oído", "bs": "uho" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Me duele la cabeza y tengo fiebre desde ayer.",
+      "answer": "Me duele la cabeza y tengo fiebre desde ayer."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Zamisli da si kod doktora — reci šta te boli i kakve simptome imaš.",
+      "modelAnswer_es": "Doctor, me duele la garganta y tengo fiebre. También tengo tos desde hace dos días."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI igra doktora — opišeš simptome i doktor pita pitanja i daje savjete.",
+    "level": "A1",
+    "allowedGrammar": ["me duele/duelen", "tener + bolest", "estar enfermo", "tener que + infinitiv"],
+    "systemPromptHint": "Igraj doktora. Student opisuje simptome. Pitaj: ¿Dónde le duele? ¿Desde cuándo? ¿Tiene fiebre? Prepiši odmor i lijek. Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "A doctor's office with a patient pointing to their head, friendly Spanish doctor with a stethoscope",
+    "alt": "Doktor i pacijent — kod doktora",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["body-parts", "health", "me-duele", "illness", "a1", "u6"]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "a1-u6-l2",
+  "level": "A1",
+  "unit": 6,
+  "lessonNumber": 2,
+  "title": "Odjeća i kupovina",
+  "subtitle": "La ropa y las compras",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti nazive odjeće na španskom",
+    "Opisati odjeću bojama i pridjjevima",
+    "Kupovati odjeću — veličine, cijene, povrat"
+  ],
+  "prerequisites": ["a1-u3-l4", "a1-u4-l1", "a1-u4-l4"],
+  "vocabulary": [
+    { "es": "la camiseta / la camisa", "bs": "majica / košulja", "pos": "im. ž.", "ipa": "la ka.mi.ˈse.ta", "example_es": "Esta camiseta es bonita.", "example_bs": "Ova majica je lijepa." },
+    { "es": "los pantalones / los vaqueros", "bs": "pantalone / traperice", "pos": "im. mn.", "ipa": "los pan.ta.ˈlo.nes", "example_es": "Llevo pantalones azules.", "example_bs": "Nosim plave pantalone." },
+    { "es": "el vestido / la falda", "bs": "haljina / suknja", "pos": "im.", "ipa": "el βes.ˈti.ðo", "example_es": "Ella lleva un vestido rojo.", "example_bs": "Ona nosi crvenu haljinu." },
+    { "es": "los zapatos / las botas", "bs": "cipele / čizme", "pos": "im. mn.", "ipa": "los θa.ˈpa.tos", "example_es": "Estos zapatos son cómodos.", "example_bs": "Ove cipele su udobne." },
+    { "es": "el abrigo / la chaqueta", "bs": "kaput / jakna", "pos": "im.", "ipa": "el a.ˈβri.ɣo", "example_es": "Necesito un abrigo para el invierno.", "example_bs": "Trebam kaput za zimu." },
+    { "es": "la talla / el número", "bs": "veličina (odjeća) / broj (cipele)", "pos": "im. ž./m.", "ipa": "la ˈta.ʝa", "example_es": "¿Qué talla usa?", "example_bs": "Koji broj nosite?" },
+    { "es": "llevar / vestir", "bs": "nositi (odjeću) / oblačiti", "pos": "glag.", "ipa": "ʝe.ˈβar", "example_es": "Hoy llevo una camisa azul.", "example_bs": "Danas nosim plavu košulju." },
+    { "es": "el probador", "bs": "kabina za presvlačenje", "pos": "im. m.", "ipa": "el pro.βa.ˈðor", "example_es": "¿Puedo usar el probador?", "example_bs": "Mogu li koristiti kabinu?" },
+    { "es": "quedar bien / quedar mal", "bs": "dobro stajati / loše stajati", "pos": "izr.", "ipa": "ke.ˈðar bien", "example_es": "Esta camisa me queda bien.", "example_bs": "Ova košulja mi dobro stoji." },
+    { "es": "el descuento / las rebajas", "bs": "popust / rasprodaja", "pos": "im.", "ipa": "el des.ˈkwen.to", "example_es": "¿Tienen descuento?", "example_bs": "Imate li popust?" }
+  ],
+  "grammar": [
+    {
+      "concept": "Boje kao pridjevi",
+      "explanation_bs": "Boje su pridjevi i moraju se slagati s imenicom: rojo/roja/rojos/rojas (crven/a/i/e). Posebno: boje koje ne završavaju na -o/-a ostaju iste za muški i ženski ali dobivaju -s za množinu: azul (plav) → azules, verde (zelen) → verdes, gris (siv) → grises. NARANJA i ROSA su NEPROMJENLJIVE (invariable) — ostaju iste za sve rodove i brojeve!",
+      "table": {
+        "headers": ["Boja", "Muški jd.", "Ženski jd.", "Množina"],
+        "rows": [
+          ["crvena", "rojo", "roja", "rojos/rojas"],
+          ["plava", "azul", "azul", "azules"],
+          ["zelena", "verde", "verde", "verdes"],
+          ["siva", "gris", "gris", "grises"],
+          ["bijela", "blanco", "blanca", "blancos/blancas"],
+          ["crna", "negro", "negra", "negros/negras"],
+          ["narandžasta", "naranja", "naranja", "naranja (ne mijenja!)"],
+          ["roza", "rosa", "rosa", "rosa (ne mijenja!)"]
+        ]
+      },
+      "examples": [
+        { "es": "Unos pantalones rojos.", "bs": "Crvene pantalone." },
+        { "es": "Una camisa azul.", "bs": "Plava košulja." },
+        { "es": "Unas flores rosas.", "bs": "Roze cvijeće. (rosa ne mijenja!)" }
+      ],
+      "tips": "Naranja i rosa nikad ne dodaju -s ni ne mijenjaju oblik: una camiseta naranja, unas camisetas naranja."
+    },
+    {
+      "concept": "QUEDAR — stajati (za odjeću)",
+      "explanation_bs": "QUEDAR se koristi za odjeću poput GUSTAR. 'Me queda bien/mal' = dobro/loše mi stoji. Slaže se s odjećom: 'La camisa me queda grande' (Košulja mi je prevelika). Veličine: me queda grande (prevelika), me queda pequeña (premala), me queda perfecta (savršena mi je).",
+      "examples": [
+        { "es": "Esta chaqueta me queda perfecta.", "bs": "Ova jakna mi savršeno stoji." },
+        { "es": "Estos pantalones me quedan grandes.", "bs": "Ove pantalone su mi prevelike." },
+        { "es": "¿Me queda bien este vestido?", "bs": "Stoji li mi ova haljina?" }
+      ],
+      "tips": "Me queda + pridjev u skladu sa odjećom: La camisa me queda pequeña (košulja jd. ženski). Los pantalones me quedan largos (pantalone mn. muški)."
+    }
+  ],
+  "dialogue": {
+    "title": "En la tienda de ropa — U radnji odjeće",
+    "lines": [
+      { "speaker": "Dependienta", "es": "¡Buenas tardes! ¿Le puedo ayudar?", "bs": "Dobar dan! Mogu li vam pomoći?" },
+      { "speaker": "Cliente", "es": "Sí, busco una chaqueta para el otoño.", "bs": "Da, tražim jaknu za jesen." },
+      { "speaker": "Dependienta", "es": "¿Qué color prefiere? ¿Y qué talla usa?", "bs": "Koju boju preferirate? I koji broj nosite?" },
+      { "speaker": "Cliente", "es": "Prefiero colores oscuros — negro o azul marino. Uso la talla M.", "bs": "Preferiram tamne boje — crnu ili tamnomodru. Nosim M." },
+      { "speaker": "Dependienta", "es": "Esta chaqueta azul está de moda y es muy elegante.", "bs": "Ova plava jakna je moderna i jako elegantna." },
+      { "speaker": "Cliente", "es": "Me gusta. ¿Puedo probarla?", "bs": "Sviđa mi se. Mogu li je isprobati?" },
+      { "speaker": "Dependienta", "es": "Claro, el probador está al fondo a la derecha.", "bs": "Naravno, kabina je na kraju desno." },
+      { "speaker": "Cliente", "es": "Me queda bien pero es un poco cara. ¿Tienen descuento?", "bs": "Dobro stoji ali je malo skupa. Imate li popust?" },
+      { "speaker": "Dependienta", "es": "Sí, hay un veinte por ciento de descuento esta semana.", "bs": "Da, ovaj tjedan ima dvadeset posto popusta." }
+    ]
+  },
+  "reading": {
+    "title": "Las rebajas — Rasprodaja",
+    "text_es": "En enero en España hay rebajas en todas las tiendas. Este año compro mucha ropa. Busco unos vaqueros negros y una chaqueta roja. Los vaqueros que me gustan cuestan cuarenta euros — con el descuento son veintiocho euros. ¡Una ganga! La chaqueta roja me queda un poco grande. Necesito la talla S. La dependienta dice que no tienen más tallas. Qué pena.",
+    "glossary": [
+      { "es": "rebajas", "bs": "rasprodaja / sniženje" },
+      { "es": "una ganga", "bs": "povoljno / baza" },
+      { "es": "que me gustan", "bs": "koje mi se sviđaju" },
+      { "es": "no tienen más", "bs": "nemaju više" },
+      { "es": "qué pena", "bs": "šteta" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kada su rasprodaje u Španiji?",
+        "options": ["U junu", "U januaru", "U decembru"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto mu/joj jakna ne odgovara?",
+        "options": ["Jer je premala", "Jer je prevelika", "Jer je previše skupa"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko koštaju traperice s popustom?",
+        "options": ["Četrdeset eura", "Dvadeset i osam eura", "Trideset eura"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik boje za 'una camiseta ___' (narančasto)?",
+      "options": ["naranja", "naranjа", "naranjо", "naranjas"],
+      "answerIndex": 0,
+      "explanation_bs": "Naranja je invariable — nikad se ne mijenja: una camiseta naranja, unas camisetas naranja."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Estos pantalones me ___ grandes. (prevelike su mi)",
+      "answer": "quedan",
+      "acceptedAnswers": ["quedan"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Busco una camisa ___. (bijela — ženski rod)",
+      "answer": "blanca",
+      "acceptedAnswers": ["blanca"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Mogu li isprobati ovu haljinu?",
+      "answer": "¿Puedo probar este vestido?",
+      "acceptedAnswers": ["¿Puedo probar este vestido?", "¿Puedo probarme este vestido?", "¿Puedo probar esta vestido?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ova jakna mi savršeno stoji i nije skupa.",
+      "answer": "Esta chaqueta me queda perfecta y no es cara.",
+      "acceptedAnswers": ["Esta chaqueta me queda perfecta y no es cara.", "Esta chaqueta me queda bien y no es cara."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji odjeću sa definicijom",
+      "pairs": [
+        { "es": "los vaqueros", "bs": "traperice" },
+        { "es": "el abrigo", "bs": "kaput" },
+        { "es": "la falda", "bs": "suknja" },
+        { "es": "las botas", "bs": "čizme" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Busco unos zapatos negros de talla cuarenta.",
+      "answer": "Busco unos zapatos negros de talla cuarenta."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši šta danas nosiš — odjeća i boje.",
+      "modelAnswer_es": "Hoy llevo una camiseta azul, unos pantalones negros y unos zapatos blancos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Kupuješ odjeću — AI igra prodavača u radnji, opisuješ šta tražiš.",
+    "level": "A1",
+    "allowedGrammar": ["boje kao pridjevi", "quedar bien/mal", "buscar", "llevar", "tallas"],
+    "systemPromptHint": "Igraj prodavača u radnji odjeće. Student traži odjeću. Pitaj za boju, veličinu, cijenu. Ispravi greške u slaganju boja."
+  },
+  "illustration": {
+    "prompt": "A bright clothing store with colorful clothes on racks, a fitting room, friendly shop assistant helping a customer",
+    "alt": "Radnja odjeće sa šarenom odjećom i prodavačicom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["clothing", "colors", "shopping", "quedar", "a1", "u6"]
+  }
+}

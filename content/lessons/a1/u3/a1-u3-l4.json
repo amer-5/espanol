@@ -1,0 +1,178 @@
+{
+  "id": "a1-u3-l4",
+  "level": "A1",
+  "unit": 3,
+  "lessonNumber": 4,
+  "title": "Brojevi 21–100 i cijene",
+  "subtitle": "Números 21–100 y los precios",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti brojeve od 21 do 100",
+    "Pitati i razumjeti cijene",
+    "Koristiti brojeve u svakodnevnim situacijama"
+  ],
+  "prerequisites": ["a1-u1-l4", "a1-u2-l4", "a1-u3-l3"],
+  "vocabulary": [
+    { "es": "veinte", "bs": "dvadeset", "pos": "broj", "ipa": "ˈβejn.te", "example_es": "Tengo veinte euros.", "example_bs": "Imam dvadeset eura." },
+    { "es": "veintiuno / veintiún", "bs": "dvadeset jedan", "pos": "broj", "ipa": "bejn.ti.ˈu.no", "example_es": "Tengo veintiún años.", "example_bs": "Imam dvadeset jednu godinu." },
+    { "es": "treinta", "bs": "trideset", "pos": "broj", "ipa": "ˈtrejn.ta", "example_es": "El libro cuesta treinta euros.", "example_bs": "Knjiga košta trideset eura." },
+    { "es": "cuarenta", "bs": "četrdeset", "pos": "broj", "ipa": "kwa.ˈren.ta", "example_es": "Son cuarenta minutos.", "example_bs": "To je četrdeset minuta." },
+    { "es": "cincuenta", "bs": "pedeset", "pos": "broj", "ipa": "θin.ˈkwen.ta", "example_es": "Cuesta cincuenta euros.", "example_bs": "Košta pedeset eura." },
+    { "es": "sesenta", "bs": "šezdeset", "pos": "broj", "ipa": "se.ˈsen.ta", "example_es": "Mi abuelo tiene sesenta años.", "example_bs": "Moj djed ima šezdeset godina." },
+    { "es": "setenta", "bs": "sedamdeset", "pos": "broj", "ipa": "se.ˈten.ta", "example_es": "Son setenta kilómetros.", "example_bs": "To je sedamdeset kilometara." },
+    { "es": "ochenta", "bs": "osamdeset", "pos": "broj", "ipa": "o.ˈtʃen.ta", "example_es": "Tiene ochenta páginas.", "example_bs": "Ima osamdeset stranica." },
+    { "es": "noventa", "bs": "devedeset", "pos": "broj", "ipa": "no.ˈβen.ta", "example_es": "Corre noventa minutos.", "example_bs": "Trči devedeset minuta." },
+    { "es": "cien / ciento", "bs": "sto", "pos": "broj", "ipa": "ˈθjen/ˈθjen.to", "example_es": "Cuesta cien euros.", "example_bs": "Košta sto eura." }
+  ],
+  "grammar": [
+    {
+      "concept": "Brojevi 21–100",
+      "explanation_bs": "Brojevi od 21-29 pišu se ZAJEDNO: veintiuno, veintidós, veintitrés... (sa akcentom na dos, tres, cuatro, seis). Od 31 nadalje pišu se ODVOJENO sa 'y': treinta y uno, treinta y dos... Isti princip do 99. Posebno: **cien** = točno 100, **ciento** = 100+ (ciento uno = 101).",
+      "table": {
+        "headers": ["Broj", "Naziv"],
+        "rows": [
+          ["21", "veintiuno (veintiún + muški)"],
+          ["22", "veintidós"],
+          ["25", "veinticinco"],
+          ["30", "treinta"],
+          ["31", "treinta y uno"],
+          ["40", "cuarenta"],
+          ["50", "cincuenta"],
+          ["60", "sesenta"],
+          ["70", "setenta"],
+          ["80", "ochenta"],
+          ["90", "noventa"],
+          ["100", "cien (točno 100)"]
+        ]
+      },
+      "examples": [
+        { "es": "Tengo veinticinco años.", "bs": "Imam dvadeset pet godina." },
+        { "es": "Son treinta y dos euros.", "bs": "To je trideset i dva eura." },
+        { "es": "Cien personas.", "bs": "Sto osoba." }
+      ],
+      "tips": "Veintiuno ispred muškog imenice postaje 'veintiún': veintiún años (21 godina), veintiuna chica (21 djevojka)."
+    },
+    {
+      "concept": "Cijene — ¿Cuánto cuesta?",
+      "explanation_bs": "Da pitaš za cijenu: **¿Cuánto cuesta?** (Koliko košta? — jednina) ili **¿Cuánto cuestan?** (množina). Odgovor: **Cuesta / Cuestan + broj + moneda**. Euro se sklanja: un euro, dos euros. Cent: un céntimo, dos céntimos.",
+      "examples": [
+        { "es": "¿Cuánto cuesta este libro?", "bs": "Koliko košta ova knjiga?" },
+        { "es": "Cuesta quince euros.", "bs": "Košta petnaest eura." },
+        { "es": "¿Cuánto cuestan los zapatos?", "bs": "Koliko koštaju cipele?" }
+      ],
+      "tips": "Cuesta (jednina) vs Cuestan (množina): ¿Cuánto cuesta el libro? / ¿Cuánto cuestan los libros?"
+    }
+  ],
+  "dialogue": {
+    "title": "En la tienda — U prodavnici",
+    "lines": [
+      { "speaker": "Cliente", "es": "Buenos días. ¿Cuánto cuesta esta camiseta?", "bs": "Dobro jutro. Koliko košta ova majica?" },
+      { "speaker": "Vendedor", "es": "Cuesta veintidós euros.", "bs": "Košta dvadeset i dva eura." },
+      { "speaker": "Cliente", "es": "¿Y los pantalones?", "bs": "A pantalone?" },
+      { "speaker": "Vendedor", "es": "Cuestan cuarenta y cinco euros.", "bs": "Koštaju četrdeset i pet eura." },
+      { "speaker": "Cliente", "es": "Hmm. ¿Tiene algo más barato?", "bs": "Hmm. Imate li nešto jeftinije?" },
+      { "speaker": "Vendedor", "es": "Sí, estos pantalones cuestan treinta euros.", "bs": "Da, ove pantalone koštaju trideset eura." },
+      { "speaker": "Cliente", "es": "Perfecto. Me llevo la camiseta y los pantalones.", "bs": "Odlično. Uzimam majicu i pantalone." }
+    ]
+  },
+  "reading": {
+    "title": "En el mercado — Na tržnici",
+    "text_es": "Hoy voy al mercado con mi madre. Compramos frutas y verduras. Un kilo de manzanas cuesta ochenta céntimos. Las naranjas cuestan noventa céntimos el kilo. Compramos también pan — cuesta un euro veinte. En total gastamos veintidós euros. El mercado abre de lunes a sábado a las ocho de la mañana.",
+    "glossary": [
+      { "es": "verduras", "bs": "povrće" },
+      { "es": "manzanas", "bs": "jabuke" },
+      { "es": "naranjas", "bs": "naranče" },
+      { "es": "en total", "bs": "ukupno" },
+      { "es": "gastamos", "bs": "potrošimo" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko košta kilo jabuka?",
+        "options": ["Osamdeset centi", "Devedeset centi", "Euro dvadeset"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Koliko su ukupno potrošili?",
+        "options": ["Dvanaest eura", "Dvadeset i dva eura", "Trideset eura"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada tržnica ne radi?",
+        "options": ["Nedeljom", "Subotom", "Petkom"],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan zapis broja 35?",
+      "options": ["treinticinco", "treinta cinco", "treinta y cinco", "treintaycinco"],
+      "answerIndex": 2,
+      "explanation_bs": "Od 31 nadalje pišemo odvojeno sa 'y': treinta y cinco."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Napiši brojevima: 47 = cuarenta y ___",
+      "answer": "siete",
+      "acceptedAnswers": ["siete"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Cuánto ___ estos zapatos? (koštaju — množina)",
+      "answer": "cuestan",
+      "acceptedAnswers": ["cuestan"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Koliko košta ova knjiga?",
+      "answer": "¿Cuánto cuesta este libro?",
+      "acceptedAnswers": ["¿Cuánto cuesta este libro?", "¿Cuánto cuesta el libro?", "Cuánto cuesta este libro?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam pedeset i tri eura.",
+      "answer": "Tengo cincuenta y tres euros.",
+      "acceptedAnswers": ["Tengo cincuenta y tres euros.", "Tengo cincuenta y tres euros"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji broj sa riječju",
+      "pairs": [
+        { "es": "30", "bs": "treinta" },
+        { "es": "50", "bs": "cincuenta" },
+        { "es": "80", "bs": "ochenta" },
+        { "es": "100", "bs": "cien" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "El libro cuesta treinta y dos euros.",
+      "answer": "El libro cuesta treinta y dos euros."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Zamislite da kupujete u prodavnici — pitajte za cijenu neke stvari.",
+      "modelAnswer_es": "¿Cuánto cuesta esta camisa? — Cuesta cuarenta euros."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Kupujete u španskoj prodavnici — pitajte za cijene, AI igra prodavača.",
+    "level": "A1",
+    "allowedGrammar": ["brojevi 21-100", "cuánto cuesta/cuestan", "-AR/-ER prezent"],
+    "systemPromptHint": "Igraj prodavača u španjolskoj radnji. Odgovaraj na pitanja o cijenama koristeći brojeve 21-100. Ako student pogrešno napiše broj, ispravi ga na kraju."
+  },
+  "illustration": {
+    "prompt": "A colorful Spanish market stall with price tags showing numbers, fruits and clothing, sunny day",
+    "alt": "Španska tržnica sa cjenovnicima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["numbers-21-100", "prices", "cuánto-cuesta", "a1", "u3"]
+  }
+}

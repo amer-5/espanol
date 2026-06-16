@@ -1,0 +1,183 @@
+{
+  "id": "a1-u3-l2",
+  "level": "A1",
+  "unit": 3,
+  "lessonNumber": 2,
+  "title": "Prezent glagola na -ER i -IR",
+  "subtitle": "Comer, beber, vivir, escribir...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati pravilne glagole na -ER i -IR u prezentu",
+    "Razlikovati nastavke za -AR, -ER i -IR glagole",
+    "Koristiti najčešće -ER/-IR glagole u rečenicama"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u2-l4", "a1-u3-l1"],
+  "vocabulary": [
+    { "es": "comer", "bs": "jesti", "pos": "glag. -er", "ipa": "ko.ˈmer", "example_es": "Como pizza.", "example_bs": "Jedem picu." },
+    { "es": "beber", "bs": "piti", "pos": "glag. -er", "ipa": "be.ˈβer", "example_es": "Bebo agua.", "example_bs": "Pijem vodu." },
+    { "es": "leer", "bs": "čitati", "pos": "glag. -er", "ipa": "le.ˈer", "example_es": "Leo un libro.", "example_bs": "Čitam knjigu." },
+    { "es": "correr", "bs": "trčati", "pos": "glag. -er", "ipa": "ko.ˈrer", "example_es": "Corro por el parque.", "example_bs": "Trčim kroz park." },
+    { "es": "aprender", "bs": "učiti / naučiti", "pos": "glag. -er", "ipa": "a.pren.ˈder", "example_es": "Aprendo español.", "example_bs": "Učim španski." },
+    { "es": "vivir", "bs": "živjeti", "pos": "glag. -ir", "ipa": "bi.ˈβir", "example_es": "Vivo en Bosnia.", "example_bs": "Živim u Bosni." },
+    { "es": "escribir", "bs": "pisati", "pos": "glag. -ir", "ipa": "es.kri.ˈβir", "example_es": "Escribo un email.", "example_bs": "Pišem email." },
+    { "es": "abrir", "bs": "otvoriti / otvarati", "pos": "glag. -ir", "ipa": "a.ˈβrir", "example_es": "Abre la puerta.", "example_bs": "Otvori vrata." },
+    { "es": "recibir", "bs": "primati / dobiti", "pos": "glag. -ir", "ipa": "re.θi.ˈβir", "example_es": "Recibo muchos emails.", "example_bs": "Primam puno emailova." },
+    { "es": "compartir", "bs": "dijeliti", "pos": "glag. -ir", "ipa": "kom.par.ˈtir", "example_es": "Compartimos el apartamento.", "example_bs": "Dijelimo stan." }
+  ],
+  "grammar": [
+    {
+      "concept": "Prezent glagola na -ER",
+      "explanation_bs": "-ER glagoli imaju nastavke slične -AR, ali sa razlikom: za 'yo' je -o (isti), ali ostatak koristi **-e-** umjesto **-a-** (ides, ide, idemo...). Nastavci: -o, -es, -e, -emos, -éis, -en.",
+      "table": {
+        "headers": ["Zamjenica", "Nastavak", "COMER", "BEBER"],
+        "rows": [
+          ["yo", "-o", "como", "bebo"],
+          ["tú", "-es", "comes", "bebes"],
+          ["él/ella/usted", "-e", "come", "bebe"],
+          ["nosotros", "-emos", "comemos", "bebemos"],
+          ["vosotros", "-éis", "coméis", "bebéis"],
+          ["ellos/ustedes", "-en", "comen", "beben"]
+        ]
+      },
+      "examples": [
+        { "es": "Como fruta cada día.", "bs": "Jedem voće svaki dan." },
+        { "es": "¿Bebes café?", "bs": "Piješ li kafu?" },
+        { "es": "Leemos mucho.", "bs": "Puno čitamo." }
+      ],
+      "tips": "Razlika -AR vs -ER: habla/s/mos/n vs come/s/mos/n — samo 'a' postaje 'e'. Yo oblik je isti: -o."
+    },
+    {
+      "concept": "Prezent glagola na -IR",
+      "explanation_bs": "-IR glagoli su skoro identični -ER glagolima, jedina razlika je u **nosotros** obliku: -ER ima **-emos**, -IR ima **-imos**. I vosotros: -ER ima **-éis**, -IR ima **-ís**. Sve ostalo je isto kao -ER!",
+      "table": {
+        "headers": ["Zamjenica", "-ER (COMER)", "-IR (VIVIR)"],
+        "rows": [
+          ["yo", "como", "vivo"],
+          ["tú", "comes", "vives"],
+          ["él/ella", "come", "vive"],
+          ["nosotros", "comemos", "vivimos ← razlika!"],
+          ["vosotros", "coméis", "vivís ← razlika!"],
+          ["ellos", "comen", "viven"]
+        ]
+      },
+      "examples": [
+        { "es": "Vivo en Sarajevo.", "bs": "Živim u Sarajevu." },
+        { "es": "Escribimos en español.", "bs": "Pišemo na španskom." },
+        { "es": "¿Dónde vives?", "bs": "Gdje živiš?" }
+      ],
+      "tips": "Najlakši način da zapamtiš: -ER i -IR su gotovo isti, samo nosotros/vosotros se razlikuju (-emos/-imos i -éis/-ís)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué comes? — Šta jedeš?",
+    "lines": [
+      { "speaker": "Ana", "es": "¿Comes en el restaurante o en casa?", "bs": "Jedeš li u restoranu ili kod kuće?" },
+      { "speaker": "Marko", "es": "Como en casa. Mi madre cocina muy bien.", "bs": "Jedem kod kuće. Moja majka odlično kuha." },
+      { "speaker": "Ana", "es": "¿Qué bebes con la comida?", "bs": "Što piješ uz obrok?" },
+      { "speaker": "Marko", "es": "Bebo agua o zumo. ¿Y tú?", "bs": "Pijem vodu ili sok. A ti?" },
+      { "speaker": "Ana", "es": "Yo bebo café. Leo el periódico mientras como.", "bs": "Ja pijem kafu. Čitam novine dok jedem." },
+      { "speaker": "Marko", "es": "¿Vives cerca del trabajo?", "bs": "Živiš li blizu posla?" },
+      { "speaker": "Ana", "es": "Sí, vivo a cinco minutos. Corro por el parque cada mañana.", "bs": "Da, živim pet minuta hoda. Trčim kroz park svako jutro." }
+    ]
+  },
+  "reading": {
+    "title": "El día de María — Marijin dan",
+    "text_es": "María vive en Madrid con su familia. Por la mañana bebe café y come tostadas. Lee el periódico en el desayuno. Trabaja en una oficina y escribe muchos emails cada día. Por la noche aprende italiano — es su tercer idioma. Los fines de semana corre por el parque y come con sus amigos.",
+    "glossary": [
+      { "es": "tostadas", "bs": "tost / prepečenac" },
+      { "es": "el desayuno", "bs": "doručak" },
+      { "es": "oficina", "bs": "kancelarija / ured" },
+      { "es": "tercer idioma", "bs": "treći jezik" },
+      { "es": "sus amigos", "bs": "njeni prijatelji" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta María jede za doručak?",
+        "options": ["Jaja i slaninu", "Tost i kafu", "Voće i jogurt"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta uči navečer?",
+        "options": ["Španski", "Engleski", "Italijanski"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Šta radi vikendom u parku?",
+        "options": ["Hoda", "Trči", "Čita"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'vosotros' od glagola VIVIR?",
+      "options": ["vivemos", "viven", "vivís", "viváis"],
+      "answerIndex": 2,
+      "explanation_bs": "Za vosotros kod -IR glagola dodajemo -ís: vivir → vivís."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo ___ (leer) un libro interesante.",
+      "answer": "leo",
+      "acceptedAnswers": ["leo"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ellos ___ (comer) en el restaurante.",
+      "answer": "comen",
+      "acceptedAnswers": ["comen"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Živimo u Barceloni i učimo španski.",
+      "answer": "Vivimos en Barcelona y aprendemos español.",
+      "acceptedAnswers": ["Vivimos en Barcelona y aprendemos español.", "Vivimos en Barcelona y aprendemos español"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Pišeš li na španskom?",
+      "answer": "¿Escribes en español?",
+      "acceptedAnswers": ["¿Escribes en español?", "¿Escribes español?", "Escribes en español?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol sa oblikom za 'yo'",
+      "pairs": [
+        { "es": "comer", "bs": "como" },
+        { "es": "vivir", "bs": "vivo" },
+        { "es": "aprender", "bs": "aprendo" },
+        { "es": "escribir", "bs": "escribo" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Como en casa y bebo café por la mañana.",
+      "answer": "Como en casa y bebo café por la mañana."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju rutinu koristeći -ER i -IR glagole.",
+      "modelAnswer_es": "Como en casa, bebo agua y leo libros. Vivo en [grad]."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Razgovarate o svakodnevnoj rutini — šta jedete, pijete, čitate, gdje živite.",
+    "level": "A1",
+    "allowedGrammar": ["-ER/-IR glagoli prezent", "-AR glagoli", "ser", "tener"],
+    "systemPromptHint": "Pitaj studenta o rutini: ¿Qué comes? ¿Bebes café? ¿Dónde vives? ¿Qué lees? Koristi samo A1 vokabular. Ispravi greške u nastavcima."
+  },
+  "illustration": {
+    "prompt": "A cozy breakfast scene with coffee, toast and a newspaper on a sunny table, Spanish style home",
+    "alt": "Doručak — kafa, tost i novine",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["er-verbs", "ir-verbs", "present-tense", "comer", "vivir", "a1", "u3"]
+  }
+}

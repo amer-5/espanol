@@ -1,0 +1,171 @@
+{
+  "id": "a1-u3-l1",
+  "level": "A1",
+  "unit": 3,
+  "lessonNumber": 1,
+  "title": "Prezent glagola na -AR",
+  "subtitle": "Hablar, trabajar, vivir...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati pravilne glagole na -AR u prezentu",
+    "Koristiti najčešće -AR glagole u rečenicama",
+    "Razumjeti razliku između regularnih i nepravilnih glagola"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u2-l1", "a1-u2-l4"],
+  "vocabulary": [
+    { "es": "hablar", "bs": "govoriti", "pos": "glag. -ar", "ipa": "a.ˈblar", "example_es": "Hablo español.", "example_bs": "Govorim španski." },
+    { "es": "trabajar", "bs": "raditi", "pos": "glag. -ar", "ipa": "tra.ba.ˈxar", "example_es": "¿Dónde trabajas?", "example_bs": "Gdje radiš?" },
+    { "es": "estudiar", "bs": "učiti / studirati", "pos": "glag. -ar", "ipa": "es.tu.ˈðjar", "example_es": "Estudio español cada día.", "example_bs": "Učim španski svaki dan." },
+    { "es": "vivir", "bs": "živjeti", "pos": "glag. -ir", "ipa": "bi.ˈβir", "example_es": "Vivo en Sarajevo.", "example_bs": "Živim u Sarajevu." },
+    { "es": "escuchar", "bs": "slušati", "pos": "glag. -ar", "ipa": "es.ku.ˈtʃar", "example_es": "Escucho música.", "example_bs": "Slušam muziku." },
+    { "es": "mirar", "bs": "gledati", "pos": "glag. -ar", "ipa": "mi.ˈrar", "example_es": "Miro la televisión.", "example_bs": "Gledam televiziju." },
+    { "es": "caminar", "bs": "hodati / šetati", "pos": "glag. -ar", "ipa": "ka.mi.ˈnar", "example_es": "Camino al trabajo.", "example_bs": "Hodam na posao." },
+    { "es": "comprar", "bs": "kupovati", "pos": "glag. -ar", "ipa": "kom.ˈprar", "example_es": "Compramos en el mercado.", "example_bs": "Kupujemo na tržnici." },
+    { "es": "necesitar", "bs": "trebati", "pos": "glag. -ar", "ipa": "ne.θe.si.ˈtar", "example_es": "Necesito ayuda.", "example_bs": "Trebam pomoć." },
+    { "es": "cada día", "bs": "svaki dan", "pos": "izr.", "ipa": "ˈka.ða ˈdi.a", "example_es": "Estudio cada día.", "example_bs": "Učim svaki dan." }
+  ],
+  "grammar": [
+    {
+      "concept": "Prezent pravilnih -AR glagola",
+      "explanation_bs": "Glagoli koji završavaju na **-AR** su najčešći u španskom. Da bi ih konjugirao u prezentu, oduzmi -AR i dodaj nastavke: -o, -as, -a, -amos, -áis, -an. Ovo pravilo vrijedi za SVE pravilne -AR glagole: hablar, trabajar, estudiar, caminar... Glagol SER i TENER su nepravilni — te smo već naučili.",
+      "table": {
+        "headers": ["Zamjenica", "Nastavak", "HABLAR", "TRABAJAR"],
+        "rows": [
+          ["yo", "-o", "hablo", "trabajo"],
+          ["tú", "-as", "hablas", "trabajas"],
+          ["él/ella/usted", "-a", "habla", "trabaja"],
+          ["nosotros", "-amos", "hablamos", "trabajamos"],
+          ["vosotros", "-áis", "habláis", "trabajáis"],
+          ["ellos/ustedes", "-an", "hablan", "trabajan"]
+        ]
+      },
+      "examples": [
+        { "es": "Yo hablo español y bosnio.", "bs": "Govorim španski i bosanski." },
+        { "es": "Ella trabaja en un hospital.", "bs": "Ona radi u bolnici." },
+        { "es": "Nosotros estudiamos juntos.", "bs": "Mi učimo zajedno." }
+      ],
+      "tips": "Zapamti: 'yo' uvijek završava na -o kod pravilnih glagola (hablo, trabajo, estudio). 'Vosotros' oblik se koristi samo u Španiji; u Latinskoj Americi svi koriste 'ustedes'."
+    },
+    {
+      "concept": "Pitanja i negacija sa -AR glagolima",
+      "explanation_bs": "Pitanje se pravi jednostavno — samo dodaj upitni naglasak bez promjene reda riječi: '¿Hablas español?' (Govoriš li španski?). Negacija: stavi 'no' ispred glagola: 'No hablo francés' (Ne govorim francuski). Nema pomoćnog glagola kao u engleskom (bez 'do/does')!",
+      "examples": [
+        { "es": "¿Hablas inglés?", "bs": "Govoriš li engleski?" },
+        { "es": "No, no hablo inglés.", "bs": "Ne, ne govorim engleski." },
+        { "es": "¿Dónde trabajas?", "bs": "Gdje radiš?" }
+      ],
+      "tips": "U španskom nema 'do/does' — pitanje: ¿Trabaja? (Radi li?), negacija: No trabaja. (Ne radi.)"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué haces? — Šta radiš?",
+    "lines": [
+      { "speaker": "Sofía", "es": "Marko, ¿dónde trabajas?", "bs": "Marko, gdje radiš?" },
+      { "speaker": "Marko", "es": "Trabajo en una empresa de tecnología. ¿Y tú?", "bs": "Radim u jednoj tehnološkoj kompaniji. A ti?" },
+      { "speaker": "Sofía", "es": "Yo estudio medicina. Estudio en la universidad.", "bs": "Ja studiram medicinu. Studiram na univerzitetu." },
+      { "speaker": "Marko", "es": "¿Hablas otros idiomas?", "bs": "Govoriš li druge jezike?" },
+      { "speaker": "Sofía", "es": "Sí, hablo español, inglés y un poco de alemán.", "bs": "Da, govorim španski, engleski i malo njemački." },
+      { "speaker": "Marko", "es": "¡Qué bien! Yo solo hablo bosnio y español.", "bs": "Odlično! Ja govorim samo bosanski i španski." }
+    ]
+  },
+  "reading": {
+    "title": "Mi rutina — Moja rutina",
+    "text_es": "Me llamo Carlos. Trabajo en un banco. Cada día camino al trabajo porque vivo cerca. Por la noche estudio español. También escucho música española para practicar. Los fines de semana compro en el mercado con mi familia. Mi esposa habla tres idiomas: español, inglés y francés.",
+    "glossary": [
+      { "es": "por la noche", "bs": "navečer / uveče" },
+      { "es": "también", "bs": "također / i" },
+      { "es": "para practicar", "bs": "da bih vježbao/la" },
+      { "es": "los fines de semana", "bs": "vikendom" },
+      { "es": "mi esposa", "bs": "moja supruga" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Gdje radi Carlos?",
+        "options": ["U bolnici", "U banci", "U školi"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto hoda na posao?",
+        "options": ["Jer nema auto", "Jer živi blizu", "Jer voli šetati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko jezika govori njegova supruga?",
+        "options": ["Dva", "Tri", "Četiri"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'nosotros' od glagola HABLAR?",
+      "options": ["hablamos", "hablan", "habláis", "hablas"],
+      "answerIndex": 0,
+      "explanation_bs": "Za nosotros dodajemo -amos: hablar → hablamos."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (trabajar) en un hospital.",
+      "answer": "trabaja",
+      "acceptedAnswers": ["trabaja"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Nosotros ___ (estudiar) español.",
+      "answer": "estudiamos",
+      "acceptedAnswers": ["estudiamos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Govorim španski i malo engleskog.",
+      "answer": "Hablo español y un poco de inglés.",
+      "acceptedAnswers": ["Hablo español y un poco de inglés.", "Hablo español y un poco inglés."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Gdje radiš?",
+      "answer": "¿Dónde trabajas?",
+      "acceptedAnswers": ["¿Dónde trabajas?", "Dónde trabajas?", "¿Donde trabajas?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol sa značenjem",
+      "pairs": [
+        { "es": "hablar", "bs": "govoriti" },
+        { "es": "escuchar", "bs": "slušati" },
+        { "es": "comprar", "bs": "kupovati" },
+        { "es": "caminar", "bs": "hodati" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Trabajo en una empresa y estudio español.",
+      "answer": "Trabajo en una empresa y estudio español."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta radiš svaki dan (koristi najmanje 3 -AR glagola).",
+      "modelAnswer_es": "Trabajo, estudio español y escucho música cada día."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojoj svakodnevnoj rutini — šta radiš, gdje radiš/studiješ, što govoriš.",
+    "level": "A1",
+    "allowedGrammar": ["-AR glagoli prezent", "ser", "tener", "nacionalnosti"],
+    "systemPromptHint": "Pitaj studenta o rutini koristeći -AR glagole: ¿Dónde trabajas/estudias? ¿Qué idiomas hablas? ¿Escuchas música? Samo A1 nivo. Ispravi greške u konjugaciji na kraju."
+  },
+  "illustration": {
+    "prompt": "A person studying Spanish at a desk with books, headphones and a laptop, cozy room with warm lighting",
+    "alt": "Osoba uči španski za stolom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["ar-verbs", "present-tense", "hablar", "trabajar", "a1", "u3"]
+  }
+}

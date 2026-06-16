@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u3",
+  "level": "A1",
+  "unit": 3,
+  "title": "Test — Jedinica 3: Glagoli i svakodnevni život",
+  "cumulative": true,
+  "timeLimitMinutes": 12,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik glagola HABLAR za 'nosotros'?",
+      "options": ["hablan", "hablamos", "habláis", "hablas"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a1-u3-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (comer) en casa cada día.",
+      "answer": "come",
+      "acceptedAnswers": ["come"],
+      "points": 2,
+      "lessonId": "a1-u3-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Radim u banci i učim španski navečer.",
+      "answer": "Trabajo en un banco y estudio español por la noche.",
+      "acceptedAnswers": ["Trabajo en un banco y estudio español por la noche.", "Trabajo en un banco y aprendo español por la noche.", "Trabajo en el banco y estudio español por la noche."],
+      "points": 3,
+      "lessonId": "a1-u3-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako kažeš 'svake srijede' (habitualno)?",
+      "options": ["el miércoles", "los miércoles", "un miércoles", "miércoles"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a1-u3-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Son las tres ___ media. (3:30)",
+      "answer": "y",
+      "acceptedAnswers": ["y"],
+      "points": 1,
+      "lessonId": "a1-u3-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Koliko košta ova majica?",
+      "answer": "¿Cuánto cuesta esta camiseta?",
+      "acceptedAnswers": ["¿Cuánto cuesta esta camiseta?", "¿Cuánto cuesta la camiseta?", "Cuánto cuesta esta camiseta?"],
+      "points": 2,
+      "lessonId": "a1-u3-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Napiši riječima: 54 = cincuenta y ___",
+      "answer": "cuatro",
+      "acceptedAnswers": ["cuatro"],
+      "points": 2,
+      "lessonId": "a1-u3-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Los viernes como con mis amigos a las dos.",
+      "answer": "Los viernes como con mis amigos a las dos.",
+      "points": 3,
+      "lessonId": "a1-u3-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Živimo u Madridu i govorimo španski.",
+      "answer": "Vivimos en Madrid y hablamos español.",
+      "acceptedAnswers": ["Vivimos en Madrid y hablamos español.", "Vivimos en Madrid y hablamos español"],
+      "points": 2,
+      "lessonId": "a1-u3-l2"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 3–5 rečenica o svojoj sedmičnoj rutini: šta radiš koji dan, u koliko sati, šta jedeš/piješ, što čitaš ili slušaš.",
+      "minWords": 20,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: tačna konjugacija -AR glagola (3), tačna konjugacija -ER/-IR glagola (3), ispravna upotreba dana i sati (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a1-u3-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u3-l1", "topic": "Prezent glagola na -AR (hablar, trabajar, estudiar)" },
+    { "lessonId": "a1-u3-l2", "topic": "Prezent glagola na -ER i -IR (comer, vivir, escribir)" },
+    { "lessonId": "a1-u3-l3", "topic": "Dani u sedmici, sati, a las" },
+    { "lessonId": "a1-u3-l4", "topic": "Brojevi 21–100, cijene, cuánto cuesta" }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u4",
+  "level": "A1",
+  "unit": 4,
+  "title": "Test — Jedinica 4: Opis, lokacija i posjedovanje",
+  "cumulative": true,
+  "timeLimitMinutes": 12,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik pridjeva za 'las casas ___' (bonito)?",
+      "options": ["bonito", "bonita", "bonitos", "bonitas"],
+      "answerIndex": 3,
+      "points": 1,
+      "lessonId": "a1-u4-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La farmacia ___ al lado del banco. (ESTAR)",
+      "answer": "está",
+      "acceptedAnswers": ["está", "esta"],
+      "points": 2,
+      "lessonId": "a1-u4-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Moji roditelji žive u Sarajevu i moja sestra živi u Madridu.",
+      "answer": "Mis padres viven en Sarajevo y mi hermana vive en Madrid.",
+      "acceptedAnswers": ["Mis padres viven en Sarajevo y mi hermana vive en Madrid.", "Mis padres viven en Sarajevo y mi hermana vive en Madrid"],
+      "points": 3,
+      "lessonId": "a1-u4-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'one zgrade' (daleko — ženski, množina)?",
+      "options": ["esas edificios", "aquellas edificios", "aquellos edificios", "estos edificios"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a1-u4-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ hermanos viven en España. (naši)",
+      "answer": "Nuestros",
+      "acceptedAnswers": ["Nuestros", "nuestros"],
+      "points": 2,
+      "lessonId": "a1-u4-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zašto si umoran/na danas?",
+      "answer": "¿Por qué estás cansado hoy?",
+      "acceptedAnswers": ["¿Por qué estás cansado hoy?", "¿Por qué estás cansada hoy?", "Por qué estás cansado hoy?"],
+      "points": 2,
+      "lessonId": "a1-u4-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El libro está ___ de la mesa. (ispod)",
+      "answer": "debajo",
+      "acceptedAnswers": ["debajo"],
+      "points": 2,
+      "lessonId": "a1-u4-l2"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Nuestra casa es grande y bonita pero está lejos del centro.",
+      "answer": "Nuestra casa es grande y bonita pero está lejos del centro.",
+      "points": 3,
+      "lessonId": "a1-u4-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ova majica je skupa. Imate li nešto jeftinije?",
+      "answer": "Esta camiseta es cara. ¿Tiene algo más barato?",
+      "acceptedAnswers": ["Esta camiseta es cara. ¿Tiene algo más barato?", "Esta camiseta es cara. ¿Tienes algo más barato?"],
+      "points": 2,
+      "lessonId": "a1-u4-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 3–5 rečenica o svom gradu ili četvrti: kako je (pridjevi), šta ima (hay), gdje se nešto nalazi (ESTAR + prijedlozi). Koristi posvojne pridjeve i pokazne zamjenice gdje možeš.",
+      "minWords": 20,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: ispravna upotreba SER/ESTAR (3), slaganje pridjeva (3), posvojni pridjevi (2), pravopis i struktura (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a1-u4-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u4-l1", "topic": "Pridjevi — slaganje u rodu i broju, SER vs ESTAR" },
+    { "lessonId": "a1-u4-l2", "topic": "ESTAR — konjugacija, lokacija, stanje, prijedlozi mjesta" },
+    { "lessonId": "a1-u4-l3", "topic": "Posvojni pridjevi: mi/tu/su/nuestro, porodica" },
+    { "lessonId": "a1-u4-l4", "topic": "Pokazne zamjenice este/ese/aquel, upitne zamjenice" }
+  ]
+}

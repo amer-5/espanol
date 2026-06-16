@@ -1,0 +1,172 @@
+{
+  "id": "a1-u4-l1",
+  "level": "A1",
+  "unit": 4,
+  "lessonNumber": 1,
+  "title": "Pridjevi i slaganje u rodu i broju",
+  "subtitle": "Los adjetivos — grande, pequeño, bonito...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti opisne pridjeve na španskom",
+    "Slagati pridjeve u rodu i broju sa imenicom",
+    "Opisati ljude, mjesta i stvari"
+  ],
+  "prerequisites": ["a1-u2-l1", "a1-u2-l2", "a1-u3-l1"],
+  "vocabulary": [
+    { "es": "grande / pequeño", "bs": "velik / mali", "pos": "prid.", "ipa": "ˈɡran.de/pe.ˈke.ɲo", "example_es": "Una ciudad grande.", "example_bs": "Velik grad." },
+    { "es": "bueno / malo", "bs": "dobar / loš", "pos": "prid.", "ipa": "ˈbwe.no/ˈma.lo", "example_es": "Un libro bueno.", "example_bs": "Dobra knjiga." },
+    { "es": "bonito / feo", "bs": "lijep / ružan", "pos": "prid.", "ipa": "bo.ˈni.to/ˈfe.o", "example_es": "Una ciudad bonita.", "example_bs": "Lijep grad." },
+    { "es": "nuevo / viejo", "bs": "novi / star", "pos": "prid.", "ipa": "ˈnwe.βo/ˈbje.xo", "example_es": "Un coche nuevo.", "example_bs": "Novi auto." },
+    { "es": "alto / bajo", "bs": "visok / nizak", "pos": "prid.", "ipa": "ˈal.to/ˈba.xo", "example_es": "Mi hermano es alto.", "example_bs": "Moj brat je visok." },
+    { "es": "joven / mayor", "bs": "mlad / stariji", "pos": "prid.", "ipa": "ˈxo.βen/ma.ˈxor", "example_es": "Soy joven.", "example_bs": "Ja sam mlad." },
+    { "es": "inteligente / simpático", "bs": "inteligentan / simpatičan", "pos": "prid.", "ipa": "in.te.li.ˈxen.te", "example_es": "Es una persona simpática.", "example_bs": "Ona je simpatična osoba." },
+    { "es": "difícil / fácil", "bs": "težak / lak", "pos": "prid.", "ipa": "di.ˈfi.θil/ˈfa.θil", "example_es": "El español no es difícil.", "example_bs": "Španski nije težak." },
+    { "es": "interesante / aburrido", "bs": "zanimljiv / dosadan", "pos": "prid.", "ipa": "in.te.re.ˈsan.te", "example_es": "Es un libro interesante.", "example_bs": "To je zanimljiva knjiga." },
+    { "es": "caro / barato", "bs": "skup / jeftin", "pos": "prid.", "ipa": "ˈka.ro/ba.ˈra.to", "example_es": "El coche es caro.", "example_bs": "Auto je skup." }
+  ],
+  "grammar": [
+    {
+      "concept": "Slaganje pridjeva sa imenicom",
+      "explanation_bs": "U španskom pridjevi se moraju slagati sa imenicom u **rodu** (muški/ženski) i **broju** (jednina/množina). Pridjevi koji završavaju na -O/-A mijenjaju se: bonito → bonita → bonitos → bonitas. Pridjevi koji završavaju na -E ili suglasnik ostaju isti za muški i ženski: grande, inteligente, difícil — ali dobivaju -s/-es za množinu.",
+      "table": {
+        "headers": ["Pridjev", "Muški jd.", "Ženski jd.", "Muški mn.", "Ženski mn."],
+        "rows": [
+          ["lijep", "bonito", "bonita", "bonitos", "bonitas"],
+          ["mali", "pequeño", "pequeña", "pequeños", "pequeñas"],
+          ["velik", "grande", "grande", "grandes", "grandes"],
+          ["zanimljiv", "interesante", "interesante", "interesantes", "interesantes"],
+          ["težak", "difícil", "difícil", "difíciles", "difíciles"]
+        ]
+      },
+      "examples": [
+        { "es": "El libro es interesante.", "bs": "Knjiga je zanimljiva. (muški → isti)" },
+        { "es": "La ciudad es bonita.", "bs": "Grad je lijep. (ženski → bonita)" },
+        { "es": "Los libros son interesantes.", "bs": "Knjige su zanimljive. (mn. → +s)" }
+      ],
+      "tips": "Pridjev dolazi IZA imenice u španskom (za razliku od bosanskog): un libro interesante (a ne: un interesante libro). Iznimka: bueno/malo/grande ispred imenice skraćuju se: un buen libro, un gran hombre."
+    },
+    {
+      "concept": "ESTAR za opis stanja vs SER za trajne osobine",
+      "explanation_bs": "SER + pridjev = trajna karakteristika (El libro es interesante). ESTAR + pridjev = privremeno stanje (Estoy cansado = Umoran sam — sad, trenutno). Primjeri: Soy alto (uvijek sam visok) vs Estoy enfermo (bolestan sam — trenutno). Neke pridjeve možeš koristiti s oboje ali značenje se mijenja: Es aburrido (dosadna je osoba po prirodi) vs Está aburrido (dosadan mu je sad).",
+      "examples": [
+        { "es": "El español es fácil.", "bs": "Španski je lak. (trajna osobina — SER)" },
+        { "es": "Hoy estoy muy ocupado.", "bs": "Danas sam jako zauzet. (privremeno — ESTAR)" },
+        { "es": "Mi madre es simpática.", "bs": "Moja majka je simpatična. (karakter — SER)" }
+      ],
+      "tips": "Zapamti: SER = trajno (osobine, identitet), ESTAR = privremeno (stanja, osjećaji, lokacija). Više o ESTAR u sljedećoj lekciji!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo es tu ciudad? — Kakav je tvoj grad?",
+    "lines": [
+      { "speaker": "Sofía", "es": "Marko, ¿cómo es Sarajevo?", "bs": "Marko, kakav je Sarajevo?" },
+      { "speaker": "Marko", "es": "Es una ciudad muy bonita y antigua. Tiene montañas grandes.", "bs": "To je jako lijep i star grad. Ima visoke planine." },
+      { "speaker": "Sofía", "es": "¿Es grande o pequeña?", "bs": "Je li velik ili mali?" },
+      { "speaker": "Marko", "es": "Es mediana. No es muy grande pero tampoco pequeña.", "bs": "Srednji je. Nije jako velik ali ni mali." },
+      { "speaker": "Sofía", "es": "¿Y la gente? ¿Es simpática?", "bs": "A ljudi? Jesu li simpatični?" },
+      { "speaker": "Marko", "es": "Sí, la gente es muy simpática y abierta. ¿Cómo es Madrid?", "bs": "Da, ljudi su jako simpatični i otvoreni. Kakav je Madrid?" },
+      { "speaker": "Sofía", "es": "Madrid es grande y ruidosa, pero muy interesante.", "bs": "Madrid je velik i bučan, ali jako zanimljiv." }
+    ]
+  },
+  "reading": {
+    "title": "Mi apartamento — Moj stan",
+    "text_es": "Vivo en un apartamento pequeño pero bonito. El salón es grande y luminoso. La cocina es moderna y nueva. Mi habitación es pequeña pero cómoda. Tengo dos ventanas grandes. El apartamento no es caro — es bastante barato para Madrid. Mi barrio es tranquilo y las calles son limpias.",
+    "glossary": [
+      { "es": "el salón", "bs": "dnevna soba" },
+      { "es": "luminoso", "bs": "svijetao" },
+      { "es": "la cocina", "bs": "kuhinja" },
+      { "es": "cómoda", "bs": "udobna" },
+      { "es": "bastante", "bs": "prilično / dosta" },
+      { "es": "limpias", "bs": "čiste" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kakva je kuhinja?",
+        "options": ["Stara i mala", "Moderna i nova", "Velika i stara"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Je li stan skup?",
+        "options": ["Da, jako skup", "Ne, dosta je jeftin", "Nije ni skup ni jeftin"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakve su ulice u četvrti?",
+        "options": ["Bučne", "Prljave", "Čiste"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'las ciudades ___' (grande)?",
+      "options": ["grande", "granda", "grandes", "grandas"],
+      "answerIndex": 2,
+      "explanation_bs": "Grande završava na -e, ne mijenja rod ali u množini dobiva -s: grandes."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mi hermana es muy ___ (bonito — ženski rod).",
+      "answer": "bonita",
+      "acceptedAnswers": ["bonita"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Los libros son ___ (interesante — množina).",
+      "answer": "interesantes",
+      "acceptedAnswers": ["interesantes"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Sarajevo je lijepo i zanimljivo.",
+      "answer": "Sarajevo es bonito e interesante.",
+      "acceptedAnswers": ["Sarajevo es bonito e interesante.", "Sarajevo es bonito y interesante."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ona je visoka i simpatična.",
+      "answer": "Ella es alta y simpática.",
+      "acceptedAnswers": ["Ella es alta y simpática.", "Es alta y simpática."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji pridjev sa antonimom",
+      "pairs": [
+        { "es": "grande", "bs": "pequeño" },
+        { "es": "caro", "bs": "barato" },
+        { "es": "nuevo", "bs": "viejo" },
+        { "es": "fácil", "bs": "difícil" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Mi apartamento es pequeño pero muy bonito.",
+      "answer": "Mi apartamento es pequeño pero muy bonito."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju sobu koristeći najmanje 4 pridjeva.",
+      "modelAnswer_es": "Mi habitación es pequeña y cómoda. Tengo una cama grande y una mesa nueva."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita da opišeš svoju kuću/stan i grad — koristi pridjeve i SER/ESTAR.",
+    "level": "A1",
+    "allowedGrammar": ["pridjevi", "ser + pridjev", "estar + stanje", "član"],
+    "systemPromptHint": "Pitaj studenta da opiše stan, grad ili osobu koristeći pridjeve. Provjeri slaganje pridjeva (rod i broj) i ispravi greške na kraju."
+  },
+  "illustration": {
+    "prompt": "A cozy small but beautiful apartment interior with large windows, modern kitchen, warm lighting, Spanish style",
+    "alt": "Lijep mali stan sa velikim prozorima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["adjectives", "agreement", "ser-estar", "description", "a1", "u4"]
+  }
+}

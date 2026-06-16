@@ -1,0 +1,188 @@
+{
+  "id": "a1-u5-l4",
+  "level": "A1",
+  "unit": 5,
+  "lessonNumber": 4,
+  "title": "Mjeseci, godišnja doba i vrijeme",
+  "subtitle": "Los meses, las estaciones y el tiempo",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti mjesece i godišnja doba na španskom",
+    "Opisati vremenске prilike",
+    "Koristiti hace + vremenski izraz"
+  ],
+  "prerequisites": ["a1-u1-l4", "a1-u3-l3", "a1-u4-l1"],
+  "vocabulary": [
+    { "es": "enero, febrero, marzo", "bs": "januar, februar, mart", "pos": "im.", "ipa": "e.ˈne.ro/fe.ˈβre.ro/ˈmar.θo", "example_es": "Mi cumpleaños es en marzo.", "example_bs": "Moj rođendan je u martu." },
+    { "es": "abril, mayo, junio", "bs": "april, maj, juni", "pos": "im.", "ipa": "a.ˈβril/ˈma.jo/ˈxu.njo", "example_es": "Las flores de mayo.", "example_bs": "Majsko cvijeće." },
+    { "es": "julio, agosto, septiembre", "bs": "juli, august, septembar", "pos": "im.", "ipa": "ˈxu.ljo/a.ˈɣos.to/sep.ˈtjem.bre", "example_es": "Voy a España en julio.", "example_bs": "Idem u Španiju u julu." },
+    { "es": "octubre, noviembre, diciembre", "bs": "oktobar, novembar, decembar", "pos": "im.", "ipa": "ok.ˈtu.βre/no.ˈβjem.bre/di.ˈθjem.bre", "example_es": "La Navidad es en diciembre.", "example_bs": "Božić je u decembru." },
+    { "es": "la primavera / el verano", "bs": "proljeće / ljeto", "pos": "im.", "ipa": "la pri.ma.ˈβe.ra/el βe.ˈra.no", "example_es": "Me gusta el verano.", "example_bs": "Volim ljeto." },
+    { "es": "el otoño / el invierno", "bs": "jesen / zima", "pos": "im.", "ipa": "el o.ˈto.ɲo/el im.ˈbjer.no", "example_es": "El invierno es frío.", "example_bs": "Zima je hladna." },
+    { "es": "hace calor / frío", "bs": "vruće je / hladno je", "pos": "izr.", "ipa": "ˈa.θe ka.ˈlor", "example_es": "En verano hace mucho calor.", "example_bs": "Ljeti je jako vruće." },
+    { "es": "llover / nevar", "bs": "kiši / snijeg pada", "pos": "glag.", "ipa": "ʝo.ˈβer/ne.ˈβar", "example_es": "Hoy llueve mucho.", "example_bs": "Danas jako kiši." },
+    { "es": "el sol / las nubes", "bs": "sunce / oblaci", "pos": "im.", "ipa": "el sol/las ˈnu.βes", "example_es": "Hace sol hoy.", "example_bs": "Danas je sunčano." },
+    { "es": "el cumpleaños", "bs": "rođendan", "pos": "im. m.", "ipa": "el kum.ple.ˈa.ɲos", "example_es": "¿Cuándo es tu cumpleaños?", "example_bs": "Kada ti je rođendan?" }
+  ],
+  "grammar": [
+    {
+      "concept": "Mjeseci i datumi",
+      "explanation_bs": "Mjeseci se u španskom NE pišu velikim slovom: enero, febrero... Datum: el + broj + de + mjesec: **el cinco de mayo** (5. maja). Za rođendan: '¿Cuándo es tu cumpleaños?' — 'Es el quince de julio' (15. jula). Prijedlog **en** za mjesec/godišnje doba: 'en enero', 'en verano'.",
+      "table": {
+        "headers": ["Broj", "Mjesec", "Bosanski"],
+        "rows": [
+          ["1", "enero", "januar"],
+          ["2", "febrero", "februar"],
+          ["3", "marzo", "mart"],
+          ["4", "abril", "april"],
+          ["5", "mayo", "maj"],
+          ["6", "junio", "juni"],
+          ["7", "julio", "juli"],
+          ["8", "agosto", "august"],
+          ["9", "septiembre", "septembar"],
+          ["10", "octubre", "oktobar"],
+          ["11", "noviembre", "novembar"],
+          ["12", "diciembre", "decembar"]
+        ]
+      },
+      "examples": [
+        { "es": "Mi cumpleaños es el tres de marzo.", "bs": "Moj rođendan je trećeg marta." },
+        { "es": "Voy a España en julio.", "bs": "Idem u Španiju u julu." }
+      ],
+      "tips": "Datumi se čitaju s određenim članom: el tres de marzo (ne: en tres de marzo). Za tekuću godinu: 'este año' (ove godine)."
+    },
+    {
+      "concept": "Vremenske prilike — HACE + imenica / ESTÁ + pridjev",
+      "explanation_bs": "Za opis vremena koristimo uglavnom **HACE**: hace calor (vruće je), hace frío (hladno je), hace sol (sunčano je), hace viento (vjetrovito je). Ili **ESTÁ**: está nublado (oblačno je), está despejado (vedro je). LLUEVE (kiši) i NIEVA (snijeg pada) su samostalni glagoli.",
+      "table": {
+        "headers": ["Izraz", "Značenje"],
+        "rows": [
+          ["Hace calor/frío", "Vruće/hladno je"],
+          ["Hace sol/viento", "Sunčano/vjetrovito je"],
+          ["Está nublado", "Oblačno je"],
+          ["Está despejado", "Vedro je"],
+          ["Llueve / Está lloviendo", "Kiši"],
+          ["Nieva / Está nevando", "Snijeg pada"]
+        ]
+      },
+      "examples": [
+        { "es": "En Bosnia, en invierno nieva mucho.", "bs": "U Bosni, zimi puno snijega pada." },
+        { "es": "Hoy hace sol pero hace un poco de frío.", "bs": "Danas je sunčano ali malo hladno." },
+        { "es": "En verano hace mucho calor en España.", "bs": "Ljeti je jako vruće u Španiji." }
+      ],
+      "tips": "Mucho sol/frío/calor (puno sunca/hladnoće/vrućine) — imenice, pa 'mucho'. Ali: Está muy nublado (jako oblačno) — pridjev, pa 'muy'."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué tiempo hace? — Kakvo je vrijeme?",
+    "lines": [
+      { "speaker": "Sofía", "es": "¡Qué frío hace hoy!", "bs": "Kako je danas hladno!" },
+      { "speaker": "Marko", "es": "Sí, está nublado y creo que va a llover.", "bs": "Da, oblačno je i mislim da će kišiti." },
+      { "speaker": "Sofía", "es": "¿Cuál es tu estación favorita?", "bs": "Koje je tvoje omiljeno godišnje doba?" },
+      { "speaker": "Marko", "es": "Me gusta la primavera — no hace ni calor ni frío.", "bs": "Volim proljeće — nije ni vruće ni hladno." },
+      { "speaker": "Sofía", "es": "A mí me gusta el verano. Hace sol y puedo ir a la playa.", "bs": "Meni se sviđa ljeto. Sunčano je i mogu ići na plažu." },
+      { "speaker": "Marko", "es": "¿Cuándo es tu cumpleaños?", "bs": "Kada ti je rođendan?" },
+      { "speaker": "Sofía", "es": "El doce de agosto. En verano siempre.", "bs": "Dvanaestog avgusta. Uvijek ljeti." }
+    ]
+  },
+  "reading": {
+    "title": "Las estaciones en Bosnia — Godišnja doba u Bosni",
+    "text_es": "Bosnia tiene cuatro estaciones muy diferentes. En invierno nieva mucho en las montañas — hace mucho frío, especialmente en enero y febrero. La primavera es muy bonita: llueve un poco pero hay muchas flores. En verano hace calor, especialmente en julio y agosto. El otoño es mi estación favorita — hace frío por las mañanas pero hace sol por las tardes. Los bosques son de colores naranja y rojo.",
+    "glossary": [
+      { "es": "cuatro estaciones", "bs": "četiri godišnja doba" },
+      { "es": "especialmente", "bs": "posebno / naročito" },
+      { "es": "los bosques", "bs": "šume" },
+      { "es": "naranja y rojo", "bs": "narandžaste i crvene" },
+      { "es": "por las mañanas", "bs": "ujutro" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kada je u Bosni jako hladno?",
+        "options": ["U martu i aprilu", "U januaru i februaru", "U oktobru i novembru"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koje godišnje doba je omiljeno naratora?",
+        "options": ["Ljeto", "Proljeće", "Jesen"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Kakve su šume u jesen?",
+        "options": ["Zelene", "Bijele od snijega", "Narandžaste i crvene"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan izraz za 'vjetrovito je'?",
+      "options": ["Está viento", "Hace viento", "Es viento", "Llueve viento"],
+      "answerIndex": 1,
+      "explanation_bs": "Vjetar: Hace viento. Zapamti: hace + imenica (calor, frío, sol, viento)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mi cumpleaños es el diez ___ julio.",
+      "answer": "de",
+      "acceptedAnswers": ["de"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En invierno ___ mucho en Bosnia. (snijeg pada)",
+      "answer": "nieva",
+      "acceptedAnswers": ["nieva"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Koje je tvoje omiljeno godišnje doba?",
+      "answer": "¿Cuál es tu estación favorita?",
+      "acceptedAnswers": ["¿Cuál es tu estación favorita?", "¿Cuál es tu estación del año favorita?", "¿Cuál es tu estación preferida?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ljeti je jako vruće ali mi se sviđa more.",
+      "answer": "En verano hace mucho calor pero me gusta el mar.",
+      "acceptedAnswers": ["En verano hace mucho calor pero me gusta el mar.", "En verano hace mucho calor pero me gustan las playas."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji godišnje doba sa tipičnom vremenskom prilijkom",
+      "pairs": [
+        { "es": "el invierno", "bs": "nieva, hace frío" },
+        { "es": "la primavera", "bs": "llueve, hace sol a veces" },
+        { "es": "el verano", "bs": "hace mucho calor" },
+        { "es": "el otoño", "bs": "hace fresco, las hojas caen" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Hoy hace frío y está nublado. Creo que va a llover.",
+      "answer": "Hoy hace frío y está nublado. Creo que va a llover."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši kakvo je vrijeme u tvom gradu u tvom omiljenom godišnjem dobu.",
+      "modelAnswer_es": "Me gusta el otoño. En octubre hace fresco y el cielo está despejado."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Razgovarate o vremenu i godišnjim dobima — uporedite Bosnu i Španiju.",
+    "level": "A1",
+    "allowedGrammar": ["hace + vremenski", "llover/nevar", "estaciones", "me gusta"],
+    "systemPromptHint": "Pitaj studenta o vremenu i godišnjim dobima u Bosni. Usporedi s Španijom. ¿Qué tiempo hace en Bosnia en invierno? ¿Cuál es tu estación favorita? Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "Four panels showing the four seasons in a Spanish-Bosnian landscape: snow in winter, flowers in spring, beach in summer, colorful leaves in autumn",
+    "alt": "Četiri godišnja doba — zima, proljeće, ljeto, jesen",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["months", "seasons", "weather", "hace-frio-calor", "a1", "u5"]
+  }
+}

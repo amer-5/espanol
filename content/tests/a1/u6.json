@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u6",
+  "level": "A1",
+  "unit": 6,
+  "title": "Test — Jedinica 6: Zdravlje, kupovina i svakodnevni život",
+  "cumulative": true,
+  "timeLimitMinutes": 15,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'Me ___ los pies' (bole me noge)?",
+      "options": ["duele", "duelen", "duelo", "dueles"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a1-u6-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Me ___ (levantarse) a las siete cada día.",
+      "answer": "levanto",
+      "acceptedAnswers": ["levanto"],
+      "points": 2,
+      "lessonId": "a1-u6-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ova plava jakna mi dobro stoji ali je preskupa.",
+      "answer": "Esta chaqueta azul me queda bien pero es muy cara.",
+      "acceptedAnswers": ["Esta chaqueta azul me queda bien pero es muy cara.", "Esta chaqueta azul me queda bien pero es demasiado cara."],
+      "points": 3,
+      "lessonId": "a1-u6-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan izraz za 'idem tramvajem' analogno ostalim prijevozima?",
+      "options": ["Voy a tranvía", "Voy con tranvía", "Voy en tranvía", "Voy de tranvía"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a1-u6-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Busco una camisa ___ (bijela — ženski rod).",
+      "answer": "blanca",
+      "acceptedAnswers": ["blanca"],
+      "points": 2,
+      "lessonId": "a1-u6-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Boli me grlo i imam temperaturu — moram ići kod doktora.",
+      "answer": "Me duele la garganta y tengo fiebre — tengo que ir al médico.",
+      "acceptedAnswers": ["Me duele la garganta y tengo fiebre — tengo que ir al médico.", "Tengo la garganta mal y tengo fiebre, necesito ir al médico."],
+      "points": 3,
+      "lessonId": "a1-u6-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Primero ___ (ducharse — nosotros) y después desayunamos.",
+      "answer": "nos duchamos",
+      "acceptedAnswers": ["nos duchamos"],
+      "points": 2,
+      "lessonId": "a1-u6-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Me levanto a las seis, me ducho y salgo de casa a las siete.",
+      "answer": "Me levanto a las seis, me ducho y salgo de casa a las siete.",
+      "points": 3,
+      "lessonId": "a1-u6-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Idite ravno do trga i skrenite lijevo.",
+      "answer": "Siga todo recto hasta la plaza y gire a la izquierda.",
+      "acceptedAnswers": ["Siga todo recto hasta la plaza y gire a la izquierda.", "Sigue todo recto hasta la plaza y gira a la izquierda."],
+      "points": 2,
+      "lessonId": "a1-u6-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 4–6 rečenica kojim opisuješ jedan dan kad si bio/la bolestan/na: kako si se osjećao/la, šta te bolilo, jesi li išao/la kod doktora, šta si radio/la kod kuće. Koristi ME DUELE, TENER + bolest i refleksivne glagole.",
+      "minWords": 25,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: me duele/duelen ispravno (2), tener + bolest (2), refleksivni glagoli (2), koherentnost priče (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a1-u6-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u6-l1", "topic": "Tijelo, ME DUELE/DUELEN, zdravstvena stanja" },
+    { "lessonId": "a1-u6-l2", "topic": "Odjeća, boje kao pridjevi, QUEDAR, kupovina" },
+    { "lessonId": "a1-u6-l3", "topic": "Refleksivni glagoli, dnevna rutina, redoslijed" },
+    { "lessonId": "a1-u6-l4", "topic": "Transport, EN + prijevoz, upute za put" }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "a2-u8-l1",
+  "level": "A2",
+  "unit": 8,
+  "lessonNumber": 1,
+  "title": "Pretérito perfecto — tvorba",
+  "subtitle": "He comido, has viajado, ha llegado...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Razumjeti kada se koristi pretérito perfecto",
+    "Tvoriti perfekt pravilnih glagola (haber + participio)",
+    "Koristiti perfekt u rečenicama o bliskoj prošlosti"
+  ],
+  "prerequisites": ["a2-u7-l4", "a1-u3-l1", "a1-u3-l2"],
+  "vocabulary": [
+    { "es": "haber (he, has, ha, hemos, habéis, han)", "bs": "imati (pomoćni glagol za perfekt)", "pos": "glag. pomocni", "ipa": "a.ˈβer", "example_es": "He comido mucho hoy.", "example_bs": "Puno sam jeo danas." },
+    { "es": "hoy / esta semana", "bs": "danas / ovaj tjedan", "pos": "pril.", "ipa": "ˈoi/ˈes.ta se.ˈma.na", "example_es": "Esta semana he estudiado mucho.", "example_bs": "Ovaj tjedan sam puno učio." },
+    { "es": "este mes / este año", "bs": "ovaj mjesec / ova godina", "pos": "izr.", "ipa": "ˈes.te mes", "example_es": "Este año he viajado mucho.", "example_bs": "Ove godine sam puno putovao." },
+    { "es": "ya", "bs": "već", "pos": "pril.", "ipa": "ˈxa", "example_es": "Ya he comido.", "example_bs": "Već sam jeo." },
+    { "es": "todavía no / aún no", "bs": "još uvijek ne", "pos": "pril.", "ipa": "to.ða.ˈβi.a no", "example_es": "Todavía no he llegado.", "example_bs": "Još uvijek nisam stigao." },
+    { "es": "nunca / jamás", "bs": "nikad", "pos": "pril.", "ipa": "ˈnun.ka/xa.ˈmas", "example_es": "Nunca he comido sushi.", "example_bs": "Nikad nisam jeo sushi." },
+    { "es": "alguna vez", "bs": "ikad / jednom", "pos": "pril.", "ipa": "al.ˈɣu.na βeθ", "example_es": "¿Has estado alguna vez en España?", "example_bs": "Jesi li ikad bio u Španiji?" },
+    { "es": "últimamente", "bs": "posljednjih dana / nedavno", "pos": "pril.", "ipa": "ˈul.ti.ma.men.te", "example_es": "Últimamente he dormido mal.", "example_bs": "Posljednjih dana loše spavam." },
+    { "es": "esta mañana / esta tarde", "bs": "jutros / večeras/ovog popodneva", "pos": "izr.", "ipa": "ˈes.ta ma.ˈɲa.na", "example_es": "Esta mañana no he desayunado.", "example_bs": "Jutros nisam doručkovao." },
+    { "es": "recientemente", "bs": "nedavno", "pos": "pril.", "ipa": "re.θjen.te.ˈmen.te", "example_es": "He leído un libro muy bueno recientemente.", "example_bs": "Nedavno sam pročitao odličnu knjigu." }
+  ],
+  "grammar": [
+    {
+      "concept": "Tvorba pretérito perfecta",
+      "explanation_bs": "Pretérito perfecto se tvori: **HABER (konjugiran)** + **participio** (prošli pridjev). HABER se konjugira: he, has, ha, hemos, habéis, han. Participio pravilnih glagola: -AR glagoli → **-ado** (hablar → hablado), -ER/-IR glagoli → **-ido** (comer → comido, vivir → vivido). Participio se NIKAD ne mijenja — uvijek ostaje isti!",
+      "table": {
+        "headers": ["Zamjenica", "HABER", "Primjer (-ado)", "Primjer (-ido)"],
+        "rows": [
+          ["yo", "he", "he hablado", "he comido"],
+          ["tú", "has", "has hablado", "has comido"],
+          ["él/ella", "ha", "ha hablado", "ha comido"],
+          ["nosotros", "hemos", "hemos hablado", "hemos comido"],
+          ["vosotros", "habéis", "habéis hablado", "habéis comido"],
+          ["ellos", "han", "han hablado", "han comido"]
+        ]
+      },
+      "examples": [
+        { "es": "He comido paella hoy.", "bs": "Danas sam jeo paelju." },
+        { "es": "¿Has viajado a España?", "bs": "Jesi li putovao u Španiju?" },
+        { "es": "Hemos estudiado mucho esta semana.", "bs": "Puno smo učili ovaj tjedan." }
+      ],
+      "tips": "Ništa ne smije stajati između HABER i participio: 'He ya comido' je POGREŠNO! Ispravno: 'Ya he comido' ili 'He comido ya'."
+    },
+    {
+      "concept": "Kada koristiti pretérito perfecto",
+      "explanation_bs": "Perfekt se koristi za: 1) **Nedavna prošlost** povezana s sadašnjošću: hoy (danas), esta mañana (jutros), esta semana (ovaj tjedan), este mes/año. 2) **Iskustvo** u životu (bez specifičnog vremena): '¿Has estado en España?' (Jesi li ikad bio?). 3) S priloima: ya (već), todavía no (još ne), nunca (nikad), alguna vez (ikad), últimamente. Napomena: U Latinskoj Americi se češće koristi indefinido umjesto perfecta za nedavnu prošlost.",
+      "examples": [
+        { "es": "Hoy no he dormido bien.", "bs": "Danas nisam dobro spavao. (nedavno)" },
+        { "es": "¿Has probado la paella alguna vez?", "bs": "Jesi li ikad probao paelju? (iskustvo)" },
+        { "es": "Todavía no he terminado.", "bs": "Još nisam završio." }
+      ],
+      "tips": "Ključne riječi za perfekt: hoy, esta mañana/tarde/noche, esta semana/semana, este mes/año, ya, todavía no, nunca, alguna vez, últimamente, recientemente."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué has hecho hoy? — Šta si radio danas?",
+    "lines": [
+      { "speaker": "Laura", "es": "¿Qué has hecho hoy?", "bs": "Šta si radio danas?" },
+      { "speaker": "David", "es": "Esta mañana he ido al gimnasio y luego he trabajado desde casa.", "bs": "Jutros sam išao u teretanu i onda sam radio od kuće." },
+      { "speaker": "Laura", "es": "¿Has comido ya?", "bs": "Jesi li već jeo?" },
+      { "speaker": "David", "es": "Sí, he comido un bocadillo. ¿Y tú?", "bs": "Da, jeo sam sendvič. A ti?" },
+      { "speaker": "Laura", "es": "Todavía no he comido nada. He estado muy ocupada.", "bs": "Još nisam jela ništa. Bila sam jako zauzeta." },
+      { "speaker": "David", "es": "¿Has terminado el proyecto?", "bs": "Jesi li završila projekat?" },
+      { "speaker": "Laura", "es": "No, todavía no lo he terminado. He tenido muchos problemas.", "bs": "Ne, još ga nisam završila. Imala sam puno problema." },
+      { "speaker": "David", "es": "Esta semana ha sido muy difícil para los dos.", "bs": "Ovaj tjedan je bio jako težak za nas oboje." }
+    ]
+  },
+  "reading": {
+    "title": "Una semana muy activa — Jako aktivan tjedan",
+    "text_es": "Esta semana ha sido increíble. El lunes he empezado un curso nuevo de cocina española. El martes he cocinado paella por primera vez — ¡y ha quedado buenísima! El miércoles he visitado una exposición de arte moderno. El jueves he quedado con unos amigos que no he visto en meses. El viernes he terminado un libro que he empezado hace tres semanas. Hoy, sábado, he descansado todo el día. Esta semana he aprendido mucho y me he divertido mucho también.",
+    "glossary": [
+      { "es": "increíble", "bs": "nevjerojatno / nevjerovatno" },
+      { "es": "por primera vez", "bs": "po prvi put" },
+      { "es": "ha quedado", "bs": "ispalo je (kako)" },
+      { "es": "buenísima", "bs": "jako ukusna (superlativ)" },
+      { "es": "he quedado con", "bs": "dogovorio sam se s" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je kuhar napravio po prvi put utorak?",
+        "options": ["Tortillu", "Paelju", "Gazpacho"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko dugo nije vidio prijatelje?",
+        "options": ["Tjedan dana", "Nekoliko tjedana", "Nekoliko mjeseci"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Šta je radio subotom?",
+        "options": ["Kuhao", "Odmarao", "Učio"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan participio od VIVIR?",
+      "options": ["vivado", "vivido", "viviendo", "vivado"],
+      "answerIndex": 1,
+      "explanation_bs": "-IR glagoli dobivaju -ido: vivir → vivido."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Esta semana ___ (nosotros/trabajar) mucho.",
+      "answer": "hemos trabajado",
+      "acceptedAnswers": ["hemos trabajado"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Todavía no ___ (ella/terminar) el trabajo.",
+      "answer": "ha terminado",
+      "acceptedAnswers": ["ha terminado"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jutros nisam doručkovao.",
+      "answer": "Esta mañana no he desayunado.",
+      "acceptedAnswers": ["Esta mañana no he desayunado.", "Esta mañana no he tomado el desayuno."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jesi li ikad probao španjolsku hranu?",
+      "answer": "¿Has probado alguna vez la comida española?",
+      "acceptedAnswers": ["¿Has probado alguna vez la comida española?", "¿Has probado la comida española alguna vez?", "¿Alguna vez has probado la comida española?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol sa participiom",
+      "pairs": [
+        { "es": "hablar", "bs": "hablado" },
+        { "es": "comer", "bs": "comido" },
+        { "es": "vivir", "bs": "vivido" },
+        { "es": "estudiar", "bs": "estudiado" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Hoy he comido en un restaurante nuevo y me ha gustado mucho.",
+      "answer": "Hoy he comido en un restaurante nuevo y me ha gustado mucho."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta si radio danas (jutros, popodne) koristeći pretérito perfecto.",
+      "modelAnswer_es": "Esta mañana me he levantado temprano y he desayunado. Luego he trabajado y he comido a las dos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita šta si radio ovog tjedna — vježbate pretérito perfecto.",
+    "level": "A2",
+    "allowedGrammar": ["pretérito perfecto tvorba", "ya/todavía no", "alguna vez", "haber + participio"],
+    "systemPromptHint": "Pitaj studenta šta je radio ovaj tjedan: ¿Qué has hecho esta semana? ¿Has comido algo interesante hoy? ¿Ya has terminado el trabajo? Ispravi greške u tvorbi perfecta."
+  },
+  "illustration": {
+    "prompt": "A person looking at a weekly calendar with checkmarks on completed activities, Spanish calendar, warm tones",
+    "alt": "Tjedni planер s obavljenim aktivnostima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["pretérito-perfecto", "haber", "participio", "ya-todavia-no", "a2", "u8"]
+  }
+}

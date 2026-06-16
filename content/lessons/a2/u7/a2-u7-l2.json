@@ -1,0 +1,173 @@
+{
+  "id": "a2-u7-l2",
+  "level": "A2",
+  "unit": 7,
+  "lessonNumber": 2,
+  "title": "Nepravilni prezent e→ie",
+  "subtitle": "Querer, empezar, entender, pensar...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Konjugirati e→ie nepravilne glagole u prezentu",
+    "Prepoznati koji glagoli imaju e→ie izmjenu",
+    "Koristiti ove glagole u svakodnevnom govoru"
+  ],
+  "prerequisites": ["a1-u5-l1", "a2-u7-l1"],
+  "vocabulary": [
+    { "es": "querer", "bs": "htjeti / željeti", "pos": "glag. e→ie", "ipa": "ke.ˈrer", "example_es": "Quiero aprender más.", "example_bs": "Hoću naučiti više." },
+    { "es": "empezar", "bs": "počinjati", "pos": "glag. e→ie", "ipa": "em.pe.ˈθar", "example_es": "La clase empieza a las nueve.", "example_bs": "Čas počinje u devet." },
+    { "es": "entender", "bs": "razumjeti", "pos": "glag. e→ie", "ipa": "en.ten.ˈder", "example_es": "No entiendo la pregunta.", "example_bs": "Ne razumijem pitanje." },
+    { "es": "pensar", "bs": "misliti / razmišljati", "pos": "glag. e→ie", "ipa": "pen.ˈsar", "example_es": "Pienso que tienes razón.", "example_bs": "Mislim da imaš pravo." },
+    { "es": "preferir", "bs": "preferirati / više voljeti", "pos": "glag. e→ie", "ipa": "pre.fe.ˈrir", "example_es": "Prefiero el café al té.", "example_bs": "Preferiram kafu od čaja." },
+    { "es": "cerrar", "bs": "zatvarati", "pos": "glag. e→ie", "ipa": "θe.ˈrar", "example_es": "El banco cierra a las dos.", "example_bs": "Banka zatvara u dva." },
+    { "es": "perder", "bs": "gubiti / izgubiti", "pos": "glag. e→ie", "ipa": "per.ˈder", "example_es": "Siempre pierdo las llaves.", "example_bs": "Uvijek gubim ključeve." },
+    { "es": "tener (tengo/tienes)", "bs": "imati — e→ie (izuzev yo)", "pos": "glag. neprav.", "ipa": "te.ˈner", "example_es": "Tienes razón.", "example_bs": "Imaš pravo." },
+    { "es": "sentir", "bs": "osjećati / žaliti", "pos": "glag. e→ie", "ipa": "sen.ˈtir", "example_es": "Siento que estoy enfermo.", "example_bs": "Osjećam da sam bolestan." },
+    { "es": "mentir", "bs": "lagati", "pos": "glag. e→ie", "ipa": "men.ˈtir", "example_es": "No me gusta mentir.", "example_bs": "Ne volim lagati." }
+  ],
+  "grammar": [
+    {
+      "concept": "E→IE izmjena — pravilo",
+      "explanation_bs": "Kod e→ie glagola, **E** u korijenu postaje **IE** u svim oblicima osim **nosotros i vosotros**. To je 'boot shape' (oblik čizme) — zamislite da su svi oblici osim nosotros/vosotros unutar čizme gdje se dešava izmjena. Primjer: qu**e**rer → qu**ie**ro, qu**ie**res, qu**ie**re, queremos, queréis, qu**ie**ren. Nosotros/vosotros: queremos, queréis (nema izmjene!).",
+      "table": {
+        "headers": ["Zamjenica", "QUERER", "EMPEZAR", "ENTENDER"],
+        "rows": [
+          ["yo", "quiero", "empiezo", "entiendo"],
+          ["tú", "quieres", "empiezas", "entiendes"],
+          ["él/ella", "quiere", "empieza", "entiende"],
+          ["nosotros", "queremos ← nema!", "empezamos ← nema!", "entendemos ← nema!"],
+          ["vosotros", "queréis ← nema!", "empezáis ← nema!", "entendéis ← nema!"],
+          ["ellos", "quieren", "empiezan", "entienden"]
+        ]
+      },
+      "examples": [
+        { "es": "¿Entiendes la lección?", "bs": "Razumiješ li lekciju?" },
+        { "es": "El supermercado cierra a las diez.", "bs": "Supermarket zatvara u deset." },
+        { "es": "Pensamos que es una buena idea.", "bs": "Mislimo da je to dobra ideja. (nosotros — nema izmjene)" }
+      ],
+      "tips": "Lista najčešćih e→ie glagola: querer, empezar, entender, pensar, preferir, cerrar, perder, tener (tienes/tiene), sentir, mentir, venir (vienes/viene)."
+    },
+    {
+      "concept": "PENSAR + que vs PENSAR + infinitiv",
+      "explanation_bs": "PENSAR se koristi na dva načina: 1) **Pensar que** + indikativ = misliti da (mišljenje): 'Pienso que tienes razón' (Mislim da imaš pravo). 2) **Pensar + infinitiv** = planirati raditi nešto: 'Pienso ir mañana' (Planiram ići sutra). Ovo je korisna alternativa za IR + a + infinitiv.",
+      "examples": [
+        { "es": "Pienso que el español es difícil.", "bs": "Mislim da je španski težak. (mišljenje)" },
+        { "es": "Pienso estudiar esta tarde.", "bs": "Planiram učiti večeras. (plan)" },
+        { "es": "¿Qué piensas hacer el fin de semana?", "bs": "Šta planiraš raditi vikend?" }
+      ],
+      "tips": "Pensar que (mišljenje) vs Pensar + inf (plan). Obje konstrukcije su jako česte."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué piensas? — Šta misliš?",
+    "lines": [
+      { "speaker": "María", "es": "¿Entiendes la gramática española?", "bs": "Razumiješ li španjolsku gramatiku?" },
+      { "speaker": "Iván", "es": "A veces sí, pero cuando el profesor habla muy rápido no entiendo nada.", "bs": "Ponekad da, ali kad profesor govori jako brzo ne razumijem ništa." },
+      { "speaker": "María", "es": "¿Qué prefieres, las clases presenciales o online?", "bs": "Šta preferiraš, nastavu uživo ili online?" },
+      { "speaker": "Iván", "es": "Prefiero las presenciales. Pienso que aprendes más.", "bs": "Preferiram one uživo. Mislim da više naučiš." },
+      { "speaker": "María", "es": "¿Cuándo empiezas el nuevo nivel?", "bs": "Kada počinješ novi nivo?" },
+      { "speaker": "Iván", "es": "Empiezo en octubre. Pienso estudiar mucho este verano.", "bs": "Počinjem u oktobru. Planiram puno učiti ovog ljeta." },
+      { "speaker": "María", "es": "¿Y tú quieres llegar al nivel B2?", "bs": "A ti hoćeš li dostići B2 nivo?" },
+      { "speaker": "Iván", "es": "Sí, quiero. Pero primero quiero entender bien el A2.", "bs": "Da, hoću. Ali prvo hoću dobro razumjeti A2." }
+    ]
+  },
+  "reading": {
+    "title": "¿Qué prefieren los españoles? — Šta Španci preferiraju?",
+    "text_es": "Los españoles prefieren comer tarde — el almuerzo empieza entre las dos y las tres de la tarde. Muchos prefieren la comida casera a la comida rápida. La mayoría piensa que la familia es lo más importante. Los jóvenes prefieren las redes sociales para comunicarse, pero los mayores prefieren llamar por teléfono. En vacaciones, los españoles prefieren la playa — en verano, las playas empiezan a llenarse desde primera hora de la mañana. ¿Y tú, qué prefieres?",
+    "glossary": [
+      { "es": "comida casera", "bs": "domaća hrana" },
+      { "es": "comida rápida", "bs": "brza hrana" },
+      { "es": "la mayoría", "bs": "većina" },
+      { "es": "redes sociales", "bs": "društvene mreže" },
+      { "es": "llenarse", "bs": "puniti se" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kada Španci obično ručaju?",
+        "options": ["U podne", "Između 14 i 15h", "U 17h"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta mladi preferiraju za komunikaciju?",
+        "options": ["Telefonske pozive", "Društvene mreže", "Email"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje Španci preferiraju ići na odmor?",
+        "options": ["Na planine", "Na plažu", "U strane gradove"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik EMPEZAR za 'ellos'?",
+      "options": ["empezamos", "empiezan", "empezan", "empiezan"],
+      "answerIndex": 1,
+      "explanation_bs": "Ellos: emp**ie**zan — e→ie izmjena u 3. licu množine."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo no ___ (entender) esta frase.",
+      "answer": "entiendo",
+      "acceptedAnswers": ["entiendo"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (preferir — tú) el café o el té?",
+      "answer": "Prefieres",
+      "acceptedAnswers": ["Prefieres", "prefieres"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Mislim da počinješ prerano.",
+      "answer": "Pienso que empiezas demasiado pronto.",
+      "acceptedAnswers": ["Pienso que empiezas demasiado pronto.", "Creo que empiezas demasiado pronto."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Preferiramo kafu ali ponekad pijemo čaj.",
+      "answer": "Preferimos el café pero a veces bebemos té.",
+      "acceptedAnswers": ["Preferimos el café pero a veces bebemos té.", "Preferimos el café pero a veces tomamos té."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol sa yo oblikom",
+      "pairs": [
+        { "es": "querer", "bs": "quiero" },
+        { "es": "empezar", "bs": "empiezo" },
+        { "es": "entender", "bs": "entiendo" },
+        { "es": "pensar", "bs": "pienso" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Prefiero el verano pero pienso que el otoño también es bonito.",
+      "answer": "Prefiero el verano pero pienso que el otoño también es bonito."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta planiraš raditi ovog vikenda koristeći PENSAR + infinitiv i PREFERIR.",
+      "modelAnswer_es": "Pienso ir al cine este fin de semana. Prefiero las películas de acción. También pienso quedarme en casa el domingo."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o preferencijama i planovima koristeći e→ie glagole.",
+    "level": "A2",
+    "allowedGrammar": ["e→ie glagoli", "pensar que / pensar + inf", "preferir", "refleksivni"],
+    "systemPromptHint": "Pitaj studenta o preferencijama: ¿Prefieres el verano o el invierno? ¿Cuándo empiezas a trabajar? ¿Qué piensas hacer mañana? Ispravi e→ie greške."
+  },
+  "illustration": {
+    "prompt": "A person thinking and choosing between two options, thought bubbles, Spanish cafe setting with coffee and tea",
+    "alt": "Osoba bira između dvije opcije",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["e-ie-verbs", "querer", "empezar", "entender", "pensar", "a2", "u7"]
+  }
+}

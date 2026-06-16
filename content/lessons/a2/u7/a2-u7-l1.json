@@ -1,0 +1,173 @@
+{
+  "id": "a2-u7-l1",
+  "level": "A2",
+  "unit": 7,
+  "lessonNumber": 1,
+  "title": "Refleksivni glagoli — jutarnja rutina",
+  "subtitle": "Levantarse, ducharse, acostarse... — prošireno",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti refleksivne glagole s nijansom (navika vs stanje)",
+    "Opisati potpunu dnevnu rutinu detaljno",
+    "Koristiti priloge učestalosti: siempre, nunca, a veces..."
+  ],
+  "prerequisites": ["a1-u6-l4", "a1-u5-l1", "a1-u3-l3"],
+  "vocabulary": [
+    { "es": "despertarse", "bs": "buditi se", "pos": "refl. glag. e→ie", "ipa": "des.per.ˈtar.se", "example_es": "Me despierto antes de que suene el despertador.", "example_bs": "Budim se prije nego što zvoni budilnik." },
+    { "es": "afeitarse / maquillarse", "bs": "brijati se / šminkati se", "pos": "refl. glag.", "ipa": "a.fei.ˈtar.se", "example_es": "Me maquillo en cinco minutos.", "example_bs": "Šminku se za pet minuta." },
+    { "es": "peinarse / arreglarse", "bs": "češljati se / srediti se", "pos": "refl. glag.", "ipa": "pei.ˈnar.se", "example_es": "Tardo mucho en arreglarme.", "example_bs": "Dugo se sređujem." },
+    { "es": "quedarse dormido", "bs": "zaspati / zaspati usred nečega", "pos": "refl. izr.", "ipa": "ke.ˈðar.se dor.ˈmi.ðo", "example_es": "Me quedo dormido en el sofá.", "example_bs": "Zaspim na sofi." },
+    { "es": "ponerse (la ropa)", "bs": "obući (odjeću)", "pos": "refl. glag. neprav.", "ipa": "po.ˈner.se", "example_es": "Me pongo el abrigo.", "example_bs": "Oblačim kaput." },
+    { "es": "quitarse (la ropa)", "bs": "skinuti (odjeću)", "pos": "refl. glag.", "ipa": "ki.ˈtar.se", "example_es": "Me quito los zapatos al llegar.", "example_bs": "Skidam cipele kad dođem." },
+    { "es": "siempre / nunca", "bs": "uvijek / nikad", "pos": "pril.", "ipa": "ˈsjem.pre/ˈnun.ka", "example_es": "Siempre me ducho por la mañana.", "example_bs": "Uvijek se tuširam ujutro." },
+    { "es": "a veces / de vez en cuando", "bs": "ponekad / s vremena na vrijeme", "pos": "pril.", "ipa": "a ˈβe.θes", "example_es": "A veces me quedo en la cama.", "example_bs": "Ponekad ostanem u krevetu." },
+    { "es": "normalmente / generalmente", "bs": "normalno / obično", "pos": "pril.", "ipa": "nor.mal.ˈmen.te", "example_es": "Normalmente me levanto a las siete.", "example_bs": "Normalno ustajem u sedam." },
+    { "es": "el despertador", "bs": "budilnik", "pos": "im. m.", "ipa": "el des.per.ta.ˈðor", "example_es": "Pongo el despertador a las seis.", "example_bs": "Stavljam budilnik na šest." }
+  ],
+  "grammar": [
+    {
+      "concept": "Refleksivni glagoli — prošireni pregled",
+      "explanation_bs": "Na A1 smo naučili osnove refleksivnih glagola. Na A2 produbimo: 1) Neki glagoli mijenjaju značenje kad su refleksivni: 'dormir' (spavati) vs 'dormirse' (zaspati), 'ir' (ići) vs 'irse' (otići/zbrisati), 'poner' (staviti) vs 'ponerse' (obući). 2) Refleksivna zamjenica može ići i nakon infinitiva ILI ispred pomoćnog glagola: 'Me quiero duchar' = 'Quiero ducharme' — oba su ispravna.",
+      "table": {
+        "headers": ["Glagol", "Bez se", "Sa se (-se)", "Razlika"],
+        "rows": [
+          ["dormir", "Duermo 8 horas.", "Me duermo en el sofá.", "spavati → zaspati"],
+          ["ir", "Voy al trabajo.", "Me voy a casa.", "ići → otići/zbrisati"],
+          ["poner", "Pongo el libro.", "Me pongo el abrigo.", "staviti → obući"],
+          ["quitar", "Quito el polvo.", "Me quito los zapatos.", "skinuti (prašinu) → skinuti (odjeću)"],
+          ["llamar", "Llamo a Ana.", "Me llamo Ana.", "zvati → zvati se/ime"]
+        ]
+      },
+      "examples": [
+        { "es": "Me voy — hasta luego.", "bs": "Odlazim — doviđenja." },
+        { "es": "Me pongo el abrigo porque hace frío.", "bs": "Oblačim kaput jer je hladno." },
+        { "es": "Quiero ducharme antes de salir.", "bs": "Hoću se istuširati prije izlaska." }
+      ],
+      "tips": "Dvomjesto zamjenice: 'Me quiero duchar' OR 'Quiero ducharme' — oboje su ispravni, ali zamjenica mora biti ili na početku ili prikačena na infinitiv."
+    },
+    {
+      "concept": "Prilozi učestalosti",
+      "explanation_bs": "Španski ima bogat sistem priloga za učestalost. Redosljed od najveće do najmanje učestalosti: **siempre** (uvijek) → **casi siempre** (gotovo uvijek) → **normalmente** (normalno/obično) → **a menudo** (često) → **a veces** (ponekad) → **de vez en cuando** (s vremena na vrijeme) → **pocas veces** (rijetko) → **casi nunca** (gotovo nikad) → **nunca** (nikad). Negativno: 'nunca' NE treba 'no' ako je ispred glagola: 'Nunca como carne' ili 'No como nunca carne' (dvostruka negacija OK u španskom!).",
+      "examples": [
+        { "es": "Siempre desayuno en casa.", "bs": "Uvijek doručkujem kod kuće." },
+        { "es": "A veces me quedo dormido en el sofá.", "bs": "Ponekad zaspim na sofi." },
+        { "es": "Nunca me levanto tarde entre semana.", "bs": "Nikad ne ustajem kasno radnim danima." }
+      ],
+      "tips": "Redoslijed u rečenici: prilog + glagol (Normalmente trabajo) ili glagol + prilog (Trabajo normalmente). Nunca i siempre idu ili na početku ili odmah ispred glagola."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Eres madrugador? — Jesi li rana ptica?",
+    "lines": [
+      { "speaker": "Laura", "es": "¿A qué hora te despiertas normalmente?", "bs": "U koliko se uobičajeno budiš?" },
+      { "speaker": "Pablo", "es": "Me despierto a las seis y cuarto pero me quedo en la cama diez minutos más.", "bs": "Budim se u šest i četvrt ali ostajem u krevetu još deset minuta." },
+      { "speaker": "Laura", "es": "¡Yo nunca puedo hacer eso! Me levanto enseguida.", "bs": "Ja to nikad ne mogu! Odmah ustajem." },
+      { "speaker": "Pablo", "es": "¿Y cuánto tardas en arreglarte?", "bs": "A koliko ti treba da se sređiješ?" },
+      { "speaker": "Laura", "es": "Unos treinta minutos — me ducho, me maquillo y me visto.", "bs": "Oko trideset minuta — tuširam se, šminkem se i oblačim." },
+      { "speaker": "Pablo", "es": "Yo tardo menos. Me pongo el despertador a las seis y cuarto y salgo a las siete.", "bs": "Meni treba manje. Stavim budilnik na šest i četvrt i izlazim u sedam." },
+      { "speaker": "Laura", "es": "¿Te acuestas tarde?", "bs": "Liježeš li kasno?" },
+      { "speaker": "Pablo", "es": "A veces. Los viernes casi nunca me acuesto antes de las doce.", "bs": "Ponekad. Petkom gotovo nikad ne liježem prije ponoći." }
+    ]
+  },
+  "reading": {
+    "title": "Mi rutina de entre semana — Moja rutina radnim danima",
+    "text_es": "Soy profesora y tengo una rutina bastante fija entre semana. Normalmente me despierto a las seis y media — sin despertador, porque mi cuerpo ya está acostumbrado. Me levanto enseguida y voy directamente a la ducha. Me ducho en menos de diez minutos. Luego me visto y me maquillo — eso me lleva unos veinte minutos. Desayuno mientras escucho las noticias. Salgo de casa a las siete y cuarto. Casi nunca llego tarde al trabajo. Los fines de semana, en cambio, me quedo en la cama hasta las diez o las once.",
+    "glossary": [
+      { "es": "bastante fija", "bs": "prilično fiksna/ustaljenom" },
+      { "es": "acostumbrado", "bs": "naviknuto" },
+      { "es": "enseguida", "bs": "odmah" },
+      { "es": "me lleva", "bs": "traje mi (vremena)" },
+      { "es": "las noticias", "bs": "vijesti" },
+      { "es": "en cambio", "bs": "s druge strane / nasuprot tome" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto joj ne treba budilnik?",
+        "options": ["Jer ide spavati rano", "Jer joj je tijelo naviknuto", "Jer ima dijete koje je budi"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko joj vremena treba za oblačenje i šminkanje?",
+        "options": ["Deset minuta", "Dvadeset minuta", "Trideset minuta"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada ustaje vikendom?",
+        "options": ["U sedam", "U osam", "U deset ili jedanaest"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik DESPERTARSE za 'ella'?",
+      "options": ["se despierta", "se desperta", "se despierto", "se despierta"],
+      "answerIndex": 0,
+      "explanation_bs": "Despertarse je e→ie glagol: me despierto, te despiertas, se despierta... (nosotros: nos despertamos — bez izmjene)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (nunca) me quedo dormido en el autobús.",
+      "answer": "Nunca",
+      "acceptedAnswers": ["Nunca", "nunca"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Cuánto tardas en ___? (arreglarse — tú)",
+      "answer": "arreglarte",
+      "acceptedAnswers": ["arreglarte"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Normalno se tuširam ujutro ali ponekad navečer.",
+      "answer": "Normalmente me ducho por la mañana pero a veces por la noche.",
+      "acceptedAnswers": ["Normalmente me ducho por la mañana pero a veces por la noche.", "Normalmente me ducho por la mañana pero a veces me ducho por la noche."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Hoću se urediti prije nego što izađemo.",
+      "answer": "Quiero arreglarme antes de salir.",
+      "acceptedAnswers": ["Quiero arreglarme antes de salir.", "Me quiero arreglar antes de salir."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Poredaj po učestalosti od najviše do najmanje",
+      "pairs": [
+        { "es": "siempre", "bs": "100% — uvijek" },
+        { "es": "a menudo", "bs": "~70% — često" },
+        { "es": "a veces", "bs": "~30% — ponekad" },
+        { "es": "nunca", "bs": "0% — nikad" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Normalmente me despierto temprano pero los domingos me quedo en la cama.",
+      "answer": "Normalmente me despierto temprano pero los domingos me quedo en la cama."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju jutarnju rutinu detaljno koristeći refleksivne glagole i priloge učestalosti.",
+      "modelAnswer_es": "Normalmente me despierto a las siete. Siempre me ducho y a veces me afeito. Nunca me maquillo entre semana."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o jutarnjoj rutini — koliko si rana ptica, šta uvijek/nikad radiš.",
+    "level": "A2",
+    "allowedGrammar": ["refleksivni glagoli", "e→ie izmjena", "prilozi učestalosti"],
+    "systemPromptHint": "Pitaj studenta o jutarnjoj rutini s naglaskom na učestalost: ¿Siempre te duchas por la mañana? ¿Nunca llegas tarde? ¿A veces te quedas en la cama? Ispravi greške u refleksivnim glagolima i prilogu."
+  },
+  "illustration": {
+    "prompt": "A morning routine timeline showing wake-up alarm, shower, mirror with makeup/shaving, breakfast, going out — Spanish home interior",
+    "alt": "Jutarnja rutina od budilnika do izlaska",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["reflexive-verbs-advanced", "frequency-adverbs", "morning-routine", "a2", "u7"]
+  }
+}

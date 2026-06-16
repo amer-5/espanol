@@ -1,0 +1,178 @@
+{
+  "id": "a2-u8-l2",
+  "level": "A2",
+  "unit": 8,
+  "lessonNumber": 2,
+  "title": "Nepravilni participi",
+  "subtitle": "Visto, hecho, dicho, escrito, abierto...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti najčešće nepravilne participije",
+    "Koristiti nepravilne participije u pretérito perfectu",
+    "Prepoznati participi koji dolaze od složenih glagola"
+  ],
+  "prerequisites": ["a2-u8-l1"],
+  "vocabulary": [
+    { "es": "hecho (hacer)", "bs": "uradio/napravljen (raditi)", "pos": "participio", "ipa": "ˈe.tʃo", "example_es": "¿Qué has hecho hoy?", "example_bs": "Šta si danas radio?" },
+    { "es": "visto (ver)", "bs": "vidio/viđen (vidjeti)", "pos": "participio", "ipa": "ˈbis.to", "example_es": "No he visto esa película.", "example_bs": "Nisam vidio taj film." },
+    { "es": "dicho (decir)", "bs": "rekao/rečen (reći)", "pos": "participio", "ipa": "ˈdi.tʃo", "example_es": "¿Qué has dicho?", "example_bs": "Šta si rekao?" },
+    { "es": "escrito (escribir)", "bs": "napisao/napisan (pisati)", "pos": "participio", "ipa": "es.ˈkri.to", "example_es": "He escrito un email.", "example_bs": "Napisao sam email." },
+    { "es": "abierto (abrir)", "bs": "otvorio/otvoren (otvoriti)", "pos": "participio", "ipa": "a.ˈβjer.to", "example_es": "Han abierto un restaurante nuevo.", "example_bs": "Otvorili su novi restoran." },
+    { "es": "puesto (poner)", "bs": "stavio/stavljen (staviti)", "pos": "participio", "ipa": "ˈpwes.to", "example_es": "He puesto la mesa.", "example_bs": "Postavio sam stol." },
+    { "es": "vuelto (volver)", "bs": "vratio se/vraćen (vratiti)", "pos": "participio", "ipa": "ˈbwel.to", "example_es": "¿Ya has vuelto?", "example_bs": "Jesi li se već vratio?" },
+    { "es": "muerto (morir)", "bs": "umro/mrtav (umrijeti)", "pos": "participio", "ipa": "ˈmwer.to", "example_es": "Ha muerto el protagonista.", "example_bs": "Protagonist je umro." },
+    { "es": "roto (romper)", "bs": "slomio/slomljen (slomiti)", "pos": "participio", "ipa": "ˈro.to", "example_es": "He roto el vaso.", "example_bs": "Slomio sam čašu." },
+    { "es": "cubierto (cubrir)", "bs": "pokrio/pokriven (pokriti)", "pos": "participio", "ipa": "ku.ˈβjer.to", "example_es": "Han cubierto los gastos.", "example_bs": "Pokrili su troškove." }
+  ],
+  "grammar": [
+    {
+      "concept": "Nepravilni participi — lista",
+      "explanation_bs": "Ovi participi se moraju naučiti napamet jer se ne tvore pravilno (-ado/-ido). Najvažniji: hacer → **hecho**, ver → **visto**, decir → **dicho**, escribir → **escrito**, abrir → **abierto**, poner → **puesto**, volver → **vuelto**, morir → **muerto**, romper → **roto**, cubrir → **cubierto**. Dobra vijest: složeni glagoli nasljeđuju isti participio: descubrir → descubierto, componer → compuesto, devolver → devuelto.",
+      "table": {
+        "headers": ["Infinitiv", "Participio", "Složeni glagol (isti)"],
+        "rows": [
+          ["hacer", "hecho", "deshacer → deshecho"],
+          ["ver", "visto", "prever → previsto"],
+          ["decir", "dicho", "contradecir → contradicho"],
+          ["escribir", "escrito", "describir → descrito"],
+          ["abrir", "abierto", "descubrir → descubierto"],
+          ["poner", "puesto", "suponer → supuesto"],
+          ["volver", "vuelto", "devolver → devuelto"],
+          ["romper", "roto", "—"],
+          ["morir", "muerto", "—"],
+          ["cubrir", "cubierto", "descubrir → descubierto"]
+        ]
+      },
+      "examples": [
+        { "es": "He visto una película muy buena.", "bs": "Vidio sam jako dobru film." },
+        { "es": "¿Has hecho los deberes?", "bs": "Jesi li uradio domaće zadaće?" },
+        { "es": "Han roto la ventana.", "bs": "Slomili su prozor." }
+      ],
+      "tips": "Trik: nepravilni participi na -to su: visto, escrito, hecho (jedini na -cho), dicho (jedini na -cho), puesto, vuelto, muerto, roto, abierto, cubierto."
+    },
+    {
+      "concept": "Participio kao pridjev",
+      "explanation_bs": "Participio se osim u perfectu može koristiti i kao **pridjev** — tada se slaže u rodu i broju s imenicom! 'El restaurante está abierto' (Restoran je otvoren — pridjev, slaže se). Razlika: perfekt ne mijenja participio ('He abierto la puerta'), ali pridjev mijenja ('La puerta está abierta', 'Las puertas están abiertas').",
+      "examples": [
+        { "es": "He cerrado las ventanas. (perfekt)", "bs": "Zatvorio sam prozore. (participio se ne mijenja)" },
+        { "es": "Las ventanas están cerradas. (pridjev)", "bs": "Prozori su zatvoreni. (slaže se — ženski mn.)" },
+        { "es": "Un hombre muerto. (pridjev)", "bs": "Mrtav čovjek. (slaže se — muški jd.)" }
+      ],
+      "tips": "Perfekt: haber + participio (nepromjenljiv). Estar + participio = stanje/rezultat (mijenja se kao pridjev)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Has visto esa película? — Jesi li vidio taj film?",
+    "lines": [
+      { "speaker": "Carmen", "es": "¿Has visto la nueva película de Almodóvar?", "bs": "Jesi li vidio novi Almodóvarov film?" },
+      { "speaker": "Luis", "es": "Todavía no la he visto. ¿Es buena?", "bs": "Još je nisam vidio. Je li dobra?" },
+      { "speaker": "Carmen", "es": "¡Es increíble! He visto muchas de sus películas pero esta es la mejor.", "bs": "Nevjerojatna je! Vidio sam puno njegovih filmova ali ovaj je najbolji." },
+      { "speaker": "Luis", "es": "¿Qué has hecho este fin de semana?", "bs": "Šta si radio ovog vikenda?" },
+      { "speaker": "Carmen", "es": "He escrito muchos emails, he leído y he visto esa película.", "bs": "Pisala sam puno emailova, čitala sam i gledala taj film." },
+      { "speaker": "Luis", "es": "¿Has dicho algo a tu jefe sobre las vacaciones?", "bs": "Jesi li rekla nešto svom šefu o odmoru?" },
+      { "speaker": "Carmen", "es": "Sí, le he dicho que quiero dos semanas en agosto.", "bs": "Da, rekla sam mu da hoću dva tjedna u augustu." },
+      { "speaker": "Luis", "es": "¿Y qué ha dicho él?", "bs": "A šta je on rekao?" },
+      { "speaker": "Carmen", "es": "No ha dicho nada todavía. Está pensando.", "bs": "Još ništa nije rekao. Razmišlja." }
+    ]
+  },
+  "reading": {
+    "title": "Grandes descubrimientos — Velika otkrića",
+    "text_es": "Los seres humanos han hecho descubrimientos increíbles a lo largo de la historia. Han descubierto continentes nuevos, han escrito libros que han cambiado el mundo y han visto cosas que parecían imposibles. En los últimos cien años, los científicos han roto muchos límites — han visto el espacio, han abierto nuevas posibilidades médicas y han puesto hombres en la luna. Los jóvenes de hoy han crecido en un mundo digital que sus abuelos nunca habrían imaginado.",
+    "glossary": [
+      { "es": "los seres humanos", "bs": "ljudska bića" },
+      { "es": "a lo largo de", "bs": "kroz (povijest)" },
+      { "es": "han cambiado", "bs": "su promijenili" },
+      { "es": "límites", "bs": "granice/ograničenja" },
+      { "es": "han crecido", "bs": "su odrasli" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što su ljudi otkrili uz historiju?",
+        "options": ["Samo nove kontinente", "Kontinente, knjige koje su promijenile svijet i nevjerovatne stvari", "Samo medicinske mogućnosti"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta su naučnici u zadnjih sto godina stavili na Mjesec?",
+        "options": ["Rakete", "Ljude", "Satelite"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "U kakvom svijetu su odrasli mladi danas?",
+        "options": ["Industrijskom", "Digitalnom", "Prirodnom"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan participio od HACER?",
+      "options": ["hacido", "hachado", "hecho", "hacado"],
+      "answerIndex": 2,
+      "explanation_bs": "Hacer ima nepravilan participio: hecho."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Qué ___ (tú/decir) a tu madre?",
+      "answer": "has dicho",
+      "acceptedAnswers": ["has dicho"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La tienda está ___ (abrir — como adjetivo, femenino).",
+      "answer": "abierta",
+      "acceptedAnswers": ["abierta"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jesi li vidio novi Ronaldov film?",
+      "answer": "¿Has visto la nueva película de Ronaldo?",
+      "acceptedAnswers": ["¿Has visto la nueva película de Ronaldo?", "¿Has visto el nuevo film de Ronaldo?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Slomio sam čašu i napisao email s izvinjenjem.",
+      "answer": "He roto el vaso y he escrito un email de disculpa.",
+      "acceptedAnswers": ["He roto el vaso y he escrito un email de disculpa.", "He roto la copa y he escrito un email pidiendo disculpas."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji infinitiv s nepravilnim participiom",
+      "pairs": [
+        { "es": "ver", "bs": "visto" },
+        { "es": "poner", "bs": "puesto" },
+        { "es": "volver", "bs": "vuelto" },
+        { "es": "escribir", "bs": "escrito" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "He hecho todo lo que me has dicho.",
+      "answer": "He hecho todo lo que me has dicho."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci tri stvari koje si vidio, napravio ili napisao ovog tjedna.",
+      "modelAnswer_es": "Esta semana he visto una serie nueva, he hecho ejercicio y he escrito un email importante."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o filmovima/knjigama — vježbate nepravilne participije u perfectu.",
+    "level": "A2",
+    "allowedGrammar": ["nepravilni participi", "pretérito perfecto", "ya/todavía"],
+    "systemPromptHint": "Pitaj studenta o filmovima i knjigama: ¿Has visto alguna película buena? ¿Qué libros has leído? ¿Qué has hecho últimamente? Ispravi nepravilne participije."
+  },
+  "illustration": {
+    "prompt": "A person sitting with a book and movie tickets, speech bubbles showing 'He visto...', 'He leído...', 'He hecho...', cozy atmosphere",
+    "alt": "Osoba s knjigom i filmskim kartama — iskustvo",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["irregular-participles", "hecho-visto-dicho", "perfecto", "a2", "u8"]
+  }
+}

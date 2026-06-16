@@ -1,0 +1,101 @@
+{
+  "id": "test-a2-u8",
+  "level": "A2",
+  "unit": 8,
+  "title": "Test — Jedinica 8: Pretérito perfecto",
+  "cumulative": true,
+  "timeLimitMinutes": 15,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan participio od HACER?",
+      "options": ["hacido", "hecho", "hacado", "hacho"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u8-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Esta semana ___ (yo/trabajar) mucho.",
+      "answer": "he trabajado",
+      "acceptedAnswers": ["he trabajado"],
+      "points": 2,
+      "lessonId": "a2-u8-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nikad nisam probao japansku hranu ali hoću jednog dana.",
+      "answer": "Nunca he probado la comida japonesa pero quiero probarla algún día.",
+      "acceptedAnswers": ["Nunca he probado la comida japonesa pero quiero probarla algún día.", "Nunca he probado comida japonesa pero quiero algún día."],
+      "points": 3,
+      "lessonId": "a2-u8-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik refleksivnog perfecta za 'yo perderse'?",
+      "options": ["he me perdido", "me he perdido", "me perdido", "he perdido"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u8-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (tú/ver) esa película? (Jesi li vidio...)",
+      "answer": "Has visto",
+      "acceptedAnswers": ["Has visto", "has visto"],
+      "points": 2,
+      "lessonId": "a2-u8-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jesi li već jeo? — Još ne.",
+      "answer": "¿Ya has comido? — Todavía no.",
+      "acceptedAnswers": ["¿Ya has comido? — Todavía no.", "¿Has comido ya? — Todavía no.", "¿Ya has comido? — Aún no."],
+      "points": 2,
+      "lessonId": "a2-u8-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Lo mejor del viaje ___ (ser) la gente.",
+      "answer": "ha sido",
+      "acceptedAnswers": ["ha sido"],
+      "points": 2,
+      "lessonId": "a2-u8-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Esta semana he visto dos películas y he leído un libro muy interesante.",
+      "answer": "Esta semana he visto dos películas y he leído un libro muy interesante.",
+      "points": 3,
+      "lessonId": "a2-u8-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ovog ljeta smo putovali u Španiju i upoznali smo jako simpatične ljude.",
+      "answer": "Este verano hemos viajado a España y hemos conocido a gente muy simpática.",
+      "acceptedAnswers": ["Este verano hemos viajado a España y hemos conocido a gente muy simpática.", "Este verano hemos viajado a España y hemos conocido personas muy simpáticas."],
+      "points": 2,
+      "lessonId": "a2-u8-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 4–6 rečenica o iskustvima koje si imao/la u životu: šta si vidio, napravio, okusio, kamo si putovao. Koristi pretérito perfecto, nepravilne participije i izraze ya/nunca/alguna vez.",
+      "minWords": 35,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: ispravna tvorba perfecta (3), nepravilni participi (3), ya/nunca/alguna vez/todavía no (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u8-l3"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u8-l1", "topic": "Pretérito perfecto tvorba, haber + participio, ključne fraze" },
+    { "lessonId": "a2-u8-l2", "topic": "Nepravilni participi: hecho, visto, dicho, escrito, abierto..." },
+    { "lessonId": "a2-u8-l3", "topic": "Ya/todavía no/aún no, alguna vez/nunca, iskustvo u životu" },
+    { "lessonId": "a2-u8-l4", "topic": "Perfekt za putovanja i iskustva, refleksivi u perfectu" }
+  ]
+}

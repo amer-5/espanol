@@ -1,0 +1,162 @@
+{
+  "id": "a2-u8-l4",
+  "level": "A2",
+  "unit": 8,
+  "lessonNumber": 4,
+  "title": "Iskustvo i putovanja — perfekt u praksi",
+  "subtitle": "He viajado, he conocido, he aprendido...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Pričati o putovanjima i iskustvima koristeći perfekt",
+    "Opisati šta si doživio na putovanju",
+    "Kombinovati perfekt sa priloima i nepravilnim participima"
+  ],
+  "prerequisites": ["a2-u8-l1", "a2-u8-l2", "a2-u8-l3"],
+  "vocabulary": [
+    { "es": "viajar / el viaje", "bs": "putovati / putovanje", "pos": "glag./im.", "ipa": "bja.ˈxar/el ˈbja.xe", "example_es": "He hecho un viaje increíble.", "example_bs": "Napravio sam nevjerojatno putovanje." },
+    { "es": "el aeropuerto / el vuelo", "bs": "aerodrom / let", "pos": "im. m.", "ipa": "el a.e.ro.ˈpwer.to", "example_es": "El vuelo ha durado tres horas.", "example_bs": "Let je trajao tri sata." },
+    { "es": "el hotel / el alojamiento", "bs": "hotel / smještaj", "pos": "im. m.", "ipa": "el o.ˈtel", "example_es": "He reservado un hotel.", "example_bs": "Rezervirao sam hotel." },
+    { "es": "las fotos / los recuerdos", "bs": "fotografije / uspomene", "pos": "im.", "ipa": "las ˈfo.tos", "example_es": "He sacado muchas fotos.", "example_bs": "Snimio sam puno fotografija." },
+    { "es": "probar la comida local", "bs": "probati lokalnu hranu", "pos": "izr.", "ipa": "pro.ˈβar", "example_es": "He probado la comida local.", "example_bs": "Probao sam lokalnu hranu." },
+    { "es": "conocer gente nueva", "bs": "upoznati nove ljude", "pos": "izr.", "ipa": "ko.no.ˈθer", "example_es": "He conocido gente muy interesante.", "example_bs": "Upoznao sam jako zanimljive ljude." },
+    { "es": "perderse", "bs": "izgubiti se", "pos": "refl. glag.", "ipa": "per.ˈðer.se", "example_es": "Me he perdido en la ciudad.", "example_bs": "Izgubio sam se u gradu." },
+    { "es": "sorprenderse", "bs": "iznenaditi se", "pos": "refl. glag.", "ipa": "sor.pren.ˈðer.se", "example_es": "Me he sorprendido con la arquitectura.", "example_bs": "Iznenadio sam se arhitekturom." },
+    { "es": "lo mejor / lo peor", "bs": "ono najbolje / ono najgore", "pos": "izr.", "ipa": "lo me.ˈxor", "example_es": "Lo mejor ha sido la gente.", "example_bs": "Ono najbolje je bila publika/narod." },
+    { "es": "ha merecido la pena", "bs": "vrijelo je truda", "pos": "izr.", "ipa": "a me.re.ˈθi.ðo la ˈpe.na", "example_es": "Ha merecido la pena el viaje.", "example_bs": "Putovanje je vrijedilo truda." }
+  ],
+  "grammar": [
+    {
+      "concept": "Perfekt za nedavna putovanja i iskustva",
+      "explanation_bs": "U Španiji se za putovanja ili iskustva koja imaju veze sa sadašnjošću (sjećanje je svježe, doneseni su suveniri, još uvijek smo pod dojmom) koristi perfekt: 'He viajado a Roma este verano' (putovao sam u Rim ovog ljeta). Za davno prošla putovanja koristimo indefinido (naučit ćemo u U9): 'Fui a Roma en 2015.' Ključna razlika: je li veza sa sadašnjošću prisutna?",
+      "examples": [
+        { "es": "Este verano he visitado tres países.", "bs": "Ovog ljeta sam posjetio tri države. (svježe)" },
+        { "es": "He sacado 200 fotos en el viaje.", "bs": "Snimio sam 200 fotografija na putovanju." },
+        { "es": "Lo mejor del viaje ha sido la comida.", "bs": "Ono najgore na putovanju bila je hrana." }
+      ],
+      "tips": "Este verano/año/mes → perfekt. El verano pasado/el año pasado → indefinido (sljedeća lekcija)."
+    },
+    {
+      "concept": "REFLEXIVOS u prošlosti s perfectom",
+      "explanation_bs": "Refleksivni glagoli u perfectu: zamjenica ostaje ispred HABER: 'Me he perdido' (Izgubio sam se), 'Se ha sorprendido' (Iznenadio se). Redoslijed: me/te/se/nos/os/se + HABER + participio. Participio se ne mijenja!",
+      "examples": [
+        { "es": "Me he perdido en el metro de Madrid.", "bs": "Izgubio sam se u madridskom metrou." },
+        { "es": "Nos hemos divertido muchísimo.", "bs": "Jako smo se zabavili." },
+        { "es": "Se han sorprendido con la belleza de la ciudad.", "bs": "Iznenadili su se ljepotom grada." }
+      ],
+      "tips": "Redoslijed u perfectu s refleksivom: UVIJEK: me/te/se... + he/has/ha... + participio. Nikad: he me levantado — POGREŠNO! Ispravno: me he levantado."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo ha ido el viaje? — Kako je prošlo putovanje?",
+    "lines": [
+      { "speaker": "Marta", "es": "¡Por fin has vuelto! ¿Cómo ha ido el viaje a Marruecos?", "bs": "Konačno si se vratio! Kako je prošlo putovanje u Maroko?" },
+      { "speaker": "Sergio", "es": "Ha sido increíble. Lo mejor ha sido el mercado de Marrakech.", "bs": "Bilo je nevjerojatno. Ono najbolje je bio marakeški bazar." },
+      { "speaker": "Marta", "es": "¿Has probado la comida local?", "bs": "Jesi li probao lokalnu hranu?" },
+      { "speaker": "Sergio", "es": "He probado de todo — tagine, cuscús, te de menta... Me ha encantado.", "bs": "Probao sam sve — tagine, kuskus, mentinu čaj... Oduševilo me." },
+      { "speaker": "Marta", "es": "¿Te has perdido alguna vez?", "bs": "Jesi li se ikad izgubio?" },
+      { "speaker": "Sergio", "es": "¡Sí! Me he perdido en el zoco. Pero he conocido a un chico muy simpático que me ha ayudado.", "bs": "Da! Izgubio sam se na bazaru. Ali upoznao sam jako simpatičnog momka koji mi je pomogao." },
+      { "speaker": "Marta", "es": "¿Has sacado muchas fotos?", "bs": "Jesi li snimio puno fotografija?" },
+      { "speaker": "Sergio", "es": "Más de trescientas. Ha merecido la pena cada momento.", "bs": "Više od tri stotine. Svaki je trenutak vrijedio truda." }
+    ]
+  },
+  "reading": {
+    "title": "Mi primer viaje a España — Moje prvo putovanje u Španiju",
+    "text_es": "Este año he cumplido un sueño: he viajado a España por primera vez. He visitado Madrid, Barcelona y Sevilla. En Madrid he visto el Museo del Prado — he quedado impresionado. En Barcelona he comido en La Boqueria y me he sorprendido con la arquitectura de Gaudí. Lo que más me ha gustado ha sido la gente — he conocido a personas increíbles por todo el país. He hablado español todo el tiempo y casi nunca me he comunicado en inglés. Ha sido una experiencia transformadora. Ya he empezado a planificar mi próximo viaje.",
+    "glossary": [
+      { "es": "he cumplido un sueño", "bs": "ostvario sam san" },
+      { "es": "he quedado impresionado", "bs": "ostao sam impresioniran" },
+      { "es": "La Boqueria", "bs": "Boqueria (poznata tržnica u Barceloni)" },
+      { "es": "transformadora", "bs": "transformativna / koja mijenja" },
+      { "es": "planificar", "bs": "planirati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koje gradove je autor posjetio?",
+        "options": ["Madrid i Barcelona", "Madrid, Barcelona i Sevilla", "Samo Madrid"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što mu se najviše svidjelo?",
+        "options": ["Arhitektura Gaudíja", "Muzej del Prado", "Ljudi"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Kojim jezikom se komunicirao?",
+        "options": ["Engleskim", "Španskim", "Oba ravnopravno"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik refleksivnog perfecta za 'yo / perderse'?",
+      "options": ["he me perdido", "me he perdido", "me perdido he", "he perdido me"],
+      "answerIndex": 1,
+      "explanation_bs": "Refleksiv + perfekt: ME + HE + participio. Uvijek: me he perdido."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Este verano ___ (nosotros/visitar) tres países.",
+      "answer": "hemos visitado",
+      "acceptedAnswers": ["hemos visitado"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Lo mejor del viaje ___ (ser) la comida.",
+      "answer": "ha sido",
+      "acceptedAnswers": ["ha sido"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ovog ljeta sam upoznao jako zanimljive ljude.",
+      "answer": "Este verano he conocido a gente muy interesante.",
+      "acceptedAnswers": ["Este verano he conocido a gente muy interesante.", "Este verano he conocido a personas muy interesantes."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Izgubili smo se u bazaru ali smo se jako zabavili.",
+      "answer": "Nos hemos perdido en el mercado pero nos hemos divertido mucho.",
+      "acceptedAnswers": ["Nos hemos perdido en el mercado pero nos hemos divertido mucho.", "Nos hemos perdido en el bazar pero nos hemos divertido mucho."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji iskustvo s participiom",
+      "pairs": [
+        { "es": "sacar fotos", "bs": "sacado" },
+        { "es": "conocer gente", "bs": "conocido" },
+        { "es": "perderse", "bs": "perdido" },
+        { "es": "sorprenderse", "bs": "sorprendido" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Me he sorprendido con la comida local — nunca había probado nada tan rico.",
+      "answer": "Me he sorprendido con la comida local — nunca había probado nada tan rico."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši putovanje koje si nedavno napravio ili jedno koje bi htio napraviti.",
+      "modelAnswer_es": "Este año he viajado a Sarajevo. He visitado el casco viejo, he probado la comida local y he conocido gente muy simpática. Lo mejor ha sido la hospitalidad de la gente."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Vratio/la si se s putovanja — AI te pita o iskustvima, ti opisuješ putovanje.",
+    "level": "A2",
+    "allowedGrammar": ["perfekt + putovanje", "refleksivi u perfectu", "lo mejor/peor", "ya/todavía no"],
+    "systemPromptHint": "Pitaj studenta o nedavnom putovanju: ¿Adónde has viajado? ¿Qué has visto? ¿Te has perdido? ¿Lo mejor ha sido...? Ispravi greške u perfectu i refleksivima."
+  },
+  "illustration": {
+    "prompt": "A traveler with a suitcase looking at photos from their trip, maps, landmarks in the background, warm nostalgic atmosphere",
+    "alt": "Putnik gleda fotografije s putovanja",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["travel-vocabulary", "perfecto-travel", "reflexive-perfecto", "a2", "u8"]
+  }
+}

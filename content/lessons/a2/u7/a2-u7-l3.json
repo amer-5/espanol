@@ -1,0 +1,173 @@
+{
+  "id": "a2-u7-l3",
+  "level": "A2",
+  "unit": 7,
+  "lessonNumber": 3,
+  "title": "Nepravilni prezent o→ue",
+  "subtitle": "Poder, volver, dormir, jugar...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Konjugirati o→ue nepravilne glagole u prezentu",
+    "Prepoznati razliku između e→ie i o→ue izmjene",
+    "Koristiti JUGAR (u→ue) i DORMIR (o→ue)"
+  ],
+  "prerequisites": ["a1-u5-l1", "a2-u7-l2"],
+  "vocabulary": [
+    { "es": "poder", "bs": "moći", "pos": "glag. o→ue", "ipa": "po.ˈðer", "example_es": "¿Puedes hablar más despacio?", "example_bs": "Možeš li govoriti sporije?" },
+    { "es": "volver", "bs": "vraćati se / vratiti se", "pos": "glag. o→ue", "ipa": "bol.ˈβer", "example_es": "Vuelvo a casa a las seis.", "example_bs": "Vraćam se kući u šest." },
+    { "es": "dormir", "bs": "spavati", "pos": "glag. o→ue", "ipa": "dor.ˈmir", "example_es": "Duermo ocho horas.", "example_bs": "Spavam osam sati." },
+    { "es": "jugar", "bs": "igrati se / igrati", "pos": "glag. u→ue!", "ipa": "xu.ˈɣar", "example_es": "Juego al fútbol.", "example_bs": "Igram fudbal." },
+    { "es": "encontrar", "bs": "naći / pronaći", "pos": "glag. o→ue", "ipa": "en.kon.ˈtrar", "example_es": "No encuentro mis llaves.", "example_bs": "Ne nalazim ključeve." },
+    { "es": "recordar", "bs": "sjećati se / zapamtiti", "pos": "glag. o→ue", "ipa": "re.kor.ˈdar", "example_es": "No recuerdo su nombre.", "example_bs": "Ne sjećam se njenog/njegovog imena." },
+    { "es": "costar", "bs": "koštati / biti teško", "pos": "glag. o→ue", "ipa": "kos.ˈtar", "example_es": "Me cuesta levantarme.", "example_bs": "Teško mi je ustati." },
+    { "es": "contar", "bs": "brojiti / pričati", "pos": "glag. o→ue", "ipa": "kon.ˈtar", "example_es": "Cuenta hasta diez.", "example_bs": "Broji do deset." },
+    { "es": "morir", "bs": "umirati", "pos": "glag. o→ue", "ipa": "mo.ˈrir", "example_es": "Me muero de hambre.", "example_bs": "Umirem od gladi. (figurativno)" },
+    { "es": "mover", "bs": "pomicati / pomjerati", "pos": "glag. o→ue", "ipa": "mo.ˈβer", "example_es": "No me puedo mover.", "example_bs": "Ne mogu se pomjerati." }
+  ],
+  "grammar": [
+    {
+      "concept": "O→UE izmjena — pravilo",
+      "explanation_bs": "Kao i kod e→ie, izmjena o→ue se dešava u svim oblicima OSIM nosotros i vosotros (isti 'boot shape'). O u korijenu postaje UE: p**o**der → p**ue**do, p**ue**des, p**ue**de, podemos, podéis, p**ue**den. Poseban slučaj: **JUGAR** — jedini glagol s **u→ue** izmjenom: j**u**gar → j**ue**go!",
+      "table": {
+        "headers": ["Zamjenica", "PODER", "VOLVER", "DORMIR"],
+        "rows": [
+          ["yo", "puedo", "vuelvo", "duermo"],
+          ["tú", "puedes", "vuelves", "duermes"],
+          ["él/ella", "puede", "vuelve", "duerme"],
+          ["nosotros", "podemos ← nema!", "volvemos ← nema!", "dormimos ← nema!"],
+          ["vosotros", "podéis ← nema!", "volvéis ← nema!", "dormís ← nema!"],
+          ["ellos", "pueden", "vuelven", "duermen"]
+        ]
+      },
+      "examples": [
+        { "es": "No puedo dormir más de seis horas.", "bs": "Ne mogu spavati više od šest sati." },
+        { "es": "¿A qué hora vuelves a casa?", "bs": "U koliko sati se vraćaš kući?" },
+        { "es": "Jugamos al tenis los sábados.", "bs": "Igramo tenis subotom. (nosotros — nema izmjene!)" }
+      ],
+      "tips": "JUGAR je poseban — jedini u→ue glagol. Uvijek ga zapamti posebno: juego, juegas, juega, jugamos, jugáis, juegan."
+    },
+    {
+      "concept": "ME CUESTA + infinitiv — 'teško mi je'",
+      "explanation_bs": "COSTAR (koštati) u prenesenom značenju znači 'biti teško'. 'Me cuesta hablar' = Teško mi je govoriti. Funkcioniše kao GUSTAR — slaže se s infinitivom ili imenoom: 'Me cuesta la gramática' (Gramatika mi je teška). 'Me cuesta mucho' = jako mi je teško.",
+      "examples": [
+        { "es": "Me cuesta mucho madrugar.", "bs": "Jako mi je teško rano ustajati." },
+        { "es": "¿Te cuesta hablar en público?", "bs": "Je li ti teško govoriti javno?" },
+        { "es": "A ella le cuestan las matemáticas.", "bs": "Njoj je matematika teška." }
+      ],
+      "tips": "Me cuesta + infinitiv (teško mi je raditi) vs Me cuesta + imenica (imenica mi je teška). Slaže se s onim što je teško: me cuesta (jd.) / me cuestan (mn.)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Puedes venir? — Možeš li doći?",
+    "lines": [
+      { "speaker": "Carlos", "es": "Oye, esta tarde jugamos al fútbol en el parque. ¿Puedes venir?", "bs": "Hej, večeras igramo fudbal u parku. Možeš li doći?" },
+      { "speaker": "Ana", "es": "¿A qué hora empieza?", "bs": "U koliko počinje?" },
+      { "speaker": "Carlos", "es": "A las seis. Volvemos a las ocho.", "bs": "U šest. Vraćamo se u osam." },
+      { "speaker": "Ana", "es": "Es que duermo la siesta a esa hora...", "bs": "Baš spavam popodnevno spavanje u to vrijeme..." },
+      { "speaker": "Carlos", "es": "¡Pero si son las seis de la tarde! ¿Cuánto duermes?", "bs": "Ali to je šest popodne! Koliko spavaš?" },
+      { "speaker": "Ana", "es": "Bueno, a veces duermo demasiado. Me cuesta mucho despertarme.", "bs": "Pa, ponekad spavam previše. Jako mi je teško probuditi se." },
+      { "speaker": "Carlos", "es": "Vuelve a dormir después del fútbol. ¡Ven!", "bs": "Vrati se na spavanje nakon fudbala. Dođi!" },
+      { "speaker": "Ana", "es": "Vale, puedo intentarlo. ¿Dónde os encontráis?", "bs": "Dobro, mogu pokušati. Gdje se nalazite?" }
+    ]
+  },
+  "reading": {
+    "title": "El sueño de los adolescentes — San adolescenata",
+    "text_es": "Los adolescentes no duermen suficiente. Según los científicos, los jóvenes necesitan entre ocho y diez horas de sueño, pero muchos no pueden dormir tanto. El problema es que su cerebro naturalmente no puede dormirse antes de las once de la noche. Por eso, cuando vuelven del colegio por la tarde, muchos prefieren dormir la siesta. Sus padres no entienden por qué no pueden madrugar. La solución es simple: si los jóvenes se acuestan tarde, no pueden levantarse temprano — les cuesta mucho.",
+    "glossary": [
+      { "es": "según los científicos", "bs": "prema naučnicima" },
+      { "es": "el cerebro", "bs": "mozak" },
+      { "es": "naturalmente", "bs": "prirodno" },
+      { "es": "madrugar", "bs": "rano ustajati" },
+      { "es": "la solución", "bs": "rješenje" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko sati sna trebaju adolescenti?",
+        "options": ["6-8 sati", "8-10 sati", "10-12 sati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto adolescenti ne mogu zaspati rano?",
+        "options": ["Jer gledaju televiziju", "Jer im mozak prirodno ne može zaspati prije 23h", "Jer su nemarni"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta rade kad se vrate iz škole?",
+        "options": ["Igraju sport", "Spavaju popodne", "Rade domaće zadaće"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik JUGAR za 'yo'?",
+      "options": ["jugo", "jogo", "juego", "jugo"],
+      "answerIndex": 2,
+      "explanation_bs": "JUGAR je jedini u→ue glagol: juego (yo), juegas, juega... Pazi na 'g' ispred 'e': juego, ne 'jugo'."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mis padres ___ (volver) a casa a las siete.",
+      "answer": "vuelven",
+      "acceptedAnswers": ["vuelven"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Me ___ mucho hablar con desconocidos. (biti teško)",
+      "answer": "cuesta",
+      "acceptedAnswers": ["cuesta"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ne mogu se sjetiti njenog/njegovog broja telefona.",
+      "answer": "No recuerdo su número de teléfono.",
+      "acceptedAnswers": ["No recuerdo su número de teléfono.", "No puedo recordar su número de teléfono."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Teško nam je razumjeti ovu gramatiku.",
+      "answer": "Nos cuesta entender esta gramática.",
+      "acceptedAnswers": ["Nos cuesta entender esta gramática.", "Nos cuesta mucho entender esta gramática."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji infinitiv sa oblikom za 'tú'",
+      "pairs": [
+        { "es": "poder", "bs": "puedes" },
+        { "es": "volver", "bs": "vuelves" },
+        { "es": "dormir", "bs": "duermes" },
+        { "es": "jugar", "bs": "juegas" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "No puedo dormir bien cuando vuelvo tarde a casa.",
+      "answer": "No puedo dormir bien cuando vuelvo tarde a casa."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci koji sport ili aktivnost voliš igrati/raditi i kada, koristeći JUGAR ili PODER.",
+      "modelAnswer_es": "Juego al fútbol los sábados. A veces no puedo jugar porque trabajo, pero siempre vuelvo a casa feliz después de jugar."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Razgovarate o hobijima i slobodnom vremenu — AI pita šta voliš igrati/raditi.",
+    "level": "A2",
+    "allowedGrammar": ["o→ue glagoli", "u→ue jugar", "me cuesta", "e→ie glagoli"],
+    "systemPromptHint": "Pitaj studenta o hobijima: ¿Juegas a algún deporte? ¿Cuántas horas duermes? ¿Puedes encontrar tiempo para el ocio? Ispravi o→ue greške."
+  },
+  "illustration": {
+    "prompt": "Friends playing football in a park, one person sleeping on a couch, another person playing guitar — showing different leisure activities",
+    "alt": "Slobodne aktivnosti — fudbal, spavanje, glazba",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["o-ue-verbs", "poder", "volver", "dormir", "jugar", "a2", "u7"]
+  }
+}

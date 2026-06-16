@@ -1,0 +1,101 @@
+{
+  "id": "test-a2-u7",
+  "level": "A2",
+  "unit": 7,
+  "title": "Test — Jedinica 7: Rutine i nepravilni prezent",
+  "cumulative": true,
+  "timeLimitMinutes": 15,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik DESPERTARSE za 'nosotros'?",
+      "options": ["nos despertamos", "nos despiertamos", "nos despiertan", "se despertamos"],
+      "answerIndex": 0,
+      "points": 1,
+      "lessonId": "a2-u7-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella ___ (preferir) el café al té.",
+      "answer": "prefiere",
+      "acceptedAnswers": ["prefiere"],
+      "points": 2,
+      "lessonId": "a2-u7-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nikad ne mogu zaspati prije ponoći — jako mi je teško.",
+      "answer": "Nunca puedo dormirme antes de medianoche — me cuesta mucho.",
+      "acceptedAnswers": ["Nunca puedo dormirme antes de medianoche — me cuesta mucho.", "Nunca me duermo antes de medianoche — me cuesta mucho."],
+      "points": 3,
+      "lessonId": "a2-u7-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik JUGAR za 'yo'?",
+      "options": ["jugo", "jogo", "juego", "joguo"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u7-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (entender — tú) la gramática española?",
+      "answer": "Entiendes",
+      "acceptedAnswers": ["Entiendes", "entiendes"],
+      "points": 2,
+      "lessonId": "a2-u7-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Uvijek naručujem istu stvar u ovom restoranu.",
+      "answer": "Siempre pido lo mismo en este restaurante.",
+      "acceptedAnswers": ["Siempre pido lo mismo en este restaurante.", "Siempre pido la misma cosa en este restaurante."],
+      "points": 2,
+      "lessonId": "a2-u7-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Me ___ mucho madrugar. (biti teško)",
+      "answer": "cuesta",
+      "acceptedAnswers": ["cuesta"],
+      "points": 2,
+      "lessonId": "a2-u7-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Normalmente me despierto a las siete, pero a veces me quedo en la cama hasta las ocho.",
+      "answer": "Normalmente me despierto a las siete, pero a veces me quedo en la cama hasta las ocho.",
+      "points": 3,
+      "lessonId": "a2-u7-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Mislim da nastavljamo napredovati svakim danom.",
+      "answer": "Pienso que seguimos progresando cada día.",
+      "acceptedAnswers": ["Pienso que seguimos progresando cada día.", "Creo que seguimos progresando cada día."],
+      "points": 2,
+      "lessonId": "a2-u7-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 4–6 rečenica o svojoj tipičnoj sedmičnoj rutini. Koristi: refleksivne glagole, barem jedan e→ie glagol, jedan o→ue glagol, jedan e→i glagol, i najmanje dva priloga učestalosti.",
+      "minWords": 30,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: e→ie izmjena ispravna (2), o→ue izmjena ispravna (2), e→i izmjena ispravna (2), refleksivni glagoli (2), prilozi učestalosti (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u7-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u7-l1", "topic": "Refleksivni glagoli produbljeno, prilozi učestalosti" },
+    { "lessonId": "a2-u7-l2", "topic": "E→IE izmjena: querer, empezar, entender, pensar, preferir" },
+    { "lessonId": "a2-u7-l3", "topic": "O→UE izmjena: poder, volver, dormir, jugar (u→ue)" },
+    { "lessonId": "a2-u7-l4", "topic": "E→I izmjena: pedir, seguir, repetir, vestirse, decir" }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "a2-u8-l3",
+  "level": "A2",
+  "unit": 8,
+  "lessonNumber": 3,
+  "title": "Ya / Todavía no — prošlo iskustvo",
+  "subtitle": "¿Has probado...? ¿Has estado...?",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti ya i todavía no/aún no ispravno",
+    "Pitati i odgovarati o životnim iskustvima",
+    "Koristiti alguna vez, nunca, siempre u perfectu"
+  ],
+  "prerequisites": ["a2-u8-l1", "a2-u8-l2"],
+  "vocabulary": [
+    { "es": "ya", "bs": "već (pozitivno)", "pos": "pril.", "ipa": "ˈxa", "example_es": "Ya he comido.", "example_bs": "Već sam jeo." },
+    { "es": "todavía no / aún no", "bs": "još ne", "pos": "pril.", "ipa": "to.ða.ˈβi.a no", "example_es": "Todavía no he llegado.", "example_bs": "Još nisam stigao." },
+    { "es": "alguna vez", "bs": "ikad (pitanje/pozitivno)", "pos": "pril.", "ipa": "al.ˈɡu.na βeθ", "example_es": "¿Has ido alguna vez a Japón?", "example_bs": "Jesi li ikad bio u Japanu?" },
+    { "es": "nunca / jamás", "bs": "nikad", "pos": "pril.", "ipa": "ˈnun.ka", "example_es": "Nunca he probado el sushi.", "example_bs": "Nikad nisam probao sushi." },
+    { "es": "una vez / dos veces", "bs": "jednom / dvaput", "pos": "izr.", "ipa": "ˈu.na βeθ", "example_es": "He estado en París una vez.", "example_bs": "Bio sam u Parizu jednom." },
+    { "es": "muchas veces", "bs": "mnogo puta", "pos": "izr.", "ipa": "ˈmu.tʃas ˈβe.θes", "example_es": "He visitado España muchas veces.", "example_bs": "Puno puta sam posjetio Španiju." },
+    { "es": "en mi vida", "bs": "u svom životu", "pos": "izr.", "ipa": "en mi ˈβi.ða", "example_es": "No he visto eso en mi vida.", "example_bs": "Nikad u životu nisam vidio to." },
+    { "es": "recientemente", "bs": "nedavno", "pos": "pril.", "ipa": "re.θjen.te.ˈmen.te", "example_es": "He empezado recientemente.", "example_bs": "Nedavno sam počeo." },
+    { "es": "probar", "bs": "probati / isprobati", "pos": "glag. o→ue", "ipa": "pro.ˈβar", "example_es": "¿Has probado la paella?", "example_bs": "Jesi li probao paelju?" },
+    { "es": "conocer a alguien", "bs": "upoznati nekoga", "pos": "izr.", "ipa": "ko.no.ˈθer", "example_es": "He conocido a alguien especial.", "example_bs": "Upoznao sam nekoga posebnog." }
+  ],
+  "grammar": [
+    {
+      "concept": "YA vs TODAVÍA NO/AÚN NO",
+      "explanation_bs": "**YA** (već) znači da je radnja dovršena: '¿Has comido ya? — Sí, ya he comido.' Pozitivno. **TODAVÍA NO** ili **AÚN NO** (još ne) znači da radnja još nije dovršena ali se očekuje: '¿Has terminado? — No, todavía no he terminado.' Negativno. Redoslijed: YA ide ispred glagola ili na kraju, TODAVÍA NO/AÚN NO idu ispred glagola.",
+      "table": {
+        "headers": ["Pitanje", "Da (YA)", "Ne (TODAVÍA NO)"],
+        "rows": [
+          ["¿Has comido?", "Sí, ya he comido.", "No, todavía no he comido."],
+          ["¿Has llegado?", "Sí, ya he llegado.", "No, aún no he llegado."],
+          ["¿Has terminado?", "Sí, ya he terminado.", "No, todavía no."]
+        ]
+      },
+      "examples": [
+        { "es": "Ya he visto esa película.", "bs": "Već sam gledao taj film." },
+        { "es": "Todavía no he decidido.", "bs": "Još nisam odlučio." },
+        { "es": "¿Ya has desayunado? — Aún no.", "bs": "Jesi li već doručkovao? — Još ne." }
+      ],
+      "tips": "YA u pitanju: '¿Ya has terminado?' (Jesi li već završio?) — naglašava da se nešto očekuje da je gotovo."
+    },
+    {
+      "concept": "Iskustvo u životu — ALGUNA VEZ i NUNCA",
+      "explanation_bs": "Za iskustvo bez specifičnog vremena koristimo: **¿Has + participio + alguna vez?** (Jesi li ikad...?). Pozitivan odgovor: 'Sí, he... una vez / dos veces / muchas veces'. Negativan: 'No, nunca he...' ili 'No, no he... nunca'. Spanjanizmi: 'Nunca en mi vida he...' = 'Never in my life have I...'",
+      "examples": [
+        { "es": "¿Has probado el gazpacho alguna vez?", "bs": "Jesi li ikad probao gazpacho?" },
+        { "es": "Sí, lo he probado una vez en Sevilla.", "bs": "Da, probao sam ga jednom u Sevilli." },
+        { "es": "No, nunca lo he probado pero quiero.", "bs": "Ne, nikad nisam probao ali hoću." }
+      ],
+      "tips": "Alguna vez u pitanjima (ikad?), nunca u negativnim odgovorima (nikad). U pitanju NE koristimo 'nunca': ¿Nunca has estado? je stilistički, ali ¿Has estado alguna vez? je neutralno."
+    }
+  ],
+  "dialogue": {
+    "title": "El juego de las experiencias — Igra iskustava",
+    "lines": [
+      { "speaker": "Natalia", "es": "Vamos a jugar. Te hago preguntas sobre tus experiencias.", "bs": "Igrajmo igru. Postavljam ti pitanja o tvojim iskustvima." },
+      { "speaker": "Tomás", "es": "¡Perfecto! Empieza.", "bs": "Odlično! Počni." },
+      { "speaker": "Natalia", "es": "¿Has probado alguna vez comida japonesa?", "bs": "Jesi li ikad probao japansku hranu?" },
+      { "speaker": "Tomás", "es": "Sí, la he probado una vez. No me ha gustado mucho.", "bs": "Da, jednom sam je probao. Nije mi se jako svidjelo." },
+      { "speaker": "Natalia", "es": "¿Has viajado alguna vez fuera de Europa?", "bs": "Jesi li ikad putovao van Europe?" },
+      { "speaker": "Tomás", "es": "Todavía no. Es mi sueño viajar a América del Sur.", "bs": "Još ne. Moj je san putovati u Južnu Ameriku." },
+      { "speaker": "Natalia", "es": "¿Has conocido alguna vez a alguien famoso?", "bs": "Jesi li ikad upoznao nekoga slavnog?" },
+      { "speaker": "Tomás", "es": "¡Sí! Una vez he visto a Rafa Nadal en el aeropuerto.", "bs": "Da! Jednom sam vidio Rafa Nadala na aerodromu." },
+      { "speaker": "Natalia", "es": "¡No me lo puedo creer! ¿Y has hablado con él?", "bs": "Ne mogu vjerovati! I jesi li razgovarao s njim?" },
+      { "speaker": "Tomás", "es": "No, no me he atrevido.", "bs": "Ne, nisam se usudio." }
+    ]
+  },
+  "reading": {
+    "title": "La lista de experiencias — Lista iskustava",
+    "text_es": "¿Tienes una 'bucket list' — una lista de cosas que quieres hacer antes de morir? Yo ya he hecho algunas cosas de mi lista. He viajado a tres continentes, he probado comidas increíbles de todo el mundo y he aprendido dos idiomas extranjeros. Todavía no he visto las auroras boreales — es mi próximo objetivo. Nunca he saltado en paracaídas y no creo que lo haga jamás. ¿Has pensado alguna vez en hacer una lista así?",
+    "glossary": [
+      { "es": "antes de morir", "bs": "prije smrti" },
+      { "es": "algunas cosas", "bs": "neke stvari" },
+      { "es": "las auroras boreales", "bs": "polarna svjetlost" },
+      { "es": "próximo objetivo", "bs": "sljedeći cilj" },
+      { "es": "saltar en paracaídas", "bs": "skakati padobranom" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko kontinenata je autor posjetio?",
+        "options": ["Dva", "Tri", "Četiri"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta još nije vidio?",
+        "options": ["Tri kontinenta", "Polarnu svjetlost", "Strane hrane"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što nikad nije uradio i neće ni uraditi?",
+        "options": ["Učiti jezik", "Putovati", "Skakati padobranom"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan odgovor na: '¿Has comido ya?'",
+      "options": ["No, ya no.", "No, todavía no.", "No, nunca.", "No, alguna vez."],
+      "answerIndex": 1,
+      "explanation_bs": "Za 'još ne' koristimo 'todavía no' ili 'aún no'. 'Ya no' znači 'više ne', 'nunca' znači nikad."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ he visitado Australia pero quiero ir. (još ne)",
+      "answer": "Todavía no",
+      "acceptedAnswers": ["Todavía no", "Aún no"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Has probado ___ comida mexicana? (ikad)",
+      "answer": "alguna vez",
+      "acceptedAnswers": ["alguna vez"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jesi li ikad bio na Karibima?",
+      "answer": "¿Has estado alguna vez en el Caribe?",
+      "acceptedAnswers": ["¿Has estado alguna vez en el Caribe?", "¿Alguna vez has estado en el Caribe?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nikad u životu nisam jeo sushi.",
+      "answer": "Nunca en mi vida he comido sushi.",
+      "acceptedAnswers": ["Nunca en mi vida he comido sushi.", "Nunca he comido sushi en mi vida.", "No he comido sushi nunca."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji izraz s odgovarajućim kontekstom",
+      "pairs": [
+        { "es": "ya", "bs": "radnja je završena" },
+        { "es": "todavía no", "bs": "radnja još nije završena" },
+        { "es": "alguna vez", "bs": "pitanje o iskustvu" },
+        { "es": "nunca", "bs": "iskustvo ne postoji" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "¿Has probado alguna vez el gazpacho? Yo todavía no lo he probado.",
+      "answer": "¿Has probado alguna vez el gazpacho? Yo todavía no lo he probado."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Napravi svoju 'bucket list' — reci 3 stvari koje nikad nisi radio ali hoćeš, i 2 koje si već uradio.",
+      "modelAnswer_es": "Ya he viajado a España y he aprendido español. Todavía no he visto las pirámides de Egipto, nunca he probado comida tailandesa y también quiero aprender a tocar la guitarra."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim životnim iskustvima — vježbate alguna vez, ya, todavía no.",
+    "level": "A2",
+    "allowedGrammar": ["ya/todavía no", "alguna vez/nunca", "pretérito perfecto iskustvo"],
+    "systemPromptHint": "Igraj igru iskustava: ¿Has probado...? ¿Has viajado...? ¿Has conocido...? Student odgovara s ya/todavía no/nunca/alguna vez. Ispravi greške u perfectu."
+  },
+  "illustration": {
+    "prompt": "A bucket list on paper with checkmarks and empty boxes, world map in background, person thinking of adventures",
+    "alt": "Bucket lista s iskustvima s cijelog svijeta",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["ya-todavia-no", "alguna-vez-nunca", "life-experiences", "a2", "u8"]
+  }
+}

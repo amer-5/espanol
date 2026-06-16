@@ -1,0 +1,172 @@
+{
+  "id": "a2-u7-l4",
+  "level": "A2",
+  "unit": 7,
+  "lessonNumber": 4,
+  "title": "Nepravilni prezent e→i i sažetak rutine",
+  "subtitle": "Pedir, seguir, repetir — e→i glagoli",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati e→i nepravilne glagole u prezentu",
+    "Razlikovati e→ie, o→ue i e→i izmjene",
+    "Opisati kompleksnu rutinu koristeći sve naučene glagole"
+  ],
+  "prerequisites": ["a2-u7-l2", "a2-u7-l3"],
+  "vocabulary": [
+    { "es": "pedir", "bs": "tražiti / naručiti", "pos": "glag. e→i", "ipa": "pe.ˈðir", "example_es": "Pido una pizza.", "example_bs": "Naručujem picu." },
+    { "es": "seguir", "bs": "nastaviti / slijediti", "pos": "glag. e→i", "ipa": "se.ˈɣir", "example_es": "Sigue todo recto.", "example_bs": "Idi ravno." },
+    { "es": "repetir", "bs": "ponavljati / ponoviti", "pos": "glag. e→i", "ipa": "re.pe.ˈtir", "example_es": "¿Puedes repetir?", "example_bs": "Možeš li ponoviti?" },
+    { "es": "servir", "bs": "posluživati / koristiti za", "pos": "glag. e→i", "ipa": "ser.ˈβir", "example_es": "¿Para qué sirve esto?", "example_bs": "Za što ovo služi?" },
+    { "es": "vestirse", "bs": "oblačiti se", "pos": "refl. glag. e→i", "ipa": "βes.ˈtir.se", "example_es": "Me visto en cinco minutos.", "example_bs": "Oblačim se za pet minuta." },
+    { "es": "decir", "bs": "reći / govoriti", "pos": "glag. e→i + neprav. yo", "ipa": "de.ˈθir", "example_es": "Digo la verdad siempre.", "example_bs": "Uvijek govorim istinu." },
+    { "es": "elegir", "bs": "birati / odabrati", "pos": "glag. e→i", "ipa": "e.le.ˈxir", "example_es": "Elijo siempre lo mejor.", "example_bs": "Uvijek biram ono najbolje." },
+    { "es": "conseguir", "bs": "uspjeti / nabaviti", "pos": "glag. e→i", "ipa": "kon.se.ˈɣir", "example_es": "Consigo los mejores precios.", "example_bs": "Nabavljam/dobijam najbolje cijene." },
+    { "es": "despedirse", "bs": "opraštati se", "pos": "refl. glag. e→i", "ipa": "des.pe.ˈðir.se", "example_es": "Me despido de mis amigos.", "example_bs": "Opraštam se od prijatelja." },
+    { "es": "reírse", "bs": "smijati se", "pos": "refl. glag. e→i", "ipa": "re.ˈir.se", "example_es": "Me río mucho con ella.", "example_bs": "Puno se smijem s njom." }
+  ],
+  "grammar": [
+    {
+      "concept": "E→I izmjena — treći tip",
+      "explanation_bs": "E→I glagoli su svi **-IR glagoli** (ne -er): pedir, seguir, servir, vestirse, decir, elegir, reír... Izmjena: E u korijenu → I u svim oblicima osim nosotros/vosotros (isti 'boot' pattern). Razlika od e→ie: e→ie daje ie (quiero), e→i daje samo i (pido). **DECIR** ima i nepravilan yo: **digo** (ne: deco).",
+      "table": {
+        "headers": ["Zamjenica", "PEDIR", "SEGUIR", "VESTIRSE"],
+        "rows": [
+          ["yo", "pido", "sigo", "me visto"],
+          ["tú", "pides", "sigues", "te vistes"],
+          ["él/ella", "pide", "sigue", "se viste"],
+          ["nosotros", "pedimos ← nema!", "seguimos ← nema!", "nos vestimos ← nema!"],
+          ["vosotros", "pedís ← nema!", "seguís ← nema!", "os vestís ← nema!"],
+          ["ellos", "piden", "siguen", "se visten"]
+        ]
+      },
+      "examples": [
+        { "es": "¿Qué pides siempre en ese restaurante?", "bs": "Što uvijek naručuješ u tom restoranu?" },
+        { "es": "Sigo estudiando español.", "bs": "Nastavim učiti španski." },
+        { "es": "Nos vestimos de forma informal en casa.", "bs": "Oblačimo se neformalno kod kuće." }
+      ],
+      "tips": "Zapamti razliku: E→IE (samo -AR i -ER glagoli: querer, entender), E→I (samo -IR glagoli: pedir, servir). O→UE važi za oba: poder (-er), dormir (-ir)."
+    },
+    {
+      "concept": "Sažetak: tri tipa izmjenjivih glagola",
+      "explanation_bs": "Na A2 poznajemo tri tipa: 1) **E→IE**: querer, empezar, entender, pensar, preferir, cerrar, perder, tener, sentir, venir. 2) **O→UE**: poder, volver, dormir, jugar (u→ue!), encontrar, recordar, costar. 3) **E→I** (samo -IR): pedir, seguir, repetir, servir, vestirse, decir, elegir. Svi prate 'boot pattern' — izmjena u svemu osim nosotros/vosotros.",
+      "examples": [
+        { "es": "E→IE: Quiero, empiezo, entiendo...", "bs": "Htjeti, početi, razumjeti..." },
+        { "es": "O→UE: Puedo, vuelvo, duermo...", "bs": "Moći, vratiti se, spavati..." },
+        { "es": "E→I: Pido, sigo, me visto...", "bs": "Naručiti, slijediti, obući se..." }
+      ],
+      "tips": "Trik za pamćenje: ako -IR glagol ima E u korijenu, vjerovatno je E→I (pedir, vestir). Ako je -AR/-ER glagol s E, vjerovatno je E→IE (querer, cerrar)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué pides siempre? — Što uvijek naručuješ?",
+    "lines": [
+      { "speaker": "Camarero", "es": "Buenas noches. ¿Qué van a pedir?", "bs": "Dobra večer. Šta ćete naručiti?" },
+      { "speaker": "María", "es": "Yo siempre pido la ensalada y el pescado del día.", "bs": "Ja uvijek naručujem salatu i ribu dana." },
+      { "speaker": "José", "es": "Yo pido lo mismo. ¿Qué sirven de postre?", "bs": "Ja naručujem isto. Šta poslužujete za desert?" },
+      { "speaker": "Camarero", "es": "Servimos flan, tarta de queso y helado.", "bs": "Poslužujemo flan, tart od sira i sladoled." },
+      { "speaker": "María", "es": "¡Elijo el flan! Y dígame, ¿siguen sirviendo tapas?", "bs": "Biram flan! I recite mi, nastavljate li uvijek posluživati tapase?" },
+      { "speaker": "Camarero", "es": "Sí, seguimos sirviendo tapas de seis a nueve.", "bs": "Da, nastavljamo posluživati tapase od šest do devet." },
+      { "speaker": "José", "es": "Perfecto. Nos despedimos temprano esta noche.", "bs": "Odlično. Opraštamo se rano večeras." }
+    ]
+  },
+  "reading": {
+    "title": "La rutina perfecta — Savršena rutina",
+    "text_es": "Muchos expertos dicen que la clave de la productividad es una buena rutina. Primero, me despierto a la misma hora cada día — incluso los fines de semana. Sigo siempre el mismo orden: me levanto, me ducho y desayuno. Después visto y me despido de mi familia. En el trabajo, siempre pido ayuda cuando no entiendo algo — nunca me quedo con dudas. Por la tarde, vuelvo a casa, como con mi familia y, si puedo, hago ejercicio. Antes de dormir, repito las cosas importantes del día.",
+    "glossary": [
+      { "es": "la clave", "bs": "ključ (tajni/ključan)" },
+      { "es": "incluso", "bs": "čak i" },
+      { "es": "me quedo con dudas", "bs": "ostajem s nejasnoćama" },
+      { "es": "hago ejercicio", "bs": "vježbam" },
+      { "es": "antes de dormir", "bs": "prije spavanja" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što autor smatra ključem produktivnosti?",
+        "options": ["Ranо ustajanje", "Dobra rutina", "Puno kave"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta radi kad ne razumije nešto na poslu?",
+        "options": ["Pita za pomoć", "Pita internet", "Ignoriše problem"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Šta radi navečer prije spavanja?",
+        "options": ["Čita knjige", "Ponavlja važne stvari s dana", "Gleda TV"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik SEGUIR za 'ellos'?",
+      "options": ["segen", "siguen", "seguien", "seguen"],
+      "answerIndex": 1,
+      "explanation_bs": "Seguir je e→i glagol: sigo, sigues, sigue, seguimos, seguís, siguen."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ella siempre ___ (pedir) lo mismo en el restaurante.",
+      "answer": "pide",
+      "acceptedAnswers": ["pide"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (repetir — tú) la pregunta, por favor?",
+      "answer": "Repites",
+      "acceptedAnswers": ["Repites", "repites", "¿Repites", "Puedes repetir"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Uvijek biram ono najjeftinije u meniju.",
+      "answer": "Siempre elijo lo más barato del menú.",
+      "acceptedAnswers": ["Siempre elijo lo más barato del menú.", "Siempre elijo lo más barato de la carta."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nastavljamo učiti španski svaki dan.",
+      "answer": "Seguimos aprendiendo español cada día.",
+      "acceptedAnswers": ["Seguimos aprendiendo español cada día.", "Continuamos aprendiendo español cada día."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Klasificiraj glagole po tipu izmjene",
+      "pairs": [
+        { "es": "pedir (e→i)", "bs": "-IR glagol" },
+        { "es": "querer (e→ie)", "bs": "-ER glagol" },
+        { "es": "poder (o→ue)", "bs": "-ER glagol" },
+        { "es": "dormir (o→ue)", "bs": "-IR glagol" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Siempre pido ayuda cuando no entiendo algo.",
+      "answer": "Siempre pido ayuda cuando no entiendo algo."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju idealnu rutinu koristeći sve tri vrste nepravilnih glagola.",
+      "modelAnswer_es": "Me despierto temprano (e→ie), puedo hacer ejercicio (o→ue) y me visto rápido (e→i). Prefiero desayunar en casa antes de salir."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita da ispričaš svoju idealnu rutinu koristeći sve izmjenjive glagole.",
+    "level": "A2",
+    "allowedGrammar": ["e→i glagoli", "e→ie glagoli", "o→ue glagoli", "refleksivni", "prilozi učestalosti"],
+    "systemPromptHint": "Pitaj studenta o rutini i hobijima koristeći sve tri tipa izmjenjivih glagola. Ispravi greške u izmjenama i daj podsjetnik za razliku e→ie vs e→i."
+  },
+  "illustration": {
+    "prompt": "A daily schedule planner with Spanish words, person following a productive routine with checkmarks, warm colors",
+    "alt": "Dnevni planer sa španskim riječima i produktivnom rutinom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["e-i-verbs", "pedir", "seguir", "stem-changing-summary", "a2", "u7"]
+  }
+}

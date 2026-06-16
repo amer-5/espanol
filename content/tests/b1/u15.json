@@ -1,0 +1,100 @@
+{
+  "id": "test-b1-u15",
+  "level": "B1",
+  "unit": 15,
+  "title": "Test — Jedinica 15: Vezni izrazi, POR/PARA, relativne rečenice",
+  "cumulative": true,
+  "timeLimitMinutes": 20,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji veznik izražava suprotnost: 'Es inteligente, ___ no estudia.'?",
+      "options": ["por eso", "sin embargo", "además", "debido a"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u15-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ la lluvia, el partido fue cancelado.",
+      "answer": "Debido a",
+      "acceptedAnswers": ["Debido a", "Por"],
+      "points": 2,
+      "lessonId": "b1-u15-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Izaberi tačno: 'Este paquete es ___ ti.' (primatelj)",
+      "options": ["por", "para", "de", "con"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u15-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Gracias ___ todo lo que has hecho por nosotros.",
+      "answer": "por",
+      "acceptedAnswers": ["por"],
+      "points": 2,
+      "lessonId": "b1-u15-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'Busco un apartamento que ___ (tener) balcón.'?",
+      "options": ["tiene", "tenía", "tenga", "tendría"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "b1-u15-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ más me gusta de este libro es el final.",
+      "answer": "Lo que",
+      "acceptedAnswers": ["Lo que"],
+      "points": 2,
+      "lessonId": "b1-u15-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Iako je bio umoran, završio je sav posao.",
+      "answer": "Aunque estaba cansado, terminó todo el trabajo.",
+      "acceptedAnswers": ["Aunque estaba cansado, terminó todo el trabajo.", "A pesar de estar cansado, terminó todo el trabajo."],
+      "points": 3,
+      "lessonId": "b1-u15-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Učim španski da bih mogao/la razgovarati s prijateljem iz Meksika.",
+      "answer": "Estudio español para poder hablar con mi amigo de México.",
+      "acceptedAnswers": ["Estudio español para poder hablar con mi amigo de México.", "Aprendo español para hablar con mi amigo mexicano."],
+      "points": 3,
+      "lessonId": "b1-u15-l2"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Busco un trabajo que sea creativo y donde pueda aprender cada día, aunque el sueldo no sea muy alto.",
+      "answer": "Busco un trabajo que sea creativo y donde pueda aprender cada día, aunque el sueldo no sea muy alto.",
+      "points": 3,
+      "lessonId": "b1-u15-l3"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o prednostima i nedostacima rada od kuće. Koristi barem: sin embargo, aunque, por eso, por otro lado i jednu relativnu rečenicu.",
+      "minWords": 45,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: suprotni veznici ispravno (3), uzročno-posljedični ispravno (2), relativna rečenica ispravno (3), kohezija i pravopis (2). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u15-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u15-l1", "topic": "Vezni izrazi: sin embargo/aunque/a pesar de (suprotnost); por eso/así que/debido a (uzrok-posljedica)" },
+    { "lessonId": "b1-u15-l2", "topic": "POR: uzrok/razmjena/trajanje/kretanje/zahvalnost. PARA: svrha/primatelj/rok/mišljenje/destinacija" },
+    { "lessonId": "b1-u15-l3", "topic": "Relativne rečenice: que/donde/quien/cuyo; indicativo (poznati) vs subjunktivo (nepoznati antecedent)" },
+    { "lessonId": "b1-u15-l4", "topic": "Argumentativni tekst: en primer lugar/además/sin embargo/en conclusión; složene rečenice" }
+  ]
+}

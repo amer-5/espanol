@@ -1,0 +1,169 @@
+{
+  "id": "b1-u15-l3",
+  "level": "B1",
+  "unit": 15,
+  "lessonNumber": 3,
+  "title": "Relativne rečenice — que, donde, quien",
+  "subtitle": "La persona que conocí, el lugar donde vivo...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti QUE kao relativnu zamjenicu za osobe i stvari",
+    "Koristiti DONDE za mjesta i QUIEN za osobe (formalno)",
+    "Razlikovati relativne rečenice s indicativom i subjunktivom"
+  ],
+  "prerequisites": ["b1-u15-l2"],
+  "vocabulary": [
+    { "es": "el/la que / los/las que", "bs": "koji/koja / koji/koje", "pos": "rel. zamj.", "ipa": "el ke / la ke", "example_es": "La que llegó tarde fue Ana.", "example_bs": "Ona koja je kasno stigla bila je Ana." },
+    { "es": "lo que", "bs": "ono što / to što", "pos": "rel. zamj. neutr.", "ipa": "lo ke", "example_es": "No entiendo lo que dices.", "example_bs": "Ne razumijem ono što govoriš." },
+    { "es": "donde", "bs": "gdje / u kojemu", "pos": "rel. zamj. mj.", "ipa": "ˈdon.de", "example_es": "El restaurante donde comimos era bueno.", "example_bs": "Restoran gdje smo jeli bio je dobar." },
+    { "es": "quien / quienes", "bs": "koji/koja (osobno, formal)", "pos": "rel. zamj.", "ipa": "ˈkjen / ˈkje.nes", "example_es": "La persona con quien hablé era el director.", "example_bs": "Osoba s kojom sam razgovarao/la bila je direktor." },
+    { "es": "cuyo/cuya", "bs": "čiji/čija (posesivni)", "pos": "rel. zamj. pos.", "ipa": "ˈku.jo / ˈku.ja", "example_es": "El autor cuyo libro leí es famoso.", "example_bs": "Autor čiju sam knjigu čitao/la je slavna osoba." },
+    { "es": "el cual / la cual", "bs": "koji/koja (formal)", "pos": "rel. zamj. formal.", "ipa": "el ˈkwal / la ˈkwal", "example_es": "El informe, el cual adjunto, es importante.", "example_bs": "Izvještaj, koji prilagam, je važan." },
+    { "es": "busco a alguien que + subj.", "bs": "tražim nekoga tko (ne znam koga)", "pos": "rel. + subj.", "ipa": "ˈbus.ko a al.ˈɣjen ke", "example_es": "Busco a alguien que hable chino.", "example_bs": "Tražim nekoga tko govori kineski." },
+    { "es": "conozco a alguien que + ind.", "bs": "poznajem nekoga koji/koja (znam koga)", "pos": "rel. + ind.", "ipa": "ko.ˈnos.ko a al.ˈɣjen ke", "example_es": "Conozco a alguien que habla chino.", "example_bs": "Poznajem nekoga tko govori kineski." },
+    { "es": "no hay nadie que + subj.", "bs": "nema nikoga tko bi", "pos": "neg. + subj.", "ipa": "no aj ˈna.ðje ke", "example_es": "No hay nadie que sepa la respuesta.", "example_bs": "Nema nikoga tko zna odgovor." },
+    { "es": "el sitio donde", "bs": "mjesto gdje", "pos": "rel. mj.", "ipa": "el ˈsi.tjo ˈdon.de", "example_es": "Ese es el sitio donde nos conocimos.", "example_bs": "To je mjesto gdje smo se upoznali." }
+  ],
+  "grammar": [
+    {
+      "concept": "Relativne zamjenice — que, donde, quien, cuyo",
+      "explanation_bs": "**QUE** je najčešća relativna zamjenica za osobe i stvari: 'El libro que leí era bueno.' **DONDE** za mjesta: 'La ciudad donde nací.' **QUIEN** (formalno) samo za osobe, često iza prijedloga: 'La persona con quien hablé.' **CUYO/CUYA** = čiji/čija (slaže se s imenicom koja slijedi): 'El escritor cuya novela ganó el premio.' Razlika s engleskim: QUE se ne može izostaviti (za razliku od 'the book I read').",
+      "table": {
+        "headers": ["Zamjenica", "Upotreba", "Primjer"],
+        "rows": [
+          ["que", "osobe i stvari", "El hombre que vino. / La casa que compré."],
+          ["donde", "mjesta", "La ciudad donde vivo."],
+          ["quien/quienes", "samo osobe (formal/prep.)", "La persona con quien hablé."],
+          ["cuyo/cuya/cuyos/cuyas", "posesivno (čiji)", "El autor cuyo libro leí."],
+          ["lo que", "apstraktno / ono što", "Lo que dices es verdad."]
+        ]
+      },
+      "examples": [
+        { "es": "El estudiante que más trabaja aprende más rápido.", "bs": "Student koji najviše radi uči brže." },
+        { "es": "No encuentro el lugar donde guardé las llaves.", "bs": "Ne mogu naći mjesto gdje sam ostavio/la ključeve." },
+        { "es": "Lo que más me gusta de España es la comida.", "bs": "Ono što mi se najviše sviđa u Španiji je hrana." }
+      ],
+      "tips": "CUYO/CUYA slaže se s imenicom KOJA SLIJEDI, ne s osobom. 'El director cuya empresa creció' — empresa je ženskog roda → cuya. Greška: 'el director cuyo empresa' — pogrešno!"
+    },
+    {
+      "concept": "Relativne rečenice s INDICATIVOM vs SUBJUNKTIVOM",
+      "explanation_bs": "Kada je antecedent (osoba/stvar na koju se odnosi) **POZNATA i DEFINIRANA** → INDICATIVO. Kada je **NEPOZNATA, NEDEFINIRADA ili NE POSTOJI** → SUBJUNKTIVO. Primjer: 'Tengo una amiga que **habla** 5 idiomas.' (Postoji, znam je → indicativo). 'Busco una amiga que **hable** 5 idiomas.' (Još je ne znam, tražim takvu osobu → subjunktivo).",
+      "examples": [
+        { "es": "Conozco a un mecánico que arregla coches antiguos. (postoji, znam ga)", "bs": "Poznajem mehaničara koji popravlja stare aute. (indicativo)" },
+        { "es": "Necesito un mecánico que arregle mi coche. (tražim, ne znam koga)", "bs": "Trebam mehaničara koji bi popravio moj auto. (subjunktivo)" },
+        { "es": "No hay ningún candidato que cumpla todos los requisitos.", "bs": "Nema nijednog kandidata koji bi ispunio sve uvjete. (subjunktivo — negacija)" }
+      ],
+      "tips": "Pitaj se: 'Znam li tu osobu/stvar?' DA → indicativo. NE ili 'tražim nekoga takvog' → subjunktivo. 'No hay nadie que...' uvijek zahtijeva subjunktivo jer ne postoji."
+    }
+  ],
+  "dialogue": {
+    "title": "Tražimo stana — Tražimo stan",
+    "lines": [
+      { "speaker": "Sara", "es": "Busco un piso que tenga dos habitaciones y esté cerca del metro.", "bs": "Tražim stan koji ima dvije sobe i koji je blizu metroa." },
+      { "speaker": "Agente", "es": "Tengo uno que cumple todo eso. Está en la zona donde hay muchos parques.", "bs": "Imam jedan koji ispunjava sve to. U je zoni gdje ima puno parkova." },
+      { "speaker": "Sara", "es": "¿Y cuánto cuesta? Lo que más me preocupa es el precio.", "bs": "I koliko košta? Ono što me najviše brine je cijena." },
+      { "speaker": "Agente", "es": "900 euros al mes. El propietario, con quien puedes hablar directamente, es muy flexible.", "bs": "900 eura mjesečno. Vlasnik, s kojim možeš razgovarati direktno, je jako fleksibilan." },
+      { "speaker": "Sara", "es": "¿Hay alguien que haya vivido ahí antes y que pueda darme su opinión?", "bs": "Ima li netko tko je tamo živio ranije i tko bi mi mogao dati svoje mišljenje?" },
+      { "speaker": "Agente", "es": "Sí, el inquilino anterior, cuyo contrato terminó el mes pasado, estaba muy contento.", "bs": "Da, prethodni stanar, čiji je ugovor završio prošlog mjeseca, bio je jako zadovoljan." }
+    ]
+  },
+  "reading": {
+    "title": "El museo del futuro — Muzej budućnosti",
+    "text_es": "Existe un museo donde el tiempo no existe. Todo lo que ves allí te hace pensar en el pasado y en el futuro al mismo tiempo. Hay obras cuyo significado solo entiendes después de reflexionar. Los artistas que exponen ahí son personas que creen que el arte puede cambiar el mundo. No hay nadie que salga igual que entró — todos se van con una perspectiva nueva. El lugar donde está construido también es especial: un antiguo depósito de agua que fue transformado en espacio cultural. Lo que más sorprende es el silencio. En un mundo donde todo hace ruido, este silencio es revolucionario.",
+    "glossary": [
+      { "es": "las obras", "bs": "djela (umjetnička)" },
+      { "es": "el significado", "bs": "značenje / smisao" },
+      { "es": "exponer", "bs": "izlagati (umjetnost)" },
+      { "es": "el depósito de agua", "bs": "rezervoar za vodu" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što muzej čini posebnim?",
+        "options": ["Ulaz je besplatan", "Tjera posjetitelje na razmišljanje o prošlosti i budućnosti", "Ima puno eksponata"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje se muzej nalazi?",
+        "options": ["U novoj zgradi", "U bivšem rezervoaru za vodu", "Na obali mora"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je prema tekstu revolucionarno?",
+        "options": ["Umjetnost", "Tišina u bučnom svijetu", "Cijena ulaznice"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'Busco una secretaria que ___ inglés.' (ne znam koga)?",
+      "options": ["habla", "hable", "habló", "hablaría"],
+      "answerIndex": 1,
+      "explanation_bs": "Tražimo nepoznatu osobu → SUBJUNKTIVO: hable. Da znamo osobu: 'Tengo una secretaria que habla inglés.' (indicativo)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La ciudad ___ vivo tiene mucho encanto histórico.",
+      "answer": "donde",
+      "acceptedAnswers": ["donde", "en la que", "en que"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No hay nadie ___ (saber/subj.) la solución exacta.",
+      "answer": "que sepa",
+      "acceptedAnswers": ["que sepa"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ono što me fascinira kod španskog su nepravilni glagoli.",
+      "answer": "Lo que me fascina del español son los verbos irregulares.",
+      "acceptedAnswers": ["Lo que me fascina del español son los verbos irregulares.", "Lo que me fascina en español son los verbos irregulares."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Tražim restoran koji nudi vegetarijansku hranu.",
+      "answer": "Busco un restaurante que ofrezca comida vegetariana.",
+      "acceptedAnswers": ["Busco un restaurante que ofrezca comida vegetariana.", "Busco un restaurante que tenga comida vegetariana."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji primjer s tipom relativne rečenice",
+      "pairs": [
+        { "es": "El libro que leí era interesante.", "bs": "poznati antecedent → indicativo" },
+        { "es": "Busco un libro que sea interesante.", "bs": "nepoznati antecedent → subjunktivo" },
+        { "es": "La persona con quien hablé era directora.", "bs": "quien — formalno, s prijedlogom" },
+        { "es": "El autor cuya novela ganó es joven.", "bs": "cuyo — posesivna relativa" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Lo que necesito es encontrar un trabajo que me apasione y donde pueda crecer profesionalmente.",
+      "answer": "Lo que necesito es encontrar un trabajo que me apasione y donde pueda crecer profesionalmente."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši nekoga koga poznaješ i nešto što tražiš — koristi relativne rečenice s QUE, DONDE i LO QUE.",
+      "modelAnswer_es": "Tengo un amigo que habla cinco idiomas y que viaja mucho. Lo que más admiro de él es su dedicación. Vive en una ciudad donde hay mucha diversidad cultural. Yo busco un trabajo que me permita viajar también, y un lugar donde me sienta a gusto."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o idealnom poslu, gradu i partneru — vježbaš relativne rečenice s indicativom i subjunktivom.",
+    "level": "B1",
+    "allowedGrammar": ["que + indicativo (poznati antecedent)", "que + subjunktivo (nepoznati)", "donde", "quien", "lo que", "cuyo/cuya"],
+    "systemPromptHint": "Pitaj studenta o idealnom poslu, gradu za život, i osobinama koje traži u prijatelju. Potičite upotrebu 'busco algo que...' (subj.) i 'conozco a alguien que...' (ind.). Ispravi greške u indicativo/subjunktivo razlici."
+  },
+  "illustration": {
+    "prompt": "Person connected to various people and places with dotted lines and relative clauses as labels, mind-map style",
+    "alt": "Relativne rečenice — que, donde, quien",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["relativne-recenice-que", "indicativo-vs-subjunktivo-relativa", "donde-quien-cuyo", "b1", "u15"]
+  }
+}

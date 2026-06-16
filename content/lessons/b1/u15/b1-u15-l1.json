@@ -1,0 +1,169 @@
+{
+  "id": "b1-u15-l1",
+  "level": "B1",
+  "unit": 15,
+  "lessonNumber": 1,
+  "title": "Vezni izrazi — Sin embargo, por eso, aunque...",
+  "subtitle": "Povezivanje ideja na prirodan način",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti suprotne veznike: sin embargo, aunque, a pesar de (que), no obstante",
+    "Koristiti uzročno-posljedične veznike: por eso, por lo tanto, así que, debido a",
+    "Pisati koherentne paragrafe s veznicima"
+  ],
+  "prerequisites": ["b1-u14-l4"],
+  "vocabulary": [
+    { "es": "sin embargo", "bs": "međutim / ipak", "pos": "vez.", "ipa": "sin em.ˈbar.ɣo", "example_es": "Es caro; sin embargo, vale la pena.", "example_bs": "Skupo je; međutim, vrijedi." },
+    { "es": "aunque + ind./subj.", "bs": "iako / čak i ako", "pos": "vez.", "ipa": "ˈawn.ke", "example_es": "Aunque llueve, salgo.", "example_bs": "Iako kiši, izlazim." },
+    { "es": "a pesar de (que)", "bs": "unatoč (tome što)", "pos": "vez.", "ipa": "a pe.ˈsar ðe ke", "example_es": "A pesar de que estaba cansado, terminó.", "example_bs": "Unatoč tome što je bio umoran, završio je." },
+    { "es": "no obstante", "bs": "unatoč tome / ipak (formal)", "pos": "vez. (formal)", "ipa": "no obs.ˈtan.te", "example_es": "No obstante, seguimos adelante.", "example_bs": "Ipak, nastavili smo dalje." },
+    { "es": "por eso", "bs": "zato / zbog toga", "pos": "vez.", "ipa": "por ˈe.so", "example_es": "Llovía mucho, por eso nos quedamos.", "example_bs": "Kiša je padala, zato smo ostali." },
+    { "es": "por lo tanto", "bs": "stoga / prema tome", "pos": "vez.", "ipa": "por lo ˈtan.to", "example_es": "No hay entradas; por lo tanto, no podemos ir.", "example_bs": "Nema ulaznica; stoga, ne možemo ići." },
+    { "es": "así que", "bs": "tako da / dakle", "pos": "vez.", "ipa": "a.ˈsi ke", "example_es": "Ya terminé, así que me voy.", "example_bs": "Već sam završio/la, tako da odlazim." },
+    { "es": "debido a (que)", "bs": "zbog (toga što)", "pos": "vez.", "ipa": "de.ˈβi.ðo a ke", "example_es": "Debido al tráfico, llegué tarde.", "example_bs": "Zbog prometa, stigao/la sam kasno." },
+    { "es": "además", "bs": "osim toga / uz to", "pos": "vez.", "ipa": "a.ðe.ˈmas", "example_es": "Es barato y, además, muy bueno.", "example_bs": "Jeftino je i, osim toga, jako dobro." },
+    { "es": "es decir", "bs": "to jest / odnosno", "pos": "izr.", "ipa": "es de.ˈθir", "example_es": "Habla tres idiomas, es decir, es trilingüe.", "example_bs": "Govori tri jezika, to jest, trilingvalan/na je." }
+  ],
+  "grammar": [
+    {
+      "concept": "Suprotni veznici — aunque, sin embargo, a pesar de",
+      "explanation_bs": "**AUNQUE** može biti + **INDICATIVO** (poznata činjenica) ili + **SUBJUNKTIVO** (pretpostavka/hipotetičko). 'Aunque LLUEVE, salgo.' (znam da kiši) vs 'Aunque LLUEVA, saldré.' (možda kiše). **SIN EMBARGO / NO OBSTANTE** dolaze na početku rečenice iza zareza — uvijek indicativo. **A PESAR DE** + INFINITIVO (isti subjekat) ili **A PESAR DE QUE** + INDICATIVO/SUBJUNKTIVO.",
+      "table": {
+        "headers": ["Veznik", "Struktura", "Primjer", "Smisao"],
+        "rows": [
+          ["aunque + ind.", "aunque + prez. ind.", "Aunque cuesta mucho, lo compro.", "Svjesna činjenica"],
+          ["aunque + subj.", "aunque + prez. subj.", "Aunque cueste mucho, lo compraré.", "Hipotetičko"],
+          ["sin embargo", "Rečenica. Sin embargo, rečenica.", "Es difícil. Sin embargo, puedo.", "Suprotnost"],
+          ["a pesar de", "a pesar de + inf.", "A pesar de estar cansado, trabaja.", "Isti subjekat"],
+          ["a pesar de que", "a pesar de que + ind.", "A pesar de que llueve, sale.", "Različit subjekat"]
+        ]
+      },
+      "examples": [
+        { "es": "Aunque no tengo dinero, soy feliz.", "bs": "Iako nemam novca, sretan/a sam." },
+        { "es": "La película era larga; sin embargo, no me aburrí.", "bs": "Film je bio dug; međutim, nisam se dosađivao/la." },
+        { "es": "A pesar de sus problemas, siempre sonríe.", "bs": "Unatoč svojim problemima, uvijek se osmjehuje." }
+      ],
+      "tips": "Aunque + INDICATIVO = govornik ZNA da je to istina. Aunque + SUBJUNKTIVO = govornik PRETPOSTAVLJA ili je to hipotetičko. Npr. 'Aunque sea difícil, lo intentaré.' (možda jest, možda nije — svejedno ću pokušati)"
+    },
+    {
+      "concept": "Uzročno-posljedični veznici — por eso, así que, debido a",
+      "explanation_bs": "**POR ESO** i **POR LO TANTO** = rezultat/posljedica (uvijek indicativo). **ASÍ QUE** = neformalno 'tako da'. **DEBIDO A** + imenica, **DEBIDO A QUE** + rečenica. Redoslijed: uzrok → THUS → posljedica. 'Estaba enfermo, **por eso** no vino.' (Bio je bolestan, **zato** nije došao.)",
+      "examples": [
+        { "es": "Estudié mucho, así que aprobé el examen.", "bs": "Puno sam učio/la, tako da sam položio/la ispit." },
+        { "es": "Debido al mal tiempo, cancelaron el vuelo.", "bs": "Zbog lošeg vremena, otkazali su let." },
+        { "es": "No hay señal aquí; por lo tanto, no puedo llamar.", "bs": "Ovdje nema signala; stoga, ne mogu nazvati." }
+      ],
+      "tips": "POR ESO vs POR LO TANTO: oba znače 'therefore', ali POR LO TANTO je formalnije (pisani jezik, prezentacije). ASÍ QUE je neformalno, razgovorni stil."
+    }
+  ],
+  "dialogue": {
+    "title": "El debate en clase — Debata u razredu",
+    "lines": [
+      { "speaker": "Profesora", "es": "Hoy debatimos sobre las redes sociales. ¿Empezamos?", "bs": "Danas raspravljamo o društvenim mrežama. Počinjemo?" },
+      { "speaker": "Alicia", "es": "Aunque tienen ventajas, creo que son adictivas. Por lo tanto, deberíamos limitar su uso.", "bs": "Iako imaju prednosti, mislim da su ovisničke. Stoga, trebali bismo ograničiti njihovu upotrebu." },
+      { "speaker": "Diego", "es": "Sin embargo, gracias a ellas nos comunicamos con personas de todo el mundo.", "bs": "Međutim, zahvaljujući njima komuniciramo s ljudima iz cijelog svijeta." },
+      { "speaker": "Alicia", "es": "Es cierto, pero a pesar de eso, hay mucho contenido falso.", "bs": "Istina je, ali unatoč tome, ima puno lažnog sadržaja." },
+      { "speaker": "Diego", "es": "Debido a los algoritmos, sólo vemos lo que nos gusta. Así que vivimos en burbujas.", "bs": "Zbog algoritama, vidimo samo ono što nam se sviđa. Tako da živimo u mjehurićima." },
+      { "speaker": "Profesora", "es": "Muy bien. Es decir, hay pros y contras. No obstante, debemos ser críticos.", "bs": "Odlično. To jest, ima prednosti i nedostataka. Ipak, moramo biti kritični." }
+    ]
+  },
+  "reading": {
+    "title": "El cambio de trabajo — Promjena posla",
+    "text_es": "Marta llevaba cinco años en la misma empresa. A pesar de que el sueldo era bueno, no se sentía realizada. Aunque sus compañeros eran amables, el ambiente era muy estresante. Por eso, decidió buscar algo nuevo. Sin embargo, encontrar trabajo nuevo no fue fácil. Debido a la situación económica, muchas empresas no contrataban. No obstante, Marta siguió enviando currículums. Después de tres meses, así que con mucha paciencia, encontró el trabajo de sus sueños. Es decir, a veces hay que esperar, pero vale la pena.",
+    "glossary": [
+      { "es": "sentirse realizada", "bs": "osjećati se ispunjeno" },
+      { "es": "el ambiente", "bs": "atmosfera / okruženje" },
+      { "es": "contratar", "bs": "zaposliti / angažirati" },
+      { "es": "el currículum", "bs": "životopis / CV" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto Marta nije bila sretna na starom poslu?",
+        "options": ["Plaća nije bila dobra", "Nije se osjećala ispunjeno i okruženje je bilo stresno", "Kompanija je bila mala"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je otežalo njezino traženje posla?",
+        "options": ["Nije imala iskustva", "Ekonomska situacija — kompanije nisu zapošljavale", "Nije znala pisati CV"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakva je poruka na kraju teksta?",
+        "options": ["Da treba ostati na starom poslu", "Da treba biti strpljiv jer se trudi isplati", "Da je tržište rada loše"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji veznik je najprikladniji: 'Estudia mucho ___ quiere aprobar.'?",
+      "options": ["sin embargo", "aunque", "porque", "a pesar de que"],
+      "answerIndex": 2,
+      "explanation_bs": "PORQUE = jer/zbog. Ovdje je uzrok (želi položiti). POR ESO bi stajalo obrnuto: želi položiti, POR ESO uči."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ el mal tiempo, decidimos salir de todas formas. (unatoč)",
+      "answer": "A pesar de",
+      "acceptedAnswers": ["A pesar de", "A pesar del"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No tenía dinero; ___, no pudo comprar el billete.",
+      "answer": "por lo tanto",
+      "acceptedAnswers": ["por lo tanto", "por eso", "así que"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Iako je bio umoran, nastavio je raditi.",
+      "answer": "Aunque estaba cansado, siguió trabajando.",
+      "acceptedAnswers": ["Aunque estaba cansado, siguió trabajando.", "A pesar de estar cansado, siguió trabajando."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zbog kiše, otkazali smo piknik. Međutim, dobro smo se proveli kod kuće.",
+      "answer": "Debido a la lluvia, cancelamos el picnic. Sin embargo, lo pasamos bien en casa.",
+      "acceptedAnswers": ["Debido a la lluvia, cancelamos el picnic. Sin embargo, lo pasamos bien en casa.", "Por la lluvia cancelamos el picnic. Sin embargo, lo pasamos bien en casa."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji veznik s funkcijom",
+      "pairs": [
+        { "es": "sin embargo", "bs": "suprotnost (međutim)" },
+        { "es": "por eso", "bs": "posljedica (zato)" },
+        { "es": "a pesar de que", "bs": "koncesija (unatoč tome što)" },
+        { "es": "así que", "bs": "zaključak (tako da)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Aunque tenía miedo, lo intentó de todas formas. Por lo tanto, merece mucho respeto.",
+      "answer": "Aunque tenía miedo, lo intentó de todas formas. Por lo tanto, merece mucho respeto."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Govori o nečemu što radiš unatoč teškoćama — koristi aunque, sin embargo i por eso.",
+      "modelAnswer_es": "Aprender español es difícil para mí a veces. Aunque hay días en que no entiendo todo, sigo estudiando porque me encanta el idioma. Por eso, cada semana dedico varias horas a practicar. Sin embargo, todavía cometo muchos errores. A pesar de eso, sigo adelante porque quiero poder hablar con hablantes nativos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI vodi debatu s tobom o nekoj temi — vježbaš veznike sin embargo, aunque, por eso, así que.",
+    "level": "B1",
+    "allowedGrammar": ["sin embargo / no obstante", "aunque + indicativo/subjunktivo", "por eso / así que / por lo tanto", "a pesar de (que) / debido a"],
+    "systemPromptHint": "Debatiraj sa studentom o nekoj aktualnoj temi (tehnologija, okolina, obrazovanje). Potičite upotrebu veznika suprotnosti i uzroka. Ispravi greške u izboru indicativa vs subjunktiva iza aunque, i u interpunkciji (zarez iza sin embargo)."
+  },
+  "illustration": {
+    "prompt": "Two people debating, thought bubbles connecting with arrows showing contrast and cause-effect, clean infographic style",
+    "alt": "Vezni izrazi — argumentacija i rasprava",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["sin-embargo", "aunque-indicativo-subjunktivo", "por-eso-por-lo-tanto", "b1", "u15"]
+  }
+}

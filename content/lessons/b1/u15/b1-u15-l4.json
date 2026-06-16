@@ -1,0 +1,159 @@
+{
+  "id": "b1-u15-l4",
+  "level": "B1",
+  "unit": 15,
+  "lessonNumber": 4,
+  "title": "Složene rečenice — kombinovanje struktura",
+  "subtitle": "Pisanje bogatih i koherentnih paragrafa",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Kombinovati veznike, relativne rečenice, POR/PARA i uvjetne strukture u složenim rečenicama",
+    "Pisati koherentne paragrafe s raznovrsnim vezivnim sredstvima",
+    "Prepoznati i ispraviti tipične greške u složenim rečenicama"
+  ],
+  "prerequisites": ["b1-u15-l3"],
+  "vocabulary": [
+    { "es": "sin duda", "bs": "bez sumnje / nesumnjivo", "pos": "izr.", "ipa": "sin ˈdu.βa", "example_es": "Sin duda, es la mejor opción.", "example_bs": "Bez sumnje, to je najbolja opcija." },
+    { "es": "en cambio", "bs": "s druge strane / nasuprot tome", "pos": "izr.", "ipa": "en ˈkam.bjo", "example_es": "Aquí hace calor; en cambio, allí nieva.", "example_bs": "Ovdje je toplo; s druge strane, tamo snijeg pada." },
+    { "es": "por otro lado", "bs": "s druge strane / s jedne strane", "pos": "izr.", "ipa": "por ˈo.tro ˈla.ðo", "example_es": "Por otro lado, hay que considerar el coste.", "example_bs": "S druge strane, treba uzeti u obzir troškove." },
+    { "es": "en conclusión", "bs": "zaključno / na kraju", "pos": "izr.", "ipa": "en kon.klu.ˈsjon", "example_es": "En conclusión, necesitamos más datos.", "example_bs": "Zaključno, trebamo više podataka." },
+    { "es": "en primer lugar", "bs": "na prvom mjestu / prvo", "pos": "izr.", "ipa": "en pri.ˈmer lu.ˈɣar", "example_es": "En primer lugar, analizamos el problema.", "example_bs": "Na prvom mjestu, analiziramo problem." },
+    { "es": "por último", "bs": "na kraju / posljednje", "pos": "izr.", "ipa": "por ˈul.ti.mo", "example_es": "Por último, quisiera agradecerles.", "example_bs": "Na kraju, želio/la bih vam zahvaliti." },
+    { "es": "cabe destacar", "bs": "vrijedi istaknuti / treba napomenuti", "pos": "izr. formal.", "ipa": "ˈka.βe des.ta.ˈkar", "example_es": "Cabe destacar que los resultados son positivos.", "example_bs": "Vrijedi istaknuti da su rezultati pozitivni." },
+    { "es": "hay que tener en cuenta", "bs": "treba uzeti u obzir", "pos": "izr.", "ipa": "aj ke te.ˈner en ˈkwen.ta", "example_es": "Hay que tener en cuenta el contexto.", "example_bs": "Treba uzeti u obzir kontekst." },
+    { "es": "a modo de ejemplo", "bs": "kao primjer", "pos": "izr.", "ipa": "a ˈmo.ðo ðe e.ˈxem.plo", "example_es": "A modo de ejemplo, podemos ver este caso.", "example_bs": "Kao primjer, možemo pogledati ovaj slučaj." },
+    { "es": "dicho esto", "bs": "uz sve ovo rečeno / to rekavši", "pos": "izr.", "ipa": "ˈdi.tʃo ˈes.to", "example_es": "Dicho esto, podemos comenzar.", "example_bs": "Uz sve ovo rečeno, možemo početi." }
+  ],
+  "grammar": [
+    {
+      "concept": "Struktura argumentativnog teksta — uvod, razvoj, zaključak",
+      "explanation_bs": "Dobar paragraf na B1 razini kombinuje: **UVOD**: En primer lugar, Primero... **RAZVOJ**: Además, Por otro lado, Sin embargo, Aunque... **PRIMJERI**: A modo de ejemplo, Por ejemplo... **ZAKLJUČAK**: En conclusión, Por último, En definitiva... Svaka ideja treba veznik koji pokazuje odnos prema prethodnoj: suprotnost, dodavanje, uzrok ili posljedica.",
+      "table": {
+        "headers": ["Funkcija", "Veznici", "Primjer"],
+        "rows": [
+          ["Uvod / redoslijed", "En primer lugar / Primero", "En primer lugar, el problema es..."],
+          ["Dodavanje", "Además / También / Asimismo", "Además, hay que considerar..."],
+          ["Suprotnost", "Sin embargo / En cambio / No obstante", "Sin embargo, los datos muestran..."],
+          ["Primjer", "Por ejemplo / A modo de ejemplo", "Por ejemplo, en España..."],
+          ["Uzrok", "Debido a / Por este motivo", "Debido al calentamiento..."],
+          ["Zaključak", "En conclusión / Por último / En definitiva", "En conclusión, debemos actuar."]
+        ]
+      },
+      "examples": [
+        { "es": "En primer lugar, el cambio climático es real. Además, sus efectos ya son visibles. Sin embargo, todavía podemos actuar.", "bs": "Na prvom mjestu, klimatske promjene su stvarne. Osim toga, njihovi efekti su već vidljivi. Međutim, još uvijek možemo djelovati." },
+        { "es": "Aunque la tecnología tiene ventajas, hay que tener en cuenta los riesgos que conlleva.", "bs": "Iako tehnologija ima prednosti, treba uzeti u obzir rizike koje nosi." }
+      ],
+      "tips": "Izbjegavaj ponavljanje istog veznika! Varijacija = bolji stil. Umjesto 3x 'pero', koristi: pero / sin embargo / aunque / no obstante. Zarezi su obavezni iza sin embargo, por lo tanto, en cambio."
+    }
+  ],
+  "dialogue": {
+    "title": "Priprema za prezentaciju — Una presentación",
+    "lines": [
+      { "speaker": "Valeria", "es": "Mañana tengo que presentar mi proyecto. En primer lugar, hablaré de los beneficios.", "bs": "Sutra moram prezentirati svoj projekt. Na prvom mjestu, govorit ću o prednostima." },
+      { "speaker": "Hugo", "es": "¿Y los problemas? Cabe destacar que el público siempre pregunta por eso.", "bs": "A problemi? Vrijedi istaknuti da publika uvijek pita o tome." },
+      { "speaker": "Valeria", "es": "Tienes razón. Por otro lado, voy a mostrar los riesgos. Sin duda, es importante ser honesto.", "bs": "Imaš pravo. S druge strane, pokazat ću rizike. Bez sumnje, važno je biti iskren/a." },
+      { "speaker": "Hugo", "es": "Además, añade ejemplos concretos para que sea más convincente.", "bs": "Osim toga, dodaj konkretne primjere da bude uvjerljivije." },
+      { "speaker": "Valeria", "es": "Sí, a modo de ejemplo usaré los datos del año pasado. En conclusión, diré qué debemos hacer.", "bs": "Da, kao primjer koristit ću podatke prošle godine. Zaključno, reći ću što trebamo učiniti." },
+      { "speaker": "Hugo", "es": "Perfecto. Dicho esto, creo que va a salir genial.", "bs": "Savršeno. Uz sve ovo rečeno, mislim da će ići odlično." }
+    ]
+  },
+  "reading": {
+    "title": "¿Deberían los jóvenes vivir solos? — Trebaju li mladi živjeti sami?",
+    "text_es": "En primer lugar, vivir solo tiene grandes ventajas para los jóvenes. Aprenden a gestionar su tiempo y su dinero de forma independiente. Además, desarrollan una madurez que es difícil de conseguir de otra manera. Sin embargo, hay que tener en cuenta los desafíos económicos. Debido al alto precio de los alquileres, muchos jóvenes no pueden permitírselo. Por otro lado, la soledad puede ser un problema para quienes no están acostumbrados. Aunque vivir con la familia tenga sus limitaciones, también ofrece seguridad. En definitiva, no existe una respuesta única: depende de la situación personal, económica y emocional de cada uno. Cabe destacar que lo más importante es la preparación previa — saber cocinar, limpiar y administrar un presupuesto.",
+    "glossary": [
+      { "es": "gestionar", "bs": "upravljati / organizirati" },
+      { "es": "la madurez", "bs": "zrelost" },
+      { "es": "los desafíos", "bs": "izazovi" },
+      { "es": "el alquiler", "bs": "najam / kirija" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koje su prednosti samostalnog življenja prema tekstu?",
+        "options": ["Jeftinija hrana", "Nezavisnost i razvoj zrelosti", "Više slobodnog vremena"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji je glavni ekonomski izazov?",
+        "options": ["Niske plaće", "Visoke cijene najma", "Nema posla"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je najvažnije prema tekstu?",
+        "options": ["Imati dobru plaću", "Prethodna priprema — kuhanje, čišćenje, budžet", "Živjeti u velikom gradu"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji veznik dolazi na kraju — zaključak teksta?",
+      "options": ["En primer lugar", "Además", "En conclusión", "A pesar de"],
+      "answerIndex": 2,
+      "explanation_bs": "EN CONCLUSIÓN = zaključak, dolazi na kraju argumentativnog teksta."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ los datos muestran crecimiento, hay riesgos que no podemos ignorar. (suprotnost)",
+      "answer": "Aunque",
+      "acceptedAnswers": ["Aunque", "Sin embargo,", "A pesar de que"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ al mal tiempo, el partido fue cancelado.",
+      "answer": "Debido",
+      "acceptedAnswers": ["Debido", "A causa de"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "S jedne strane, tehnologija nam pomaže. S druge strane, stvara ovisnost.",
+      "answer": "Por un lado, la tecnología nos ayuda. Por otro lado, crea adicción.",
+      "acceptedAnswers": ["Por un lado, la tecnología nos ayuda. Por otro lado, crea adicción.", "Por un lado nos ayuda la tecnología; en cambio, crea adicción."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Bez sumnje, učenje jezika zahtijeva strpljenje. Međutim, rezultati su vrijedni truda.",
+      "answer": "Sin duda, aprender idiomas requiere paciencia. Sin embargo, los resultados valen la pena.",
+      "acceptedAnswers": ["Sin duda, aprender idiomas requiere paciencia. Sin embargo, los resultados valen la pena."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji izraz s funkcijom u tekstu",
+      "pairs": [
+        { "es": "En primer lugar", "bs": "uvod / početak argumenta" },
+        { "es": "Sin embargo", "bs": "suprotnost / kontrast" },
+        { "es": "A modo de ejemplo", "bs": "navođenje primjera" },
+        { "es": "En conclusión", "bs": "zaključak" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En primer lugar, hay que tener en cuenta el coste. Sin embargo, por otro lado, los beneficios son evidentes.",
+      "answer": "En primer lugar, hay que tener en cuenta el coste. Sin embargo, por otro lado, los beneficios son evidentes."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Daj kratko mišljenje o korištenju mobitela u školi — koristi barem 4 veznika (en primer lugar, sin embargo, además, en conclusión).",
+      "modelAnswer_es": "En primer lugar, los móviles pueden ser útiles en clase para buscar información. Además, permiten a los estudiantes acceder a materiales educativos. Sin embargo, también son una distracción y muchos alumnos los usan para chatear. Por otro lado, algunos profesores ya integran el móvil en sus clases de forma positiva. En conclusión, creo que hay que establecer reglas claras en lugar de prohibirlos completamente."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te poziva da izneseš argumente za i protiv neke teme — vježbaš složene rečenice s raznovrsnim veznicima.",
+    "level": "B1",
+    "allowedGrammar": ["en primer lugar / además / por otro lado", "sin embargo / en cambio / aunque", "por eso / debido a / en conclusión", "relativne rečenice + por/para"],
+    "systemPromptHint": "Daj studentu temu za kratku debatu (npr. život u gradu vs na selu, rad od kuće vs u uredu). Potičite upotrebu strukturiranih argumenata s veznicima. Ispravi greške u redoslijedu i interpunkciji veznih izraza."
+  },
+  "illustration": {
+    "prompt": "A structured essay or argument map with intro, body, and conclusion sections, organized flow chart style",
+    "alt": "Složene rečenice — argumentativno pisanje",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["argumentativno-pisanje", "sin-duda-en-cambio-en-conclusion", "strukturirani-tekst", "b1", "u15"]
+  }
+}

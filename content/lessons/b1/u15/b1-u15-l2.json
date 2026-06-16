@@ -1,0 +1,187 @@
+{
+  "id": "b1-u15-l2",
+  "level": "B1",
+  "unit": 15,
+  "lessonNumber": 2,
+  "title": "POR vs PARA — razlike u upotrebi",
+  "subtitle": "Por el camino, para llegar pronto...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Razlikovati POR i PARA u 8 ključnih upotreba",
+    "Koristiti POR za uzrok, razmjenu, trajanje, kretanje kroz prostor",
+    "Koristiti PARA za svrhu, primatelja, rok, mišljenje"
+  ],
+  "prerequisites": ["b1-u15-l1"],
+  "vocabulary": [
+    { "es": "gracias por", "bs": "hvala za / zbog", "pos": "por + im.", "ipa": "ˈgra.θjas por", "example_es": "Gracias por tu ayuda.", "example_bs": "Hvala za tvoju pomoć." },
+    { "es": "para mí", "bs": "za mene / po mom mišljenju", "pos": "para + pron.", "ipa": "ˈpa.ra mi", "example_es": "Para mí, lo más importante es la salud.", "example_bs": "Za mene / Po mom mišljenju, najvažnije je zdravlje." },
+    { "es": "por eso", "bs": "zbog toga / zato", "pos": "por + eso", "ipa": "por ˈe.so", "example_es": "Por eso no vine.", "example_bs": "Zbog toga nisam došao/la." },
+    { "es": "trabajar para", "bs": "raditi za (kompaniju / cilj)", "pos": "para + im.", "ipa": "tra.βa.ˈxar ˈpa.ra", "example_es": "Trabajo para una empresa alemana.", "example_bs": "Radim za jednu njemačku kompaniju." },
+    { "es": "estar listo para", "bs": "biti spreman/na za", "pos": "para + inf.", "ipa": "es.ˈtar ˈlis.to ˈpa.ra", "example_es": "Estoy listo para empezar.", "example_bs": "Spreman/a sam za početak." },
+    { "es": "por fin", "bs": "konačno / napokon", "pos": "izr.", "ipa": "por ˈfin", "example_es": "¡Por fin llegaste!", "example_bs": "Konačno si stigao/la!" },
+    { "es": "para siempre", "bs": "zauvijek", "pos": "izr.", "ipa": "ˈpa.ra ˈsjem.pre", "example_es": "Te quiero para siempre.", "example_bs": "Volim te zauvijek." },
+    { "es": "por suerte", "bs": "na sreću / srećom", "pos": "izr.", "ipa": "por ˈswer.te", "example_es": "Por suerte, no pasó nada grave.", "example_bs": "Na sreću, ništa ozbiljno se nije desilo." },
+    { "es": "para que + subj.", "bs": "da bi / kako bi (svrha)", "pos": "para + subj.", "ipa": "ˈpa.ra ke", "example_es": "Te lo digo para que lo sepas.", "example_bs": "Govorim ti to da bi znao/la." },
+    { "es": "por casualidad", "bs": "slučajno / slučajnost", "pos": "izr.", "ipa": "por ka.swa.ˈli.ðað", "example_es": "¿Tienes por casualidad un bolígrafo?", "example_bs": "Imaš slučajno kemijsku olovku?" }
+  ],
+  "grammar": [
+    {
+      "concept": "POR — upotreba (uzrok, razmjena, trajanje, kretanje, agent)",
+      "explanation_bs": "**POR** se koristi za: 1) **Uzrok/razlog**: 'Lo hice por ti.' (Uradio/la sam to zbog tebe.) 2) **Razmjena**: 'Lo cambié por otro.' (Zamijenio/la sam ga za drugi.) 3) **Trajanje**: 'Estudié por dos horas.' (Učio/la sam dva sata.) 4) **Kretanje kroz prostor**: 'Pasé por el parque.' (Prošao/la sam kroz park.) 5) **Agent u pasivi**: 'Fue escrito por Cervantes.' (Napisao ga je Cervantes.) 6) **Izraz zahvalnosti**: 'Gracias por todo.' 7) **Aproksimacija**: 'Vive por aquí.' (Živi negdje ovdje.)",
+      "table": {
+        "headers": ["Upotreba POR", "Primjer", "Prijevod"],
+        "rows": [
+          ["Uzrok/razlog", "Lo hago por amor.", "Radim to iz ljubavi."],
+          ["Razmjena", "Te doy esto por ese.", "Dajem ti ovo za ono."],
+          ["Trajanje", "Dormí por ocho horas.", "Spavao/la sam osam sati."],
+          ["Kroz prostor", "Caminé por la ciudad.", "Hodao/la sam kroz grad."],
+          ["Agent pasive", "Fue pintado por Picasso.", "Naslikao ga je Picasso."],
+          ["Aproks. lokacija", "Vive por el centro.", "Živi negdje u centru."]
+        ]
+      },
+      "examples": [
+        { "es": "Por suerte, el tren no se fue.", "bs": "Na sreću, voz nije otišao." },
+        { "es": "Gracias por venir a mi fiesta.", "bs": "Hvala što si došao/la na moj party." },
+        { "es": "Pasamos por Madrid de camino a Barcelona.", "bs": "Prošli smo kroz Madrid putem za Barcelonu." }
+      ],
+      "tips": ""
+    },
+    {
+      "concept": "PARA — upotreba (svrha, primatelj, rok, mišljenje, destinacija)",
+      "explanation_bs": "**PARA** se koristi za: 1) **Svrha/cilj**: 'Estudio para aprender.' (Učim da bih naučio/la.) 2) **Primatelj**: 'Este regalo es para ti.' (Ovaj poklon je za tebe.) 3) **Rok**: 'Lo necesito para el lunes.' (Trebam to do ponedjeljka.) 4) **Destinacija**: 'Salgo para Madrid.' (Polazim za Madrid.) 5) **Mišljenje**: 'Para mí, es imposible.' (Po mom mišljenju, nemoguće je.) 6) **PARA QUE + SUBJUNKTIVO** (svrha s drugim subjektom): 'Te llamo para que vengas.' (Zovem te da dođeš.)",
+      "table": {
+        "headers": ["Upotreba PARA", "Primjer", "Prijevod"],
+        "rows": [
+          ["Svrha (isti subjekat)", "Corro para adelgazar.", "Trčim da bih smršavio/la."],
+          ["Primatelj", "Este café es para Ana.", "Ova kafa je za Anu."],
+          ["Rok", "Entrégalo para mañana.", "Predaj to do sutra."],
+          ["Destinacija", "El tren sale para Sevilla.", "Voz polazi za Sevillu."],
+          ["Mišljenje", "Para nosotros, es perfecto.", "Po našem mišljenju, savršeno je."],
+          ["Svrha (drugi subjekat)", "Te explico para que entiendas.", "Objašnjavam ti da bi razumio/la."]
+        ]
+      },
+      "examples": [
+        { "es": "Esta medicina es para la tos.", "bs": "Ovaj lijek je za kašalj." },
+        { "es": "Para mañana, tenéis que leer el capítulo tres.", "bs": "Do sutra, morate pročitati treće poglavlje." },
+        { "es": "Salimos para Cancún el próximo martes.", "bs": "Polazimo za Cancún sljedeći utorak." }
+      ],
+      "tips": "Trik: POR = razlog ZA ŠTO si nešto uradio (pogled unazad). PARA = svrha ZAŠTO nešto radiš (pogled naprijed, prema cilju). 'Trabajé por dinero' (radio/la sam zbog novca — uzrok). 'Trabajo para ganar dinero' (radim da zaradim novac — svrha)."
+    }
+  ],
+  "dialogue": {
+    "title": "En la agencia de publicidad — U agenciji za oglašavanje",
+    "lines": [
+      { "speaker": "Jefa", "es": "Este anuncio es para el cliente nuevo. ¿Para cuándo lo tienes listo?", "bs": "Ovaj oglas je za novog klijenta. Do kada ga imaš spreman?" },
+      { "speaker": "Tomás", "es": "Para el viernes, sin problema. Lo estoy haciendo para que sea llamativo y moderno.", "bs": "Do petka, bez problema. Radim ga da bude upadljiv i moderan." },
+      { "speaker": "Jefa", "es": "Perfecto. Por cierto, ¿tienes el presupuesto final?", "bs": "Odlično. Usput, imaš li konačni budžet?" },
+      { "speaker": "Tomás", "es": "Por suerte, conseguimos reducirlo. Lo cambié por una versión más económica.", "bs": "Na sreću, uspjeli smo ga smanjiti. Zamijenio/la sam ga za ekonomičniju verziju." },
+      { "speaker": "Jefa", "es": "Gracias por el esfuerzo. Este proyecto es muy importante para la empresa.", "bs": "Hvala za trud. Ovaj projekt je jako važan za kompaniju." },
+      { "speaker": "Tomás", "es": "Para mí también. Por eso trabajo con tanta dedicación.", "bs": "Za mene također. Zbog toga radim s toliko predanosti." }
+    ]
+  },
+  "reading": {
+    "title": "Una carta de agradecimiento — Pismo zahvalnosti",
+    "text_es": "Querida profesora García: Le escribo para agradecerle todo lo que hizo por nosotros durante este año. Gracias por su paciencia y por explicar las cosas de forma tan clara. Aprendimos español para comunicarnos mejor, pero también aprendimos a respetar otras culturas. Trabajamos mucho para conseguir buenos resultados, y usted estuvo ahí para apoyarnos. Por suerte, tuvimos una profesora tan dedicada. Para nosotros, usted es un ejemplo a seguir. Este año ha sido especial, y es en parte gracias a usted. Con todo mi cariño, los estudiantes del grupo B.",
+    "glossary": [
+      { "es": "agradecerle", "bs": "zahvaliti vam" },
+      { "es": "la paciencia", "bs": "strpljenje" },
+      { "es": "apoyar", "bs": "podržati / podrška" },
+      { "es": "un ejemplo a seguir", "bs": "uzor / primjer za slijediti" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto je pismo napisano?",
+        "options": ["Da pita za ocjenu", "Da zahvali profesorici", "Da se žali"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što su učenici naučili osim španskog?",
+        "options": ["Matematiku", "Poštivanje drugih kultura", "Kako pisati pisma"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako opisuju profesoricu?",
+        "options": ["Stroga i zahtjevna", "Uzor i predana", "Dosadna"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Izaberi tačno: 'Este regalo es ___ ti.' (primatelj)",
+      "options": ["por", "para", "por a", "para a"],
+      "answerIndex": 1,
+      "explanation_bs": "PARA = primatelj. 'Este regalo es para ti.' = Ovaj poklon je za tebe."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Gracias ___ toda tu ayuda durante este proyecto.",
+      "answer": "por",
+      "acceptedAnswers": ["por"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Necesito terminar esto ___ el martes.",
+      "answer": "para",
+      "acceptedAnswers": ["para"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Pasamos ___ tu casa pero no estabas.",
+      "answer": "por",
+      "acceptedAnswers": ["por"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Učim španski da bih se mogao/la sporazumjeti s lokalnim stanovništvom.",
+      "answer": "Estudio español para poder comunicarme con los locales.",
+      "acceptedAnswers": ["Estudio español para poder comunicarme con los locales.", "Aprendo español para comunicarme con los locales."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Po mom mišljenju, ova knjiga je bolja od filma.",
+      "answer": "Para mí, este libro es mejor que la película.",
+      "acceptedAnswers": ["Para mí, este libro es mejor que la película.", "Para mí, el libro es mejor que la película."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji primjer s upotrebom POR ili PARA",
+      "pairs": [
+        { "es": "Salgo para Roma mañana.", "bs": "PARA — destinacija" },
+        { "es": "Lo hice por amor.", "bs": "POR — uzrok/razlog" },
+        { "es": "Estudia para aprobar.", "bs": "PARA — svrha/cilj" },
+        { "es": "Trabajé por tres horas.", "bs": "POR — trajanje" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Te llamo para decirte que la reunión es para el jueves, no para el viernes. Por favor, avísale a los demás.",
+      "answer": "Te llamo para decirte que la reunión es para el jueves, no para el viernes. Por favor, avísale a los demás."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Objasni zašto učiš španski — koristi i POR i PARA u odgovoru.",
+      "modelAnswer_es": "Estudio español por varias razones. Primero, para poder comunicarme cuando viaje a países hispanohablantes. También por el amor a la cultura española y latinoamericana. Además, para mí el español es un idioma muy bonito. Por suerte, tengo buenas herramientas para practicarlo cada día."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o planovima i razlozima — vježbaš POR i PARA u kontekstu.",
+    "level": "B1",
+    "allowedGrammar": ["por (uzrok/razmjena/trajanje/prostor)", "para (svrha/primatelj/rok/mišljenje)", "para que + subjunktivo", "por fin/por suerte/por eso"],
+    "systemPromptHint": "Pitaj studenta o planovima, ciljevima i razlozima: Por qué aprendes español? Para qué lo usarías? Šta bi dao/la za nešto? Ispravi greške u upotrebi POR vs PARA."
+  },
+  "illustration": {
+    "prompt": "Two paths diverging, one labeled purpose/goal (para) and one labeled reason/cause (por), signpost illustration",
+    "alt": "POR vs PARA — razlike u upotrebi",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["por-uzrok-razmjena-trajanje", "para-svrha-primatelj-rok", "para-que-subjunktivo", "b1", "u15"]
+  }
+}

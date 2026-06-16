@@ -1,0 +1,108 @@
+{
+  "id": "test-a2-u12",
+  "level": "A2",
+  "unit": 12,
+  "title": "Test — Jedinica 12: Imperativ",
+  "cumulative": true,
+  "timeLimitMinutes": 18,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan afirmativni imperativ TÚ od COMER?",
+      "options": ["comas", "come", "comed", "coma"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u12-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan nepravilni imperativ TÚ od HACER?",
+      "options": ["hace", "haces", "haga", "haz"],
+      "answerIndex": 3,
+      "points": 1,
+      "lessonId": "a2-u12-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (no/hablar/TÚ) tan alto — hay gente durmiendo.",
+      "answer": "No hables",
+      "acceptedAnswers": ["No hables"],
+      "points": 2,
+      "lessonId": "a2-u12-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan negativni imperativ TÚ od IR?",
+      "options": ["no ve", "no ibas", "no vayas", "no irás"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u12-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El libro está aquí — ___ (dar + me + lo).",
+      "answer": "Dámelo",
+      "acceptedAnswers": ["Dámelo"],
+      "points": 2,
+      "lessonId": "a2-u12-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nemoj mu to govoriti — to je tajna.",
+      "answer": "No se lo digas — es un secreto.",
+      "acceptedAnswers": ["No se lo digas — es un secreto.", "No se lo digas a él — es un secreto."],
+      "points": 3,
+      "lessonId": "a2-u12-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (seguir/USTED) recto y ___ (girar/USTED) a la derecha.",
+      "answer": "Siga / gire",
+      "acceptedAnswers": ["Siga / gire"],
+      "points": 2,
+      "lessonId": "a2-u12-l4"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan imperativ USTED od VENIR?",
+      "options": ["ven", "viene", "venga", "venid"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u12-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Uđite, sjednite i ispunite ovaj formular.",
+      "answer": "Pase, tome asiento y rellene este formulario.",
+      "acceptedAnswers": ["Pase, tome asiento y rellene este formulario.", "Pase, siéntese y rellene este formulario."],
+      "points": 3,
+      "lessonId": "a2-u12-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Ven aquí, haz los deberes y no salgas hasta que termines.",
+      "answer": "Ven aquí, haz los deberes y no salgas hasta que termines.",
+      "points": 3,
+      "lessonId": "a2-u12-l1"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica savjeta prijatelju koji se sprema na intervju za posao. Koristi afirmativni i negativni imperativ TÚ, barem 2 nepravilna imperativa i barem 1 imperativ s objektnom zamjenicom.",
+      "minWords": 40,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: afirmativni imperativ tú ispravno (2), negativni imperativ tú ispravno (2), nepravilni oblici (2), imperativ s zamjenicom (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u12-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u12-l1", "topic": "Afirmativni imperativ tú/vosotros; 8 nepravilnih: ven/haz/pon/di/ten/ve/sal/sé" },
+    { "lessonId": "a2-u12-l2", "topic": "Negativni imperativ: no + subjunktiv; no hables/no hagas/no vayas" },
+    { "lessonId": "a2-u12-l3", "topic": "Imperativ + zamjenice: dámelo/díselo (afirm. iza); no me lo digas (neg. ispred)" },
+    { "lessonId": "a2-u12-l4", "topic": "Imperativ usted/ustedes: hable/coma/venga/siga; formalni konteksti" }
+  ]
+}

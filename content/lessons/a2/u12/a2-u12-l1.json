@@ -1,0 +1,185 @@
+{
+  "id": "a2-u12-l1",
+  "level": "A2",
+  "unit": 12,
+  "lessonNumber": 1,
+  "title": "Imperativ afirmativni — tú i vosotros",
+  "subtitle": "Habla, come, escucha — naredbe i savjeti",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Tvoriti afirmativni imperativ za TÚ i VOSOTROS",
+    "Koristiti imperativ za naredbe, savjete i upute",
+    "Prepoznati nepravilne oblike imperativa (ven, haz, pon, di, sé, ten, ve, sal)"
+  ],
+  "prerequisites": ["a2-u11-l4"],
+  "vocabulary": [
+    { "es": "escucha / escuchad", "bs": "slušaj / slušajte", "pos": "imperat.", "ipa": "es.ˈku.tʃa", "example_es": "Escucha bien la pregunta.", "example_bs": "Dobro slušaj pitanje." },
+    { "es": "habla / hablad", "bs": "govori / govorite", "pos": "imperat.", "ipa": "ˈa.βla", "example_es": "Habla más despacio, por favor.", "example_bs": "Govori sporije, molim te." },
+    { "es": "come / comed", "bs": "jedi / jedite", "pos": "imperat.", "ipa": "ˈko.me", "example_es": "Come más verduras.", "example_bs": "Jedi više povrća." },
+    { "es": "ven / venid", "bs": "dođi / dođite", "pos": "imperat. neprav.", "ipa": "ˈben", "example_es": "Ven aquí, por favor.", "example_bs": "Dođi ovamo, molim te." },
+    { "es": "haz / haced", "bs": "uradi / uradite", "pos": "imperat. neprav.", "ipa": "ˈaθ", "example_es": "Haz los deberes antes de cenar.", "example_bs": "Uradi domaći zadatak prije večere." },
+    { "es": "pon / poned", "bs": "stavi / stavite", "pos": "imperat. neprav.", "ipa": "ˈpon", "example_es": "Pon la mesa, por favor.", "example_bs": "Postavi sto, molim te." },
+    { "es": "di / decid", "bs": "reci / recite", "pos": "imperat. neprav.", "ipa": "ˈdi", "example_es": "Dime la verdad.", "example_bs": "Reci mi istinu." },
+    { "es": "ten / tened", "bs": "imaj / imajte", "pos": "imperat. neprav.", "ipa": "ˈten", "example_es": "Ten paciencia.", "example_bs": "Imaj strpljenja." },
+    { "es": "ve / id", "bs": "idi / idite", "pos": "imperat. neprav.", "ipa": "ˈβe", "example_es": "Ve a la tienda y compra pan.", "example_bs": "Idi u prodavnicu i kupi kruh." },
+    { "es": "sal / salid", "bs": "izađi / izađite", "pos": "imperat. neprav.", "ipa": "ˈsal", "example_es": "Sal de aquí ahora mismo.", "example_bs": "Izađi odavde odmah." }
+  ],
+  "grammar": [
+    {
+      "concept": "Afirmativni imperativ — TÚ i VOSOTROS",
+      "explanation_bs": "Afirmativni imperativ za TÚ: = 3. lice jednine prezenta za pravilne glagole (-AR → habla, -ER → come, -IR → vive). Za VOSOTROS: mijenjamo -r infinitiva u -d: hablar → hablad, comer → comed, vivir → vivid. Imperativ NEMA subjekta — direktno je glagol!",
+      "table": {
+        "headers": ["Infinitiv", "TÚ (afirm.)", "VOSOTROS (afirm.)", "Primjer (tú)"],
+        "rows": [
+          ["hablar", "habla", "hablad", "Habla más despacio."],
+          ["comer", "come", "comed", "Come la sopa."],
+          ["vivir", "vive", "vivid", "Vive el momento."],
+          ["escuchar", "escucha", "escuchad", "Escucha bien."],
+          ["abrir", "abre", "abrid", "Abre la ventana."]
+        ]
+      },
+      "examples": [
+        { "es": "Habla con tu jefe directamente.", "bs": "Razgovaraj direktno sa šefom." },
+        { "es": "Come más fruta y verdura.", "bs": "Jedi više voća i povrća." },
+        { "es": "Escuchad bien las instrucciones.", "bs": "Dobro slušajte upute." }
+      ],
+      "tips": "TÚ imperativ = 3. lice prezenta (sama forma, ne subjekt). VOSOTROS imperativ = infinitiv - r + d. Zapamti: hablar → hablad (ne hablan!)."
+    },
+    {
+      "concept": "Nepravilni imperativ — 8 glagola za TÚ",
+      "explanation_bs": "8 glagola ima nepravilan imperativ za TÚ. Uči napamet kao listu: **VEN** (venir), **HAZ** (hacer), **PON** (poner), **DI** (decir), **TEN** (tener), **VE** (ir), **SAL** (salir), **SÉ** (ser). Korisna mnemotehnika: **'Ven Haz Pon Di Ten Ve Sal Sé'** — VHPDTVSaS. Vosotros oblici su pravilni za sve: venid, haced, poned, decid...",
+      "table": {
+        "headers": ["Infinitiv", "TÚ nepravilni", "VOSOTROS (pravilni)", "Bosanski"],
+        "rows": [
+          ["venir", "ven", "venid", "dođi / dođite"],
+          ["hacer", "haz", "haced", "uradi / uradite"],
+          ["poner", "pon", "poned", "stavi / stavite"],
+          ["decir", "di", "decid", "reci / recite"],
+          ["tener", "ten", "tened", "imaj / imajte"],
+          ["ir", "ve", "id", "idi / idite"],
+          ["salir", "sal", "salid", "izađi / izađite"],
+          ["ser", "sé", "sed", "budi / budite"]
+        ]
+      },
+      "examples": [
+        { "es": "Ven aquí y dime qué pasó.", "bs": "Dođi ovamo i reci mi šta se desilo." },
+        { "es": "Haz los deberes antes de salir.", "bs": "Uradi domaći zadatak prije izlaska." },
+        { "es": "Sé amable con todos.", "bs": "Budi ljubazan/na prema svima." }
+      ],
+      "tips": "8 nepravilnih = kratki jednosložni oblici. Korisna rečenica za pamćenje: 'Ven, haz el favor de poner eso; di la verdad, ten valor, ve, sal y sé bueno.' Vosotros: uvijek pravilni (samo infinitiv - r + d)."
+    }
+  ],
+  "dialogue": {
+    "title": "En la cocina — U kuhinji",
+    "lines": [
+      { "speaker": "Mamá", "es": "¡Pedro! Ven a la cocina, por favor.", "bs": "Pedre! Dođi u kuhinju, molim te." },
+      { "speaker": "Pedro", "es": "¡Ya voy! ¿Qué quieres?", "bs": "Idem! Što trebaš?" },
+      { "speaker": "Mamá", "es": "Pon la mesa. Son las dos y ya está la comida.", "bs": "Postavi sto. Dva su sata i ručak je gotov." },
+      { "speaker": "Pedro", "es": "Vale. ¿Y qué hago con las verduras?", "bs": "U redu. I šta da radim s povrćem?" },
+      { "speaker": "Mamá", "es": "Lava las verduras y ponlas en el bol grande.", "bs": "Operi povrće i stavi ga u veliku zdjelu." },
+      { "speaker": "Pedro", "es": "¿Dónde está el bol?", "bs": "Gdje je zdjela?" },
+      { "speaker": "Mamá", "es": "Mira en el armario de abajo. Y di a tu hermana que baje.", "bs": "Pogledaj u ormarić dolje. I reci sestri da siđe." },
+      { "speaker": "Pedro", "es": "¡Elena! ¡Baja a comer!", "bs": "Elena! Siđi jesti!" }
+    ]
+  },
+  "reading": {
+    "title": "Consejos para aprender español más rápido — Savjeti za brže učenje španskog",
+    "text_es": "¿Quieres mejorar tu español? Sigue estos consejos: Primero, escucha español todos los días — pon una canción o un pódcast en español mientras haces otras cosas. Habla con hablantes nativos siempre que puedas, y no tengas miedo a equivocarte. Lee en voz alta cuando estudies — así mejoras la pronunciación. Mira series en español con subtítulos en español, no en tu idioma. Escribe un diario en español cada día — aunque sean cinco frases. Sé constante: estudia un poco cada día en lugar de muchas horas una vez por semana. Ten paciencia — el español es un proceso largo pero merece la pena.",
+    "glossary": [
+      { "es": "mejorar", "bs": "poboljšati / napredovati" },
+      { "es": "hablantes nativos", "bs": "izvorni govornici" },
+      { "es": "equivocarse", "bs": "pogriješiti / zeznuti se" },
+      { "es": "en voz alta", "bs": "naglas" },
+      { "es": "constante", "bs": "dosljedan/a / uporan/a" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta se preporučuje slušati na španskom?",
+        "options": ["Samo vijesti", "Pjesme ili podcast", "Samo filmove"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako bi trebalo gledati serije?",
+        "options": ["Bez titlova", "S titlovima na španskom", "S titlovima na materinjem jeziku"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta se savjetuje o ritmu učenja?",
+        "options": ["Mnogo odjednom, jednom sedmično", "Malo svaki dan", "Samo vikendima"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan afirmativni imperativ za TÚ od glagola HABLAR?",
+      "options": ["hablas", "hable", "habla", "hablad"],
+      "answerIndex": 2,
+      "explanation_bs": "TÚ imperativ -AR glagola = 3. lice prezenta: habla. (hablad = vosotros)"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan nepravilan imperativ TÚ od HACER?",
+      "options": ["hace", "haz", "haces", "hacé"],
+      "answerIndex": 1,
+      "explanation_bs": "HACER → HAZ (nepravilan). 8 nepravilnih: ven/haz/pon/di/ten/ve/sal/sé."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (ven/TÚ) aquí y ___ (di/TÚ) me la verdad.",
+      "answer": "Ven / dime",
+      "acceptedAnswers": ["Ven / dime", "Ven / di"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (comer/VOSOTROS) más despacio.",
+      "answer": "Comed",
+      "acceptedAnswers": ["Comed"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Uradi domaći zadatak i potom dođi u kuhinju.",
+      "answer": "Haz los deberes y luego ven a la cocina.",
+      "acceptedAnswers": ["Haz los deberes y luego ven a la cocina.", "Haz los deberes y después ven a la cocina."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol s nepravilnim imperativom TÚ",
+      "pairs": [
+        { "es": "venir", "bs": "ven" },
+        { "es": "poner", "bs": "pon" },
+        { "es": "salir", "bs": "sal" },
+        { "es": "ser", "bs": "sé" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Ven aquí, pon la mesa y di a tu hermano que baje a cenar.",
+      "answer": "Ven aquí, pon la mesa y di a tu hermano que baje a cenar."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Daj 4 savjeta prijatelju koji želi biti zdraviji — koristi imperativ TÚ.",
+      "modelAnswer_es": "Come más frutas y verduras. Haz ejercicio al menos tres veces por semana. Bebe agua en lugar de refrescos. Sal a caminar cada día aunque sea media hora. Y ten paciencia — los resultados vienen poco a poco."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI traži savjete od tebe ili ti daje savjete — vježbaš afirmativni imperativ TÚ i VOSOTROS.",
+    "level": "A2",
+    "allowedGrammar": ["afirmativni imperativ tú/vosotros", "nepravilni imperativi: ven/haz/pon/di/ten/ve/sal/sé"],
+    "systemPromptHint": "Zamoli studenta da ti daje savjete za različite situacije: la dieta, aprender idiomas, el trabajo, el viaje. Vježbaj imperativ u kontekstu. Ispravi greške u oblicima imperativa."
+  },
+  "illustration": {
+    "prompt": "A person giving instructions in a kitchen or classroom, expressive gestures, warm Spanish home environment",
+    "alt": "Davanje uputa i naredbi — imperativ u svakodnevnom životu",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["imperativ-afirmativni", "ven-haz-pon-di-ten-ve-sal-se", "imperativ-tu-vosotros", "a2", "u12"]
+  }
+}

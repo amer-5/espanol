@@ -1,0 +1,173 @@
+{
+  "id": "a2-u12-l3",
+  "level": "A2",
+  "unit": 12,
+  "lessonNumber": 3,
+  "title": "Imperativ s enklitičkim zamjenicama",
+  "subtitle": "Dámelo, díselo, no me lo digas...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Spajati imperativ s direktnim i indirektnim objektnim zamjenicama",
+    "Koristiti enklitičke zamjenice u afirmativnom imperativu",
+    "Pravilno postaviti zamjenice u negativnom imperativu"
+  ],
+  "prerequisites": ["a2-u12-l1", "a2-u12-l2"],
+  "vocabulary": [
+    { "es": "dámelo / dámela", "bs": "daj mi ga / daj mi je", "pos": "imperat. + zamj.", "ipa": "ˈda.me.lo", "example_es": "Dámelo, por favor.", "example_bs": "Daj mi ga, molim te." },
+    { "es": "díselo", "bs": "reci mu/joj to", "pos": "imperat. + zamj.", "ipa": "ˈdi.se.lo", "example_es": "Díselo a ella.", "example_bs": "Reci joj to." },
+    { "es": "cómpratelo", "bs": "kupi si ga", "pos": "imperat. + zamj.", "ipa": "ˈkom.pra.te.lo", "example_es": "Si te gusta, cómpratelo.", "example_bs": "Ako ti se sviđa, kupi si ga." },
+    { "es": "no me lo digas", "bs": "nemoj mi to govoriti", "pos": "neg. imp. + zamj.", "ipa": "no me lo ˈdi.ɣas", "example_es": "¡No me lo digas!", "example_bs": "Nemoj mi to govoriti!" },
+    { "es": "ponlo / ponla", "bs": "stavi ga / stavi je", "pos": "imperat. + zamj.", "ipa": "ˈpon.lo", "example_es": "Ponlo aquí, por favor.", "example_bs": "Stavi ga ovdje, molim te." },
+    { "es": "léelo / léela", "bs": "pročitaj ga / pročitaj je", "pos": "imperat. + zamj.", "ipa": "ˈle.e.lo", "example_es": "Léelo antes de firmar.", "example_bs": "Pročitaj ga prije potpisivanja." },
+    { "es": "espérame", "bs": "čekaj me", "pos": "imperat. + zamj.", "ipa": "es.ˈpe.ra.me", "example_es": "¡Espérame! Ya voy.", "example_bs": "Čekaj me! Već dolazim." },
+    { "es": "cuéntame", "bs": "ispričaj mi", "pos": "imperat. + zamj.", "ipa": "ˈkwen.ta.me", "example_es": "Cuéntame qué pasó.", "example_bs": "Ispričaj mi šta se desilo." },
+    { "es": "ayúdame", "bs": "pomozi mi", "pos": "imperat. + zamj.", "ipa": "a.ˈxu.ða.me", "example_es": "Ayúdame con esto.", "example_bs": "Pomozi mi s ovim." },
+    { "es": "cállate", "bs": "šuti", "pos": "refl. imperat.", "ipa": "ˈka.ʎa.te", "example_es": "¡Cállate! Quiero escuchar.", "example_bs": "Šuti! Hoću slušati." }
+  ],
+  "grammar": [
+    {
+      "concept": "Zamjenice uz afirmativni imperativ — enklitike",
+      "explanation_bs": "U **afirmativnom** imperativu, objektne zamjenice se DODAJU NA KRAJ glagola (enklitike): 'Da + me + lo → Dámelo' (Daj mi ga). Redoslijed: glagol + IO (mi/te/le) + DO (lo/la/los/las). Ako su IO i DO prisutni: le/les → se ispred lo/la: 'Díselo' (di + le → se + lo). Naglasak se može pomjeriti — koristimo tilde gdje treba.",
+      "table": {
+        "headers": ["Glagol", "+ zamjenica", "Oblik", "Bosanski"],
+        "rows": [
+          ["dar", "me + lo", "Dámelo", "Daj mi ga"],
+          ["decir", "le + lo", "Díselo", "Reci mu/joj to"],
+          ["poner", "lo", "Ponlo", "Stavi ga"],
+          ["comprar", "te + lo", "Cómpratelo", "Kupi si ga"],
+          ["esperar", "me", "Espérame", "Čekaj me"],
+          ["contar", "me", "Cuéntame", "Ispričaj mi"]
+        ]
+      },
+      "examples": [
+        { "es": "Dámelo, por favor — lo necesito.", "bs": "Daj mi ga, molim — treba mi." },
+        { "es": "Si sabes la respuesta, dísela al profesor.", "bs": "Ako znaš odgovor, reci ga profesoru." },
+        { "es": "Tienes el libro que me prestaste — devuélvemelo.", "bs": "Imaš knjigu koju si mi posudio — vrati mi je." }
+      ],
+      "tips": "Afirmativni: zamjenice iza glagola (spojene). Negativni: zamjenice ispred glagola (odvojene): 'No me lo digas' vs 'Dímelo'. Le/les → se ispred lo/la: 'Díselo' (ne 'Dílelo')."
+    },
+    {
+      "concept": "Zamjenice uz negativni imperativ",
+      "explanation_bs": "U **negativnom** imperativu, zamjenice ostaju ISPRED glagola, odvojene: 'No me lo digas' (ne 'No dímelo'). Redoslijed: NO + IO (me/te/se) + DO (lo/la/los/las) + glagol. Isti redoslijed kao uz sve ostale glagolske oblike u španskom!",
+      "examples": [
+        { "es": "No me lo cuentes — quiero descubrirlo yo.", "bs": "Nemoj mi to govoriti — hoću sam/a otkriti." },
+        { "es": "No se lo digas a nadie — es un secreto.", "bs": "Nemoj nikome reći — to je tajna." },
+        { "es": "No lo pongas allí — ponlo aquí.", "bs": "Nemoj ga stavljati tamo — stavi ga ovdje." }
+      ],
+      "tips": "Zapamti pravilo: AFIRM. = zamjenica IZA glagola (dímelo). NEG. = zamjenica ISPRED glagola (no me lo digas). Ista zamjenica, drugačiji položaj!"
+    }
+  ],
+  "dialogue": {
+    "title": "Buscando un regalo — Traženje poklona",
+    "lines": [
+      { "speaker": "Carla", "es": "Mira este bolso. ¿Te gusta?", "bs": "Pogledaj ovu torbicu. Sviđa li ti se?" },
+      { "speaker": "Sergio", "es": "Es bonito. ¿Para quién es?", "bs": "Lijepa je. Za koga je?" },
+      { "speaker": "Carla", "es": "Es para el cumpleaños de mamá. ¿Cómpratelo si te gusta?", "bs": "Za mamin rođendan. Kupi si je ako ti se sviđa." },
+      { "speaker": "Sergio", "es": "A mí me gusta más el azul. Enséñame ese.", "bs": "Meni se više sviđa plavi. Pokaži mi onaj." },
+      { "speaker": "Carla", "es": "Este vale ochenta euros.", "bs": "Ovaj vrijedi osamdeset eura." },
+      { "speaker": "Sergio", "es": "Es caro. No me lo compres — prefiero el primero.", "bs": "Skupo je. Nemoj mi ga kupiti — preferiram prvi." },
+      { "speaker": "Carla", "es": "Espera — hay uno en oferta. Míralo.", "bs": "Čekaj — ima jedan na akciji. Pogledaj ga." },
+      { "speaker": "Sergio", "es": "¡Perfecto! Cómpraselo a mamá. Le va a encantar.", "bs": "Savršeno! Kupi je mami. Oduševit će se." }
+    ]
+  },
+  "reading": {
+    "title": "Instrucciones para hacer arroz con leche — Upute za rižu s mlijekom",
+    "text_es": "¿Quieres hacer un postre español fácil? Sigue estas instrucciones. Necesitas arroz, leche, azúcar, canela y limón. Primero, pon el arroz en agua caliente durante diez minutos. Caliéntala bien. Después, sácalo y ponlo en una olla con la leche. Añádele azúcar al gusto y una corteza de limón. Cocínalo a fuego lento durante veinte minutos, removiéndolo de vez en cuando. Cuando tenga la consistencia cremosa que quieres, apaga el fuego. Sírvelo en boles individuales y espolvoréalo con canela. Ponlo en la nevera durante dos horas antes de servirlo. ¡Buen provecho!",
+    "glossary": [
+      { "es": "la canela", "bs": "cimet" },
+      { "es": "la corteza de limón", "bs": "kora limuna" },
+      { "es": "a fuego lento", "bs": "na laganoj vatri" },
+      { "es": "removiendo", "bs": "mješajući" },
+      { "es": "espolvorear", "bs": "posuti / posipati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko dugo se riža kuha s mlijekom?",
+        "options": ["10 minuta", "20 minuta", "30 minuta"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "S čim se posipa na kraju?",
+        "options": ["Šećerom", "Cimetom", "Šlagom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje se stavlja prije posluživanja?",
+        "options": ["U zamrzivač", "U hladnjak", "Na sunce"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'daj mi ga' (dar + me + lo)?",
+      "options": ["Da me lo", "Dámelo", "Dalo me", "Me lo da"],
+      "answerIndex": 1,
+      "explanation_bs": "Afirmativni imperativ + zamjenice: glagol + IO + DO = Dá + me + lo = Dámelo (s akcentom!)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si sabes la respuesta, ___ (decir + se + la) al profesor.",
+      "answer": "dísela",
+      "acceptedAnswers": ["dísela"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (esperar + me) un momento, por favor.",
+      "answer": "Espérame",
+      "acceptedAnswers": ["Espérame"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nemoj mi to govoriti — ne želim znati.",
+      "answer": "No me lo digas — no quiero saberlo.",
+      "acceptedAnswers": ["No me lo digas — no quiero saberlo.", "No me lo cuentes — no quiero saber."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ispričaj mi šta se desilo sinoć.",
+      "answer": "Cuéntame qué pasó anoche.",
+      "acceptedAnswers": ["Cuéntame qué pasó anoche.", "Cuéntame lo que pasó anoche."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji afirmativni i negativni oblik s zamjenicom",
+      "pairs": [
+        { "es": "Dámelo", "bs": "No me lo des" },
+        { "es": "Díselo", "bs": "No se lo digas" },
+        { "es": "Ponlo", "bs": "No lo pongas" },
+        { "es": "Cómpratelo", "bs": "No te lo compres" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Espérame aquí y no se lo digas a nadie — es una sorpresa.",
+      "answer": "Espérame aquí y no se lo digas a nadie — es una sorpresa."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Zamisli da kolegica pita gdje da stavi stvari u uredu — daj joj 3 upute koristeći imperativ s direktnim zamjenicama (lo/la/los/las).",
+      "modelAnswer_es": "Ponlo en la mesa de la izquierda. Déjala en la silla, por favor. Los documentos — mételos en la carpeta azul. Y ese archivo ponlo en el cajón de arriba."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI ti daje zadatke ili naređenja — vježbaš imperativ s enklitičkim zamjenicama.",
+    "level": "A2",
+    "allowedGrammar": ["imperativ + direktne zamjenice (lo/la/los/las)", "imperativ + indirektne (me/te/le/se)", "neg. imperativ + zamjenice ispred"],
+    "systemPromptHint": "Daj studentu različite situacijske zadatke: u kuhinji, u uredu, u kupovini. Koristi imperativ s objektnim zamjenicama i tražiod studenta da odgovori slično. Ispravi greške u položaju zamjenica (iza u afirm., ispred u neg.)."
+  },
+  "illustration": {
+    "prompt": "Two people exchanging an object, one giving instructions, Spanish home or shop setting, clear and friendly interaction",
+    "alt": "Davanje predmeta s uputama — imperativ sa zamjenicama",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["imperativ-zamjenice", "damelo-diselo", "no-me-lo-digas", "a2", "u12"]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "a2-u12-l2",
+  "level": "A2",
+  "unit": 12,
+  "lessonNumber": 2,
+  "title": "Imperativ negativni — no hagas, no vayas",
+  "subtitle": "No hables, no comas, no vengas... — zabrane",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Tvoriti negativni imperativ za TÚ i VOSOTROS",
+    "Razumjeti razliku između afirmativnog i negativnog imperativa",
+    "Koristiti negativni imperativ za zabrane i upozorenja"
+  ],
+  "prerequisites": ["a2-u12-l1"],
+  "vocabulary": [
+    { "es": "no hagas", "bs": "nemoj raditi", "pos": "neg. imperat.", "ipa": "no ˈa.ɣas", "example_es": "No hagas ruido.", "example_bs": "Nemoj praviti buku." },
+    { "es": "no vayas", "bs": "nemoj ići", "pos": "neg. imperat.", "ipa": "no ˈβa.jas", "example_es": "No vayas allí solo.", "example_bs": "Nemoj ići tamo sam/a." },
+    { "es": "no hables", "bs": "nemoj govoriti", "pos": "neg. imperat.", "ipa": "no ˈa.βles", "example_es": "No hables con la boca llena.", "example_bs": "Nemoj govoriti s punim ustima." },
+    { "es": "no comas", "bs": "nemoj jesti", "pos": "neg. imperat.", "ipa": "no ˈko.mas", "example_es": "No comas tan rápido.", "example_bs": "Nemoj jesti tako brzo." },
+    { "es": "no vengas", "bs": "nemoj dolaziti", "pos": "neg. imperat.", "ipa": "no ˈβeŋ.gas", "example_es": "No vengas sin llamar.", "example_bs": "Nemoj dolaziti bez javljanja." },
+    { "es": "no seas", "bs": "nemoj biti", "pos": "neg. imperat.", "ipa": "no ˈse.as", "example_es": "No seas tan serio.", "example_bs": "Nemoj biti tako ozbiljan/a." },
+    { "es": "no digas", "bs": "nemoj reći", "pos": "neg. imperat.", "ipa": "no ˈdi.ɣas", "example_es": "No digas mentiras.", "example_bs": "Nemoj lagati." },
+    { "es": "no pongas", "bs": "nemoj staviti", "pos": "neg. imperat.", "ipa": "no ˈpoŋ.gas", "example_es": "No pongas el codo en la mesa.", "example_bs": "Nemoj stavljati lakat na sto." },
+    { "es": "no tengas miedo", "bs": "nemoj se bojati", "pos": "izr.", "ipa": "no ˈteŋ.gas ˈmje.ðo", "example_es": "No tengas miedo de equivocarte.", "example_bs": "Nemoj se bojati pogriješiti." },
+    { "es": "cuidado con", "bs": "pazi na / pazi s", "pos": "izr.", "ipa": "kwi.ˈða.ðo kon", "example_es": "Cuidado con el escalón.", "example_bs": "Pazi na stepenicu." }
+  ],
+  "grammar": [
+    {
+      "concept": "Negativni imperativ — tvorba",
+      "explanation_bs": "Negativni imperativ (NO + subjunktiv prezenta) je DRUGAČIJI od afirmativnog! Za TÚ: **no + subjunktiv prezenta TÚ** (-AR → no habl-es, -ER/-IR → no com-as, no viv-as). Za VOSOTROS: **no + subjunktiv prezenta VOSOTROS** (-AR → no habl-éis, -ER/-IR → no com-áis). Nepravilni afirm. → i negativni su nepravilni: ven → no vengas, haz → no hagas, pon → no pongas, di → no digas.",
+      "table": {
+        "headers": ["Infinitiv", "AFIRM. tú", "NEG. tú", "AFIRM. vosotros", "NEG. vosotros"],
+        "rows": [
+          ["hablar", "habla", "no hables", "hablad", "no habléis"],
+          ["comer", "come", "no comas", "comed", "no comáis"],
+          ["vivir", "vive", "no vivas", "vivid", "no viváis"],
+          ["hacer", "haz", "no hagas", "haced", "no hagáis"],
+          ["venir", "ven", "no vengas", "venid", "no vengáis"],
+          ["ir", "ve", "no vayas", "id", "no vayáis"]
+        ]
+      },
+      "examples": [
+        { "es": "No hables tan alto — la gente duerme.", "bs": "Nemoj govoriti tako glasno — ljudi spavaju." },
+        { "es": "No comas antes de nadar.", "bs": "Nemoj jesti prije plivanja." },
+        { "es": "No hagáis ruido en la biblioteca.", "bs": "Nemojte praviti buku u biblioteci." }
+      ],
+      "tips": "Negativni = NO + subjunktiv. -AR → -es/-éis u neg. -ER/-IR → -as/-áis u neg. Ovo je suprotno od pravilnog: -AR glagoli uzimaju -E u subjunktivu, -ER/-IR uzimaju -A."
+    },
+    {
+      "concept": "Afirmativni vs negativni imperativ — sažetak",
+      "explanation_bs": "Ključna razlika: Afirmativni TÚ = 3. lice prezenta (habla, come, vive). Negativni TÚ = NO + subjunktiv (no hables, no comas, no vivas). Afirmativni VOSOTROS = infinitiv - r + d (hablad, comed, vivid). Negativni VOSOTROS = no + subjunktiv vosotros (no habléis, no comáis, no viváis). 8 nepravilnih afirm. tú oblika → i negativni su nepravilni ali pravilno tvoreni subjunktivom.",
+      "examples": [
+        { "es": "Habla más. ↔ No hables más.", "bs": "Govori više. ↔ Nemoj govoriti više." },
+        { "es": "Ve al médico. ↔ No vayas allí solo.", "bs": "Idi kod doktora. ↔ Nemoj ići tamo sam/a." },
+        { "es": "Sé amable. ↔ No seas grosero.", "bs": "Budi ljubazan/na. ↔ Nemoj biti grub/a." }
+      ],
+      "tips": "Zapamti parove: habla/no hables, come/no comas, ven/no vengas, haz/no hagas, ve/no vayas, sé/no seas, di/no digas, pon/no pongas, sal/no salgas, ten/no tengas."
+    }
+  ],
+  "dialogue": {
+    "title": "Reglas de la casa — Kućna pravila",
+    "lines": [
+      { "speaker": "Madre", "es": "Jorge, antes de que te vayas, escucha las reglas de la casa.", "bs": "Jorge, prije nego odeš, slušaj kućna pravila." },
+      { "speaker": "Jorge", "es": "Mamá, ya las sé...", "bs": "Mama, već ih znam..." },
+      { "speaker": "Madre", "es": "No llegues tarde por la noche — máximo las doce.", "bs": "Nemoj kasniti navečer — najkasnije do ponoći." },
+      { "speaker": "Jorge", "es": "Vale.", "bs": "U redu." },
+      { "speaker": "Madre", "es": "No hagas ruido cuando llegues. Y no olvides las llaves.", "bs": "Nemoj praviti buku kad dođeš. I nemoj zaboraviti ključeve." },
+      { "speaker": "Jorge", "es": "De acuerdo. ¿Puedo ir ya?", "bs": "Dogovoreno. Mogu li već ići?" },
+      { "speaker": "Madre", "es": "Espera. No bebas demasiado. Y llama si tienes algún problema.", "bs": "Čekaj. Nemoj previše piti. I nazovi ako imaš kakav problem." },
+      { "speaker": "Jorge", "es": "¡Mamá! ¡Tengo 22 años! Pero sí, llamaré. No te preocupes.", "bs": "Mama! Imam 22 godine! Ali da, nazvat ću. Ne brini se." }
+    ]
+  },
+  "reading": {
+    "title": "Normas del aula — Pravila razreda",
+    "text_es": "Bienvenidos al curso de español. Aquí tenéis las normas del aula. No lleguéis tarde — la clase empieza a las diez en punto. No uséis el móvil durante la clase, a menos que sea para traducir algo. No habléis en vuestro idioma — usad siempre el español. No tengáis miedo de equivocaros — es normal y necesario. Haced las actividades con esfuerzo. No copiéis al compañero — intentad pensar primero. Participad activamente: haced preguntas, responded, comentad. Si no entendéis algo, decidme y lo explicaré de otra manera. Y sobre todo: disfrutad del proceso. Aprender una lengua es un viaje, no una carrera.",
+    "glossary": [
+      { "es": "el aula", "bs": "učionica" },
+      { "es": "en punto", "bs": "točno (u satima)" },
+      { "es": "con esfuerzo", "bs": "s trudom / marljivo" },
+      { "es": "copiar", "bs": "prepisivati" },
+      { "es": "disfrutad del proceso", "bs": "uživajte u procesu" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kad počinje čas?",
+        "options": ["Tačno u devet", "Tačno u deset", "Tačno u jedanaest"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kad se može koristiti mobitel?",
+        "options": ["Nikad", "Za prevod nečega", "Uvijek slobodno"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što nastavnik kaže o greškama?",
+        "options": ["Treba ih izbjegavati", "Normalne su i potrebne", "Ne smiju se raditi"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan negativni imperativ TÚ od HABLAR?",
+      "options": ["no habla", "no hables", "no hablas", "no hablad"],
+      "answerIndex": 1,
+      "explanation_bs": "Negativni imperativ TÚ -AR: NO + subjunktiv = no hables (ne no habla!)"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan negativni imperativ TÚ od HACER?",
+      "options": ["no haz", "no haces", "no hagas", "no hagad"],
+      "answerIndex": 2,
+      "explanation_bs": "HACER → negativni: NO + subjunktiv = no hagas. Afirm. haz ≠ neg. no hagas."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (no/ir/TÚ) allí solo/a — es peligroso.",
+      "answer": "No vayas",
+      "acceptedAnswers": ["No vayas"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (no/comer/VOSOTROS) en el aula.",
+      "answer": "No comáis",
+      "acceptedAnswers": ["No comáis"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nemoj reći to nikome.",
+      "answer": "No se lo digas a nadie.",
+      "acceptedAnswers": ["No se lo digas a nadie.", "No digas eso a nadie."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Pretvori afirmativni u negativni imperativ TÚ",
+      "pairs": [
+        { "es": "habla", "bs": "no hables" },
+        { "es": "come", "bs": "no comas" },
+        { "es": "ven", "bs": "no vengas" },
+        { "es": "sé", "bs": "no seas" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "No hagas ruido, no llegues tarde y no olvides llamarme cuando llegues.",
+      "answer": "No hagas ruido, no llegues tarde y no olvides llamarme cuando llegues."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3-4 pravila za studenta koji počinje učiti španski — koristi negativni imperativ TÚ.",
+      "modelAnswer_es": "No tengas miedo de hablar español. No uses el traductor para todo — intenta pensar en español. No estudies muchas horas de golpe — es mejor estudiar poco cada día. No te preocupes por los errores — son parte del aprendizaje."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o pravilima i zabranama — vježbaš negativni imperativ TÚ i VOSOTROS.",
+    "level": "A2",
+    "allowedGrammar": ["negativni imperativ tú/vosotros", "afirmativni vs negativni imperativ"],
+    "systemPromptHint": "Zamoli studenta da ti ispriča pravila neke situacije (dom, škola, posao) koristeći negativni imperativ. Ispravi greške — posebno razliku između afirm. (habla) i neg. (no hables) oblika."
+  },
+  "illustration": {
+    "prompt": "A warning sign or a parent giving instructions to a child, no-entry signs, Spanish household setting",
+    "alt": "Zabrane i upozorenja — negativni imperativ",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["negativni-imperativ", "no-hables-no-hagas-no-vayas", "imperativ-kontrast", "a2", "u12"]
+  }
+}

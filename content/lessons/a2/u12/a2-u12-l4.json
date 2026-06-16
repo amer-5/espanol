@@ -1,0 +1,184 @@
+{
+  "id": "a2-u12-l4",
+  "level": "A2",
+  "unit": 12,
+  "lessonNumber": 4,
+  "title": "Imperativ — usted i ustedes (formalni)",
+  "subtitle": "Hable, coma, venga... — formalne naredbe i upute",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Tvoriti imperativ za USTED i USTEDES",
+    "Koristiti formalni imperativ u profesionalnom i uslužnom kontekstu",
+    "Kombinovati sve oblike imperativa u koherentnim uputama"
+  ],
+  "prerequisites": ["a2-u12-l1", "a2-u12-l2", "a2-u12-l3"],
+  "vocabulary": [
+    { "es": "hable / hablen", "bs": "govorite (form.) / govorite (pl.)", "pos": "imperat. usted/ustedes", "ipa": "ˈa.βle", "example_es": "Hable más despacio, por favor.", "example_bs": "Govorite sporije, molim vas." },
+    { "es": "siga / sigan", "bs": "nastavite / idu naprijed", "pos": "imperat. usted/ustedes", "ipa": "ˈsi.ɣa", "example_es": "Siga recto hasta el semáforo.", "example_bs": "Nastavite ravno do semafora." },
+    { "es": "gire / giren", "bs": "skrenite / skrenite", "pos": "imperat. usted/ustedes", "ipa": "ˈxi.re", "example_es": "Gire a la derecha.", "example_bs": "Skrenite desno." },
+    { "es": "pase / pasen", "bs": "uđite / uđite", "pos": "imperat. usted/ustedes", "ipa": "ˈpa.se", "example_es": "Pase, por favor.", "example_bs": "Izvolite ući." },
+    { "es": "tome asiento", "bs": "sjednite", "pos": "imperat. izr.", "ipa": "ˈto.me a.ˈsjen.to", "example_es": "Tome asiento, por favor.", "example_bs": "Sjednite, molim vas." },
+    { "es": "rellene / firme", "bs": "ispunite / potpišite", "pos": "imperat. usted", "ipa": "re.ˈʎe.ne", "example_es": "Rellene este formulario.", "example_bs": "Ispunite ovaj formular." },
+    { "es": "espere / esperen", "bs": "pričekajte / pričekajte", "pos": "imperat. usted/ustedes", "ipa": "es.ˈpe.re", "example_es": "Espere un momento, por favor.", "example_bs": "Pričekajte trenutak, molim vas." },
+    { "es": "no se preocupe", "bs": "ne brinite se", "pos": "neg. imperat. usted", "ipa": "no se pre.o.ˈku.pe", "example_es": "No se preocupe — lo arreglaré.", "example_bs": "Ne brinite se — popravit ću to." },
+    { "es": "tenga", "bs": "izvolite / evo vam", "pos": "imperat. usted", "ipa": "ˈteŋ.ga", "example_es": "Tenga, su cambio.", "example_bs": "Izvolite, vaš kusur." },
+    { "es": "venga / vengan", "bs": "dođite / dođite", "pos": "imperat. usted/ustedes", "ipa": "ˈβeŋ.ga", "example_es": "Venga por aquí, por favor.", "example_bs": "Dođite ovuda, molim vas." }
+  ],
+  "grammar": [
+    {
+      "concept": "Imperativ za USTED i USTEDES",
+      "explanation_bs": "Imperativ za USTED i USTEDES = subjunktiv prezenta: -AR → -e/-en, -ER/-IR → -a/-an. Npr: hablar → hable/hablen, comer → coma/coman, vivir → viva/vivan. Nepravilni (isti subjunktiv): hacer → haga/hagan, venir → venga/vengan, ir → vaya/vayan, saber → sepa/sepan, poner → ponga/pongan. Negativni: NO + isti oblici: 'No hable tan rápido', 'No se preocupe'.",
+      "table": {
+        "headers": ["Infinitiv", "USTED", "USTEDES", "Bosanski"],
+        "rows": [
+          ["hablar", "hable", "hablen", "govorite"],
+          ["comer", "coma", "coman", "jedite"],
+          ["vivir", "viva", "vivan", "živite"],
+          ["hacer", "haga", "hagan", "uradite"],
+          ["venir", "venga", "vengan", "dođite"],
+          ["ir", "vaya", "vayan", "idite"],
+          ["seguir", "siga", "sigan", "nastavite"],
+          ["girar", "gire", "giren", "skrenite"]
+        ]
+      },
+      "examples": [
+        { "es": "Pase y tome asiento, por favor.", "bs": "Uđite i sjednite, molim vas." },
+        { "es": "Siga recto y gire a la izquierda en el semáforo.", "bs": "Nastavite ravno i skrenite lijevo na semaforu." },
+        { "es": "No se preocupe — lo resolveremos.", "bs": "Ne brinite se — riješit ćemo to." }
+      ],
+      "tips": "USTED imperativ = subjunktiv prezenta 3. lice. Ovaj isti oblik se koristi za formalne situacije: doktor, šalter, restoran, upute na ulici. Formalni register = USTED/USTEDES."
+    },
+    {
+      "concept": "Svi oblici imperativa — sažetak",
+      "explanation_bs": "Kompletna tablica imperativa: TÚ afirm. = 3. lice prezenta (habla). TÚ neg. = no + subjunktiv (no hables). VOSOTROS afirm. = infinitiv -r +d (hablad). VOSOTROS neg. = no + subjunktiv vos. (no habléis). USTED afirm. = subjunktiv 3. jd. (hable). USTED neg. = no + subjunktiv (no hable). USTEDES afirm. = subjunktiv 3. mn. (hablen). USTEDES neg. = no + subjunktiv (no hablen). NOSOTROS = subjunktiv 1. mn. (hablemos = hajdemo govoriti).",
+      "table": {
+        "headers": ["Osoba", "Afirmativni", "Negativni"],
+        "rows": [
+          ["tú", "habla / come / ven", "no hables / no comas / no vengas"],
+          ["usted", "hable / coma / venga", "no hable / no coma / no venga"],
+          ["vosotros", "hablad / comed / venid", "no habléis / no comáis / no vengáis"],
+          ["ustedes", "hablen / coman / vengan", "no hablen / no coman / no vengan"],
+          ["nosotros", "hablemos / comamos / vengamos", "no hablemos / no comamos / no vengamos"]
+        ]
+      },
+      "examples": [
+        { "es": "¡Hablemos de otra cosa! (= Hajde pričamo o nečem drugom!)", "bs": "Hajdemo pričati o nečemu drugome!" },
+        { "es": "¡Vamos! = ¡Vámonos! (= Hajdemo!)", "bs": "Hajdemo!" }
+      ],
+      "tips": "NOSOTROS imperativ je kao 'hajde': Hablemos = Hajde pričamo. Comamos = Hajde jedemo. ¡Vámonos! = ¡Vamos! = Hajdemo! (IR je nepravilan: ¡vamos! ali ¡no vayamos!)"
+    }
+  ],
+  "dialogue": {
+    "title": "En el médico — Kod doktora",
+    "lines": [
+      { "speaker": "Médico", "es": "Buenas tardes. Pase y tome asiento.", "bs": "Dobro popodne. Uđite i sjednite." },
+      { "speaker": "Paciente", "es": "Gracias, doctor. Tengo dolor de garganta desde ayer.", "bs": "Hvala, doktore. Imam bolove u grlu od jučer." },
+      { "speaker": "Médico", "es": "Abra la boca y diga 'aah'.", "bs": "Otvorite usta i recite 'aah'." },
+      { "speaker": "Paciente", "es": "Aah.", "bs": "Aah." },
+      { "speaker": "Médico", "es": "Tiene la garganta roja. Respire hondo, por favor.", "bs": "Grlo vam je crveno. Duboko udahnite, molim." },
+      { "speaker": "Paciente", "es": "¿Es grave?", "bs": "Je li ozbiljno?" },
+      { "speaker": "Médico", "es": "No, no se preocupe. Tome estos antibióticos tres veces al día y descanse mucho.", "bs": "Ne, ne brinite se. Uzimajte ove antibiotike tri puta na dan i puno se odmarajte." },
+      { "speaker": "Paciente", "es": "¿Puedo trabajar?", "bs": "Mogu li raditi?" }
+    ]
+  },
+  "reading": {
+    "title": "Instrucciones para llegar al museo — Upute za dolazak do muzeja",
+    "text_es": "Para llegar al Museo Nacional desde la Plaza Mayor, siga estas instrucciones. Salga de la Plaza Mayor por la calle de Alcalá. Siga recto durante cinco minutos. Cuando llegue a la fuente, gire a la izquierda. Camine unos doscientos metros y verá el museo a su derecha. Si no encuentra el museo, pregunte a algún transeúnte — la gente de aquí es muy amable. Tenga en cuenta que el museo cierra los lunes. Si va en metro, tome la línea 2 y bájese en la parada 'Banco de España'. Desde allí camine unos diez minutos.",
+    "glossary": [
+      { "es": "la fuente", "bs": "fontana / česma" },
+      { "es": "el transeúnte", "bs": "prolaznik" },
+      { "es": "tenga en cuenta", "bs": "imajte na umu" },
+      { "es": "bájese", "bs": "izađite (iz metroa)" },
+      { "es": "la parada", "bs": "stajalište / stanica" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Od kuda počinju upute?",
+        "options": ["Od stanice metroa", "Od Plaza Mayor", "Od fontane"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kad je muzej zatvoren?",
+        "options": ["Nedjeljom", "Ponedjeljkom", "Subotom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koja linija metroa ide do muzeja?",
+        "options": ["Linija 1", "Linija 2", "Linija 3"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan imperativ USTED od HABLAR?",
+      "options": ["habla", "hablas", "hable", "hablad"],
+      "answerIndex": 2,
+      "explanation_bs": "USTED imperativ -AR: subjunktiv = hable. (habla = tú, hablad = vosotros)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (seguir/USTED) recto hasta la segunda calle.",
+      "answer": "Siga",
+      "acceptedAnswers": ["Siga"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No ___ (preocuparse/USTED) — le ayudaré.",
+      "answer": "se preocupe",
+      "acceptedAnswers": ["se preocupe"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Uđite i ispunite ovaj formular.",
+      "answer": "Pase y rellene este formulario.",
+      "acceptedAnswers": ["Pase y rellene este formulario.", "Pase y rellene este formulario, por favor."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Hajdemo pričati o tome sutra.",
+      "answer": "Hablemos de eso mañana.",
+      "acceptedAnswers": ["Hablemos de eso mañana.", "Hablemos de esto mañana."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji osobu s imperativom VENIR",
+      "pairs": [
+        { "es": "tú", "bs": "ven" },
+        { "es": "usted", "bs": "venga" },
+        { "es": "vosotros", "bs": "venid" },
+        { "es": "ustedes", "bs": "vengan" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Tome asiento, por favor. Rellene este formulario y espere su turno.",
+      "answer": "Tome asiento, por favor. Rellene este formulario y espere su turno."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ti si receptionist u hotelu. Daj gostu 4 upute koristeći USTED imperativ.",
+      "modelAnswer_es": "Pase y tome asiento en el vestíbulo. Rellene este formulario con sus datos. Firme aquí, por favor. Siga por este pasillo hasta el ascensor y suba al tercer piso. Su habitación es la 312."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI igra profesionalnu ulogu (doktor, recepcionist, policajac) — vježbaš USTED imperativ i kombinirane oblike.",
+    "level": "A2",
+    "allowedGrammar": ["imperativ usted/ustedes", "svi oblici imperativa", "neg. imperativ usted"],
+    "systemPromptHint": "Igraj ulogu profesionalca (doktor, recepcionist, vozač taksija koji daje upute). Koristi USTED imperativ. Zamoli studenta da odigra svoju ulogu i odgovori primjereno. Ispravi greške u USTED oblicima imperativa."
+  },
+  "illustration": {
+    "prompt": "A doctor's office or hotel reception, professional interaction, one person giving formal instructions to another, Spanish professional setting",
+    "alt": "Formalne upute — USTED imperativ u profesionalnom kontekstu",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["imperativ-usted-ustedes", "hable-coma-venga", "sažetak-imperativa", "a2", "u12"]
+  }
+}

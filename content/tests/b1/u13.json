@@ -1,0 +1,108 @@
+{
+  "id": "test-b1-u13",
+  "level": "B1",
+  "unit": 13,
+  "title": "Test — Jedinica 13: Subjunktiv prezenta",
+  "cumulative": true,
+  "timeLimitMinutes": 20,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan subjunktiv od HABLAR za 'tú'?",
+      "options": ["hablas", "hables", "habla", "hablé"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u13-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Es importante que ___ (ustedes/llegar) a tiempo.",
+      "answer": "lleguen",
+      "acceptedAnswers": ["lleguen"],
+      "points": 2,
+      "lessonId": "b1-u13-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi iza 'No creo que...'?",
+      "options": ["Indicativo", "Subjunktivo", "Futuro", "Infinitivo"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u13-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Creo que ___ (ser/ind.) la mejor solución, pero no creo que ___ (ser/subj.) fácil de implementar.",
+      "answer": "es / sea",
+      "acceptedAnswers": ["es / sea"],
+      "points": 2,
+      "lessonId": "b1-u13-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Drago mi je što si dobio/la posao.",
+      "answer": "Me alegra que hayas conseguido el trabajo.",
+      "acceptedAnswers": ["Me alegra que hayas conseguido el trabajo.", "Me alegra mucho que hayas conseguido el trabajo.", "Me alegra que hayas encontrado trabajo."],
+      "points": 3,
+      "lessonId": "b1-u13-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando ___ (tú/terminar) el trabajo, llámame. (budućnost)",
+      "answer": "termines",
+      "acceptedAnswers": ["termines"],
+      "points": 2,
+      "lessonId": "b1-u13-l4"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi iza 'En cuanto...' u budućem kontekstu?",
+      "options": ["Indicativo", "Subjunktivo", "Imperativo", "Futuro"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u13-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prije nego što odeš, reci mi šta se desilo.",
+      "answer": "Antes de que te vayas, dime qué pasó.",
+      "acceptedAnswers": ["Antes de que te vayas, dime qué pasó.", "Antes de irte, dime qué pasó."],
+      "points": 3,
+      "lessonId": "b1-u13-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Me sorprende que él no ___ (venir/subj.) a la reunión.",
+      "answer": "venga",
+      "acceptedAnswers": ["venga"],
+      "points": 2,
+      "lessonId": "b1-u13-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "No creo que sea posible terminar antes de las ocho, pero espero que alguien nos ayude.",
+      "answer": "No creo que sea posible terminar antes de las ocho, pero espero que alguien nos ayude.",
+      "points": 3,
+      "lessonId": "b1-u13-l2"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o nekoj temi koja te zanima (okolina, obrazovanje, tehnologija). Koristi barem: creo que (indicativo), no creo que (subjunktivo), un emocionalni izraz (me alegra/preocupa que) i cuando/en cuanto + subjunktivo.",
+      "minWords": 45,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: creo/no creo ispravno (3), emocionalni izraz + subj. ispravno (3), temporalni veznik + subj. ispravno (2), pravopis (2). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u13-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u13-l1", "topic": "Subjunktiv prezenta tvorba; quiero/espero/es importante que + subjunktivo; isti vs različit subjekt" },
+    { "lessonId": "b1-u13-l2", "topic": "Creo que + indicativo vs no creo que + subjunktivo; mišljenje i sumnja" },
+    { "lessonId": "b1-u13-l3", "topic": "Emocije + que + subjunktivo: me alegra/sorprende/molesta/preocupa que" },
+    { "lessonId": "b1-u13-l4", "topic": "Temporalni veznici + subjunktivo u budućnosti: cuando/en cuanto/hasta que/antes de que" }
+  ]
+}

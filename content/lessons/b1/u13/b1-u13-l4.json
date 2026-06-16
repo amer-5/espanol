@@ -1,0 +1,169 @@
+{
+  "id": "b1-u13-l4",
+  "level": "B1",
+  "unit": 13,
+  "lessonNumber": 4,
+  "title": "Subjunktiv u vremenskim rečenicama",
+  "subtitle": "Cuando llegues, llámame. Antes de que salgas...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti subjunktiv iza cuando, antes de que, hasta que, en cuanto u budućem kontekstu",
+    "Razlikovati cuando + indicativo (prošlost) od cuando + subjunktivo (budućnost)",
+    "Kombinovati temporalne veznike sa subjunktivom u svakodnevnom govoru"
+  ],
+  "prerequisites": ["b1-u13-l3"],
+  "vocabulary": [
+    { "es": "cuando + subj. (futuro)", "bs": "kad/kada (budućnost)", "pos": "vez. + subj.", "ipa": "ˈkwan.do", "example_es": "Cuando llegues, llámame.", "example_bs": "Kad stigneš, nazovi me." },
+    { "es": "antes de que + subj.", "bs": "prije nego što", "pos": "vez. + subj.", "ipa": "ˈan.tes ðe ke", "example_es": "Llámame antes de que salgas.", "example_bs": "Nazovi me prije nego što izađeš." },
+    { "es": "hasta que + subj.", "bs": "dok ne / sve dok", "pos": "vez. + subj.", "ipa": "ˈas.ta ke", "example_es": "Espera aquí hasta que llegue.", "example_bs": "Čekaj ovdje dok ne dođem." },
+    { "es": "en cuanto + subj.", "bs": "čim / odmah kad", "pos": "vez. + subj.", "ipa": "en ˈkwan.to", "example_es": "En cuanto termines, dímelo.", "example_bs": "Čim završiš, reci mi." },
+    { "es": "tan pronto como + subj.", "bs": "čim / odmah kako", "pos": "vez. + subj.", "ipa": "tan ˈpron.to ˈko.mo", "example_es": "Te escribiré tan pronto como pueda.", "example_bs": "Pisat ću ti čim budem mogao/la." },
+    { "es": "después de que + subj.", "bs": "nakon što", "pos": "vez. + subj.", "ipa": "des.ˈpwes ðe ke", "example_es": "Después de que llegue, hablaremos.", "example_bs": "Nakon što dođe, razgovarat ćemo." },
+    { "es": "mientras + subj.", "bs": "dok / za vrijeme (budućnost)", "pos": "vez. + subj.", "ipa": "ˈmjen.tras", "example_es": "Mientras estudies, no toques el móvil.", "example_bs": "Dok učiš, ne dotiči mobitel." },
+    { "es": "nada más + inf.", "bs": "čim / odmah po + glagol", "pos": "izr. + inf.", "ipa": "ˈna.ða ˈmas", "example_es": "Nada más llegar, se puso a trabajar.", "example_bs": "Čim je stigao, odmah je počeo raditi." },
+    { "es": "a menos que + subj.", "bs": "osim ako / ukoliko ne", "pos": "vez. + subj.", "ipa": "a ˈme.nos ke", "example_es": "Iré, a menos que llueva.", "example_bs": "Ići ću, osim ako ne bude kišilo." },
+    { "es": "para que + subj.", "bs": "da bi / kako bi", "pos": "vez. + subj.", "ipa": "ˈpa.ra ke", "example_es": "Te lo explico para que lo entiendas.", "example_bs": "Objašnjavam ti da bi razumio/la." }
+  ],
+  "grammar": [
+    {
+      "concept": "CUANDO: indicativo (prošlost) vs subjunktivo (budućnost)",
+      "explanation_bs": "QUANDO + **INDICATIVO** = prošlost ili navika (nešto što se već desilo ili se redovito dešava): 'Cuando era niño, jugaba...' / 'Cuando llegué, ella dormía.' CUANDO + **SUBJUNKTIVO** = buduća ili hipotetička situacija: 'Cuando llegues, llámame.' (nisi još stigao/la). Isti veznik — različit glagolski mod ovisno o vremenu!",
+      "table": {
+        "headers": ["Cuando + mod", "Kontekst", "Primjer"],
+        "rows": [
+          ["INDICATIVO", "Prošlost (svršena)", "Cuando llegué, ella dormía."],
+          ["INDICATIVO", "Navika (sadašnjost)", "Cuando tengo hambre, como fruta."],
+          ["SUBJUNKTIVO", "Budućnost (nije se desilo)", "Cuando llegues, llámame."],
+          ["SUBJUNKTIVO", "Hipotetički uslov", "Cuando seas mayor, entenderás."]
+        ]
+      },
+      "examples": [
+        { "es": "Cuando llegué ayer, todos estaban durmiendo. (indicativo — prošlost)", "bs": "Kad sam stigao jučer, svi su spavali. (indicativo)" },
+        { "es": "Cuando llegues mañana, llámame. (subjunktivo — budućnost)", "bs": "Kad stigneš sutra, nazovi me. (subjunktivo)" },
+        { "es": "Te diré la verdad cuando sea el momento. (subjunktivo)", "bs": "Reći ću ti istinu kad dođe pravo vrijeme. (subjunktivo)" }
+      ],
+      "tips": "Brza provjera: Jesam li to već doživio? → INDICATIVO. Još se nije desilo? → SUBJUNKTIVO. Vrijedi i za ostale temporalne veznike: hasta que, en cuanto, antes de que + budućnost = UVIJEK subjunktivo."
+    },
+    {
+      "concept": "Ostali temporalni veznici + subjunktivo",
+      "explanation_bs": "U budućem kontekstu, svi ovi veznici zahtijevaju SUBJUNKTIVO: **antes de que** (prije nego što), **hasta que** (dok ne), **en cuanto** (čim), **tan pronto como** (čim), **después de que** (nakon što), **mientras** (dok — u budućnosti), **para que** (da bi — uvijek subjunktivo). Zapamti: ako radnja još nije realizirana, sve vremensko → subjunktivo!",
+      "examples": [
+        { "es": "Espera hasta que llegue el médico.", "bs": "Čekaj dok ne dođe doktor." },
+        { "es": "En cuanto sepas la nota, dímela.", "bs": "Čim saznaš ocjenu, reci mi je." },
+        { "es": "Te lo cuento antes de que lo oigas de otro.", "bs": "Ispričat ću ti prije nego što čuješ od nekog drugog." }
+      ],
+      "tips": "PARA QUE uvijek zahtijeva subjunktivo (bez izuzetaka): 'Te explico esto para que lo entiendas' — svrha s promjenom subjekta. Isto i A MENOS QUE (= osim ako) uvijek + subjunktivo."
+    }
+  ],
+  "dialogue": {
+    "title": "Planovi za preseljenje — Planovi za selidbu",
+    "lines": [
+      { "speaker": "Ana", "es": "¿Cuándo te mudarás al nuevo piso?", "bs": "Kad ćeš se preseliti u novi stan?" },
+      { "speaker": "Jorge", "es": "En cuanto me den las llaves, empezaré a llevar cajas.", "bs": "Čim mi daju ključeve, počet ću nositi kutije." },
+      { "speaker": "Ana", "es": "¿Necesitas ayuda? Puedo ir cuando quieras.", "bs": "Trebaš li pomoć? Mogu doći kad god hoćeš." },
+      { "speaker": "Jorge", "es": "Sería genial. Espera hasta que te llame — probablemente el sábado.", "bs": "Bilo bi sjajno. Čekaj dok te ne nazovem — vjerovatno u subotu." },
+      { "speaker": "Ana", "es": "De acuerdo. Antes de que empiece, te compraré pizza para que tengamos energía.", "bs": "Dogovoreno. Prije nego što počnemo, kupiti ću ti pizzu da imamo energije." },
+      { "speaker": "Jorge", "es": "¡Eres la mejor! Tan pronto como me instale, organizaré una fiesta de inauguración.", "bs": "Ti si najboIja! Čim se instaliram, organizirat ću zabavu za inauguraciju." },
+      { "speaker": "Ana", "es": "¡Me apunto! Avísame cuando tengas la fecha.", "bs": "Prijavujem se! Javi mi kad budeš imao datum." }
+    ]
+  },
+  "reading": {
+    "title": "Carta a mi yo de 18 años — Pismo svom ja od 18 godina",
+    "text_es": "Querido yo de 18 años:\nEscribo esto para que lo leas cuando seas mayor y lo entiendas mejor. Cuando tengas mis años, comprenderás que las prisas no llevan a ningún lado. Antes de que tomes grandes decisiones, escucha a tu corazón, no solo a la razón. En cuanto encuentres algo que te apasione, dedícate a ello sin miedo. Espera hasta que estés seguro de lo que quieres — no hay prisa. Tan pronto como dejes de compararte con otros, serás más feliz. Mientras vivas conforme a tus valores, dormirás tranquilo. Con cariño, tú a los 35.",
+    "glossary": [
+      { "es": "las prisas", "bs": "žurba / hitnja" },
+      { "es": "que te apasione", "bs": "što te strastveno zanima" },
+      { "es": "dedícate a ello", "bs": "posveti se tome" },
+      { "es": "conforme a tus valores", "bs": "u skladu s tvojim vrijednostima" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Zašto autor piše pismo?",
+        "options": ["Da vas poduči gramatiku", "Da mu ja od 18 pročita kad odraste", "Da se pohvali uspjesima"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta se preporučuje u cuanto nešto pronađeš?",
+        "options": ["Da razmisliš dugo", "Da se posveti tome bez straha", "Da pitaš druge"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada ćeš biti sretniji/a?",
+        "options": ["Kad budeš bogat/a", "Čim prestaneš uspoređivati se s drugima", "Kad nađeš dobru ljubav"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi iza 'Cuando' u BUDUĆEM kontekstu?",
+      "options": ["Indicativo", "Subjunktivo", "Futuro", "Imperativo"],
+      "answerIndex": 1,
+      "explanation_bs": "Budući kontekst + cuando = SUBJUNKTIVO. 'Cuando llegues, llámame.' (Još nisi stigao/la.)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En cuanto ___ (tú/saber) la respuesta, dímela.",
+      "answer": "sepas",
+      "acceptedAnswers": ["sepas"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Espera hasta que ___ (él/llegar).",
+      "answer": "llegue",
+      "acceptedAnswers": ["llegue"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nazovi me čim saznaš rezultate.",
+      "answer": "Llámame en cuanto sepas los resultados.",
+      "acceptedAnswers": ["Llámame en cuanto sepas los resultados.", "Llámame tan pronto como sepas los resultados."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prije nego što izađeš, zatvori prozore.",
+      "answer": "Antes de que salgas, cierra las ventanas.",
+      "acceptedAnswers": ["Antes de que salgas, cierra las ventanas.", "Antes de salir, cierra las ventanas."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Razvrstaj rečenice: indica INDICATIVO ili SUBJUNKTIVO iza 'cuando'",
+      "pairs": [
+        { "es": "Cuando era niño, jugaba.", "bs": "indicativo (prošlost)" },
+        { "es": "Cuando llegues, avísame.", "bs": "subjunktivo (budućnost)" },
+        { "es": "Cuando tengo frío, me pongo el jersey.", "bs": "indicativo (navika)" },
+        { "es": "Cuando seas mayor, entenderás.", "bs": "subjunktivo (budućnost)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En cuanto llegues a casa, mándame un mensaje para que sepa que estás bien.",
+      "answer": "En cuanto llegues a casa, mándame un mensaje para que sepa que estás bien."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši plan za sutra koristeći barem 2 temporalna veznika (cuando/en cuanto/hasta que/antes de que) sa subjunktivom.",
+      "modelAnswer_es": "Mañana en cuanto me levante, haré ejercicio. Después, antes de que empiece el trabajo, desayunaré bien. Trabajaré hasta que termine todas las tareas. Cuando acabe, llamaré a mis amigos para quedar."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim planovima — vježbaš cuando/en cuanto/hasta que + subjunktivo za buduće situacije.",
+    "level": "B1",
+    "allowedGrammar": ["cuando + subjunktivo (budućnost)", "antes de que / en cuanto / hasta que + subjunktivo", "para que + subjunktivo"],
+    "systemPromptHint": "Pitaj studenta o planovima za budućnost i neka koristi temporalne veznike: ¿Qué harás cuando termines los estudios? ¿Hasta cuándo trabajarás hoy? ¿Qué harás en cuanto llegues a casa? Ispravi greške u izboru indicativo/subjunktivo iza temporalnih veznika."
+  },
+  "illustration": {
+    "prompt": "A calendar with future plans, arrows showing sequence of events, a person checking off tasks, Spanish setting",
+    "alt": "Vremenski slijed — subjunktiv u budućim planovima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["cuando-subjunktivo", "en-cuanto-hasta-que", "antes-de-que", "b1", "u13"]
+  }
+}

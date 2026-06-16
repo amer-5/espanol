@@ -1,0 +1,159 @@
+{
+  "id": "b1-u13-l3",
+  "level": "B1",
+  "unit": 13,
+  "lessonNumber": 3,
+  "title": "Emocije sa subjunktivom",
+  "subtitle": "Me alegra que estés bien. Me sorprende que no sepa...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti glagole emocija + que + subjunktivo",
+    "Izraziti radost, žalost, iznenađenje i strah o tuđim postupcima",
+    "Razlikovati infinitiv (isti subjekt) od subjunktiva (različiti subjekti)"
+  ],
+  "prerequisites": ["b1-u13-l2"],
+  "vocabulary": [
+    { "es": "me alegra que + subj.", "bs": "drago mi je što / što...", "pos": "emocionalni izr.", "ipa": "me a.ˈle.ɣra ke", "example_es": "Me alegra que estés bien.", "example_bs": "Drago mi je što si dobro." },
+    { "es": "me sorprende que + subj.", "bs": "iznenađuje me što / da...", "pos": "emocionalni izr.", "ipa": "me sor.ˈpren.de ke", "example_es": "Me sorprende que no lo sepa.", "example_bs": "Iznenađuje me što to ne zna." },
+    { "es": "me molesta que + subj.", "bs": "smeta mi što / nervira me što", "pos": "emocionalni izr.", "ipa": "me mo.ˈles.ta ke", "example_es": "Me molesta que lleguen tarde.", "example_bs": "Nervira me što kasne." },
+    { "es": "tengo miedo de que + subj.", "bs": "bojim se da... / strah me je da...", "pos": "emocionalni izr.", "ipa": "ˈteŋ.go ˈmje.ðo ðe ke", "example_es": "Tengo miedo de que no llegues.", "example_bs": "Bojim se da nećeš stići." },
+    { "es": "es una pena que + subj.", "bs": "šteta je što", "pos": "bezlični izr.", "ipa": "es ˈu.na ˈpe.na ke", "example_es": "Es una pena que no puedas venir.", "example_bs": "Šteta je što ne možeš doći." },
+    { "es": "es genial que + subj.", "bs": "sjajno je što / odlično je što", "pos": "bezlični izr.", "ipa": "es xe.ˈnjal ke", "example_es": "Es genial que hayas aprobado.", "example_bs": "Sjajno je što si položio/la." },
+    { "es": "me encanta que + subj.", "bs": "oduševljava me što / volim što", "pos": "emocionalni izr.", "ipa": "me en.ˈkan.ta ke", "example_es": "Me encanta que cocines bien.", "example_bs": "Oduševljava me što dobro kuhaš." },
+    { "es": "me preocupa que + subj.", "bs": "brine me što / zabrinjava me", "pos": "emocionalni izr.", "ipa": "me pre.o.ˈku.pa ke", "example_es": "Me preocupa que no hayas dormido.", "example_bs": "Zabrinjava me što nisi spavao/la." },
+    { "es": "odiar que + subj.", "bs": "mrziti što / ne podnositi što", "pos": "glag. + subj.", "ipa": "o.ˈðjar ke", "example_es": "Odio que llegues tarde.", "example_bs": "Mrzim što kasniš." },
+    { "es": "qué bien que + subj.", "bs": "kako dobro što", "pos": "izr.", "ipa": "ke ˈbjen ke", "example_es": "¡Qué bien que hayas venido!", "example_bs": "Kako dobro što si došao/la!" }
+  ],
+  "grammar": [
+    {
+      "concept": "Emocije + que + subjunktivo",
+      "explanation_bs": "Glagoli i izrazi emocija + QUE → SUBJUNKTIVO (kad su subjekti različiti): 'Me alegra QUE tú estés bien.' (Ja se radujem — ti si dobro = različiti subjekti). Isti subjekt → INFINITIV: 'Me alegra ESTAR bien.' (Ja se radujem — ja sam dobro). Obrasci: ALEGRARSE DE QUE, SORPRENDER QUE, MOLESTAR QUE, TENER MIEDO DE QUE, ENCANTAR QUE, PREOCUPAR QUE + subjunktivo.",
+      "table": {
+        "headers": ["Emocionalni izraz", "Različit subjekt (que + subj.)", "Isti subjekt (inf.)"],
+        "rows": [
+          ["Me alegra", "Me alegra que vengas.", "Me alegra venir."],
+          ["Me sorprende", "Me sorprende que sepa.", "Me sorprende saberlo."],
+          ["Me molesta", "Me molesta que llegues tarde.", "Me molesta llegar tarde."],
+          ["Me preocupa", "Me preocupa que no comas.", "Me preocupa no comer."]
+        ]
+      },
+      "examples": [
+        { "es": "Me alegra mucho que hayas encontrado trabajo.", "bs": "Jako mi je drago što si pronašao/la posao." },
+        { "es": "Es una pena que no puedas venir a la boda.", "bs": "Šteta je što ne možeš doći na vjenčanje." },
+        { "es": "Me preocupa que trabajes tanto sin descansar.", "bs": "Zabrinjava me što toliko radiš bez odmora." }
+      ],
+      "tips": "Provjera: ima li dvije osobe? 'Me alegra (yo) que vengas (tú)' = da → subjunktivo. 'Me alegra venir (yo)' = isti → infinitivo. Emocija + que + nova osoba = UVIJEK subjunktivo!"
+    }
+  ],
+  "dialogue": {
+    "title": "Después de recibir una buena noticia — Nakon dobre vijesti",
+    "lines": [
+      { "speaker": "Elena", "es": "¡Tengo que contarte algo! ¡He conseguido el trabajo!", "bs": "Moram ti nešto reći! Dobila sam posao!" },
+      { "speaker": "Marco", "es": "¡Qué bien que hayas conseguido el puesto! Me alegra mucho.", "bs": "Kako dobro što si dobila tu poziciju! Jako mi je drago." },
+      { "speaker": "Elena", "es": "Sí, aunque me sorprende que me hayan elegido — había mucha competencia.", "bs": "Da, mada me iznenađuje što su me izabrali — bila je velika konkurencija." },
+      { "speaker": "Marco", "es": "No me sorprende nada. Eres la mejor. ¿Cuándo empiezas?", "bs": "Nimalo me ne iznenađuje. Ti si najbolja. Kad počinješ?" },
+      { "speaker": "Elena", "es": "El lunes. Me preocupa un poco que el horario sea tan intenso.", "bs": "U ponedjeljak. Malo me zabrinjava što će raspored biti tako intenzivan." },
+      { "speaker": "Marco", "es": "Es normal que te preocupe al principio. Pero me encanta que por fin hagas lo que te gusta.", "bs": "Normalno je da te brine na početku. Ali oduševljava me što konačno radiš ono što voliš." },
+      { "speaker": "Elena", "es": "Gracias. Me alegra que me apoyes siempre.", "bs": "Hvala. Drago mi je što me uvijek podržavaš." }
+    ]
+  },
+  "reading": {
+    "title": "Una carta de agradecimiento — Pismo zahvalnosti",
+    "text_es": "Querida profesora García:\nEscribo para agradecerle lo que hizo por mí. Me alegra mucho que todavía se acuerde de mí después de tantos años. Cuando era su alumno, me sorprendía que supiera tanto de cada uno de nosotros — que conociera nuestros sueños y miedos. Me molestaba que las clases terminaran tan pronto. Me encantaba que nos animara a pensar por nosotros mismos. Hoy trabajo como escritor y me alegra que haya sido usted quien me enseñó a amar las palabras. Es una pena que no le pueda dar las gracias en persona. Espero que siga bien y que disfrute de su jubilación. Con todo mi cariño, Andrés.",
+    "glossary": [
+      { "es": "agradecerle", "bs": "zahvaliti vam" },
+      { "es": "se acuerde de mí", "bs": "da se sjećate mene" },
+      { "es": "animara a", "bs": "poticala nas na" },
+      { "es": "la jubilación", "bs": "penzija / odlazak u mirovinu" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što se autorovu čudilo (le sorprendía)?",
+        "options": ["Da je profesorica bila stroga", "Da je znala toliko o svakom učeniku", "Da su lekcije bile kratke"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što mu je smetalo (le molestaba)?",
+        "options": ["Previše domaćih zadataka", "Što su časovi završavali prebrzo", "Što profesorica nije znala njegova ime"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Čime se sada bavi autor?",
+        "options": ["Nastavnik je", "Pisac je", "Lingvist je"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi iza 'Me alegra que...'?",
+      "options": ["Indicativo", "Subjunktivo", "Futuro", "Infinitivo"],
+      "answerIndex": 1,
+      "explanation_bs": "Emocija + que + različit subjekt → SUBJUNKTIVO. Me alegra QUE tú estés bien."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Me sorprende que ella no ___ (saber/subj.) la respuesta.",
+      "answer": "sepa",
+      "acceptedAnswers": ["sepa"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Es una pena que no ___ (poder/subj.) venir a la fiesta.",
+      "answer": "puedas",
+      "acceptedAnswers": ["puedas", "pueda"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jako mi je drago što ste dobro.",
+      "answer": "Me alegra mucho que estés bien.",
+      "acceptedAnswers": ["Me alegra mucho que estés bien.", "Me alegra mucho que esté bien.", "Me alegra que estés bien."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zabrinjava me što toliko radiš.",
+      "answer": "Me preocupa que trabajes tanto.",
+      "acceptedAnswers": ["Me preocupa que trabajes tanto.", "Me preocupa que trabajas tanto."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji emocionalni izraz s bosanskim",
+      "pairs": [
+        { "es": "me alegra que", "bs": "drago mi je što" },
+        { "es": "me molesta que", "bs": "nervira me što" },
+        { "es": "me preocupa que", "bs": "zabrinjava me što" },
+        { "es": "es una pena que", "bs": "šteta je što" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Me alegra que hayas venido y me encanta que te haya gustado la cena.",
+      "answer": "Me alegra que hayas venido y me encanta que te haya gustado la cena."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3 rečenice o nečemu što ti je drago, nečemu što te iznenađuje i nečemu što te brine — koristi emocionalne izraze sa subjunktivom.",
+      "modelAnswer_es": "Me alegra mucho que mis amigos estén sanos y felices. Me sorprende que el tiempo pase tan rápido — ya hace diez años que nos conocemos. Me preocupa un poco que no tengamos suficiente tiempo para vernos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI ti dijeli vijesti — ti reagiraš emocionalnim izrazima + subjunktivom.",
+    "level": "B1",
+    "allowedGrammar": ["emocije + que + subjunktivo", "me alegra/sorprende/molesta/preocupa/encanta que", "es una pena / es genial que"],
+    "systemPromptHint": "Dij studentu neke vijesti (dobre i loše) i neka reagira emocionalnim izrazima s ispravnim subjunktivom. Na primjer: 'Tu amigo ha aprobado todos los exámenes' → 'Me alegra que haya aprobado.' Ispravi greške u subjunktivu i razlikuj isti/različit subjekt."
+  },
+  "illustration": {
+    "prompt": "A person expressing emotions — surprised, happy, worried — reacting to news, expressive facial expressions, Spanish setting",
+    "alt": "Emocionalne reakcije — izražavanje osjećaja sa subjunktivom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["me-alegra-que", "emocije-subjunktiv", "sorprende-molesta-preocupa", "b1", "u13"]
+  }
+}

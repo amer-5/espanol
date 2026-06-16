@@ -1,0 +1,162 @@
+{
+  "id": "b1-u13-l2",
+  "level": "B1",
+  "unit": 13,
+  "lessonNumber": 2,
+  "title": "Mišljenja i vjerovanja — creo que / no creo que",
+  "subtitle": "Creo que tiene razón... No creo que sea verdad...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Izražavati mišljenja s indicativom (creo que) i subjunktivom (no creo que)",
+    "Razumjeti razliku: afirmacija → indicativo, negacija/sumnja → subjunktivo",
+    "Koristiti izraze za slaganje i neslaganje"
+  ],
+  "prerequisites": ["b1-u13-l1"],
+  "vocabulary": [
+    { "es": "creo que + ind.", "bs": "mislim da... (afirmativno)", "pos": "izr. + ind.", "ipa": "ˈkre.o ke", "example_es": "Creo que tiene razón.", "example_bs": "Mislim da ima pravo." },
+    { "es": "no creo que + subj.", "bs": "ne mislim da... / ne vjerujem da...", "pos": "izr. + subj.", "ipa": "no ˈkre.o ke", "example_es": "No creo que sea cierto.", "example_bs": "Ne mislim da je to istina." },
+    { "es": "pienso que / opino que", "bs": "smatram da / mog mišljenja je", "pos": "izr. + ind.", "ipa": "ˈpjen.so ke", "example_es": "Opino que es la mejor solución.", "example_bs": "Smatram da je to najbolje rješenje." },
+    { "es": "me parece que", "bs": "čini mi se da / izgleda mi da", "pos": "izr. + ind.", "ipa": "me pa.ˈre.θe ke", "example_es": "Me parece que tiene razón.", "example_bs": "Čini mi se da ima pravo." },
+    { "es": "dudo que + subj.", "bs": "sumnjam da", "pos": "glag. + subj.", "ipa": "ˈdu.ðo ke", "example_es": "Dudo que llegue a tiempo.", "example_bs": "Sumnjam da će stići na vrijeme." },
+    { "es": "no me parece que + subj.", "bs": "ne čini mi se da", "pos": "izr. + subj.", "ipa": "no me pa.ˈre.θe ke", "example_es": "No me parece que sea justo.", "example_bs": "Ne čini mi se da je to pravedno." },
+    { "es": "estoy de acuerdo", "bs": "slažem se", "pos": "izr.", "ipa": "es.ˈtoj ðe a.ˈkwer.ðo", "example_es": "Estoy de acuerdo contigo.", "example_bs": "Slažem se s tobom." },
+    { "es": "no estoy de acuerdo", "bs": "ne slažem se", "pos": "izr.", "ipa": "no es.ˈtoj ðe a.ˈkwer.ðo", "example_es": "No estoy de acuerdo con esa idea.", "example_bs": "Ne slažem se s tom idejom." },
+    { "es": "en mi opinión", "bs": "po mome mišljenju", "pos": "izr.", "ipa": "en mi o.pi.ˈnjon", "example_es": "En mi opinión, es un error.", "example_bs": "Po mome mišljenju, to je greška." },
+    { "es": "puede que + subj.", "bs": "možda / moguće je da", "pos": "izr. + subj.", "ipa": "ˈpwe.ðe ke", "example_es": "Puede que tengas razón.", "example_bs": "Možda imaš pravo." }
+  ],
+  "grammar": [
+    {
+      "concept": "CREO QUE + indicativo vs NO CREO QUE + subjunktivo",
+      "explanation_bs": "Ključna razlika u španskom: **Afirmativno mišljenje** → CREO QUE + **indicativo** (stvarnost koja ti se čini istinita): 'Creo que viene mañana.' **Negativno mišljenje / sumnja** → NO CREO QUE / DUDO QUE + **subjunktivo** (stavljaš u pitanje, nije sigurno): 'No creo que venga mañana.' Ovo vrijedi i za: pienso que/no pienso que, me parece que/no me parece que.",
+      "table": {
+        "headers": ["Izraz", "Glagolski mod", "Primjer"],
+        "rows": [
+          ["Creo que...", "INDICATIVO", "Creo que tiene razón."],
+          ["No creo que...", "SUBJUNKTIVO", "No creo que tenga razón."],
+          ["Pienso que...", "INDICATIVO", "Pienso que es verdad."],
+          ["No pienso que...", "SUBJUNKTIVO", "No pienso que sea verdad."],
+          ["Me parece que...", "INDICATIVO", "Me parece que viene."],
+          ["Dudo que...", "SUBJUNKTIVO", "Dudo que venga."]
+        ]
+      },
+      "examples": [
+        { "es": "Creo que el proyecto está bien. (indicativo)", "bs": "Mislim da je projekt dobar. (indicativo)" },
+        { "es": "No creo que el proyecto esté bien. (subjunktivo)", "bs": "Ne mislim da je projekt dobar. (subjunktivo)" },
+        { "es": "Puede que tengas razón — no lo sé.", "bs": "Možda imaš pravo — ne znam." }
+      ],
+      "tips": "Zlatno pravilo: AFIRMACIJA (creo, pienso, parece) → INDICATIVO. NEGACIJA ili SUMNJA (no creo, dudo, no parece, puede que) → SUBJUNKTIVO. Probaj: 'Creo que ES verdad' vs 'No creo que SEA verdad'."
+    }
+  ],
+  "dialogue": {
+    "title": "Debate en clase — Debata u razredu",
+    "lines": [
+      { "speaker": "Profesor", "es": "¿Creéis que el inglés es más útil que el español?", "bs": "Mislite li da je engleski korisniji od španskog?" },
+      { "speaker": "Sara", "es": "Yo creo que el inglés es más importante para los negocios internacionales.", "bs": "Ja mislim da je engleski važniji za međunarodne poslove." },
+      { "speaker": "Tomás", "es": "No estoy de acuerdo. No creo que el inglés sea suficiente — el español tiene 500 millones de hablantes.", "bs": "Ne slažem se. Ne mislim da je engleski dovoljan — španski ima 500 miliona govornika." },
+      { "speaker": "Sara", "es": "Me parece que tienes razón en eso, pero para la tecnología el inglés domina.", "bs": "Čini mi se da imaš pravo u tome, ali za tehnologiju dominira engleski." },
+      { "speaker": "Tomás", "es": "Puede que sea así en este momento, pero creo que eso cambiará.", "bs": "Možda je tako trenutno, ali mislim da će to se promijeniti." },
+      { "speaker": "Profesor", "es": "¿Y vosotros? ¿Opinan que los dos son igualmente importantes?", "bs": "A vi ostali? Smatrate li da su oba podjednako važna?" },
+      { "speaker": "Lucía", "es": "En mi opinión, dudo que uno sea más útil que el otro. Todo depende del contexto.", "bs": "Po mome mišljenju, sumnjam da je jedan korisniji od drugog. Sve ovisi o kontekstu." }
+    ]
+  },
+  "reading": {
+    "title": "¿Son los idiomas innatos o aprendidos? — Jesu li jezici urođeni ili naučeni?",
+    "text_es": "Existe un debate fascinante en la lingüística: ¿nacemos con la capacidad del lenguaje o la aprendemos? Chomsky creía que los humanos tienen una 'gramática universal' innata. Otros lingüistas no creen que eso sea completamente cierto — argumentan que el entorno social es igual de importante. Personalmente, creo que ambas teorías tienen parte de razón. Me parece que los niños tienen una predisposición biológica para el lenguaje, pero dudo que puedan desarrollarlo sin interacción social. No creo que ninguna teoría por sí sola sea suficiente. En mi opinión, la verdad está en el medio.",
+    "glossary": [
+      { "es": "innato", "bs": "urođen / prirodan" },
+      { "es": "la gramática universal", "bs": "univerzalna gramatika" },
+      { "es": "el entorno social", "bs": "društvena okolina" },
+      { "es": "la predisposición biológica", "bs": "biološka predispozicija" },
+      { "es": "por sí sola", "bs": "sama po sebi" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je Chomsky smatrao?",
+        "options": ["Da jezik zavisi samo od okoline", "Da imamo urođenu gramatiku", "Da djeca ne mogu naučiti jezik"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta autor sumnja (dudo que)?",
+        "options": ["Da djeca imaju biološku predispoziciju", "Da se jezik može razviti bez društvene interakcije", "Da teorije imaju smisla"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što autor misli o teorijama?",
+        "options": ["Jedna je potpuna istina", "Nijedna nije dovoljna sama po sebi", "Chomsky potpuno griješi"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi iza 'No creo que...'?",
+      "options": ["Indicativo", "Subjunktivo", "Kondicionál", "Infinitiv"],
+      "answerIndex": 1,
+      "explanation_bs": "Negacija mišljenja → sumnja → SUBJUNKTIVO. 'No creo que sea verdad' (subjunktivo)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Creo que ___ (ser/ind.) la mejor opción. (Koristiti INDICATIVO)",
+      "answer": "es",
+      "acceptedAnswers": ["es"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No creo que ___ (ser/subj.) la mejor opción.",
+      "answer": "sea",
+      "acceptedAnswers": ["sea"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Sumnjam da će doći na vrijeme.",
+      "answer": "Dudo que llegue a tiempo.",
+      "acceptedAnswers": ["Dudo que llegue a tiempo.", "Dudo que venga a tiempo."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Po mome mišljenju, to nije dobra ideja.",
+      "answer": "En mi opinión, no es una buena idea.",
+      "acceptedAnswers": ["En mi opinión, no es una buena idea.", "En mi opinión, no creo que sea una buena idea."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji izraz s glagolskim modom koji slijedi",
+      "pairs": [
+        { "es": "Creo que...", "bs": "indicativo" },
+        { "es": "No creo que...", "bs": "subjunktivo" },
+        { "es": "Me parece que...", "bs": "indicativo" },
+        { "es": "Dudo que...", "bs": "subjunktivo" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "No creo que sea una buena idea ir sin reserva — puede que no haya mesa.",
+      "answer": "No creo que sea una buena idea ir sin reserva — puede que no haya mesa."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Izjavi svoje mišljenje o nekoj temi (učenje jezika, tehnologija, slobodno vrijeme) — koristi creo que (indicativo) i no creo que (subjunktivo).",
+      "modelAnswer_es": "Creo que aprender idiomas es muy importante en el mundo actual. No creo que sea posible trabajar en una empresa internacional sin hablar al menos dos idiomas. En mi opinión, el español es una de las mejores inversiones que puedes hacer. Puede que al principio sea difícil, pero vale la pena."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI predlaže mišljenja o raznim temama — ti se slažeš ili ne slažeš koristeći creo/no creo que + indicativo/subjunktivo.",
+    "level": "B1",
+    "allowedGrammar": ["creo que + indicativo", "no creo que + subjunktivo", "dudo que + subjunktivo", "puede que + subjunktivo"],
+    "systemPromptHint": "Predloži studentu kontroverznu tvrdnju (npr. el trabajo desde casa es más productivo / las redes sociales son dañinas). Neka student izrazi slaganje ili neslaganje s ispravnom gramatičkom strukturom. Ispravi greške u izboru indicativo/subjunktivo."
+  },
+  "illustration": {
+    "prompt": "Two people having a discussion or debate, speech bubbles, thoughtful expressions, modern Spanish setting",
+    "alt": "Izražavanje mišljenja — debata i slaganje/neslaganje",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["creo-que-indicativo", "no-creo-que-subjunktivo", "dudo-que", "b1", "u13"]
+  }
+}

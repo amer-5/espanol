@@ -1,0 +1,172 @@
+{
+  "id": "b1-u13-l1",
+  "level": "B1",
+  "unit": 13,
+  "lessonNumber": 1,
+  "title": "Subjunktiv prezenta — tvorba",
+  "subtitle": "Quiero que hables, espero que venga...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Tvoriti subjunktiv prezenta pravilnih i nepravilnih glagola",
+    "Razumjeti kada se koristi subjunktiv (subordinirane klauze s que)",
+    "Koristiti quiero que, espero que, es importante que + subjunktiv"
+  ],
+  "prerequisites": ["a2-u12-l4"],
+  "vocabulary": [
+    { "es": "quiero que + subj.", "bs": "hoću da... / želi da...", "pos": "izr. + subj.", "ipa": "ˈkje.ro ke", "example_es": "Quiero que vengas a cenar.", "example_bs": "Hoću da dođeš na večeru." },
+    { "es": "espero que + subj.", "bs": "nadam se da... / nadam se da će...", "pos": "izr. + subj.", "ipa": "es.ˈpe.ro ke", "example_es": "Espero que llegues a tiempo.", "example_bs": "Nadam se da ćeš stići na vrijeme." },
+    { "es": "es importante que", "bs": "važno je da", "pos": "izr. + subj.", "ipa": "es im.por.ˈtan.te ke", "example_es": "Es importante que estudies cada día.", "example_bs": "Važno je da učiš svaki dan." },
+    { "es": "es necesario que", "bs": "potrebno je da / nužno je da", "pos": "izr. + subj.", "ipa": "es ne.θe.ˈsa.rjo ke", "example_es": "Es necesario que lleves el pasaporte.", "example_bs": "Potrebno je da poneseš pasoš." },
+    { "es": "ojalá + subj.", "bs": "da Bog da / sretno / nadam se da", "pos": "izr. + subj.", "ipa": "o.xa.ˈla", "example_es": "Ojalá apruebe el examen.", "example_bs": "Da Bog da položim ispit." },
+    { "es": "pedir que + subj.", "bs": "tražiti da / moliti da", "pos": "glag. + subj.", "ipa": "pe.ˈðir ke", "example_es": "Te pido que tengas cuidado.", "example_bs": "Molim te da budeš oprezan/na." },
+    { "es": "recomendar que", "bs": "preporučiti da", "pos": "glag. + subj.", "ipa": "re.ko.men.ˈðar ke", "example_es": "Te recomiendo que visites Sevilla.", "example_bs": "Preporučujem ti da posjeti Sevillu." },
+    { "es": "es posible que", "bs": "moguće je da / možda", "pos": "izr. + subj.", "ipa": "es po.ˈsi.βle ke", "example_es": "Es posible que llueva mañana.", "example_bs": "Moguće je da kiši sutra." },
+    { "es": "dudar que", "bs": "sumnjati da", "pos": "glag. + subj.", "ipa": "du.ˈðar ke", "example_es": "Dudo que venga a tiempo.", "example_bs": "Sumnjam da će doći na vrijeme." },
+    { "es": "la subordinada", "bs": "zavisna klauza", "pos": "gram. pojam", "ipa": "la su.bor.ˈdi.na.ða", "example_es": "Quiero [que vengáis] — 'que vengáis' es la subordinada.", "example_bs": "'da dođete' = zavisna klauza" }
+  ],
+  "grammar": [
+    {
+      "concept": "Subjunktiv prezenta — tvorba",
+      "explanation_bs": "Subjunktiv prezenta se tvori: uzmi yo oblik prezenta → ukloni -o → dodaj suprotne nastavke (-AR → nastavci -ER/IR; -ER/-IR → nastavci -AR). **-AR glagoli**: -e/-es/-e/-emos/-éis/-en. **-ER/-IR glagoli**: -a/-as/-a/-amos/-áis/-an. Nepravilni yo oblici u prezentu (tengo, pongo, salgo, vengo, digo...) prenose nepravilnost u subjunktiv: tener → tenga, poner → ponga, venir → venga.",
+      "table": {
+        "headers": ["Zamjenica", "HABLAR", "COMER", "VIVIR"],
+        "rows": [
+          ["yo", "hable", "coma", "viva"],
+          ["tú", "hables", "comas", "vivas"],
+          ["él/ella", "hable", "coma", "viva"],
+          ["nosotros", "hablemos", "comamos", "vivamos"],
+          ["vosotros", "habléis", "comáis", "viváis"],
+          ["ellos", "hablen", "coman", "vivan"]
+        ]
+      },
+      "examples": [
+        { "es": "Quiero que hables con ella directamente.", "bs": "Hoću da razgovaraš s njom direktno." },
+        { "es": "Es importante que comáis bien antes del examen.", "bs": "Važno je da jedete dobro prije ispita." },
+        { "es": "Espero que vivamos cerca algún día.", "bs": "Nadam se da ćemo jednog dana živjeti blizu." }
+      ],
+      "tips": "Pravilo '-AR → suprotni (E nastavci), -ER/-IR → suprotni (A nastavci)': hablar → hable (E), comer → coma (A). Zapamti: yo oblik prezenta UVIJEK isti kao subjunktiv → tener/tengo → tenga."
+    },
+    {
+      "concept": "Kada koristimo subjunktiv — WEIRDO kategorije",
+      "explanation_bs": "Subjunktiv dolazi u ZAVISNOJ klauzi (iza QUE) kad glavna klauza sadrži: **W**ishes/Желје (quiero que, deseo que, espero que), **E**motion/Emocije (me alegra que, me sorprende que, es una pena que), **I**mpersonal expressions/Bezlični izrazi (es importante/necesario/bueno que), **R**ecommendations/Preporuke (recomiendo que, sugiero que), **D**oubt/Sumnja (dudo que, no creo que, es posible que), **O**jalá. Ključ: iza QUE s promjenom subjekta → subjunktiv!",
+      "examples": [
+        { "es": "Quiero IR al cine. (isti subjekt → infinitiv)", "bs": "Hoću ići u kino. (isti subjekt → infinitiv)" },
+        { "es": "Quiero que TÚ vayas al cine. (različit subjekt → subjunktiv)", "bs": "Hoću da ti ideš u kino. (drugi subjekt → subjunktiv)" },
+        { "es": "Es necesario ESTUDIAR. (nema subjekta → infinitiv)", "bs": "Potrebno je učiti. (opće → infinitiv)" }
+      ],
+      "tips": "Zlatno pravilo: Isti subjekt → infinitiv. Različit subjekt (iza que) → subjunktiv. Npr: 'Quiero ir' (ja hoću ja idem) vs 'Quiero que vayas' (ja hoću ti ideš)."
+    }
+  ],
+  "dialogue": {
+    "title": "Antes de un viaje importante — Prije važnog putovanja",
+    "lines": [
+      { "speaker": "Mamá", "es": "Me alegra que finalmente vayas a España.", "bs": "Drago mi je da konačno ideš u Španiju." },
+      { "speaker": "Diego", "es": "Sí, estoy muy emocionado. Quiero que sea una experiencia increíble.", "bs": "Da, jako sam uzbuđen. Hoću da bude nevjerojatno iskustvo." },
+      { "speaker": "Mamá", "es": "Es importante que lleves ropa para todos los climas.", "bs": "Važno je da poneseš odjeću za sve klimate." },
+      { "speaker": "Diego", "es": "Lo sé. También espero que haga buen tiempo.", "bs": "Znam. Nadam se i da bude lijepo vrijeme." },
+      { "speaker": "Mamá", "es": "Te recomiendo que visites Granada. Es preciosa.", "bs": "Preporučujem ti da posjediš Granadu. Predivna je." },
+      { "speaker": "Diego", "es": "Ya lo tengo planeado. Ojalá pueda ver la Alhambra.", "bs": "Već sam to isplanirao. Da Bog da mogu vidjeti Alhambru." },
+      { "speaker": "Mamá", "es": "¡Seguro que sí! Quiero que me mandes fotos cada día.", "bs": "Sigurno hoćeš! Hoću da mi šalješ fotografije svaki dan." },
+      { "speaker": "Diego", "es": "¡Claro que sí! Aunque espero que no eches demasiado de menos.", "bs": "Naravno! Mada se nadam da me nećeš previše nedostajati." }
+    ]
+  },
+  "reading": {
+    "title": "Una carta a mi hijo — Pismo sinu",
+    "text_es": "Querido Marco:\nEscribo esto porque quiero que sepas lo que pienso. Espero que estés bien en la universidad y que hayas encontrado buenos amigos. Es normal que a veces te sientas solo — es parte de la experiencia. Es importante que estudies, claro, pero también quiero que disfrutes de esta etapa. Te recomiendo que conozcas a gente diferente, que salgas, que explores la ciudad. Ojalá aprendas muchas cosas, no solo de los libros. Dudo que volvamos a tener esta libertad cuando seamos mayores. Así que vívela. Con todo mi amor, papá.",
+    "glossary": [
+      { "es": "hayas encontrado", "bs": "da si pronašao/la (subj. perfecto)" },
+      { "es": "te sientas solo", "bs": "da se osjećaš sam/a" },
+      { "es": "esta etapa", "bs": "ova faza / ovo razdoblje" },
+      { "es": "vívela", "bs": "živi je (imperativ + zamjenica)" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta otac želi da sin zna?",
+        "options": ["Da je ljut", "Što otac misli / osjeća", "Da nema novca"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta otac preporučuje sinu?",
+        "options": ["Samo učiti", "Upoznati ljude i istraživati grad", "Što prije se vratiti kući"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "U čemu otac sumnja?",
+        "options": ["Da sin uči", "Da će ponovo imati tu slobodu", "Da sin ima prijatelje"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan subjunktiv od HABLAR za 'tú'?",
+      "options": ["hablas", "hables", "habla", "hablé"],
+      "answerIndex": 1,
+      "explanation_bs": "Subjunktiv -AR: -e/-es/-e... Tú: hables."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan subjunktiv od VENIR za 'él' (pazi: vengo → venga)?",
+      "options": ["viene", "venga", "venga", "vendrá"],
+      "answerIndex": 1,
+      "explanation_bs": "VENIR: yo vengo → stablo veng- → venga/vengas/venga... Él: venga."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Es importante que ___ (tú/estudiar) cada día.",
+      "answer": "estudies",
+      "acceptedAnswers": ["estudies"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Quiero que ___ (ellos/venir) a la fiesta.",
+      "answer": "vengan",
+      "acceptedAnswers": ["vengan"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nadam se da ćeš dobro položiti ispit.",
+      "answer": "Espero que apruebes el examen.",
+      "acceptedAnswers": ["Espero que apruebes el examen.", "Espero que saques buena nota en el examen."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji strukturu s tipom klauze koja slijedi",
+      "pairs": [
+        { "es": "Quiero ir (isti subjekt)", "bs": "infinitiv" },
+        { "es": "Quiero que tú vayas", "bs": "subjunktiv" },
+        { "es": "Es necesario estudiar (opće)", "bs": "infinitiv" },
+        { "es": "Es necesario que estudies", "bs": "subjunktiv" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Espero que tengas tiempo y que puedas venir a visitarme pronto.",
+      "answer": "Espero que tengas tiempo y que puedas venir a visitarme pronto."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3 stvari koje hoćeš da tvoj prijatelj/ica uradi koristeći 'Quiero que...' u subjunktivu.",
+      "modelAnswer_es": "Quiero que vengas a mi boda el mes que viene. También quiero que seas mi testigo. Y espero que no llegues tarde — ¡empieza a las doce en punto!"
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita šta hoćeš da drugi ljudi rade i šta ti se čini važnim — vježbaš subjunktiv s quiero que/es importante que/espero que.",
+    "level": "B1",
+    "allowedGrammar": ["subjunktiv prezenta tvorba", "quiero/espero/es importante/es necesario/ojalá + que + subj.", "infinitiv vs subjunktiv (isti vs različit subjekt)"],
+    "systemPromptHint": "Pitaj studenta o željama i preporukama: ¿Qué quieres que hagan tus amigos? ¿Qué es importante que hagamos para aprender idiomas? ¿Qué esperas que pase este año? Ispravi greške u tvorbi subjunktiva i razlici infinitiv/subjunktiv."
+  },
+  "illustration": {
+    "prompt": "Two people in conversation, one expressing a wish or expectation, warm expressive atmosphere, Spanish setting",
+    "alt": "Izražavanje želja i preporuka — subjunktiv prezenta",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["subjunktiv-prezenta", "quiero-que-hables", "espero-que-venga", "b1", "u13"]
+  }
+}

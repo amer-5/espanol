@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Illustration generator using Google Gemini Image API (Nano Banana).
+ * Illustration generator using Pollinations.ai (free, no API key needed).
  * Usage:
  *   pnpm gen:illustrations           — skip existing
  *   pnpm gen:illustrations --force   — regenerate all
@@ -9,9 +9,6 @@
 
 import * as fs from "fs";
 import * as path from "path";
-import { GoogleGenAI } from "@google/genai";
-
-const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const LESSONS_DIR = path.join(CONTENT_DIR, "lessons");
@@ -21,15 +18,13 @@ const args = process.argv.slice(2);
 const FORCE = args.includes("--force");
 const ONLY = args.find((a) => a.startsWith("--only="))?.split("=")[1];
 
-// Master style prompt for consistency across all illustrations
 const MASTER_STYLE =
-  "Flat vector illustration, warm friendly palette, soft rounded shapes, clean minimal background, consistent character design, modern educational app aesthetic, no text in image.";
+  "flat vector illustration, warm friendly palette, soft rounded shapes, clean minimal background, consistent character design, modern educational app aesthetic, no text";
 
-// Fixed character descriptions for consistency
-const CHARACTER_STYLES = {
-  Ana: "young woman with dark shoulder-length hair, wearing a light blue blouse",
-  Marko: "young man with short brown hair, wearing a casual green shirt",
-  Sofía: "young woman with long wavy hair, wearing a yellow dress",
+const CHARACTER_STYLES: Record<string, string> = {
+  Ana: "young woman dark shoulder-length hair light blue blouse",
+  Marko: "young man short brown hair casual green shirt",
+  Sofía: "young woman long wavy hair yellow dress",
 };
 
 let generated = 0;
@@ -38,6 +33,8 @@ let failed = 0;
 
 function getLessonFiles(): Array<{ id: string; lessonPath: string }> {
   const result: Array<{ id: string; lessonPath: string }> = [];
+  if (!fs.existsSync(LESSONS_DIR)) return result;
+
   const levels = fs.readdirSync(LESSONS_DIR).filter((d) => {
     if (ONLY) return d === ONLY.toLowerCase();
     return true;
@@ -51,8 +48,10 @@ function getLessonFiles(): Array<{ id: string; lessonPath: string }> {
       if (!fs.statSync(unitDir).isDirectory()) continue;
       for (const file of fs.readdirSync(unitDir)) {
         if (file.endsWith(".json")) {
-          const lessonId = file.replace(".json", "");
-          result.push({ id: lessonId, lessonPath: path.join(unitDir, file) });
+          result.push({
+            id: file.replace(".json", ""),
+            lessonPath: path.join(unitDir, file),
+          });
         }
       }
     }
@@ -60,56 +59,34 @@ function getLessonFiles(): Array<{ id: string; lessonPath: string }> {
   return result;
 }
 
-async function generateIllustration(
-  lessonId: string,
-  illustrationPrompt: string,
-  filename: string,
+async function downloadImage(
+  prompt: string,
+  outputPath: string,
   attempt = 1
 ): Promise<boolean> {
-  const outputDir = path.join(PUBLIC_DIR, lessonId);
-  const outputPath = path.join(outputDir, filename);
-
-  if (!FORCE && fs.existsSync(outputPath)) {
-    skipped++;
-    return true;
-  }
-
-  const fullPrompt = `${MASTER_STYLE} ${illustrationPrompt}`;
+  const encoded = encodeURIComponent(prompt);
+  const url = `https://image.pollinations.ai/prompt/${encoded}?width=512&height=512&model=flux&nologo=true&seed=${Math.floor(Math.random() * 9999)}`;
 
   try {
-    const response = await client.models.generateImages({
-      model: "imagen-3.0-fast-generate-001",
-      prompt: fullPrompt,
-      config: {
-        numberOfImages: 1,
-        outputMimeType: "image/png",
-        aspectRatio: "1:1",
-      },
-    });
+    const res = await fetch(url, { signal: AbortSignal.timeout(30000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    const imageData = response.generatedImages?.[0]?.image?.imageBytes;
-    if (!imageData) throw new Error("No image data returned");
-
-    fs.mkdirSync(outputDir, { recursive: true });
-    const buffer = Buffer.from(imageData, "base64");
-    fs.writeFileSync(outputPath, buffer);
-    generated++;
+    const arrayBuffer = await res.arrayBuffer();
+    fs.writeFileSync(outputPath, Buffer.from(arrayBuffer));
     return true;
-  } catch (err: unknown) {
-    const errMsg = err instanceof Error ? err.message : String(err);
+  } catch (err) {
     if (attempt < 3) {
-      console.warn(`  ⚠ Retry ${attempt} for ${lessonId}/${filename}...`);
-      await new Promise((r) => setTimeout(r, 3000));
-      return generateIllustration(lessonId, illustrationPrompt, filename, attempt + 1);
+      console.warn(`  ⚠ Retry ${attempt}...`);
+      await new Promise((r) => setTimeout(r, 3000 * attempt));
+      return downloadImage(prompt, outputPath, attempt + 1);
     }
-    console.error(`  ✗ Failed ${lessonId}/${filename}: ${errMsg}`);
-    failed++;
+    console.error(`  ✗ Failed: ${err}`);
     return false;
   }
 }
 
 async function main() {
-  console.log("🎨 Espanol — Illustration Generator (Gemini Imagen)");
+  console.log("🎨 Illustration Generator — Pollinations.ai (free, no key)");
   console.log(`Mode: ${FORCE ? "FORCE regenerate all" : "Skip existing"}`);
   if (ONLY) console.log(`Filter: only ${ONLY.toUpperCase()}`);
   console.log("");
@@ -123,28 +100,37 @@ async function main() {
       if (!lesson.illustration) continue;
 
       total++;
+      const outputDir = path.join(PUBLIC_DIR, id);
+      const outputPath = path.join(outputDir, lesson.illustration.filename);
 
-      // Enhance prompt with character descriptions if characters are mentioned
+      if (!FORCE && fs.existsSync(outputPath)) {
+        console.log(`  [${total}] ${id} ⏭ skipped`);
+        skipped++;
+        continue;
+      }
+
+      // Inject character descriptions if names appear in prompt
       let prompt = lesson.illustration.prompt as string;
       for (const [name, desc] of Object.entries(CHARACTER_STYLES)) {
         if (prompt.includes(name)) {
           prompt = prompt.replace(name, `${name} (${desc})`);
         }
       }
-
-      const existing = path.join(PUBLIC_DIR, id, lesson.illustration.filename);
-      if (!FORCE && fs.existsSync(existing)) {
-        console.log(`  [${total}] ${id} ⏭ skipped`);
-        skipped++;
-        continue;
-      }
+      const fullPrompt = `${MASTER_STYLE}, ${prompt}`;
 
       console.log(`  [${total}] ${id} generating...`);
-      await generateIllustration(id, prompt, lesson.illustration.filename);
-      console.log(`  [${total}] ${id} ✓`);
+      fs.mkdirSync(outputDir, { recursive: true });
 
-      // Polite rate limiting
-      await new Promise((r) => setTimeout(r, 1000));
+      const ok = await downloadImage(fullPrompt, outputPath);
+      if (ok) {
+        generated++;
+        console.log(`  [${total}] ${id} ✓`);
+      } else {
+        failed++;
+      }
+
+      // Be polite to the free service
+      await new Promise((r) => setTimeout(r, 1500));
     } catch (err) {
       console.error(`  ✗ Error processing ${id}:`, err);
       failed++;

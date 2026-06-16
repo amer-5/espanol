@@ -15,17 +15,27 @@ import * as path from "path";
 import { LessonSchema, UnitTestSchema } from "../src/types/lesson";
 import type { Curriculum, Unit, LessonMeta } from "../src/types/curriculum";
 
-const client = new OpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY!,
-  defaultHeaders: {
-    "HTTP-Referer": "https://espanol.vercel.app",
-    "X-Title": "Espanol - Spanish Learning App",
-  },
-});
+// Ollama (local, free, no limits) takes priority if OLLAMA_BASE_URL is set.
+// Fallback: OpenRouter free tier (limited to ~200 req/day).
+const USE_OLLAMA = !!process.env.OLLAMA_BASE_URL;
 
-// Override with SEED_MODEL env var, e.g. SEED_MODEL=google/gemma-3-27b-it:free
-const MODEL = process.env.SEED_MODEL || "google/gemma-3-12b-it:free";
+const client = USE_OLLAMA
+  ? new OpenAI({
+      baseURL: process.env.OLLAMA_BASE_URL || "http://localhost:11434/v1",
+      apiKey: "ollama", // Ollama ignores the key but the SDK requires a non-empty string
+    })
+  : new OpenAI({
+      baseURL: "https://openrouter.ai/api/v1",
+      apiKey: process.env.OPENROUTER_API_KEY!,
+      defaultHeaders: {
+        "HTTP-Referer": "https://espanol.vercel.app",
+        "X-Title": "Espanol - Spanish Learning App",
+      },
+    });
+
+// Ollama model: whatever you pulled locally (e.g. llama3.1:8b, qwen2.5:14b, gemma3:12b)
+// OpenRouter: use a reliably free model
+const MODEL = process.env.SEED_MODEL || (USE_OLLAMA ? "llama3.1:8b" : "meta-llama/llama-3.1-8b-instruct:free");
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const LESSONS_DIR = path.join(CONTENT_DIR, "lessons");

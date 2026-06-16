@@ -17,13 +17,9 @@ export function getOpenRouter() {
   return _client;
 }
 
-// Free models worth using (pick one as default):
-// "meta-llama/llama-3.1-8b-instruct:free"      — brz, solidan za A1/A2
-// "google/gemma-3-12b-it:free"                  — dobar za instrukcije
-// "deepseek/deepseek-r1-0528:free"              — najinteligentniji free model, sporiji
-// "mistralai/mistral-7b-instruct:free"          — pouzdan
+// Free models on OpenRouter (verified working):
+// "meta-llama/llama-3.1-8b-instruct:free"   — brz, pouzdan
+// "mistralai/mistral-7b-instruct:free"       — alternativa
+// "deepseek/deepseek-r1-0528:free"           — sporiji ali bolji
 export const CHAT_MODEL =
   process.env.CHAT_MODEL || "meta-llama/llama-3.1-8b-instruct:free";
-
-export const SEED_MODEL =
-  process.env.SEED_MODEL || "google/gemma-3-12b-it:free";

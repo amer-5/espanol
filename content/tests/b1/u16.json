@@ -1,0 +1,100 @@
+{
+  "id": "test-b1-u16",
+  "level": "B1",
+  "unit": 16,
+  "title": "Test — Jedinica 16: Posao, zdravlje, mediji, okolina",
+  "cumulative": true,
+  "timeLimitMinutes": 20,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako se kaže 'razgovor za posao' na španskom?",
+      "options": ["la entrevista de trabajo", "la solicitud de empleo", "el currículum vitae", "la oferta de trabajo"],
+      "answerIndex": 0,
+      "points": 1,
+      "lessonId": "b1-u16-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ preguntarle sobre las posibilidades de ascenso? (pristojni zahtjev)",
+      "answer": "¿Podría",
+      "acceptedAnswers": ["¿Podría", "Podría"],
+      "points": 2,
+      "lessonId": "b1-u16-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'A mí ___ los pies después de caminar mucho.'?",
+      "options": ["me duele", "me duelen", "le duele", "se duelen"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u16-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Te recomiendo que ___ (ir/subj.) al médico mañana.",
+      "answer": "vayas",
+      "acceptedAnswers": ["vayas"],
+      "points": 2,
+      "lessonId": "b1-u16-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi: 'No creo que la situación ___  (mejorar) pronto.'?",
+      "options": ["mejora", "mejore", "mejoró", "mejoraría"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u16-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Es urgente ___ los gobiernos ___ (tomar/subj.) medidas contra el cambio climático.",
+      "answer": "que / tomen",
+      "acceptedAnswers": ["que / tomen"],
+      "points": 2,
+      "lessonId": "b1-u16-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam iskustvo u digitalnom marketingu i radim puno radno vrijeme.",
+      "answer": "Tengo experiencia en marketing digital y trabajo a tiempo completo.",
+      "acceptedAnswers": ["Tengo experiencia en marketing digital y trabajo a tiempo completo.", "Tengo experiencia en marketing digital y trabajo jornada completa."],
+      "points": 3,
+      "lessonId": "b1-u16-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Treba reciklirati i smanjiti ugljični otisak.",
+      "answer": "Hay que reciclar y reducir la huella de carbono.",
+      "acceptedAnswers": ["Hay que reciclar y reducir la huella de carbono.", "Debemos reciclar y reducir nuestra huella de carbono."],
+      "points": 3,
+      "lessonId": "b1-u16-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Creo que la inteligencia artificial cambiará el mundo del trabajo. Sin embargo, no creo que sea necesariamente algo negativo.",
+      "answer": "Creo que la inteligencia artificial cambiará el mundo del trabajo. Sin embargo, no creo que sea necesariamente algo negativo.",
+      "points": 3,
+      "lessonId": "b1-u16-l3"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o jednoj od ovih tema: (a) idealan posao, (b) problem koji te brine u zdravlju ili okolini. Koristi barem: kondicional (me gustaría), mišljenje (creo/no creo que), nužnost (hay que / es necesario que + subj.).",
+      "minWords": 45,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: kondicional ispravno (2), creo/no creo que ispravno (3), hay que / es necesario que + subj. ispravno (3), pravopis (2). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u16-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u16-l1", "topic": "Posao: CV, entrevista, sueldo, ascenso, despido; kondicional za pristojnost" },
+    { "lessonId": "b1-u16-l2", "topic": "Zdravlje: me duele/duelen (doler); simptomi; deberías + inf.; te recomiendo que + subj." },
+    { "lessonId": "b1-u16-l3", "topic": "Mediji/tehnologija: redes sociales, algoritmo, IA; creo que (ind.) vs no creo que (subj.)" },
+    { "lessonId": "b1-u16-l4", "topic": "Okolina: cambio climático, reciclar, energías renovables; hay que + inf.; es necesario que + subj." }
+  ]
+}

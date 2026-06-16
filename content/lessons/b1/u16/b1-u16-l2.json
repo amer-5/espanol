@@ -1,0 +1,169 @@
+{
+  "id": "b1-u16-l2",
+  "level": "B1",
+  "unit": 16,
+  "lessonNumber": 2,
+  "title": "Zdravlje i tijelo — La salud y el cuerpo",
+  "subtitle": "Me duele la cabeza, tengo fiebre...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Opisati simptome i bolesti na španskom",
+    "Razgovarati s liječnikom i u apoteci",
+    "Davati i primati savjete o zdravlju"
+  ],
+  "prerequisites": ["b1-u16-l1"],
+  "vocabulary": [
+    { "es": "me duele/n", "bs": "boli me / bole me", "pos": "gl. gustar-tip", "ipa": "me ˈdwe.le", "example_es": "Me duele la cabeza y me duelen los pies.", "example_bs": "Boli me glava i bole me noge." },
+    { "es": "tener fiebre", "bs": "imati temperaturu / groznicu", "pos": "izr.", "ipa": "te.ˈner ˈfje.βre", "example_es": "Tengo fiebre desde ayer.", "example_bs": "Imam temperaturu od juče." },
+    { "es": "estar resfriado/a", "bs": "biti prehlađen/a", "pos": "izr.", "ipa": "es.ˈtar res.fri.ˈa.ðo", "example_es": "Estoy resfriado y me duele la garganta.", "example_bs": "Prehlađen/a sam i boli me grlo." },
+    { "es": "el dolor de cabeza/estómago", "bs": "glavobolja / bol u stomaku", "pos": "im.", "ipa": "el do.ˈlor ðe ka.ˈβe.θa", "example_es": "Tengo un fuerte dolor de cabeza.", "example_bs": "Imam jaku glavobolju." },
+    { "es": "el médico / la consulta", "bs": "liječnik / ordinacija", "pos": "im.", "ipa": "el ˈme.ði.ko", "example_es": "Tengo cita con el médico a las 10.", "example_bs": "Imam termin kod liječnika u 10." },
+    { "es": "la receta médica", "bs": "recept", "pos": "im.", "ipa": "la re.ˈθe.ta ˈme.ði.ka", "example_es": "Necesito una receta para este medicamento.", "example_bs": "Trebam recept za ovaj lijek." },
+    { "es": "el medicamento / el fármaco", "bs": "lijek", "pos": "im.", "ipa": "el me.ði.ka.ˈmen.to", "example_es": "Toma el medicamento dos veces al día.", "example_bs": "Uzimaj lijek dva puta dnevno." },
+    { "es": "alergico/a a", "bs": "alergičan/na na", "pos": "adj.", "ipa": "a.ˈler.xi.ko a", "example_es": "Soy alérgico al polen.", "example_bs": "Alergičan/na sam na pelud." },
+    { "es": "operar / la operación", "bs": "operirati / operacija", "pos": "gl./im.", "ipa": "o.pe.ˈrar", "example_es": "Le operaron de rodilla.", "example_bs": "Operirali su ga/je na koljenu." },
+    { "es": "hacerse análisis de sangre", "bs": "napraviti krvnu sliku", "pos": "izr.", "ipa": "a.ˈθer.se a.ˈna.li.sis ðe ˈsaŋ.gre", "example_es": "El médico me mandó hacerme análisis de sangre.", "example_bs": "Liječnik me poslao na krvnu sliku." }
+  ],
+  "grammar": [
+    {
+      "concept": "Glagoli kao DOLER i MOLESTAR (tip gustar)",
+      "explanation_bs": "DOLER (boljeti) i MOLESTAR (smetati) funkcioniraju kao GUSTAR: subjekt je dio tijela ili stvar, a osoba je indirektan objekt. Me duele la cabeza = Glava (subjekt) boli mene. Me duelen los pies = Noge (pl.) bole mene. Konjugacija: me/te/le/nos/os/les + duele (jed.) / duelen (mn.). Nije: 'Yo duelo' — pogrešno!",
+      "table": {
+        "headers": ["Primjer", "Razlog"],
+        "rows": [
+          ["Me duele la espalda.", "espalda = jed. → duele"],
+          ["Me duelen los oídos.", "oídos = mn. → duelen"],
+          ["¿Te duele algo?", "ti boli li što?"],
+          ["Le molesta el ruido.", "njemu/joj smeta buka"]
+        ]
+      },
+      "examples": [
+        { "es": "Desde hace tres días me duele la rodilla.", "bs": "Već tri dana me boli koljeno." },
+        { "es": "A mi hermana le duele el estómago cuando come mucho.", "bs": "Mojoj sestri boli stomak kada puno jede." },
+        { "es": "¿Le molesta si abro la ventana?", "bs": "Smeta li vam ako otvorim prozor?" }
+      ],
+      "tips": "Zapamti: DOLER = boljeti. Subjekt je DIO TIJELA. Uvijek provjeri: jed. ili mn.? 'la cabeza' → duele. 'los pies' → duelen. Greška: 'Me duelen la cabeza' — pogrešno, jer je 'la cabeza' jed."
+    },
+    {
+      "concept": "Davati savjete o zdravlju — deberías, te recomiendo que",
+      "explanation_bs": "Za savjete o zdravlju: **DEBERÍAS** + infinitivo (ti bi trebao/la): 'Deberías descansar.' **TE RECOMIENDO QUE** + subjunktivo: 'Te recomiendo que vayas al médico.' **ES MEJOR QUE** + subjunktivo: 'Es mejor que te quedes en casa.'",
+      "examples": [
+        { "es": "Si tienes fiebre, deberías quedarte en cama.", "bs": "Ako imaš temperaturu, trebao/la bi ostati u krevetu." },
+        { "es": "Te recomiendo que vayas al médico cuanto antes.", "bs": "Preporučujem ti da odeš liječniku što prije." },
+        { "es": "Es mejor que bebas mucha agua y descanses.", "bs": "Bolje je da piješ puno vode i odmoriš se." }
+      ],
+      "tips": ""
+    }
+  ],
+  "dialogue": {
+    "title": "En la consulta médica — Kod liječnika",
+    "lines": [
+      { "speaker": "Médico", "es": "Buenas tardes. ¿Qué le ocurre?", "bs": "Dobar dan. Što vam je?" },
+      { "speaker": "Paciente", "es": "Me duele la garganta y tengo fiebre desde anteayer. También me duele un poco el pecho.", "bs": "Boli me grlo i imam temperaturu od prekjuče. Malo me boli i prsa." },
+      { "speaker": "Médico", "es": "¿Es alérgico a algún medicamento?", "bs": "Jeste li alergični na neki lijek?" },
+      { "speaker": "Paciente", "es": "Sí, soy alérgico a la penicilina.", "bs": "Da, alergičan/na sam na penicilin." },
+      { "speaker": "Médico", "es": "De acuerdo. Le voy a recetar un antibiótico. Debería tomarlo tres veces al día durante una semana.", "bs": "U redu. Propisat ću vam antibiotik. Trebali biste ga uzimati tri puta dnevno tjedan dana." },
+      { "speaker": "Paciente", "es": "¿Debería guardar cama?", "bs": "Trebam li mirovati?" },
+      { "speaker": "Médico", "es": "Sí, le recomiendo que descanse y beba mucho líquido.", "bs": "Da, preporučujem vam da se odmorite i pijete puno tekućine." }
+    ]
+  },
+  "reading": {
+    "title": "Hábitos saludables — Zdrave navike",
+    "text_es": "Los médicos recomiendan que durmamos entre siete y ocho horas por noche. Además, es importante que hagamos ejercicio físico al menos tres veces a la semana. Sin embargo, muchas personas no siguen estos consejos. Debido al estrés del trabajo, es difícil mantener una rutina saludable. Por otro lado, la alimentación equilibrada es fundamental. Los expertos aconsejan que comamos más frutas y verduras y que reduzcamos el consumo de azúcar. A pesar de que sabemos lo que debemos hacer, a veces es difícil llevarlo a la práctica. Lo que más importa es empezar con pequeños cambios: caminar más, beber más agua, dormir mejor.",
+    "glossary": [
+      { "es": "los hábitos", "bs": "navike" },
+      { "es": "la alimentación", "bs": "prehrana / ishrana" },
+      { "es": "equilibrado/a", "bs": "uravnotežen/a" },
+      { "es": "reducir el consumo", "bs": "smanjiti konzumaciju / potrošnju" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko sati spavanja se preporučuje?",
+        "options": ["5-6 sati", "7-8 sati", "9-10 sati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je prema tekstu fundamentalno za zdravlje?",
+        "options": ["Puno vitamina C", "Uravnotežena prehrana", "Redoviti liječnički pregled"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Od čega treba početi prema tekstu?",
+        "options": ["Od odlaska u teretanu svaki dan", "Od malih promjena — hodanje, voda, spavanje", "Od dijetalnog plana"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik: 'A ella ___ los pies después de correr.'?",
+      "options": ["le duele", "le duelen", "se duele", "se duelen"],
+      "answerIndex": 1,
+      "explanation_bs": "Los pies = množina → duelen. Indirektan objekt = le (njoj). Tačno: le duelen."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Te recomiendo que ___ (ir/subj.) al médico cuanto antes.",
+      "answer": "vayas",
+      "acceptedAnswers": ["vayas"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Tengo ___ de cabeza y estoy muy cansado.",
+      "answer": "dolor",
+      "acceptedAnswers": ["dolor"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Boli me grlo i imam temperaturu već dva dana.",
+      "answer": "Me duele la garganta y tengo fiebre desde hace dos días.",
+      "acceptedAnswers": ["Me duele la garganta y tengo fiebre desde hace dos días.", "Tengo dolor de garganta y fiebre hace dos días."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Trebao/la bi se odmoriti i puno piti tekućine.",
+      "answer": "Deberías descansar y beber mucho líquido.",
+      "acceptedAnswers": ["Deberías descansar y beber mucho líquido.", "Deberías descansar y tomar muchos líquidos."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji simptom s mogućom dijagnozom",
+      "pairs": [
+        { "es": "fiebre + tos + congestión", "bs": "resfriado / gripe" },
+        { "es": "dolor de estómago + náuseas", "bs": "problema digestivo" },
+        { "es": "dolor de cabeza + sensibilidad a la luz", "bs": "posible migraña" },
+        { "es": "picor en los ojos + estornudos", "bs": "posible alergia" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Me duele mucho la espalda. El médico me recomendó que descansara y que no levantara peso durante una semana.",
+      "answer": "Me duele mucho la espalda. El médico me recomendó que descansara y que no levantara peso durante una semana."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši simptome koje imaš i zamoli za savjet — koristi me duele/n, tener i deberías/te recomiendo que.",
+      "modelAnswer_es": "Hola, no me encuentro bien. Me duelen la garganta y los oídos, y tengo algo de fiebre. Además, me duele la cabeza. ¿Qué debería hacer? ¿Te parece que debería ir al médico?"
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI igra ulogu liječnika — opišeš simptome, tražiš savjet i razgovaraš o liječenju.",
+    "level": "B1",
+    "allowedGrammar": ["me duele/n (doler)", "tener fiebre/dolor", "deberías + inf.", "te recomiendo que + subj.", "ser alérgico a"],
+    "systemPromptHint": "Odigraj ulogu prijateljskog liječnika koji pita o simptomima i daje savjete. Potičite upotrebu me duele/duelen ispravno (jd/mn.), deberías i te recomiendo que + subjunktivo. Ispravi greške u slaganju broja (jed./mn.) uz doler."
+  },
+  "illustration": {
+    "prompt": "Friendly doctor and patient in a consultation room, clean medical setting, warm and reassuring atmosphere",
+    "alt": "Zdravlje — posjeta liječniku",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["me-duele-duelen", "fiebre-resfriado-sintomi", "deberias-recomiendo-subj", "b1", "u16"]
+  }
+}

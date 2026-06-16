@@ -1,0 +1,150 @@
+{
+  "id": "b1-u16-l4",
+  "level": "B1",
+  "unit": 16,
+  "lessonNumber": 4,
+  "title": "Okolina i klimatske promjene — El medio ambiente",
+  "subtitle": "El cambio climático, el reciclaje, la sostenibilidad...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti vokabular o okolišu i klimatskim promjenama",
+    "Izraziti zabrinutost i prijedloge za rješenja",
+    "Raspravljati o ekološkim temama na B1 razini"
+  ],
+  "prerequisites": ["b1-u16-l3"],
+  "vocabulary": [
+    { "es": "el cambio climático", "bs": "klimatske promjene", "pos": "im.", "ipa": "el ˈkam.bjo kli.ˈma.ti.ko", "example_es": "El cambio climático es una amenaza global.", "example_bs": "Klimatske promjene su globalna prijetnja." },
+    { "es": "el calentamiento global", "bs": "globalno zagrijavanje", "pos": "im.", "ipa": "el ka.len.ta.ˈmjen.to ɣlo.ˈβal", "example_es": "El calentamiento global está aumentando.", "example_bs": "Globalno zagrijavanje raste." },
+    { "es": "reciclar / el reciclaje", "bs": "reciklirati / recikliranje", "pos": "gl./im.", "ipa": "re.θi.ˈklar", "example_es": "Es importante reciclar el vidrio y el papel.", "example_bs": "Važno je reciklirati staklo i papir." },
+    { "es": "las energías renovables", "bs": "obnovljivi izvori energije", "pos": "im. pl.", "ipa": "las e.ner.ˈxi.as re.no.ˈβa.βles", "example_es": "Hay que invertir en energías renovables.", "example_bs": "Treba ulagati u obnovljive izvore energije." },
+    { "es": "la huella de carbono", "bs": "ugljični otisak", "pos": "im.", "ipa": "la ˈwe.ʎa ðe kar.ˈβo.no", "example_es": "Quiero reducir mi huella de carbono.", "example_bs": "Želim smanjiti svoj ugljični otisak." },
+    { "es": "la deforestación", "bs": "krčenje šuma / deforestacija", "pos": "im.", "ipa": "la de.fo.res.ta.ˈθjon", "example_es": "La deforestación destruye los ecosistemas.", "example_bs": "Krčenje šuma uništava ekosustave." },
+    { "es": "sostenible / la sostenibilidad", "bs": "održivo / održivost", "pos": "adj./im.", "ipa": "sos.te.ˈni.βle", "example_es": "Buscamos un modelo de vida más sostenible.", "example_bs": "Tražimo održiviji model života." },
+    { "es": "contaminar / la contaminación", "bs": "zagaditi / zagađenje", "pos": "gl./im.", "ipa": "kon.ta.mi.ˈnar", "example_es": "La contaminación del aire es un problema grave.", "example_bs": "Zagađenje zraka je ozbiljan problem." },
+    { "es": "la biodiversidad", "bs": "bioraznolikost", "pos": "im.", "ipa": "la βjo.ði.βer.si.ˈðað", "example_es": "Perdemos biodiversidad cada año.", "example_bs": "Svake godine gubimo bioraznolikost." },
+    { "es": "tomar medidas", "bs": "poduzeti mjere", "pos": "izr.", "ipa": "to.ˈmar me.ˈði.ðas", "example_es": "Es urgente tomar medidas contra la polución.", "example_bs": "Hitno je poduzeti mjere protiv zagađenja." }
+  ],
+  "grammar": [
+    {
+      "concept": "Izražavanje nužnosti i hitnosti — hay que, es necesario/urgente que + subj.",
+      "explanation_bs": "Za ekološke teme često izražavamo hitnost i nužnost: **HAY QUE** + infinitivo (opća nužnost, bez subjekta): 'Hay que reciclar más.' **ES NECESARIO/URGENTE/IMPRESCINDIBLE QUE** + SUBJUNKTIVO (sa specifičnim subjektom): 'Es necesario que los gobiernos tomen medidas.' **DEBEMOS** + infinitivo (mi trebamo): 'Debemos reducir el consumo de plástico.' **SI NO + PRESENTE → FUTURO** (uvjetno upozorenje): 'Si no actuamos ahora, el planeta sufrirá.'",
+      "examples": [
+        { "es": "Hay que reducir las emisiones de CO₂ urgentemente.", "bs": "Treba hitno smanjiti emisije CO₂." },
+        { "es": "Es imprescindible que los países ricos inviertan en energías limpias.", "bs": "Neophodne je da bogate zemlje ulažu u čiste energije." },
+        { "es": "Si no tomamos medidas ahora, las consecuencias serán irreversibles.", "bs": "Ako sada ne poduzmemo mjere, posljedice će biti ireverzibilne." }
+      ],
+      "tips": "HAY QUE = opća nužnost, nitko nije imenovan. ES NECESARIO QUE + subj. = specifičan subjekat je imenovan ('que los gobiernos actúen'). Razlika je važna u formalnim tekstovima i debatama."
+    }
+  ],
+  "dialogue": {
+    "title": "La conferencia climática — Klimatska konferencija",
+    "lines": [
+      { "speaker": "Activista", "es": "El calentamiento global ya no es una teoría. Es una realidad que afecta a millones de personas.", "bs": "Globalno zagrijavanje više nije teorija. To je stvarnost koja utječe na milijune ljudi." },
+      { "speaker": "Periodista", "es": "¿Qué medidas cree usted que son más urgentes?", "bs": "Koje mjere smatrate najhitnijima?" },
+      { "speaker": "Activista", "es": "Es imprescindible que los países industrializados reduzcan sus emisiones. Además, hay que invertir en energías renovables.", "bs": "Neophodno je da industrijske zemlja smanje svoje emisije. Osim toga, treba ulagati u obnovljive izvore energije." },
+      { "speaker": "Periodista", "es": "¿Y qué puede hacer un ciudadano común?", "bs": "A što može učiniti obični građanin?" },
+      { "speaker": "Activista", "es": "Mucho. Hay que reciclar, reducir el consumo de carne y usar el transporte público. Debemos reducir nuestra huella de carbono.", "bs": "Puno. Treba reciklirati, smanjiti konzumaciju mesa i koristiti javni prijevoz. Moramo smanjiti naš ugljični otisak." },
+      { "speaker": "Periodista", "es": "¿Tiene esperanza? Porque si no actuamos, las consecuencias serán gravísimas.", "bs": "Imate li nade? Jer ako ne djelujemo, posljedice će biti veoma ozbiljne." },
+      { "speaker": "Activista", "es": "Sí. Es necesario que tengamos esperanza para tener fuerza para actuar.", "bs": "Da. Neophodno je da imamo nade da bismo imali snage za djelovanje." }
+    ]
+  },
+  "reading": {
+    "title": "El planeta en crisis — Planet u krizi",
+    "text_es": "Los científicos llevan décadas advirtiendo sobre el cambio climático, pero los gobiernos han tardado en actuar. Debido a la quema de combustibles fósiles, la temperatura media del planeta ha subido casi dos grados. Como consecuencia, los glaciares se derriten, el nivel del mar sube y los fenómenos meteorológicos extremos son más frecuentes. Aunque se han firmado acuerdos internacionales como el de París, no se está avanzando suficientemente rápido. Es urgente que los países desarrollados lideren la transición energética. Por otro lado, cada ciudadano también puede contribuir: reciclar, consumir menos plástico, usar más el transporte público y apostar por una dieta más sostenible. Si no tomamos medidas colectivas e individuales ahora, las generaciones futuras pagarán el precio.",
+    "glossary": [
+      { "es": "los combustibles fósiles", "bs": "fosilna goriva" },
+      { "es": "los glaciares se derriten", "bs": "ledenjaci se tope" },
+      { "es": "los fenómenos meteorológicos", "bs": "meteorološke pojave" },
+      { "es": "la transición energética", "bs": "energetska tranzicija / prelaz" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko je porasla prosječna temperatura planeta?",
+        "options": ["Jedan stepen", "Skoro dva stepena", "Pet stepeni"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što su posljedice klimatskih promjena prema tekstu?",
+        "options": ["Samo toplije ljeto", "Topljenje ledenjaka, rast mora, ekstremni fenomeni", "Više kiše"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što tekst predlaže svakom građaninu?",
+        "options": ["Iseljenje iz gradova", "Recikliranje, manje plastike, javni prijevoz, održiva prehrana", "Kupovinu solarnih panela"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji izraz koristimo za opću nužnost bez imenovanog subjekta?",
+      "options": ["Es necesario que", "Hay que", "Deberían", "Es importante que"],
+      "answerIndex": 1,
+      "explanation_bs": "HAY QUE + infinitivo = opća nužnost, nitko nije imenovan. 'Hay que reciclar.' = Treba reciklirati. (nema specifičnog subjekta)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Es urgente que los países ___ (tomar/subj.) medidas climáticas.",
+      "answer": "tomen",
+      "acceptedAnswers": ["tomen"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si no ___ (actuar/prez.) ahora, el planeta ___ (sufrir/futuro) consecuencias graves.",
+      "answer": "actuamos / sufrirá",
+      "acceptedAnswers": ["actuamos / sufrirá"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Treba reciklirati i koristiti obnovljive izvore energije.",
+      "answer": "Hay que reciclar y usar energías renovables.",
+      "acceptedAnswers": ["Hay que reciclar y usar energías renovables.", "Debemos reciclar y utilizar energías renovables."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Neophodno je da vlade ulažu u zelenu energiju.",
+      "answer": "Es imprescindible que los gobiernos inviertan en energía verde.",
+      "acceptedAnswers": ["Es imprescindible que los gobiernos inviertan en energía verde.", "Es necesario que los gobiernos inviertan en energías limpias."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji pojam s definicijom",
+      "pairs": [
+        { "es": "la huella de carbono", "bs": "količina CO₂ koju osoba/kompanija emitira" },
+        { "es": "la deforestación", "bs": "masovno krčenje šuma" },
+        { "es": "las energías renovables", "bs": "sunce, vjetar, voda — ne fosilna goriva" },
+        { "es": "la biodiversidad", "bs": "raznolikost vrsta u ekosustavu" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Es necesario que todos contribuyamos a la lucha contra el cambio climático. Hay que reducir las emisiones y apostar por un estilo de vida sostenible.",
+      "answer": "Es necesario que todos contribuyamos a la lucha contra el cambio climático. Hay que reducir las emisiones y apostar por un estilo de vida sostenible."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Govori 1 minutu o klimatskim promjenama — koristi hay que, es necesario que + subj. i jedan uvjetni uvjet (si no... → futuro).",
+      "modelAnswer_es": "El cambio climático es el mayor desafío de nuestra era. Hay que tomar medidas urgentes a todos los niveles. Es necesario que los gobiernos inviertan en energías renovables y que reduzcan las emisiones. Además, cada ciudadano puede contribuir: hay que reciclar, consumir menos carne y usar más el transporte público. Si no actuamos ahora, las consecuencias para las generaciones futuras serán irreversibles."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI razmatra ekološka pitanja s tobom — vježbaš hay que, es necesario que + subj. i uvjetne rečenice za ekologiju.",
+    "level": "B1",
+    "allowedGrammar": ["hay que + inf.", "es necesario/urgente/imprescindible que + subj.", "si no + presente → futuro", "debemos + inf."],
+    "systemPromptHint": "Razmotri s studentom konkretne ekološke probleme i rješenja. Potičite upotrebu hay que (opća nužnost) vs es necesario que + subjunktivo (specifičan subjekat). Ispravi greške u nužnim formama."
+  },
+  "illustration": {
+    "prompt": "Earth with pollution on one side and green renewable energy on the other, climate balance, hopeful yet urgent mood",
+    "alt": "Okolina i klimatske promjene",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["cambio-climatico-reciclaje", "hay-que-inf", "es-necesario-que-subj", "b1", "u16"]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "b1-u16-l1",
+  "level": "B1",
+  "unit": 16,
+  "lessonNumber": 1,
+  "title": "Posao i karijera — El trabajo y la carrera",
+  "subtitle": "Tražim posao, idem na intervju...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti vokabular vezan za traženje posla i intervju",
+    "Opisati radno iskustvo i kvalifikacije",
+    "Pisati i govoriti o karijernim ciljevima"
+  ],
+  "prerequisites": ["b1-u15-l4"],
+  "vocabulary": [
+    { "es": "el currículum vitae (CV)", "bs": "životopis", "pos": "im.", "ipa": "ku.ˈri.ku.lum ˈβi.te", "example_es": "Tengo que actualizar mi currículum.", "example_bs": "Moram ažurirati životopis." },
+    { "es": "la entrevista de trabajo", "bs": "razgovor za posao", "pos": "im.", "ipa": "la en.tre.ˈβis.ta ðe tra.ˈβa.xo", "example_es": "Mañana tengo una entrevista de trabajo.", "example_bs": "Sutra imam razgovor za posao." },
+    { "es": "solicitar un puesto", "bs": "prijaviti se za radno mjesto", "pos": "gl.", "ipa": "so.li.θi.ˈtar un ˈpwes.to", "example_es": "Me gustaría solicitar el puesto de diseñador.", "example_bs": "Htio/la bih se prijaviti za radno mjesto dizajnera." },
+    { "es": "tener experiencia en", "bs": "imati iskustva u", "pos": "izr.", "ipa": "te.ˈner eks.pe.ˈrjen.θja en", "example_es": "Tengo experiencia en marketing digital.", "example_bs": "Imam iskustvo u digitalnom marketingu." },
+    { "es": "el sueldo / el salario", "bs": "plaća", "pos": "im.", "ipa": "el ˈswel.ðo", "example_es": "¿Cuál sería el sueldo?", "example_bs": "Kakva bi bila plaća?" },
+    { "es": "trabajar a tiempo completo/parcial", "bs": "raditi puno/pola radnog vremena", "pos": "izr.", "ipa": "a ˈtjem.po kom.ˈple.to", "example_es": "Prefiero trabajar a tiempo parcial.", "example_bs": "Preferiram raditi pola radnog vremena." },
+    { "es": "ascender / el ascenso", "bs": "napredovati / napredovanje", "pos": "gl./im.", "ipa": "as.θen.ˈder", "example_es": "Me ascendieron a directora.", "example_bs": "Napredovala sam na poziciju direktorice." },
+    { "es": "despedir / el despido", "bs": "otpustiti / otkaz", "pos": "gl./im.", "ipa": "des.pe.ˈðir", "example_es": "Le dieron el despido inesperadamente.", "example_bs": "Dobio/la je otkaz neočekivano." },
+    { "es": "los beneficios laborales", "bs": "beneficije / povlastice", "pos": "im. pl.", "ipa": "los be.ne.ˈfi.θjos la.βo.ˈra.les", "example_es": "El trabajo incluye seguro médico.", "example_bs": "Posao uključuje zdravstveno osiguranje." },
+    { "es": "el trabajo en equipo", "bs": "timski rad", "pos": "izr.", "ipa": "el tra.ˈβa.xo en e.ˈki.po", "example_es": "Me gusta mucho el trabajo en equipo.", "example_bs": "Jako mi se sviđa timski rad." }
+  ],
+  "grammar": [
+    {
+      "concept": "Kondicional za pristojne zahtjeve na intervjuu",
+      "explanation_bs": "Na razgovoru za posao koristi KONDICIONAL za pristojnost: '¿**Podría** decirme el horario?' (Možete li mi reći radno vrijeme?) / '**Me gustaría** saber más sobre el equipo.' (Htio/la bih znati više o timu.) / '**Estaría** dispuesto/a a viajar.' (Bio/la bih spreman/na putovati.) Ove forme zvuče profesionalnije od prezenta.",
+      "examples": [
+        { "es": "¿Podría preguntarle sobre las posibilidades de ascenso?", "bs": "Mogu li vas pitati o mogućnostima napredovanja?" },
+        { "es": "Estaría disponible para empezar la semana que viene.", "bs": "Bio/la bih raspoloživ/a za početak sljedeće sedmice." },
+        { "es": "Me gustaría saber si hay oportunidades de formación.", "bs": "Htio/la bih znati ima li prilike za usavršavanje." }
+      ],
+      "tips": "Na intervjuu: kondicional = profesionalno i pristojno. Presente direktno = može zvučati grubo. Koristi '¿Podría...' umjesto '¿Puede...'"
+    }
+  ],
+  "dialogue": {
+    "title": "La entrevista — Razgovor za posao",
+    "lines": [
+      { "speaker": "Entrevistador", "es": "Buenos días. Cuénteme sobre usted y su experiencia.", "bs": "Dobro jutro. Recite mi nešto o sebi i svom iskustvu." },
+      { "speaker": "Candidata", "es": "Llevo cinco años trabajando en marketing digital. Tengo experiencia en redes sociales y en campañas de email.", "bs": "Pet godina radim u digitalnom marketingu. Imam iskustvo u društvenim mrežama i email kampanjama." },
+      { "speaker": "Entrevistador", "es": "¿Por qué quiere cambiar de trabajo?", "bs": "Zašto želite promijeniti posao?" },
+      { "speaker": "Candidata", "es": "Me gustaría un puesto que ofrezca más posibilidades de ascenso. Además, me interesa trabajar en equipo.", "bs": "Htjela bih radno mjesto koje nudi više mogućnosti napredovanja. Osim toga, zanima me timski rad." },
+      { "speaker": "Entrevistador", "es": "¿Estaría dispuesta a trabajar a tiempo completo?", "bs": "Biste li bili raspoložni raditi puno radno vrijeme?" },
+      { "speaker": "Candidata", "es": "Sí, sin problema. ¿Podría preguntarle cuáles son los beneficios laborales?", "bs": "Da, bez problema. Mogu li vas pitati koje su beneficije?" }
+    ]
+  },
+  "reading": {
+    "title": "El trabajo ideal — Idealan posao",
+    "text_es": "Según una encuesta reciente, los trabajadores valoran cada vez más la flexibilidad horaria y la posibilidad de trabajar desde casa. En primer lugar, el sueldo sigue siendo importante, pero ya no es el único factor. Por otro lado, un buen ambiente de trabajo y posibilidades de ascenso son aspectos que muchos consideran imprescindibles. Aunque el trabajo a tiempo parcial era antes una opción minoritaria, cada vez más empresas lo ofrecen. Además, los beneficios como el seguro médico, el seguro de vida y los días de vacaciones adicionales son muy valorados. En conclusión, el concepto de trabajo ideal ha cambiado: hoy en día, muchos buscan un equilibrio entre la vida profesional y personal.",
+    "glossary": [
+      { "es": "la encuesta", "bs": "anketa / istraživanje" },
+      { "es": "imprescindible", "bs": "neophodan / nezamjenljiv" },
+      { "es": "el equilibrio", "bs": "ravnoteža / balans" },
+      { "es": "valorar", "bs": "cijeniti / vrednovati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što radnici sve više cijene?",
+        "options": ["Samo visoku plaću", "Fleksibilnost i rad od kuće", "Formalne urede"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji benefiti se spominju u tekstu?",
+        "options": ["Besplatna hrana i prijevoz", "Zdravstveno osiguranje, životno osiguranje i dodatan godišnji odmor", "Kompanijski auto"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što se promijenilo u konceptu idealnog posla?",
+        "options": ["Plaća je postala nevažna", "Traži se ravnoteža između profesionalnog i privatnog", "Rad od kuće je nestao"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji izraz koristimo za 'raditi puno radno vrijeme'?",
+      "options": ["trabajar a tiempo parcial", "trabajar a tiempo completo", "trabajar en equipo", "trabajar por cuenta propia"],
+      "answerIndex": 1,
+      "explanation_bs": "A tiempo completo = puno radno vrijeme. A tiempo parcial = pola radnog vremena."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ preguntarle sobre el horario de trabajo? (pristojni zahtjev)",
+      "answer": "¿Podría",
+      "acceptedAnswers": ["¿Podría", "Podría"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Llevo tres años ___ (trabajar) en esta empresa.",
+      "answer": "trabajando",
+      "acceptedAnswers": ["trabajando"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam iskustvo u radu s klijentima i u timskom radu.",
+      "answer": "Tengo experiencia en atención al cliente y en trabajo en equipo.",
+      "acceptedAnswers": ["Tengo experiencia en atención al cliente y en trabajo en equipo.", "Tengo experiencia trabajando con clientes y en equipo."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Htio/la bih znati više o mogućnostima napredovanja u ovoj kompaniji.",
+      "answer": "Me gustaría saber más sobre las posibilidades de ascenso en esta empresa.",
+      "acceptedAnswers": ["Me gustaría saber más sobre las posibilidades de ascenso en esta empresa.", "Me gustaría conocer las oportunidades de crecimiento en la empresa."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji pojam s definicijom",
+      "pairs": [
+        { "es": "el ascenso", "bs": "napredovanje na višu poziciju" },
+        { "es": "el despido", "bs": "gubitak posla / otkaz" },
+        { "es": "el sueldo", "bs": "novčana naknada za rad" },
+        { "es": "los beneficios laborales", "bs": "dodatne povlastice uz posao" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Busco un trabajo a tiempo completo donde pueda usar mis habilidades de comunicación y donde haya posibilidades de ascenso.",
+      "answer": "Busco un trabajo a tiempo completo donde pueda usar mis habilidades de comunicación y donde haya posibilidades de ascenso."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Zamislite da ste na razgovoru za posao — recite nešto o sebi, iskustvu i pitajte o uvjetima rada.",
+      "modelAnswer_es": "Buenos días. Me llamo Ana y tengo tres años de experiencia en diseño gráfico. He trabajado principalmente con clientes internacionales, así que hablo inglés con fluidez. Me gustaría solicitar el puesto de diseñadora senior. ¿Podría preguntarle sobre el horario y las posibilidades de trabajar desde casa?"
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI igra ulogu anketara na razgovoru za posao — vježbaš profesionalni vokabular i kondicional.",
+    "level": "B1",
+    "allowedGrammar": ["kondicional za pristojnost (podría/me gustaría/estaría)", "llevar + gerundio", "tener experiencia en", "relativne rečenice"],
+    "systemPromptHint": "Odigraj ulogu intervjuera koji pita o iskustvu, ciljevima i uvjetima. Neka student koristi kondicional za pristojne zahtjeve i odgovore. Ispravi greške u vokabularu o radu."
+  },
+  "illustration": {
+    "prompt": "Professional interview setting, two people at a desk, business casual clothing, friendly atmosphere",
+    "alt": "Razgovor za posao — intervju",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["entrevista-trabajo", "curriculum-sueldo-ascenso", "kondicional-pristojnost", "b1", "u16"]
+  }
+}

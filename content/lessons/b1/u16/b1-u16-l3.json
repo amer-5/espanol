@@ -1,0 +1,149 @@
+{
+  "id": "b1-u16-l3",
+  "level": "B1",
+  "unit": 16,
+  "lessonNumber": 3,
+  "title": "Mediji i tehnologija — Los medios y la tecnología",
+  "subtitle": "Navike, društvene mreže i digitalni život",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti vokabular o medijima, društvenim mrežama i tehnologiji",
+    "Izraziti mišljenje o digitalnom životu",
+    "Diskutovati o prednostima i nedostacima tehnologije"
+  ],
+  "prerequisites": ["b1-u16-l2"],
+  "vocabulary": [
+    { "es": "las redes sociales", "bs": "društvene mreže", "pos": "im. pl.", "ipa": "las ˈre.ðes so.ˈθja.les", "example_es": "Paso mucho tiempo en las redes sociales.", "example_bs": "Provodim puno vremena na društvenim mrežama." },
+    { "es": "publicar / la publicación", "bs": "objaviti / objava", "pos": "gl./im.", "ipa": "pu.βli.ˈkar", "example_es": "Publiqué una foto de mis vacaciones.", "example_bs": "Objavio/la sam fotografiju s odmora." },
+    { "es": "el algoritmo", "bs": "algoritam", "pos": "im.", "ipa": "el al.ˈɣo.rit.mo", "example_es": "El algoritmo me muestra lo que me interesa.", "example_bs": "Algoritam mi pokazuje ono što me zanima." },
+    { "es": "la privacidad", "bs": "privatnost", "pos": "im.", "ipa": "la pri.βa.θi.ˈðað", "example_es": "Me preocupa la privacidad en internet.", "example_bs": "Brine me privatnost na internetu." },
+    { "es": "la inteligencia artificial (IA)", "bs": "umjetna inteligencija (UI)", "pos": "im.", "ipa": "in.te.li.ˈxen.θja ar.ti.fi.ˈθjal", "example_es": "La IA está cambiando el mundo del trabajo.", "example_bs": "UI mijenja svijet rada." },
+    { "es": "estar conectado/a", "bs": "biti spojen/a (online)", "pos": "izr.", "ipa": "es.ˈtar ko.nek.ˈta.ðo", "example_es": "Siempre estoy conectado al móvil.", "example_bs": "Uvijek sam spojen/a na mobitel." },
+    { "es": "las noticias falsas / fake news", "bs": "lažne vijesti", "pos": "im. pl.", "ipa": "las no.ˈti.θjas ˈfal.sas", "example_es": "Es difícil distinguir las noticias falsas.", "example_bs": "Teško je razlikovati lažne vijesti." },
+    { "es": "el dispositivo", "bs": "uređaj", "pos": "im.", "ipa": "el dis.po.ˈsi.ti.βo", "example_es": "Tengo demasiados dispositivos electrónicos.", "example_bs": "Imam previše elektronskih uređaja." },
+    { "es": "descargar / subir", "bs": "preuzeti / uploadati", "pos": "gl.", "ipa": "des.kar.ˈɣar / su.ˈβir", "example_es": "Descargué la aplicación ayer.", "example_bs": "Preuzeo/la sam aplikaciju juče." },
+    { "es": "la adicción a las pantallas", "bs": "ovisnost o ekranima", "pos": "im.", "ipa": "la a.ðik.ˈθjon a las pan.ˈta.ʎas", "example_es": "La adicción a las pantallas afecta a los jóvenes.", "example_bs": "Ovisnost o ekranima utječe na mlade." }
+  ],
+  "grammar": [
+    {
+      "concept": "Izražavanje mišljenja i stava — creo que, opino que, me parece que",
+      "explanation_bs": "Za izražavanje stava koristimo: **Creo/Pienso/Opino QUE + INDICATIVO** (osobno mišljenje kao činjenica). **Me parece QUE + INDICATIVO** (čini mi se). **No creo/No me parece QUE + SUBJUNKTIVO** (negativno mišljenje). **Desde mi punto de vista** (sa moje tačke gledišta). **En mi opinión** (po mom mišljenju). Za diskusiju o medijima koristimo i: **es evidente que** (indicativo), **es posible que** (subjunktivo), **es importante que** (subjunktivo).",
+      "examples": [
+        { "es": "Creo que las redes sociales tienen un impacto negativo en los jóvenes.", "bs": "Mislim da društvene mreže negativno utječu na mlade. (indicativo)" },
+        { "es": "No creo que sea posible vivir sin internet hoy en día.", "bs": "Ne mislim da je moguće živjeti bez interneta danas. (subjunktivo)" },
+        { "es": "En mi opinión, la inteligencia artificial es el mayor cambio de nuestra era.", "bs": "Po mom mišljenju, UI je najveća promjena našeg doba." }
+      ],
+      "tips": "Creo que + indicativo (tvrdim nešto). No creo que + subjunktivo (sunja, negacija). Es importante/posible/necesario que + subjunktivo (procjena). Es evidente/cierto/verdad que + indicativo (činjenica)."
+    }
+  ],
+  "dialogue": {
+    "title": "La tecnología, ¿amiga o enemiga? — Razgovor o tehnologiji",
+    "lines": [
+      { "speaker": "Sofía", "es": "¿Cuántas horas al día crees que pasas mirando el móvil?", "bs": "Koliko sati dnevno misliš da provodiš gledajući u mobitel?" },
+      { "speaker": "Marcos", "es": "Demasiadas, la verdad. Creo que unas cuatro o cinco horas. No me parece bien.", "bs": "Previše, iskreno. Mislim da nekih četiri ili pet sati. Ne čini mi se dobrim." },
+      { "speaker": "Sofía", "es": "En mi opinión, la adicción a las pantallas es un problema real. Los algoritmos nos manipulan.", "bs": "Po mom mišljenju, ovisnost o ekranima je realan problem. Algoritmi nas manipuliraju." },
+      { "speaker": "Marcos", "es": "Sí, aunque creo que también tiene cosas positivas. Por ejemplo, puedo aprender cualquier cosa en YouTube.", "bs": "Da, iako mislim da ima i pozitivnih stvari. Na primjer, mogu naučiti bilo što na YouTubeu." },
+      { "speaker": "Sofía", "es": "Es verdad. Pero no creo que sea bueno que los niños pasen tantas horas frente a una pantalla.", "bs": "Istina je. Ali ne mislim da je dobro da djeca provode toliko sati ispred ekrana." },
+      { "speaker": "Marcos", "es": "Desde mi punto de vista, es importante que los padres establezcan límites.", "bs": "Sa moje tačke gledišta, važno je da roditelji postave granice." }
+    ]
+  },
+  "reading": {
+    "title": "El futuro digital — Digitalna budućnost",
+    "text_es": "La inteligencia artificial ya no es ciencia ficción. Hoy en día, los algoritmos deciden qué vemos en las redes sociales, qué música escuchamos y qué noticias leemos. Desde mi punto de vista, esto tiene consecuencias importantes para la democracia: si solo vemos contenido que confirma nuestras ideas, nunca cuestionamos nada. Es evidente que la tecnología ha mejorado muchos aspectos de nuestra vida. Sin embargo, no creo que sea positivo que dependamos tanto de los dispositivos. En mi opinión, es necesario que desarrollemos un uso crítico y consciente de la tecnología. Aunque sea difícil en un mundo cada vez más conectado, creo que es posible encontrar un equilibrio.",
+    "glossary": [
+      { "es": "la ciencia ficción", "bs": "naučna fantastika" },
+      { "es": "cuestionar", "bs": "dovoditi u pitanje" },
+      { "es": "consciente", "bs": "svjestan/svjesna" },
+      { "es": "depender de", "bs": "ovisiti o" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što algoritmi danas odlučuju?",
+        "options": ["Naše zdravlje", "Što vidimo, slušamo i čitamo", "Naše plaće"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakvu upotrebu tehnologije autor smatra neophodnom?",
+        "options": ["Minimalnu", "Kritičnu i svjesnu", "Potpuno bez tehnologije"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je demokratski problem s algoritmima?",
+        "options": ["Algoritmi su preskupi", "Vidimo samo sadržaj koji potvrđuje naše ideje", "Algoritmi ne rade dobro"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski mod slijedi: 'No creo que la IA ___ (ser) peligrosa.'?",
+      "options": ["es", "era", "sea", "sería"],
+      "answerIndex": 2,
+      "explanation_bs": "No creo que + SUBJUNKTIVO: sea (prez. subj. od ser)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Creo ___ las redes sociales pueden ser útiles si se usan bien.",
+      "answer": "que",
+      "acceptedAnswers": ["que"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En mi ___, la privacidad en internet es un derecho fundamental.",
+      "answer": "opinión",
+      "acceptedAnswers": ["opinión"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Sa moje tačke gledišta, lažne vijesti su ozbiljan problem za demokratiju.",
+      "answer": "Desde mi punto de vista, las noticias falsas son un problema serio para la democracia.",
+      "acceptedAnswers": ["Desde mi punto de vista, las noticias falsas son un problema serio para la democracia.", "En mi opinión, las noticias falsas son un problema grave para la democracia."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Nije mi se čini dobrim da djeca imaju mobitel prije 12 godina.",
+      "answer": "No me parece bien que los niños tengan móvil antes de los 12 años.",
+      "acceptedAnswers": ["No me parece bien que los niños tengan móvil antes de los 12 años.", "No creo que sea bueno que los niños tengan teléfono antes de los 12 años."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji izraz s glagolskim modom koji slijedi",
+      "pairs": [
+        { "es": "Creo que...", "bs": "INDICATIVO" },
+        { "es": "No creo que...", "bs": "SUBJUNKTIVO" },
+        { "es": "Es evidente que...", "bs": "INDICATIVO" },
+        { "es": "Es importante que...", "bs": "SUBJUNKTIVO" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En mi opinión, es necesario que aprendamos a distinguir las noticias falsas. No creo que sea difícil con un poco de espíritu crítico.",
+      "answer": "En mi opinión, es necesario que aprendamos a distinguir las noticias falsas. No creo que sea difícil con un poco de espíritu crítico."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Daj svoje mišljenje o društvenim mrežama — koristi creo que (ind.), no creo que (subj.) i en mi opinión.",
+      "modelAnswer_es": "En mi opinión, las redes sociales tienen tanto ventajas como desventajas. Creo que nos permiten conectar con personas de todo el mundo, lo cual es fantástico. Sin embargo, no creo que sea bueno pasar más de dos horas al día mirando el móvil. Desde mi punto de vista, la clave está en usarlas con consciencia y no dejar que los algoritmos controlen lo que vemos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI debatira s tobom o tehnologiji i digitalnom životu — vježbaš izražavanje mišljenja s creo/no creo que.",
+    "level": "B1",
+    "allowedGrammar": ["creo/pienso/opino que + indicativo", "no creo que + subjunktivo", "en mi opinión / desde mi punto de vista", "es importante/posible que + subjunktivo"],
+    "systemPromptHint": "Raspravljaj sa studentom o upotrebi društvenih mreža, UI i privatnosti. Potičite upotrebu strukturiranih mišljenja s indicativom/subjunktivom. Ispravi greške u creo que (ind.) vs no creo que (subj.)."
+  },
+  "illustration": {
+    "prompt": "Person surrounded by social media icons and devices, balance scale showing pros and cons of technology",
+    "alt": "Mediji i tehnologija — digitalni život",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["redes-sociales-algoritmo-IA", "creo-que-indicativo-no-creo-subjunktivo", "en-mi-opinion", "b1", "u16"]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "test-b1-u14",
+  "level": "B1",
+  "unit": 14,
+  "title": "Test — Jedinica 14: Kondicional i uvjetne rečenice",
+  "cumulative": true,
+  "timeLimitMinutes": 20,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan kondicional od TENER za 'nosotros'?",
+      "options": ["teneríamos", "tendríamos", "teníamos", "tenemos"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u14-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En tu lugar, yo ___ (hablar) directamente con el director.",
+      "answer": "hablaría",
+      "acceptedAnswers": ["hablaría"],
+      "points": 2,
+      "lessonId": "b1-u14-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji tip uvjeta je: 'Si tuvieras tiempo, me llamarías.'?",
+      "options": ["Realni uvjet (Tip 1)", "Nerealni sadašnji (Tip 2)", "Nerealni prošli (Tip 3)"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u14-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (yo/poder) elegir, ___ (yo/vivir) en el campo.",
+      "answer": "pudiera / viviría",
+      "acceptedAnswers": ["pudiera / viviría", "pudiese / viviría"],
+      "points": 2,
+      "lessonId": "b1-u14-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan pluscuamperfecto od LLEGAR za 'ellos'?",
+      "options": ["llegaron", "habían llegado", "habrían llegado", "hubieran llegado"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u14-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (yo/estudiar) más, ___ (yo/aprobar) el examen.",
+      "answer": "hubiera estudiado / habría aprobado",
+      "acceptedAnswers": ["hubiera estudiado / habría aprobado", "hubiese estudiado / habría aprobado"],
+      "points": 2,
+      "lessonId": "b1-u14-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Žao mi je što nisam naučio/la svirati gitaru.",
+      "answer": "Ojalá hubiera aprendido a tocar la guitarra.",
+      "acceptedAnswers": ["Ojalá hubiera aprendido a tocar la guitarra.", "Me arrepiento de no haber aprendido a tocar la guitarra."],
+      "points": 3,
+      "lessonId": "b1-u14-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En caso de que ___ (llover/subj.), llevaremos paraguas.",
+      "answer": "llueva",
+      "acceptedAnswers": ["llueva"],
+      "points": 2,
+      "lessonId": "b1-u14-l4"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji veznik zahtijeva subjunktiv: 'Puedes salir ___ termines los deberes.'?",
+      "options": ["si", "siempre que", "porque", "cuando (prošlost)"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u14-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Si hubiera llegado antes, habría encontrado una mesa libre en el restaurante.",
+      "answer": "Si hubiera llegado antes, habría encontrado una mesa libre en el restaurante.",
+      "points": 3,
+      "lessonId": "b1-u14-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "U slučaju da ne možeš doći, nazovi me.",
+      "answer": "En caso de que no puedas venir, llámame.",
+      "acceptedAnswers": ["En caso de que no puedas venir, llámame.", "En caso de que no puedas venir, me llamas."],
+      "points": 3,
+      "lessonId": "b1-u14-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o tome šta bi uradio/la da imaš slobodnu godinu. Koristi barem: kondicional (me gustaría/podría), nerealni uvjet (Si tuviera... + kondicional), i jedan izraz žaljenja (Ojalá hubiera... ili De haberlo sabido...).",
+      "minWords": 45,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: kondicional ispravno (3), si + imperfecto subj. + kondicional ispravno (3), izraz žaljenja ispravno (2), pravopis i kohezija (2). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u14-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u14-l1", "topic": "Kondicional simple tvorba; nepravilni: tendr-/podr-/har-/vendr-; me gustaría/debería; pristojni zahtjevi; en tu lugar/yo que tú" },
+    { "lessonId": "b1-u14-l2", "topic": "Si + imperfecto subjuntivo + kondicional (nerealni sadašnji uvjet); oblici: fuera/tuviera/pudiera/hiciera" },
+    { "lessonId": "b1-u14-l3", "topic": "Pluscuamperfecto (había + participio); si hubiera + habría (nerealni prošli uvjet); ojalá hubiera; de haberlo sabido" },
+    { "lessonId": "b1-u14-l4", "topic": "Sva 3 tipa uvjeta; a no ser que/con tal de que/en caso de que/siempre que + subjunktivo" }
+  ]
+}

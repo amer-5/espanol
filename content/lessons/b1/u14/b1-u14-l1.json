@@ -1,0 +1,162 @@
+{
+  "id": "b1-u14-l1",
+  "level": "B1",
+  "unit": 14,
+  "lessonNumber": 1,
+  "title": "Kondicional simple — tvorba",
+  "subtitle": "Podría, tendría, me gustaría...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Tvoriti kondicional pravilnih i nepravilnih glagola",
+    "Koristiti kondicional za pristojne zahtjeve i hipotetičke situacije",
+    "Razlikovati kondicional od futuro simple"
+  ],
+  "prerequisites": ["b1-u13-l4"],
+  "vocabulary": [
+    { "es": "podría + inf.", "bs": "mogao/la bih + glagol", "pos": "kondicional", "ipa": "po.ˈðri.a", "example_es": "¿Podría hablar más despacio?", "example_bs": "Mogli biste govoriti sporije?" },
+    { "es": "tendría que + inf.", "bs": "trebao/la bih + glagol", "pos": "kondicional", "ipa": "ten.ˈðri.a ke", "example_es": "Tendría que estudiar más.", "example_bs": "Trebao/la bih više učiti." },
+    { "es": "debería + inf.", "bs": "trebao/la bih (obaveza)", "pos": "kondicional", "ipa": "de.βe.ˈri.a", "example_es": "Deberías ir al médico.", "example_bs": "Trebao/la bi ići kod doktora." },
+    { "es": "me gustaría + inf.", "bs": "voljelo bi mi se", "pos": "kondicional", "ipa": "me gus.ta.ˈri.a", "example_es": "Me gustaría aprender a cocinar.", "example_bs": "Voljelo bi mi se naučiti kuhati." },
+    { "es": "sería mejor + inf.", "bs": "bilo bi bolje + glagol", "pos": "kondicional", "ipa": "se.ˈri.a me.ˈxor", "example_es": "Sería mejor llamar antes.", "example_bs": "Bilo bi bolje nazvati ranije." },
+    { "es": "en tu lugar", "bs": "na tvom/vašem mjestu", "pos": "izr.", "ipa": "en tu lu.ˈɣar", "example_es": "En tu lugar, hablaría con él.", "example_bs": "Na tvom bih mjestu razgovarao/la s njim." },
+    { "es": "yo que tú", "bs": "ja na tvom mjestu", "pos": "izr. razg.", "ipa": "ˈxo ke tu", "example_es": "Yo que tú, no iría.", "example_bs": "Ja na tvom mjestu ne bih išao/la." },
+    { "es": "¿Le importaría...?", "bs": "Bi li vam smetalo...?", "pos": "pristojni zahtjev", "ipa": "le im.por.ˈta.ri.a", "example_es": "¿Le importaría cerrar la puerta?", "example_bs": "Bi li vam smetalo zatvoriti vrata?" },
+    { "es": "si fuera posible", "bs": "ako bi bilo moguće", "pos": "izr.", "ipa": "si ˈfwe.ra po.ˈsi.βle", "example_es": "Si fuera posible, lo haría.", "example_bs": "Ako bi bilo moguće, učinio/la bih to." },
+    { "es": "idealmente", "bs": "idealno / u idealnom slučaju", "pos": "pril.", "ipa": "i.ðe.al.ˈmen.te", "example_es": "Idealmente, viviríamos juntos.", "example_bs": "Idealno, živjeli bismo zajedno." }
+  ],
+  "grammar": [
+    {
+      "concept": "Kondicional simple — tvorba i upotreba",
+      "explanation_bs": "Kondicional = infinitiv + nastavci: **-ía/-ías/-ía/-íamos/-íais/-ían**. Isti nastavci za SVE glagole! Nepravilna stabla: tener→tendr-, poder→podr-, querer→querr-, hacer→har-, venir→vendr-, decir→dir-, poner→pondr-, salir→saldr-, saber→sabr-. Upotreba: 1) Pristojni zahtjevi (¿Podría...?), 2) Savjeti (Deberías...), 3) Hipotetičke situacije (En tu lugar, yo...), 4) Želje (Me gustaría...).",
+      "table": {
+        "headers": ["Zamjenica", "HABLAR", "TENER (neprav.)", "PODER (neprav.)"],
+        "rows": [
+          ["yo", "hablaría", "tendría", "podría"],
+          ["tú", "hablarías", "tendrías", "podrías"],
+          ["él/ella", "hablaría", "tendría", "podría"],
+          ["nosotros", "hablaríamos", "tendríamos", "podríamos"],
+          ["vosotros", "hablaríais", "tendríais", "podríais"],
+          ["ellos", "hablarían", "tendrían", "podrían"]
+        ]
+      },
+      "examples": [
+        { "es": "¿Podría decirme cómo llegar a la estación?", "bs": "Mogli biste mi reći kako doći do stanice?" },
+        { "es": "Yo que tú, hablaría con el jefe directamente.", "bs": "Ja na tvom mjestu bih razgovarao/la s šefom direktno." },
+        { "es": "Me gustaría vivir cerca del mar algún día.", "bs": "Voljelo bi mi se jednog dana živjeti blizu mora." }
+      ],
+      "tips": "Razlika kondicional vs futuro: FUTURO (-é/-ás/-á) = što ĆE se desiti. KONDICIONAL (-ía/-ías/-ía) = što BI se desilo (hipotetički). Hablaré = Govorit ću. Hablaría = Govorio bih."
+    }
+  ],
+  "dialogue": {
+    "title": "En la agencia de viajes — U putničkoj agenciji",
+    "lines": [
+      { "speaker": "Agente", "es": "Buenos días. ¿En qué podría ayudarle?", "bs": "Dobro jutro. U čemu bih vam mogao/la pomoći?" },
+      { "speaker": "Cliente", "es": "Busco unas vacaciones para dos personas. Algo diferente.", "bs": "Tražim odmor za dvije osobe. Nešto drugačije." },
+      { "speaker": "Agente", "es": "¿Les gustaría algo de aventura o prefieren relax?", "bs": "Da li bi vam se svidjelo nešto avanturističko ili preferirate relaks?" },
+      { "speaker": "Cliente", "es": "Me gustaría combinar las dos cosas. ¿Tendría algo así?", "bs": "Voljelo bi mi se kombinirati oboje. Biste li imali nešto takvo?" },
+      { "speaker": "Agente", "es": "Podríamos ofrecerle Costa Rica — sería una opción perfecta.", "bs": "Mogli bismo vam ponuditi Kostariku — bila bi to savršena opcija." },
+      { "speaker": "Cliente", "es": "¿Y cuánto costaría?", "bs": "I koliko bi koštalo?" },
+      { "speaker": "Agente", "es": "Depende de la fecha. ¿Cuándo le vendría bien viajar?", "bs": "Ovisi o datumu. Kad bi vam odgovaralo putovati?" },
+      { "speaker": "Cliente", "es": "Idealmente en mayo. ¿Sería posible?", "bs": "Idealno u maju. Bi li to bilo moguće?" }
+    ]
+  },
+  "reading": {
+    "title": "¿Qué haría diferente? — Šta bi uradio/la drugačije?",
+    "text_es": "Si pudiera volver a los 20 años con el conocimiento que tengo ahora, haría muchas cosas diferente. Primero, no gastaría tanto tiempo preocupándome por lo que piensan los demás. Estudiaría más idiomas — sabría que el esfuerzo vale la pena. Viajaría más, incluso con poco dinero. Me gustaría haber mantenido contacto con más personas que conocí en distintas etapas de mi vida. Invertiría antes en mi salud y en mis relaciones. Sería más paciente conmigo mismo. Sin embargo, si cambiara todo eso, no sería quien soy hoy. Así que no me arrepiento de nada.",
+    "glossary": [
+      { "es": "el esfuerzo vale la pena", "bs": "trud se isplati" },
+      { "es": "mantener contacto", "bs": "održavati kontakt" },
+      { "es": "invertir en", "bs": "ulagati u" },
+      { "es": "arrepentirse", "bs": "kajati se" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta autor nije bi trošio/la?",
+        "options": ["Novac", "Vrijeme brinući o mišljenjima других", "Energiju na sport"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "U šta bi ranije ulagao/la?",
+        "options": ["U nekretnine", "U zdravlje i odnose", "U posao"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kaje li se autor?",
+        "options": ["Da, jako", "Ne, jer bi promjene promijenile tko je", "Nije siguran/a"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan kondicional od HACER za 'yo'?",
+      "options": ["haré", "hacería", "haría", "hiciera"],
+      "answerIndex": 2,
+      "explanation_bs": "HACER nepravilan: stablo HAR- + ía = haría. Yo: haría."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En tu lugar, yo ___ (hablar) con el jefe.",
+      "answer": "hablaría",
+      "acceptedAnswers": ["hablaría"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (poder/usted) repetir más despacio?",
+      "answer": "Podría",
+      "acceptedAnswers": ["Podría"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Voljelo bi mi se putovati po Latinskoj Americi.",
+      "answer": "Me gustaría viajar por América Latina.",
+      "acceptedAnswers": ["Me gustaría viajar por América Latina.", "Me gustaría recorrer América Latina."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Bi li vam smetalo otvoriti prozor?",
+      "answer": "¿Le importaría abrir la ventana?",
+      "acceptedAnswers": ["¿Le importaría abrir la ventana?", "¿Podría abrir la ventana?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji infinitiv s kondicionalom za 'yo'",
+      "pairs": [
+        { "es": "tener", "bs": "tendría" },
+        { "es": "venir", "bs": "vendría" },
+        { "es": "saber", "bs": "sabría" },
+        { "es": "decir", "bs": "diría" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En tu lugar, yo hablaría con ella antes de tomar una decisión tan importante.",
+      "answer": "En tu lugar, yo hablaría con ella antes de tomar una decisión tan importante."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta bi uradio/la da imaš slobodnu godinu — koristi kondicional i me gustaría.",
+      "modelAnswer_es": "Si tuviera un año libre, viajaría por Asia. Me gustaría aprender mandarín y conocer la cultura china. También estudiaría cocina tailandesa. Escribiría un blog sobre mis experiencias. Sería la aventura de mi vida."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o hipotetičkim situacijama — vježbaš kondicional za savjete, pristojne zahtjeve i želje.",
+    "level": "B1",
+    "allowedGrammar": ["kondicional: hablaría/tendría/podría/haría", "me gustaría + inf.", "en tu lugar / yo que tú", "¿Podría/Tendría...?"],
+    "systemPromptHint": "Postavi studentu hipotetička pitanja: ¿Qué harías si ganaras la lotería? ¿Cómo sería tu trabajo ideal? ¿Qué deberías hacer para mejorar tu español? Koristeći kondicional. Ispravi greške u nepravilnim stablima."
+  },
+  "illustration": {
+    "prompt": "A person daydreaming about travel or an ideal life, thought bubbles, soft dreamy colors",
+    "alt": "Hipotetičke situacije i želje — kondicional",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["kondicional-simple", "podria-tendria-haria", "me-gustaria", "b1", "u14"]
+  }
+}

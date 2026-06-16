@@ -1,0 +1,169 @@
+{
+  "id": "b1-u14-l3",
+  "level": "B1",
+  "unit": 14,
+  "lessonNumber": 3,
+  "title": "Pluscuamperfecto i nerealni prošli uvjet",
+  "subtitle": "Si hubiera estudiado, habría aprobado...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Tvoriti pluscuamperfecto (había + participio)",
+    "Koristiti si + pluscuamperfecto subj. + kondicional perfecto za prošle nerealne uvjete",
+    "Izraziti žaljenje i retrospektivno razmišljanje"
+  ],
+  "prerequisites": ["b1-u14-l2"],
+  "vocabulary": [
+    { "es": "si hubiera + participio", "bs": "da sam bio/la + radnja (prošlost)", "pos": "nerealni prošli uvjet", "ipa": "si u.ˈβje.ra", "example_es": "Si hubiera estudiado, habría aprobado.", "example_bs": "Da sam učio/la, bio/la bih položio/la." },
+    { "es": "habría + participio", "bs": "bio/la bih + glagol (prošlost)", "pos": "kondicional perfekto", "ipa": "a.ˈβri.a", "example_es": "Habría venido antes si hubiera sabido.", "example_bs": "Bio/la bih ranije da sam znao/la." },
+    { "es": "de haberlo sabido", "bs": "da sam to znao/la", "pos": "hipotet. prošlost", "ipa": "de a.ˈβer.lo sa.ˈβi.ðo", "example_es": "De haberlo sabido, no habría ido.", "example_bs": "Da sam to znao/la, ne bih bio/la otišao/la." },
+    { "es": "ojalá hubiera + part.", "bs": "da sam barem / žao mi je što nisam", "pos": "žaljenje", "ipa": "o.xa.ˈla u.ˈβje.ra", "example_es": "Ojalá hubiera llegado antes.", "example_bs": "Žao mi je što nisam ranije stigao/la." },
+    { "es": "me arrepiento de no haber", "bs": "kajem se što nisam", "pos": "izr.", "ipa": "me a.re.ˈpjen.to ðe no a.ˈβer", "example_es": "Me arrepiento de no haber viajado más.", "example_bs": "Kajem se što nisam više putovao/la." },
+    { "es": "si las cosas hubieran sido", "bs": "da su stvari bile", "pos": "nerealni uvjet", "ipa": "si las ˈko.sas u.ˈβje.ran ˈsi.ðo", "example_es": "Si las cosas hubieran sido diferentes...", "example_bs": "Da su stvari bile drugačije..." },
+    { "es": "el pluscuamperfecto", "bs": "pluskvamperfekt", "pos": "gram. termin", "ipa": "el plus.kwan.per.ˈfek.to", "example_es": "Había llegado antes que yo.", "example_bs": "Bio/la je stigao/la prije mene." },
+    { "es": "ya había", "bs": "već je bio/la / već je uradio/la", "pos": "pril. + pluskv.", "ipa": "ˈxa a.ˈβi.a", "example_es": "Cuando llegué, ya había comido.", "example_bs": "Kad sam stigao/la, već je jeo/la." },
+    { "es": "todavía no había", "bs": "još nije bio/la / još nije uradio/la", "pos": "pril. + pluskv.", "ipa": "to.ða.ˈβi.a no a.ˈβi.a", "example_es": "Todavía no había llegado cuando llamé.", "example_bs": "Još nije stigao/la kad sam nazvao/la." },
+    { "es": "nunca antes había", "bs": "nikad ranije nisam/nije", "pos": "izr. + pluskv.", "ipa": "ˈnun.ka ˈan.tes a.ˈβi.a", "example_es": "Nunca antes había probado ese plato.", "example_bs": "Nikad ranije nisam probao/la to jelo." }
+  ],
+  "grammar": [
+    {
+      "concept": "Pluscuamperfecto — tvorba i upotreba",
+      "explanation_bs": "Pluscuamperfecto = **había/habías/había/habíamos/habíais/habían + participio**. Znači: nešto se desilo PRIJE neke druge prošle radnje. 'Cuando llegué (indef.), ya había comido (pluskv.).' → Jeo je PRIJE nego sam stigao. Korisno uz: ya, todavía no, nunca antes, cuando, después de que (u prošlosti).",
+      "table": {
+        "headers": ["Zamjenica", "PLUSCUAMPERFECTO HABER", "Primjer"],
+        "rows": [
+          ["yo", "había", "Yo ya había llegado."],
+          ["tú", "habías", "¿Ya habías comido?"],
+          ["él/ella", "había", "Ella ya había salido."],
+          ["nosotros", "habíamos", "Nosotros ya habíamos terminado."],
+          ["vosotros", "habíais", "¿Ya habíais visto eso?"],
+          ["ellos", "habían", "Ellos ya habían ido."]
+        ]
+      },
+      "examples": [
+        { "es": "Cuando llegamos, la película ya había empezado.", "bs": "Kad smo stigli, film je već počeo." },
+        { "es": "Nunca antes había comido sushi.", "bs": "Nikad ranije nisam jeo/la sushi." },
+        { "es": "Todavía no había terminado cuando me fui.", "bs": "Još nije bio/la završio/la kad sam otišao/la." }
+      ],
+      "tips": "Pluskv. = HAD done (engleski). Perfecto = HAVE done. Indefinido = DID. Red: pluskv. PRIJE indef. → 'Cuando llegué (indef.), ya había salido (pluskv.).' — Izašao je RANIJE."
+    },
+    {
+      "concept": "SI + pluscuamperfecto subj. + kondicional perfekto — prošli nerealni uvjet",
+      "explanation_bs": "Za situacije koje se NISU desile u prošlosti (žaljenje, retrospektiva): **SI + había + participio (subj.)** → ali u subjunktivnom obliku: **hubiera/hubieras/hubiera + participio** + **habría/habrías/habría + participio**. 'Si hubiera estudiado más, habría aprobado.' (Ali nisam učio/la i nisam položio/la.)",
+      "examples": [
+        { "es": "Si hubiera llegado antes, habría encontrado mesa. (ali nisam stigao/la ranije)", "bs": "Da sam ranije stigao/la, bio/la bih našao/la sto. (ali nisam)" },
+        { "es": "Ojalá hubiera estudiado más — me habría ido mejor.", "bs": "Žao mi je što nisam više učio/la — bolje bi mi prošlo." },
+        { "es": "De haberlo sabido, no habría venido.", "bs": "Da sam to znao/la, ne bih bio/la došao/la." }
+      ],
+      "tips": "3 tipa uvjeta: 1) REALAN: Si tienes → tendrás. 2) NEREALAN SADAŠNJI: Si tuvieras → tendrías. 3) NEREALAN PROŠLI: Si hubieras tenido → habrías tenido. Svaki je jači stupanj od prethodnog."
+    }
+  ],
+  "dialogue": {
+    "title": "Después del partido — Nakon utakmice",
+    "lines": [
+      { "speaker": "Martín", "es": "¡Qué pena! Perdimos el partido. Si hubiéramos entrenado más, habríamos ganado.", "bs": "Koja šteta! Izgubili smo utakmicu. Da smo više trenirali, bili bismo pobijedili." },
+      { "speaker": "Leo", "es": "Sí. Y si el árbitro no hubiera cometido ese error, el resultado habría sido diferente.", "bs": "Da. I da sudac nije napravio tu grešku, rezultat bi bio drugačiji." },
+      { "speaker": "Martín", "es": "Ojalá hubiera marcado ese gol en el último minuto...", "bs": "Žao mi je što nisam postigao taj gol u posljednjoj minuti..." },
+      { "speaker": "Leo", "es": "No te machaces. Si hubieras fallado, no habrías tenido la oportunidad de intentarlo.", "bs": "Ne muči se. Da nisi pokušao, ne bi bio imao ni šansu." },
+      { "speaker": "Martín", "es": "Tienes razón. De todas formas, si hubiéramos marcado antes, no habríamos estado tan nerviosos al final.", "bs": "Imaš pravo. U svakom slučaju, da smo ranije postigli gol, ne bismo bili tako nervozni na kraju." },
+      { "speaker": "Leo", "es": "La próxima vez será diferente. Aprenderemos de esto.", "bs": "Sljedeći put bit će drugačije. Naučit ćemo iz ovoga." }
+    ]
+  },
+  "reading": {
+    "title": "El efecto mariposa — Efekt leptira",
+    "text_es": "El concepto del 'efecto mariposa' dice que pequeñas acciones pueden tener grandes consecuencias. ¿Alguna vez has pensado: 'Si no hubiera tomado ese autobús, no te habría conocido'? O: 'Si hubiera aceptado ese trabajo, mi vida habría sido completamente diferente.' Es fascinante imaginar las vidas alternativas que podríamos haber tenido. Si hubiera elegido otra carrera, ¿sería más feliz hoy? Si no hubiera cometido esos errores, ¿habría llegado al mismo lugar? Quizás sí, quizás no. Lo cierto es que cada decisión del pasado nos ha traído hasta aquí.",
+    "glossary": [
+      { "es": "el efecto mariposa", "bs": "efekt leptira" },
+      { "es": "las consecuencias", "bs": "posljedice" },
+      { "es": "vidas alternativas", "bs": "alternativni životi" },
+      { "es": "nos ha traído hasta aquí", "bs": "dovelo nas je ovdje" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta kaže koncept efekta leptira?",
+        "options": ["Da su male akcije nevažne", "Da male akcije imaju velike posljedice", "Da je budućnost predodređena"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji primjer se daje o autobusu?",
+        "options": ["Da je autobus kasnio", "Da da nisi uzeo/la autobus, ne bi upoznao/la nekoga", "Da je autobus bio pun"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta je sigurno na kraju teksta?",
+        "options": ["Da su loše odluke greška", "Da su sve prošle odluke dovele nas ovdje", "Da treba promijeniti prošlost"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan pluscuamperfecto od LLEGAR za 'él'?",
+      "options": ["llegó", "había llegado", "habrá llegado", "hubiera llegado"],
+      "answerIndex": 1,
+      "explanation_bs": "Pluscuamperfecto = había + participio. Él: había llegado. (hubiera = subjunktivni oblik)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (yo/estudiar) más, ___ (yo/aprobar) el examen.",
+      "answer": "hubiera estudiado / habría aprobado",
+      "acceptedAnswers": ["hubiera estudiado / habría aprobado", "hubiese estudiado / habría aprobado"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando llegamos, la fiesta ya ___ (terminar).",
+      "answer": "había terminado",
+      "acceptedAnswers": ["había terminado"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Da sam ranije naučio/la španski, putovao/la bih u Španiju prošle godine.",
+      "answer": "Si hubiera aprendido español antes, habría viajado a España el año pasado.",
+      "acceptedAnswers": ["Si hubiera aprendido español antes, habría viajado a España el año pasado.", "Si hubiese aprendido español antes, habría ido a España el año pasado."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Žao mi je što nisam došao/la na tu zabavu.",
+      "answer": "Ojalá hubiera ido a esa fiesta.",
+      "acceptedAnswers": ["Ojalá hubiera ido a esa fiesta.", "Me arrepiento de no haber ido a esa fiesta."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji tip uvjeta s primjerom",
+      "pairs": [
+        { "es": "Si tienes tiempo, llámame.", "bs": "realni uvjet (presente/futuro)" },
+        { "es": "Si tuvieras tiempo, me llamarías.", "bs": "nerealni sadašnji (imp.subj/kond.)" },
+        { "es": "Si hubieras tenido tiempo, me habrías llamado.", "bs": "nerealni prošli (pluskv.subj/kond.perf.)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Si hubiera sabido que era tan difícil, habría pedido ayuda antes.",
+      "answer": "Si hubiera sabido que era tan difícil, habría pedido ayuda antes."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci nešto što žališ iz prošlosti i šta bi se desilo da si postupio/la drugačije — koristi Si hubiera... + habría...",
+      "modelAnswer_es": "Me arrepiento de no haber aprendido a tocar un instrumento de pequeño. Si hubiera empezado con la guitarra de niño, habría llegado a un nivel muy bueno. Ojalá hubiera tenido más paciencia en esa época."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o žaljenjima i prošlim hipotetičkim situacijama — vježbaš si hubiera + habría.",
+    "level": "B1",
+    "allowedGrammar": ["pluscuamperfecto (había + part.)", "si hubiera + part. + habría + part.", "ojalá hubiera", "de haberlo sabido"],
+    "systemPromptHint": "Pitaj studenta o žaljenjima i alternativnim prošlostima: ¿Qué habrías hecho diferente en tu vida? ¿De qué te arrepientes? Si hubieras tenido más oportunidades, ¿qué habrías elegido? Ispravi greške u oblicima pluscuamperfekta i kondicionala perfekta."
+  },
+  "illustration": {
+    "prompt": "A person looking back at a crossroads or life choices, a split path, nostalgic atmosphere, regret and reflection",
+    "alt": "Žaljenja i retrospektiva — prošli nerealni uvjet",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["pluscuamperfecto", "si-hubiera-habria", "nerealni-prosli-uvjet", "b1", "u14"]
+  }
+}

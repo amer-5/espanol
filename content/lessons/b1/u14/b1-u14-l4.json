@@ -1,0 +1,157 @@
+{
+  "id": "b1-u14-l4",
+  "level": "B1",
+  "unit": 14,
+  "lessonNumber": 4,
+  "title": "Hipoteze u praksi — mješoviti uvjeti",
+  "subtitle": "Kombinovanje realnih i nerealnih uvjeta u govoru",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti sva tri tipa uvjeta (realni, nerealni sadašnji, nerealni prošli) u kontekstu",
+    "Prepoznati koji tip uvjeta odgovara danoj situaciji",
+    "Pisati koherentne tekstove s uvjetnim rečenicama"
+  ],
+  "prerequisites": ["b1-u14-l3"],
+  "vocabulary": [
+    { "es": "a no ser que + subj.", "bs": "osim ako ne / jedino ako ne", "pos": "vez. + subj.", "ipa": "a no ser ke", "example_es": "Lo haré, a no ser que haya un problema.", "example_bs": "Uradit ću to, osim ako ne bude problema." },
+    { "es": "con tal de que + subj.", "bs": "pod uvjetom da", "pos": "vez. + subj.", "ipa": "kon tal ðe ke", "example_es": "Iré con tal de que me avises.", "example_bs": "Ići ću pod uvjetom da me obavijestiš." },
+    { "es": "en caso de que + subj.", "bs": "u slučaju da", "pos": "vez. + subj.", "ipa": "en ˈka.so ðe ke", "example_es": "En caso de que llueva, cancelamos.", "example_bs": "U slučaju da kiši, otkazujemo." },
+    { "es": "siempre que + subj.", "bs": "uvijek kada / pod uvjetom da", "pos": "vez. + subj.", "ipa": "ˈsjem.pre ke", "example_es": "Puedes salir siempre que termines.", "example_bs": "Možeš izaći uvijek kada završiš." },
+    { "es": "por si acaso", "bs": "za svaki slučaj", "pos": "izr.", "ipa": "por si a.ˈka.so", "example_es": "Llevo paraguas por si acaso.", "example_bs": "Nosim kišobran za svaki slučaj." },
+    { "es": "suponiendo que + subj.", "bs": "pretpostavljajući da", "pos": "vez. + subj.", "ipa": "su.po.ˈnjen.do ke", "example_es": "Suponiendo que vengan todos, necesitamos más sillas.", "example_bs": "Pretpostavljajući da svi dođu, trebamo više stolica." },
+    { "es": "imagínate que + subj.", "bs": "zamislimo da / zamisli da", "pos": "vez. + subj.", "ipa": "i.ma.ˈxi.na.te ke", "example_es": "Imagínate que ganaras el premio Nobel.", "example_bs": "Zamisli da si dobio/la Nobelovu nagradu." },
+    { "es": "qué pasaría si", "bs": "šta bi se desilo ako / šta ako", "pos": "izr.", "ipa": "ke pa.sa.ˈri.a si", "example_es": "¿Qué pasaría si desapareciera internet?", "example_bs": "Šta bi se desilo da nestane internet?" },
+    { "es": "de todas formas", "bs": "u svakom slučaju / svejedno", "pos": "izr.", "ipa": "de ˈto.ðas ˈfor.mas", "example_es": "De todas formas, yo lo intentaría.", "example_bs": "U svakom slučaju, ja bih pokušao/la." },
+    { "es": "incluso si", "bs": "čak i ako", "pos": "vez.", "ipa": "in.ˈklu.so si", "example_es": "Incluso si tuviera miedo, lo haría.", "example_bs": "Čak i da se bojim, učinio/la bih to." }
+  ],
+  "grammar": [
+    {
+      "concept": "Sažetak — 3 tipa uvjetnih rečenica",
+      "explanation_bs": "Kompletni pregled tipova uvjeta: **Tip 1 (realni)**: SI + PRESENTE → FUTURO/IMPERATIVO. 'Si estudias, aprobarás.' **Tip 2 (nerealni sadašnji)**: SI + IMPERFECTO SUBJ. → KONDICIONAL. 'Si estudiaras, aprobarías.' **Tip 3 (nerealni prošli)**: SI + PLUSCUAMP. SUBJ. → KONDICIONAL PERFEKTO. 'Si hubieras estudiado, habrías aprobado.' Dodaj: A NO SER QUE, CON TAL DE QUE, EN CASO DE QUE, SIEMPRE QUE + SUBJUNKTIVO za dodatne uvjetne nijanse.",
+      "table": {
+        "headers": ["Tip", "Struktura", "Primjer", "Smisao"],
+        "rows": [
+          ["Realni", "Si + prez. → futuro", "Si tienes tiempo, ven.", "Možda se desi"],
+          ["Nerealni sađ.", "Si + imp.subj. → kond.", "Si tuvieras tiempo, vendrías.", "Nije realno sada"],
+          ["Nerealni prošli", "Si + pluskv.subj. → kond.perf.", "Si hubieras tenido tiempo, habrías venido.", "Nije se desilo"]
+        ]
+      },
+      "examples": [
+        { "es": "Puedes usar mi coche siempre que me avises antes.", "bs": "Možeš koristiti moj auto uvijek kada me obavijestiš ranije." },
+        { "es": "En caso de que no puedas venir, llámame.", "bs": "U slučaju da ne možeš doći, nazovi me." },
+        { "es": "Llevo el móvil cargado por si acaso.", "bs": "Nosim napunjeni mobitel za svaki slučaj." }
+      ],
+      "tips": "Izbor tipa ovisi o realnosti: Je li moguće? → Tip 1. Je li malo realno / hipotetički? → Tip 2. Nije se desilo u prošlosti? → Tip 3. Tipična greška: koristiti Tip 2 za situaciju koja je još uvijek moguća = previše pesimistično!"
+    }
+  ],
+  "dialogue": {
+    "title": "Planovi za kompaniju — Poslovni planovi",
+    "lines": [
+      { "speaker": "Jefa", "es": "Necesitamos hablar del plan B en caso de que no consigamos el contrato.", "bs": "Trebamo razgovarati o planu B u slučaju da ne dobijemo ugovor." },
+      { "speaker": "Emilio", "es": "Si no lo conseguimos, tendríamos que buscar otros clientes.", "bs": "Ako ga ne dobijemo, morali bismo tražiti druge klijente." },
+      { "speaker": "Jefa", "es": "Exacto. Siempre que tengamos liquidez, podemos aguantar tres meses.", "bs": "Točno. Pod uvjetom da imamo likvidnost, možemo se održati tri mjeseca." },
+      { "speaker": "Emilio", "es": "Si hubiéramos diversificado antes, no estaríamos en esta situación.", "bs": "Da smo se ranije diversificirali, ne bismo bili u ovoj situaciji." },
+      { "speaker": "Jefa", "es": "Lo sé. De todas formas, si conseguimos el contrato, eso no importará.", "bs": "Znam. U svakom slučaju, ako dobijemo ugovor, to neće biti važno." },
+      { "speaker": "Emilio", "es": "Por si acaso, ¿preparo ya la propuesta alternativa?", "bs": "Za svaki slučaj, pripremam li već alternativnu ponudu?" },
+      { "speaker": "Jefa", "es": "Sí, con tal de que no nos lleve demasiado tiempo.", "bs": "Da, pod uvjetom da nam ne oduzme previše vremena." }
+    ]
+  },
+  "reading": {
+    "title": "¿Qué pasaría si...? — Šta bi se desilo ako...?",
+    "text_es": "Hay preguntas filosóficas fascinantes sobre hipotéticas situaciones. ¿Qué pasaría si los humanos no necesitáramos dormir? Probablemente seríamos mucho más productivos, pero también más ansiosos. Si no existiera el dinero, ¿cómo funcionaría la sociedad? En caso de que la tecnología siguiera avanzando al ritmo actual, en veinte años habría trabajos que hoy ni imaginamos. Si los idiomas desaparecieran y todos habláramos uno solo, perderíamos una riqueza cultural enorme. Siempre que haya diversidad, habrá conflictos, pero también creatividad. Estas preguntas no tienen respuesta fácil — son para reflexionar.",
+    "glossary": [
+      { "es": "ansioso/a", "bs": "tjeskoba / uznemiren" },
+      { "es": "al ritmo actual", "bs": "trenutnim tempom" },
+      { "es": "la riqueza cultural", "bs": "kulturno bogatstvo" },
+      { "es": "reflexionar", "bs": "razmišljati / promišljati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Ako ne bismo spavali, šta bi se desilo?",
+        "options": ["Bili bismo sretniji", "Bili bismo produktivniji ali tjeskobni", "Ništa se ne bi promijenilo"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što bi izgubili ako bi nestali jezici?",
+        "options": ["Komunikaciju", "Kulturno bogatstvo", "Posao"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakve su ove filozofske pitanje prema autoru?",
+        "options": ["Jednostavna", "Za razmišljanje bez lakog odgovora", "Beskorisna"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji tip uvjeta se koristi: 'Si hubiera llegado antes, habría encontrado entrada.'?",
+      "options": ["Realni uvjet", "Nerealni sadašnji", "Nerealni prošli"],
+      "answerIndex": 2,
+      "explanation_bs": "Si hubiera + habría = nerealni prošli uvjet (Tip 3). Nije stigao/la — to se nije desilo."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En caso de que ___ (llover/subj.), cancelamos el picnic.",
+      "answer": "llueva",
+      "acceptedAnswers": ["llueva"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Puedes salir siempre que ___ (terminar/subj.) los deberes.",
+      "answer": "termines",
+      "acceptedAnswers": ["termines"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "U slučaju da nema soba, probat ćemo drugi hotel.",
+      "answer": "En caso de que no haya habitaciones, probaremos otro hotel.",
+      "acceptedAnswers": ["En caso de que no haya habitaciones, probaremos otro hotel.", "En caso de que no haya habitación, intentaremos con otro hotel."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zamisli da možeš razgovarati s bilo kojom osobom iz historije — s kim bi razgovarao/la?",
+      "answer": "Imagínate que pudieras hablar con cualquier persona de la historia — ¿con quién hablarías?",
+      "acceptedAnswers": ["Imagínate que pudieras hablar con cualquier persona de la historia — ¿con quién hablarías?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji strukturu s tipom uvjeta",
+      "pairs": [
+        { "es": "Si llueve mañana, no saldremos.", "bs": "Tip 1 — realni" },
+        { "es": "Si lloviera, no saldríamos.", "bs": "Tip 2 — nerealni sadašnji" },
+        { "es": "Si hubiera llovido, no habríamos salido.", "bs": "Tip 3 — nerealni prošli" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En caso de que no llegues a tiempo, avísame para que no me preocupe.",
+      "answer": "En caso de que no llegues a tiempo, avísame para que no me preocupe."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Odgovori na pitanje: ¿Qué pasaría si desapareciera internet por un mes? — koristi si + tip uvjeta po izboru.",
+      "modelAnswer_es": "Si desapareciera internet por un mes, muchas cosas cambiarían. La gente saldría más y hablaría cara a cara. Las empresas tecnológicas tendrían grandes problemas. Sin embargo, siempre que tuviéramos otras formas de comunicación, nos adaptaríamos. En caso de que fuera permanente, necesitaríamos reinventar muchos sistemas."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI postavlja filozofska pitanja tipa 'šta bi se desilo ako...' — vježbaš sve tipove uvjetnih rečenica.",
+    "level": "B1",
+    "allowedGrammar": ["sva 3 tipa uvjetnih rečenica", "a no ser que / con tal de que / en caso de que + subjunktivo", "siempre que + subjunktivo"],
+    "systemPromptHint": "Postavi studentu filozofska i zabavna hipotetička pitanja: ¿Qué harías si pudieras vivir 200 años? ¿Qué habrías hecho diferente en tu vida? ¿Qué harías en caso de un apocalipsis zombie? Neka student koristi različite tipove uvjeta. Ispravi greške."
+  },
+  "illustration": {
+    "prompt": "A branching decision tree or multiple possible paths, a thoughtful person at a crossroads, philosophical mood",
+    "alt": "Uvjetne situacije — mješoviti tipovi uvjeta",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["a-no-ser-que", "en-caso-de-que", "siempre-que-subjunktivo", "b1", "u14"]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "b1-u14-l2",
+  "level": "B1",
+  "unit": 14,
+  "lessonNumber": 2,
+  "title": "Nerealni uslov — Si + imperfecto subjuntivo",
+  "subtitle": "Si tuviera tiempo, estudiaría más...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Razumjeti razliku između realnog (si + presente) i nerealnog uvjeta (si + imperfecto subj.)",
+    "Tvoriti imperfecto subjuntivo za nerealne uvjete",
+    "Koristiti si + imperfecto subjuntivo + kondicional u rečenicama"
+  ],
+  "prerequisites": ["b1-u14-l1"],
+  "vocabulary": [
+    { "es": "si tuviera...", "bs": "da imam... / kad bih imao/la...", "pos": "nerealni uvjet", "ipa": "si tu.ˈβje.ra", "example_es": "Si tuviera dinero, viajaría.", "example_bs": "Da imam novca, putovao/la bih." },
+    { "es": "si pudiera...", "bs": "da mogu / kad bih mogao/la...", "pos": "nerealni uvjet", "ipa": "si pu.ˈðje.ra", "example_es": "Si pudiera, viviría en España.", "example_bs": "Da mogu, živio/la bih u Španiji." },
+    { "es": "si fuera...", "bs": "da sam / kad bih bio/la...", "pos": "nerealni uvjet", "ipa": "si ˈfwe.ra", "example_es": "Si fuera rico, donaría mucho.", "example_bs": "Da sam bogat/a, puno bih donirao/la." },
+    { "es": "si supiera...", "bs": "da znam / kad bih znao/la...", "pos": "nerealni uvjet", "ipa": "si su.ˈpje.ra", "example_es": "Si supiera cocinar, haría una cena especial.", "example_bs": "Da znam kuhati, napravila bih posebnu večeru." },
+    { "es": "si hubiera...", "bs": "da ima / da postoji", "pos": "nerealni uvjet", "ipa": "si u.ˈβje.ra", "example_es": "Si hubiera más tiempo, lo haría.", "example_bs": "Da ima više vremena, uradio/la bih to." },
+    { "es": "si viviera en...", "bs": "da živim u...", "pos": "nerealni uvjet", "ipa": "si βi.ˈβje.ra en", "example_es": "Si viviera en Japón, aprendería japonés.", "example_bs": "Da živim u Japanu, učio/la bih japanski." },
+    { "es": "en ese caso", "bs": "u tom slučaju", "pos": "izr.", "ipa": "en ˈe.se ˈka.so", "example_es": "En ese caso, no lo haría.", "example_bs": "U tom slučaju, ne bih to uradio/la." },
+    { "es": "de lo contrario", "bs": "inače / u suprotnom", "pos": "izr.", "ipa": "de lo kon.ˈtra.rjo", "example_es": "Estudia más, de lo contrario suspenderás.", "example_bs": "Uči više, inače ćeš pasti." },
+    { "es": "aunque + subj.", "bs": "čak i ako / makar", "pos": "vez. + subj.", "ipa": "ˈawn.ke", "example_es": "Aunque tuviera dinero, no lo compraría.", "example_bs": "Čak i da imam novca, ne bih to kupio/la." },
+    { "es": "de haber sabido", "bs": "da sam znao/la (prošlost)", "pos": "hipotet. prošlost", "ipa": "de a.ˈβer sa.ˈβi.ðo", "example_es": "De haberlo sabido, habría venido antes.", "example_bs": "Da sam to znao/la, bio/la bih ranije." }
+  ],
+  "grammar": [
+    {
+      "concept": "SI + imperfecto subjuntivo + KONDICIONAL — nerealni uvjet",
+      "explanation_bs": "Za hipotetičke situacije KOJE SE NE ODNOSE NA SADAŠNJU REALNOST (nerealni uvjet) koristimo: **SI + imperfecto subjuntivo** + **kondicional simple**. Imperfecto subjuntiva: -(iera/-iese) za -ER/-IR, -(ara/-ase) za -AR. Najvažniji oblici: ser → fuera, tener → tuviera, poder → pudiera, hacer → hiciera, ir → fuera, saber → supiera, estar → estuviera. Format: 'Si TUVIERA tiempo, ESTUDIARÍA más.'",
+      "table": {
+        "headers": ["Infinitiv", "Imperfecto subj. (yo)", "Primjer s SI"],
+        "rows": [
+          ["ser/ir", "fuera", "Si fuera rico..."],
+          ["tener", "tuviera", "Si tuviera tiempo..."],
+          ["poder", "pudiera", "Si pudiera volar..."],
+          ["hacer", "hiciera", "Si lo hiciera mejor..."],
+          ["saber", "supiera", "Si supiera la verdad..."],
+          ["estar", "estuviera", "Si estuviera allí..."],
+          ["hablar", "hablara", "Si hablara francés..."],
+          ["vivir", "viviera", "Si viviera en Roma..."]
+        ]
+      },
+      "examples": [
+        { "es": "Si tuviera más tiempo, leería más libros.", "bs": "Da imam više vremena, više bih čitao/la." },
+        { "es": "Si pudiera volar, iría a visitarte ahora mismo.", "bs": "Da mogu letjeti, otišao/la bih te posjetiti odmah." },
+        { "es": "Si fuera el jefe, cambiaría muchas cosas.", "bs": "Da sam šef, promijenio/la bih puno stvari." }
+      ],
+      "tips": "Realni uvjet (može se desiti): SI + PRESENTE + FUTURO. 'Si tienes tiempo, llámame.' Nerealni uvjet (nije realno): SI + IMPERFECTO SUBJ. + KONDICIONAL. 'Si tuvieras tiempo, me llamarías.' Isti smisao, ali nerealna hipoteza!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué harías si...? — Šta bi uradio/la kad bi...?",
+    "lines": [
+      { "speaker": "Paula", "es": "¿Qué harías si ganaras un millón de euros?", "bs": "Šta bi uradio/la da dobiješ milion eura?" },
+      { "speaker": "Raúl", "es": "Primero, si tuviera ese dinero, pagaría todas las deudas de mi familia.", "bs": "Prvo, da imam taj novac, platio/la bih sve dugove moje porodice." },
+      { "speaker": "Paula", "es": "¡Qué generoso! ¿Y después?", "bs": "Kako plemenito! I nakon toga?" },
+      { "speaker": "Raúl", "es": "Si pudiera, compraría una casa pequeña en el campo y vivería sin estrés.", "bs": "Da mogu, kupio/la bih malu kućicu na selu i živio/la bih bez stresa." },
+      { "speaker": "Paula", "es": "¿Y el trabajo? ¿Dejarías de trabajar?", "bs": "A posao? Bi li prestao/la raditi?" },
+      { "speaker": "Raúl", "es": "Si fuera libre económicamente, no trabajaría por dinero sino por pasión.", "bs": "Da sam ekonomski slobodan/na, ne bih radio/la zbog novca nego zbog strasti." },
+      { "speaker": "Paula", "es": "¡Suena genial! Yo si supiera que tenía ese dinero, me iría a vivir a América Latina.", "bs": "Zvuči sjajno! Ja da znam da imam taj novac, otišla bih živjeti u Latinsku Ameriku." }
+    ]
+  },
+  "reading": {
+    "title": "La isla desierta — verzija B1",
+    "text_es": "Imagine que estuviera en una isla desierta sin nada. ¿Qué haría? Si tuviera que sobrevivir, primero buscaría agua dulce — sin ella, no podría vivir más de tres días. Si hubiera árboles con fruta, la recogería. Si supiera pescar, construiría una caña con palos. Si pudiera hacer fuego, cocinaría la comida y se mantendría caliente por las noches. Para comunicarse con el mundo exterior, si encontrara materiales, haría una señal de socorro visible desde el aire. Si no viniera ningún rescate en semanas, trataría de construir una balsa. Sobrevivir requiere creatividad — si no tuviera las herramientas, las inventaría.",
+    "glossary": [
+      { "es": "el agua dulce", "bs": "slatka voda" },
+      { "es": "la caña", "bs": "trska / štap za pecanje" },
+      { "es": "la señal de socorro", "bs": "signal za spašavanje/pomoć" },
+      { "es": "la balsa", "bs": "splav" },
+      { "es": "las herramientas", "bs": "alati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što bi trebao/la naći prvo?",
+        "options": ["Hranu", "Slatku vodu", "Drvo za vatru"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što bi sagradio/la da ne dođe spašavanje?",
+        "options": ["Kuću", "Splav", "Avion"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što kaže na kraju o preživljavanju?",
+        "options": ["Da je nemoguće bez alata", "Da zahtijeva kreativnost", "Da je lako"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan imperfecto subjuntivo od SER/IR za 'yo'?",
+      "options": ["sería", "fuera", "fuese", "sea"],
+      "answerIndex": 1,
+      "explanation_bs": "SER i IR dijele oblik u imperfecto subj.: fuera/fueras/fuera. (Fuese je alternativni -se oblik, oba ispravna.)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (yo/tener) más tiempo, ___ (yo/leer) más.",
+      "answer": "tuviera / leería",
+      "acceptedAnswers": ["tuviera / leería", "tuviese / leería"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Qué ___ (tú/hacer) si ___ (ganar) la lotería?",
+      "answer": "harías / ganaras",
+      "acceptedAnswers": ["harías / ganaras", "harías / ganases"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Da mogu, živio/la bih u Španiji.",
+      "answer": "Si pudiera, viviría en España.",
+      "acceptedAnswers": ["Si pudiera, viviría en España.", "Si pudiese, viviría en España."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Da sam šef, stvari bi bile drugačije.",
+      "answer": "Si fuera el jefe, las cosas serían diferentes.",
+      "acceptedAnswers": ["Si fuera el jefe, las cosas serían diferentes.", "Si fuese el jefe, las cosas serían distintas."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji infinitiv s imperfecto subjunktivo za 'yo'",
+      "pairs": [
+        { "es": "poder", "bs": "pudiera" },
+        { "es": "saber", "bs": "supiera" },
+        { "es": "hacer", "bs": "hiciera" },
+        { "es": "estar", "bs": "estuviera" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Si pudiera cambiar una cosa de mi vida, estudiaría más idiomas cuando era joven.",
+      "answer": "Si pudiera cambiar una cosa de mi vida, estudiaría más idiomas cuando era joven."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Odgovori: ¿Qué harías si pudieras vivir en cualquier país del mundo? — koristi SI + imperfecto subj. + kondicional.",
+      "modelAnswer_es": "Si pudiera vivir en cualquier país, elegiría Japón. Si viviera allí, aprendería japonés y estudiaría las artes tradicionales. Me gustaría explorar los templos y montañas. Si tuviera la oportunidad, me quedaría toda la vida."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI ti postavlja hipotetička pitanja o nerealnim situacijama — vježbaš si + imperfecto subjunktivo + kondicional.",
+    "level": "B1",
+    "allowedGrammar": ["si + imperfecto subjuntivo + kondicional", "tuviera/pudiera/fuera/supiera/hiciera", "nerealni uvjet"],
+    "systemPromptHint": "Postavi studentu nerealna hipotetička pitanja: ¿Qué harías si pudieras volar? ¿Dónde vivirías si pudieras elegir cualquier lugar? ¿Qué cambiarías si fueras presidente? Ispravi greške u oblicima imperfecto subjunktiva i razliku realan/nerealan uvjet."
+  },
+  "illustration": {
+    "prompt": "A person imagining an alternative reality, fantasy bubble, dreaming of different life choices",
+    "alt": "Nerealne hipoteze — zamišljanje alternativne stvarnosti",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["si-imperfecto-subjuntivo", "tuviera-pudiera-fuera", "nerealni-uvjet", "b1", "u14"]
+  }
+}

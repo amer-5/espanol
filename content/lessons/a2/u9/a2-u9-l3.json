@@ -1,0 +1,191 @@
+{
+  "id": "a2-u9-l3",
+  "level": "A2",
+  "unit": 9,
+  "lessonNumber": 3,
+  "title": "Nepravilni indefinido: TENER, ESTAR, PODER...",
+  "subtitle": "Tuve, estuve, pude, quise, vine, supe...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Konjugirati TENER, ESTAR, PODER, QUERER, VENIR, SABER u indefinidu",
+    "Prepoznati obrazac nepravilnih stabala (tuv-, estuv-, pud-...)",
+    "Koristiti ove glagole u pričanju o prošlosti"
+  ],
+  "prerequisites": ["a2-u9-l2"],
+  "vocabulary": [
+    { "es": "tener (tuve, tuviste...)", "bs": "imati — prošlo (imao sam...)", "pos": "glag. neprav. indef.", "ipa": "te.ˈner", "example_es": "Tuve mucha suerte ayer.", "example_bs": "Jučer sam imao puno sreće." },
+    { "es": "estar (estuve, estuviste...)", "bs": "biti/nalaziti se — prošlo", "pos": "glag. neprav. indef.", "ipa": "es.ˈtar", "example_es": "Estuve en Madrid tres días.", "example_bs": "Bio sam u Madridu tri dana." },
+    { "es": "poder (pude, pudiste...)", "bs": "moći — prošlo (mogao sam...)", "pos": "glag. neprav. indef.", "ipa": "po.ˈðer", "example_es": "No pude dormir anoche.", "example_bs": "Sinoć nisam mogao spavati." },
+    { "es": "querer (quise, quisiste...)", "bs": "htjeti — prošlo (htio sam...)", "pos": "glag. neprav. indef.", "ipa": "ke.ˈrer", "example_es": "Quise llamarte pero no pude.", "example_bs": "Htio sam te nazvati ali nisam mogao." },
+    { "es": "venir (vine, viniste...)", "bs": "doći — prošlo (došao sam...)", "pos": "glag. neprav. indef.", "ipa": "be.ˈnir", "example_es": "¿Por qué no viniste a la fiesta?", "example_bs": "Zašto nisi došao na zabavu?" },
+    { "es": "saber (supe, supiste...)", "bs": "saznati — prošlo (saznao sam...)", "pos": "glag. neprav. indef.", "ipa": "sa.ˈβer", "example_es": "Supe la verdad ayer.", "example_bs": "Jučer sam saznao istinu." },
+    { "es": "poner (puse, pusiste...)", "bs": "staviti — prošlo", "pos": "glag. neprav. indef.", "ipa": "po.ˈner", "example_es": "¿Dónde pusiste mis llaves?", "example_bs": "Gdje si stavio moje ključeve?" },
+    { "es": "la suerte", "bs": "sreća (slučajna)", "pos": "im. ž.", "ipa": "la ˈswer.te", "example_es": "Tuve mucha suerte en el examen.", "example_bs": "Imao sam puno sreće na ispitu." },
+    { "es": "la verdad", "bs": "istina", "pos": "im. ž.", "ipa": "la βer.ˈðað", "example_es": "Al final supe la verdad.", "example_bs": "Na kraju sam saznao istinu." },
+    { "es": "de repente", "bs": "odjednom / iznenada", "pos": "pril.", "ipa": "de re.ˈpen.te", "example_es": "De repente no pude hablar.", "example_bs": "Odjednom nisam mogao govoriti." }
+  ],
+  "grammar": [
+    {
+      "concept": "Nepravilni indefinido — skupina s promjenjivim stablom",
+      "explanation_bs": "Ovi glagoli mijenjaju CIJELO STABLO u indefinidu (ne samo nastavke). Svi dijele ISTE nastavke: **-e, -iste, -o, -imos, -isteis, -ieron** (bez naglaska!). Uči stablo napamet: TEN→TUV, EST→ESTUV, POD→PUD, QUER→QUIS, VEN→VIN, SAB→SUP, PON→PUS.",
+      "table": {
+        "headers": ["Zamjenica", "TENER", "ESTAR", "PODER", "QUERER"],
+        "rows": [
+          ["yo", "tuve", "estuve", "pude", "quise"],
+          ["tú", "tuviste", "estuviste", "pudiste", "quisiste"],
+          ["él/ella", "tuvo", "estuvo", "pudo", "quiso"],
+          ["nosotros", "tuvimos", "estuvimos", "pudimos", "quisimos"],
+          ["vosotros", "tuvisteis", "estuvisteis", "pudisteis", "quisisteis"],
+          ["ellos", "tuvieron", "estuvieron", "pudieron", "quisieron"]
+        ]
+      },
+      "examples": [
+        { "es": "Tuve un accidente de tráfico el año pasado.", "bs": "Prošle godine sam imao saobraćajnu nezgodu." },
+        { "es": "Estuvimos en la playa todo el fin de semana.", "bs": "Bili smo na plaži cijeli vikend." },
+        { "es": "No pude terminar el proyecto a tiempo.", "bs": "Nisam mogao završiti projekat na vrijeme." }
+      ],
+      "tips": "Pazi: yo → tuve (ne tuvé!), él → tuvo (ne tuvó!) — ovi oblici NEMAJU naglasaka, za razliku od pravilnih glagola (hablé, habló)."
+    },
+    {
+      "concept": "VENIR, SABER, PONER u indefinidu",
+      "explanation_bs": "Tri glagola s posebnim stablima: VENIR → VIN (vine, viniste, vino, vinimos, vinisteis, vinieron). SABER → SUP (supe, supiste, supo, supimos, supisteis, supieron). PONER → PUS (puse, pusiste, puso, pusimos, pusisteis, pusieron). SABER u indefinidu = saznati, doznati (ne samo znati)!",
+      "table": {
+        "headers": ["Zamjenica", "VENIR", "SABER", "PONER"],
+        "rows": [
+          ["yo", "vine", "supe", "puse"],
+          ["tú", "viniste", "supiste", "pusiste"],
+          ["él/ella", "vino", "supo", "puso"],
+          ["nosotros", "vinimos", "supimos", "pusimos"],
+          ["vosotros", "vinisteis", "supisteis", "pusisteis"],
+          ["ellos", "vinieron", "supieron", "pusieron"]
+        ]
+      },
+      "examples": [
+        { "es": "Mis amigos vinieron a mi casa anoche.", "bs": "Sinoć su mi prijatelji došli kući." },
+        { "es": "Supe que habías llamado demasiado tarde.", "bs": "Prekasno sam saznao da si zvao." },
+        { "es": "¿Dónde pusiste el libro que te presté?", "bs": "Gdje si stavio knjigu koju sam ti posudio?" }
+      ],
+      "tips": "SABER u indef. = doznati/saznati (rezultat saznavanja). 'Supe la verdad' = Saznao sam istinu (tada, u tom trenutku). Razlika: sabía (znao sam — trajno znanje) vs supe (saznao sam — trenutak)."
+    }
+  ],
+  "dialogue": {
+    "title": "¡Qué semana tan complicada! — Kakva komplikovana sedmica!",
+    "lines": [
+      { "speaker": "Lucía", "es": "¿Qué tal la semana? Te ví muy estresada.", "bs": "Kako je bila sedmica? Izgledala si jako pod stresom." },
+      { "speaker": "Carmen", "es": "Fue horrible. El lunes tuve una reunión importantísima.", "bs": "Bila je strašna. U ponedjeljak sam imala jako važan sastanak." },
+      { "speaker": "Lucía", "es": "¿Y cómo fue?", "bs": "I kako je prošao?" },
+      { "speaker": "Carmen", "es": "Mal. No pude dormir la noche anterior y estuve muy nerviosa.", "bs": "Loše. Prethodnu noć nisam mogla spavati i bila sam jako nervozna." },
+      { "speaker": "Lucía", "es": "¿Vinieron todos los clientes?", "bs": "Jesu li došli svi klijenti?" },
+      { "speaker": "Carmen", "es": "No, dos no vinieron. Y el jefe quiso cancelarla pero al final no pudo.", "bs": "Ne, dvojica nisu došla. I šef je htio otkazati ali na kraju nije mogao." },
+      { "speaker": "Lucía", "es": "¿Y cómo supiste los resultados?", "bs": "I kako si saznala rezultate?" },
+      { "speaker": "Carmen", "es": "Supe que fue bien el viernes. Tuve mucha suerte al final.", "bs": "U petak sam saznala da je prošlo dobro. Na kraju sam imala puno sreće." }
+    ]
+  },
+  "reading": {
+    "title": "Una noche de emergencia — Hitna noć",
+    "text_es": "El año pasado tuve una experiencia muy difícil. Un domingo por la noche, de repente no pude respirar bien. Estuve muy asustado y llamé a mi hermano. Él vino inmediatamente — llegó en diez minutos. Juntos fuimos al hospital de urgencias. Estuvimos esperando dos horas. Al final, el médico supo qué era el problema: tuve una reacción alérgica. Me puso una inyección y me dio medicamentos. Al día siguiente ya pude respirar perfectamente. Supe entonces que era alérgico al polvo. Tuve mucha suerte de que mi hermano estuviera disponible esa noche.",
+    "glossary": [
+      { "es": "respirar", "bs": "disati" },
+      { "es": "asustado", "bs": "uplašen" },
+      { "es": "inmediatamente", "bs": "odmah / istog trenutka" },
+      { "es": "urgencias", "bs": "hitna pomoć" },
+      { "es": "una reacción alérgica", "bs": "alergijska reakcija" },
+      { "es": "el polvo", "bs": "prašina" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta se desilo u nedjelju navečer?",
+        "options": ["Imao je bol u glavi", "Nije mogao disati", "Pao je na ulici"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Ko je odmah došao?",
+        "options": ["Brat", "Susjed", "Kolega"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Šta je doktor otkrio?",
+        "options": ["Gripa", "Alergijska reakcija", "Srčani problem"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TENER za 'yo' u indefinidu?",
+      "options": ["tenía", "tené", "tuve", "tengo"],
+      "answerIndex": 2,
+      "explanation_bs": "TENER → stablo TUV: yo tuve, tú tuviste, él tuvo... Nema naglaska!"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik VENIR za 'ellos' u indefinidu?",
+      "options": ["venieron", "viniaron", "vinieron", "venaron"],
+      "answerIndex": 2,
+      "explanation_bs": "VENIR → stablo VIN: ellos vinieron. Pazi: vine, viniste, vino, vinimos, vinisteis, vinieron."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ayer ___ (yo/estar) en casa todo el día.",
+      "answer": "estuve",
+      "acceptedAnswers": ["estuve"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No ___ (nosotros/poder) ir al concierto porque llovió.",
+      "answer": "pudimos",
+      "acceptedAnswers": ["pudimos"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿Dónde ___ (tú/poner) mis gafas?",
+      "answer": "pusiste",
+      "acceptedAnswers": ["pusiste"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Htio sam doći ali nisam mogao.",
+      "answer": "Quise venir pero no pude.",
+      "acceptedAnswers": ["Quise venir pero no pude.", "Quise ir pero no pude."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji infinitiv s oblikom za 'yo' u indefinidu",
+      "pairs": [
+        { "es": "tener", "bs": "tuve" },
+        { "es": "estar", "bs": "estuve" },
+        { "es": "poder", "bs": "pude" },
+        { "es": "venir", "bs": "vine" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Ayer tuve un problema con el coche y no pude llegar a tiempo a la reunión.",
+      "answer": "Ayer tuve un problema con el coche y no pude llegar a tiempo a la reunión."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta se desilo prošle sedmice — koristi TENER, ESTAR, PODER ili VENIR u indefinidu.",
+      "modelAnswer_es": "La semana pasada tuve mucho trabajo. Estuve en la oficina hasta las ocho. No pude salir con mis amigos. Ellos vinieron a visitarme el sábado."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o komplikovanoj situaciji iz prošlosti — vježbate tuve/estuve/pude/quise/vine/supe u indefinidu.",
+    "level": "A2",
+    "allowedGrammar": ["indefinido: tener/estar/poder/querer/venir/saber/poner", "pravilni indefinido", "ir/ser/hacer"],
+    "systemPromptHint": "Pitaj studenta o situaciji iz prošlosti kad je imao problem: ¿Qué tuviste que hacer? ¿Pudiste resolverlo? ¿Quién vino a ayudarte? ¿Dónde estuviste? Ispravi greške u nepravilnim oblicima indefinida."
+  },
+  "illustration": {
+    "prompt": "A person looking stressed at a table with papers, Spanish setting, past event narration, warm indoor light",
+    "alt": "Osoba priča o komplikovanoj situaciji iz prošlosti",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["tuve-estuve-pude", "indefinido-irregular", "vine-supe-puse", "a2", "u9"]
+  }
+}

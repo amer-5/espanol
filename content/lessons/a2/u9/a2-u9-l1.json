@@ -1,0 +1,174 @@
+{
+  "id": "a2-u9-l1",
+  "level": "A2",
+  "unit": 9,
+  "lessonNumber": 1,
+  "title": "Pretérito indefinido — pravilni glagoli",
+  "subtitle": "Hablé, comí, viví — prošlo svršeno",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Razumjeti razliku između perfecta i indefinida",
+    "Tvoriti indefinido pravilnih -AR, -ER, -IR glagola",
+    "Koristiti indefinido s vremenskim izrazima za prošlost"
+  ],
+  "prerequisites": ["a2-u8-l4"],
+  "vocabulary": [
+    { "es": "ayer", "bs": "jučer", "pos": "pril.", "ipa": "a.ˈxer", "example_es": "Ayer fui al cine.", "example_bs": "Jučer sam išao u kino." },
+    { "es": "anteayer", "bs": "prekjučer", "pos": "pril.", "ipa": "an.te.a.ˈxer", "example_es": "Anteayer llovió mucho.", "example_bs": "Prekjučer je jako kišilo." },
+    { "es": "la semana pasada", "bs": "prošli tjedan", "pos": "izr.", "ipa": "la se.ˈma.na pa.ˈsa.ða", "example_es": "La semana pasada trabajé mucho.", "example_bs": "Prošli tjedan sam puno radio." },
+    { "es": "el mes pasado / el año pasado", "bs": "prošli mjesec / prošla godina", "pos": "izr.", "ipa": "el mes pa.ˈsa.ðo", "example_es": "El año pasado viajé a Italia.", "example_bs": "Prošle godine sam putovao u Italiju." },
+    { "es": "hace + tiempo", "bs": "prije + vremenski period", "pos": "izr.", "ipa": "ˈa.θe", "example_es": "Hace dos años viví en Madrid.", "example_bs": "Prije dvije godine sam živio u Madridu." },
+    { "es": "en + godina", "bs": "u + godina", "pos": "izr.", "ipa": "en", "example_es": "En 2020 empecé a estudiar español.", "example_bs": "U 2020. sam počeo učiti španski." },
+    { "es": "por la mañana / tarde / noche", "bs": "jutros / popodne / sinoć (u prošlosti)", "pos": "izr.", "ipa": "por la ma.ˈɲa.na", "example_es": "Ayer por la mañana corrí.", "example_bs": "Jučer ujutro sam trčao." },
+    { "es": "de repente", "bs": "odjednom", "pos": "pril.", "ipa": "de re.ˈpen.te", "example_es": "De repente empezó a llover.", "example_bs": "Odjednom je počelo kišiti." },
+    { "es": "durante", "bs": "tokom / za vrijeme", "pos": "prij.", "ipa": "du.ˈran.te", "example_es": "Estudié durante tres horas.", "example_bs": "Učio sam tokom tri sata." },
+    { "es": "al final", "bs": "na kraju / na koncu", "pos": "izr.", "ipa": "al fi.ˈnal", "example_es": "Al final decidí quedarme.", "example_bs": "Na kraju sam odlučio ostati." }
+  ],
+  "grammar": [
+    {
+      "concept": "Pretérito indefinido — tvorba pravilnih glagola",
+      "explanation_bs": "Pretérito indefinido (ili pretérito simple) se koristi za **završene radnje u jasno definiranoj prošlosti** — jučer, prošle sedmice, u 2020., itd. Tvorba pravilnih glagola: -AR glagoli → nastavci: **-é, -aste, -ó, -amos, -asteis, -aron**. -ER/-IR glagoli → nastavci: **-í, -iste, -ió, -imos, -isteis, -ieron**. Pazi: yo oblik nosi NAGLASAK (-é, -í), 3. lice jd. također (-ó).",
+      "table": {
+        "headers": ["Zamjenica", "HABLAR (-AR)", "COMER (-ER)", "VIVIR (-IR)"],
+        "rows": [
+          ["yo", "hablé", "comí", "viví"],
+          ["tú", "hablaste", "comiste", "viviste"],
+          ["él/ella", "habló", "comió", "vivió"],
+          ["nosotros", "hablamos", "comimos", "vivimos"],
+          ["vosotros", "hablasteis", "comisteis", "vivisteis"],
+          ["ellos", "hablaron", "comieron", "vivieron"]
+        ]
+      },
+      "examples": [
+        { "es": "Ayer comí en un restaurante italiano.", "bs": "Jučer sam jeo u talijanskom restoranu." },
+        { "es": "La semana pasada trabajé mucho.", "bs": "Prošli tjedan sam puno radio." },
+        { "es": "En 2019 viví en España durante seis meses.", "bs": "U 2019. sam živio u Španiji šest meseci." }
+      ],
+      "tips": "Nosotros oblik je ISTI za prezent i indefinido kod -AR i -IR glagola! Kontekst određuje: 'Hablamos' (pričamo = prezent / pričali smo = indefinido). -ER je različit: comemos (prezent) vs comimos (indefinido)."
+    },
+    {
+      "concept": "Perfecto vs Indefinido — ključna razlika",
+      "explanation_bs": "U Španiji (ne Latinskoj Americi): **Perfecto** = prošlost s vezom sa sadašnjošću (hoy, esta semana, alguna vez...). **Indefinido** = prošlost odvojena od sadašnjosti (ayer, la semana pasada, en 2019...). Primjer: 'Hoy HE comido pizza' (danas, još je danas) vs 'Ayer COMÍ pizza' (jučer, gotovo). U Latinskoj Americi se indefinido koristi za oba!",
+      "examples": [
+        { "es": "Hoy he trabajado mucho. (perfecto → danas)", "bs": "Danas sam puno radio. (danas, svježe)" },
+        { "es": "Ayer trabajé mucho. (indefinido → jučer)", "bs": "Jučer sam puno radio. (završeno, prošlo)" },
+        { "es": "Este año he viajado a España. (perfecto)", "bs": "Ove godine sam putovao u Španiju. (ova god.)" }
+      ],
+      "tips": "Ključne riječi → INDEFINIDO: ayer, anteayer, la semana/el mes/el año PASADO, hace X años, en + godina, de niño. → PERFECTO: hoy, esta mañana, esta semana/mes/año, ya, nunca, alguna vez."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué hiciste ayer? — Šta si radio jučer?",
+    "lines": [
+      { "speaker": "Ana", "es": "¿Qué hiciste ayer?", "bs": "Šta si radio jučer?" },
+      { "speaker": "Paco", "es": "Por la mañana trabajé desde casa y por la tarde salí con unos amigos.", "bs": "Ujutro sam radio od kuće a poslijepodne sam izišao s prijateljima." },
+      { "speaker": "Ana", "es": "¿Adónde fuisteis?", "bs": "Kamo ste otišli?" },
+      { "speaker": "Paco", "es": "Fuimos a un restaurante nuevo que abrió la semana pasada.", "bs": "Otišli smo u novi restoran koji je otvorio prošle sedmice." },
+      { "speaker": "Ana", "es": "¿Y comiste bien?", "bs": "I jesi li jeo dobro?" },
+      { "speaker": "Paco", "es": "Comí una paella increíble. Bebimos vino y hablamos hasta las doce.", "bs": "Jeo sam nevjerojatnu paelju. Pili smo vino i pričali do ponoći." },
+      { "speaker": "Ana", "es": "¿Y llegaste tarde a casa?", "bs": "I jesi li kasno stigao kući?" },
+      { "speaker": "Paco", "es": "Sí, llegué a la una de la madrugada.", "bs": "Da, stigao sam u jedan po noći." }
+    ]
+  },
+  "reading": {
+    "title": "El día que cambió mi vida — Dan koji je promijenio moj život",
+    "text_es": "Hace tres años tomé la decisión más importante de mi vida: decidí dejar mi trabajo y viajar por el mundo. El primer día empaqué mi mochila, llamé a mis padres y compré un billete de avión a Bangkok. Viajé durante un año — visité quince países, probé comidas increíbles y conocí a personas extraordinarias. Aprendí mucho sobre mí mismo y sobre el mundo. Al final, volví a España con una perspectiva completamente nueva. Busqué trabajo y encontré algo mucho mejor que lo que dejé.",
+    "glossary": [
+      { "es": "tomé la decisión", "bs": "donio sam odluku" },
+      { "es": "dejar", "bs": "ostaviti / napustiti" },
+      { "es": "empaqué", "bs": "spakovao sam" },
+      { "es": "un billete de avión", "bs": "avionska karta" },
+      { "es": "sobre mí mismo", "bs": "o sebi" },
+      { "es": "perspectiva", "bs": "perspektiva / pogled" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što je autor odlučio napustiti?",
+        "options": ["Studij", "Posao", "Porodicu"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko je dugo putovao?",
+        "options": ["Šest meseci", "Godinu dana", "Dvije godine"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta je napravio kad se vratio?",
+        "options": ["Otvorio restoran", "Tražio posao", "Napisao knjigu"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TRABAJAR za 'yo' u indefinidu?",
+      "options": ["trabajé", "trabajé", "trabajó", "trabaje"],
+      "answerIndex": 0,
+      "explanation_bs": "Yo oblik -AR glagola u indefinidu: -é s akcentom: trabajé."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La semana pasada ___ (ella/vivir) con sus padres.",
+      "answer": "vivió",
+      "acceptedAnswers": ["vivió"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ayer ___ (nosotros/comer) en un restaurante italiano.",
+      "answer": "comimos",
+      "acceptedAnswers": ["comimos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prošle godine sam naučio španski.",
+      "answer": "El año pasado aprendí español.",
+      "acceptedAnswers": ["El año pasado aprendí español.", "El año pasado aprendí el español."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jučer smo razgovarali tri sata.",
+      "answer": "Ayer hablamos durante tres horas.",
+      "acceptedAnswers": ["Ayer hablamos durante tres horas.", "Ayer hablamos tres horas."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji vremenski izraz s tipom prošlosti",
+      "pairs": [
+        { "es": "ayer", "bs": "indefinido" },
+        { "es": "hoy", "bs": "perfecto" },
+        { "es": "la semana pasada", "bs": "indefinido" },
+        { "es": "esta semana", "bs": "perfecto" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Ayer llegué tarde a casa porque trabajé hasta las nueve.",
+      "answer": "Ayer llegué tarde a casa porque trabajé hasta las nueve."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta si radio jučer — koristi indefinido i vremenske izraze.",
+      "modelAnswer_es": "Ayer me levanté a las siete y fui al trabajo. Por la tarde comí con unos amigos y luego llegué a casa a las nueve."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o jučerašnjem danu — vježbate indefinido pravilnih glagola.",
+    "level": "A2",
+    "allowedGrammar": ["indefinido pravilni", "ayer/la semana pasada", "perfecto vs indefinido"],
+    "systemPromptHint": "Pitaj studenta o prošlim danima: ¿Qué hiciste ayer? ¿Dónde comiste el domingo? ¿Qué estudiaste el mes pasado? Ispravi greške u nastavcima indefinida."
+  },
+  "illustration": {
+    "prompt": "A calendar with yesterday marked, a person telling a story about their day, warm storytelling atmosphere",
+    "alt": "Pričanje o jučerašnjem danu s kalendarom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["pretérito-indefinido", "regular-past", "ayer-pasado", "a2", "u9"]
+  }
+}

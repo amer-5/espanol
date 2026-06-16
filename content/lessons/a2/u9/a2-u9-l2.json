@@ -1,0 +1,184 @@
+{
+  "id": "a2-u9-l2",
+  "level": "A2",
+  "unit": 9,
+  "lessonNumber": 2,
+  "title": "Nepravilni indefinido: IR, SER, HACER",
+  "subtitle": "Fui, fue, hice, hizo...",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Konjugirati IR, SER i HACER u pretérito indefinidu",
+    "Zapamtiti da IR i SER imaju identičnu konjugaciju",
+    "Koristiti ove glagole u pričanju o prošlim događajima"
+  ],
+  "prerequisites": ["a2-u9-l1"],
+  "vocabulary": [
+    { "es": "ir (fui, fuiste, fue...)", "bs": "ići — prošlo (otišao sam...)", "pos": "glag. neprav. indef.", "ipa": "ir", "example_es": "Ayer fui al médico.", "example_bs": "Jučer sam išao kod doktora." },
+    { "es": "ser (fui, fuiste, fue...)", "bs": "biti — prošlo (bio sam...)", "pos": "glag. neprav. indef.", "ipa": "ser", "example_es": "Fue una experiencia increíble.", "example_bs": "Bilo je nevjerojatno iskustvo." },
+    { "es": "hacer (hice, hiciste, hizo...)", "bs": "raditi/praviti — prošlo", "pos": "glag. neprav. indef.", "ipa": "a.ˈθer", "example_es": "¿Qué hiciste ayer?", "example_bs": "Šta si radio jučer?" },
+    { "es": "dar (di, diste, dio...)", "bs": "dati — prošlo", "pos": "glag. neprav. indef.", "ipa": "ˈdar", "example_es": "Le di las gracias.", "example_bs": "Zahvalio sam mu/joj." },
+    { "es": "ver (vi, viste, vio...)", "bs": "vidjeti — prošlo", "pos": "glag. neprav. indef.", "ipa": "ˈber", "example_es": "Vi una película anoche.", "example_bs": "Sinoć sam gledao film." },
+    { "es": "la película / el espectáculo", "bs": "film / predstava", "pos": "im.", "ipa": "la pe.ˈli.ku.la", "example_es": "Vi una película de terror.", "example_bs": "Gledao sam horor film." },
+    { "es": "el concierto", "bs": "koncert", "pos": "im. m.", "ipa": "el kon.ˈθjer.to", "example_es": "Fue un concierto increíble.", "example_bs": "Bio je to nevjerojatan koncert." },
+    { "es": "la reunión", "bs": "sastanak", "pos": "im. ž.", "ipa": "la reu.ˈnjon", "example_es": "La reunión fue muy larga.", "example_bs": "Sastanak je bio jako dug." },
+    { "es": "el examen", "bs": "ispit", "pos": "im. m.", "ipa": "el ek.ˈsa.men", "example_es": "El examen fue difícil.", "example_bs": "Ispit je bio težak." },
+    { "es": "divertido / aburrido", "bs": "zabavno / dosadno", "pos": "prid.", "ipa": "di.βer.ˈti.ðo", "example_es": "La fiesta fue muy divertida.", "example_bs": "Zabava je bila jako vesela." }
+  ],
+  "grammar": [
+    {
+      "concept": "IR i SER — identična konjugacija u indefinidu!",
+      "explanation_bs": "IR i SER imaju POTPUNO ISTI oblik u indefinidu: fui, fuiste, fue, fuimos, fuisteis, fueron. Kontekst određuje koji je glagol: 'Fui al cine' (IR = otišao sam), 'Fue increíble' (SER = bilo je). Pazi: ovi oblici NEMAJU akcentnih znakova — za razliku od pravilnih glagola (hablé, comió)!",
+      "table": {
+        "headers": ["Zamjenica", "IR / SER (isti!)", "Primjer IR", "Primjer SER"],
+        "rows": [
+          ["yo", "fui", "Fui al parque.", "Fui feliz."],
+          ["tú", "fuiste", "¿Fuiste al médico?", "Fuiste muy amable."],
+          ["él/ella", "fue", "Fue al trabajo.", "Fue una buena idea."],
+          ["nosotros", "fuimos", "Fuimos al cine.", "Fuimos estudiantes."],
+          ["vosotros", "fuisteis", "Fuisteis a la fiesta.", "Fuisteis buenos."],
+          ["ellos", "fueron", "Fueron al banco.", "Fueron amigos."]
+        ]
+      },
+      "examples": [
+        { "es": "Ayer fui al médico. (IR)", "bs": "Jučer sam išao kod doktora." },
+        { "es": "Fue una reunión muy larga. (SER)", "bs": "Bio je to jako dug sastanak." },
+        { "es": "Fuimos al concierto juntos. (IR)", "bs": "Zajedno smo otišli na koncert." }
+      ],
+      "tips": "Fui/fuiste/fue bez akcenta = indefinido. Pronalaženje smisla po kontekstu: lugar (IR) vs opis (SER)."
+    },
+    {
+      "concept": "HACER u indefinidu",
+      "explanation_bs": "HACER u indefinidu: hice, hiciste, hizo, hicimos, hicisteis, hicieron. Pazi: yo → hice (c ispred e), ali él → hizo (z ispred o — pravilo španskog pravopisa). DAR i VER imaju kraće nastavke bez akcenta: di/diste/dio, vi/viste/vio.",
+      "table": {
+        "headers": ["Zamjenica", "HACER", "DAR", "VER"],
+        "rows": [
+          ["yo", "hice", "di", "vi"],
+          ["tú", "hiciste", "diste", "viste"],
+          ["él/ella", "hizo ← z!", "dio", "vio"],
+          ["nosotros", "hicimos", "dimos", "vimos"],
+          ["vosotros", "hicisteis", "disteis", "visteis"],
+          ["ellos", "hicieron", "dieron", "vieron"]
+        ]
+      },
+      "examples": [
+        { "es": "¿Qué hiciste el fin de semana?", "bs": "Šta si radio vikend?" },
+        { "es": "Le di un regalo a mi madre.", "bs": "Dao sam poklon svojoj majci." },
+        { "es": "Vi una película increíble anoche.", "bs": "Sinoć sam gledao nevjerojatan film." }
+      ],
+      "tips": "HACER: hice → hizo (c→z pred o). DAR i VER su kratki bez akcentnih znakova — ne putati s prezentom (da/ve)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo fue el fin de semana? — Kako je prošao vikend?",
+    "lines": [
+      { "speaker": "Isabel", "es": "¿Cómo fue tu fin de semana?", "bs": "Kako je prošao tvoj vikend?" },
+      { "speaker": "Ramón", "es": "Fue genial. El sábado fui a un concierto de jazz.", "bs": "Bilo je odlično. U subotu sam išao na jazz koncert." },
+      { "speaker": "Isabel", "es": "¿Y fue bueno el concierto?", "bs": "I je li koncert bio dobar?" },
+      { "speaker": "Ramón", "es": "Fue increíble. Hicieron tres horas de música sin parar.", "bs": "Bio je nevjerojatan. Svirali su tri sata bez prestanka." },
+      { "speaker": "Isabel", "es": "¿Fuiste solo?", "bs": "Jesi li išao sam?" },
+      { "speaker": "Ramón", "es": "No, fui con mi hermana. Ella vio al guitarrista y le dio su número de teléfono.", "bs": "Ne, išao sam sa sestrom. Ona je vidjela gitaristu i dala mu je broj telefona." },
+      { "speaker": "Isabel", "es": "¡No me digas! ¿Y qué hiciste el domingo?", "bs": "Pa ne! A šta si radio nedeljom?" },
+      { "speaker": "Ramón", "es": "El domingo no hice nada. Vi series en casa todo el día.", "bs": "Nedeljom nisam ništa radio. Gledao sam serije kod kuće cijeli dan." }
+    ]
+  },
+  "reading": {
+    "title": "Una noche especial — Posebna večer",
+    "text_es": "El viernes pasado fue una noche especial para mi familia. Fuimos todos juntos a ver la ópera por primera vez. Mi padre fue quien compró las entradas — fue un regalo para el cumpleaños de mi madre. El espectáculo fue impresionante — los cantantes fueron extraordinarios. Después del espectáculo, fuimos a cenar a un restaurante elegante. Hicimos muchas fotos y lo pasamos muy bien. Al final, di las gracias a mi padre por la idea. Fue una noche que nunca olvidaré.",
+    "glossary": [
+      { "es": "fue quien", "bs": "bio je taj koji" },
+      { "es": "las entradas", "bs": "ulaznice" },
+      { "es": "los cantantes", "bs": "pjevači" },
+      { "es": "lo pasamos muy bien", "bs": "jako smo se dobro proveli" },
+      { "es": "nunca olvidaré", "bs": "nikad neću zaboraviti" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kamo su otišli zajedno?",
+        "options": ["Na jazz koncert", "Na operu", "U kino"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Za čiji je to bio rođendanski poklon?",
+        "options": ["Za očev", "Za majčin", "Za sestrin"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta su radili nakon spektakla?",
+        "options": ["Šetali", "Otišli u restoran", "Kući odmah"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik IR za 'nosotros' u indefinidu?",
+      "options": ["íbamos", "fuimos", "éramos", "ibamos"],
+      "answerIndex": 1,
+      "explanation_bs": "IR u indefinidu: fui, fuiste, fue, fuimos, fuisteis, fueron. Fuimos = nosotros."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik HACER za 'él'?",
+      "options": ["hació", "hizo", "hice", "hacó"],
+      "answerIndex": 1,
+      "explanation_bs": "Él oblik od HACER: hizo (c→z). Pazi: hice (yo), hizo (él)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ayer ___ (yo/ver) una película de terror.",
+      "answer": "vi",
+      "acceptedAnswers": ["vi"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El examen ___ (ser) muy difícil ayer.",
+      "answer": "fue",
+      "acceptedAnswers": ["fue"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Šta si radio prošlog vikenda?",
+      "answer": "¿Qué hiciste el fin de semana pasado?",
+      "acceptedAnswers": ["¿Qué hiciste el fin de semana pasado?", "¿Qué hiciste el pasado fin de semana?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji zamjenicu s oblikom (IR/SER)",
+      "pairs": [
+        { "es": "yo", "bs": "fui" },
+        { "es": "tú", "bs": "fuiste" },
+        { "es": "nosotros", "bs": "fuimos" },
+        { "es": "ellos", "bs": "fueron" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Ayer fui al cine con mi hermano y vi una película muy buena.",
+      "answer": "Ayer fui al cine con mi hermano y vi una película muy buena."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci nešto što si radio prošlog vikenda koristeći IR, SER, HACER ili VER u indefinidu.",
+      "modelAnswer_es": "El sábado fui al parque con mis amigos. Hicimos un picnic y fue muy divertido. Por la noche vi una película en casa."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o prošlim događajima — vježbate IR, SER, HACER, VER u indefinidu.",
+    "level": "A2",
+    "allowedGrammar": ["indefinido: ir/ser/hacer/ver", "pravilni indefinido", "vremenski izrazi za prošlost"],
+    "systemPromptHint": "Pitaj studenta o prošlim vikendima i posebnim prilikama: ¿Qué hiciste? ¿Fue divertido? ¿Fuiste solo? ¿Viste algo interesante? Ispravi greške u nepravilnim oblicima."
+  },
+  "illustration": {
+    "prompt": "A person at a concert or theatre, happy expression, Spanish setting, storytelling about past events",
+    "alt": "Posebna večer — koncert ili pozorište",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["ir-ser-indefinido", "hacer-indefinido", "fui-fue", "a2", "u9"]
+  }
+}

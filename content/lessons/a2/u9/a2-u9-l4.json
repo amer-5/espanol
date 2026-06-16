@@ -1,0 +1,175 @@
+{
+  "id": "a2-u9-l4",
+  "level": "A2",
+  "unit": 9,
+  "lessonNumber": 4,
+  "title": "Pričanje o prošlosti — naracija u indefinidu",
+  "subtitle": "Primero..., luego..., al final... — priča u prošlom vremenu",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti diskursne markerice za sekvencijalnu naraciju prošlosti",
+    "Kombinovati pravilne i nepravilne glagole indefinida u pripovijedanju",
+    "Razumjeti i produkovati kraće priče o prošlim događajima"
+  ],
+  "prerequisites": ["a2-u9-l1", "a2-u9-l2", "a2-u9-l3"],
+  "vocabulary": [
+    { "es": "primero / en primer lugar", "bs": "prvo / na prvom mjestu", "pos": "pril.", "ipa": "pri.ˈme.ro", "example_es": "Primero fui al banco.", "example_bs": "Prvo sam otišao u banku." },
+    { "es": "después / luego", "bs": "nakon toga / potom", "pos": "pril.", "ipa": "des.ˈpwes", "example_es": "Después comí con un amigo.", "example_bs": "Nakon toga sam jeo s prijateljem." },
+    { "es": "más tarde", "bs": "kasnije", "pos": "pril.", "ipa": "mas ˈtar.ðe", "example_es": "Más tarde fui al gimnasio.", "example_bs": "Kasnije sam otišao u teretanu." },
+    { "es": "al final / por último", "bs": "na kraju / naposljetku", "pos": "pril.", "ipa": "al fi.ˈnal", "example_es": "Al final llegué a casa muy cansado.", "example_bs": "Na kraju sam stigao kući jako umoran." },
+    { "es": "de repente / de pronto", "bs": "odjednom / iznenada", "pos": "pril.", "ipa": "de re.ˈpen.te", "example_es": "De repente empezó a llover.", "example_bs": "Odjednom je počelo kišiti." },
+    { "es": "entonces", "bs": "tada / onda", "pos": "pril.", "ipa": "en.ˈton.θes", "example_es": "Entonces decidí volver a casa.", "example_bs": "Tada sam odlučio ići kući." },
+    { "es": "así que", "bs": "tako da / pa", "pos": "vez.", "ipa": "a.ˈsi ke", "example_es": "Perdí el autobús, así que cogí un taxi.", "example_bs": "Propustio sam autobus, pa sam uzeo taksi." },
+    { "es": "mientras tanto", "bs": "u međuvremenu", "pos": "pril.", "ipa": "ˈmjen.tras ˈtan.to", "example_es": "Mientras tanto, ella esperó fuera.", "example_bs": "U međuvremenu je ona čekala vani." },
+    { "es": "por fin / finalmente", "bs": "konačno / napokon", "pos": "pril.", "ipa": "por ˈfin", "example_es": "Por fin encontré las llaves.", "example_bs": "Konačno sam pronašao ključeve." },
+    { "es": "resulta que", "bs": "ispostavilo se da", "pos": "izr.", "ipa": "re.ˈsul.ta ke", "example_es": "Resulta que perdí el tren.", "example_bs": "Ispostavilo se da sam propustio voz." }
+  ],
+  "grammar": [
+    {
+      "concept": "Diskursni markerici za naraciju prošlosti",
+      "explanation_bs": "Pri pripovijedanju o prošlosti koristimo markerice koji strukturiraju priču: **Primero** (prvo) → **Después/Luego** (nakon toga) → **Más tarde** (kasnije) → **Al final** (na kraju). Za iznenađenje: **De repente** (odjednom). Za zaključak: **Así que** (tako da), **Entonces** (tada/onda). Uz ove markerice uvijek dolazi indefinido za prošle događaje.",
+      "table": {
+        "headers": ["Markeric", "Bosanski", "Primjer"],
+        "rows": [
+          ["Primero", "Prvo", "Primero fui al supermercado."],
+          ["Después / Luego", "Nakon toga / Potom", "Después llamé a mi madre."],
+          ["Más tarde", "Kasnije", "Más tarde estuve en casa."],
+          ["De repente", "Odjednom", "De repente tuve un problema."],
+          ["Entonces", "Tada / Onda", "Entonces decidí ir al médico."],
+          ["Así que", "Tako da", "Así que no pude salir."],
+          ["Al final", "Na kraju", "Al final todo salió bien."]
+        ]
+      },
+      "examples": [
+        { "es": "Primero compré las entradas, después fui a cenar y al final vi el concierto.", "bs": "Prvo sam kupio ulaznice, nakon toga sam išao na večeru i na kraju sam gledao koncert." },
+        { "es": "De repente se fue la luz. Entonces todos salimos del edificio.", "bs": "Odjednom je nestalo struje. Tada smo svi izašli iz zgrade." },
+        { "es": "Perdí el móvil, así que no pude llamar a nadie.", "bs": "Izgubio sam mobitel, tako da nisam mogao nazvati nikoga." }
+      ],
+      "tips": "Markerici daju ritam priči. Uvijek mijenjaj markerice — ne ponavljaj samo 'y luego, y luego'. Kombiniraj: primero → después → de repente → al final."
+    },
+    {
+      "concept": "Spajanje pravilnih i nepravilnih glagola u naraciji",
+      "explanation_bs": "U prirodnom pričanju kombiniramo pravilne i nepravilne glagole indefinida: 'Salí de casa (pravilni), fui a la estación (IR), tuve que esperar (TENER), pero al final pude coger el tren (PODER) y llegué a tiempo (pravilni).' Praksa: napiši 5 rečenica o nekom danu koristeći barem 3 nepravilna glagola.",
+      "examples": [
+        { "es": "Salí pronto, tomé el metro y llegué al trabajo a las ocho.", "bs": "Rano sam izašao, uzeo metro i stigao na posao u osam." },
+        { "es": "No tuve tiempo para desayunar, así que comí algo en la oficina.", "bs": "Nisam imao vremena za doručak, tako da sam pojeo nešto u uredu." },
+        { "es": "Al mediodía vine a casa, cociné y luego volví al trabajo.", "bs": "U podne sam došao kući, skuhao i potom se vratio na posao." }
+      ],
+      "tips": "Lista za provjeru: koristio si IR? TENER? ESTAR? PODER? Pravilni -AR? Pravilni -ER/-IR? Barem 3 različita tipa = dobra naracija."
+    }
+  ],
+  "dialogue": {
+    "title": "El día que todo salió mal — Dan kad je sve krenulo po zlu",
+    "lines": [
+      { "speaker": "Pedro", "es": "¿Qué te pasó ayer? Llegaste tardísimo.", "bs": "Šta ti se desilo jučer? Jako si kasno stigao." },
+      { "speaker": "Andrés", "es": "Fue un día horrible. Primero, perdí el autobús.", "bs": "Bio je strašan dan. Prvo sam propustio autobus." },
+      { "speaker": "Pedro", "es": "¿Y qué hiciste?", "bs": "I šta si uradio?" },
+      { "speaker": "Andrés", "es": "Llamé a un taxi pero tardó cuarenta minutos en venir.", "bs": "Nazvao sam taksi ali je potrajalo četrdeset minuta da dođe." },
+      { "speaker": "Pedro", "es": "¡Madre mía! ¿Y entonces?", "bs": "Bože moj! I onda?" },
+      { "speaker": "Andrés", "es": "Entonces, de repente, vi que no tuve el móvil. Lo dejé en casa.", "bs": "Onda sam odjednom vidio da nemam mobitel. Ostavio sam ga kod kuće." },
+      { "speaker": "Pedro", "es": "¿Volviste a buscarlo?", "bs": "Jesi li se vratio po njega?" },
+      { "speaker": "Andrés", "es": "Sí, volví, lo cogí y al final llegué con dos horas de retraso. Así que tuve que quedarme más tarde.", "bs": "Da, vratio sam se, uzeo sam ga i na kraju sam stigao dva sata kasno. Tako da sam morao ostati duže." }
+    ]
+  },
+  "reading": {
+    "title": "Mi primera maratón — Moj prvi maraton",
+    "text_es": "El año pasado decidí correr mi primer maratón. Primero, empecé a entrenar seis meses antes. Corrí cada día, comí sano y dormí mucho. El día de la carrera, me levanté a las cinco de la madrugada. Me puse la ropa de deporte y fui al punto de salida. Al principio, todo salió bien — pude mantener un buen ritmo. Pero a mitad de carrera, de repente sentí un dolor terrible en la rodilla. Quise parar, pero entonces pensé en todos los meses de entrenamiento. Así que continué. Al final, llegué a la meta después de cuatro horas y veinte minutos. Cuando crucé la línea, lo primero que hice fue llamar a mi madre. Supe entonces que podía conseguir cualquier cosa.",
+    "glossary": [
+      { "es": "entrenar", "bs": "trenirati" },
+      { "es": "la carrera", "bs": "trka / utrka" },
+      { "es": "el ritmo", "bs": "ritam / tempo" },
+      { "es": "a mitad de", "bs": "na pola / usred" },
+      { "es": "la rodilla", "bs": "koljeno" },
+      { "es": "la meta", "bs": "cilj / završna linija" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko dugo se pripremao?",
+        "options": ["Tri mjeseca", "Šest mjeseci", "Godinu dana"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta se desilo na pola trke?",
+        "options": ["Pao je", "Osjetio je bol u koljenu", "Htio je odustati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koga je nazvao po završetku?",
+        "options": ["Trenera", "Prijatelja", "Majku"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji markeric dolazi IZMEĐU 'primero' i 'al final' u kronološkoj naraciji?",
+      "options": ["De repente", "Después / luego", "Resulta que", "Por fin"],
+      "answerIndex": 1,
+      "explanation_bs": "Hronološki slijed: primero → después/luego → más tarde → al final. 'De repente' se koristi za iznenađenje, ne za hronologiju."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ compré el billete, ___ fui a la plataforma. (Prvo... Nakon toga...)",
+      "answer": "Primero / después",
+      "acceptedAnswers": ["Primero / después", "Primero / luego", "primero / después", "primero / luego"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No ___ (yo/poder) dormir, así que ___ (yo/levantarse) muy temprano.",
+      "answer": "pude / me levanté",
+      "acceptedAnswers": ["pude / me levanté"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prvo sam išao na banku, nakon toga sam ručao i na kraju sam se vratio kući.",
+      "answer": "Primero fui al banco, después comí y al final volví a casa.",
+      "acceptedAnswers": ["Primero fui al banco, después comí y al final volví a casa.", "Primero fui al banco, luego comí y al final volví a casa.", "Primero fui al banco, después almorcé y al final volví a casa."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Odjednom je počela kiša, tako da smo ušli unutra.",
+      "answer": "De repente empezó a llover, así que entramos dentro.",
+      "acceptedAnswers": ["De repente empezó a llover, así que entramos dentro.", "De repente empezó a llover, así que nos metimos dentro.", "De repente llovió, así que entramos dentro."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji markeric s bosanskim prevodom",
+      "pairs": [
+        { "es": "de repente", "bs": "odjednom" },
+        { "es": "así que", "bs": "tako da" },
+        { "es": "al final", "bs": "na kraju" },
+        { "es": "mientras tanto", "bs": "u međuvremenu" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Primero fui al médico, luego compré los medicamentos y después estuve en casa todo el día.",
+      "answer": "Primero fui al médico, luego compré los medicamentos y después estuve en casa todo el día."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj nešto što si radio prošle sedmice — koristi barem 4 diskursna markerica i nepravilne glagole indefinida.",
+      "modelAnswer_es": "El sábado pasado me levanté tarde. Primero desayuné y luego fui al centro comercial. De repente vi a un amigo que no veía hace mucho. Estuvimos tomando un café durante dos horas. Al final volví a casa muy tarde pero fue un día genial."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te zamoli da ispričaš neku zanimljivu priču iz prošlosti — vježbaš naraciju s markerima i nepravilnim indefinidom.",
+    "level": "A2",
+    "allowedGrammar": ["indefinido pravilni i nepravilni", "narativni markerici: primero/luego/de repente/al final", "así que/entonces"],
+    "systemPromptHint": "Zamoli studenta da ti ispriča neku priču iz prošlosti: ¿Qué pasó? ¿Y entonces? ¿Qué hiciste al final? Podrži naraciju pitanjima i ispravi nepravilne oblike indefinida. Naglasi upotrebu markerica."
+  },
+  "illustration": {
+    "prompt": "A person telling a story with expressive gestures, speech bubbles with past tense verbs, warm storytelling atmosphere, Spanish setting",
+    "alt": "Osoba priča priču o prošlim događajima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["narrative-markers", "indefinido-narration", "primero-luego-al-final", "a2", "u9"]
+  }
+}

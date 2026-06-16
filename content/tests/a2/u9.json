@@ -1,0 +1,116 @@
+{
+  "id": "test-a2-u9",
+  "level": "A2",
+  "unit": 9,
+  "title": "Test — Jedinica 9: Pretérito indefinido",
+  "cumulative": true,
+  "timeLimitMinutes": 18,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik HABLAR za 'yo' u indefinidu?",
+      "options": ["hablaba", "hablé", "habló", "hable"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u9-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La semana pasada ___ (ella/comer) en un restaurante muy caro.",
+      "answer": "comió",
+      "acceptedAnswers": ["comió"],
+      "points": 2,
+      "lessonId": "a2-u9-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik IR za 'nosotros' u indefinidu?",
+      "options": ["íbamos", "fuimos", "éramos", "ibamos"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u9-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El examen ___ (ser) muy difícil ayer.",
+      "answer": "fue",
+      "acceptedAnswers": ["fue"],
+      "points": 2,
+      "lessonId": "a2-u9-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik HACER za 'él' u indefinidu?",
+      "options": ["hació", "hizo", "hice", "hacó"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u9-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: No ___ (yo/poder) dormir la noche anterior al examen.",
+      "answer": "pude",
+      "acceptedAnswers": ["pude"],
+      "points": 2,
+      "lessonId": "a2-u9-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TENER za 'tú' u indefinidu?",
+      "options": ["teniste", "tuviste", "tenías", "tuvió"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u9-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prošlog vikenda sam otišao na koncert i bilo je nevjerojatno.",
+      "answer": "El fin de semana pasado fui a un concierto y fue increíble.",
+      "acceptedAnswers": ["El fin de semana pasado fui a un concierto y fue increíble.", "El pasado fin de semana fui a un concierto y fue increíble."],
+      "points": 3,
+      "lessonId": "a2-u9-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (yo/ver) una película increíble anoche.",
+      "answer": "Vi",
+      "acceptedAnswers": ["Vi", "vi"],
+      "points": 2,
+      "lessonId": "a2-u9-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Htio sam doći ali nisam mogao jer sam imao problem s kolima.",
+      "answer": "Quise venir pero no pude porque tuve un problema con el coche.",
+      "acceptedAnswers": ["Quise venir pero no pude porque tuve un problema con el coche.", "Quise ir pero no pude porque tuve un problema con el coche."],
+      "points": 3,
+      "lessonId": "a2-u9-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Ayer fui al médico, estuve esperando una hora y al final el doctor me dio medicamentos.",
+      "answer": "Ayer fui al médico, estuve esperando una hora y al final el doctor me dio medicamentos.",
+      "points": 3,
+      "lessonId": "a2-u9-l3"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5–7 rečenica o nečemu što si radio prošle sedmice ili prošlog vikenda. Koristi barem 4 nepravilna glagola (IR, SER, HACER, TENER, ESTAR, PODER...) i diskursne markerice (primero, después, de repente, al final...).",
+      "minWords": 40,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: nepravilni glagoli indefinida ispravno (4), pravilni glagoli ispravno (2), diskursni markerici (2), kohezija naracije (1), pravopis (1). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u9-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u9-l1", "topic": "Pravilni indefinido: -AR (-é/-aste/-ó), -ER/-IR (-í/-iste/-ió); ayer/la semana pasada" },
+    { "lessonId": "a2-u9-l2", "topic": "Nepravilni: IR/SER (fui/fuiste/fue), HACER (hice/hizo), DAR, VER" },
+    { "lessonId": "a2-u9-l3", "topic": "Nepravilni: TENER (tuve), ESTAR (estuve), PODER (pude), QUERER (quise), VENIR (vine), SABER (supe)" },
+    { "lessonId": "a2-u9-l4", "topic": "Naracija: primero/después/de repente/al final/así que; kombinovanje pravilnih i nepravilnih glagola" }
+  ]
+}

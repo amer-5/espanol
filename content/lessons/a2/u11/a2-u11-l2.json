@@ -1,0 +1,173 @@
+{
+  "id": "a2-u11-l2",
+  "level": "A2",
+  "unit": 11,
+  "lessonNumber": 2,
+  "title": "IR a + infinitivo — bliža budućnost",
+  "subtitle": "Voy a hacer, vas a ir... — šta ćeš uskoro",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti IR a + infinitivo za planove i namjere",
+    "Razlikovati IR a + infinitivo (plan) od futuro simple (predviđanje)",
+    "Koristiti strukturu u razgovornom kontekstu"
+  ],
+  "prerequisites": ["a2-u11-l1"],
+  "vocabulary": [
+    { "es": "voy a + inf.", "bs": "idem/ću + glagol (blizak plan)", "pos": "izr.", "ipa": "ˈβoj a", "example_es": "Voy a estudiar esta tarde.", "example_bs": "Ući ću večeras (planiram)." },
+    { "es": "esta tarde / esta noche", "bs": "danas popodne / večeras", "pos": "izr.", "ipa": "ˈes.ta ˈtar.ðe", "example_es": "Esta noche voy a cenar con mi familia.", "example_bs": "Večeras ću večerati s porodicom." },
+    { "es": "el próximo / la próxima", "bs": "sljedeći/a", "pos": "prid.", "ipa": "el ˈprok.si.mo", "example_es": "El próximo mes voy a cambiar de trabajo.", "example_bs": "Sljedeći mjesec ću promijeniti posao." },
+    { "es": "tener pensado + inf.", "bs": "imati namjeru / planirati", "pos": "izr.", "ipa": "te.ˈner pen.ˈsa.ðo", "example_es": "Tengo pensado comprar un coche.", "example_bs": "Namjeravam kupiti auto." },
+    { "es": "pensar + inf.", "bs": "misliti/namjeravati + glagol", "pos": "glag. + inf.", "ipa": "pen.ˈsar", "example_es": "Pienso estudiar en el extranjero.", "example_bs": "Namjeravam studirati u inozemstvu." },
+    { "es": "quedarse / quedarse en casa", "bs": "ostati / ostati kod kuće", "pos": "refl. glag.", "ipa": "ke.ˈðar.se", "example_es": "Voy a quedarme en casa esta tarde.", "example_bs": "Ostat ću kod kuće danas popodne." },
+    { "es": "salir a cenar", "bs": "ići na večeru (van)", "pos": "izr.", "ipa": "sa.ˈlir a θe.ˈnar", "example_es": "Vamos a salir a cenar el viernes.", "example_bs": "U petak idemo na večeru van." },
+    { "es": "apuntarse a", "bs": "prijaviti se / upisati se u", "pos": "refl. glag.", "ipa": "a.pun.ˈtar.se", "example_es": "Me voy a apuntar a clases de yoga.", "example_bs": "Prijavit ću se na yoga tečaj." },
+    { "es": "por fin", "bs": "konačno / napokon", "pos": "pril.", "ipa": "por ˈfin", "example_es": "Por fin voy a arreglar eso.", "example_bs": "Konačno ću to popraviti." },
+    { "es": "hacer la compra", "bs": "obaviti kupovinu / ići u nabavku", "pos": "izr.", "ipa": "a.ˈθer la ˈkom.pra", "example_es": "Mañana voy a hacer la compra.", "example_bs": "Sutra ću ići u nabavku." }
+  ],
+  "grammar": [
+    {
+      "concept": "IR a + infinitivo — struktura i upotreba",
+      "explanation_bs": "**IR a + infinitivo** = namjera, plan ili bliska budućnost. Tvori se: prezent IR (voy/vas/va/vamos/vais/van) + **a** + infinitiv. Koristi se za: 1) Konkretne planove: 'Esta tarde voy a estudiar.' 2) Namjere: 'Voy a cambiar de trabajo.' 3) Predviđanja za blisku budućnost s dokazom: 'Mira esas nubes — va a llover.' (Gledaj te oblake — kisat će.)",
+      "table": {
+        "headers": ["Subjekt", "IR (prezent)", "+ a + inf.", "Primjer"],
+        "rows": [
+          ["yo", "voy", "a estudiar", "Voy a estudiar."],
+          ["tú", "vas", "a comer", "Vas a comer pronto."],
+          ["él/ella", "va", "a venir", "Va a venir mañana."],
+          ["nosotros", "vamos", "a salir", "Vamos a salir."],
+          ["vosotros", "vais", "a ver", "Vais a ver una película."],
+          ["ellos", "van", "a hablar", "Van a hablar."]
+        ]
+      },
+      "examples": [
+        { "es": "Esta tarde voy a ir al gimnasio.", "bs": "Danas popodne ću ići u teretanu." },
+        { "es": "¡Cuidado! Vas a caerte.", "bs": "Pazi! Pašćeš." },
+        { "es": "El próximo año vamos a mudarnos a otro barrio.", "bs": "Sljedeće godine ćemo se preseliti u drugu četvrt." }
+      ],
+      "tips": "IR a + inf. se više koristi u razgovornom jeziku za konkretne planove. Futuro simple je formalniji i za dalju budućnost ili predviđanja bez konkretnih planova."
+    },
+    {
+      "concept": "IR a + inf. vs Futuro simple — razlika",
+      "explanation_bs": "Obje strukture označavaju budućnost ali: **IR a + inf.** = konkretan plan/namjera, bliža budućnost, razgovorni stil. 'Esta noche voy a ver una película.' (Planiram, imam tu namjeru). **Futuro simple** = predviđanje, dalja budućnost, formalniji stil. 'Mañana lloverá.' (Predviđam bez konkretnog plana). U praksi, u Španiji se IR a + inf. koristi puno češće u svakodnevnom govoru!",
+      "examples": [
+        { "es": "Esta noche voy a estudiar. (plan → IR a)", "bs": "Večeras ću učiti. (imam taj plan)" },
+        { "es": "En 2030, la tecnología cambiará mucho. (dalj. predv. → futuro)", "bs": "Do 2030., tehnologija će se puno promijeniti. (predviđanje)" },
+        { "es": "Mira esas nubes — va a llover. (vidljiv znak → IR a)", "bs": "Gledaj te oblake — kisat će. (ima dokaz za to)" }
+      ],
+      "tips": "Praktično pravilo: Za razgovor i planove → IR a. Za predviđanja i formalnu budućnost → futuro simple. Oboje su ispravni — kontekst i stil određuju izbor."
+    }
+  ],
+  "dialogue": {
+    "title": "Planes para las vacaciones — Planovi za odmor",
+    "lines": [
+      { "speaker": "Nora", "es": "¿Qué vas a hacer estas vacaciones?", "bs": "Šta ćeš raditi ove praznike?" },
+      { "speaker": "Toni", "es": "Voy a ir a la playa con mi familia. Hemos alquilado una casa en Alicante.", "bs": "Ići ću na plažu s porodicom. Iznajmili smo kuću u Alicanteu." },
+      { "speaker": "Nora", "es": "¡Qué envidia! ¿Cuántos días vais a estar?", "bs": "Kako zavidim! Koliko dana ćete biti tamo?" },
+      { "speaker": "Toni", "es": "Diez días. Vamos a descansar, nadar y explorar la zona.", "bs": "Deset dana. Odmahat ćemo, kupati se i istraživat ćemo okolinu." },
+      { "speaker": "Nora", "es": "¿Vais a visitar algún pueblo cerca?", "bs": "Hoćete li posjetiti neko okolno mjestance?" },
+      { "speaker": "Toni", "es": "Sí, tenemos pensado ir a Benidorm un día. ¿Y tú? ¿Tienes planes?", "bs": "Da, planiramo otići u Benidorm jedan dan. A ti? Imaš li planove?" },
+      { "speaker": "Nora", "es": "Por ahora voy a quedarme en casa. Voy a aprovechar para leer y descansar.", "bs": "Za sada ću ostati kod kuće. Iskoristit ću za čitanje i odmor." },
+      { "speaker": "Toni", "es": "¡Oye, pues también está bien descansar en casa!", "bs": "Hej, i odmor kod kuće je super!" }
+    ]
+  },
+  "reading": {
+    "title": "Resoluciones de año nuevo — Novogodiš nje odluke",
+    "text_es": "Cada año, muchas personas hacen resoluciones de año nuevo. Este año yo tengo algunas muy concretas. Primero, voy a empezar a hacer ejercicio tres veces por semana. Llevo años diciéndolo y este año lo voy a hacer de verdad. También voy a aprender a cocinar mejor — pienso apuntarme a un curso de cocina en febrero. En el trabajo, voy a ser más organizado: voy a usar una agenda y voy a llegar puntual a las reuniones. Por último, voy a pasar más tiempo con mi familia — voy a llamar a mis padres al menos una vez por semana. Son pocos cambios pero concretos. El secreto es empezar.",
+    "glossary": [
+      { "es": "las resoluciones", "bs": "odluke / rezolucije" },
+      { "es": "llevo años diciéndolo", "bs": "govorim to godinama" },
+      { "es": "de verdad", "bs": "stvarno / zaista" },
+      { "es": "organizado", "bs": "organiziran" },
+      { "es": "puntual", "bs": "točan / na vrijeme" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko puta tjedno planira vježbati?",
+        "options": ["Jednom", "Dvaput", "Triput"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Na koji tečaj se planira prijaviti?",
+        "options": ["Španski jezik", "Kuhanje", "Fotografija"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko često planira zvati roditelje?",
+        "options": ["Svaki dan", "Jednom sedmično", "Jednom mjesečno"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik za 'ella' u IR a + inf.: ___ a estudiar?",
+      "options": ["va", "fue", "irá", "iba"],
+      "answerIndex": 0,
+      "explanation_bs": "IR a + inf. koristi PREZENT IR: yo voy, tú vas, él/ella VA + a + infinitiv."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Esta tarde ___ (nosotros/ir) a ver una película.",
+      "answer": "vamos",
+      "acceptedAnswers": ["vamos"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ¿___ (tú/ir) a salir esta noche?",
+      "answer": "Vas",
+      "acceptedAnswers": ["Vas", "vas"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Večeras ću ostati kod kuće i učiti.",
+      "answer": "Esta noche voy a quedarme en casa y estudiar.",
+      "acceptedAnswers": ["Esta noche voy a quedarme en casa y estudiar.", "Esta noche me voy a quedar en casa y estudiar."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Konačno ću se prijaviti na tečaj španskog.",
+      "answer": "Por fin voy a apuntarme a clases de español.",
+      "acceptedAnswers": ["Por fin voy a apuntarme a clases de español.", "Por fin me voy a apuntar a clases de español."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Razvrstaj rečenicu u IR a + inf. ili futuro simple",
+      "pairs": [
+        { "es": "Voy a comer ahora.", "bs": "IR a + inf. (konkretan plan)" },
+        { "es": "En 2050 habrá más robots.", "bs": "futuro (predviđanje za daleko)" },
+        { "es": "Va a llover — mira las nubes.", "bs": "IR a + inf. (vidljiv znak)" },
+        { "es": "Mañana hablarán del tema.", "bs": "futuro (formalan/nejasan plan)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Este fin de semana voy a limpiar la casa, voy a hacer la compra y por la noche voy a salir con unos amigos.",
+      "answer": "Este fin de semana voy a limpiar la casa, voy a hacer la compra y por la noche voy a salir con unos amigos."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3 plana za ovaj vikend koristeći IR a + infinitivo.",
+      "modelAnswer_es": "Este fin de semana voy a descansar mucho. El sábado voy a ir al gimnasio por la mañana y por la tarde voy a quedar con unos amigos. El domingo voy a preparar la ropa para la semana y voy a llamar a mis padres."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim planovima — vježbaš IR a + infinitivo za konkretne planove i namjere.",
+    "level": "A2",
+    "allowedGrammar": ["ir a + infinitivo", "futuro simple", "pensar + inf / tener pensado + inf"],
+    "systemPromptHint": "Pitaj studenta o planovima: ¿Qué vas a hacer este fin de semana? ¿Tienes pensado aprender algo nuevo? ¿Vas a hacer algo especial esta semana? Ispravi greške u IR a + inf. i razlikuj s futurom."
+  },
+  "illustration": {
+    "prompt": "A person writing a to-do list or calendar with future plans, organized and motivated, Spanish home setting",
+    "alt": "Planiranje — pisanje liste planova za budućnost",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["ir-a-infinitivo", "voy-vas-va-vamos", "planovi-budućnost", "a2", "u11"]
+  }
+}

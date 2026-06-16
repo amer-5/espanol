@@ -1,0 +1,184 @@
+{
+  "id": "a2-u11-l1",
+  "level": "A2",
+  "unit": 11,
+  "lessonNumber": 1,
+  "title": "Futuro simple — tvorba",
+  "subtitle": "Hablaré, comeré, viviré — budućnost",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Tvoriti futuro simple pravilnih i nepravilnih glagola",
+    "Koristiti futuro za predviđanja i buduće planove",
+    "Razlikovati futuro od IR + a + infinitivo"
+  ],
+  "prerequisites": ["a2-u10-l4"],
+  "vocabulary": [
+    { "es": "mañana / pasado mañana", "bs": "sutra / prekosutra", "pos": "pril.", "ipa": "ma.ˈɲa.na", "example_es": "Mañana hablaré con el jefe.", "example_bs": "Sutra ću razgovarati s šefom." },
+    { "es": "la semana que viene", "bs": "sljedeće sedmice", "pos": "izr.", "ipa": "la se.ˈma.na ke ˈβje.ne", "example_es": "La semana que viene empezaré el curso.", "example_bs": "Sljedeće sedmice ću početi kurs." },
+    { "es": "el mes / año que viene", "bs": "sljedeći mjesec / godina", "pos": "izr.", "ipa": "el mes ke ˈβje.ne", "example_es": "El año que viene viviré en el extranjero.", "example_bs": "Sljedeće godine živjet ću u inozemstvu." },
+    { "es": "en el futuro", "bs": "u budućnosti", "pos": "izr.", "ipa": "en el fu.ˈtu.ro", "example_es": "En el futuro todo será diferente.", "example_bs": "U budućnosti sve će biti drugačije." },
+    { "es": "dentro de + tiempo", "bs": "za + vremenski period", "pos": "izr.", "ipa": "ˈden.tro ðe", "example_es": "Dentro de dos años acabaré la carrera.", "example_bs": "Za dvije godine završit ću fakultet." },
+    { "es": "probablemente / seguramente", "bs": "vjerovatno / sigurno", "pos": "pril.", "ipa": "pro.βa.βle.ˈmen.te", "example_es": "Probablemente iré al cine mañana.", "example_bs": "Vjerovatno ću ići u kino sutra." },
+    { "es": "creo que + futuro", "bs": "mislim da + futur", "pos": "izr.", "ipa": "ˈkre.o ke", "example_es": "Creo que lloverá esta tarde.", "example_bs": "Mislim da će kišiti danas popodne." },
+    { "es": "el futuro / el porvenir", "bs": "budućnost", "pos": "im. m.", "ipa": "el fu.ˈtu.ro", "example_es": "Nadie sabe qué pasará en el futuro.", "example_bs": "Niko ne zna šta će se desiti u budućnosti." },
+    { "es": "cumplir años", "bs": "slaviti rođendan", "pos": "izr.", "ipa": "kum.ˈplir ˈa.ɲos", "example_es": "El mes que viene cumpliré 30 años.", "example_bs": "Sljedeći mjesec ću napuniti 30 godina." },
+    { "es": "cambiar de trabajo", "bs": "promijeniti posao", "pos": "izr.", "ipa": "kam.ˈbjar ðe tra.ˈβa.xo", "example_es": "Pronto cambiaré de trabajo.", "example_bs": "Uskoro ću promijeniti posao." }
+  ],
+  "grammar": [
+    {
+      "concept": "Futuro simple — tvorba pravilnih glagola",
+      "explanation_bs": "Futuro simple se tvori dodavanjem nastavaka na **infinitiv** (ne na stablo!): **-é, -ás, -á, -emos, -éis, -án** za SVE glagole (-AR, -ER, -IR). Primjer: hablar + é = hablaré. Svi nastavci imaju naglasak osim nosotros (-emos). Pravilo: infinitiv + nastavak = futuro.",
+      "table": {
+        "headers": ["Zamjenica", "HABLAR", "COMER", "VIVIR"],
+        "rows": [
+          ["yo", "hablaré", "comeré", "viviré"],
+          ["tú", "hablarás", "comerás", "vivirás"],
+          ["él/ella", "hablará", "comerá", "vivirá"],
+          ["nosotros", "hablaremos", "comeremos", "viviremos"],
+          ["vosotros", "hablaréis", "comeréis", "viviréis"],
+          ["ellos", "hablarán", "comerán", "vivirán"]
+        ]
+      },
+      "examples": [
+        { "es": "Mañana hablaré con mi jefe sobre el proyecto.", "bs": "Sutra ću razgovarati sa šefom o projektu." },
+        { "es": "El próximo verano viviremos en España tres meses.", "bs": "Sljedećeg ljeta živjet ćemo u Španiji tri mjeseca." },
+        { "es": "Creo que lloverá esta tarde — el cielo está nublado.", "bs": "Mislim da će kišiti danas popodne — nebo je oblačno." }
+      ],
+      "tips": "Futuro = infinitiv + nastavak. NEMA promjene stabla za pravilne glagole! Usporedi: habl-AR + é = hablaré, com-ER + é = comeré, viv-IR + é = viviré."
+    },
+    {
+      "concept": "Nepravilni glagoli u futuru",
+      "explanation_bs": "12 glagola mijenja stablo (ne nastavke!) u futuru. Najvažniji: **tener → tendr-**, **poder → podr-**, **querer → querr-**, **saber → sabr-**, **haber → habr-**, **hacer → har-**, **poner → pondr-**, **salir → saldr-**, **venir → vendr-**, **decir → dir-**. Nastavci ostaju isti: -é/-ás/-á/-emos/-éis/-án.",
+      "table": {
+        "headers": ["Infinitiv", "Stablo", "yo", "él/ella"],
+        "rows": [
+          ["tener", "tendr-", "tendré", "tendrá"],
+          ["poder", "podr-", "podré", "podrá"],
+          ["querer", "querr-", "querré", "querrá"],
+          ["hacer", "har-", "haré", "hará"],
+          ["venir", "vendr-", "vendré", "vendrá"],
+          ["decir", "dir-", "diré", "dirá"]
+        ]
+      },
+      "examples": [
+        { "es": "¿Cuándo tendrás los resultados del examen?", "bs": "Kad ćeš imati rezultate ispita?" },
+        { "es": "Este fin de semana haremos una fiesta en casa.", "bs": "Ovog vikenda ćemo napraviti zabavu kod kuće." },
+        { "es": "Vendrán a visitarnos en Navidad.", "bs": "Doći će nas posjetiti na Božić." }
+      ],
+      "tips": "Mnemotehnika za stabla: TenDRá, PoDRá, QueRRá, SabRá, HaRá, PonDRá, SalDRá, VenDRá, DIRá. Uči kao grupu po obracu: -DR- ili -RR-."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué harás el fin de semana? — Šta ćeš raditi vikendom?",
+    "lines": [
+      { "speaker": "Laura", "es": "¿Tienes planes para este fin de semana?", "bs": "Imaš li planove za ovaj vikend?" },
+      { "speaker": "Pablo", "es": "Sí. El sábado iré a visitar a mis padres en el pueblo.", "bs": "Da. U subotu ću ići posjetiti roditelje u selu." },
+      { "speaker": "Laura", "es": "¿Y qué harán allí?", "bs": "I šta ćete tamo raditi?" },
+      { "speaker": "Pablo", "es": "Comeremos juntos, daremos un paseo y probablemente veremos una película por la noche.", "bs": "Jesti ćemo zajedno, prošetati ćemo i vjerovatno ćemo gledati film navečer." },
+      { "speaker": "Laura", "es": "¡Qué bien! ¿Cuándo volverás?", "bs": "Kako lijepo! Kad ćeš se vratiti?" },
+      { "speaker": "Pablo", "es": "El domingo por la tarde. ¿Y tú? ¿Qué harás?", "bs": "U nedjelju popodne. A ti? Šta ćeš raditi?" },
+      { "speaker": "Laura", "es": "Yo me quedaré en casa. Tengo que estudiar para el examen del lunes.", "bs": "Ja ću ostati kod kuće. Moram učiti za ispit u ponedjeljak." },
+      { "speaker": "Pablo", "es": "¡Ánimo! Seguro que lo harás muy bien.", "bs": "Hrabro! Sigurno ćeš se odlično snaći." }
+    ]
+  },
+  "reading": {
+    "title": "Mi plan para los próximos cinco años — Moj plan za sljedećih pet godina",
+    "text_es": "Tengo veinticinco años y quiero contarles mi plan para el futuro. El año que viene terminaré mis estudios y buscaré trabajo en mi ciudad. Dentro de dos años, si todo va bien, podré ahorrar suficiente dinero para comprar un piso pequeño. En tres años, probablemente viajaré a América Latina — siempre he querido conocer México y Argentina. Dentro de cinco años, espero tener una vida estable: un trabajo que me guste, mi propio apartamento y quizás una familia. No sé exactamente qué pasará, pero lo importante es tener dirección. El futuro llegará — mejor estar preparado.",
+    "glossary": [
+      { "es": "ahorrar", "bs": "uštediti / štedjeti" },
+      { "es": "el piso", "bs": "stan" },
+      { "es": "espero tener", "bs": "nadam se da ću imati" },
+      { "es": "estable", "bs": "stabilan" },
+      { "es": "quizás", "bs": "možda" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta planira raditi sljedeće godine?",
+        "options": ["Putovati u Meksiko", "Završiti studij i naći posao", "Kupiti stan"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kamo želi putovati za tri godine?",
+        "options": ["Evropu", "Aziju", "Latinsku Ameriku"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Šta je po njemu najvažnije?",
+        "options": ["Imati puno novca", "Imati smjer u životu", "Putovati svake godine"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik COMER za 'yo' u futuru?",
+      "options": ["comeré", "comí", "comería", "comeró"],
+      "answerIndex": 0,
+      "explanation_bs": "Futuro = infinitiv + nastavak. Comer + é = comeré. Yo: comeré."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TENER za 'ellos' u futuru?",
+      "options": ["tendrán", "tendán", "tenerán", "tenán"],
+      "answerIndex": 0,
+      "explanation_bs": "TENER nepravilan: stablo tendr- + nastavak. Ellos: tendrán."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mañana ___ (yo/hablar) con el médico.",
+      "answer": "hablaré",
+      "acceptedAnswers": ["hablaré"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El próximo verano ___ (nosotros/viajar) a Italia.",
+      "answer": "viajaremos",
+      "acceptedAnswers": ["viajaremos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Sljedeće godine završit ću fakultet i naći ću posao.",
+      "answer": "El año que viene terminaré la carrera y encontraré trabajo.",
+      "acceptedAnswers": ["El año que viene terminaré la carrera y encontraré trabajo.", "El próximo año terminaré la carrera y encontraré trabajo."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji glagol s oblikom za 'yo' u futuru",
+      "pairs": [
+        { "es": "hacer", "bs": "haré" },
+        { "es": "venir", "bs": "vendré" },
+        { "es": "poder", "bs": "podré" },
+        { "es": "decir", "bs": "diré" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "El año que viene hablaré mejor español y podré trabajar en una empresa internacional.",
+      "answer": "El año que viene hablaré mejor español y podré trabajar en una empresa internacional."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci 3-4 rečenice o tvojim planovima za sljedeću godinu — koristi futuro simple.",
+      "modelAnswer_es": "El año que viene terminaré mis estudios. Después buscaré trabajo en una empresa de tecnología. Probablemente me mudaré a otra ciudad. Si tengo suficiente dinero, viajaré a España."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim planovima i predviđanjima za budućnost — vježbaš futuro simple.",
+    "level": "A2",
+    "allowedGrammar": ["futuro simple pravilni i nepravilni", "mañana/la semana que viene/dentro de X años", "creo que + futuro"],
+    "systemPromptHint": "Pitaj studenta o budućim planovima: ¿Qué harás este fin de semana? ¿Dónde vivirás en 5 años? ¿Crees que aprenderás español pronto? Ispravi greške u futuru, posebno nepravilna stabla."
+  },
+  "illustration": {
+    "prompt": "A person looking at the horizon or a calendar with future dates, optimistic bright atmosphere, planning for the future",
+    "alt": "Planiranje budućnosti — pogled prema horizontu",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["futuro-simple", "hablare-comere-vivire", "tendré-haré-vendré", "a2", "u11"]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "test-a2-u11",
+  "level": "A2",
+  "unit": 11,
+  "title": "Test — Jedinica 11: Budućnost i kondicional",
+  "cumulative": true,
+  "timeLimitMinutes": 18,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik COMER za 'yo' u futuru?",
+      "options": ["comí", "comeré", "comería", "coma"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a2-u11-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El año que viene ___ (nosotros/vivir) en Madrid.",
+      "answer": "viviremos",
+      "acceptedAnswers": ["viviremos"],
+      "points": 2,
+      "lessonId": "a2-u11-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik HACER za 'yo' u futuru?",
+      "options": ["hacé", "haceré", "haré", "harié"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u11-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Esta tarde ___ (yo/ir) a estudiar para el examen.",
+      "answer": "voy",
+      "acceptedAnswers": ["voy"],
+      "points": 2,
+      "lessonId": "a2-u11-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Prijavit ću se na tečaj španskog sljedeće sedmice.",
+      "answer": "Me voy a apuntar a clases de español la semana que viene.",
+      "acceptedAnswers": ["Me voy a apuntar a clases de español la semana que viene.", "Voy a apuntarme a clases de español la semana que viene."],
+      "points": 3,
+      "lessonId": "a2-u11-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ (yo/gustar) viajar a América Latina algún día.",
+      "answer": "Me gustaría",
+      "acceptedAnswers": ["Me gustaría"],
+      "points": 2,
+      "lessonId": "a2-u11-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski oblik ide iza SI u realnoj kondicionali?",
+      "options": ["futuro", "kondicional", "prezent", "imperfecto"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a2-u11-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (tú/tener) tiempo, ___ (yo/llamar) te.",
+      "answer": "tienes / te llamaré",
+      "acceptedAnswers": ["tienes / te llamaré"],
+      "points": 2,
+      "lessonId": "a2-u11-l4"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Na tvom bih mjestu razgovarao/la s njom.",
+      "answer": "En tu lugar, hablaría con ella.",
+      "acceptedAnswers": ["En tu lugar, hablaría con ella.", "Yo que tú, hablaría con ella."],
+      "points": 2,
+      "lessonId": "a2-u11-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Si apruebo el examen, voy a celebrarlo con mis amigos. Estoy convencido de que lo haré bien.",
+      "answer": "Si apruebo el examen, voy a celebrarlo con mis amigos. Estoy convencido de que lo haré bien.",
+      "points": 3,
+      "lessonId": "a2-u11-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 5-7 rečenica o tvojim planovima za budućnost. Koristi barem: 2 primjera futuro simple, 1 IR a + infinitivo, 1 kondicional (me gustaría ili debería) i 1 Si + prezent + futuro.",
+      "minWords": 40,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: futuro simple ispravno (3), IR a + inf. ispravno (2), kondicional ispravno (2), Si + prezent + futuro (2), pravopis (1). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a2-u11-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a2-u11-l1", "topic": "Futuro simple: infinitiv + é/ás/á/emos/éis/án; nepravilna stabla (tendr-/har-/vendr-)." },
+    { "lessonId": "a2-u11-l2", "topic": "IR a + infinitivo za planove i namjere; razlika od futuro simple." },
+    { "lessonId": "a2-u11-l3", "topic": "Kondicional: infinitiv + ía; me gustaría/debería/podría; savjeti i željE." },
+    { "lessonId": "a2-u11-l4", "topic": "Si + prezent + futuro (realni uvjet); obećanja (te prometo que); kombinacija struktura." }
+  ]
+}

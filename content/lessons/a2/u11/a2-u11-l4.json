@@ -1,0 +1,171 @@
+{
+  "id": "a2-u11-l4",
+  "level": "A2",
+  "unit": 11,
+  "lessonNumber": 4,
+  "title": "Budućnost u kontekstu — planovi, obećanja, predviđanja",
+  "subtitle": "Promesas, predicciones y planes de vida",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Kombinovati futuro, IR a i kondicional za različite tipove budućeg govora",
+    "Davati obećanja i izražavati uvjete (si + prezent + futuro)",
+    "Razgovarati o životnim planovima i ambicijama"
+  ],
+  "prerequisites": ["a2-u11-l1", "a2-u11-l2", "a2-u11-l3"],
+  "vocabulary": [
+    { "es": "te prometo que", "bs": "obećavam ti da", "pos": "izr.", "ipa": "te pro.ˈme.to ke", "example_es": "Te prometo que llamaré.", "example_bs": "Obećavam ti da ću zvati." },
+    { "es": "si + presente + futuro", "bs": "ako + sadašnjost + buduće", "pos": "gram. strukt.", "ipa": "si", "example_es": "Si estudias, aprobarás.", "example_bs": "Ako budeš učio/la, položit ćeš." },
+    { "es": "depende de", "bs": "ovisi o", "pos": "izr.", "ipa": "de.ˈpen.de ðe", "example_es": "Depende del tiempo que haga.", "example_bs": "Ovisi o vremenu." },
+    { "es": "a menos que", "bs": "osim ako / ukoliko ne", "pos": "vez.", "ipa": "a ˈme.nos ke", "example_es": "Iré, a menos que llueva.", "example_bs": "Ići ću, osim ako ne bude kišilo." },
+    { "es": "en cuanto + subj.", "bs": "čim / kad samo", "pos": "vez.", "ipa": "en ˈkwan.to", "example_es": "En cuanto llegue, te llamo.", "example_bs": "Čim stignem, nazvat ću te." },
+    { "es": "la meta / el objetivo", "bs": "cilj / svrha", "pos": "im.", "ipa": "la ˈme.ta", "example_es": "Mi meta es hablar español fluidamente.", "example_bs": "Moj je cilj govoriti španski tečno." },
+    { "es": "cumplir un sueño", "bs": "ostvariti san", "pos": "izr.", "ipa": "kum.ˈplir un ˈswe.ɲo", "example_es": "Algún día cumpliré mi sueño.", "example_bs": "Jednog dana ću ostvariti san." },
+    { "es": "tarde o temprano", "bs": "prije ili poslije", "pos": "izr.", "ipa": "ˈtar.ðe o tem.ˈpra.no", "example_es": "Tarde o temprano lo conseguirás.", "example_bs": "Prije ili poslije ćeš to postići." },
+    { "es": "merece la pena", "bs": "vrijedi truda", "pos": "izr.", "ipa": "me.ˈre.θe la ˈpe.na", "example_es": "Merece la pena estudiar idiomas.", "example_bs": "Vrijedi učiti jezike." },
+    { "es": "confiar en", "bs": "vjerovati u / pouzdati se u", "pos": "glag.", "ipa": "kon.ˈfjar en", "example_es": "Confío en que todo saldrá bien.", "example_bs": "Vjerujem da će sve ispasti dobro." }
+  ],
+  "grammar": [
+    {
+      "concept": "SI + presente + futuro — kondicionalne rečenice (1. tip)",
+      "explanation_bs": "Za realne uvjete (može se desiti) koristimo: **Si + PREZENT** + **FUTURO**. Redoslijed može biti obrnut: 'Si estudias, aprobarás' = 'Aprobarás si estudias.' Pazi: NIKAD ne stavljamo FUTURO iza SI u ovom tipu: ~~Si estudiarás~~ (POGREŠNO!). Ovo se zove 'condicional de primer tipo' — realna hipoteza.",
+      "table": {
+        "headers": ["SI + prezent", "Futuro", "Bosanski"],
+        "rows": [
+          ["Si tienes tiempo,", "llámame.", "Ako imaš vremena, nazovi me."],
+          ["Si llueve,", "no saldremos.", "Ako bude kišilo, nećemo izaći."],
+          ["Si apruebas,", "lo celebraremos.", "Ako položiš, proslavit ćemo."],
+          ["Si vas a Madrid,", "visita el Prado.", "Ako ideš u Madrid, posjeti Prado."]
+        ]
+      },
+      "examples": [
+        { "es": "Si terminas pronto, podremos ir al cine.", "bs": "Ako završiš brzo, moći ćemo ići u kino." },
+        { "es": "Si comes bien, te sentirás mejor.", "bs": "Ako budeš jeo/la dobro, osjećat ćeš se bolje." },
+        { "es": "Si ahorras dinero este año, podrás viajar el próximo.", "bs": "Ako ovog ljeta uštediš novac, moći ćeš putovati sljedeće." }
+      ],
+      "tips": "Pravilo: SI + PRESENTE (nikad futuro!) → FUTURO (ili imperativ). Redoslijed vrijedi u obje strane: 'Si tienes tiempo, llámame' = 'Llámame si tienes tiempo'."
+    },
+    {
+      "concept": "Obećanja i namjere — te prometo, juro que, estoy seguro/a de que",
+      "explanation_bs": "Za obećanja koristimo futuro: 'Te prometo que lo haré.' Za izražavanje uvjerenosti u budućnost: 'Estoy seguro/a de que aprobaré.' Za namjere koje su gotovo obećanja: 'Voy a cambiar, te lo juro.' Koristan vokabular: te prometo que (obećavam ti da), juro que (kunem se da), estoy convencido/a de que (uvjeren/a sam da), seguro que (sigurno da).",
+      "examples": [
+        { "es": "Te prometo que mañana estudiaré toda la tarde.", "bs": "Obećavam ti da ću sutra učiti cijelo popodne." },
+        { "es": "Estoy convencida de que encontraré trabajo pronto.", "bs": "Uvjerena sam da ću uskoro naći posao." },
+        { "es": "Seguro que todo saldrá bien — no te preocupes.", "bs": "Sigurno će sve ispasti dobro — ne brinise." }
+      ],
+      "tips": "SEGURO + futuro = uvjerenje u pozitivan ishod. PROBABLEMENTE + futuro = vjerovatno (manja sigurnost). QUIZÁS / TAL VEZ + subjunctivo ili futuro = možda (s neizvješnošću)."
+    }
+  ],
+  "dialogue": {
+    "title": "Antes del examen — Prije ispita",
+    "lines": [
+      { "speaker": "Mía", "es": "Mañana tengo el examen de conducir. Estoy muy nerviosa.", "bs": "Sutra imam vozački ispit. Jako sam nervozna." },
+      { "speaker": "Hugo", "es": "Tranquila. Si estudias esta tarde, seguro que apruebas.", "bs": "Smiri se. Ako učiš danas popodne, sigurno ćeš položiti." },
+      { "speaker": "Mía", "es": "No sé. Es la tercera vez que me presento.", "bs": "Ne znam. Ovo mi je treći put." },
+      { "speaker": "Hugo", "es": "Esta vez lo conseguirás. Estoy convencido.", "bs": "Ovog puta ćeš uspjeti. Uvjeren sam." },
+      { "speaker": "Mía", "es": "¿Y si suspendo otra vez?", "bs": "A što ako opet ne položim?" },
+      { "speaker": "Hugo", "es": "Si suspendes, volverás a intentarlo. Pero no pasará. Confía en ti misma.", "bs": "Ako ne položiš, pokušat ćeš ponovo. Ali neće biti tako. Vjeruj sama sebi." },
+      { "speaker": "Mía", "es": "Gracias. Te prometo que esta vez estudiaré mejor las señales.", "bs": "Hvala. Obećavam ti da ću ovaj put bolje naučiti znakove." },
+      { "speaker": "Hugo", "es": "¡Eso es! Cuando apruebes, lo celebraremos.", "bs": "To je to! Kad položiš, proslavit ćemo." }
+    ]
+  },
+  "reading": {
+    "title": "Carta a mi yo del futuro — Pismo svom budućem ja",
+    "text_es": "Querido yo del futuro:\nEscribo esta carta hoy, a los 25 años. Te cuento mis planes y esperanzas. Para cuando leas esto, habrás terminado la universidad y tendrás trabajo. Espero que hayas viajado mucho y que hayas aprendido al menos un idioma más. Quiero pedirte que no olvides a tus amigos de ahora. Si los has perdido, búscalos. También quiero recordarte que deberías llamar más a tus padres — el tiempo pasa rápido. Si todo ha ido bien, estarás en una ciudad nueva haciendo lo que te gusta. Y si no ha salido como esperabas — tampoco pasa nada. Cada camino tiene su sentido. Confía en el proceso. Un abrazo, yo.",
+    "glossary": [
+      { "es": "las esperanzas", "bs": "nade / očekivanja" },
+      { "es": "habrás terminado", "bs": "bit ćeš završio/la (futuro perfecto)" },
+      { "es": "no olvides", "bs": "ne zaboravi (imperativ)" },
+      { "es": "el camino", "bs": "put / staza" },
+      { "es": "el sentido", "bs": "smisao / svrha" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko ima godina autor pisma?",
+        "options": ["20", "25", "30"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta želi da budući ja ne zaboravi?",
+        "options": ["Učenje španskog", "Stare prijatelje", "Putovati"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta kaže ako sve nije ispalo po planu?",
+        "options": ["Da je loše", "Da nije katastrofa", "Da treba početi iznova"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji glagolski oblik ide nakon SI u realnoj kondicionali? 'Si ___ (tener) tiempo, vendré.'",
+      "options": ["tendrás", "tendrías", "tienes", "tuvieras"],
+      "answerIndex": 2,
+      "explanation_bs": "SI + prezent → futuro. SI nikad ne stoji s futurom. Si tienes tiempo, vendré. (prezent → futuro)"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Si ___ (estudiar) más, ___ (sacar) mejores notas.",
+      "answer": "estudias / sacarás",
+      "acceptedAnswers": ["estudias / sacarás"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Te ___ (prometer) que ___ (yo/llegar) a tiempo.",
+      "answer": "prometo / llegaré",
+      "acceptedAnswers": ["prometo / llegaré"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ako budeš imao/la vremena, nazovi me.",
+      "answer": "Si tienes tiempo, llámame.",
+      "acceptedAnswers": ["Si tienes tiempo, llámame.", "Si tienes tiempo, me llamas."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Obećavam ti da ću biti tamo u sedam.",
+      "answer": "Te prometo que estaré allí a las siete.",
+      "acceptedAnswers": ["Te prometo que estaré allí a las siete.", "Te prometo que llegaré a las siete."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji strukturu s njenom upotrebom",
+      "pairs": [
+        { "es": "Si + prezent + futuro", "bs": "realni uvjet" },
+        { "es": "Me gustaría + inf.", "bs": "izražavanje želje" },
+        { "es": "Voy a + inf.", "bs": "konkretan bliski plan" },
+        { "es": "Futuro simple", "bs": "predviđanje / formalni plan" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Si apruebo el examen, mis padres me van a comprar una bicicleta. ¡Estoy muy motivado!",
+      "answer": "Si apruebo el examen, mis padres me van a comprar una bicicleta. ¡Estoy muy motivado!"
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Napravi 3 plana za budućnost koristeći: 1) futuro, 2) IR a + inf., 3) Si + presente + futuro.",
+      "modelAnswer_es": "El año que viene terminaré los estudios y buscaré trabajo. Este fin de semana voy a empezar a aprender un nuevo idioma. Si encuentro un buen trabajo, me mudaré a otra ciudad."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o tvojim životnim planovima i ciljevima — vježbaš futuro, IR a + inf., kondicional i Si + prezent + futuro.",
+    "level": "A2",
+    "allowedGrammar": ["futuro simple", "ir a + inf.", "kondicional", "si + prezent + futuro"],
+    "systemPromptHint": "Pitaj studenta o životnim planovima i ciljevima: ¿Qué harás cuando termines los estudios? ¿Si pudieras hacer cualquier cosa, qué elegirías? ¿Qué vas a hacer para mejorar tu español? Kombiniraj sve buduće strukture i ispravi greške."
+  },
+  "illustration": {
+    "prompt": "A person writing a letter or journal with future plans, a road stretching into the horizon, optimistic warm colors",
+    "alt": "Pismo budućnosti — planovi i obećanja",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["si-presente-futuro", "te-prometo", "futuro-iraacondicional-kombinacija", "a2", "u11"]
+  }
+}

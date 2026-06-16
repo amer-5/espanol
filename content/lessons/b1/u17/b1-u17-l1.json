@@ -1,0 +1,155 @@
+{
+  "id": "b1-u17-l1",
+  "level": "B1",
+  "unit": 17,
+  "lessonNumber": 1,
+  "title": "Miješanje prošlih vremena — Pretérito vs Imperfecto vs Pluscuamperfecto",
+  "subtitle": "Cuando entré, ya había salido...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Pravilno koristiti pretérito indefinido, imperfecto i pluscuamperfecto zajedno",
+    "Prepoznati kada svako prošlo vrijeme odgovara danoj situaciji",
+    "Pripovijedati prošle događaje s više razina vremenskog konteksta"
+  ],
+  "prerequisites": ["b1-u16-l4"],
+  "vocabulary": [
+    { "es": "de repente", "bs": "iznenada / odjednom", "pos": "pril.", "ipa": "de re.ˈpen.te", "example_es": "De repente, empezó a llover.", "example_bs": "Iznenada je počela kiša." },
+    { "es": "en aquel momento", "bs": "u tom trenutku", "pos": "izr.", "ipa": "en a.ˈkel mo.ˈmen.to", "example_es": "En aquel momento, no sabía qué hacer.", "example_bs": "U tom trenutku, nisam znao/la što učiniti." },
+    { "es": "al cabo de", "bs": "nakon / po isteku", "pos": "izr.", "ipa": "al ˈka.βo ðe", "example_es": "Al cabo de una hora, volvió.", "example_bs": "Nakon sat vremena, vratio/la se." },
+    { "es": "mientras tanto", "bs": "u međuvremenu / u isto vrijeme", "pos": "izr.", "ipa": "ˈmjen.tras ˈtan.to", "example_es": "Yo cocinaba; mientras tanto, él ponía la mesa.", "example_bs": "Ja sam kuhao/la; u međuvremenu, on je postavljao stol." },
+    { "es": "anteriormente", "bs": "ranije / prethodno", "pos": "pril.", "ipa": "an.te.rjor.ˈmen.te", "example_es": "Anteriormente, había vivido en Madrid.", "example_bs": "Ranije je živio/la u Madridu." },
+    { "es": "aquella vez", "bs": "onog puta / tada", "pos": "izr.", "ipa": "a.ˈke.ʎa βeθ", "example_es": "Aquella vez, cometí un error terrible.", "example_bs": "Onog puta, napravio/la sam strašnu grešku." },
+    { "es": "con frecuencia", "bs": "često / učestalo", "pos": "izr.", "ipa": "kon fre.ˈkwen.θja", "example_es": "Con frecuencia salíamos a cenar.", "example_bs": "Često smo izlazili na večeru." },
+    { "es": "de pronto", "bs": "iznenada / najednom", "pos": "pril.", "ipa": "de ˈpron.to", "example_es": "De pronto, sonó el teléfono.", "example_bs": "Najednom je zazvonio telefon." },
+    { "es": "al final / al final resultó que", "bs": "na kraju / na kraju se ispostavilo da", "pos": "izr.", "ipa": "al fi.ˈnal", "example_es": "Al final resultó que había un error.", "example_bs": "Na kraju se ispostavilo da je bila greška." },
+    { "es": "hasta que", "bs": "sve dok / dok", "pos": "vez.", "ipa": "ˈas.ta ke", "example_es": "Esperamos hasta que llegaron.", "example_bs": "Čekali smo dok nisu stigli." }
+  ],
+  "grammar": [
+    {
+      "concept": "3 prošla vremena — kada koje koristiti",
+      "explanation_bs": "**PRETÉRITO INDEFINIDO** = radnja koja se DESILA i završila u prošlosti (specifičan momenat). 'Ayer **fui** al médico.' **PRETÉRITO IMPERFECTO** = trajno stanje, opis, navike u prošlosti, pozadina priče. 'Cuando era joven, **vivía** en el campo.' **PLUSCUAMPERFECTO** = nešto što se desilo PRIJE neke druge prošle radnje. 'Cuando **llegué**, ya **había salido**.' Ključna razlika: Indef. = radnja u prvom planu. Imperf. = pozadina i opis. Pluskv. = još starija prošlost.",
+      "table": {
+        "headers": ["Vrijeme", "Upotreba", "Markeri", "Primjer"],
+        "rows": [
+          ["Pretérito indefinido", "završena radnja", "ayer, el lunes, de repente", "Llegué a las ocho."],
+          ["Pretérito imperfecto", "opis/stanje/navika", "siempre, con frecuencia, mientras", "Llovía y hacía frío."],
+          ["Pluscuamperfecto", "radnja PRIJE druge prošle", "ya, todavía no, anteriormente", "Ya había comido cuando llegué."]
+        ]
+      },
+      "examples": [
+        { "es": "Cuando era niño, vivía en Sarajevo y iba al colegio a pie. Un día, de repente, mi familia se mudó a otra ciudad. Antes de mudarnos, ya habíamos vendido la casa.", "bs": "Kada sam bio/la dijete, živio/la sam u Sarajevu i hodao/la sam u školu pješice. Jednog dana, iznenada, moja porodica se preselila u drugi grad. Prije preseljenja, već smo bili prodali kuću." }
+      ],
+      "tips": "Zamislite film: IMPERFECTO = scena u pozadini (kiša, nočna atmosfera, opis). INDEFINIDO = akcija (ušao je, rekao je, pobjegao je). PLUSCUAMPERFECTO = flashback PRIJE scene."
+    }
+  ],
+  "dialogue": {
+    "title": "Una historia de viaje — Putna priča",
+    "lines": [
+      { "speaker": "Nadia", "es": "¿Qué te pasó en el aeropuerto? Llegaste tardísimo.", "bs": "Što ti se desilo na aerodromu? Stigao/la si jako kasno." },
+      { "speaker": "Roberto", "es": "Fue un caos. Cuando llegué al aeropuerto, ya había cerrado el mostrador.", "bs": "Bio je haos. Kad sam stigao/la na aerodrom, šalter je već bio zatvoren." },
+      { "speaker": "Nadia", "es": "¿Habías salido tarde de casa?", "bs": "Jesi li kasno izašao/la od kuće?" },
+      { "speaker": "Roberto", "es": "No, pero había un accidente en la carretera. Con frecuencia hay problemas en esa autopista.", "bs": "Ne, ali je bila prometna nesreća na cesti. Često ima problema na toj autocesti." },
+      { "speaker": "Nadia", "es": "¿Y qué hiciste?", "bs": "I što si učinio/la?" },
+      { "speaker": "Roberto", "es": "Esperé horas. Mientras tanto, llamé a la aerolínea. Al final, me pusieron en otro vuelo.", "bs": "Čekao/la sam satima. U međuvremenu, nazvao/la sam avioprijevoznika. Na kraju, prebacili su me na drugi let." },
+      { "speaker": "Nadia", "es": "Menos mal. ¿Cómo era el vuelo nuevo? ¿Era cómodo?", "bs": "Na sreću. Kakav je bio novi let? Je li bio udoban?" }
+    ]
+  },
+  "reading": {
+    "title": "El día que todo cambió — Dan kada se sve promijenilo",
+    "text_es": "Era un martes normal. Martina tomaba su café de siempre cuando sonó el teléfono. Era su jefe. Le dijo que habían ganado el contrato más importante de su carrera. Martina no podía creerlo. Llevaba meses trabajando en esa propuesta, y anteriormente había fallado en dos proyectos similares. De repente, todo su esfuerzo había valido la pena. Aquella tarde, cuando llegó a casa, su familia ya había preparado una sorpresa. Habían decorado toda la casa con globos y tenían una tarta especial. Mientras cenaban, Martina recordó todos los momentos difíciles que había superado para llegar hasta allí. Al final, resultó que el sacrificio había merecido la pena.",
+    "glossary": [
+      { "es": "la propuesta", "bs": "prijedlog / ponuda" },
+      { "es": "fallar", "bs": "ne uspjeti / promašiti" },
+      { "es": "el sacrificio", "bs": "žrtva / odricanje" },
+      { "es": "merecer la pena", "bs": "vrijediti / biti vrijedno" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što je Martinina šef rekao?",
+        "options": ["Da je otpuštena", "Da su dobili najvažniji ugovor u karijeri", "Da mora ostati prekovremeno"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je bilo neobično kad je stigla kući?",
+        "options": ["Kuća je bila prazna", "Obitelj je pripremila iznenađenje s ukrasima i tortom", "Bila su zatvorena vrata"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je Martina radila prethodnih mjeseci?",
+        "options": ["Putovala po Europi", "Radila na prijedlogu i prethodno pala na dva slična projekta", "Učila novi jezik"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje prošlo vrijeme koristimo za opis pozadine i stanja?",
+      "options": ["Pretérito indefinido", "Pretérito imperfecto", "Pluscuamperfecto", "Futuro"],
+      "answerIndex": 1,
+      "explanation_bs": "IMPERFECTO = opis, stanje, pozadina priče, navike u prošlosti."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando ___ (yo/llegar/indef.) a casa, mi madre ya ___ (preparar/pluskv.) la cena.",
+      "answer": "llegué / había preparado",
+      "acceptedAnswers": ["llegué / había preparado"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: De repente, ___ (sonar/indef.) el teléfono mientras nosotros ___ (comer/imperf.).",
+      "answer": "sonó / comíamos",
+      "acceptedAnswers": ["sonó / comíamos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Kada sam stigao/la na stanicu, voz je već otišao.",
+      "answer": "Cuando llegué a la estación, el tren ya había salido.",
+      "acceptedAnswers": ["Cuando llegué a la estación, el tren ya había salido.", "Cuando llegué, el tren ya se había ido."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Bila je lijepa večer. Sjedili smo napolju kada je iznenada počela kiša.",
+      "answer": "Era una tarde bonita. Estábamos sentados fuera cuando de repente empezó a llover.",
+      "acceptedAnswers": ["Era una tarde bonita. Estábamos sentados fuera cuando de repente empezó a llover.", "Era una noche agradable. Estábamos afuera cuando de repente comenzó a llover."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji rečenicu s korištenim prošlim vremenom",
+      "pairs": [
+        { "es": "Ayer fui al médico.", "bs": "pretérito indefinido — završena radnja" },
+        { "es": "Con frecuencia iba al médico.", "bs": "imperfecto — navika u prošlosti" },
+        { "es": "Ya había ido al médico cuando me llamaste.", "bs": "pluscuamperfecto — radnja prije druge prošle" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Cuando llegué a la fiesta, mis amigos ya habían llegado. Estaban bailando y riendo. De repente, apareció alguien que no conocíamos.",
+      "answer": "Cuando llegué a la fiesta, mis amigos ya habían llegado. Estaban bailando y riendo. De repente, apareció alguien que no conocíamos."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj priču o nekom događaju koji te je iznenadio — koristi sva tri prošla vremena.",
+      "modelAnswer_es": "Una vez, cuando tenía veinte años, fui a visitar a un amigo. Era un día normal de otoño. Cuando llegué a su casa, me di cuenta de que ya habían organizado una fiesta sorpresa para mí. Todo el mundo estaba allí. Anteriormente, habían coordinado todo en secreto. De repente, las luces se encendieron y todos gritaron '¡Sorpresa!' Fue uno de los momentos más bonitos de mi vida."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o nekom zanimljivom iskustvu iz prošlosti — vježbaš kombinovanje indefinido, imperfecto i pluscuamperfecto.",
+    "level": "B1",
+    "allowedGrammar": ["pretérito indefinido (završena radnja)", "imperfecto (opis/navika/stanje)", "pluscuamperfecto (radnja prije druge prošle)", "de repente / mientras tanto / ya había"],
+    "systemPromptHint": "Pitaj studenta o nekom nezaboravnom iskustvu, putovanju ili iznenađenju. Potičite upotrebu sva 3 prošla vremena u pripovijedanju. Ispravi greške u izboru između indefinido i imperfecto."
+  },
+  "illustration": {
+    "prompt": "Three layered timeline showing past events at different depths, storytelling atmosphere, warm nostalgic colors",
+    "alt": "Tri prošla vremena — pripovijedanje",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["preterito-indefinido-imperfecto-pluscuamperfecto", "de-repente-mientras-tanto", "pripovijedanje-proslo", "b1", "u17"]
+  }
+}

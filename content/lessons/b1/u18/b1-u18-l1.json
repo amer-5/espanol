@@ -1,0 +1,158 @@
+{
+  "id": "b1-u18-l1",
+  "level": "B1",
+  "unit": 18,
+  "lessonNumber": 1,
+  "title": "Kolokvijalni izrazi i idiomi",
+  "subtitle": "Hablar como un nativo — Govoriti kao izvorni govornik",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti najčešće kolokvijalne izraze u španjolskom",
+    "Razumjeti idiome i frazemi u govoru",
+    "Razlikovati formalni i neformalni registar"
+  ],
+  "prerequisites": ["b1-u17-l4"],
+  "vocabulary": [
+    { "es": "no pasa nada", "bs": "nema problema / nije ništa", "pos": "izr. razg.", "ipa": "no ˈpa.sa ˈna.ða", "example_es": "Llegas tarde. — No pasa nada.", "example_bs": "Kasniš. — Nema veze." },
+    { "es": "estar en las nubes", "bs": "biti u oblacima / biti odsutan mislima", "pos": "idiom", "ipa": "es.ˈtar en las ˈnu.βes", "example_es": "Siempre está en las nubes en clase.", "example_bs": "Uvijek je u oblacima na nastavi." },
+    { "es": "costar un ojo de la cara", "bs": "koštati pravo bogatstvo / biti jako skupo", "pos": "idiom", "ipa": "kos.ˈtar un ˈo.xo ðe la ˈka.ra", "example_es": "Esas zapatillas cuestan un ojo de la cara.", "example_bs": "Te tenisice koštaju pravo bogatstvo." },
+    { "es": "tomar el pelo", "bs": "zezati nekoga / sprdati se", "pos": "idiom", "ipa": "to.ˈmar el ˈpe.lo", "example_es": "¿Me estás tomando el pelo? ¡No puede ser!", "example_bs": "Zezaš me? To nije moguće!" },
+    { "es": "meter la pata", "bs": "zeznuti / griješiti / zabrljati", "pos": "idiom", "ipa": "me.ˈter la ˈpa.ta", "example_es": "Metí la pata con mis comentarios.", "example_bs": "Zabrljao/la sam s komentarima." },
+    { "es": "tener mucha cara", "bs": "imati debelo čelo / biti bezobrazan", "pos": "idiom", "ipa": "te.ˈner ˈmu.tʃa ˈka.ra", "example_es": "¡Qué cara más dura! Llegó dos horas tarde.", "example_bs": "Kakvo čelo debelo! Stigao/la je dva sata kasno." },
+    { "es": "a todo gas", "bs": "punom parom / maksimalnom brzinom", "pos": "izr. razg.", "ipa": "a ˈto.ðo ˈɣas", "example_es": "Trabaja a todo gas para terminar el proyecto.", "example_bs": "Radi punom parom da završi projekt." },
+    { "es": "ser un rollo", "bs": "biti dosadno / biti gnjavacija", "pos": "izr. razg.", "ipa": "ser un ˈro.ʎo", "example_es": "Esa clase es un rollo total.", "example_bs": "Taj predmet je totalna dosada." },
+    { "es": "en serio", "bs": "ozbiljno / stvarno", "pos": "izr. razg.", "ipa": "en ˈse.rjo", "example_es": "¿En serio? ¡No me lo puedo creer!", "example_bs": "Ozbiljno? Ne mogu vjerovati!" },
+    { "es": "ni en broma", "bs": "ni slučajno / ni govora", "pos": "izr. razg.", "ipa": "ni en ˈβro.ma", "example_es": "¿Irías a escalar sin seguro? Ni en broma.", "example_bs": "Bi li penjao/la bez osiguranja? Ni govora." }
+  ],
+  "grammar": [
+    {
+      "concept": "Registar — formalni vs neformalni jezik",
+      "explanation_bs": "Španjolski ima jasnu razliku između **formalnog (USTED, tú + subjunktiv za pristojnost)** i **neformalnog (tú, vosotros)** registra. Neformalni razgovor: kolokvijalni izrazi, idiomi, kratice, elipse. Formalni (posao, pisma, prezentacije): kompletan glagolski oblici, bez idioma, kondicional za pristojnost. Registar treba prilagoditi kontekstu: s prijateljem vs s šefom.",
+      "table": {
+        "headers": ["Situacija", "Formalno", "Neformalno"],
+        "rows": [
+          ["Pozdrav", "Buenos días. ¿Cómo está usted?", "¡Hola! ¿Qué tal?"],
+          ["Pitanje", "¿Podría decirme...?", "¿Me puedes decir...?"],
+          ["Opravdanje", "Le pido disculpas por el retraso.", "Lo siento, llegué tarde."],
+          ["Izražavanje slaganja", "Estoy completamente de acuerdo.", "¡Claro que sí! / ¡Exacto!"]
+        ]
+      },
+      "examples": [
+        { "es": "Formal: Me gustaría solicitar información sobre los cursos disponibles.", "bs": "Formalno: Htio/la bih zatražiti informacije o dostupnim tečajevima." },
+        { "es": "Informal: Oye, ¿sabes si hay algún curso que mole?", "bs": "Neformalno: Hej, znaš li ima li nekog dobrog tečaja?" }
+      ],
+      "tips": "U Španiji: TÚ se koristi mnogo češće nego USTED — čak i s nepoznatima u shopovima, kafiću, na ulici. USTED se rezervira za starije osobe, liječnike, sudije i profesionalne situacije."
+    }
+  ],
+  "dialogue": {
+    "title": "Entre amigos — Između prijatelja",
+    "lines": [
+      { "speaker": "Nico", "es": "¿En serio? ¿Te compraste un coche nuevo?", "bs": "Ozbiljno? Kupio/la si novi auto?" },
+      { "speaker": "Marta", "es": "Sí, aunque me costó un ojo de la cara.", "bs": "Da, iako me koštalo pravo bogatstvo." },
+      { "speaker": "Nico", "es": "¡Qué cara más dura! Siempre dices que estás sin dinero.", "bs": "Kakvo čelo debelo! Uvijek govoriš da nemaš novca." },
+      { "speaker": "Marta", "es": "¡Oye! No me tomes el pelo, que necesitaba uno para el trabajo.", "bs": "Hej! Ne zezaj me, trebao/la sam ga za posao." },
+      { "speaker": "Nico", "es": "Vale, vale. No pasa nada. Cuéntame más.", "bs": "Dobro, dobro. Nema veze. Ispričaj mi više." },
+      { "speaker": "Marta", "es": "Pues ahora voy a todo gas porque tengo que apagar un préstamo. ¡Es un rollo!", "bs": "Pa sad idem punom parom jer moram otplaćivati kredit. Gnjavacija je!" },
+      { "speaker": "Nico", "es": "¿Y tú, que estabas en las nubes pensando que los coches son baratos? ¡Metiste la pata!", "bs": "A ti, koji/koja si bio/la u oblacima misleći da su auti jeftini? Zeznuo/la si!" }
+    ]
+  },
+  "reading": {
+    "title": "Los modismos en acción — Idiomi u akciji",
+    "text_es": "Los idiomas están llenos de expresiones que no se pueden traducir literalmente. En español, 'costar un ojo de la cara' no tiene nada que ver con los ojos o la cara — simplemente significa que algo es muy caro. 'Meter la pata' no implica ninguna pata real — es un error social o un comentario desafortunado. Estas expresiones se aprenden con el tiempo y el contacto con hablantes nativos. Lo más importante es no tratar de entenderlas palabra por palabra. Por ejemplo, si un español te dice '¡Venga!', puede significar: 'vamos', 'de acuerdo', 'anímate', 'no me lo creo' o 'hasta luego' — dependiendo del contexto, el tono y el gesto. En serio, el contexto lo es todo.",
+    "glossary": [
+      { "es": "traducir literalmente", "bs": "doslovno prevoditi" },
+      { "es": "desafortunado/a", "bs": "nesretan/a / nezgodan/a" },
+      { "es": "palabra por palabra", "bs": "riječ po riječ" },
+      { "es": "el tono", "bs": "ton (glasa / komunikacije)" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što znači 'costar un ojo de la cara'?",
+        "options": ["Imati problema s vidom", "Biti jako skupo", "Biti bezobrazno"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Zašto je teško doslovno prevoditi idiome?",
+        "options": ["Jer je španjolski težak jezik", "Jer nemaju nikakve veze s doslovnim značenjem riječi", "Jer su zastarjeli"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što sve može značiti '¡Venga!'?",
+        "options": ["Samo 'hajde'", "Vamos / de acuerdo / anímate / no me lo creo / hasta luego", "Samo 'zbogom'"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Što znači 'estar en las nubes'?",
+      "options": ["Putovati avionom", "Biti odsutan mislima / sanjariti", "Biti na vrhu karijere"],
+      "answerIndex": 1,
+      "explanation_bs": "Estar en las nubes = biti u oblacima (mislima), sanjariti, ne paziti."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Koji izraz znači 'nema veze / nije ništa'?",
+      "answer": "no pasa nada",
+      "acceptedAnswers": ["no pasa nada", "No pasa nada"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Este restaurante ___ un ojo de la cara pero vale la pena.",
+      "answer": "cuesta",
+      "acceptedAnswers": ["cuesta"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zabrljao/la sam s tim komentarom. Nisam mislio/la ništa loše.",
+      "answer": "Metí la pata con ese comentario. No pretendía nada malo.",
+      "acceptedAnswers": ["Metí la pata con ese comentario. No pretendía nada malo.", "La metí con ese comentario. No tenía mala intención."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ozbiljno? Ne mogu vjerovati! Zezaš me, zar ne?",
+      "answer": "¿En serio? ¡No me lo puedo creer! ¿Me estás tomando el pelo?",
+      "acceptedAnswers": ["¿En serio? ¡No me lo puedo creer! ¿Me estás tomando el pelo?", "¿En serio? ¡Imposible! ¿Me estás tomando el pelo?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji idiom s prijevodom",
+      "pairs": [
+        { "es": "costar un ojo de la cara", "bs": "biti jako skupo" },
+        { "es": "meter la pata", "bs": "zeznuti / pogriješiti socijalno" },
+        { "es": "tomar el pelo", "bs": "zezati nekoga" },
+        { "es": "a todo gas", "bs": "punom brzinom / na maksimumu" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "¿En serio no vas a venir? Ni en broma te lo voy a perdonar. No pasa nada, bromeo. Pero en serio, ven.",
+      "answer": "¿En serio no vas a venir? Ni en broma te lo voy a perdonar. No pasa nada, bromeo. Pero en serio, ven."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj kratku anegdotu koristeći barem 3 kolokvijalna izraza ili idioma.",
+      "modelAnswer_es": "El otro día fui a comprar unas zapatillas que me encantaban. Cuando vi el precio, casi me muero — costaban un ojo de la cara. Le pregunté al vendedor si me estaba tomando el pelo. Me dijo que no pasa nada, que tenía un descuento del diez por ciento. Al final las compré. Mi amigo dice que metí la pata, que no las necesitaba. Pero a mí me encantan, así que no me arrepiento."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Neformalni razgovor s prijateljem/icom na španskom — vježbaš kolokvijalne izraze i idiome.",
+    "level": "B1",
+    "allowedGrammar": ["kolokvijalni izrazi (no pasa nada, en serio, ni en broma)", "idiomi (meter la pata, tomar el pelo, costar un ojo)", "neformalni registar tú", "a todo gas / ser un rollo"],
+    "systemPromptHint": "Vodi neformalni razgovor s prijateljem o svakodnevnim temama. Koristiti kolokvijalne izraze prirodno i potičite studenta da ih koristi. Ispravi greške u registru i nepravilnoj upotrebi idioma."
+  },
+  "illustration": {
+    "prompt": "Friends chatting casually with speech bubbles showing colloquial expressions, lively and colorful illustration",
+    "alt": "Kolokvijalni izrazi i idiomi — neformalni razgovor",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["idiomi-spanski", "no-pasa-nada-en-serio", "registar-formalni-neformalni", "b1", "u18"]
+  }
+}

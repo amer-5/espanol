@@ -1,0 +1,150 @@
+{
+  "id": "b1-u18-l4",
+  "level": "B1",
+  "unit": 18,
+  "lessonNumber": 4,
+  "title": "Finalni razgovor — Sve zajedno",
+  "subtitle": "B1 razina — komunikacija bez granica",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Integrirati sve naučeno na B1 razini u slobodnom razgovoru",
+    "Demonstrirati kompetenciju u različitim komunikativnim situacijama",
+    "Reflektovati na napredak i postaviti ciljeve za B2"
+  ],
+  "prerequisites": ["b1-u18-l3"],
+  "vocabulary": [
+    { "es": "alcanzar un nivel", "bs": "dostići razinu / postići nivo", "pos": "izr.", "ipa": "al.kan.ˈθar un ni.ˈβel", "example_es": "He alcanzado el nivel B1 en español.", "example_bs": "Dostigao/la sam razinu B1 u španskom." },
+    { "es": "progresar / el progreso", "bs": "napredovati / napredak", "pos": "gl./im.", "ipa": "pro.ɣre.ˈsar", "example_es": "He progresado mucho en los últimos meses.", "example_bs": "Puno sam napredovao/la u posljednjih nekoliko mjeseci." },
+    { "es": "expresarse con fluidez", "bs": "izražavati se tečno", "pos": "izr.", "ipa": "eks.pre.ˈsar.se kon flu.ˈi.ðeθ", "example_es": "Ya puedo expresarme con fluidez en muchas situaciones.", "example_bs": "Već se mogu tečno izražavati u mnogim situacijama." },
+    { "es": "cometer errores", "bs": "praviti greške", "pos": "izr.", "ipa": "ko.me.ˈter e.ˈro.res", "example_es": "Cometer errores es parte del aprendizaje.", "example_bs": "Pravljenje grešaka je dio učenja." },
+    { "es": "superar un obstáculo", "bs": "prevladati prepreku", "pos": "izr.", "ipa": "su.pe.ˈrar un obs.ˈta.ku.lo", "example_es": "He superado muchos obstáculos lingüísticos.", "example_bs": "Prevladao/la sam mnoge jezične prepreke." },
+    { "es": "la meta / el objetivo", "bs": "cilj", "pos": "im.", "ipa": "la ˈme.ta / el ob.xe.ˈti.βo", "example_es": "Mi próxima meta es alcanzar el nivel B2.", "example_bs": "Moj sljedeći cilj je dostići razinu B2." },
+    { "es": "hablar con soltura", "bs": "govoriti s lakoćom / tečno", "pos": "izr.", "ipa": "a.ˈβlar kon sol.ˈtu.ra", "example_es": "Todavía no hablo con total soltura, pero mejoro.", "example_bs": "Još uvijek ne govorim s potpunom lakoćom, ali napredujem." },
+    { "es": "ampliar el vocabulario", "bs": "proširiti vokabular", "pos": "izr.", "ipa": "am.pljar el βo.ka.βu.ˈla.rjo", "example_es": "Debo seguir ampliando mi vocabulario.", "example_bs": "Moram nastaviti proširivati vokabular." },
+    { "es": "la motivación", "bs": "motivacija", "pos": "im.", "ipa": "la mo.ti.βa.ˈθjon", "example_es": "La motivación es clave para aprender un idioma.", "example_bs": "Motivacija je ključna za učenje jezika." },
+    { "es": "enhorabuena / felicidades", "bs": "čestitke / čestitam", "pos": "im. pl.", "ipa": "en.o.ra.ˈβwe.na / fe.li.θi.ˈða.ðes", "example_es": "¡Enhorabuena por tu progreso!", "example_bs": "Čestitke na napretku!" }
+  ],
+  "grammar": [
+    {
+      "concept": "Pregled B1 gramatike — što znaš na ovoj razini",
+      "explanation_bs": "Na razini B1 vladaš: ✅ Sva prošla vremena (indefinido, imperfecto, pluscuamperfecto) ✅ Futuro simple i kondicional ✅ Subjunktiv prezenta (mišljenje, emocije, temporalni veznici) ✅ Uvjetne rečenice (sva 3 tipa: si + prez, si + imperf.subj., si + pluskv.subj.) ✅ Indirektni govor ✅ Relativne rečenice (que/donde/quien) ✅ POR vs PARA ✅ Vezni izrazi (sin embargo, aunque, por eso...) ✅ Vokabular: posao, zdravlje, mediji, okoliš, kultura. B2 će dodati: subjunktiv imperfekta šire, pasiv, napredni idiomi, akademski stil.",
+      "examples": [
+        { "es": "Si hubiera aprendido español antes, ya habría viajado a Buenos Aires.", "bs": "Da sam ranije naučio/la španski, već bih bio/la putovao/la u Buenos Aires." },
+        { "es": "Busco un trabajo que me apasione y donde pueda crecer profesionalmente.", "bs": "Tražim posao koji me strastveno zanima i gdje mogu profesionalno rasti." },
+        { "es": "Me dijo que había estudiado mucho para que pudiéramos comunicarnos mejor.", "bs": "Rekao/la mi je da je puno učio/la kako bismo se mogli bolje sporazumjeti." }
+      ],
+      "tips": "B1 = komunikativna kompetencija. Možeš opisati iskustva, izraziti mišljenje, pripovijedati, debatirati. Greške su normalne i dio su napretka. Fokusiraj se na razumljivost, a ne na savršenstvo."
+    }
+  ],
+  "dialogue": {
+    "title": "El último día de clase — Posljednji dan nastave",
+    "lines": [
+      { "speaker": "Profesora", "es": "¡Enhorabuena a todos! Han llegado al nivel B1. ¿Cómo se sienten?", "bs": "Čestitke svima! Stigli ste do razine B1. Kako se osjećate?" },
+      { "speaker": "Karla", "es": "Muy bien, aunque todavía cometo errores. Pero hace meses ni podía expresar mis ideas.", "bs": "Jako dobro, iako još uvijek pravim greške. Ali prije nekoliko mjeseci nisam ni mogla izraziti svoje ideje." },
+      { "speaker": "Emir", "es": "Para mí, lo más difícil fue el subjuntivo. Pero al final lo entendí gracias a la práctica.", "bs": "Za mene je subjunktiv bio najteži. Ali na kraju sam ga razumio zahvaljujući vježbi." },
+      { "speaker": "Profesora", "es": "Exacto. Cometer errores es parte del proceso. Lo que importa es que sigáis practicando.", "bs": "Točno. Pravljenje grešaka je dio procesa. Važno je da nastavite vježbati." },
+      { "speaker": "Lena", "es": "Mi meta ahora es alcanzar el B2. ¿Nos recomienda algo para mejorar?", "bs": "Moj cilj je sada dostići B2. Preporučate li nešto za napredovanje?" },
+      { "speaker": "Profesora", "es": "Que escuchen podcasts, lean libros sencillos y hablen con nativos siempre que puedan.", "bs": "Slušajte podcaste, čitajte jednostavne knjige i razgovarajte s izvornim govornicima kad god možete." },
+      { "speaker": "Emir", "es": "¡Muchas gracias por todo! Sin duda, este curso ha sido una experiencia única.", "bs": "Hvala puno na svemu! Bez sumnje, ovaj tečaj je bio jedinstveno iskustvo." }
+    ]
+  },
+  "reading": {
+    "title": "Carta a mi yo del futuro en español — Pismo mom budućem ja na španskom",
+    "text_es": "Querido yo del futuro: Hoy he alcanzado el nivel B1 en español. Cuando empecé, apenas podía presentarme. Ahora puedo contar historias, expresar opiniones, debatir sobre temas complejos y entender películas y podcasts. Ha sido un camino largo, pero ha valido la pena. Hubo momentos en que quise abandonar — cuando el subjuntivo me parecía imposible, cuando confundía por y para, cuando no recordaba todos los verbos irregulares. Sin embargo, no me rendí. Lo que más me ha ayudado ha sido practicar todos los días, aunque fuera solo diez minutos. También me ha servido encontrar temas que me apasionan y hablar de ellos en español. Mi próxima meta es el B2. Sé que será difícil, pero ahora sé que puedo. ¡Ánimo!",
+    "glossary": [
+      { "es": "apenas", "bs": "jedva / skoro nimalo" },
+      { "es": "rendirse", "bs": "predati se / odustati" },
+      { "es": "aunque fuera", "bs": "čak i da je bio/la (subj. imperf.)" },
+      { "es": "¡Ánimo!", "bs": "Hrabro! / Naprijed!" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što je pisac mogao raditi na početku učenja?",
+        "options": ["Skoro ništa — jedva se mogao/la predstaviti", "Razgovarao/la je tečno", "Čitao/la je knjige"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Što je najviše pomoglo pisacu u učenju?",
+        "options": ["Skupi tečajevi", "Svakodnevna vježba, čak i kratka, i teme koje ga/je zanimaju", "Gledanje TV-a"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji je sljedeći cilj pisca?",
+        "options": ["Ostati na B1", "Dostići razinu B2", "Naučiti talijanski"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji izraz koristimo za čestitanje na napretku?",
+      "options": ["No pasa nada", "Enhorabuena / Felicidades", "Lo siento", "Para colmo"],
+      "answerIndex": 1,
+      "explanation_bs": "ENHORABUENA / FELICIDADES = čestitke. 'Enhorabuena por tu progreso!' = Čestitke na napretku!"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mi próxima ___ es hablar español con total fluidez.",
+      "answer": "meta",
+      "acceptedAnswers": ["meta", "objetivo"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: He progresado mucho, aunque todavía ___ (cometer) errores.",
+      "answer": "cometo",
+      "acceptedAnswers": ["cometo"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Dostigao/la sam razinu B1 i nastavit ću učiti prema B2.",
+      "answer": "He alcanzado el nivel B1 y seguiré aprendiendo hacia el B2.",
+      "acceptedAnswers": ["He alcanzado el nivel B1 y seguiré aprendiendo hacia el B2.", "Alcancé el nivel B1 y continuaré aprendiendo para llegar al B2."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Pravljenje grešaka je normalno i dio je procesa učenja.",
+      "answer": "Cometer errores es normal y es parte del proceso de aprendizaje.",
+      "acceptedAnswers": ["Cometer errores es normal y es parte del proceso de aprendizaje.", "Los errores son normales y forman parte del aprendizaje."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji B1 strukturu s jedinicom u kojoj si je naučio/la",
+      "pairs": [
+        { "es": "Si tuviera dinero, viajaría.", "bs": "U14 — nerealni uvjet (si + imperf.subj.)" },
+        { "es": "Busco un trabajo que me apasione.", "bs": "U15 — relativna rečenica (que + subj.)" },
+        { "es": "Me dijo que llegaría tarde.", "bs": "U17 — indirektni govor" },
+        { "es": "En España es más tarde que en Bosnia.", "bs": "U18 — usporedba kultura" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "¡Enhorabuena! Has alcanzado el nivel B1. Aunque todavía cometes errores, ya puedes comunicarte en español con fluidez en muchas situaciones.",
+      "answer": "¡Enhorabuena! Has alcanzado el nivel B1. Aunque todavía cometes errores, ya puedes comunicarte en español con fluidez en muchas situaciones."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reflektiraj na svoje putovanje učenja španskog — što ti je bilo najteže, što si naučio/la i koji su tvoji sljedeći ciljevi? Koristi sva znanja s B1 razine.",
+      "modelAnswer_es": "Cuando empecé a estudiar español, me pareció muy difícil. Lo que más me costó fue el subjuntivo — especialmente entender cuándo usarlo. Sin embargo, gracias a la práctica constante, ahora puedo usarlo con bastante confianza. También me costó el sistema de tiempos pasados, pero después de entender la diferencia entre el indefinido y el imperfecto, todo fue más claro. Lo que más me gusta del español es que puedo expresar matices: no es lo mismo 'aunque llueve salgo' que 'aunque llueva saldré'. Mi próxima meta es alcanzar el B2. Para ello, voy a seguir practicando cada día, leer libros en español y hablar con hablantes nativos siempre que pueda. ¡Estoy muy motivado/a!"
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Slobodni razgovor na B1 razini — AI te pita o bilo kojoj temi i ti demonstriraš sve što si naučio/la.",
+    "level": "B1",
+    "allowedGrammar": ["SVE naučeno na B1 razini", "sva prošla vremena", "subjunktiv", "uvjetne rečenice", "indirektni govor", "vezni izrazi"],
+    "systemPromptHint": "Vodi slobodni razgovor o temama koje zanimaju studenta. Ispravljaj greške nježno i pohvali napredak. Postavljaj pitanja koja zahtijevaju B1 strukture: mišljenje (creo que), hipotetičko (si tuvieras), narativno (cuenta una historia), usporedbe (más que / a diferencia de)."
+  },
+  "illustration": {
+    "prompt": "Graduate student with diploma, world map in background showing Spanish-speaking countries, celebration and achievement mood",
+    "alt": "B1 razina — finalni razgovor i certifikat",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["b1-finalno", "refleksija-ucenja", "meta-b2", "b1", "u18"]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "test-b1-u18",
+  "level": "B1",
+  "unit": 18,
+  "title": "Test — Jedinica 18: Kolokvijalni, varijante, kultura, B1 finalni",
+  "cumulative": true,
+  "timeLimitMinutes": 25,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Što znači idiom 'costar un ojo de la cara'?",
+      "options": ["Boljeti oko", "Biti jako skupo", "Biti besplatno"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u18-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Oye, no me ___ (tomar) el pelo. ¿Es verdad lo que dices?",
+      "answer": "tomes",
+      "acceptedAnswers": ["tomes"],
+      "points": 2,
+      "lessonId": "b1-u18-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako se kaže 'mobilni telefon' u Latinskoj Americi?",
+      "options": ["el móvil", "el celular", "el teléfono fijo", "el ordenador"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u18-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni (Španija — vosotros): ¿Cómo ___ (estar) todos hoy?",
+      "answer": "estáis",
+      "acceptedAnswers": ["estáis"],
+      "points": 2,
+      "lessonId": "b1-u18-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Za razliku od Bosne, u Španiji se večera jako kasno.",
+      "answer": "A diferencia de Bosnia, en España se cena muy tarde.",
+      "acceptedAnswers": ["A diferencia de Bosnia, en España se cena muy tarde.", "A diferencia de Bosnia, en España cenan muy tarde."],
+      "points": 3,
+      "lessonId": "b1-u18-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La gastronomía española es ___ rica ___ la italiana.",
+      "answer": "tan / como",
+      "acceptedAnswers": ["tan / como"],
+      "points": 2,
+      "lessonId": "b1-u18-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Dostigao/la sam razinu B1 i moj sljedeći cilj je B2.",
+      "answer": "He alcanzado el nivel B1 y mi próxima meta es el B2.",
+      "acceptedAnswers": ["He alcanzado el nivel B1 y mi próxima meta es el B2.", "Alcancé el nivel B1 y mi siguiente objetivo es el B2."],
+      "points": 3,
+      "lessonId": "b1-u18-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "¡Enhorabuena! Has progresado mucho. Aunque todavía cometes errores, ya puedes hablar con fluidez sobre muchos temas.",
+      "answer": "¡Enhorabuena! Has progresado mucho. Aunque todavía cometes errores, ya puedes hablar con fluidez sobre muchos temas.",
+      "points": 3,
+      "lessonId": "b1-u18-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "FINALNI ESEJ: Napiši 8-10 rečenica o jednoj od ovih tema: (a) tvoj napredak u španskom i ciljevi za B2, (b) kulturne razlike koje si otkrio/la učeći španski. Pokaži sve što si naučio/la na B1 razini: prošla vremena, mišljenja, usporedbe, veznici, idiomi.",
+      "minWords": 70,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: gramatička raznolikost (4), koherentna argumentacija s veznicima (3), tematski vokabular (2), pravopis (1). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u18-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u18-l1", "topic": "Kolokvijalni izrazi i idiomi: no pasa nada, costar un ojo, meter la pata, tomar el pelo, ser un rollo; registar formalni/neformalni" },
+    { "lessonId": "b1-u18-l2", "topic": "Varijante: vosotros (Esp.) vs ustedes (LatAm); vos (Arg.); vokabular: móvil/celular, coche/carro, ordenador/computadora" },
+    { "lessonId": "b1-u18-l3", "topic": "Kultura: siesta, tapeo, sobremesa, horario; usporedbe: más que / tan como / a diferencia de" },
+    { "lessonId": "b1-u18-l4", "topic": "Finalna integracija B1: sva prošla vremena, subjunktiv, uvjeti, indirektni govor, veznici, vokabular" }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "b1-u17-l2",
+  "level": "B1",
+  "unit": 17,
+  "lessonNumber": 2,
+  "title": "Indirektni govor — Estilo indirecto",
+  "subtitle": "Me dijo que vendría... Me preguntó si podía...",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Prenijeti tuđe riječi u indirektnom govoru",
+    "Prilagoditi vremena glagola pri prenosu govora",
+    "Prenijeti pitanja i naredbe u indirektnom govoru"
+  ],
+  "prerequisites": ["b1-u17-l1"],
+  "vocabulary": [
+    { "es": "decir que", "bs": "reći da", "pos": "gl. + vez.", "ipa": "de.ˈθir ke", "example_es": "Me dijo que estaba cansado.", "example_bs": "Rekao mi je da je umoran." },
+    { "es": "preguntar si / preguntar qué", "bs": "pitati da li / pitati što", "pos": "gl. + vez.", "ipa": "pre.ɣun.ˈtar si", "example_es": "Me preguntó si quería venir.", "example_bs": "Pitao/la me da li želim doći." },
+    { "es": "pedir que + subj.", "bs": "zamoliti da", "pos": "gl. + subj.", "ipa": "pe.ˈðir ke", "example_es": "Me pidió que lo ayudara.", "example_bs": "Zamolio/la me da mu/joj pomognem." },
+    { "es": "contar que", "bs": "ispričati da", "pos": "gl. + vez.", "ipa": "kon.ˈtar ke", "example_es": "Me contó que había tenido un accidente.", "example_bs": "Ispričao/la mi je da je imao/la nesreću." },
+    { "es": "explicar que", "bs": "objasniti da", "pos": "gl. + vez.", "ipa": "eks.pli.ˈkar ke", "example_es": "Explicó que no podía llegar.", "example_bs": "Objasnio/la je da ne može stići." },
+    { "es": "añadir que", "bs": "dodati da", "pos": "gl. + vez.", "ipa": "a.ɲa.ˈðir ke", "example_es": "Añadió que todo estaba bien.", "example_bs": "Dodao/la je da je sve u redu." },
+    { "es": "asegurar que", "bs": "uvjeravati da / tvrditi da", "pos": "gl. + vez.", "ipa": "a.se.ɣu.ˈrar ke", "example_es": "Me aseguró que vendría.", "example_bs": "Uvjeravao/la me je da će doći." },
+    { "es": "reconocer que", "bs": "priznati da", "pos": "gl. + vez.", "ipa": "re.ko.no.ˈθer ke", "example_es": "Reconoció que había cometido un error.", "example_bs": "Prizao/la je da je napravio/la grešku." },
+    { "es": "negar que + subj.", "bs": "negirati da / poricati da", "pos": "gl. + subj.", "ipa": "ne.ˈɣar ke", "example_es": "Negó que hubiera dicho eso.", "example_bs": "Porekao/la je da je rekao/la to." },
+    { "es": "según él/ella", "bs": "prema njemu/njoj / po njegovim/njezinim riječima", "pos": "izr.", "ipa": "se.ˈɣun el", "example_es": "Según él, todo estaba perfecto.", "example_bs": "Prema njemu, sve je bilo savršeno." }
+  ],
+  "grammar": [
+    {
+      "concept": "Indirektni govor — promjena vremena",
+      "explanation_bs": "Kada prenosimo tuđe riječi u prošlosti (DIJO QUE...), glagol se pomjera 'unazad':\n**PRESENTE → IMPERFECTO**: 'Estoy cansado.' → Dijo que **estaba** cansado.\n**FUTURO → KONDICIONAL**: 'Vendré mañana.' → Dijo que **vendría** mañana.\n**PRETÉRITO INDEFINIDO → PLUSCUAMPERFECTO**: 'Comí ya.' → Dijo que ya **había comido**.\n**SUBJUNKTIVO PREZENTA → SUBJUNKTIVO IMPERFEKTA**: para subjunktivne rečenice.\nAko govornik kaže nešto u SADAŠNJOSTI (dice que...), tiempo se ne mijenja.",
+      "table": {
+        "headers": ["Direktni govor", "Indirektni govor (dijo que...)", "Primjer"],
+        "rows": [
+          ["presente", "imperfecto", "'Tengo hambre.' → Dijo que tenía hambre."],
+          ["futuro", "condicional", "'Llegaré tarde.' → Dijo que llegaría tarde."],
+          ["indefinido", "pluscuamperfecto", "'Salí ayer.' → Dijo que había salido ayer."],
+          ["imperativo", "imperfecto de subj.", "'Ven aquí.' → Me pidió que fuera allí."]
+        ]
+      },
+      "examples": [
+        { "es": "Ana: 'No puedo venir.' → Ana dijo que no podía venir.", "bs": "Ana: 'Ne mogu doći.' → Ana je rekla da ne može doći." },
+        { "es": "El jefe: '¿Has terminado?' → El jefe me preguntó si había terminado.", "bs": "Šef: 'Jesi li završio/la?' → Šef me pitao da li sam završio/la." },
+        { "es": "Mamá: '¡Come más despacio!' → Mi madre me pidió que comiera más despacio.", "bs": "Mama: 'Jedi sporije!' → Moja mama me zamolila da jedem sporije." }
+      ],
+      "tips": "Ključni glagoli prenosa: decir, contar, explicar, añadir, preguntar, pedir, asegurar. Pazi: PEDIR QUE + IMPERFECTO SUBJ. (naredba). PREGUNTAR SI + IND./IMPERF. (pitanje da/ne). PREGUNTAR QUÉ/CÓMO/DÓNDE + IND./IMPERF. (informativno pitanje)."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué te dijo el médico? — Što ti je rekao liječnik?",
+    "lines": [
+      { "speaker": "Lara", "es": "¿Qué te dijo el médico ayer?", "bs": "Što ti je rekao liječnik juče?" },
+      { "speaker": "Iván", "es": "Me dijo que tenía que descansar más y que no podía hacer deporte por dos semanas.", "bs": "Rekao mi je da moram više se odmarati i da ne smijem se baviti sportom dva tjedna." },
+      { "speaker": "Lara", "es": "¿Te explicó por qué?", "bs": "Je li ti objasnio zašto?" },
+      { "speaker": "Iván", "es": "Sí. Me explicó que había una pequeña inflamación y me pidió que tomara antiinflamatorios.", "bs": "Da. Objasnio mi je da postoji mala upala i zamolio me da uzimam protuupalne lijekove." },
+      { "speaker": "Lara", "es": "¿Y te preguntó si te había pasado algo así antes?", "bs": "I pitao te je li ti se nešto tako desilo ranije?" },
+      { "speaker": "Iván", "es": "Sí, le conté que había tenido una lesión similar hace tres años. Añadió que debería hacer fisioterapia.", "bs": "Da, ispričao/la sam mu da sam imao/la sličnu povredu prije tri godine. Dodao je da bih trebao/la raditi fizioterapiju." }
+    ]
+  },
+  "reading": {
+    "title": "La entrevista — El reportaje",
+    "text_es": "La periodista entrevistó a la alcaldesa sobre los nuevos proyectos de la ciudad. La alcaldesa explicó que el ayuntamiento había invertido en transporte público y que los nuevos autobuses eléctricos ya estaban funcionando. Cuando la periodista le preguntó si había planes para reducir la contaminación, la alcaldesa aseguró que tenían varios proyectos en marcha. Añadió que esperaban inaugurar tres nuevos parques ese año. Sin embargo, reconoció que todavía había mucho por hacer en materia de vivienda. Según ella, el mayor desafío era conseguir vivienda asequible para los jóvenes. Por último, dijo que escucharía a los ciudadanos antes de tomar cualquier decisión importante.",
+    "glossary": [
+      { "es": "la alcaldesa", "bs": "gradonačelnica" },
+      { "es": "el ayuntamiento", "bs": "gradska uprava / opština" },
+      { "es": "inaugurar", "bs": "otvoriti / inaugurirati" },
+      { "es": "asequible", "bs": "pristupačan/a (cijenovno)" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "U što je gradska uprava uložila?",
+        "options": ["U školstvo", "U javni prijevoz i električne autobuse", "U turizam"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je gradonačelnica rekla o stanovima?",
+        "options": ["Da je problem riješen", "Da je pristupačno stanovanje za mlade najveći izazov", "Da gradi luksuzne stanove"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je gradonačelnica obećala na kraju?",
+        "options": ["Da će smanjiti poreze", "Da će slušati građane prije važnih odluka", "Da će se kandidirati ponovo"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Pretvori u indirektni: '\"Estoy muy contento.\" → Me dijo que ___'",
+      "options": ["estoy muy contento", "estaba muy contento", "estaré muy contento", "esté muy contento"],
+      "answerIndex": 1,
+      "explanation_bs": "Presente (estoy) → Imperfecto (estaba) u indirektnom govoru u prošlosti."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Pretvori: '\"Vendré mañana.\"' → Me dijo que ___ mañana.",
+      "answer": "vendría",
+      "acceptedAnswers": ["vendría"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Pretvori: '\"¿Puedes ayudarme?\"' → Me preguntó si ___ ayudarle.",
+      "answer": "podía",
+      "acceptedAnswers": ["podía"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Pretvori: '\"¡Cierra la puerta!\"' → Me pidió que ___ la puerta.",
+      "answer": "cerrara",
+      "acceptedAnswers": ["cerrara", "cerrase"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Rekla je da nije mogla doći jer je bila bolesna.",
+      "answer": "Dijo que no había podido venir porque estaba enferma.",
+      "acceptedAnswers": ["Dijo que no había podido venir porque estaba enferma.", "Dijo que no pudo venir porque estaba enferma."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zamolio me je da dođem ranije sutra.",
+      "answer": "Me pidió que viniera más temprano mañana.",
+      "acceptedAnswers": ["Me pidió que viniera más temprano mañana.", "Me pidió que llegara antes mañana."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Pretvori u indirektni govor (spoji direktno s indirektnim)",
+      "pairs": [
+        { "es": "\"Salí tarde.\"", "bs": "Dijo que había salido tarde." },
+        { "es": "\"¿Tienes hambre?\"", "bs": "Me preguntó si tenía hambre." },
+        { "es": "\"¡Ven mañana!\"", "bs": "Me pidió que fuera al día siguiente." }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Mi jefe me dijo que el proyecto estaba muy bien pero que necesitaba algunos cambios. Me pidió que lo enviara de nuevo antes del viernes.",
+      "answer": "Mi jefe me dijo que el proyecto estaba muy bien pero que necesitaba algunos cambios. Me pidió que lo enviara de nuevo antes del viernes."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj što je netko rekao — koristi dijo que, me preguntó si, me pidió que.",
+      "modelAnswer_es": "Ayer hablé con mi amiga María. Me dijo que estaba pensando en cambiar de trabajo porque estaba muy estresada. Me preguntó si yo conocía alguna empresa donde buscaran diseñadores. También me contó que ya había enviado varios currículums. Me pidió que la ayudara a preparar la entrevista. Le dije que estaría encantado de ayudarla."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI ti priča tuđe vijesti i mišljenja — vježbaš indirektni govor u prošlosti.",
+    "level": "B1",
+    "allowedGrammar": ["dijo/contó/explicó que + imperfecto/condicional/pluscuamperfecto", "me preguntó si + imperfecto", "me pidió que + imperfecto subj."],
+    "systemPromptHint": "Ispričaj studentu šta su različite osobe rekle o aktualnoj temi. Potičite pretvorbom direktnog u indirektni govor. Ispravi greške u promjeni glagolskih vremena."
+  },
+  "illustration": {
+    "prompt": "Speech bubbles transforming from direct quotes to reported speech, arrow showing time shift, journalistic style",
+    "alt": "Indirektni govor — prepričavanje",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["estilo-indirecto", "dijo-que-imperfecto", "me-pido-que-subj", "b1", "u17"]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "b1-u17-l3",
+  "level": "B1",
+  "unit": 17,
+  "lessonNumber": 3,
+  "title": "Prepričavanje događaja — Contar una historia",
+  "subtitle": "Conectores narrativos, narrar en pasado",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Koristiti narativne veznike za strukturirano prepričavanje",
+    "Kombinovati prošla vremena s narativnim elementima",
+    "Pisati koherentnu priču na B1 razini"
+  ],
+  "prerequisites": ["b1-u17-l2"],
+  "vocabulary": [
+    { "es": "al principio", "bs": "na početku / u početku", "pos": "izr.", "ipa": "al prin.ˈθi.pjo", "example_es": "Al principio, todo iba bien.", "example_bs": "Na početku, sve je išlo dobro." },
+    { "es": "a continuación", "bs": "zatim / potom", "pos": "izr.", "ipa": "a kon.ti.nwa.ˈθjon", "example_es": "A continuación, explicó el plan.", "example_bs": "Zatim je objasnio/la plan." },
+    { "es": "de repente / de pronto", "bs": "iznenada / najednom", "pos": "pril.", "ipa": "de re.ˈpen.te", "example_es": "De repente, todo cambió.", "example_bs": "Iznenada se sve promijenilo." },
+    { "es": "a partir de entonces", "bs": "od tada / od tog trenutka", "pos": "izr.", "ipa": "a par.ˈtir ðe en.ˈton.θes", "example_es": "A partir de entonces, todo fue diferente.", "example_bs": "Od tada, sve je bilo drugačije." },
+    { "es": "poco a poco", "bs": "malo-pomalo / postupno", "pos": "izr.", "ipa": "ˈpo.ko a ˈpo.ko", "example_es": "Poco a poco, aprendió el idioma.", "example_bs": "Malo-pomalo, naučio/la je jezik." },
+    { "es": "al mismo tiempo", "bs": "u isto vrijeme / istovremeno", "pos": "izr.", "ipa": "al ˈmis.mo ˈtjem.po", "example_es": "Al mismo tiempo, sucedían otras cosas.", "example_bs": "U isto vrijeme, dešavale su se druge stvari." },
+    { "es": "finalmente / por fin", "bs": "na kraju / konačno", "pos": "pril.", "ipa": "fi.nal.ˈmen.te", "example_es": "Finalmente, encontraron la solución.", "example_bs": "Na kraju su pronašli rješenje." },
+    { "es": "lo que pasó fue que", "bs": "ono što se desilo jest da", "pos": "izr.", "ipa": "lo ke pa.ˈso fue ke", "example_es": "Lo que pasó fue que nadie sabía nada.", "example_bs": "Ono što se desilo jest da nitko nije znao ništa." },
+    { "es": "resulta que", "bs": "ispostavlja se da / ispada da", "pos": "izr.", "ipa": "re.ˈsul.ta ke", "example_es": "Resulta que el culpable era el jefe.", "example_bs": "Ispostavlja se da je krivac bio šef." },
+    { "es": "para colmo", "bs": "kao da toga nije dosta / k tomu još", "pos": "izr.", "ipa": "ˈpa.ra ˈkol.mo", "example_es": "Para colmo, empezó a llover.", "example_bs": "Kao da toga nije dosta, počela je kiša." }
+  ],
+  "grammar": [
+    {
+      "concept": "Narativni tekst — struktura i stilski elementi",
+      "explanation_bs": "Dobar narativni tekst na B1 ima: **UVOD** (kontekst, uvjeti) → IMPERFECTO za opis pozadine. **RAZVOJ RADNJE** → INDEFINIDO za akcije. **KOMPLIKACIJA** ('De repente...', 'Para colmo...') → INDEFINIDO. **KULMINACIJA** ('Finalmente...', 'Al final...') → INDEFINIDO. **ZAKLJUČAK/REFLEKSIJA** → IMPERFECTO ili PREZENT. Uvijek miješaj opisni i akcijski nivo!",
+      "examples": [
+        { "es": "Era un día de verano. (IMPERFECTO — opis) Hacía calor y el sol brillaba. (IMPERFECTO) De repente, empezó a sonar una sirena. (INDEFINIDO — akcija) Todos se pararon y miraron al cielo. (INDEFINIDO) Para colmo, el coche de al lado empezó a arder. (INDEFINIDO) Finalmente, llegaron los bomberos y apagaron el fuego. (INDEFINIDO)", "bs": "Bio je ljetni dan. (opis) Bilo je toplo i sunce je sjalo. Iznenada, sirena je počela zvučati. (akcija) Svi su se zaustavili i pogledali prema nebu. K tomu još, auto pored nas počeo je gorjeti. Na kraju su vatrogasci stigli i ugasili vatru." }
+      ],
+      "tips": "Vježi mijenjanje perspektive: IMPERFECTO prikazuje što je bilo — INDEFINIDO prikazuje što se desilo. 'Estudiaba (imperf.) cuando sonó (indef.) el teléfono.' — studiranje = pozadina; zvono = događaj koji je prekinuo."
+    }
+  ],
+  "dialogue": {
+    "title": "Cuenta lo que pasó — Ispričaj što se desilo",
+    "lines": [
+      { "speaker": "Celia", "es": "¿Por qué llegaste tan tarde ayer?", "bs": "Zašto si jučer toliko kasno stigao/la?" },
+      { "speaker": "Álvaro", "es": "¡Fue un desastre! Al principio todo iba bien — cogí el autobús a tiempo.", "bs": "Bio je katastrofa! Na početku je sve išlo dobro — uhvatio/la sam autobus na vrijeme." },
+      { "speaker": "Celia", "es": "¿Y qué pasó?", "bs": "I što se desilo?" },
+      { "speaker": "Álvaro", "es": "De repente, el autobús se paró en medio de la calle. Resulta que había un accidente más adelante.", "bs": "Iznenada se autobus zaustavio usred ulice. Ispostavilo se da je bila nesreća naprijed." },
+      { "speaker": "Celia", "es": "Vaya. ¿Y a continuación?", "bs": "Jadan/a. I što onda?" },
+      { "speaker": "Álvaro", "es": "Decidí bajarme y caminar, pero para colmo empezó a llover. ¡Y no llevaba paraguas!", "bs": "Odlučio/la sam sići i hodati, ali kao da toga nije dosta, počela je kiša. I nisam nosio/la kišobran!" },
+      { "speaker": "Celia", "es": "¡Qué mala suerte! ¿Cómo llegaste al final?", "bs": "Kakva loša sreća! Kako si na kraju stigao/la?" },
+      { "speaker": "Álvaro", "es": "Un taxi se paró y me ofreció llevarme. Finalmente llegué, empapado pero a salvo.", "bs": "Taksi se zaustavio i ponudio me da me odveze. Konačno sam stigao/la, mokar/mokra ali zdrav/a i živ/a." }
+    ]
+  },
+  "reading": {
+    "title": "La noche del apagón — Noć bez struje",
+    "text_es": "Era una noche de noviembre. Todos estaban en casa, viendo la televisión y cenando. Al principio, nadie notó nada extraño. De repente, la luz se fue. Todo el edificio quedó a oscuras. Los niños lloraban; los mayores buscaban velas. Lo que pasó fue que un transformador del barrio había fallado. A continuación, la gente empezó a salir a la calle. Poco a poco, los vecinos se fueron conociendo: llevaban años viviendo en el mismo edificio y casi no se hablaban. Para colmo, hacía mucho frío. Sin embargo, alguien sacó mantas y otro preparó chocolate caliente en el coche. Finalmente, a las tres de la madrugada, volvió la luz. A partir de entonces, los vecinos se saludaban cada mañana. Aquella noche, sin quererlo, habían construido una comunidad.",
+    "glossary": [
+      { "es": "el apagón", "bs": "nestanak struje" },
+      { "es": "el transformador", "bs": "transformator" },
+      { "es": "a oscuras", "bs": "u mraku / bez svjetla" },
+      { "es": "sin quererlo", "bs": "nevoljko / nenamjerno" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Što se iznenada desilo?",
+        "options": ["Počela je kiša", "Nestalo je struje u cijeloj zgradi", "Neko je slomio prozor"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što se desilo s komšijama te noći?",
+        "options": ["Posvađali su se", "Upoznali su se i pomogali jedni drugima", "Pozvali su policiju"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakva je bila poruka te noći?",
+        "options": ["Da struja ne treba biti pouzdana", "Da je nestanak struje stvorio zajednicu", "Da zgrade treba bolje opremiti"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji narativni izraz koristimo za iznenadni obrat?",
+      "options": ["Al principio", "Finalmente", "De repente", "Poco a poco"],
+      "answerIndex": 2,
+      "explanation_bs": "DE REPENTE = iznenada, odjednom — koristi se za iznenađenja i nagle promjene u priči."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ todo iba bien. De repente, todo cambió.",
+      "answer": "Al principio",
+      "acceptedAnswers": ["Al principio"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ que el culpable era alguien inesperado.",
+      "answer": "Resulta",
+      "acceptedAnswers": ["Resulta", "Resultó"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Na početku, sve je išlo dobro. Odjednom, počela je kiša. K tomu još, nismo imali kišobran.",
+      "answer": "Al principio, todo iba bien. De repente, empezó a llover. Para colmo, no teníamos paraguas.",
+      "acceptedAnswers": ["Al principio, todo iba bien. De repente, empezó a llover. Para colmo, no teníamos paraguas."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Na kraju, pronašli smo rješenje. Od tada, sve je bilo jednostavnije.",
+      "answer": "Finalmente, encontramos la solución. A partir de entonces, todo fue más fácil.",
+      "acceptedAnswers": ["Finalmente, encontramos la solución. A partir de entonces, todo fue más fácil.", "Por fin encontramos la solución. A partir de entonces, las cosas fueron más simples."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji izraz s mjestom u priči",
+      "pairs": [
+        { "es": "Al principio", "bs": "početak priče / uvod" },
+        { "es": "De repente", "bs": "iznenadni obrat / komplikacija" },
+        { "es": "Para colmo", "bs": "dodatna komplikacija / gora stvar" },
+        { "es": "Finalmente", "bs": "zaključak / kraj priče" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Al principio todo iba bien. A continuación llegaron complicaciones. De repente, para colmo, empezaron los problemas de verdad. Finalmente, todo se resolvió.",
+      "answer": "Al principio todo iba bien. A continuación llegaron complicaciones. De repente, para colmo, empezaron los problemas de verdad. Finalmente, todo se resolvió."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Ispričaj kratku priču o nečemu što ti se desilo — koristi barem 4 narativna veznika i kombinuj prošla vremena.",
+      "modelAnswer_es": "Al principio era un día normal de trabajo. Todo iba tranquilo. De repente, mi jefe me llamó y me dijo que tenía que hacer una presentación urgente en dos horas. Para colmo, el ordenador empezó a fallar. A continuación, pedí ayuda a un compañero. Poco a poco, fuimos solucionando los problemas. Finalmente, la presentación salió muy bien y mi jefe estaba contento."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te poziva da ispričaš priču — vježbaš narativnu strukturu s prošlim vremenima i veznicima.",
+    "level": "B1",
+    "allowedGrammar": ["imperfecto (pozadina) + indefinido (akcija)", "al principio / de repente / para colmo / finalmente", "resulta que / lo que pasó fue que", "a partir de entonces"],
+    "systemPromptHint": "Zatraži od studenta da ti ispriča o nekom uzbudljivom iskustvu. Potičite upotrebu narativnih veznika i miješanja prošlih vremena. Ispravi greške u izboru imperfecto vs indefinido."
+  },
+  "illustration": {
+    "prompt": "Story panels like a comic strip showing narrative progression, characters in different scenes with speech bubbles",
+    "alt": "Narativni veznici — prepričavanje priče",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["narativni-veznici", "al-principio-de-repente-finalmente", "pripovijedanje-b1", "b1", "u17"]
+  }
+}

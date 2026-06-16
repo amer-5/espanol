@@ -1,0 +1,100 @@
+{
+  "id": "test-b1-u17",
+  "level": "B1",
+  "unit": 17,
+  "title": "Test — Jedinica 17: Prošla vremena, indirektni govor, narativi",
+  "cumulative": true,
+  "timeLimitMinutes": 20,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje prošlo vrijeme koristimo za pozadinu u priči (opis, stanje)?",
+      "options": ["Pretérito indefinido", "Pretérito imperfecto", "Pluscuamperfecto", "Presente"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u17-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Cuando ___ (yo/llegar/indef.) al aeropuerto, el avión ya ___ (despegar/pluskv.).",
+      "answer": "llegué / había despegado",
+      "acceptedAnswers": ["llegué / había despegado"],
+      "points": 2,
+      "lessonId": "b1-u17-l1"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Pretvori: '\"Estoy cansado.\"' → Me dijo que ___",
+      "options": ["está cansado", "estaba cansado", "estará cansado", "esté cansado"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "b1-u17-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Pretvori: '\"¡Come más despacio!\"' → Me pidió que ___ más despacio.",
+      "answer": "comiera",
+      "acceptedAnswers": ["comiera", "comiese"],
+      "points": 2,
+      "lessonId": "b1-u17-l2"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji narativni veznik koristimo za iznenadni obrat?",
+      "options": ["Al principio", "A continuación", "De repente", "Finalmente"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "b1-u17-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ que el culpable era alguien completamente inesperado.",
+      "answer": "Resulta",
+      "acceptedAnswers": ["Resulta", "Resultó"],
+      "points": 2,
+      "lessonId": "b1-u17-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Kada sam ušao/la, film je već počeo.",
+      "answer": "Cuando entré, la película ya había empezado.",
+      "acceptedAnswers": ["Cuando entré, la película ya había empezado.", "Cuando llegué, la película ya había comenzado."],
+      "points": 3,
+      "lessonId": "b1-u17-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Objasnila je da nije mogla doći jer je bila bolesna.",
+      "answer": "Explicó que no había podido venir porque estaba enferma.",
+      "acceptedAnswers": ["Explicó que no había podido venir porque estaba enferma.", "Dijo que no había podido venir porque estaba enferma."],
+      "points": 3,
+      "lessonId": "b1-u17-l2"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Al principio todo iba bien. De repente, de repente sonó una alarma. Para colmo, el ascensor se paró. Finalmente llegaron los técnicos y lo arreglaron.",
+      "answer": "Al principio todo iba bien. De repente sonó una alarma. Para colmo, el ascensor se paró. Finalmente llegaron los técnicos y lo arreglaron.",
+      "points": 3,
+      "lessonId": "b1-u17-l3"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši kratku priču (5-7 rečenica) o nečemu što ti se desilo. Koristi: imperfecto (pozadina), indefinido (akcija), pluscuamperfecto (starija prošlost), barem jedan indirektni govor i barem 3 narativna veznika.",
+      "minWords": 50,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: imperfecto/indefinido ispravno (3), pluscuamperfecto ispravno (2), indirektni govor ispravno (2), narativni veznici (2), pravopis (1). Ukupno 10.",
+      "points": 10,
+      "lessonId": "b1-u17-l4"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "b1-u17-l1", "topic": "3 prošla vremena: indefinido (završena radnja) + imperfecto (pozadina) + pluscuamperfecto (radnja prije druge prošle)" },
+    { "lessonId": "b1-u17-l2", "topic": "Indirektni govor: dijo que + imperfecto/kondicional/pluskv.; me preguntó si + imperf.; me pidió que + imperf.subj." },
+    { "lessonId": "b1-u17-l3", "topic": "Narativni veznici: al principio / a continuación / de repente / para colmo / finalmente / resulta que" },
+    { "lessonId": "b1-u17-l4", "topic": "Integracija: pisanje narativnog teksta sa svim prošlim vremenima, indirektnim govorom i narativnim veznicima" }
+  ]
+}

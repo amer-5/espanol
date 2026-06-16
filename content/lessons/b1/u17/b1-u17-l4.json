@@ -1,0 +1,141 @@
+{
+  "id": "b1-u17-l4",
+  "level": "B1",
+  "unit": 17,
+  "lessonNumber": 4,
+  "title": "Narativna vježba — Pisanje i govorenje o prošlosti",
+  "subtitle": "Kombinujemo sve: prošla vremena, indirektni govor, narativni stil",
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Pisati koheriranu priču u prošlosti koristeći sva prošla vremena",
+    "Kombinovati indirektni govor u narativi",
+    "Koristiti bogat vokabular za pripovijedanje"
+  ],
+  "prerequisites": ["b1-u17-l3"],
+  "vocabulary": [
+    { "es": "el protagonista / la protagonista", "bs": "protagonist/a / glavni lik", "pos": "im.", "ipa": "el pro.ta.ɣo.ˈnis.ta", "example_es": "El protagonista de la historia era un joven periodista.", "example_bs": "Protagonist priče bio je mladi novinar." },
+    { "es": "el giro inesperado", "bs": "neočekivani preokret", "pos": "im.", "ipa": "el ˈxi.ro i.nes.pe.ˈra.ðo", "example_es": "La historia tenía un giro inesperado al final.", "example_bs": "Priča je imala neočekivani preokret na kraju." },
+    { "es": "el punto de vista", "bs": "gledište / perspektiva", "pos": "im.", "ipa": "el ˈpun.to ðe ˈβis.ta", "example_es": "Desde su punto de vista, tenía razón.", "example_bs": "Sa njezine/njegove perspektive, imao/la je pravo." },
+    { "es": "el narrador / la narradora", "bs": "narator/ka", "pos": "im.", "ipa": "el na.ra.ˈðor", "example_es": "El narrador contaba la historia en primera persona.", "example_bs": "Narator je pričao priču u prvom licu." },
+    { "es": "tener lugar", "bs": "odigrati se / odvijati se", "pos": "izr.", "ipa": "te.ˈner lu.ˈɣar", "example_es": "La historia tiene lugar en los años 80.", "example_bs": "Priča se odvija u 80-ima." },
+    { "es": "el desenlace", "bs": "rasplet / završetak priče", "pos": "im.", "ipa": "el de.sen.ˈla.θe", "example_es": "El desenlace fue sorprendente.", "example_bs": "Rasplet je bio iznenađujući." },
+    { "es": "a lo largo de", "bs": "tokom / kroz (period)", "pos": "izr.", "ipa": "a lo ˈlar.ɣo ðe", "example_es": "A lo largo de la historia, el personaje cambia.", "example_bs": "Tokom priče, lik se mijenja." },
+    { "es": "en el fondo", "bs": "u dubini / zapravo", "pos": "izr.", "ipa": "en el ˈfon.do", "example_es": "En el fondo, era una persona buena.", "example_bs": "Zapravo, bila je to dobra osoba." },
+    { "es": "hay que destacar que", "bs": "treba istaknuti da", "pos": "izr.", "ipa": "aj ke des.ta.ˈkar ke", "example_es": "Hay que destacar que fue un período difícil.", "example_bs": "Treba istaknuti da je to bilo teško razdoblje." },
+    { "es": "en definitiva", "bs": "u konačnici / dakle", "pos": "izr.", "ipa": "en de.fi.ˈni.ti.βa", "example_es": "En definitiva, fue una experiencia única.", "example_bs": "U konačnici, bilo je to jedinstveno iskustvo." }
+  ],
+  "grammar": [
+    {
+      "concept": "Integracija: Prošla vremena + Indirektni govor + Narativni veznici",
+      "explanation_bs": "Složeni narativni tekst na B1 kombinuje sve naučeno u ovoj jedinici: **3 prošla vremena** (imperfecto za pozadinu, indefinido za akcije, pluscuamperfecto za stariju prošlost) + **Indirektni govor** (dijo que + imperfecto, me pidió que + imperfecto subj.) + **Narativni veznici** (al principio, de repente, a continuación, finalmente) + **Bogat vokabular** (de repente, para colmo, resulta que, en definitiva). Ovaj nivo teksta karakterizira B1 razinu.",
+      "examples": [
+        { "es": "Era el día de mi primera presentación. Estaba nerviosa porque nunca había hablado ante tanta gente. Al principio, me quedé en blanco. De repente, recordé el consejo que me había dado mi profesora: me había dicho que respirara profundo. A partir de entonces, todo fue bien.", "bs": "Bio je dan moje prve prezentacije. Bila sam nervozna jer nikad ranije nisam govorila pred toliko ljudi. Na početku mi je glava ostala prazna. Odjednom sam se sjetila savjeta koji mi je dala profesorica: rekla mi je da duboko dišem. Od tada, sve je išlo dobro." }
+      ],
+      "tips": "B1 narativni esej = UVOD (imperfecto) + RADNJA (indefinido) + KOMPLIKACIJA (indefinido + para colmo) + RJEŠENJE (indefinido + finalmente) + REFLEKSIJA (indirektni govor ili komentar). Duljina: 80-120 riječi."
+    }
+  ],
+  "dialogue": {
+    "title": "Recuerdos de la infancia — Sjećanja iz djetinjstva",
+    "lines": [
+      { "speaker": "Grandmother", "es": "¿Alguna vez te he contado lo que pasó el año en que nació tu madre?", "bs": "Jesam li ti ikad ispričala što se desilo godine kada se rodila tvoja mama?" },
+      { "speaker": "Nieto", "es": "No, abuela. Cuéntame.", "bs": "Nisi, bako. Ispričaj mi." },
+      { "speaker": "Grandmother", "es": "Era invierno, hacía un frío terrible. Tu abuelo y yo vivíamos en un pequeño apartamento. Un día, de repente, empezó a nevar muchísimo.", "bs": "Bila je zima, bila je strašna hladnoća. Tvoj djed i ja živjeli smo u malom stanu. Jednog dana, iznenada, počelo je jako snijegati." },
+      { "speaker": "Nieto", "es": "¿Y qué pasó?", "bs": "I što se desilo?" },
+      { "speaker": "Grandmother", "es": "Tu madre decidió nacer en ese momento. Para colmo, el coche no arrancaba.", "bs": "Tvoja mama odlučila se roditi baš tada. K tomu još, auto nije htio upaliti." },
+      { "speaker": "Nieto", "es": "¿Cómo llegasteis al hospital?", "bs": "Kako ste stigli do bolnice?" },
+      { "speaker": "Grandmother", "es": "Un vecino, que había escuchado los gritos, nos llevó en su coche. Finalmente, llegamos justo a tiempo. El médico nos dijo que había sido un milagro.", "bs": "Komšija, koji je čuo viku, odvezao nas je svojim autom. Konačno, stigli smo točno na vrijeme. Liječnik nam je rekao da je bio čudo." }
+    ]
+  },
+  "reading": {
+    "title": "Una carta al futuro — Pismo budućnosti",
+    "text_es": "Querido yo del futuro: Cuando escribo estas líneas, tengo veinticinco años y acabo de terminar mis estudios. Era una época de mucha incertidumbre. No sabía qué iba a pasar. Había estudiado con mucho esfuerzo durante cinco años. De repente, todo terminó y me encontré sin saber qué hacer. Al principio, me sentía perdido. A continuación, empecé a hacer prácticas en una empresa pequeña. Poco a poco, fui ganando confianza. Resulta que lo que más temía —el fracaso— fue lo que más me enseñó. Finalmente, encontré mi camino. En definitiva, lo que pasó fue que crecí. Si lees esto y ya has olvidado ese miedo, recuerda que era necesario para llegar a donde estás ahora.",
+    "glossary": [
+      { "es": "la incertidumbre", "bs": "nesigurnost / neizvjesnost" },
+      { "es": "las prácticas", "bs": "praksa / stažiranje" },
+      { "es": "el fracaso", "bs": "neuspjeh / poraz" },
+      { "es": "crecer", "bs": "rasti / sazrijevati" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko je autor/ica imao/la godina kada je pisao/la pismo?",
+        "options": ["18", "25", "30"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što je autor/ica naučio/la od straha od neuspjeha?",
+        "options": ["Ništa korisno", "Bio je neophodan za rast i pronalaženje puta", "Da treba biti oprezniji"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako se autor/ica osjećao/la na početku?",
+        "options": ["Veselo i slobodno", "Izgubljeno i nesigurno", "Mirno i opušteno"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje prošlo vrijeme koristimo za pozadinu u priči dok se dešava neka akcija?",
+      "options": ["Pretérito indefinido", "Pretérito imperfecto", "Pluscuamperfecto", "Presente"],
+      "answerIndex": 1,
+      "explanation_bs": "IMPERFECTO = pozadina, stanje, opis scenerije. INDEFINIDO = akcija koja se desila."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ todo iba bien. ___ todo cambió. ___ todo se resolvió. (redoslijed: al principio, de repente, finalmente)",
+      "answer": "Al principio / De repente / Finalmente",
+      "acceptedAnswers": ["Al principio / De repente / Finalmente"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Rekla mi je da je bila jako nervozna ali da je na kraju uspjela.",
+      "answer": "Me dijo que había estado muy nerviosa pero que al final lo había conseguido.",
+      "acceptedAnswers": ["Me dijo que había estado muy nerviosa pero que al final lo había conseguido.", "Me contó que estaba muy nerviosa pero que finalmente lo logró."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Priča se odvija u 1990-ima. Protagonist je bio mladi liječnik.",
+      "answer": "La historia tiene lugar en los años 90. El protagonista era un joven médico.",
+      "acceptedAnswers": ["La historia tiene lugar en los años 90. El protagonista era un joven médico.", "La historia se desarrolla en los 90. El protagonista era un médico joven."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji prošlo vrijeme s ulogom u pripovijedanju",
+      "pairs": [
+        { "es": "Imperfecto", "bs": "pozadina, opis, stanje u prošlosti" },
+        { "es": "Indefinido", "bs": "konkretna akcija, događaj" },
+        { "es": "Pluscuamperfecto", "bs": "radnja koja se desila prije druge prošle" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "Era una tarde tranquila cuando de repente sonó el teléfono. Era mi hermana. Me dijo que había tenido un accidente pero que estaba bien. Para colmo, se le había roto el coche también.",
+      "answer": "Era una tarde tranquila cuando de repente sonó el teléfono. Era mi hermana. Me dijo que había tenido un accidente pero que estaba bien. Para colmo, se le había roto el coche también."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Napiši i recituj kratki narativni tekst (5-8 rečenica) o nekom nezaboravnom iskustvu — koristi sva prošla vremena i narativne veznike.",
+      "modelAnswer_es": "Era el verano de hace tres años. Había planeado un viaje a Portugal con mis amigos. Al principio, todo estaba perfecto: hacía buen tiempo y el alojamiento era bonito. De repente, nos robaron la mochila en el tren. Para colmo, no llevábamos efectivo. Mi amiga llamó a sus padres, que le explicaron cómo recuperar el dinero. Finalmente, conseguimos resolverlo todo. A partir de entonces, siempre llevamos una copia de los documentos. En definitiva, fue una lección muy valiosa."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI vodi razgovor o sjećanjima — kombinuješ sva prošla vremena, indirektni govor i narativne veznike.",
+    "level": "B1",
+    "allowedGrammar": ["imperfecto + indefinido + pluscuamperfecto", "dijo/contó/explicó que + promjena vremena", "al principio / de repente / para colmo / finalmente", "resulta que / en definitiva"],
+    "systemPromptHint": "Zatraži da student napiše kratku priču o nekom iskustvu. Ispravi greške u miješanju prošlih vremena i u indirektnom govoru. Pohvali dobar narativni stil i bogat vokabular."
+  },
+  "illustration": {
+    "prompt": "Open book with story scenes floating out, nostalgic warm colors, timeline of past events visible",
+    "alt": "Narativna vježba — pripovijedanje u prošlosti",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["narativna-vjezba", "integracija-prosla-vremena", "indirektni-govor-narativi", "b1", "u17"]
+  }
+}

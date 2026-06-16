@@ -1,0 +1,159 @@
+{
+  "id": "b1-u18-l2",
+  "level": "B1",
+  "unit": 18,
+  "lessonNumber": 2,
+  "title": "Španija vs Latinska Amerika — Razlike u jeziku",
+  "subtitle": "Vosotros vs ustedes, vos, variantes de vocabulario",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Razumjeti glavne razlike između kastiljskog i latinoameričkog španskog",
+    "Prepoznati vosotros vs ustedes i vos",
+    "Znati ključne razlike u vokabularu između varijanti"
+  ],
+  "prerequisites": ["b1-u18-l1"],
+  "vocabulary": [
+    { "es": "vosotros (España) = ustedes (Latinoamérica)", "bs": "vi — u Španiji vosotros, u Latinskoj Americi ustedes", "pos": "zamj.", "ipa": "βo.ˈso.tros / us.ˈte.ðes", "example_es": "¿Cómo estáis? (Esp.) / ¿Cómo están? (LatAm)", "example_bs": "Kako ste? (Španija) / Kako ste? (Latinska Amerika)" },
+    { "es": "vos (Argentina, Uruguay...)", "bs": "ti (u nekim lat.am. zemljama umjesto tú)", "pos": "zamj.", "ipa": "βos", "example_es": "¿Vos querés venir? (Arg.)", "example_bs": "Hoćeš li doći? (Argentina)" },
+    { "es": "el ordenador (Esp.) = la computadora (LatAm)", "bs": "kompjuter", "pos": "im.", "ipa": "el or.ðe.na.ˈðor", "example_es": "Mi ordenador es nuevo. / Mi computadora es nueva.", "example_bs": "Moj kompjuter je nov." },
+    { "es": "el coche (Esp.) = el carro / el auto (LatAm)", "bs": "auto", "pos": "im.", "ipa": "el ˈko.tʃe / el ˈka.ro", "example_es": "Mi coche no arranca. / Mi carro no arranca.", "example_bs": "Moj auto ne pali." },
+    { "es": "el móvil (Esp.) = el celular (LatAm)", "bs": "mobilni telefon", "pos": "im.", "ipa": "el ˈmo.βil / se.lu.ˈlar", "example_es": "¿Dónde está mi móvil? / ¿Dónde está mi celular?", "example_bs": "Gdje je moj mobilni?" },
+    { "es": "el piso (Esp.) = el apartamento (LatAm)", "bs": "stan", "pos": "im.", "ipa": "el ˈpi.so / a.par.ta.ˈmen.to", "example_es": "Vivo en un piso pequeño. / Vivo en un apartamento pequeño.", "example_bs": "Živim u malom stanu." },
+    { "es": "coger (Esp.) = tomar (LatAm)", "bs": "uzeti / uhvatiti", "pos": "gl.", "ipa": "ko.ˈxer / to.ˈmar", "example_es": "Coge el autobús (Esp.) / Toma el bus (LatAm)", "example_bs": "Uzmi autobus." },
+    { "es": "el zumo (Esp.) = el jugo (LatAm)", "bs": "sok (voćni)", "pos": "im.", "ipa": "el ˈθu.mo / el ˈxu.ɣo", "example_es": "Un zumo de naranja. / Un jugo de naranja.", "example_bs": "Sok od naranče." },
+    { "es": "manejar (LatAm) = conducir (Esp.)", "bs": "voziti (auto)", "pos": "gl.", "ipa": "ma.ne.ˈxar / kon.du.ˈθir", "example_es": "¿Sabes conducir? (Esp.) / ¿Sabes manejar? (LatAm)", "example_bs": "Znaš li voziti?" },
+    { "es": "el acento / la variante dialectal", "bs": "naglasak / dijalektalna varijanta", "pos": "im.", "ipa": "el a.ˈθen.to", "example_es": "Cada región tiene su propia variante del español.", "example_bs": "Svaka regija ima svoju varijantu španskog." }
+  ],
+  "grammar": [
+    {
+      "concept": "Vosotros vs Ustedes — i konjugacija",
+      "explanation_bs": "U **Španiji**: 2. lice množine = **VOSOTROS/AS** → posebna konjugacija: habláis, tenéis, sois, podéis, vais. U **Latinskoj Americi**: 2. lice množine = **USTEDES** (isti kao 3. lice mn.) → hablan, tienen, son, pueden, van. Nema vosotros u Latinskoj Americi! Imperativ: España: **¡Hablad!** / LatAm: **¡Hablen ustedes!**",
+      "table": {
+        "headers": ["Zamjenica", "Španija", "Latinska Amerika"],
+        "rows": [
+          ["2. mn. prez.", "Vosotros habláis", "Ustedes hablan"],
+          ["2. mn. pret.", "Vosotros hablasteis", "Ustedes hablaron"],
+          ["2. mn. imperf.", "Vosotros hablabais", "Ustedes hablaban"],
+          ["2. mn. subj.", "Vosotros habléis", "Ustedes hablen"],
+          ["2. mn. imper.", "¡Hablad!", "¡Hablen!"]
+        ]
+      },
+      "examples": [
+        { "es": "Esp.: ¿Habláis inglés vosotros? / LatAm: ¿Hablan inglés ustedes?", "bs": "Govorite li engleski? (obje varijante znače isto)" },
+        { "es": "Esp.: ¡Venid aquí! / LatAm: ¡Vengan aquí!", "bs": "Dođite ovdje!" }
+      ],
+      "tips": "Ako učiš španski u Španiji, naučit ćeš vosotros. Ako planiraš ići u Latinsku Ameriku ili učiš s latinoameričkim govornicima, koristit ćeš ustedes. Oba su ispravna!"
+    }
+  ],
+  "dialogue": {
+    "title": "Entre dos culturas — Između dvije kulture",
+    "lines": [
+      { "speaker": "Valentina (Argentina)", "es": "Che, ¿vos de dónde sos?", "bs": "Hej, odakle si ti?" },
+      { "speaker": "Pablo (España)", "es": "Soy de Madrid. ¿Y vos... dices 'vos'?", "bs": "Iz Madrida sam. A ti... kažeš 'vos'?" },
+      { "speaker": "Valentina", "es": "Sí, en Argentina usamos 'vos' en lugar de 'tú'. ¿No lo sabías?", "bs": "Da, u Argentini koristimo 'vos' umjesto 'tú'. Nisi znao/la?" },
+      { "speaker": "Pablo", "es": "No tenía ni idea. Y yo digo 'ordenador' y aquí decís 'computadora'.", "bs": "Pojma nisam imao/la. A ja kažem 'ordenador', a ovdje kažete 'computadora'." },
+      { "speaker": "Valentina", "es": "También 'carro' por 'coche', 'celular' por 'móvil'... ¡pero es el mismo idioma!", "bs": "'Carro' umjesto 'coche', 'celular' umjesto 'móvil'... ali to je isti jezik!" },
+      { "speaker": "Pablo", "es": "Exacto. Lo importante es que nos entendemos perfectamente.", "bs": "Točno. Važno je da se savršeno razumijemo." },
+      { "speaker": "Valentina", "es": "¡Claro! Aunque vosotros tengáis vuestro acento y nosotros el nuestro.", "bs": "Naravno! Iako vi imate svoj naglasak, a mi naš." }
+    ]
+  },
+  "reading": {
+    "title": "El español — el idioma de los 500 millones",
+    "text_es": "El español es la segunda lengua más hablada del mundo por número de hablantes nativos, con más de 500 millones de personas en 21 países. Sin embargo, no es un idioma uniforme. Hay diferencias importantes entre el español de España y el de América Latina, tanto en vocabulario como en pronunciación y gramática. En España se usa 'vosotros' para la segunda persona del plural; en América, todos usan 'ustedes'. En Argentina y Uruguay se usa 'vos' en lugar de 'tú'. El vocabulario también varía: 'coger' es neutral en España pero puede ser ofensivo en algunos países latinoamericanos. A pesar de estas diferencias, los hispanohablantes de cualquier región se entienden sin problemas. La diversidad del español es una riqueza, no un obstáculo.",
+    "glossary": [
+      { "es": "los hablantes nativos", "bs": "izvorni govornici" },
+      { "es": "uniforme", "bs": "jednolik / ujednačen" },
+      { "es": "la riqueza", "bs": "bogatstvo" },
+      { "es": "el obstáculo", "bs": "prepreka" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko izvornih govornika ima španski?",
+        "options": ["Oko 200 milijuna", "Više od 500 milijuna", "Oko milijardu"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje se koristi 'vos' umjesto 'tú'?",
+        "options": ["U Španiji", "U Argentini i Urugvaju", "U Meksiku"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako autor opisuje raznolikost španskog?",
+        "options": ["Kao problem i poteškoću", "Kao bogatstvo, ne kao prepreku", "Kao razlog za učenje više varijanata"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako se kaže 'kompjuter' u Latinskoj Americi?",
+      "options": ["el ordenador", "la computadora", "el móvil", "el tableta"],
+      "answerIndex": 1,
+      "explanation_bs": "U Španiji: el ordenador. U Latinskoj Americi: la computadora / el computador."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni (Španija): ¿Cómo ___ (vosotros/estar) hoy?",
+      "answer": "estáis",
+      "acceptedAnswers": ["estáis"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni (Latinska Amerika): ¿Cómo ___ (ustedes/estar) hoy?",
+      "answer": "están",
+      "acceptedAnswers": ["están"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jeste li već uzeli autobus? (Latinska Amerika — ustedes)",
+      "answer": "¿Ya tomaron el autobús?",
+      "acceptedAnswers": ["¿Ya tomaron el autobús?", "¿Ustedes ya tomaron el bus?"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Jeste li već uzeli autobus? (Španija — vosotros)",
+      "answer": "¿Ya habéis cogido el autobús?",
+      "acceptedAnswers": ["¿Ya habéis cogido el autobús?", "¿Ya cogisteis el autobús?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji varijante (Španija ↔ Latinska Amerika)",
+      "pairs": [
+        { "es": "el móvil (Esp.)", "bs": "el celular (LatAm)" },
+        { "es": "el coche (Esp.)", "bs": "el carro / el auto (LatAm)" },
+        { "es": "el zumo (Esp.)", "bs": "el jugo (LatAm)" },
+        { "es": "conducir (Esp.)", "bs": "manejar (LatAm)" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "En España decimos 'vosotros tenéis razón'. En América dicen 'ustedes tienen razón'. Es el mismo significado, diferente forma.",
+      "answer": "En España decimos 'vosotros tenéis razón'. En América dicen 'ustedes tienen razón'. Es el mismo significado, diferente forma."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Objasni razliku između španskog u Španiji i u Latinskoj Americi — koristi primjere iz vokabulara.",
+      "modelAnswer_es": "El español de España y el de América Latina tienen varias diferencias. En España usamos 'vosotros' para hablar con varias personas; en América dicen 'ustedes'. También hay diferencias de vocabulario: en España decimos 'el coche', en América 'el carro' o 'el auto'. Para 'el móvil' en España, en América dicen 'el celular'. El acento también es diferente: en España pronunciamos la 'c' y la 'z' de forma diferente. Pero lo importante es que todos nos entendemos."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI simulira razgovor između govornika iz Španije i Latinske Amerike — vježbaš varijante i razlike.",
+    "level": "B1",
+    "allowedGrammar": ["vosotros + -áis/-éis (Španija)", "ustedes + -an/-en (LatAm)", "vos (Argentina)", "vokabularne razlike: coche/carro, móvil/celular"],
+    "systemPromptHint": "Simuliraj razgovor koji uključuje govornika iz Španije i Latinske Amerike. Pokažite razlike u vokabularu i upotrebi zamjenica. Pitaj studenta o razlikama koje poznaje."
+  },
+  "illustration": {
+    "prompt": "Map showing Spain and Latin America connected by dotted lines, speech bubbles showing vocabulary variants on both sides",
+    "alt": "Španija vs Latinska Amerika — jezične razlike",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["vosotros-vs-ustedes", "vos-argentina", "vokabular-varijante", "b1", "u18"]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "b1-u18-l3",
+  "level": "B1",
+  "unit": 18,
+  "lessonNumber": 3,
+  "title": "Kulturne teme — Kultura i društvo",
+  "subtitle": "Las fiestas, las tradiciones y la vida en España y América",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Razgovarati o kulturnim razlikama i tradicijama",
+    "Koristiti vokabular o kulturi, tradicijama i društvenim normama",
+    "Izraziti kulturne usporedbe i komentare"
+  ],
+  "prerequisites": ["b1-u18-l2"],
+  "vocabulary": [
+    { "es": "la siesta", "bs": "siesta (podnevni odmor)", "pos": "im.", "ipa": "la ˈsjes.ta", "example_es": "En España, la siesta es parte de la cultura.", "example_bs": "U Španiji, siesta je dio kulture." },
+    { "es": "la fiesta / las fiestas patronales", "bs": "praznik / gradska svetkovina", "pos": "im.", "ipa": "las ˈfjes.tas pa.tro.ˈna.les", "example_es": "Las Fallas de Valencia son famosas mundialmente.", "example_bs": "Valensijske Fallas su poznate širom svijeta." },
+    { "es": "el tapeo / ir de tapas", "bs": "tapas tura / obilazak barova s tapasima", "pos": "im./izr.", "ipa": "ir ðe ˈta.pas", "example_es": "Los sábados siempre vamos de tapas.", "example_bs": "Subotom uvijek idemo po tapasima." },
+    { "es": "la sobremesa", "bs": "razgovor za stolom nakon jela", "pos": "im.", "ipa": "la so.βre.ˈme.sa", "example_es": "La sobremesa puede durar horas en España.", "example_bs": "Razgovor za stolom može trajati satima u Španiji." },
+    { "es": "el horario español", "bs": "španski raspored (kasna večera itd.)", "pos": "im.", "ipa": "el o.ˈra.rjo es.pa.ˈɲol", "example_es": "Los españoles cenan muy tarde, a las 10 o las 11.", "example_bs": "Španjolci večeraju jako kasno, u 10 ili 11 uvečer." },
+    { "es": "dar dos besos", "bs": "pozdraviti s dva pusa u obraz", "pos": "izr.", "ipa": "ˈdar ðos ˈbe.sos", "example_es": "En España es normal dar dos besos al saludar.", "example_bs": "U Španiji je normalno dati dva pusa u pozdrav." },
+    { "es": "el machismo / la igualdad de género", "bs": "macho kultura / rodna ravnopravnost", "pos": "im.", "ipa": "la i.ɣwal.ˈðað ðe ˈxe.ne.ro", "example_es": "La lucha por la igualdad de género sigue.", "example_bs": "Borba za rodnu ravnopravnost se nastavlja." },
+    { "es": "el multiculturalismo", "bs": "multikulturalizam", "pos": "im.", "ipa": "el mul.ti.kul.tu.ra.ˈlis.mo", "example_es": "Las ciudades grandes son muy multiculturales.", "example_bs": "Veliki gradovi su jako multikulturalni." },
+    { "es": "la gastronomía", "bs": "gastronomija / kulinarstvo", "pos": "im.", "ipa": "la ɣas.tro.no.ˈmi.a", "example_es": "La gastronomía española es muy variada.", "example_bs": "Španjolska gastronomija je jako raznolika." },
+    { "es": "el patrimonio cultural", "bs": "kulturna baština", "pos": "im.", "ipa": "el pa.tri.ˈmo.njo kul.tu.ˈral", "example_es": "El flamenco forma parte del patrimonio cultural español.", "example_bs": "Flamenco je dio španjolske kulturne baštine." }
+  ],
+  "grammar": [
+    {
+      "concept": "Uspoređivanje kultura — comparativos y superlativos",
+      "explanation_bs": "Za usporedbu kultura koristimo: **MÁS... QUE** (više... nego): 'En España se cena más tarde que en Bosnia.' **MENOS... QUE** (manje... nego): 'El tapeo es menos formal que una cena.' **TAN... COMO** (toliko... kao): 'La gastronomía española es tan rica como la italiana.' **EL MÁS / LA MÁS** (superlativ): 'La Sagrada Família es el monumento más famoso de Barcelona.' Za razlikovanje: **A DIFERENCIA DE** (za razliku od), **EN CAMBIO** (s druge strane), **MIENTRAS QUE** (dok s druge strane).",
+      "examples": [
+        { "es": "En España se come más tarde que en el norte de Europa.", "bs": "U Španiji se jede kasnije nego u sjevernoj Europi." },
+        { "es": "A diferencia de Bosnia, en España es habitual saludar con dos besos.", "bs": "Za razliku od Bosne, u Španiji je uobičajeno pozdraviti s dva pusa." },
+        { "es": "Mientras que en Japón el silencio es respeto, en España puede sonar raro.", "bs": "Dok u Japanu tišina znači poštovanje, u Španiji može zvučati čudno." }
+      ],
+      "tips": "Za usporedbu između kultura: TAN + adjektivo + COMO za jednakost. MÁS/MENOS + adjektivo + QUE za nejednakost. A DIFERENCIA DE za kontrast."
+    }
+  ],
+  "dialogue": {
+    "title": "Choque cultural — Kulturni šok",
+    "lines": [
+      { "speaker": "Amira", "es": "¡Todavía no me acostumbro a cenar tan tarde!", "bs": "Još uvijek se ne navikavam na toliko kasnu večeru!" },
+      { "speaker": "Carlos", "es": "¿A qué hora cenáis en tu país?", "bs": "U koliko sati večerate u tvojoj zemlji?" },
+      { "speaker": "Amira", "es": "A las siete u ocho como mucho. Aquí a las diez o las once es lo normal.", "bs": "U sedam ili osam, najviše. Ovdje je normalno u deset ili jedanaest." },
+      { "speaker": "Carlos", "es": "Es que en España el horario de vida es diferente. Además, la sobremesa es parte de la cultura.", "bs": "U Španiji je raspored života drugačiji. Osim toga, razgovor za stolom je dio kulture." },
+      { "speaker": "Amira", "es": "Lo que más me gustó fue el tapeo. En mi país no existe nada tan social.", "bs": "Što mi se najviše svidjelo bio je tapas obilazak. U mojoj zemlji ne postoji ništa tako društveno." },
+      { "speaker": "Carlos", "es": "A diferencia de otros países, en España la vida social gira alrededor de la comida.", "bs": "Za razliku od drugih zemalja, u Španiji se društveni život vrti oko hrane." },
+      { "speaker": "Amira", "es": "Y dar dos besos al saludar al principio me pareció raro, pero ahora lo encuentro muy cercano.", "bs": "I dati dva pusa u pozdrav mi se u početku činilo čudnim, ali sada mi se to čini jako prisnim." }
+    ]
+  },
+  "reading": {
+    "title": "La España de hoy — Španija danas",
+    "text_es": "España ha cambiado enormemente en los últimos cincuenta años. De una dictadura a una democracia, de la emigración a la inmigración. Hoy es uno de los países más visitados del mundo, gracias a su gastronomía, su patrimonio cultural y su clima. Sin embargo, la España de hoy convive con paradojas: es a la vez moderna y tradicional, laica y religiosa, centralista y con fuertes identidades regionales. El flamenco, la paella, el fútbol y la siesta son los estereotipos, pero la realidad es mucho más rica y diversa. Hay una España rural que se despuebla y una España urbana que crece. Hay una generación joven muy formada que no encuentra trabajo y emigra. A pesar de todo, los españoles mantienen una actitud de disfrute de la vida que sorprende a muchos visitantes. La cultura del tapeo, de la sobremesa y de las fiestas sigue viva.",
+    "glossary": [
+      { "es": "la dictadura", "bs": "diktatura" },
+      { "es": "laico/a", "bs": "laički / sekularan" },
+      { "es": "despoblarse", "bs": "iseljavati se / depopulacija" },
+      { "es": "el disfrute", "bs": "uživanje / radost" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koje su paradokse španjolskog društva prema tekstu?",
+        "options": ["Bogata i siromašna istovremeno", "Moderna i tradicionalna, laička i religiozna, s jakim regionalnim identitetima", "Napredna i zaostala"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koji je problem mlađe generacije?",
+        "options": ["Ne žele raditi", "Dobro su obrazovani ali ne mogu naći posao i emigriraju", "Nemaju pristup obrazovanju"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Što iznenađuje mnoge posjetitelje u Španiji?",
+        "options": ["Skupi hoteli", "Stav uživanja u životu koji Španjolci zadržavaju", "Prometna gužva"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji izraz koristimo za usporedbu: 'Španji je ___ konzervativna ___ Bosna'?",
+      "options": ["más... de", "tan... como", "más... que", "menos... de"],
+      "answerIndex": 2,
+      "explanation_bs": "MÁS + adj. + QUE = više... nego. 'España es más conservadora que Bosnia' ili obrnuto — koristi MÁS/MENOS + QUE."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ de Francia, en España se cena mucho más tarde.",
+      "answer": "A diferencia",
+      "acceptedAnswers": ["A diferencia"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: La gastronomía española es ___ famosa ___ la italiana.",
+      "answer": "tan / como",
+      "acceptedAnswers": ["tan / como"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Za razliku od nekih zemalja, u Španiji je uobičajeno pozdraviti s dva pusa.",
+      "answer": "A diferencia de algunos países, en España es habitual dar dos besos al saludar.",
+      "acceptedAnswers": ["A diferencia de algunos países, en España es habitual dar dos besos al saludar.", "A diferencia de otros países, en España es normal saludar con dos besos."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Flamenco je najpoznatiji dio španjolske kulturne baštine.",
+      "answer": "El flamenco es la parte más conocida del patrimonio cultural español.",
+      "acceptedAnswers": ["El flamenco es la parte más conocida del patrimonio cultural español.", "El flamenco es el elemento más famoso de la cultura española."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji kulturni element s opisom",
+      "pairs": [
+        { "es": "la sobremesa", "bs": "razgovor koji traje satima nakon jela" },
+        { "es": "el tapeo", "bs": "obilazak barova s malim jelima" },
+        { "es": "las fiestas patronales", "bs": "gradski praznici u čast zaštitnika" },
+        { "es": "el patrimonio cultural", "bs": "kulturna baština naroda" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši",
+      "audioText_es": "A diferencia de muchos países, en España es normal cenar a las diez de la noche. La sobremesa y el tapeo son parte fundamental de la cultura española.",
+      "answer": "A diferencia de muchos países, en España es normal cenar a las diez de la noche. La sobremesa y el tapeo son parte fundamental de la cultura española."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Usporedi kulturu u svojoj zemlji s onom u Španiji — koristi a diferencia de, más... que i mientras que.",
+      "modelAnswer_es": "A diferencia de España, en Bosnia se cena mucho más temprano, sobre las siete. Los españoles cenan tan tarde que en mi país ya estaríamos durmiendo. Mientras que en España es normal dar dos besos al saludar, en Bosnia solemos dar la mano o un abrazo. La gastronomía española es muy variada, pero la bosnia también es rica en sabores. Sin embargo, el tapeo es algo único que no existe de la misma manera en mi país."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "AI te pita o kulturnim razlikama između Bosne i Španije — vježbaš usporedbe i kulturni vokabular.",
+    "level": "B1",
+    "allowedGrammar": ["más/menos... que", "tan... como", "a diferencia de / mientras que", "patrimonio cultural / tradiciones"],
+    "systemPromptHint": "Razgovaraj sa studentom o kulturnim razlikama između Bosne i hispanofonskih zemalja. Pitaj o tradicijama, hrani, socijalnim navikama. Potičite upotrebu komparativnih struktura."
+  },
+  "illustration": {
+    "prompt": "Split image showing Spanish cultural elements (tapas, flamenco, siesta) on one side and general world culture symbols on the other",
+    "alt": "Kulturne teme — tradicije i društvo",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["kultura-spanija-tradicije", "a-diferencia-de-mientras-que", "tapeo-sobremesa-siesta", "b1", "u18"]
+  }
+}

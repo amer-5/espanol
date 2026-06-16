@@ -2,11 +2,16 @@
 import { config } from "dotenv";
 config({ path: ".env.local" });
 /**
- * Idempotent lesson + test generator.
+ * Lesson seeding script — uses any OpenAI-compatible endpoint.
+ * Configure via .env.local:
+ *   AI_BASE_URL=http://localhost:11434/v1   (Ollama)
+ *   AI_API_KEY=ollama
+ *   SEED_MODEL=llama3.1:8b
+ *
  * Usage:
- *   pnpm seed:lessons            — skip existing, generate missing
- *   pnpm seed:lessons --force    — regenerate everything
- *   pnpm seed:lessons --only=a1  — only generate A1 lessons
+ *   pnpm seed:lessons
+ *   pnpm seed:lessons --force
+ *   pnpm seed:lessons --only=a1
  */
 
 import OpenAI from "openai";
@@ -15,27 +20,12 @@ import * as path from "path";
 import { LessonSchema, UnitTestSchema } from "../src/types/lesson";
 import type { Curriculum, Unit, LessonMeta } from "../src/types/curriculum";
 
-// Ollama (local, free, no limits) takes priority if OLLAMA_BASE_URL is set.
-// Fallback: OpenRouter free tier (limited to ~200 req/day).
-const USE_OLLAMA = !!process.env.OLLAMA_BASE_URL;
+const client = new OpenAI({
+  baseURL: process.env.AI_BASE_URL || "http://localhost:11434/v1",
+  apiKey: process.env.AI_API_KEY || "ollama",
+});
 
-const client = USE_OLLAMA
-  ? new OpenAI({
-      baseURL: process.env.OLLAMA_BASE_URL || "http://localhost:11434/v1",
-      apiKey: "ollama", // Ollama ignores the key but the SDK requires a non-empty string
-    })
-  : new OpenAI({
-      baseURL: "https://openrouter.ai/api/v1",
-      apiKey: process.env.OPENROUTER_API_KEY!,
-      defaultHeaders: {
-        "HTTP-Referer": "https://espanol.vercel.app",
-        "X-Title": "Espanol - Spanish Learning App",
-      },
-    });
-
-// Ollama model: whatever you pulled locally (e.g. llama3.1:8b, qwen2.5:14b, gemma3:12b)
-// OpenRouter: use a reliably free model
-const MODEL = process.env.SEED_MODEL || (USE_OLLAMA ? "llama3.1:8b" : "meta-llama/llama-3.1-8b-instruct:free");
+const MODEL = process.env.SEED_MODEL || "llama3.1:8b";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const LESSONS_DIR = path.join(CONTENT_DIR, "lessons");
@@ -49,354 +39,143 @@ const curriculum: Curriculum = JSON.parse(
   fs.readFileSync(path.join(CONTENT_DIR, "curriculum.json"), "utf-8")
 );
 
-// Load golden example lesson
 const goldenLesson = fs.readFileSync(
   path.join(LESSONS_DIR, "a1/u1/a1-u1-l1.json"),
   "utf-8"
 );
 
-let generated = 0;
-let skipped = 0;
-let failed = 0;
+let generated = 0, skipped = 0, failed = 0;
 
-// Build a map of all introduced vocabulary/grammar per lesson (for prerequisites tracking)
 function getLessonPath(id: string): string {
-  // e.g. "a1-u1-l1" → "content/lessons/a1/u1/a1-u1-l1.json"
-  const parts = id.split("-"); // ["a1", "u1", "l1"]
-  const level = parts[0];
-  const unit = parts[1];
+  const [level, unit] = id.split("-");
   return path.join(LESSONS_DIR, level, unit, `${id}.json`);
 }
 
 function getTestPath(id: string): string {
-  // e.g. "test-a1-u1" → "content/tests/a1/u1.json"
-  const parts = id.split("-"); // ["test", "a1", "u1"]
-  const level = parts[1];
-  const unit = parts[2];
-  return path.join(TESTS_DIR, level, `${unit}.json`);
+  const parts = id.split("-"); // ["test","a1","u1"]
+  return path.join(TESTS_DIR, parts[1], `${parts[2]}.json`);
 }
 
-function fileExists(filePath: string): boolean {
-  try {
-    const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    return !!content.id; // valid non-empty JSON with an id
-  } catch {
-    return false;
-  }
+function fileExists(p: string): boolean {
+  try { return !!JSON.parse(fs.readFileSync(p, "utf-8")).id; } catch { return false; }
 }
 
-// Collect all lessons from earlier units to understand what's been introduced
-function getPriorContent(
-  currentLessonId: string,
-  allUnits: Unit[]
-): { vocabulary: string[]; grammar: string[] } {
-  const vocabulary: string[] = [];
-  const grammar: string[] = [];
-
+function getPriorContent(currentId: string, allUnits: Unit[]) {
+  const vocabulary: string[] = [], grammar: string[] = [];
   for (const unit of allUnits) {
     for (const lesson of unit.lessons) {
-      if (lesson.id === currentLessonId) return { vocabulary, grammar };
-      const lessonPath = getLessonPath(lesson.id);
-      if (fs.existsSync(lessonPath)) {
+      if (lesson.id === currentId) return { vocabulary, grammar };
+      const p = getLessonPath(lesson.id);
+      if (fs.existsSync(p)) {
         try {
-          const data = JSON.parse(fs.readFileSync(lessonPath, "utf-8"));
-          if (data.vocabulary) {
-            vocabulary.push(...data.vocabulary.map((v: { es: string }) => v.es));
-          }
-          if (data.grammar) {
-            grammar.push(...data.grammar.map((g: { concept: string }) => g.concept));
-          }
-        } catch {
-          // ignore parse errors
-        }
+          const d = JSON.parse(fs.readFileSync(p, "utf-8"));
+          if (d.vocabulary) vocabulary.push(...d.vocabulary.map((v: {es: string}) => v.es));
+          if (d.grammar) grammar.push(...d.grammar.map((g: {concept: string}) => g.concept));
+        } catch { /**/ }
       }
     }
   }
   return { vocabulary, grammar };
 }
 
-const LESSON_SCHEMA_DESCRIPTION = `
-JSON schema for a lesson (ALL fields required unless marked optional):
-{
-  id: string (e.g. "a1-u1-l2"),
-  level: "A1" | "A2" | "B1",
-  unit: number,
-  lessonNumber: number,
-  title: string (in Bosnian),
-  subtitle: string (Spanish phrase),
-  estimatedMinutes: number,
-  objectives: string[] (2-4 items, in Bosnian),
-  prerequisites: string[] (lesson IDs),
-  vocabulary: Array of {
-    es: string, bs: string, pos: string, ipa?: string,
-    example_es: string, example_bs: string, illustrationRef?: string
-  } (8-14 items),
-  grammar: Array of {
-    concept: string, explanation_bs: string,
-    table?: { headers: string[], rows: string[][] },
-    examples: Array<{es: string, bs: string}>,
-    tips?: string
-  } (1-2 items),
-  dialogue: {
-    title: string,
-    lines: Array<{ speaker: string, es: string, bs: string }> (5-8 lines)
-  },
-  reading: {
-    title: string, text_es: string,
-    glossary: Array<{es: string, bs: string}>,
-    comprehensionQuestions: Array<{
-      question_bs: string, options: string[], answerIndex: number
-    }> (2-3 questions)
-  },
-  exercises: Array (min 6, varied types: multiple_choice, fill_blank, translation, matching, listening, speaking),
-  aiConversation: {
-    enabled: boolean, scenario_bs: string, level: string,
-    allowedGrammar: string[], systemPromptHint: string
-  },
-  illustration: { prompt: string, alt: string, filename: "cover.png" },
-  review: { newWords: number, spacedRepetitionTags: string[] }
-}
-`;
+const SCHEMA = `{"id","level","unit","lessonNumber","title","subtitle","estimatedMinutes","objectives":[],"prerequisites":[],"vocabulary":[{"es","bs","pos","ipa?","example_es","example_bs"}],"grammar":[{"concept","explanation_bs","table?":{"headers":[],"rows":[]},"examples":[{"es","bs"}],"tips?"}],"dialogue":{"title","lines":[{"speaker","es","bs"}]},"reading":{"title","text_es","glossary":[{"es","bs"}],"comprehensionQuestions":[{"question_bs","options":[],"answerIndex"}]},"exercises":[...],"aiConversation":{"enabled":true,"scenario_bs","level","allowedGrammar":[],"systemPromptHint"},"illustration":{"prompt","alt","filename":"cover.png"},"review":{"newWords","spacedRepetitionTags":[]}}`;
 
-const TEST_SCHEMA_DESCRIPTION = `
-JSON schema for a unit test:
-{
-  id: string (e.g. "test-a1-u1"),
-  level: "A1" | "A2" | "B1",
-  unit: number,
-  title: string (in Bosnian),
-  cumulative: boolean (always true),
-  timeLimitMinutes: number (12-20),
-  passThreshold: 0.8,
-  questions: Array (8-15 questions, mix of: translation bs_to_es, fill_blank, listening, multiple_choice, ONE writing task),
-  reviewMapping: Array<{lessonId: string, topic: string}>
-}
-Each non-writing question has: type, points (1-4), lessonId.
-The writing question has: gradedByAI: true, rubric_bs, minWords, points: 10.
-`;
+async function generateLesson(lessonMeta: LessonMeta, unit: Unit, allUnits: Unit[], attempt = 1): Promise<boolean> {
+  const prior = getPriorContent(lessonMeta.id, allUnits);
+  const prompt = `You are an expert Spanish teacher. Generate a complete JSON lesson for Bosnian-speaking beginners.
 
-async function generateLesson(
-  lessonMeta: LessonMeta,
-  unit: Unit,
-  allUnits: Unit[],
-  attempt = 1
-): Promise<boolean> {
-  const priorContent = getPriorContent(lessonMeta.id, allUnits);
+Lesson ID: ${lessonMeta.id}
+Title: ${lessonMeta.title}
+Unit ${unit.id}: ${unit.title} — ${unit.description}
+Level: ${unit.level}, Lesson ${lessonMeta.lessonNumber}
+Prerequisites: ${JSON.stringify(lessonMeta.prerequisites)}
 
-  const prompt = `You are an expert Spanish language teacher creating structured lesson content for Bosnian-speaking beginners.
+RULES:
+- ALL explanation_bs, prompt_bs, objectives, scenario_bs: MUST be in Bosnian
+- 8-14 vocabulary items, 1-2 grammar concepts, min 6 exercises
+- Do NOT introduce: ${prior.vocabulary.slice(-40).join(", ")}
+- Exercise types needed: multiple_choice, fill_blank, translation, matching, listening, speaking
 
-Generate a complete lesson JSON for lesson ID "${lessonMeta.id}".
+SCHEMA: ${SCHEMA}
 
-LESSON DETAILS:
-- Title: ${lessonMeta.title}
-- Unit: ${unit.id} - ${unit.title}
-- Unit description: ${unit.description}
-- Level: ${unit.level}
-- Lesson number: ${lessonMeta.lessonNumber} in this unit
-- Prerequisites (lesson IDs completed before): ${JSON.stringify(lessonMeta.prerequisites)}
+EXAMPLE (match this quality): ${goldenLesson.slice(0, 2000)}
 
-STRICT RULES:
-1. ALL explanations (explanation_bs, prompt_bs, question_bs, objectives, scenario_bs) MUST be in Bosnian language
-2. Spanish examples must be correct and natural
-3. Do NOT introduce vocabulary or grammar not yet covered by prior lessons
-4. Already introduced vocabulary (do not re-teach as new): ${priorContent.vocabulary.slice(-50).join(", ")}
-5. Already introduced grammar concepts: ${priorContent.grammar.slice(-20).join(", ")}
-6. Include exactly 8-14 vocabulary items
-7. Include 1-2 grammar concepts
-8. Include at least 6 exercises with varied types
-9. The dialogue should use ONLY vocabulary from this lesson + prerequisites
-10. Reading text should be comprehensible with the introduced vocabulary
-
-SCHEMA:
-${LESSON_SCHEMA_DESCRIPTION}
-
-GOLDEN EXAMPLE (match this quality and structure):
-${goldenLesson}
-
-Return ONLY valid JSON, no markdown code blocks, no explanations.`;
+Return ONLY valid JSON.`;
 
   try {
-    const response = await client.chat.completions.create({
-      model: MODEL,
-      max_tokens: 4000,
+    const r = await client.chat.completions.create({
+      model: MODEL, max_tokens: 4000,
       messages: [{ role: "user", content: prompt }],
     });
-
-    const rawText = response.choices[0]?.message?.content ?? "";
-
-    // Extract JSON (handle potential markdown wrapping)
-    let jsonStr = rawText.trim();
-    if (jsonStr.startsWith("```")) {
-      jsonStr = jsonStr.replace(/^```[a-z]*\n?/, "").replace(/\n?```$/, "");
-    }
-
-    const parsed = JSON.parse(jsonStr);
-    // Validate with Zod
-    const result = LessonSchema.safeParse(parsed);
+    let json = (r.choices[0]?.message?.content ?? "").trim()
+      .replace(/^```[a-z]*\n?/, "").replace(/\n?```$/, "");
+    const result = LessonSchema.safeParse(JSON.parse(json));
     if (!result.success) {
-      if (attempt < 3) {
-        console.warn(
-          `  ⚠ Validation failed for ${lessonMeta.id} (attempt ${attempt}), retrying...`
-        );
-        console.warn("  Errors:", result.error.issues.slice(0, 3));
-        return generateLesson(lessonMeta, unit, allUnits, attempt + 1);
-      }
-      console.error(
-        `  ✗ ${lessonMeta.id} failed validation after 3 attempts`
-      );
-      failed++;
-      return false;
+      if (attempt < 3) { console.warn(`  ⚠ Validation failed (${attempt}), retrying...`); return generateLesson(lessonMeta, unit, allUnits, attempt + 1); }
+      console.error(`  ✗ ${lessonMeta.id} validation failed`); failed++; return false;
     }
-
-    // Save to file
-    const filePath = getLessonPath(lessonMeta.id);
-    fs.mkdirSync(path.dirname(filePath), { recursive: true });
-    fs.writeFileSync(filePath, JSON.stringify(result.data, null, 2));
-    generated++;
-    return true;
+    const p = getLessonPath(lessonMeta.id);
+    fs.mkdirSync(path.dirname(p), { recursive: true });
+    fs.writeFileSync(p, JSON.stringify(result.data, null, 2));
+    generated++; return true;
   } catch (err) {
-    if (attempt < 3) {
-      console.warn(
-        `  ⚠ Error generating ${lessonMeta.id} (attempt ${attempt}), retrying...`
-      );
-      await new Promise((r) => setTimeout(r, 2000));
-      return generateLesson(lessonMeta, unit, allUnits, attempt + 1);
-    }
-    console.error(`  ✗ ${lessonMeta.id} failed:`, err);
-    failed++;
-    return false;
+    if (attempt < 3) { await new Promise(r => setTimeout(r, 2000)); return generateLesson(lessonMeta, unit, allUnits, attempt + 1); }
+    console.error(`  ✗ ${lessonMeta.id}:`, String(err).slice(0, 120)); failed++; return false;
   }
 }
 
 async function generateUnitTest(unit: Unit, attempt = 1): Promise<boolean> {
-  // Load all lesson contents for this unit
-  const lessonContents: string[] = [];
-  for (const lesson of unit.lessons) {
-    const lessonPath = getLessonPath(lesson.id);
-    if (fs.existsSync(lessonPath)) {
-      const content = fs.readFileSync(lessonPath, "utf-8");
-      lessonContents.push(content);
-    }
-  }
-
-  const prompt = `You are an expert Spanish language teacher creating a cumulative unit test for Bosnian-speaking learners.
-
-Generate a unit test JSON for unit ${unit.id}: "${unit.title}" (Level: ${unit.level}).
-
-The test is CUMULATIVE — it covers all lessons in this unit AND may include vocabulary/grammar from earlier units.
-
-LESSONS IN THIS UNIT:
-${lessonContents.join("\n\n---\n\n")}
-
-TEST REQUIREMENTS:
-- 8-15 questions total
-- Mix: mostly bs_to_es translation and fill_blank (no hints), some listening, some multiple_choice
-- EXACTLY ONE writing task (gradedByAI: true, 10 points) — free text 3-5 sentences
-- No hints or options for fill_blank questions
-- timeLimitMinutes: ${unit.level === "A1" ? 12 : unit.level === "A2" ? 15 : 20}
-- passThreshold: 0.8
-- Every question must have lessonId pointing to a lesson in this unit
-
-SCHEMA:
-${TEST_SCHEMA_DESCRIPTION}
-
-Return ONLY valid JSON, no markdown, no explanations.`;
+  const lessons = unit.lessons.map(l => { try { return fs.readFileSync(getLessonPath(l.id), "utf-8"); } catch { return ""; } }).filter(Boolean);
+  const prompt = `Generate a cumulative unit test JSON for unit ${unit.id} "${unit.title}" (${unit.level}).
+timeLimitMinutes: ${unit.level === "A1" ? 12 : unit.level === "A2" ? 15 : 20}, passThreshold: 0.8
+Include 8-12 questions: translation(bs_to_es), fill_blank(no hints), listening, multiple_choice, ONE writing(gradedByAI:true, 10 pts).
+All prompt_bs in Bosnian. Each question has: type, points(1-4), lessonId.
+Schema: {"id":"test-${unit.level.toLowerCase()}-u${unit.id}","level":"${unit.level}","unit":${unit.id},"title":"...","cumulative":true,"timeLimitMinutes":N,"passThreshold":0.8,"questions":[...],"reviewMapping":[{"lessonId","topic"}]}
+Lessons context: ${lessons.join("---").slice(0, 3000)}
+Return ONLY valid JSON.`;
 
   try {
-    const response = await client.chat.completions.create({
-      model: MODEL,
-      max_tokens: 3000,
-      messages: [{ role: "user", content: prompt }],
-    });
-
-    const rawText = response.choices[0]?.message?.content ?? "";
-    let jsonStr = rawText.trim();
-    if (jsonStr.startsWith("```")) {
-      jsonStr = jsonStr.replace(/^```[a-z]*\n?/, "").replace(/\n?```$/, "");
-    }
-
-    const parsed = JSON.parse(jsonStr);
-    const result = UnitTestSchema.safeParse(parsed);
+    const r = await client.chat.completions.create({ model: MODEL, max_tokens: 3000, messages: [{ role: "user", content: prompt }] });
+    let json = (r.choices[0]?.message?.content ?? "").trim().replace(/^```[a-z]*\n?/, "").replace(/\n?```$/, "");
+    const result = UnitTestSchema.safeParse(JSON.parse(json));
     if (!result.success) {
-      if (attempt < 3) {
-        console.warn(
-          `  ⚠ Test validation failed for ${unit.testId} (attempt ${attempt}), retrying...`
-        );
-        return generateUnitTest(unit, attempt + 1);
-      }
-      console.error(`  ✗ Test ${unit.testId} failed validation`);
-      failed++;
-      return false;
+      if (attempt < 3) return generateUnitTest(unit, attempt + 1);
+      console.error(`  ✗ Test ${unit.testId} failed`); failed++; return false;
     }
-
-    const filePath = getTestPath(unit.testId);
-    fs.mkdirSync(path.dirname(filePath), { recursive: true });
-    fs.writeFileSync(filePath, JSON.stringify(result.data, null, 2));
-    generated++;
-    return true;
+    const p = getTestPath(unit.testId);
+    fs.mkdirSync(path.dirname(p), { recursive: true });
+    fs.writeFileSync(p, JSON.stringify(result.data, null, 2));
+    generated++; return true;
   } catch (err) {
-    if (attempt < 3) {
-      await new Promise((r) => setTimeout(r, 2000));
-      return generateUnitTest(unit, attempt + 1);
-    }
-    console.error(`  ✗ Test ${unit.testId} failed:`, err);
-    failed++;
-    return false;
+    if (attempt < 3) { await new Promise(r => setTimeout(r, 2000)); return generateUnitTest(unit, attempt + 1); }
+    console.error(`  ✗ Test ${unit.testId}:`, String(err).slice(0, 120)); failed++; return false;
   }
 }
 
 async function main() {
-  console.log("🎓 Espanol — Lesson & Test Generator");
-  console.log(`Mode: ${FORCE ? "FORCE regenerate all" : "Idempotent (skip existing)"}`);
-  if (ONLY) console.log(`Filter: only ${ONLY.toUpperCase()}`);
-  console.log("");
-
-  const allUnits: Unit[] = curriculum.levels.flatMap((l) => l.units);
+  console.log(`🎓 Lesson Generator — ${MODEL} @ ${process.env.AI_BASE_URL || "http://localhost:11434/v1"}`);
+  const allUnits: Unit[] = curriculum.levels.flatMap(l => l.units);
   let total = 0;
-
   for (const level of curriculum.levels) {
     if (ONLY && level.id.toLowerCase() !== ONLY.toLowerCase()) continue;
-
     for (const unit of level.units) {
       console.log(`\n📚 Unit ${unit.id}: ${unit.title}`);
-
       for (const lesson of unit.lessons) {
         total++;
-        const lessonPath = getLessonPath(lesson.id);
-
-        if (!FORCE && fileExists(lessonPath)) {
-          console.log(`  [${total}/~72] ${lesson.id} ⏭ skipped`);
-          skipped++;
-          continue;
-        }
-
-        console.log(`  [${total}/~72] ${lesson.id} generating...`);
+        const p = getLessonPath(lesson.id);
+        if (!FORCE && fileExists(p)) { console.log(`  [${total}] ${lesson.id} ⏭`); skipped++; continue; }
+        console.log(`  [${total}] ${lesson.id} generating...`);
         await generateLesson(lesson, unit, allUnits);
-        console.log(`  [${total}/~72] ${lesson.id} ✓`);
-
-        // Rate limit buffer
-        await new Promise((r) => setTimeout(r, 500));
+        console.log(`  [${total}] ${lesson.id} ✓`);
+        await new Promise(r => setTimeout(r, 300));
       }
-
-      // Generate unit test after all lessons in unit
-      const testPath = getTestPath(unit.testId);
-      if (!FORCE && fileExists(testPath)) {
-        console.log(`  📝 ${unit.testId} ⏭ test skipped`);
-        skipped++;
-      } else {
-        console.log(`  📝 ${unit.testId} generating test...`);
-        await generateUnitTest(unit);
-        console.log(`  📝 ${unit.testId} ✓`);
-        await new Promise((r) => setTimeout(r, 500));
-      }
+      const tp = getTestPath(unit.testId);
+      if (!FORCE && fileExists(tp)) { console.log(`  📝 ${unit.testId} ⏭`); skipped++; }
+      else { console.log(`  📝 ${unit.testId} generating...`); await generateUnitTest(unit); console.log(`  📝 ${unit.testId} ✓`); }
+      await new Promise(r => setTimeout(r, 300));
     }
   }
-
-  console.log("\n" + "=".repeat(50));
-  console.log(`✅ Generated: ${generated}`);
-  console.log(`⏭ Skipped:   ${skipped}`);
-  console.log(`❌ Failed:    ${failed}`);
-  console.log("=".repeat(50));
+  console.log(`\n✅ ${generated} generated  ⏭ ${skipped} skipped  ❌ ${failed} failed`);
 }
 
 main().catch(console.error);

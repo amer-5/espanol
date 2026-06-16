@@ -90,6 +90,21 @@ export const SpeakingExerciseSchema = z.object({
   modelAnswer_es: z.string(),
 });
 
+// Duolingo-style word bank: assemble the Spanish sentence from tiles
+export const WordBankExerciseSchema = z.object({
+  type: z.literal("word_bank"),
+  prompt_bs: z.string(),
+  answer_es: z.string(),
+  words: z.array(z.string()), // shuffled tiles (may include distractors)
+});
+
+// Tap pairs: connect BS word to ES word (simplified matching)
+export const TapPairsExerciseSchema = z.object({
+  type: z.literal("tap_pairs"),
+  prompt_bs: z.string(),
+  pairs: z.array(z.object({ es: z.string(), bs: z.string() })),
+});
+
 export const ExerciseSchema = z.discriminatedUnion("type", [
   MultipleChoiceExerciseSchema,
   FillBlankExerciseSchema,
@@ -97,6 +112,8 @@ export const ExerciseSchema = z.discriminatedUnion("type", [
   MatchingExerciseSchema,
   ListeningExerciseSchema,
   SpeakingExerciseSchema,
+  WordBankExerciseSchema,
+  TapPairsExerciseSchema,
 ]);
 
 // AI Conversation config

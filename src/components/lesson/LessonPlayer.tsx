@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import type { Lesson } from "@/types/lesson";
 import AudioButton from "@/components/ui/AudioButton";
 import Button from "@/components/ui/Button";
@@ -7,7 +7,8 @@ import Card from "@/components/ui/Card";
 import ExercisePlayer from "@/components/exercises/ExercisePlayer";
 import AIChat from "@/components/chat/AIChat";
 import { setLessonStatus, updateStreak } from "@/lib/progress";
-import { ChevronRight, Target, BookOpen, MessageSquare, FileText, Dumbbell, Bot, Award } from "lucide-react";
+import { generateDuolingoSession } from "@/lib/duolingo";
+import { Target, BookOpen, MessageSquare, FileText, Dumbbell, Bot, Award } from "lucide-react";
 import Image from "next/image";
 
 type Section =
@@ -35,6 +36,13 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
   const [section, setSection] = useState<Section>("objectives");
   const [completedSections, setCompletedSections] = useState<Set<Section>>(new Set());
   const [exerciseScore, setExerciseScore] = useState<number | null>(null);
+
+  // Generate Duolingo session once per lesson mount
+  const duolingoExercises = useMemo(
+    () => generateDuolingoSession(lesson.vocabulary, lesson.exercises),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [lesson.id]
+  );
   const [readingAnswers, setReadingAnswers] = useState<(number | null)[]>(
     lesson.reading.comprehensionQuestions.map(() => null)
   );
@@ -319,10 +327,9 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
 
         {/* Exercises */}
         {section === "exercises" && (
-          <div>
-            <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Vježbe</h2>
+          <div className="-mx-4 -mt-4">
             <ExercisePlayer
-              exercises={lesson.exercises}
+              exercises={duolingoExercises}
               onComplete={(score) => {
                 setExerciseScore(score);
                 markSectionDone("exercises");

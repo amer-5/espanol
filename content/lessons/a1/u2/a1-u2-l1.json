@@ -1,0 +1,171 @@
+{
+  "id": "a1-u2-l1",
+  "level": "A1",
+  "unit": 2,
+  "lessonNumber": 1,
+  "title": "Nacionalnosti i zanimanja",
+  "subtitle": "¿De dónde eres? ¿A qué te dedicas?",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Reći svoju nacionalnost na španskom",
+    "Pitati i reći čime se neko bavi",
+    "Znati najčešća zanimanja na španskom"
+  ],
+  "prerequisites": ["a1-u1-l1", "a1-u1-l2", "a1-u1-l3", "a1-u1-l4"],
+  "vocabulary": [
+    { "es": "español / española", "bs": "Španac / Špankinja", "pos": "prid./im.", "ipa": "es.pa.ˈɲol", "example_es": "Sofía es española.", "example_bs": "Sofía je Špankinja." },
+    { "es": "bosnio / bosnia", "bs": "Bosanac / Bosanka", "pos": "prid./im.", "ipa": "ˈbos.njo", "example_es": "Marko es bosnio.", "example_bs": "Marko je Bosanac." },
+    { "es": "argentino / argentina", "bs": "Argentinac / Argentinka", "pos": "prid./im.", "ipa": "ar.xen.ˈti.no", "example_es": "El mate es argentino.", "example_bs": "Mate je argentinski napitak." },
+    { "es": "americano / americana", "bs": "Amerikanac / Amerikanka", "pos": "prid.", "ipa": "a.me.ri.ˈka.no", "example_es": "Ella es americana.", "example_bs": "Ona je Amerikanka." },
+    { "es": "el estudiante / la estudianta", "bs": "student / studentica", "pos": "im.", "ipa": "es.tu.ˈðjan.te", "example_es": "Soy estudiante de español.", "example_bs": "Ja sam student španskog." },
+    { "es": "el profesor / la profesora", "bs": "profesor / profesorica", "pos": "im.", "ipa": "pro.fe.ˈsor", "example_es": "Mi profesora es muy buena.", "example_bs": "Moja profesorica je vrlo dobra." },
+    { "es": "el médico / la médica", "bs": "doktor / doktorica", "pos": "im.", "ipa": "ˈme.ði.ko", "example_es": "Mi padre es médico.", "example_bs": "Moj otac je doktor." },
+    { "es": "el ingeniero / la ingeniera", "bs": "inženjer / inženjerka", "pos": "im.", "ipa": "in.xe.ˈnje.ro", "example_es": "Soy ingeniero de software.", "example_bs": "Ja sam softverski inženjer." },
+    { "es": "el abogado / la abogada", "bs": "advokat / advokatica", "pos": "im.", "ipa": "a.bo.ˈɣa.ðo", "example_es": "Mi hermana es abogada.", "example_bs": "Moja sestra je advokatica." },
+    { "es": "trabajar", "bs": "raditi / radim", "pos": "glag. -ar", "ipa": "tra.ba.ˈxar", "example_es": "¿Dónde trabajas?", "example_bs": "Gdje radiš?" },
+    { "es": "¿a qué te dedicas?", "bs": "čime se baviš? / šta radiš?", "pos": "pitanje", "ipa": "a ke te de.ˈdi.kas", "example_es": "¿A qué te dedicas? Soy estudiante.", "example_bs": "Čime se baviš? Ja sam student." }
+  ],
+  "grammar": [
+    {
+      "concept": "Nacionalnosti — rod i broj",
+      "explanation_bs": "U španskom, nacionalnosti se mijenjaju prema rodu i broju, kao i pridjevi. Muškom rodu dodaješ -o (español), ženskom -a (española). Ako završava na suglasnik, ženski rod dodaje -a (francés → francesa). Množina: dodaješ -s (español → españoles, española → españolas). Sa SER, nacionalnost se piše MALIM slovom! (Soy bosnio, a NE: Soy Bosnio).",
+      "table": {
+        "headers": ["Zemlja", "Muški jd.", "Ženski jd.", "Muški mn.", "Ženski mn."],
+        "rows": [
+          ["España", "español", "española", "españoles", "españolas"],
+          ["Bosnia", "bosnio", "bosnia", "bosnios", "bosnias"],
+          ["Francia", "francés", "francesa", "franceses", "francesas"],
+          ["Argentina", "argentino", "argentina", "argentinos", "argentinas"],
+          ["América", "americano", "americana", "americanos", "americanas"]
+        ]
+      },
+      "examples": [
+        { "es": "Soy bosnio.", "bs": "Ja sam Bosanac. (muški)" },
+        { "es": "Ella es española.", "bs": "Ona je Špankinja. (ženski)" },
+        { "es": "Somos franceses.", "bs": "Mi smo Francuzi. (muški mn.)" }
+      ],
+      "tips": "Nacionalnosti u španskom se uvijek pišu MALIM slovom: soy español (ne Español)."
+    },
+    {
+      "concept": "Zanimanja sa SER — bez člana!",
+      "explanation_bs": "Kad kažeš svoje zanimanje sa SER, NE koristiš određeni ni neodređeni član! Kaže se 'Soy médico' (NE: Soy UN médico). Izuzetak: ako uz zanimanje dodaš pridjev, onda se vraća član: 'Soy UN médico muy bueno'.",
+      "examples": [
+        { "es": "Soy estudiante.", "bs": "Ja sam student. (BEZ 'un')" },
+        { "es": "Mi madre es profesora.", "bs": "Moja majka je profesorica." },
+        { "es": "Soy un estudiante muy trabajador.", "bs": "Ja sam jedan vrlo marljiv student. (SA 'un' jer ima pridjev)" }
+      ],
+      "tips": "Soy médico ✓  /  Soy un médico ✗ (osim ako dodaš opis: Soy un médico excelente ✓)"
+    }
+  ],
+  "dialogue": {
+    "title": "En una fiesta — Na zabavi",
+    "lines": [
+      { "speaker": "Ana", "es": "Hola, soy Ana. ¿Eres español?", "bs": "Zdravo, ja sam Ana. Jesi li Španac?" },
+      { "speaker": "Carlos", "es": "Sí, soy español, de Madrid. ¿Y tú?", "bs": "Da, ja sam Španac, iz Madrida. A ti?" },
+      { "speaker": "Ana", "es": "Yo soy bosnia, de Sarajevo. ¿A qué te dedicas?", "bs": "Ja sam Bosanka, iz Sarajeva. Čime se baviš?" },
+      { "speaker": "Carlos", "es": "Soy ingeniero. ¿Y tú?", "bs": "Ja sam inženjer. A ti?" },
+      { "speaker": "Ana", "es": "Soy estudiante de español. Estudio en la universidad.", "bs": "Ja sam studentica španskog. Studiram na univerzitetu." },
+      { "speaker": "Carlos", "es": "¡Qué interesante! ¿Y hablas bien el español?", "bs": "Kako zanimljivo! I govoriš li dobro španski?" },
+      { "speaker": "Ana", "es": "Un poco. Estoy aprendiendo.", "bs": "Malo. Učim." }
+    ]
+  },
+  "reading": {
+    "title": "Personas del mundo — Osobe iz svijeta",
+    "text_es": "Me llamo Sofía. Soy española, de Barcelona. Soy profesora de inglés. Mi amigo Carlos es argentino y es médico. Mi amiga Ana es bosnia y es estudiante. Somos amigos internacionales.",
+    "glossary": [
+      { "es": "mi amigo / mi amiga", "bs": "moj prijatelj / moja prijateljica" },
+      { "es": "inglés", "bs": "engleski (jezik)" },
+      { "es": "internacionales", "bs": "međunarodni" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je Sofía po zanimanju?",
+        "options": ["Doktorica", "Profesorica", "Inženjerka"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Odakle je Carlos?",
+        "options": ["Iz Španije", "Iz Bosne", "Iz Argentine"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Šta je Ana?",
+        "options": ["Profesorica", "Doktorica", "Studentica"],
+        "answerIndex": 2
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako kažeš 'Ja sam Bosanka' (ženski rod)?",
+      "options": ["Soy bosnio", "Soy bosnia", "Soy bosnia", "Soy bosna"],
+      "answerIndex": 1,
+      "explanation_bs": "Ženski rod od 'bosnio' je 'bosnia' — dodajemo -a umjesto -o."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje je tačno: 'Ja sam doktor'?",
+      "options": ["Soy un médico", "Soy el médico", "Soy médico", "Soy de médico"],
+      "answerIndex": 2,
+      "explanation_bs": "Sa SER i zanimanjem ne koristimo član: Soy médico (bez 'un')."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Mi padre es ___ (profesor).",
+      "answer": "profesor",
+      "acceptedAnswers": ["profesor"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ona je Argentinka i advokatica.",
+      "answer": "Ella es argentina y es abogada.",
+      "acceptedAnswers": ["Ella es argentina y es abogada.", "Es argentina y es abogada.", "Ella es argentina y abogada."]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Čime se baviš?",
+      "answer": "¿A qué te dedicas?",
+      "acceptedAnswers": ["¿A qué te dedicas?", "¿A qué te dedicas", "A qué te dedicas?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji zanimanje sa definicijom",
+      "pairs": [
+        { "es": "médico", "bs": "liječi ljude" },
+        { "es": "profesor", "bs": "predaje na školi" },
+        { "es": "abogado", "bs": "radi u pravu" },
+        { "es": "ingeniero", "bs": "projektuje i gradi" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Soy española y soy profesora.",
+      "answer": "Soy española y soy profesora."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci svoju nacionalnost i zanimanje (ili status studenta) na španskom.",
+      "modelAnswer_es": "Soy bosnio/bosnia y soy estudiante."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Upoznaj nekoga na međunarodnoj konferenciji — predstavi se, reci odakle si i čime se baviš.",
+    "level": "A1",
+    "allowedGrammar": ["ser", "nacionalnosti", "zanimanja", "pozdravi"],
+    "systemPromptHint": "Pitaj studenta odakle je i čime se bavi. Koristi samo A1 vokabular. Ispravi greške u rodu nacionalnosti ili nedostatku člana tek na kraju."
+  },
+  "illustration": {
+    "prompt": "Diverse group of people from different countries introducing themselves at an international party, flags in background",
+    "alt": "Međunarodna zabava — upoznavanje",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 11,
+    "spacedRepetitionTags": ["nationalities", "professions", "ser", "a1", "u2"]
+  }
+}

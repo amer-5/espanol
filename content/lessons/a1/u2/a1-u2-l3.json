@@ -1,0 +1,168 @@
+{
+  "id": "a1-u2-l3",
+  "level": "A1",
+  "unit": 2,
+  "lessonNumber": 3,
+  "title": "Određeni i neodređeni član",
+  "subtitle": "El/la/los/las — Un/una/unos/unas",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Koristiti određeni član (el, la, los, las) ispravno",
+    "Koristiti neodređeni član (un, una, unos, unas) ispravno",
+    "Razumjeti razliku između određenog i neodređenog"
+  ],
+  "prerequisites": ["a1-u1-l1", "a1-u1-l3", "a1-u2-l1", "a1-u2-l2"],
+  "vocabulary": [
+    { "es": "el / la / los / las", "bs": "određeni član (taj/ta/ti/te)", "pos": "član", "ipa": "el/la/los/las", "example_es": "El libro está aquí.", "example_bs": "Knjiga (ta određena) je ovdje." },
+    { "es": "un / una / unos / unas", "bs": "neodređeni član (jedan/jedna/neki/neke)", "pos": "član", "ipa": "un/ˈu.na", "example_es": "Tengo un libro.", "example_bs": "Imam jednu (neku) knjigu." },
+    { "es": "la tienda", "bs": "prodavnica / dućan", "pos": "im. ž.", "ipa": "la ˈtjen.da", "example_es": "Hay una tienda cerca.", "example_bs": "Ima jedna prodavnica blizu." },
+    { "es": "el supermercado", "bs": "supermarket", "pos": "im. m.", "ipa": "el su.per.mer.ˈka.ðo", "example_es": "El supermercado está cerrado.", "example_bs": "Supermarket je zatvoren." },
+    { "es": "la farmacia", "bs": "apoteka", "pos": "im. ž.", "ipa": "la far.ˈma.θja", "example_es": "Necesito ir a la farmacia.", "example_bs": "Trebam ići u apoteku." },
+    { "es": "el banco", "bs": "banka", "pos": "im. m.", "ipa": "el ˈban.ko", "example_es": "El banco abre a las nueve.", "example_bs": "Banka otvara u devet." },
+    { "es": "el hospital", "bs": "bolnica", "pos": "im. m.", "ipa": "el os.pi.ˈtal", "example_es": "El hospital está lejos.", "example_bs": "Bolnica je daleko." },
+    { "es": "cerca / lejos", "bs": "blizu / daleko", "pos": "pril.", "ipa": "ˈθer.ka/ˈle.xos", "example_es": "La farmacia está cerca.", "example_bs": "Apoteka je blizu." },
+    { "es": "hay", "bs": "ima / postoji", "pos": "glag.", "ipa": "ai", "example_es": "Hay un banco en la calle.", "example_bs": "Ima jedna banka na ulici." },
+    { "es": "necesitar", "bs": "trebati / treba mi", "pos": "glag. -ar", "ipa": "ne.θe.si.ˈtar", "example_es": "Necesito un bolígrafo.", "example_bs": "Trebam hemijsku olovku." }
+  ],
+  "grammar": [
+    {
+      "concept": "Određeni član — el, la, los, las",
+      "explanation_bs": "Određeni član koristiš kada pričaš o KONKRETNOJ stvari koju i ti i sugovornik znate — kao naše 'taj, ta'. Slaže se u rodu i broju sa imenicom. **el** = muški jednina, **la** = ženski jednina, **los** = muški množina, **las** = ženski množina. Posebno: **el + a-** (naglašeno) → koristimo 'el' čak i za ženski rod u jednini: EL agua (voda), EL aula (učionica) — ali množina je normalno: LAS aguas.",
+      "table": {
+        "headers": ["", "Jednina", "Množina"],
+        "rows": [
+          ["Muški", "el (el libro)", "los (los libros)"],
+          ["Ženski", "la (la mesa)", "las (las mesas)"],
+          ["Ženski na naglašeno 'a'", "el (el agua)", "las (las aguas)"]
+        ]
+      },
+      "examples": [
+        { "es": "El médico es bueno.", "bs": "Doktor (taj poznati) je dobar." },
+        { "es": "Las mesas son grandes.", "bs": "Stolovi su veliki." },
+        { "es": "El agua está fría.", "bs": "Voda je hladna. (el, ne la!)" }
+      ],
+      "tips": "A + EL = AL: 'Voy al supermercado' (ne: Voy a el). DE + EL = DEL: 'El libro del profesor' (ne: de el)."
+    },
+    {
+      "concept": "Neodređeni član — un, una, unos, unas",
+      "explanation_bs": "Neodređeni član koristiš za nešto što NIJE određeno — neka nespecifična stvar. **un** = muški jd., **una** = ženski jd., **unos** = muški mn. (nekoliko), **unas** = ženski mn. (nekoliko). Zanimanja sa SER nemaju član, ali u svim drugim kontekstima ga imaju. Neodređeni član se NE koristi sa 'no tengo' kad negiraš: 'No tengo coche' (nemam auto — bez člana).",
+      "examples": [
+        { "es": "Hay una farmacia aquí.", "bs": "Ovdje ima (jedna) apoteka." },
+        { "es": "Tengo unos libros interesantes.", "bs": "Imam nekoliko zanimljivih knjiga." },
+        { "es": "No tengo bolígrafo.", "bs": "Nemam hemijsku olovku. (bez člana uz negaciju)" }
+      ],
+      "tips": "Una ispred naglašenog 'a' ostaje 'una' (za razliku od el): una amiga, una abogada."
+    }
+  ],
+  "dialogue": {
+    "title": "¿Hay una farmacia cerca? — Ima li apoteka blizu?",
+    "lines": [
+      { "speaker": "Marko", "es": "Perdona, ¿hay una farmacia cerca?", "bs": "Oprosti, ima li apoteka blizu?" },
+      { "speaker": "Ana", "es": "Sí, hay una farmacia en la calle principal.", "bs": "Da, ima apoteka na glavnoj ulici." },
+      { "speaker": "Marko", "es": "¿Y hay un banco también?", "bs": "A ima li i banka?" },
+      { "speaker": "Ana", "es": "Sí, el banco está al lado del supermercado.", "bs": "Da, banka je pored supermarketa." },
+      { "speaker": "Marko", "es": "¿El supermercado está lejos?", "bs": "Je li supermarket daleko?" },
+      { "speaker": "Ana", "es": "No, está cerca. Son cinco minutos a pie.", "bs": "Ne, blizu je. Pet minuta pješice." }
+    ]
+  },
+  "reading": {
+    "title": "Mi barrio — Moja četvrt",
+    "text_es": "Vivo en un barrio tranquilo. En mi barrio hay un supermercado, una farmacia y un banco. El supermercado es grande y está abierto los domingos. La farmacia está cerca de mi casa. El banco está lejos pero no es un problema.",
+    "glossary": [
+      { "es": "barrio", "bs": "četvrt / komšiluk" },
+      { "es": "tranquilo", "bs": "miran / tih" },
+      { "es": "abierto", "bs": "otvoren" },
+      { "es": "los domingos", "bs": "nedjeljom" },
+      { "es": "casa", "bs": "kuća" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kakav je opis četvrti?",
+        "options": ["Bučna", "Mirna", "Velika"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kada je supermarket otvoren?",
+        "options": ["Samo radnim danima", "I nedjeljom", "Samo subotom"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Gdje je apoteka?",
+        "options": ["Daleko od kuće", "Blizu kuće", "Pored banke"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Odaberi tačan član: '___ libro está en la mesa.'",
+      "options": ["Un", "La", "El", "Los"],
+      "answerIndex": 2,
+      "explanation_bs": "Libro (knjiga) je muškog roda, jednina — određeni član je 'el'."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Pretvori: 'Voy a el banco' → ispravno je:",
+      "options": ["Voy a el banco", "Voy al banco", "Voy del banco", "Voy la banco"],
+      "answerIndex": 1,
+      "explanation_bs": "A + EL = AL (kontrakcija). Uvijek: Voy AL banco, no a el banco."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Hay ___ farmacia en mi barrio. (neodređeni)",
+      "answer": "una",
+      "acceptedAnswers": ["una"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: ___ agua está fría. (određeni član — pazi, iznimka!)",
+      "answer": "El",
+      "acceptedAnswers": ["El", "el"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam jednu knjigu i dva sveska.",
+      "answer": "Tengo un libro y dos cuadernos.",
+      "acceptedAnswers": ["Tengo un libro y dos cuadernos.", "Tengo un libro y dos cuadernos"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji imenicu sa ispravnim određenim članom",
+      "pairs": [
+        { "es": "libros (mn.)", "bs": "los" },
+        { "es": "farmacia (jd.)", "bs": "la" },
+        { "es": "banco (jd.)", "bs": "el" },
+        { "es": "mesas (mn.)", "bs": "las" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Hay una farmacia cerca del banco.",
+      "answer": "Hay una farmacia cerca del banco."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Opiši svoju četvrt: šta ima u njoj (koristeći hay + neodređeni član).",
+      "modelAnswer_es": "En mi barrio hay un supermercado, una farmacia y un parque."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Tražiš apoteku u nepoznatom gradu. AI igra prolaznika koji ti daje upute.",
+    "level": "A1",
+    "allowedGrammar": ["određeni/neodređeni član", "hay", "ser", "estar (je)"],
+    "systemPromptHint": "Igraj prolaznika u španskom gradu. Odgovaraj na pitanja o lokacijama koristeći hay, está, cerca/lejos. Samo A1 nivo."
+  },
+  "illustration": {
+    "prompt": "A friendly Spanish neighborhood street with a pharmacy, supermarket and bank visible, warm sunny day",
+    "alt": "Španska ulica sa apotekom i supermarketom",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["articles", "definite", "indefinite", "hay", "a1", "u2"]
+  }
+}

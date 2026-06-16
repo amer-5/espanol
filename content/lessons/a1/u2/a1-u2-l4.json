@@ -1,0 +1,170 @@
+{
+  "id": "a1-u2-l4",
+  "level": "A1",
+  "unit": 2,
+  "lessonNumber": 4,
+  "title": "Glagol TENER i prijedlog DE",
+  "subtitle": "Tengo... / Es de...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Konjugirati glagol TENER (imati) u prezentu",
+    "Koristiti DE za porijeklo i posjedovanje",
+    "Opisati šta neko ima i odakle je nešto"
+  ],
+  "prerequisites": ["a1-u1-l3", "a1-u2-l1", "a1-u2-l2", "a1-u2-l3"],
+  "vocabulary": [
+    { "es": "tener", "bs": "imati", "pos": "glag. neprav.", "ipa": "te.ˈner", "example_es": "Tengo un coche.", "example_bs": "Imam auto." },
+    { "es": "el coche", "bs": "auto / automobil", "pos": "im. m.", "ipa": "el ˈko.tʃe", "example_es": "Mi coche es rojo.", "example_bs": "Moj auto je crven." },
+    { "es": "el móvil", "bs": "mobitel", "pos": "im. m.", "ipa": "el ˈmo.βil", "example_es": "Tengo un móvil nuevo.", "example_bs": "Imam novi mobitel." },
+    { "es": "la casa", "bs": "kuća", "pos": "im. ž.", "ipa": "la ˈka.sa", "example_es": "Mi casa es grande.", "example_bs": "Moja kuća je velika." },
+    { "es": "el hermano / la hermana", "bs": "brat / sestra", "pos": "im.", "ipa": "el er.ˈma.no", "example_es": "Tengo dos hermanos.", "example_bs": "Imam dva brata." },
+    { "es": "el perro / el gato", "bs": "pas / mačka", "pos": "im. m.", "ipa": "el ˈpe.ro/ˈɡa.to", "example_es": "Tengo un perro y un gato.", "example_bs": "Imam psa i mačku." },
+    { "es": "de", "bs": "od / iz / de (porijeklo, posjedovanje)", "pos": "prij.", "ipa": "de", "example_es": "Es de madera. / Soy de Bosnia.", "example_bs": "Od drveta je. / Iz Bosne sam." },
+    { "es": "nuevo / nueva", "bs": "novi / nova", "pos": "prid.", "ipa": "ˈnwe.βo", "example_es": "Tengo un libro nuevo.", "example_bs": "Imam novu knjigu." },
+    { "es": "viejo / vieja", "bs": "star / stara", "pos": "prid.", "ipa": "ˈbje.xo", "example_es": "Mi coche es viejo.", "example_bs": "Moj auto je star." },
+    { "es": "¿de quién es?", "bs": "čije je to?", "pos": "pitanje", "ipa": "de ˈkjen es", "example_es": "¿De quién es este libro?", "example_bs": "Čija je ova knjiga?" }
+  ],
+  "grammar": [
+    {
+      "concept": "Glagol TENER (imati) — prezent",
+      "explanation_bs": "TENER je jedan od najvažnijih nepravilnih glagola. 'Yo' oblik je 'tengo' — zapamti! Ostali oblici su polupravilni (e→ie izmjena, osim nosotros/vosotros). TENER se koristi za: posjedovanje (tengo un libro), starost (tengo 20 años), porodicu (tengo dos hermanos), fizičko stanje (tengo hambre = gladan/gladna sam, tengo sed = žedan/žedna sam).",
+      "table": {
+        "headers": ["Zamjenica", "Oblik TENER", "Primjer"],
+        "rows": [
+          ["yo", "tengo", "Tengo un móvil."],
+          ["tú", "tienes", "¿Tienes hermanos?"],
+          ["él/ella/usted", "tiene", "Ella tiene un coche."],
+          ["nosotros", "tenemos", "Tenemos una casa grande."],
+          ["vosotros", "tenéis", "¿Tenéis perro?"],
+          ["ellos/ustedes", "tienen", "Tienen dos gatos."]
+        ]
+      },
+      "examples": [
+        { "es": "Tengo veinte años.", "bs": "Imam dvadeset godina." },
+        { "es": "¿Tienes hermanos?", "bs": "Imaš li braće/sestara?" },
+        { "es": "Tenemos una casa.", "bs": "Imamo kuću." }
+      ],
+      "tips": "Posebni izrazi: tengo hambre (gladan/na sam), tengo sed (žedan/na sam), tengo frío (hladno mi je), tengo calor (vruće mi je), tengo miedo (bojim se). Nikad ne kaži 'soy hambriento'!"
+    },
+    {
+      "concept": "Prijedlog DE — porijeklo i posjedovanje",
+      "explanation_bs": "DE ima dva glavna značenja: 1) **Porijeklo** — 'Soy de Bosnia' (iz Bosne sam), 'Es de España' (iz Španije je). 2) **Posjedovanje / materijal** — 'Es el libro de Ana' (Anina knjiga), 'una mesa de madera' (drveni sto). DE + EL = DEL: 'el libro del profesor' (profesorova knjiga).",
+      "examples": [
+        { "es": "Soy de Sarajevo.", "bs": "Iz Sarajeva sam. (porijeklo)" },
+        { "es": "Es el coche de mi padre.", "bs": "To je auto mog oca. (posjedovanje)" },
+        { "es": "El libro del estudiante", "bs": "Studentova knjiga (de + el = del)" }
+      ],
+      "tips": "DE + EL = DEL (obavezna kontrakcija): 'el coche del médico' ✓  /  'el coche de el médico' ✗"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Tienes hermanos? — Imaš li braće/sestara?",
+    "lines": [
+      { "speaker": "Sofía", "es": "Marko, ¿tienes hermanos?", "bs": "Marko, imaš li braće ili sestara?" },
+      { "speaker": "Marko", "es": "Sí, tengo una hermana. Se llama Maja. ¿Y tú?", "bs": "Da, imam sestru. Zove se Maja. A ti?" },
+      { "speaker": "Sofía", "es": "Yo tengo dos hermanos. Son de Valencia.", "bs": "Ja imam dva brata. Oni su iz Valencije." },
+      { "speaker": "Marko", "es": "¿Y tienen animales en casa?", "bs": "A imate li kućne ljubimce?" },
+      { "speaker": "Sofía", "es": "Sí, tenemos un perro. Se llama Coco. ¿De quién es este móvil?", "bs": "Da, imamo psa. Zove se Coco. Čiji je ovaj mobitel?" },
+      { "speaker": "Marko", "es": "Es el móvil de mi hermana.", "bs": "To je mobitel moje sestre." }
+    ]
+  },
+  "reading": {
+    "title": "La familia de Ana — Anina porodica",
+    "text_es": "Me llamo Ana. Tengo una familia grande. Tengo dos hermanos y una hermana. Mi hermano mayor tiene veinte y dos años y es estudiante. Mi hermana tiene dieciséis años. Mis padres son de Madrid. Tenemos un perro viejo y un gato nuevo.",
+    "glossary": [
+      { "es": "familia grande", "bs": "velika porodica" },
+      { "es": "hermano mayor", "bs": "stariji brat" },
+      { "es": "mis padres", "bs": "moji roditelji" },
+      { "es": "veinte y dos", "bs": "dvadeset i dva" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko braće i sestara ima Ana?",
+        "options": ["Dva brata, jednu sestru", "Jednog brata, dvije sestre", "Tri brata"],
+        "answerIndex": 0
+      },
+      {
+        "question_bs": "Odakle su Anini roditelji?",
+        "options": ["Iz Barcelone", "Iz Madrida", "Iz Valencije"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kakav je pas?",
+        "options": ["Mlad", "Star", "Velik"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TENER za 'tú'?",
+      "options": ["tengo", "tiene", "tienes", "tenemos"],
+      "answerIndex": 2,
+      "explanation_bs": "Za tú koristimo 'tienes'. ¿Tienes un perro? = Imaš li psa?"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El libro ___ profesor está aquí. (de + el = ?)",
+      "answer": "del",
+      "acceptedAnswers": ["del"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Nosotros ___ dos gatos.",
+      "answer": "tenemos",
+      "acceptedAnswers": ["tenemos"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam psa i mačku.",
+      "answer": "Tengo un perro y un gato.",
+      "acceptedAnswers": ["Tengo un perro y un gato.", "Tengo un perro y una gata.", "Tengo un perro y un gato"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "To je auto moje majke.",
+      "answer": "Es el coche de mi madre.",
+      "acceptedAnswers": ["Es el coche de mi madre.", "Es el coche de mi madre"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji zamjenicu sa oblikom TENER",
+      "pairs": [
+        { "es": "yo", "bs": "tengo" },
+        { "es": "ella", "bs": "tiene" },
+        { "es": "nosotros", "bs": "tenemos" },
+        { "es": "ellos", "bs": "tienen" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Tengo un hermano y una hermana.",
+      "answer": "Tengo un hermano y una hermana."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci šta imaš u porodici i da li imate kućnog ljubimca.",
+      "modelAnswer_es": "Tengo [broj] hermanos/hermanas. Tenemos un perro / No tenemos animales."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Pričate o porodicama — AI te pita o tvojoj porodici, ti pitaš o njegovoj.",
+    "level": "A1",
+    "allowedGrammar": ["tener", "ser", "de (porijeklo, posjedovanje)", "član"],
+    "systemPromptHint": "Pričaj o porodici. Pitaj: ¿Tienes hermanos? ¿Tienen animales? ¿De dónde es tu familia? Koristi samo A1 vokabular."
+  },
+  "illustration": {
+    "prompt": "A warm family portrait with parents, siblings, a dog and a cat in a cozy home setting, Spanish style",
+    "alt": "Porodica sa kućnim ljubimcima u toplom domu",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["tener", "de", "family", "possessive", "a1", "u2"]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "a1-u2-l2",
+  "level": "A1",
+  "unit": 2,
+  "lessonNumber": 2,
+  "title": "Rod i broj imenica",
+  "subtitle": "Masculino y femenino, singular y plural",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Razumjeti kako španskim imenicama odrediti rod (muški/ženski)",
+    "Tvoriti množinu španskih imenica",
+    "Prepoznati rod po završetku imenice"
+  ],
+  "prerequisites": ["a1-u1-l1", "a1-u1-l2", "a1-u1-l3", "a1-u1-l4", "a1-u2-l1"],
+  "vocabulary": [
+    { "es": "el libro", "bs": "knjiga (m.r.!)", "pos": "im. m.", "ipa": "el ˈli.βro", "example_es": "El libro es interesante.", "example_bs": "Knjiga je zanimljiva." },
+    { "es": "la mesa", "bs": "sto (ž.r.)", "pos": "im. ž.", "ipa": "la ˈme.sa", "example_es": "La mesa es grande.", "example_bs": "Sto je velik." },
+    { "es": "el bolígrafo", "bs": "hemijska olovka", "pos": "im. m.", "ipa": "el bo.ˈli.ɣra.fo", "example_es": "¿Tienes un bolígrafo?", "example_bs": "Imaš li hemijsku olovku?" },
+    { "es": "la silla", "bs": "stolica", "pos": "im. ž.", "ipa": "la ˈsi.ʝa", "example_es": "La silla es cómoda.", "example_bs": "Stolica je udobna." },
+    { "es": "el cuaderno", "bs": "sveska / bilježnica", "pos": "im. m.", "ipa": "el kwa.ˈðer.no", "example_es": "Mi cuaderno es azul.", "example_bs": "Moja sveska je plava." },
+    { "es": "la ventana", "bs": "prozor (ž.r.!)", "pos": "im. ž.", "ipa": "la ben.ˈta.na", "example_es": "La ventana está abierta.", "example_bs": "Prozor je otvoren." },
+    { "es": "el día", "bs": "dan (m.r. — iznimka!)", "pos": "im. m.", "ipa": "el ˈdi.a", "example_es": "El día es largo.", "example_bs": "Dan je dug." },
+    { "es": "la mano", "bs": "ruka (ž.r. — iznimka!)", "pos": "im. ž.", "ipa": "la ˈma.no", "example_es": "Levanta la mano.", "example_bs": "Podigi ruku." },
+    { "es": "los libros", "bs": "knjige (množina)", "pos": "im. m. mn.", "ipa": "los ˈli.βros", "example_es": "Tengo tres libros.", "example_bs": "Imam tri knjige." },
+    { "es": "las mesas", "bs": "stolovi (množina)", "pos": "im. ž. mn.", "ipa": "las ˈme.sas", "example_es": "Las mesas son grandes.", "example_bs": "Stolovi su veliki." }
+  ],
+  "grammar": [
+    {
+      "concept": "Rod imenica — kako prepoznati muški i ženski",
+      "explanation_bs": "U španskom svaka imenica ima rod — muški (masculino) ili ženski (femenino). Osnovna pravila: imenice koje završavaju na **-o** su obično MUŠKE (libro, cuaderno). Imenice koje završavaju na **-a** su obično ŽENSKE (mesa, silla). Imenice koje završavaju na **-ción, -sión, -dad, -tad** su UVIJEK ženske (ciudad = grad, canción = pjesma). Imenice na **-ma** iz grčkog su muške (el problema, el tema, el programa). IZUZECI koje moraš zapamtiti: **el día** (dan — muški, završava na -a!), **la mano** (ruka — ženska, završava na -o!).",
+      "table": {
+        "headers": ["Završetak", "Rod", "Primjeri"],
+        "rows": [
+          ["-o", "muški", "libro, cuaderno, bolígrafo"],
+          ["-a", "ženski", "mesa, silla, ventana"],
+          ["-ción / -sión", "ženski", "canción, televisión"],
+          ["-dad / -tad", "ženski", "ciudad, libertad"],
+          ["-ma (iz grčkog)", "muški", "problema, tema, programa"],
+          ["el día, el mapa", "muški (iznimka!)", "završavaju na -a ali su muški"],
+          ["la mano, la foto", "ženski (iznimka!)", "završavaju na -o ali su ženske"]
+        ]
+      },
+      "examples": [
+        { "es": "el problema (muški!)", "bs": "problem — iako završava na -a" },
+        { "es": "la ciudad (ženski)", "bs": "grad — završetak -dad je uvijek ženski" },
+        { "es": "el día (muški!)", "bs": "dan — iznimka, mora se zapamtiti" }
+      ],
+      "tips": "Kad učiš novu imenicu, UVIJEK je uči sa članom: el libro, la mesa — nikad samo 'libro, mesa'!"
+    },
+    {
+      "concept": "Množina imenica — tvorba",
+      "explanation_bs": "Množina je jednostavna: ako imenica završava na **samoglasnik** → dodaj **-s** (libro → libros, mesa → mesas). Ako završava na **suglasnik** → dodaj **-es** (ciudad → ciudades, canción → canciones). Ako završava na **-z** → mijenja se u **-c** + -es (lápiz → lápices). Iznimka: imenice koje već završavaju na naglašeno -s u jednini ne mijenjaju se (el lunes → los lunes).",
+      "table": {
+        "headers": ["Jednina", "Množina", "Pravilo"],
+        "rows": [
+          ["libro", "libros", "samoglasnik + s"],
+          ["mesa", "mesas", "samoglasnik + s"],
+          ["ciudad", "ciudades", "suglasnik + es"],
+          ["canción", "canciones", "suglasnik + es (gubi akcent)"],
+          ["lápiz", "lápices", "-z → -c + es"]
+        ]
+      },
+      "examples": [
+        { "es": "un libro → dos libros", "bs": "jedna knjiga → dvije knjige" },
+        { "es": "la ciudad → las ciudades", "bs": "grad → gradovi" }
+      ],
+      "tips": "Pridjevi koji opisuju imenicu moraju se slagati: el libro grande → los libros grandes."
+    }
+  ],
+  "dialogue": {
+    "title": "En la clase — U razredu",
+    "lines": [
+      { "speaker": "Profesora", "es": "¿Tenéis los libros y los cuadernos?", "bs": "Imate li knjige i sveske?" },
+      { "speaker": "Marko", "es": "Sí, tengo el libro pero no tengo el cuaderno.", "bs": "Da, imam knjigu ali nemam svesku." },
+      { "speaker": "Ana", "es": "Yo tengo dos cuadernos. ¿Necesitas uno, Marko?", "bs": "Ja imam dvije sveske. Trebaš li jednu, Marko?" },
+      { "speaker": "Marko", "es": "¡Sí, gracias! ¿Y tienes un bolígrafo también?", "bs": "Da, hvala! I imaš li hemijsku olovku?" },
+      { "speaker": "Ana", "es": "Tengo tres bolígrafos. Aquí tienes.", "bs": "Imam tri hemijske olovke. Izvoli." },
+      { "speaker": "Profesora", "es": "Bien. Las mesas y las sillas están listas.", "bs": "Dobro. Stolovi i stolice su spremni." }
+    ]
+  },
+  "reading": {
+    "title": "Mi mochila — Moj ruksak",
+    "text_es": "En mi mochila tengo muchas cosas. Tengo tres libros, dos cuadernos y cinco bolígrafos. También tengo una botella de agua. Los libros son pesados pero son muy importantes. Los cuadernos son azules y los bolígrafos son rojos.",
+    "glossary": [
+      { "es": "mochila", "bs": "ruksak" },
+      { "es": "cosas", "bs": "stvari" },
+      { "es": "botella de agua", "bs": "boca vode" },
+      { "es": "pesados", "bs": "teški" },
+      { "es": "rojos", "bs": "crveni" },
+      { "es": "azules", "bs": "plavi" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko bolígrafosa ima u ruksaku?",
+        "options": ["Dva", "Tri", "Pet"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Koje boje su sveske?",
+        "options": ["Crvene", "Zelene", "Plave"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Kakvi su libros (knjige)?",
+        "options": ["Lagani", "Teški", "Mali"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je rod imenice 'ciudad'?",
+      "options": ["Muški", "Ženski", "Može i jedno i drugo"],
+      "answerIndex": 1,
+      "explanation_bs": "Imenice na -dad su UVIJEK ženskog roda: la ciudad, la libertad."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje je tačno: '___ problema es difícil'?",
+      "options": ["La", "El", "Los", "Las"],
+      "answerIndex": 1,
+      "explanation_bs": "'Problema' je iznimka — iako završava na -a, muškog je roda: EL problema."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Napiši množinu: una silla → dos ___",
+      "answer": "sillas",
+      "acceptedAnswers": ["sillas"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Napiši množinu: el lápiz → los ___",
+      "answer": "lápices",
+      "acceptedAnswers": ["lápices", "lapices"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Knjige su na stolu.",
+      "answer": "Los libros están en la mesa.",
+      "acceptedAnswers": ["Los libros están en la mesa.", "Los libros estan en la mesa.", "Los libros están sobre la mesa."]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji imenicu sa ispravnim članom",
+      "pairs": [
+        { "es": "libro", "bs": "el" },
+        { "es": "mesa", "bs": "la" },
+        { "es": "ciudad", "bs": "la" },
+        { "es": "día", "bs": "el" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "Tengo dos libros y tres cuadernos.",
+      "answer": "Tengo dos libros y tres cuadernos."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Pogleda oko sebe i imenuj 5 predmeta u množini na španskom.",
+      "modelAnswer_es": "Tengo libros, bolígrafos, sillas, mesas y ventanas."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Govoriš o stvarima u tvojoj sobi. AI te pita koliko čega imaš.",
+    "level": "A1",
+    "allowedGrammar": ["imenice", "rod", "množina", "ser", "tener (imam)"],
+    "systemPromptHint": "Pitaj studenta o predmetima u sobi: ¿Cuántos libros tienes? ¿Tienes una mesa grande? Ispravi greške u rodu i množini na kraju, na bosanskom."
+  },
+  "illustration": {
+    "prompt": "Colorful school items arranged neatly on a desk: books, notebooks, pens, a chair, and a window in background",
+    "alt": "Školski pribor — knjige, sveske, olovke",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 10,
+    "spacedRepetitionTags": ["nouns", "gender", "plural", "a1", "u2"]
+  }
+}

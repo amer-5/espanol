@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u1",
+  "level": "A1",
+  "unit": 1,
+  "title": "Test — Jedinica 1: Prvi kontakt",
+  "cumulative": true,
+  "timeLimitMinutes": 12,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji pozdrav koristimo ujutro (do podneva)?",
+      "options": ["Buenas noches", "Buenos días", "Hasta luego", "Buenas tardes"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a1-u1-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Zovem se Ana. Drago mi je.",
+      "answer": "Me llamo Ana. Mucho gusto.",
+      "acceptedAnswers": ["Me llamo Ana. Mucho gusto.", "Me llamo Ana. ¡Mucho gusto!", "Soy Ana. Mucho gusto."],
+      "points": 3,
+      "lessonId": "a1-u1-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Slovo 'h' u španskom je uvijek ___.",
+      "answer": "nijemo",
+      "acceptedAnswers": ["nijemo", "mudo", "tiho", "silent"],
+      "points": 2,
+      "lessonId": "a1-u1-l2"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ja sam iz Bosne i ja sam student.",
+      "answer": "Soy de Bosnia y soy estudiante.",
+      "acceptedAnswers": ["Soy de Bosnia y soy estudiante.", "Yo soy de Bosnia y soy estudiante.", "Soy de Bosnia y soy estudiante"],
+      "points": 3,
+      "lessonId": "a1-u1-l3"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Nosotros ___ de Sarajevo.",
+      "answer": "somos",
+      "acceptedAnswers": ["somos"],
+      "points": 2,
+      "lessonId": "a1-u1-l3"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji oblik SER je tačan: Ellos ___ profesores.",
+      "options": ["es", "soy", "somos", "son"],
+      "answerIndex": 3,
+      "points": 1,
+      "lessonId": "a1-u1-l3"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši cijelu rečenicu",
+      "audioText_es": "Me llamo Ana y soy de España.",
+      "answer": "Me llamo Ana y soy de España.",
+      "points": 3,
+      "lessonId": "a1-u1-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Koliko imaš godina?",
+      "answer": "¿Cuántos años tienes?",
+      "acceptedAnswers": ["¿Cuántos años tienes?", "Cuántos años tienes?", "¿Cuántos años tienes"],
+      "points": 2,
+      "lessonId": "a1-u1-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Tengo ___ años. (osamnaest)",
+      "answer": "dieciocho",
+      "acceptedAnswers": ["dieciocho", "18"],
+      "points": 2,
+      "lessonId": "a1-u1-l4"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 3–4 rečenice o sebi na španskom: ime, odakle si, koliko imaš godina, jedno zanimanje ili status.",
+      "minWords": 15,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: tačna upotreba SER (4 boda), tačni oblici zamjenica i glagola (3 boda), pravopis i akcenti (3 boda). Ukupno 10. Daj kratak feedback na bosanskom i ispravljenu verziju.",
+      "points": 10,
+      "lessonId": "a1-u1-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u1-l1", "topic": "Pozdravi, me llamo, mucho gusto" },
+    { "lessonId": "a1-u1-l2", "topic": "Alfabet, izgovor H, ñ, j, ll" },
+    { "lessonId": "a1-u1-l3", "topic": "Glagol SER, lične zamjenice" },
+    { "lessonId": "a1-u1-l4", "topic": "Brojevi 0–20, cuántos años tienes" }
+  ]
+}

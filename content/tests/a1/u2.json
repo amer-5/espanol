@@ -1,0 +1,101 @@
+{
+  "id": "test-a1-u2",
+  "level": "A1",
+  "unit": 2,
+  "title": "Test — Jedinica 2: Ja i drugi",
+  "cumulative": true,
+  "timeLimitMinutes": 12,
+  "passThreshold": 0.8,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako kažeš 'Ja sam Špankinja' (ženski rod)?",
+      "options": ["Soy español", "Soy española", "Soy la española", "Soy un española"],
+      "answerIndex": 1,
+      "points": 1,
+      "lessonId": "a1-u2-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Ona je advokatica i ona je iz Argentine.",
+      "answer": "Ella es abogada y es argentina.",
+      "acceptedAnswers": ["Ella es abogada y es argentina.", "Es abogada y es argentina.", "Ella es abogada y ella es argentina."],
+      "points": 3,
+      "lessonId": "a1-u2-l1"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Las ___ son de España. (imenica: profesorica, množina)",
+      "answer": "profesoras",
+      "acceptedAnswers": ["profesoras"],
+      "points": 2,
+      "lessonId": "a1-u2-l2"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni (kontrakcija): Voy ___ banco. (a + el)",
+      "answer": "al",
+      "acceptedAnswers": ["al"],
+      "points": 2,
+      "lessonId": "a1-u2-l3"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Imam tri brata i jednu sestru.",
+      "answer": "Tengo tres hermanos y una hermana.",
+      "acceptedAnswers": ["Tengo tres hermanos y una hermana.", "Tengo tres hermanos y una hermana"],
+      "points": 3,
+      "lessonId": "a1-u2-l4"
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: El libro ___ estudiante está aquí. (de + el = ?)",
+      "answer": "del",
+      "acceptedAnswers": ["del"],
+      "points": 2,
+      "lessonId": "a1-u2-l4"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik TENER za 'ellos'?",
+      "options": ["tengo", "tiene", "tienen", "tenemos"],
+      "answerIndex": 2,
+      "points": 1,
+      "lessonId": "a1-u2-l4"
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i zapiši",
+      "audioText_es": "Soy española y tengo dos hermanos.",
+      "answer": "Soy española y tengo dos hermanos.",
+      "points": 3,
+      "lessonId": "a1-u2-l1"
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "U mojoj četvrti ima jedna apoteka.",
+      "answer": "En mi barrio hay una farmacia.",
+      "acceptedAnswers": ["En mi barrio hay una farmacia.", "Hay una farmacia en mi barrio.", "En mi barrio hay una farmacia"],
+      "points": 2,
+      "lessonId": "a1-u2-l3"
+    },
+    {
+      "type": "writing",
+      "prompt_bs": "Napiši 3–5 rečenica o sebi i svojoj porodici: odakle si, šta si, imaš li braće/sestara, šta rade tvoji roditelji.",
+      "minWords": 18,
+      "gradedByAI": true,
+      "rubric_bs": "Boduj: tačna upotreba TENER (3), tačna upotreba SER sa zanimanjima i nacionalnostima (3), rod i broj imenica (2), pravopis (2). Ukupno 10. Daj feedback na bosanskom.",
+      "points": 10,
+      "lessonId": "a1-u2-l1"
+    }
+  ],
+  "reviewMapping": [
+    { "lessonId": "a1-u2-l1", "topic": "Nacionalnosti, zanimanja bez člana" },
+    { "lessonId": "a1-u2-l2", "topic": "Rod imenica, množina, iznimke (día, mano, problema)" },
+    { "lessonId": "a1-u2-l3", "topic": "Određeni/neodređeni član, al/del, hay" },
+    { "lessonId": "a1-u2-l4", "topic": "TENER konjugacija, DE posjedovanje/porijeklo" }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "a1-u1-l2",
+  "level": "A1",
+  "unit": 1,
+  "lessonNumber": 2,
+  "title": "Španski alfabet i izgovor",
+  "subtitle": "El alfabeto español",
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Naučiti španski alfabet i pravilno izgovarati slova",
+    "Razumjeti posebna španaska slova: ñ, ll, rr, ch",
+    "Znati pravila izgovora za c, z, g, j, h"
+  ],
+  "prerequisites": ["a1-u1-l1"],
+  "vocabulary": [
+    {
+      "es": "el alfabeto",
+      "bs": "abeceda / alfabet",
+      "pos": "im. m.",
+      "ipa": "el al.fa.ˈbe.to",
+      "example_es": "El alfabeto español tiene 27 letras.",
+      "example_bs": "Španski alfabet ima 27 slova."
+    },
+    {
+      "es": "la letra",
+      "bs": "slovo",
+      "pos": "im. ž.",
+      "ipa": "la ˈle.tra",
+      "example_es": "La letra ñ es especial en español.",
+      "example_bs": "Slovo ñ je posebno u španskom."
+    },
+    {
+      "es": "la vocal",
+      "bs": "samoglasnik",
+      "pos": "im. ž.",
+      "ipa": "la bo.ˈkal",
+      "example_es": "Las vocales son: a, e, i, o, u.",
+      "example_bs": "Samoglasnici su: a, e, i, o, u."
+    },
+    {
+      "es": "la consonante",
+      "bs": "suglasnik",
+      "pos": "im. ž.",
+      "ipa": "la kon.so.ˈnan.te",
+      "example_es": "La b y la v suenan igual.",
+      "example_bs": "B i v zvuče jednako."
+    },
+    {
+      "es": "pronunciar",
+      "bs": "izgovarati",
+      "pos": "glag.",
+      "ipa": "pro.nun.ˈθjar",
+      "example_es": "¿Cómo se pronuncia esta palabra?",
+      "example_bs": "Kako se izgovara ova riječ?"
+    },
+    {
+      "es": "la palabra",
+      "bs": "riječ",
+      "pos": "im. ž.",
+      "ipa": "la pa.ˈla.bra",
+      "example_es": "¿Cómo se escribe esa palabra?",
+      "example_bs": "Kako se piše ta riječ?"
+    },
+    {
+      "es": "escribir",
+      "bs": "pisati",
+      "pos": "glag.",
+      "ipa": "es.kri.ˈβir",
+      "example_es": "¿Puedes escribir tu nombre?",
+      "example_bs": "Možeš li napisati svoje ime?"
+    },
+    {
+      "es": "deletrear",
+      "bs": "sricati / slovkati",
+      "pos": "glag.",
+      "ipa": "de.le.tre.ˈar",
+      "example_es": "¿Puedes deletrear tu apellido?",
+      "example_bs": "Možeš li sricati svoje prezime?"
+    },
+    {
+      "es": "el acento",
+      "bs": "naglasak / akcent",
+      "pos": "im. m.",
+      "ipa": "el a.ˈθen.to",
+      "example_es": "La tilde marca el acento.",
+      "example_bs": "Akcent se označava tildom."
+    }
+  ],
+  "grammar": [
+    {
+      "concept": "Posebna slova španskog — izgovor",
+      "explanation_bs": "Španski ima nekoliko slova koja nemamo u bosanskom. Najvažnija pravila: **ñ** izgovara se kao 'nj' (España = Espanja). **ll** izgovara se kao 'j' u većini zemalja (llamar = jamar). **h** je UVIJEK nijemo (hola = ola). **j** izgovara se grubo iz grla, kao 'h' u 'Bach' (joven = hoven). **c** ispred e/i izgovara se kao 's' u Latinskoj Americi ili kao englesko 'th' u Španiji (cero, ciudad). **g** ispred e/i izgovara se kao **j** (general).",
+      "table": {
+        "headers": ["Slovo", "Izgovor", "Primjer", "Transkripcija"],
+        "rows": [
+          ["ñ", "kao 'nj'", "España", "Espanja"],
+          ["h", "nijemo!", "hola", "ola"],
+          ["j", "grubo 'h'", "jamón", "hamon"],
+          ["ll", "kao 'j'", "llamar", "jamar"],
+          ["c+e/i", "'s' ili 'th'", "cero", "sero/θero"],
+          ["g+e/i", "kao 'j'", "general", "heneral"]
+        ]
+      },
+      "examples": [
+        { "es": "España", "bs": "Španija — ñ = nj" },
+        { "es": "hola", "bs": "zdravo — h se ne izgovara" },
+        { "es": "jamón", "bs": "šunka — j = grubo h" }
+      ],
+      "tips": "Najčešća greška: izgovarati H! U španskom je uvijek nijemo. 'Hotel' se čita 'otel'."
+    },
+    {
+      "concept": "Naglasak (el acento) — osnovno pravilo",
+      "explanation_bs": "U španskom, naglasak pada predvidljivo: 1) Riječi koje završavaju na samoglasnik, -n ili -s: naglasak na pretposljednjem slogu (hablo, comen). 2) Sve ostale: naglasak na posljednjem slogu (hablar, ciudad). 3) Ako ima tilda (´), naglasak je tu (café, música). Tildu UVIJEK moraš pisati — ona mijenja značenje (si = ako, sí = da).",
+      "examples": [
+        { "es": "hablo → HA-blo", "bs": "naglasak na pretposljednjem" },
+        { "es": "café → ca-FÉ", "bs": "tilda pokazuje naglasak" },
+        { "es": "si vs sí", "bs": "si = ako, sí = da" }
+      ],
+      "tips": "Pisanje tilde je obavezno na ispitima. 'El' = određeni član, 'él' = on — razlika je samo tilda!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo se escribe? — Kako se piše?",
+    "lines": [
+      { "speaker": "Sofía", "es": "Hola, Marko. ¿Cómo se escribe tu apellido?", "bs": "Zdravo, Marko. Kako se piše tvoje prezime?" },
+      { "speaker": "Marko", "es": "Se escribe: eme, a, ere, ka, o. Marko.", "bs": "Piše se: m, a, r, k, o. Marko." },
+      { "speaker": "Sofía", "es": "¡Ah, es fácil! ¿Y cómo se pronuncia?", "bs": "Ah, lako je! A kako se izgovara?" },
+      { "speaker": "Marko", "es": "Se pronuncia igual que en bosnio. ¿Y tú? ¿Cómo se escribe Sofía?", "bs": "Izgovara se isto kao u bosanskom. A ti? Kako se piše Sofía?" },
+      { "speaker": "Sofía", "es": "Ese, o, efe, i con acento, a. Sofía.", "bs": "S, o, f, i s akcentom, a. Sofía." },
+      { "speaker": "Marko", "es": "¿La i tiene acento?", "bs": "I ima akcent?" },
+      { "speaker": "Sofía", "es": "Sí, ¡siempre escribo la tilde!", "bs": "Da, uvijek pišem tildu!" }
+    ]
+  },
+  "reading": {
+    "title": "El español no es difícil — Španski nije težak",
+    "text_es": "El español es un idioma fonético. Eso significa que las palabras se escriben como se pronuncian. En español, la h es muda — nunca se pronuncia. La ñ es como 'nj' en bosnio. El acento es muy importante: 'si' significa 'if', pero 'sí' significa 'yes'. ¡Con práctica, el español es fácil!",
+    "glossary": [
+      { "es": "fonético", "bs": "fonetski" },
+      { "es": "significa", "bs": "znači" },
+      { "es": "muda", "bs": "nijema" },
+      { "es": "nunca", "bs": "nikad" },
+      { "es": "práctica", "bs": "vježba" },
+      { "es": "fácil", "bs": "lako" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Kako se opisuje španski u tekstu?",
+        "options": ["Težak jezik", "Fonetski jezik", "Jezik bez pravila"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Kako se izgovara 'h' u španskom?",
+        "options": ["Kao 'h' u bosanskom", "Ne izgovara se", "Kao 'j'"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Šta znači 'sí' (sa akcentom)?",
+        "options": ["Ako", "Da", "Ne"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako se izgovara slovo 'h' u španskom?",
+      "options": ["Kao 'h' u bosanskom", "Ne izgovara se (nijemo)", "Kao 'j'", "Kao 'k'"],
+      "answerIndex": 1,
+      "explanation_bs": "H je uvijek nijemo u španskom! 'Hola' se čita 'ola'."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koje slovo predstavlja zvuk 'nj' u španskom?",
+      "options": ["ll", "ñ", "n", "ni"],
+      "answerIndex": 1,
+      "explanation_bs": "Ñ je posebno špansko slovo koje izgovara kao naše 'nj'. España = Espanja."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Slovo 'h' u španskom je uvijek ___ (nijemo/glasno).",
+      "answer": "nijemo",
+      "acceptedAnswers": ["nijemo", "mudo", "tiho"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Kako se piše tvoje ime?",
+      "answer": "¿Cómo se escribe tu nombre?",
+      "acceptedAnswers": ["¿Cómo se escribe tu nombre?", "Como se escribe tu nombre?", "¿Cómo se escribe tu nombre"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji špansko slovo sa pravilom izgovora",
+      "pairs": [
+        { "es": "h", "bs": "uvijek nijemo" },
+        { "es": "ñ", "bs": "izgovara se kao 'nj'" },
+        { "es": "j", "bs": "grubo 'h' iz grla" },
+        { "es": "ll", "bs": "izgovara se kao 'j'" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši šta čuješ",
+      "audioText_es": "La h es muda en español.",
+      "answer": "La h es muda en español."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Naglas slovkaj svoje ime na španskom (kao što bi rekao/la na kastiljanskom)",
+      "modelAnswer_es": "Me llamo Marko: eme, a, erre, ka, o."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Upoznaj novog prijatelja i slovkajte međusobno svoja prezimena na španskom.",
+    "level": "A1",
+    "allowedGrammar": ["pozdravi", "me llamo", "soy", "deletrear"],
+    "systemPromptHint": "Zamoli studenta da ti slovka svoje prezime. Pohvali ga kad pravilno koristi slova. Ispravke samo na kraju, na bosanskom."
+  },
+  "illustration": {
+    "prompt": "Spanish alphabet letters floating colorfully around a friendly classroom scene, with highlighted letters ñ and h",
+    "alt": "Španski alfabet sa posebnim slovima",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 9,
+    "spacedRepetitionTags": ["alphabet", "pronunciation", "a1", "u1"]
+  }
+}

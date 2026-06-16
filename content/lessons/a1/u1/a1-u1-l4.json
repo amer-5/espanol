@@ -1,0 +1,161 @@
+{
+  "id": "a1-u1-l4",
+  "level": "A1",
+  "unit": 1,
+  "lessonNumber": 4,
+  "title": "Brojevi 0–20",
+  "subtitle": "Los números del cero al veinte",
+  "estimatedMinutes": 15,
+  "objectives": [
+    "Naučiti i izgovoriti brojeve od 0 do 20 na španskom",
+    "Koristiti brojeve u jednostavnim situacijama (starost, telefon)"
+  ],
+  "prerequisites": ["a1-u1-l1", "a1-u1-l2", "a1-u1-l3"],
+  "vocabulary": [
+    { "es": "cero", "bs": "nula", "pos": "br.", "ipa": "ˈθe.ro", "example_es": "Mi número de teléfono empieza con cero.", "example_bs": "Moj broj telefona počinje sa nulom." },
+    { "es": "uno / una", "bs": "jedan / jedna", "pos": "br.", "ipa": "ˈu.no", "example_es": "Tengo un hermano.", "example_bs": "Imam jednog brata." },
+    { "es": "dos", "bs": "dva", "pos": "br.", "ipa": "dos", "example_es": "Somos dos amigos.", "example_bs": "Nas je dvoje prijatelja." },
+    { "es": "tres", "bs": "tri", "pos": "br.", "ipa": "tres", "example_es": "Tengo tres libros.", "example_bs": "Imam tri knjige." },
+    { "es": "cuatro", "bs": "četiri", "pos": "br.", "ipa": "ˈkwa.tro", "example_es": "Son las cuatro.", "example_bs": "Četiri su sata." },
+    { "es": "cinco", "bs": "pet", "pos": "br.", "ipa": "ˈθin.ko", "example_es": "Tengo cinco euros.", "example_bs": "Imam pet eura." },
+    { "es": "seis", "bs": "šest", "pos": "br.", "ipa": "seis", "example_es": "La clase empieza a las seis.", "example_bs": "Čas počinje u šest." },
+    { "es": "siete", "bs": "sedam", "pos": "br.", "ipa": "ˈsje.te", "example_es": "Hay siete días en la semana.", "example_bs": "Ima sedam dana u sedmici." },
+    { "es": "ocho", "bs": "osam", "pos": "br.", "ipa": "ˈo.tʃo", "example_es": "Son las ocho de la mañana.", "example_bs": "Osam je ujutro." },
+    { "es": "nueve", "bs": "devet", "pos": "br.", "ipa": "ˈnwe.βe", "example_es": "Tengo nueve años. — Ne, šalim se!", "example_bs": "Imam devet godina. — Ne, šalim se!" },
+    { "es": "diez", "bs": "deset", "pos": "br.", "ipa": "ˈdjeθ", "example_es": "Diez más diez son veinte.", "example_bs": "Deset plus deset je dvadeset." },
+    { "es": "veinte", "bs": "dvadeset", "pos": "br.", "ipa": "ˈbein.te", "example_es": "Tengo veinte años.", "example_bs": "Imam dvadeset godina." },
+    { "es": "¿cuántos años tienes?", "bs": "koliko imaš godina?", "pos": "pitanje", "ipa": "ˈkwan.tos ˈa.ɲos ˈtje.nes", "example_es": "¿Cuántos años tienes? Tengo dieciocho años.", "example_bs": "Koliko imaš godina? Imam osamnaest godina." }
+  ],
+  "grammar": [
+    {
+      "concept": "Brojevi 0–20 — lista i posebnosti",
+      "explanation_bs": "Brojeve 1–15 trebaš naučiti napamet. Od 16 do 19 se grade logično: diez+y+seis = dieciséis (16), diez+y+siete = diecisiete (17)... Broj 1 ima dva oblika: 'uno' (sam) i 'un/una' ispred imenice (un libro = jedna knjiga, una mesa = jedan sto). Dvadeset = veinte.",
+      "table": {
+        "headers": ["Broj", "Španski", "Broj", "Španski"],
+        "rows": [
+          ["0", "cero", "10", "diez"],
+          ["1", "uno/un/una", "11", "once"],
+          ["2", "dos", "12", "doce"],
+          ["3", "tres", "13", "trece"],
+          ["4", "cuatro", "14", "catorce"],
+          ["5", "cinco", "15", "quince"],
+          ["6", "seis", "16", "dieciséis"],
+          ["7", "siete", "17", "diecisiete"],
+          ["8", "ocho", "18", "dieciocho"],
+          ["9", "nueve", "19", "diecinueve"],
+          ["10", "diez", "20", "veinte"]
+        ]
+      },
+      "examples": [
+        { "es": "Tengo dieciocho años.", "bs": "Imam osamnaest godina." },
+        { "es": "Un café, por favor.", "bs": "Jednu kafu, molim." },
+        { "es": "Son las diez.", "bs": "Deset je sati." }
+      ],
+      "tips": "16–19 se PIŠU kao jedna riječ: dieciséis, diecisiete, dieciocho, diecinueve. Obrati pažnju: dieciSÉIS ima akcent!"
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cuántos años tienes? — Koliko imaš godina?",
+    "lines": [
+      { "speaker": "Ana", "es": "Marko, ¿cuántos años tienes?", "bs": "Marko, koliko imaš godina?" },
+      { "speaker": "Marko", "es": "Tengo diecinueve años. ¿Y tú?", "bs": "Imam devetnaest godina. A ti?" },
+      { "speaker": "Ana", "es": "Yo tengo veinte. ¿Y cuál es tu número de teléfono?", "bs": "Ja imam dvadeset. A koji je tvoj broj telefona?" },
+      { "speaker": "Marko", "es": "Es el cero, seis, uno, dos, tres, cuatro, cinco.", "bs": "Je 0, 6, 1, 2, 3, 4, 5." },
+      { "speaker": "Ana", "es": "¡Perfecto! Y yo tengo dos hermanos, ¿y tú?", "bs": "Odlično! A ja imam dva brata, a ti?" },
+      { "speaker": "Marko", "es": "Yo tengo una hermana.", "bs": "Ja imam jednu sestru." }
+    ]
+  },
+  "reading": {
+    "title": "Mi clase de español — Moj španski razred",
+    "text_es": "En mi clase hay quince estudiantes. Somos ocho chicas y siete chicos. La profesora tiene treinta años. La clase empieza a las nueve y termina a las once. Hay tres profesores de español en la escuela.",
+    "glossary": [
+      { "es": "hay", "bs": "ima / postoji" },
+      { "es": "chicas", "bs": "djevojke" },
+      { "es": "chicos", "bs": "dječaci / momci" },
+      { "es": "termina", "bs": "završava" },
+      { "es": "escuela", "bs": "škola" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Koliko studenata ima u razredu?",
+        "options": ["Dvanaest", "Petnaest", "Dvadeset"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko djevojaka ima u razredu?",
+        "options": ["Sedam", "Devet", "Osam"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Kada počinje čas?",
+        "options": ["U osam", "U devet", "U deset"],
+        "answerIndex": 1
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Kako se kaže '18' na španskom?",
+      "options": ["dieciocho", "diecisiete", "dieciséis", "diecinueve"],
+      "answerIndex": 0,
+      "explanation_bs": "18 = dieciocho (diez + y + ocho)."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Tengo ___ años. (Imam petnaest godina.)",
+      "answer": "quince",
+      "acceptedAnswers": ["quince", "15"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: En la clase hay ___ estudiantes. (dvanaest)",
+      "answer": "doce",
+      "acceptedAnswers": ["doce", "12"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Koliko imaš godina?",
+      "answer": "¿Cuántos años tienes?",
+      "acceptedAnswers": ["¿Cuántos años tienes?", "¿Cuántos años tienes", "Cuántos años tienes?"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji broj sa španskim riječima",
+      "pairs": [
+        { "es": "cinco", "bs": "5" },
+        { "es": "trece", "bs": "13" },
+        { "es": "veinte", "bs": "20" },
+        { "es": "once", "bs": "11" }
+      ]
+    },
+    {
+      "type": "listening",
+      "prompt_bs": "Poslušaj i napiši broj koji čuješ (riječima ili brojem)",
+      "audioText_es": "Tengo dieciséis años.",
+      "answer": "Tengo dieciséis años."
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Reci naglas: koliko imaš godina i koji je tvoj broj telefona (izmisli).",
+      "modelAnswer_es": "Tengo [broj] años. Mi número de teléfono es el [brojevi]."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Igraš se pogađanja broja: AI misli broj od 1 do 20, ti pogađaš. Koristi špansku brojeve.",
+    "level": "A1",
+    "allowedGrammar": ["brojevi 0-20", "ser", "tener"],
+    "systemPromptHint": "Misli broj između 1 i 20. Student pogađa na španskom ('¿Es el diez?'). Odgovori 'más' (veće) ili 'menos' (manje) ili '¡Correcto!' kad pogodi. Samo A1 vokabular."
+  },
+  "illustration": {
+    "prompt": "Colorful Spanish numbers 0 to 20 displayed as fun floating bubbles in a warm classroom setting",
+    "alt": "Španski brojevi od 0 do 20",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 13,
+    "spacedRepetitionTags": ["numbers", "0-20", "a1", "u1"]
+  }
+}

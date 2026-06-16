@@ -1,0 +1,235 @@
+{
+  "id": "a1-u1-l3",
+  "level": "A1",
+  "unit": 1,
+  "lessonNumber": 3,
+  "title": "Glagol SER i lične zamjenice",
+  "subtitle": "Yo soy, tú eres, él es...",
+  "estimatedMinutes": 20,
+  "objectives": [
+    "Naučiti sve oblike glagola SER u prezentu",
+    "Koristiti lične zamjenice ispravno",
+    "Opisati sebe i druge koristeći SER"
+  ],
+  "prerequisites": ["a1-u1-l1", "a1-u1-l2"],
+  "vocabulary": [
+    {
+      "es": "yo",
+      "bs": "ja",
+      "pos": "zamj.",
+      "ipa": "ʝo",
+      "example_es": "Yo soy estudiante.",
+      "example_bs": "Ja sam student."
+    },
+    {
+      "es": "tú",
+      "bs": "ti",
+      "pos": "zamj.",
+      "ipa": "tu",
+      "example_es": "Tú eres de España.",
+      "example_bs": "Ti si iz Španije."
+    },
+    {
+      "es": "él / ella",
+      "bs": "on / ona",
+      "pos": "zamj.",
+      "ipa": "el / ˈe.ʝa",
+      "example_es": "Él es médico. Ella es profesora.",
+      "example_bs": "On je doktor. Ona je profesorica."
+    },
+    {
+      "es": "nosotros / nosotras",
+      "bs": "mi",
+      "pos": "zamj.",
+      "ipa": "no.ˈso.tros",
+      "example_es": "Nosotros somos amigos.",
+      "example_bs": "Mi smo prijatelji."
+    },
+    {
+      "es": "vosotros / vosotras",
+      "bs": "vi (Španija)",
+      "pos": "zamj.",
+      "ipa": "bo.ˈso.tros",
+      "example_es": "Vosotros sois estudiantes.",
+      "example_bs": "Vi ste studenti. (samo u Španiji)"
+    },
+    {
+      "es": "ellos / ellas",
+      "bs": "oni / one",
+      "pos": "zamj.",
+      "ipa": "ˈe.ʝos / ˈe.ʝas",
+      "example_es": "Ellos son de Bosnia.",
+      "example_bs": "Oni su iz Bosne."
+    },
+    {
+      "es": "usted / ustedes",
+      "bs": "Vi (formalno) / Vi (množina)",
+      "pos": "zamj.",
+      "ipa": "us.ˈted",
+      "example_es": "¿Usted es el profesor?",
+      "example_bs": "Vi ste profesor? (formalno)"
+    },
+    {
+      "es": "ser",
+      "bs": "biti (trajno)",
+      "pos": "glag.",
+      "ipa": "ser",
+      "example_es": "Soy de Bosnia. Soy estudiante.",
+      "example_bs": "Iz Bosne sam. Ja sam student."
+    },
+    {
+      "es": "de",
+      "bs": "iz / od",
+      "pos": "prij.",
+      "ipa": "de",
+      "example_es": "Soy de Sarajevo.",
+      "example_bs": "Ja sam iz Sarajeva."
+    }
+  ],
+  "grammar": [
+    {
+      "concept": "Glagol SER (biti) — prezent",
+      "explanation_bs": "SER je jedan od dva glagola koji znače 'biti' u španskom (drugi je ESTAR). SER koristimo za: identitet, porijeklo, zanimanje, nacionalnost — sve što je trajno i ne mijenja se. Konjugacija je potpuno nepravilna, mora se naučiti napamet.",
+      "table": {
+        "headers": ["Lice", "Zamjenica", "Oblik SER", "Primjer"],
+        "rows": [
+          ["1. l. jd.", "yo", "soy", "Yo soy de Bosnia."],
+          ["2. l. jd.", "tú", "eres", "Tú eres estudiante."],
+          ["3. l. jd.", "él/ella/usted", "es", "Ella es médica."],
+          ["1. l. mn.", "nosotros", "somos", "Somos amigos."],
+          ["2. l. mn.", "vosotros", "sois", "Vosotros sois de Madrid."],
+          ["3. l. mn.", "ellos/ellas/ustedes", "son", "Ellos son profesores."]
+        ]
+      },
+      "examples": [
+        { "es": "Soy de Sarajevo.", "bs": "Iz Sarajeva sam." },
+        { "es": "Ella es estudiante.", "bs": "Ona je studentica." },
+        { "es": "Somos de Bosnia.", "bs": "Mi smo iz Bosne." }
+      ],
+      "tips": "U španskom se zamjenica često izostavlja jer se iz nastavka zna lice: 'Soy de Bosnia' = 'Ja sam iz Bosne'. Zamjenicu dodaješ samo za naglasak: 'YO soy de Bosnia, a ti?'"
+    },
+    {
+      "concept": "Lične zamjenice — posebnosti",
+      "explanation_bs": "Tú (ti) uvijek ima akcent da se razlikuje od 'tu' (tvoj). Usted/Ustedes je formalno 'Vi' — koristi se sa šefom, starijima, nepoznatima. Konjugira se kao 3. lice! Vosotros se koristi SAMO u Španiji — u Latinskoj Americi svi kažu 'ustedes' za množinu.",
+      "examples": [
+        { "es": "tú eres vs. tu nombre", "bs": "tú = ti / tu = tvoj" },
+        { "es": "Usted es muy amable.", "bs": "Vi ste vrlo ljubazni. (formalno)" }
+      ],
+      "tips": "Za komunikaciju u turistima u Španiji: koristi 'tú' s mladima, 'usted' sa starijima i u restoranima."
+    }
+  ],
+  "dialogue": {
+    "title": "En clase — U razredu",
+    "lines": [
+      { "speaker": "Profesora", "es": "¡Buenos días! Yo soy la profesora García. ¿Y vosotros?", "bs": "Dobro jutro! Ja sam profesorica García. A vi?" },
+      { "speaker": "Ana", "es": "Yo soy Ana. Soy de Valencia.", "bs": "Ja sam Ana. Iz Valencije sam." },
+      { "speaker": "Marko", "es": "Y yo soy Marko. Soy de Bosnia.", "bs": "A ja sam Marko. Iz Bosne sam." },
+      { "speaker": "Profesora", "es": "¡Perfecto! ¿Sois estudiantes de español?", "bs": "Odlično! Vi ste studenti španskog?" },
+      { "speaker": "Ana", "es": "Sí, somos estudiantes.", "bs": "Da, mi smo studenti." },
+      { "speaker": "Marko", "es": "Y ella es Sofía. Es de Argentina.", "bs": "A ona je Sofía. Iz Argentine je." },
+      { "speaker": "Profesora", "es": "¡Bienvenidos todos!", "bs": "Dobrodošli svi!" }
+    ]
+  },
+  "reading": {
+    "title": "Mi familia — Moja porodica",
+    "text_es": "Me llamo Marko. Soy de Bosnia. Soy estudiante. Mi madre es profesora y mi padre es médico. Somos cuatro en la familia. Mi hermana es estudiante también. Ella es de Sarajevo, como yo.",
+    "glossary": [
+      { "es": "mi madre", "bs": "moja majka" },
+      { "es": "mi padre", "bs": "moj otac" },
+      { "es": "cuatro", "bs": "četiri" },
+      { "es": "mi hermana", "bs": "moja sestra" },
+      { "es": "también", "bs": "takođe" },
+      { "es": "como yo", "bs": "kao ja" }
+    ],
+    "comprehensionQuestions": [
+      {
+        "question_bs": "Šta je Markov otac po zanimanju?",
+        "options": ["Profesor", "Doktor", "Student"],
+        "answerIndex": 1
+      },
+      {
+        "question_bs": "Koliko članova ima Markova porodica?",
+        "options": ["Tri", "Pet", "Četiri"],
+        "answerIndex": 2
+      },
+      {
+        "question_bs": "Odakle je Markova sestra?",
+        "options": ["Iz Bosne — Sarajeva", "Iz Španije", "Iz Argentine"],
+        "answerIndex": 0
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Koji je tačan oblik glagola SER za 'nosotros'?",
+      "options": ["soy", "eres", "somos", "son"],
+      "answerIndex": 2,
+      "explanation_bs": "Za nosotros (mi) koristimo 'somos'. Somos = mi smo."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt_bs": "Popuni: Ella ___ médica.",
+      "options": ["soy", "eres", "es", "son"],
+      "answerIndex": 2,
+      "explanation_bs": "Za ella (ona) koristimo 'es'. Ella es = ona je."
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Yo ___ de Sarajevo.",
+      "answer": "soy",
+      "acceptedAnswers": ["soy"]
+    },
+    {
+      "type": "fill_blank",
+      "prompt_bs": "Dopuni: Ellos ___ estudiantes.",
+      "answer": "son",
+      "acceptedAnswers": ["son"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "Mi smo iz Bosne.",
+      "answer": "Somos de Bosnia.",
+      "acceptedAnswers": ["Somos de Bosnia.", "Nosotros somos de Bosnia.", "Somos de Bosnia"]
+    },
+    {
+      "type": "translation",
+      "direction": "bs_to_es",
+      "prompt": "On je student.",
+      "answer": "Él es estudiante.",
+      "acceptedAnswers": ["Él es estudiante.", "El es estudiante.", "Él es estudiante"]
+    },
+    {
+      "type": "matching",
+      "prompt_bs": "Spoji zamjenicu sa odgovarajućim oblikom SER",
+      "pairs": [
+        { "es": "yo", "bs": "soy" },
+        { "es": "tú", "bs": "eres" },
+        { "es": "nosotros", "bs": "somos" },
+        { "es": "ellos", "bs": "son" }
+      ]
+    },
+    {
+      "type": "speaking",
+      "prompt_bs": "Naglas reci: ko si ti, odakle si i šta si (zanimanje ili status).",
+      "modelAnswer_es": "Yo soy [ime]. Soy de [grad/zemlja]. Soy estudiante."
+    }
+  ],
+  "aiConversation": {
+    "enabled": true,
+    "scenario_bs": "Upoznaj novog cimera/cimerku na studentskom domu. Pitaj odakle je, šta radi, ko su mu/joj prijatelji.",
+    "level": "A1",
+    "allowedGrammar": ["ser", "lične zamjenice", "pozdravi", "me llamo"],
+    "systemPromptHint": "Koristi samo SER i naučene izraze. Pitaj studenta odakle je, ko su mu prijatelji. Ispravi greške u konjugaciji tek na kraju, na bosanskom."
+  },
+  "illustration": {
+    "prompt": "A friendly Spanish classroom scene with a teacher writing SER conjugation on a whiteboard, diverse students watching attentively",
+    "alt": "Profesorica piše konjugaciju SER na tabli",
+    "filename": "cover.png"
+  },
+  "review": {
+    "newWords": 9,
+    "spacedRepetitionTags": ["ser", "pronouns", "a1", "u1"]
+  }
+}

@@ -197,7 +197,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
             {isEsFirst && (
               <button
                 onClick={(e) => { e.stopPropagation(); speak(word.es); }}
-                className="mt-2 p-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600"
+                className="mt-2 p-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 cursor-pointer"
                 aria-label="Izgovor"
               >
                 <Volume2 className="w-5 h-5" />
@@ -218,7 +218,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
               {/* Always show audio for Spanish */}
               <button
                 onClick={(e) => { e.stopPropagation(); speak(word.es); }}
-                className="p-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600"
+                className="p-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 cursor-pointer"
                 aria-label="Izgovor"
               >
                 <Volume2 className="w-4 h-4" />
@@ -232,7 +232,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
                 <p className="text-sm text-gray-700 dark:text-gray-200 italic flex-1">{word.example_es}</p>
                 <button
                   onClick={(e) => { e.stopPropagation(); speak(word.example_es); }}
-                  className="p-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 flex-shrink-0"
+                  className="p-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 flex-shrink-0 cursor-pointer"
                 >
                   <Volume2 className="w-3.5 h-3.5" />
                 </button>
@@ -272,7 +272,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
         {/* Repeat button */}
         <button
           onClick={() => speak(word.es)}
-          className="w-12 h-14 rounded-2xl bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center transition-all"
+          className="w-12 h-14 rounded-2xl bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center transition-all cursor-pointer"
           aria-label="Ponovi izgovor"
         >
           <RefreshCw className="w-5 h-5" />

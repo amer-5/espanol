@@ -17,7 +17,7 @@ export default function AudioButton({ text, lang = "es-ES", className, size = "m
       aria-label={`Izgovor: ${text}`}
       title="Klikni za izgovor"
       className={cn(
-        "rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-200 dark:hover:bg-emerald-900/50 transition-colors active:scale-90",
+        "cursor-pointer rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-200 dark:hover:bg-emerald-900/50 transition-colors active:scale-90",
         size === "sm" ? "p-1.5" : "p-2",
         className
       )}

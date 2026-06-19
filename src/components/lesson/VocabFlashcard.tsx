@@ -79,21 +79,21 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
     preloadTTS(texts);
   }, [index, sequence]);
 
-  // Reset state when card changes
+  // Reset state + auto-play Spanish when card changes
   useEffect(() => {
     setFlipped(false);
     setMicState("idle");
     setHeard("");
+    // index 0: try auto-play (works if user already interacted with page)
+    if (index === 0) speak(sequence[0].word.es);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
 
   const next = useCallback(() => {
     const nextIndex = index < sequence.length - 1 ? index + 1 : null;
     if (nextIndex !== null) {
-      const nextEntry = sequence[nextIndex];
-      if (nextEntry.direction === "es_to_bs") {
-        speak(nextEntry.word.es);
-      }
+      // Always speak Spanish word on card change (triggered from click = user gesture)
+      speak(sequence[nextIndex].word.es);
       setIndex(nextIndex);
     } else {
       onComplete();

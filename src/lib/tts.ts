@@ -3,7 +3,7 @@
 // ── Audio cache ───────────────────────────────────────────────────────────────
 const audioCache = new Map<string, string>();
 
-// ── Voice loading — wait for voiceschanged so Google online voices are ready ──
+// ── Voice loading ─────────────────────────────────────────────────────────────
 let _voicesPromise: Promise<SpeechSynthesisVoice[]> | null = null;
 
 function loadVoices(): Promise<SpeechSynthesisVoice[]> {
@@ -29,7 +29,29 @@ function pickBestVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | n
   );
 }
 
-// ── Server TTS (OpenAI tts-1-hd) — only if TTS_API_KEY is set ────────────────
+// ── Server TTS availability — probed ONCE at module load, not on first speak ──
+// This prevents the first speak() from hanging on a network request
+let _serverAvailable = false; // default: use browser TTS
+
+async function probeServerTTS(): Promise<void> {
+  try {
+    const res = await fetch("/api/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: "hola" }),
+    });
+    if (res.ok) {
+      const blob = await res.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      audioCache.set("hola", blobUrl);
+      _serverAvailable = true;
+    }
+  } catch {
+    // server TTS not available — use browser
+  }
+}
+
+// ── Server TTS playback ───────────────────────────────────────────────────────
 async function speakServerTTS(text: string): Promise<boolean> {
   try {
     let blobUrl = audioCache.get(text);
@@ -39,24 +61,25 @@ async function speakServerTTS(text: string): Promise<boolean> {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
       });
-      if (!res.ok) return false;
+      if (!res.ok) { _serverAvailable = false; return false; }
       const blob = await res.blob();
       blobUrl = URL.createObjectURL(blob);
       audioCache.set(text, blobUrl);
     }
     const audio = new Audio(blobUrl);
-    await audio.play();
+    audio.play();
     return true;
   } catch {
+    _serverAvailable = false;
     return false;
   }
 }
 
-// ── Web Speech API (Google online voice — free) ───────────────────────────────
+// ── Web Speech API ────────────────────────────────────────────────────────────
 async function speakWebSpeech(text: string, lang = "es-ES"): Promise<void> {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
-  await new Promise((r) => setTimeout(r, 50)); // let cancel flush
+  await new Promise((r) => setTimeout(r, 50));
 
   const voices = await loadVoices();
   const voice = pickBestVoice(voices);
@@ -66,27 +89,19 @@ async function speakWebSpeech(text: string, lang = "es-ES"): Promise<void> {
   u.rate = 0.8;
   u.pitch = 1.0;
   if (voice) u.voice = voice;
-
   window.speechSynthesis.speak(u);
 }
 
-// ── Public API ────────────────────────────────────────────────────────────────
-// Kick off voice loading as early as possible (before user clicks anything)
-if (typeof window !== "undefined" && window.speechSynthesis) {
-  window.speechSynthesis.getVoices();
+// ── Init: kick off voice loading + server probe in background ─────────────────
+if (typeof window !== "undefined") {
+  window.speechSynthesis.getVoices(); // triggers voiceschanged in Chrome
+  loadVoices();                        // warm up promise
+  probeServerTTS();                    // probe server in background — won't block speak()
 }
 
-let _serverAvailable: boolean | null = null;
-
+// ── Public API ────────────────────────────────────────────────────────────────
 export async function speak(text: string, lang = "es-ES"): Promise<void> {
   if (!text?.trim()) return;
-
-  // First call: probe server TTS
-  if (_serverAvailable === null) {
-    _serverAvailable = await speakServerTTS(text);
-    if (!_serverAvailable) await speakWebSpeech(text, lang);
-    return;
-  }
 
   if (_serverAvailable) {
     const ok = await speakServerTTS(text);

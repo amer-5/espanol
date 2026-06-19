@@ -71,26 +71,27 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const { word, direction, round } = entry;
   const isEsFirst = direction === "es_to_bs";
 
-  // Auto-play TTS when card changes
-  // es_to_bs → play Spanish immediately
-  // bs_to_es → no auto-play (user should recall first)
+  // Reset state when card changes (no auto-play — browser blocks audio without gesture)
   useEffect(() => {
     setFlipped(false);
     setMicState("idle");
     setHeard("");
-    if (isEsFirst) {
-      speak(word.es);
-    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
 
   const next = useCallback(() => {
-    if (index < sequence.length - 1) {
-      setIndex((i) => i + 1);
+    const nextIndex = index < sequence.length - 1 ? index + 1 : null;
+    if (nextIndex !== null) {
+      const nextEntry = sequence[nextIndex];
+      // Play TTS directly from user gesture so browser allows audio
+      if (nextEntry.direction === "es_to_bs") {
+        speak(nextEntry.word.es);
+      }
+      setIndex(nextIndex);
     } else {
       onComplete();
     }
-  }, [index, sequence.length, onComplete]);
+  }, [index, sequence, onComplete]);
 
   // Auto-advance 1.5s after correct pronunciation
   useEffect(() => {

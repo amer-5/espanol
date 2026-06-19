@@ -182,6 +182,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
         <div
           style={{
             transformStyle: "preserve-3d",
+            WebkitTransformStyle: "preserve-3d",
             transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
             transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
             position: "relative",
@@ -191,7 +192,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
           {/* Front */}
           <div
             className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-gray-800 rounded-3xl shadow-lg p-8"
-            style={{ backfaceVisibility: "hidden" }}
+            style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
           >
             <div className="text-center space-y-2 w-full">
               <p className="text-xs text-gray-400 uppercase tracking-widest">
@@ -226,7 +227,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
           {/* Back */}
           <div
             className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-gray-800 rounded-3xl shadow-lg p-8"
-            style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
+            style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
           >
             <div className="text-center space-y-4 w-full">
               <p className="text-xs text-gray-400 uppercase tracking-widest">

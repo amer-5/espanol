@@ -34,8 +34,8 @@ function speakWebSpeech(text: string, lang = "es-ES"): void {
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = lang;
-  utterance.rate = 0.88;
-  utterance.pitch = 1.0;
+  utterance.rate = 0.78;
+  utterance.pitch = 1.05;
 
   const voices = window.speechSynthesis.getVoices();
 

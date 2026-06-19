@@ -1,20 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
-  const apiKey = process.env.AI_API_KEY;
-  const baseUrl = process.env.AI_BASE_URL ?? "https://api.openai.com/v1";
+  // TTS uses dedicated key — Groq/OpenRouter don't have audio endpoints
+  const apiKey = process.env.TTS_API_KEY ?? process.env.OPENAI_API_KEY;
+  // Always use OpenAI for TTS regardless of AI_BASE_URL
+  const baseUrl = "https://api.openai.com/v1";
 
   if (!apiKey) {
     return NextResponse.json({ error: "TTS not configured" }, { status: 503 });
   }
 
-  const { text, lang } = await req.json();
+  const { text } = await req.json();
   if (!text) {
     return NextResponse.json({ error: "No text provided" }, { status: 400 });
   }
-
-  // Pick voice based on language — nova is clear and natural for Spanish
-  const voice = lang?.startsWith("es") ? "nova" : "alloy";
 
   const res = await fetch(`${baseUrl}/audio/speech`, {
     method: "POST",
@@ -23,10 +22,10 @@ export async function POST(req: NextRequest) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "tts-1",
+      model: "tts-1-hd",   // HD model — noticeably clearer
       input: text,
-      voice,
-      speed: 0.9,
+      voice: "shimmer",    // warm, clear female voice — best for Spanish learning
+      speed: 0.85,
     }),
   });
 

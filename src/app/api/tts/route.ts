@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 
+// ElevenLabs voice ID — "Charlotte" multilingual (great for Spanish)
+// Free alternatives: Rachel=21m00Tcm4TlvDq8ikWAM, Bella=EXAVITQu4vr4xnSDxMaL
+const VOICE_ID = "XB0fDUnXU5powFXDhCwa";
+
 export async function POST(req: NextRequest) {
-  // TTS uses dedicated key — Groq/OpenRouter don't have audio endpoints
-  const apiKey = process.env.TTS_API_KEY ?? process.env.OPENAI_API_KEY;
-  // Always use OpenAI for TTS regardless of AI_BASE_URL
-  const baseUrl = "https://api.openai.com/v1";
+  const apiKey = process.env.ELEVENLABS_API_KEY ?? process.env.TTS_API_KEY;
 
   if (!apiKey) {
     return NextResponse.json({ error: "TTS not configured" }, { status: 503 });
@@ -15,23 +16,30 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "No text provided" }, { status: 400 });
   }
 
-  const res = await fetch(`${baseUrl}/audio/speech`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: "tts-1-hd",   // HD model — noticeably clearer
-      input: text,
-      voice: "shimmer",    // warm, clear female voice — best for Spanish learning
-      speed: 0.85,
-    }),
-  });
+  const res = await fetch(
+    `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`,
+    {
+      method: "POST",
+      headers: {
+        "xi-api-key": apiKey,
+        "Content-Type": "application/json",
+        Accept: "audio/mpeg",
+      },
+      body: JSON.stringify({
+        text,
+        model_id: "eleven_multilingual_v2",
+        voice_settings: {
+          stability: 0.5,
+          similarity_boost: 0.75,
+          speed: 0.85,
+        },
+      }),
+    }
+  );
 
   if (!res.ok) {
     const err = await res.text();
-    console.error("TTS API error:", err);
+    console.error("ElevenLabs TTS error:", res.status, err);
     return NextResponse.json({ error: "TTS failed" }, { status: 502 });
   }
 

@@ -3,50 +3,9 @@
 // ── Audio cache ───────────────────────────────────────────────────────────────
 const audioCache = new Map<string, string>();
 
-// ── Voice loading ─────────────────────────────────────────────────────────────
-let _voicesPromise: Promise<SpeechSynthesisVoice[]> | null = null;
-
-function loadVoices(): Promise<SpeechSynthesisVoice[]> {
-  if (_voicesPromise) return _voicesPromise;
-  _voicesPromise = new Promise((resolve) => {
-    if (typeof window === "undefined") { resolve([]); return; }
-    const quick = window.speechSynthesis.getVoices();
-    if (quick.length > 0) { resolve(quick); return; }
-    const done = () => resolve(window.speechSynthesis.getVoices());
-    window.speechSynthesis.addEventListener("voiceschanged", done, { once: true });
-    setTimeout(done, 3000);
-  });
-  return _voicesPromise;
-}
-
-function pickBestVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
-  return (
-    voices.find((v) => v.lang === "es-ES" && /google/i.test(v.name)) ||
-    voices.find((v) => v.lang.startsWith("es") && /google/i.test(v.name)) ||
-    voices.find((v) => v.lang.startsWith("es") && !v.localService) ||
-    voices.find((v) => v.lang.startsWith("es")) ||
-    null
-  );
-}
-
-// ── Web Speech API ────────────────────────────────────────────────────────────
-function speakWebSpeech(text: string, lang = "es-ES"): void {
-  if (typeof window === "undefined" || !window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-
-  const voices = window.speechSynthesis.getVoices();
-  const voice = pickBestVoice(voices);
-
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = lang;
-  u.rate = 0.8;
-  u.pitch = 1.0;
-  if (voice) u.voice = voice;
-  window.speechSynthesis.speak(u);
-}
-
-// ── Server TTS (OpenAI tts-1-hd) — only if explicitly enabled ────────────────
-const SERVER_TTS_ENABLED = process.env.NEXT_PUBLIC_TTS_SERVER === "true";
+// ── Server TTS (ElevenLabs via /api/tts) ─────────────────────────────────────
+// NEXT_PUBLIC_TTS_SERVER=true means ElevenLabs API key is configured
+const SERVER_ENABLED = process.env.NEXT_PUBLIC_TTS_SERVER === "true";
 
 async function speakServerTTS(text: string): Promise<boolean> {
   try {
@@ -70,7 +29,43 @@ async function speakServerTTS(text: string): Promise<boolean> {
   }
 }
 
-// Warm up voice loading as early as possible
+// ── Web Speech API fallback ───────────────────────────────────────────────────
+let _voicesPromise: Promise<SpeechSynthesisVoice[]> | null = null;
+
+function loadVoices(): Promise<SpeechSynthesisVoice[]> {
+  if (_voicesPromise) return _voicesPromise;
+  _voicesPromise = new Promise((resolve) => {
+    if (typeof window === "undefined") { resolve([]); return; }
+    const quick = window.speechSynthesis.getVoices();
+    if (quick.length > 0) { resolve(quick); return; }
+    const done = () => resolve(window.speechSynthesis.getVoices());
+    window.speechSynthesis.addEventListener("voiceschanged", done, { once: true });
+    setTimeout(done, 3000);
+  });
+  return _voicesPromise;
+}
+
+function speakWebSpeech(text: string, lang = "es-ES"): void {
+  if (typeof window === "undefined" || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+
+  const voices = window.speechSynthesis.getVoices();
+  const voice =
+    voices.find((v) => v.lang === "es-ES" && /google/i.test(v.name)) ||
+    voices.find((v) => v.lang.startsWith("es") && /google/i.test(v.name)) ||
+    voices.find((v) => v.lang.startsWith("es") && !v.localService) ||
+    voices.find((v) => v.lang.startsWith("es")) ||
+    null;
+
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = lang;
+  u.rate = 0.8;
+  u.pitch = 1.0;
+  if (voice) u.voice = voice;
+  window.speechSynthesis.speak(u);
+}
+
+// Warm up voice loading early
 if (typeof window !== "undefined" && window.speechSynthesis) {
   window.speechSynthesis.getVoices();
   loadVoices();
@@ -80,7 +75,7 @@ if (typeof window !== "undefined" && window.speechSynthesis) {
 export async function speak(text: string, lang = "es-ES"): Promise<void> {
   if (!text?.trim()) return;
 
-  if (SERVER_TTS_ENABLED) {
+  if (SERVER_ENABLED) {
     const ok = await speakServerTTS(text);
     if (!ok) speakWebSpeech(text, lang);
   } else {

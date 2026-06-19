@@ -259,8 +259,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
               {isEsFirst && word.ipa && (
                 <p className="text-sm text-gray-400 font-mono">[{word.ipa}]</p>
               )}
-              {/* Intro: always show translation. Quiz first time: show. Quiz repeat: must flip */}
-              {(isIntro || !seenBefore) ? (
+              {/* Intro: always show translation. Quiz: never — must flip */}
+              {isIntro ? (
                 <p className={`text-base font-medium pt-1 ${isEsFirst ? "text-gray-500 dark:text-gray-400" : "text-emerald-600 dark:text-emerald-400"}`}>
                   {isEsFirst ? word.bs : word.es}
                 </p>

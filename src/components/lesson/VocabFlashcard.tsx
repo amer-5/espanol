@@ -143,19 +143,18 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
     setMicState("idle");
   };
 
-  // Progress across ALL cards
+  // How many unique words seen so far (by first appearance in shuffled sequence)
+  const uniqueWordsSeen = new Set(sequence.slice(0, index + 1).map((e) => e.word.es)).size;
+
   const totalCards = sequence.length;
   const progress = ((index + 1) / totalCards) * 100;
-
-  // Which word number out of vocab
-  const wordIndex = vocab.indexOf(word) + 1;
 
   return (
     <div className="flex flex-col min-h-[70vh]">
       {/* Progress */}
       <div className="mb-3">
         <div className="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
-          <span>Riječ {wordIndex}/{vocab.length} · ponavljanje {round}/5</span>
+          <span>Riječ {uniqueWordsSeen}/{vocab.length} · ponavljanje {round}/5</span>
           <span>{index + 1}/{totalCards}</span>
         </div>
         <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">

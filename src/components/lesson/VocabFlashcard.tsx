@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import type { VocabItem } from "@/types/lesson";
 import { speak, preloadTTS } from "@/lib/tts";
-import { ChevronRight, Mic, MicOff, CheckCircle2, XCircle, Volume2, RefreshCw } from "lucide-react";
+import { ChevronRight, ChevronLeft, Mic, MicOff, CheckCircle2, XCircle, Volume2, RefreshCw } from "lucide-react";
 
 interface Props {
   vocab: VocabItem[];
@@ -15,7 +15,7 @@ type MicState = "idle" | "listening" | "correct" | "wrong";
 interface CardEntry {
   word: VocabItem;
   direction: Direction;
-  round: number;
+  phase: "intro" | "quiz";
 }
 
 function normalize(s: string) {
@@ -35,30 +35,7 @@ function shuffle<T>(arr: T[]): T[] {
   return arr;
 }
 
-function buildSequence(vocab: VocabItem[]): CardEntry[] {
-  // Each word appears 5 times: 3× es_to_bs, 2× bs_to_es, separately shuffled then interleaved
-  const esFirst: CardEntry[] = [];
-  const bsFirst: CardEntry[] = [];
-  for (const word of vocab) {
-    for (let r = 1; r <= 3; r++) esFirst.push({ word, direction: "es_to_bs", round: r });
-    for (let r = 1; r <= 2; r++) bsFirst.push({ word, direction: "bs_to_es", round: r });
-  }
-  shuffle(esFirst);
-  shuffle(bsFirst);
-
-  // Interleave: alternate es/bs groups so they mix
-  const all: CardEntry[] = [];
-  const eQ = [...esFirst];
-  const bQ = [...bsFirst];
-  let flip = false;
-  while (eQ.length || bQ.length) {
-    if (flip && bQ.length) { all.push(bQ.shift()!); }
-    else if (eQ.length) { all.push(eQ.shift()!); }
-    else { all.push(bQ.shift()!); }
-    flip = !flip;
-  }
-
-  // Fix consecutive same-word duplicates
+function fixConsecutive(all: CardEntry[]): CardEntry[] {
   for (let i = 0; i < all.length - 1; i++) {
     if (all[i].word.es === all[i + 1].word.es) {
       for (let j = i + 2; j < all.length; j++) {
@@ -70,6 +47,28 @@ function buildSequence(vocab: VocabItem[]): CardEntry[] {
     }
   }
   return all;
+}
+
+function buildSequence(vocab: VocabItem[]): CardEntry[] {
+  // Phase 1: intro — all words once, Spanish → Bosnian, shuffled
+  const intro: CardEntry[] = shuffle(
+    vocab.map((word) => ({ word, direction: "es_to_bs" as Direction, phase: "intro" as const }))
+  );
+
+  // Phase 2: quiz — each word 5×, random direction, shuffled
+  const quiz: CardEntry[] = [];
+  for (const word of vocab) {
+    for (let r = 0; r < 5; r++) {
+      quiz.push({
+        word,
+        direction: Math.random() < 0.5 ? "es_to_bs" : "bs_to_es",
+        phase: "quiz",
+      });
+    }
+  }
+  fixConsecutive(shuffle(quiz));
+
+  return [...intro, ...quiz];
 }
 
 const BATCH = 10;
@@ -85,18 +84,20 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const preloadedUpTo = useRef(-1);
 
   const entry = sequence[index];
-  const { word, direction, round } = entry;
+  const { word, direction, phase } = entry;
   const isEsFirst = direction === "es_to_bs";
+  const isIntro = phase === "intro";
+  const introCount = vocab.length;
+
   const seenBefore = sequence.slice(0, index).some(
     (e) => e.word.es === word.es && e.direction === direction
   );
 
-  // Preload TTS for next batch when we enter its window
+  // Preload TTS batch
   useEffect(() => {
     const batchStart = Math.floor(index / BATCH) * BATCH;
     if (batchStart <= preloadedUpTo.current) return;
     preloadedUpTo.current = batchStart + BATCH - 1;
-
     const batch = sequence.slice(batchStart, batchStart + BATCH);
     const texts = batch.flatMap((e) => [e.word.es, e.word.example_es].filter(Boolean));
     preloadTTS(texts);
@@ -115,15 +116,22 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   }, [word.es]);
 
   const next = useCallback(() => {
-    const nextIndex = index < sequence.length - 1 ? index + 1 : null;
-    if (nextIndex !== null) {
-      speak(sequence[nextIndex].word.es);
-      setIndex(nextIndex);
+    if (index < sequence.length - 1) {
+      speak(sequence[index + 1].word.es);
+      setIndex(index + 1);
     } else {
       onComplete();
     }
   }, [index, sequence, onComplete]);
 
+  const prev = useCallback(() => {
+    if (index > 0) {
+      speak(sequence[index - 1].word.es);
+      setIndex(index - 1);
+    }
+  }, [index, sequence]);
+
+  // Auto-advance 1.5s after correct pronunciation
   useEffect(() => {
     if (micState === "correct") {
       const t = setTimeout(next, 1500);
@@ -167,16 +175,21 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
     setMicState("idle");
   };
 
-  const uniqueWordsSeen = new Set(sequence.slice(0, index + 1).map((e) => e.word.es)).size;
   const totalCards = sequence.length;
   const progress = ((index + 1) / totalCards) * 100;
+  const quizIndex = index - introCount;
+  const isQuiz = phase === "quiz";
 
   return (
     <div className="flex flex-col min-h-[70vh]">
       {/* Progress */}
       <div className="mb-3">
         <div className="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
-          <span>Riječ {uniqueWordsSeen}/{vocab.length} · ponavljanje {round}/5</span>
+          {isIntro ? (
+            <span>Uvod: {index + 1}/{introCount} · Španski → Bosanski</span>
+          ) : (
+            <span>Kviz: {quizIndex + 1}/{totalCards - introCount}</span>
+          )}
           <span>{index + 1}/{totalCards}</span>
         </div>
         <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
@@ -186,13 +199,19 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
           />
         </div>
         <div className="flex gap-2 mt-2">
-          <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-            isEsFirst
-              ? "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300"
-              : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300"
-          }`}>
-            {isEsFirst ? "🇪🇸 Španski → Bosanski" : "🇧🇦 Bosanski → Španski"}
-          </span>
+          {isIntro ? (
+            <span className="text-xs px-2 py-0.5 rounded-full font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300">
+              📖 Uvod
+            </span>
+          ) : (
+            <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+              isEsFirst
+                ? "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300"
+                : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300"
+            }`}>
+              {isEsFirst ? "🇪🇸 Španski → Bosanski" : "🇧🇦 Bosanski → Španski"}
+            </span>
+          )}
         </div>
       </div>
 
@@ -225,7 +244,6 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
                 <p className={`font-bold ${isEsFirst ? "text-5xl text-emerald-600 dark:text-emerald-400" : "text-4xl text-blue-600 dark:text-blue-400"}`}>
                   {isEsFirst ? word.es : word.bs}
                 </p>
-                {/* Play button always visible on front — solves autoplay browser restriction */}
                 <button
                   onClick={(e) => { e.stopPropagation(); playCurrentSpanish(); }}
                   className="p-2.5 rounded-full bg-emerald-500 text-white shadow-md hover:bg-emerald-600 active:scale-90 transition-all cursor-pointer flex-shrink-0"
@@ -237,7 +255,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
               {isEsFirst && word.ipa && (
                 <p className="text-sm text-gray-400 font-mono">[{word.ipa}]</p>
               )}
-              {!seenBefore ? (
+              {/* Intro: always show translation. Quiz first time: show. Quiz repeat: must flip */}
+              {(isIntro || !seenBefore) ? (
                 <p className={`text-base font-medium pt-1 ${isEsFirst ? "text-gray-500 dark:text-gray-400" : "text-emerald-600 dark:text-emerald-400"}`}>
                   {isEsFirst ? word.bs : word.es}
                 </p>
@@ -314,6 +333,17 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
       {/* Bottom controls */}
       <div className="mt-4 flex items-center gap-3">
+        {/* Back button */}
+        <button
+          onClick={prev}
+          disabled={index === 0}
+          className="w-12 h-14 rounded-2xl bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-30 flex items-center justify-center transition-all cursor-pointer"
+          aria-label="Nazad"
+        >
+          <ChevronLeft className="w-5 h-5" />
+        </button>
+
+        {/* Repeat button */}
         <button
           onClick={() => speak(word.es)}
           className="w-12 h-14 rounded-2xl bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center transition-all cursor-pointer"
@@ -321,26 +351,32 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
         >
           <RefreshCw className="w-5 h-5" />
         </button>
-        <button
-          onClick={micState === "listening" ? stopListening : startListening}
-          disabled={micState === "correct"}
-          className={`w-14 h-14 rounded-full flex items-center justify-center transition-all shadow flex-shrink-0 cursor-pointer ${
-            micState === "listening"
-              ? "bg-red-500 text-white scale-110 animate-pulse"
+
+        {/* Mic button — only in quiz phase */}
+        {isQuiz && (
+          <button
+            onClick={micState === "listening" ? stopListening : startListening}
+            disabled={micState === "correct"}
+            className={`w-14 h-14 rounded-full flex items-center justify-center transition-all shadow flex-shrink-0 cursor-pointer ${
+              micState === "listening"
+                ? "bg-red-500 text-white scale-110 animate-pulse"
+                : micState === "correct"
+                ? "bg-green-500 text-white"
+                : micState === "wrong"
+                ? "bg-orange-100 dark:bg-orange-900/30 text-orange-500"
+                : "bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600"
+            }`}
+            aria-label="Mikrofon"
+          >
+            {micState === "listening"
+              ? <MicOff className="w-6 h-6" />
               : micState === "correct"
-              ? "bg-green-500 text-white"
-              : micState === "wrong"
-              ? "bg-orange-100 dark:bg-orange-900/30 text-orange-500"
-              : "bg-gray-100 dark:bg-gray-700 text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600"
-          }`}
-          aria-label="Mikrofon"
-        >
-          {micState === "listening"
-            ? <MicOff className="w-6 h-6" />
-            : micState === "correct"
-            ? <CheckCircle2 className="w-6 h-6" />
-            : <Mic className="w-6 h-6" />}
-        </button>
+              ? <CheckCircle2 className="w-6 h-6" />
+              : <Mic className="w-6 h-6" />}
+          </button>
+        )}
+
+        {/* Next button */}
         <button
           onClick={next}
           className="flex-1 h-14 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-bold rounded-2xl flex items-center justify-center gap-2 transition-all text-base shadow cursor-pointer"

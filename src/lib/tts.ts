@@ -3,36 +3,33 @@
 // ── Audio cache ───────────────────────────────────────────────────────────────
 const audioCache = new Map<string, string>();
 
-// ── Voice cache — loaded once after voiceschanged fires ───────────────────────
-let _voicesReady: Promise<SpeechSynthesisVoice[]> | null = null;
+// ── Voice loading — wait for voiceschanged so Google online voices are ready ──
+let _voicesPromise: Promise<SpeechSynthesisVoice[]> | null = null;
 
 function loadVoices(): Promise<SpeechSynthesisVoice[]> {
-  if (_voicesReady) return _voicesReady;
-  _voicesReady = new Promise((resolve) => {
-    const immediate = window.speechSynthesis.getVoices();
-    if (immediate.length > 0) { resolve(immediate); return; }
-    const handler = () => resolve(window.speechSynthesis.getVoices());
-    window.speechSynthesis.addEventListener("voiceschanged", handler, { once: true });
-    // Safety timeout — resolve whatever is available after 2s
-    setTimeout(() => resolve(window.speechSynthesis.getVoices()), 2000);
+  if (_voicesPromise) return _voicesPromise;
+  _voicesPromise = new Promise((resolve) => {
+    if (typeof window === "undefined") { resolve([]); return; }
+    const quick = window.speechSynthesis.getVoices();
+    if (quick.length > 0) { resolve(quick); return; }
+    const done = () => resolve(window.speechSynthesis.getVoices());
+    window.speechSynthesis.addEventListener("voiceschanged", done, { once: true });
+    setTimeout(done, 2500);
   });
-  return _voicesReady;
+  return _voicesPromise;
 }
 
-// Pick best Spanish voice: prefer Google online neural, then any online, then local
-async function pickVoice(): Promise<SpeechSynthesisVoice | null> {
-  const voices = await loadVoices();
+function pickBestVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
   return (
-    voices.find((v) => v.lang === "es-ES" && v.name.toLowerCase().includes("google")) ||
-    voices.find((v) => v.lang.startsWith("es-ES") && !v.localService) ||
-    voices.find((v) => v.lang.startsWith("es") && v.name.toLowerCase().includes("google")) ||
+    voices.find((v) => v.lang === "es-ES" && /google/i.test(v.name)) ||
+    voices.find((v) => v.lang.startsWith("es") && /google/i.test(v.name)) ||
     voices.find((v) => v.lang.startsWith("es") && !v.localService) ||
     voices.find((v) => v.lang.startsWith("es")) ||
     null
   );
 }
 
-// ── Server-side TTS (OpenAI tts-1-hd via /api/tts) ───────────────────────────
+// ── Server TTS (OpenAI tts-1-hd) — only if TTS_API_KEY is set ────────────────
 async function speakServerTTS(text: string): Promise<boolean> {
   try {
     let blobUrl = audioCache.get(text);
@@ -55,32 +52,36 @@ async function speakServerTTS(text: string): Promise<boolean> {
   }
 }
 
-// ── Web Speech API (Google online voice — free, sounds natural) ───────────────
+// ── Web Speech API (Google online voice — free) ───────────────────────────────
 async function speakWebSpeech(text: string, lang = "es-ES"): Promise<void> {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
+  await new Promise((r) => setTimeout(r, 50)); // let cancel flush
 
-  const voice = await pickVoice();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = lang;
-  utterance.rate = 0.8;
-  utterance.pitch = 1.0;
-  if (voice) utterance.voice = voice;
+  const voices = await loadVoices();
+  const voice = pickBestVoice(voices);
 
-  window.speechSynthesis.speak(utterance);
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = lang;
+  u.rate = 0.8;
+  u.pitch = 1.0;
+  if (voice) u.voice = voice;
+
+  window.speechSynthesis.speak(u);
 }
 
 // ── Public API ────────────────────────────────────────────────────────────────
-// Warm up voice loading on first import
-if (typeof window !== "undefined") {
-  window.speechSynthesis.getVoices(); // triggers voiceschanged in Chrome
+// Kick off voice loading as early as possible (before user clicks anything)
+if (typeof window !== "undefined" && window.speechSynthesis) {
+  window.speechSynthesis.getVoices();
 }
 
 let _serverAvailable: boolean | null = null;
 
 export async function speak(text: string, lang = "es-ES"): Promise<void> {
-  if (!text) return;
+  if (!text?.trim()) return;
 
+  // First call: probe server TTS
   if (_serverAvailable === null) {
     _serverAvailable = await speakServerTTS(text);
     if (!_serverAvailable) await speakWebSpeech(text, lang);

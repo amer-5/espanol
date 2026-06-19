@@ -64,7 +64,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [micState, setMicState] = useState<MicState>("idle");
   const [heard, setHeard] = useState("");
-  const recogRef = useRef<SpeechRecognition | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const recogRef = useRef<any>(null);
 
   const entry = sequence[index];
   const { word, direction, round } = entry;
@@ -101,8 +102,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
   const startListening = () => {
     const SR =
-      (window as unknown as { SpeechRecognition?: typeof SpeechRecognition }).SpeechRecognition ??
-      (window as unknown as { webkitSpeechRecognition?: typeof SpeechRecognition }).webkitSpeechRecognition;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).SpeechRecognition ?? (window as any).webkitSpeechRecognition;
 
     if (!SR) {
       alert("Tvoj browser ne podržava prepoznavanje govora. Koristi Chrome ili Brave.");

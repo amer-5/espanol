@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// ElevenLabs voice ID — "Charlotte" multilingual (great for Spanish)
-// Free alternatives: Rachel=21m00Tcm4TlvDq8ikWAM, Bella=EXAVITQu4vr4xnSDxMaL
-const VOICE_ID = "XB0fDUnXU5powFXDhCwa";
+// ElevenLabs voice ID — "Rachel" (free tier, clear female voice)
+const VOICE_ID = "21m00Tcm4TlvDq8ikWAM";
 
 export async function POST(req: NextRequest) {
   const apiKey = process.env.ELEVENLABS_API_KEY ?? process.env.TTS_API_KEY;

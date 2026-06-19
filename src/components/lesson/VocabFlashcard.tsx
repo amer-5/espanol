@@ -119,9 +119,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const next = useCallback(() => {
     if (index < sequence.length - 1) {
       const nextEntry = sequence[index + 1];
-      // For es_to_bs: auto-play Spanish (word is shown on front)
-      // For bs_to_es: auto-play Spanish too (user needs to hear what they must say)
-      speak(nextEntry.word.es);
+      // Only auto-play for ES→BS cards (Spanish shown on front)
+      if (nextEntry.direction === "es_to_bs") speak(nextEntry.word.es);
       setIndex(index + 1);
     } else {
       onComplete();
@@ -130,7 +129,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
   const prev = useCallback(() => {
     if (index > 0) {
-      speak(sequence[index - 1].word.es);
+      const prevEntry = sequence[index - 1];
+      if (prevEntry.direction === "es_to_bs") speak(prevEntry.word.es);
       setIndex(index - 1);
     }
   }, [index, sequence]);
@@ -248,13 +248,16 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
                 <p className={`font-bold ${isEsFirst ? "text-5xl text-emerald-600 dark:text-emerald-400" : "text-4xl text-blue-600 dark:text-blue-400"}`}>
                   {isEsFirst ? word.es : word.bs}
                 </p>
-                <button
-                  onClick={(e) => { e.stopPropagation(); playCurrentSpanish(); }}
-                  className="p-2.5 rounded-full bg-emerald-500 text-white shadow-md hover:bg-emerald-600 active:scale-90 transition-all cursor-pointer flex-shrink-0"
-                  aria-label="Izgovor"
-                >
-                  <Volume2 className="w-5 h-5" />
-                </button>
+                {/* Play button only for ES→BS (don't reveal Spanish on BS→ES front) */}
+                {isEsFirst && (
+                  <button
+                    onClick={(e) => { e.stopPropagation(); playCurrentSpanish(); }}
+                    className="p-2.5 rounded-full bg-emerald-500 text-white shadow-md hover:bg-emerald-600 active:scale-90 transition-all cursor-pointer flex-shrink-0"
+                    aria-label="Izgovor"
+                  >
+                    <Volume2 className="w-5 h-5" />
+                  </button>
+                )}
               </div>
               {isEsFirst && word.ipa && (
                 <p className="text-sm text-gray-400 font-mono">[{word.ipa}]</p>

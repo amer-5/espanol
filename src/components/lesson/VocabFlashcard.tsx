@@ -122,7 +122,8 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
       rec.maxAlternatives = 3;
       recogRef.current = rec;
 
-      rec.onresult = (e) => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      rec.onresult = (e: any) => {
         const results = Array.from(e.results[0]).map((r) => r.transcript);
         const h = results[0];
         setHeard(h);

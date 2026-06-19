@@ -79,20 +79,21 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
     preloadTTS(texts);
   }, [index, sequence]);
 
-  // Reset state + auto-play Spanish when card changes
+  // Reset state when card changes
   useEffect(() => {
     setFlipped(false);
     setMicState("idle");
     setHeard("");
-    // index 0: try auto-play (works if user already interacted with page)
-    if (index === 0) speak(sequence[0].word.es);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
+
+  const playCurrentSpanish = useCallback(() => {
+    speak(word.es);
+  }, [word.es]);
 
   const next = useCallback(() => {
     const nextIndex = index < sequence.length - 1 ? index + 1 : null;
     if (nextIndex !== null) {
-      // Always speak Spanish word on card change (triggered from click = user gesture)
       speak(sequence[nextIndex].word.es);
       setIndex(nextIndex);
     } else {
@@ -174,7 +175,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
       {/* Flip card */}
       <div
-        className="flex-1 min-h-[280px] cursor-pointer select-none"
+        className="h-[300px] cursor-pointer select-none"
         style={{ perspective: "1200px" }}
         onClick={() => setFlipped((f) => !f)}
       >
@@ -192,31 +193,32 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
             className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-gray-800 rounded-3xl shadow-lg p-8"
             style={{ backfaceVisibility: "hidden" }}
           >
-            <div className="text-center space-y-3 w-full">
+            <div className="text-center space-y-2 w-full">
               <p className="text-xs text-gray-400 uppercase tracking-widest">
                 {isEsFirst ? "Španski" : "Bosanski"}
               </p>
-              <p className={`font-bold ${isEsFirst ? "text-5xl text-emerald-600 dark:text-emerald-400" : "text-4xl text-blue-600 dark:text-blue-400"}`}>
-                {isEsFirst ? word.es : word.bs}
-              </p>
-              {isEsFirst && word.ipa && (
-                <p className="text-sm text-gray-400 font-mono">[{word.ipa}]</p>
-              )}
-              {isEsFirst && (
+              <div className="flex items-center justify-center gap-3">
+                <p className={`font-bold ${isEsFirst ? "text-5xl text-emerald-600 dark:text-emerald-400" : "text-4xl text-blue-600 dark:text-blue-400"}`}>
+                  {isEsFirst ? word.es : word.bs}
+                </p>
+                {/* Play button always visible on front — solves autoplay browser restriction */}
                 <button
-                  onClick={(e) => { e.stopPropagation(); speak(word.es); }}
-                  className="mt-2 p-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 cursor-pointer"
+                  onClick={(e) => { e.stopPropagation(); playCurrentSpanish(); }}
+                  className="p-2.5 rounded-full bg-emerald-500 text-white shadow-md hover:bg-emerald-600 active:scale-90 transition-all cursor-pointer flex-shrink-0"
                   aria-label="Izgovor"
                 >
                   <Volume2 className="w-5 h-5" />
                 </button>
+              </div>
+              {isEsFirst && word.ipa && (
+                <p className="text-sm text-gray-400 font-mono">[{word.ipa}]</p>
               )}
               {!seenBefore ? (
-                <p className={`text-lg font-medium mt-2 ${isEsFirst ? "text-gray-600 dark:text-gray-300" : "text-emerald-600 dark:text-emerald-400"}`}>
+                <p className={`text-base font-medium pt-1 ${isEsFirst ? "text-gray-500 dark:text-gray-400" : "text-emerald-600 dark:text-emerald-400"}`}>
                   {isEsFirst ? word.bs : word.es}
                 </p>
               ) : (
-                <p className="text-xs text-gray-400 mt-3">Tapni da vidiš {isEsFirst ? "prijevod" : "špansku riječ"}</p>
+                <p className="text-xs text-gray-400 pt-2">Tapni da vidiš {isEsFirst ? "prijevod" : "špansku riječ"}</p>
               )}
             </div>
           </div>

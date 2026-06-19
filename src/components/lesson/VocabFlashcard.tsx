@@ -27,17 +27,38 @@ function normalize(s: string) {
     .trim();
 }
 
-function buildSequence(vocab: VocabItem[]): CardEntry[] {
-  const all: CardEntry[] = [];
-  for (const word of vocab) {
-    for (let r = 1; r <= 5; r++) {
-      all.push({ word, direction: r % 2 === 1 ? "es_to_bs" : "bs_to_es", round: r });
-    }
-  }
-  for (let i = all.length - 1; i > 0; i--) {
+function shuffle<T>(arr: T[]): T[] {
+  for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [all[i], all[j]] = [all[j], all[i]];
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
+  return arr;
+}
+
+function buildSequence(vocab: VocabItem[]): CardEntry[] {
+  // Each word appears 5 times: 3× es_to_bs, 2× bs_to_es, separately shuffled then interleaved
+  const esFirst: CardEntry[] = [];
+  const bsFirst: CardEntry[] = [];
+  for (const word of vocab) {
+    for (let r = 1; r <= 3; r++) esFirst.push({ word, direction: "es_to_bs", round: r });
+    for (let r = 1; r <= 2; r++) bsFirst.push({ word, direction: "bs_to_es", round: r });
+  }
+  shuffle(esFirst);
+  shuffle(bsFirst);
+
+  // Interleave: alternate es/bs groups so they mix
+  const all: CardEntry[] = [];
+  const eQ = [...esFirst];
+  const bQ = [...bsFirst];
+  let flip = false;
+  while (eQ.length || bQ.length) {
+    if (flip && bQ.length) { all.push(bQ.shift()!); }
+    else if (eQ.length) { all.push(eQ.shift()!); }
+    else { all.push(bQ.shift()!); }
+    flip = !flip;
+  }
+
+  // Fix consecutive same-word duplicates
   for (let i = 0; i < all.length - 1; i++) {
     if (all[i].word.es === all[i + 1].word.es) {
       for (let j = i + 2; j < all.length; j++) {
@@ -66,7 +87,9 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const entry = sequence[index];
   const { word, direction, round } = entry;
   const isEsFirst = direction === "es_to_bs";
-  const seenBefore = sequence.slice(0, index).some((e) => e.word.es === word.es);
+  const seenBefore = sequence.slice(0, index).some(
+    (e) => e.word.es === word.es && e.direction === direction
+  );
 
   // Preload TTS for next batch when we enter its window
   useEffect(() => {

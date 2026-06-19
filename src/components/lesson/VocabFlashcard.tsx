@@ -71,6 +71,9 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const { word, direction, round } = entry;
   const isEsFirst = direction === "es_to_bs";
 
+  // Word seen before this card (first appearance = show translation, 2nd+ = must flip)
+  const seenBefore = sequence.slice(0, index).some((e) => e.word.es === word.es);
+
   // Reset state when card changes (no auto-play — browser blocks audio without gesture)
   useEffect(() => {
     setFlipped(false);
@@ -204,7 +207,14 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
                 <Volume2 className="w-5 h-5" />
               </button>
             )}
-            <p className="text-xs text-gray-400 mt-3">Tapni da vidiš {isEsFirst ? "prijevod" : "špansku riječ"}</p>
+            {/* First time: show translation. 2nd+ time: hint to flip */}
+            {!seenBefore ? (
+              <p className={`text-lg font-medium mt-2 ${isEsFirst ? "text-gray-600 dark:text-gray-300" : "text-emerald-600 dark:text-emerald-400"}`}>
+                {isEsFirst ? word.bs : word.es}
+              </p>
+            ) : (
+              <p className="text-xs text-gray-400 mt-3">Tapni da vidiš {isEsFirst ? "prijevod" : "špansku riječ"}</p>
+            )}
           </div>
         ) : (
           // Back side

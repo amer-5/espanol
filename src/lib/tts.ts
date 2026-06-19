@@ -2,31 +2,38 @@
 
 // ── Audio cache ───────────────────────────────────────────────────────────────
 const audioCache = new Map<string, string>();
+const preloadInFlight = new Set<string>();
 
 // ── Server TTS (ElevenLabs via /api/tts) ─────────────────────────────────────
-// NEXT_PUBLIC_TTS_SERVER=true means ElevenLabs API key is configured
 const SERVER_ENABLED = process.env.NEXT_PUBLIC_TTS_SERVER === "true";
 
-async function speakServerTTS(text: string): Promise<boolean> {
+async function fetchServerTTS(text: string): Promise<string | null> {
+  if (audioCache.has(text)) return audioCache.get(text)!;
+  if (preloadInFlight.has(text)) return null; // already fetching
+  preloadInFlight.add(text);
   try {
-    let blobUrl = audioCache.get(text);
-    if (!blobUrl) {
-      const res = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
-      });
-      if (!res.ok) return false;
-      const blob = await res.blob();
-      blobUrl = URL.createObjectURL(blob);
-      audioCache.set(text, blobUrl);
-    }
-    const audio = new Audio(blobUrl);
-    audio.play();
-    return true;
+    const res = await fetch("/api/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
+    if (!res.ok) return null;
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    audioCache.set(text, url);
+    return url;
   } catch {
-    return false;
+    return null;
+  } finally {
+    preloadInFlight.delete(text);
   }
+}
+
+async function speakServerTTS(text: string): Promise<boolean> {
+  const url = await fetchServerTTS(text);
+  if (!url) return false;
+  new Audio(url).play();
+  return true;
 }
 
 // ── Web Speech API fallback ───────────────────────────────────────────────────
@@ -65,7 +72,6 @@ function speakWebSpeech(text: string, lang = "es-ES"): void {
   window.speechSynthesis.speak(u);
 }
 
-// Warm up voice loading early
 if (typeof window !== "undefined" && window.speechSynthesis) {
   window.speechSynthesis.getVoices();
   loadVoices();
@@ -74,12 +80,21 @@ if (typeof window !== "undefined" && window.speechSynthesis) {
 // ── Public API ────────────────────────────────────────────────────────────────
 export async function speak(text: string, lang = "es-ES"): Promise<void> {
   if (!text?.trim()) return;
-
   if (SERVER_ENABLED) {
     const ok = await speakServerTTS(text);
     if (!ok) speakWebSpeech(text, lang);
   } else {
     speakWebSpeech(text, lang);
+  }
+}
+
+// Preload a batch of texts in background (fire-and-forget, no duplicates)
+export function preloadTTS(texts: string[]): void {
+  if (!SERVER_ENABLED) return;
+  for (const text of texts) {
+    if (text?.trim() && !audioCache.has(text) && !preloadInFlight.has(text)) {
+      fetchServerTTS(text);
+    }
   }
 }
 

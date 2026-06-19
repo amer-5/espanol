@@ -124,7 +124,7 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       rec.onresult = (e: any) => {
-        const results = Array.from(e.results[0]).map((r) => r.transcript);
+        const results = Array.from(e.results[0]).map((r) => (r as { transcript: string }).transcript);
         const h = results[0];
         setHeard(h);
         const correct = normalize(word.es);

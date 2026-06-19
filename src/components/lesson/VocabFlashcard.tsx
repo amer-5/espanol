@@ -89,8 +89,9 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
   const isIntro = phase === "intro";
   const introCount = vocab.length;
 
+  // seenBefore only counts within same phase — intro doesn't count towards quiz "first time"
   const seenBefore = sequence.slice(0, index).some(
-    (e) => e.word.es === word.es && e.direction === direction
+    (e) => e.word.es === word.es && e.direction === direction && e.phase === phase
   );
 
   // Preload TTS batch
@@ -117,7 +118,10 @@ export default function VocabFlashcard({ vocab, onComplete }: Props) {
 
   const next = useCallback(() => {
     if (index < sequence.length - 1) {
-      speak(sequence[index + 1].word.es);
+      const nextEntry = sequence[index + 1];
+      // For es_to_bs: auto-play Spanish (word is shown on front)
+      // For bs_to_es: auto-play Spanish too (user needs to hear what they must say)
+      speak(nextEntry.word.es);
       setIndex(index + 1);
     } else {
       onComplete();

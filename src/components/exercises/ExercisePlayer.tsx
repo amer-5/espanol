@@ -141,9 +141,11 @@ function MultipleChoiceExercise({
 function FillBlankExercise({
   ex,
   onAnswer,
+  checking,
 }: {
   ex: Extract<Exercise, { type: "fill_blank" }>;
   onAnswer: (ans: string) => void;
+  checking?: boolean;
 }) {
   const [val, setVal] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -170,15 +172,15 @@ function FillBlankExercise({
       />
       <button
         onClick={() => onAnswer(val.trim())}
-        disabled={!val.trim()}
+        disabled={!val.trim() || checking}
         className={cn(
           "w-full py-4 rounded-2xl text-lg font-bold transition-all",
-          val.trim()
+          val.trim() && !checking
             ? "bg-emerald-500 hover:bg-emerald-600 text-white shadow-md active:scale-[0.98]"
             : "bg-gray-200 dark:bg-gray-700 text-gray-400 cursor-not-allowed"
         )}
       >
-        PROVJERI
+        {checking ? "Provjeravam..." : "PROVJERI"}
       </button>
     </div>
   );
@@ -188,9 +190,11 @@ function FillBlankExercise({
 function TranslationExercise({
   ex,
   onAnswer,
+  checking,
 }: {
   ex: Extract<Exercise, { type: "translation" }>;
   onAnswer: (ans: string) => void;
+  checking?: boolean;
 }) {
   const [val, setVal] = useState("");
   const inputRef = useRef<HTMLTextAreaElement>(null);
@@ -224,15 +228,15 @@ function TranslationExercise({
       />
       <button
         onClick={() => onAnswer(val.trim())}
-        disabled={!val.trim()}
+        disabled={!val.trim() || checking}
         className={cn(
           "w-full py-4 rounded-2xl text-lg font-bold transition-all",
-          val.trim()
+          val.trim() && !checking
             ? "bg-emerald-500 hover:bg-emerald-600 text-white shadow-md active:scale-[0.98]"
             : "bg-gray-200 dark:bg-gray-700 text-gray-400 cursor-not-allowed"
         )}
       >
-        PROVJERI
+        {checking ? "Provjeravam..." : "PROVJERI"}
       </button>
     </div>
   );
@@ -468,6 +472,28 @@ function FeedbackPanel({
   );
 }
 
+// ─── AI answer check for translation/fill_blank ───────────────────────────────
+async function aiCheckAnswer(
+  userAnswer: string,
+  correctAnswer: string,
+  acceptedAnswers: string[],
+  prompt: string,
+  exerciseType: string
+): Promise<boolean> {
+  try {
+    const res = await fetch("/api/check-answer", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ userAnswer, correctAnswer, acceptedAnswers, prompt, exerciseType }),
+    });
+    if (!res.ok) return false;
+    const { correct } = await res.json();
+    return !!correct;
+  } catch {
+    return false;
+  }
+}
+
 // ─── Main ExercisePlayer ──────────────────────────────────────────────────────
 export default function ExercisePlayer({ exercises, onComplete }: ExercisePlayerProps) {
   const MAX_HEARTS = 3;
@@ -479,12 +505,13 @@ export default function ExercisePlayer({ exercises, onComplete }: ExercisePlayer
     correct: boolean;
     correctAnswer?: string;
   } | null>(null);
+  const [checking, setChecking] = useState(false);
 
   const ex = exercises[current];
   const progress = current / exercises.length;
 
   const handleAnswer = useCallback(
-    (userAnswer: string) => {
+    async (userAnswer: string) => {
       let correct = false;
       let correctAnswer: string | undefined;
 
@@ -493,9 +520,20 @@ export default function ExercisePlayer({ exercises, onComplete }: ExercisePlayer
         if (!correct) correctAnswer = ex.options[ex.answerIndex];
       } else if (ex.type === "fill_blank") {
         correct = checkAnswer(userAnswer, ex.acceptedAnswers);
+        if (!correct) {
+          // Try AI check
+          setChecking(true);
+          correct = await aiCheckAnswer(userAnswer, ex.answer, ex.acceptedAnswers, ex.prompt_bs, "fill_blank");
+          setChecking(false);
+        }
         if (!correct) correctAnswer = ex.answer;
       } else if (ex.type === "translation") {
         correct = checkAnswer(userAnswer, ex.acceptedAnswers);
+        if (!correct) {
+          setChecking(true);
+          correct = await aiCheckAnswer(userAnswer, ex.answer, ex.acceptedAnswers, ex.prompt, "translation");
+          setChecking(false);
+        }
         if (!correct) correctAnswer = ex.answer;
       } else if (ex.type === "listening") {
         correct = checkAnswer(userAnswer, [ex.answer]);
@@ -524,7 +562,14 @@ export default function ExercisePlayer({ exercises, onComplete }: ExercisePlayer
 
   const advance = useCallback(() => {
     setFeedback(null);
-    if (current + 1 >= exercises.length || hearts === 0) {
+    if (hearts === 0) {
+      // All lives lost — restart from beginning
+      setCurrent(0);
+      setHearts(MAX_HEARTS);
+      setCorrectCount(0);
+      return;
+    }
+    if (current + 1 >= exercises.length) {
       const scored = exercises.filter(
         (e) => e.type !== "speaking" && e.type !== "matching"
       ).length;
@@ -584,10 +629,10 @@ export default function ExercisePlayer({ exercises, onComplete }: ExercisePlayer
             <MultipleChoiceExercise ex={ex} onAnswer={handleAnswer} />
           )}
           {ex.type === "fill_blank" && (
-            <FillBlankExercise ex={ex} onAnswer={handleAnswer} />
+            <FillBlankExercise ex={ex} onAnswer={handleAnswer} checking={checking} />
           )}
           {ex.type === "translation" && (
-            <TranslationExercise ex={ex} onAnswer={handleAnswer} />
+            <TranslationExercise ex={ex} onAnswer={handleAnswer} checking={checking} />
           )}
           {ex.type === "listening" && (
             <ListeningExercise ex={ex} onAnswer={handleAnswer} />

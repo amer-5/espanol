@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import type { Lesson } from "@/types/lesson";
 import AudioButton from "@/components/ui/AudioButton";
 import Button from "@/components/ui/Button";
@@ -9,6 +9,7 @@ import AIChat from "@/components/chat/AIChat";
 import { setLessonStatus, updateStreak } from "@/lib/progress";
 import { generateDuolingoSession } from "@/lib/duolingo";
 import { Target, BookOpen, MessageSquare, FileText, Dumbbell, Bot, Award } from "lucide-react";
+import VocabFlashcard from "./VocabFlashcard";
 import Image from "next/image";
 
 type Section =
@@ -46,6 +47,39 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
   const [readingAnswers, setReadingAnswers] = useState<(number | null)[]>(
     lesson.reading.comprehensionQuestions.map(() => null)
   );
+
+  // AI-generated extra questions for reading section
+  type AIQuestion = { question_bs: string; options: string[]; answerIndex: number };
+  const [aiQuestions, setAiQuestions] = useState<AIQuestion[]>([]);
+  const [aiAnswers, setAiAnswers] = useState<(number | null)[]>([]);
+  const [aiLoading, setAiLoading] = useState(false);
+
+  const loadAiQuestions = useCallback(async () => {
+    if (aiQuestions.length > 0 || aiLoading) return;
+    setAiLoading(true);
+    try {
+      const res = await fetch("/api/reading-questions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text_es: lesson.reading.text_es,
+          title: lesson.reading.title,
+          glossary: lesson.reading.glossary,
+        }),
+      });
+      if (res.ok) {
+        const { questions } = await res.json();
+        setAiQuestions(questions);
+        setAiAnswers(questions.map(() => null));
+      }
+    } finally {
+      setAiLoading(false);
+    }
+  }, [aiQuestions.length, aiLoading, lesson.reading]);
+
+  useEffect(() => {
+    if (section === "reading") loadAiQuestions();
+  }, [section, loadAiQuestions]);
 
   const markSectionDone = (s: Section) => {
     setCompletedSections((prev) => new Set([...prev, s]));
@@ -141,34 +175,7 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
 
         {/* Vocabulary */}
         {section === "vocabulary" && (
-          <div className="space-y-3">
-            <h2 className="text-lg font-bold text-gray-900 dark:text-white">Vokabular</h2>
-            {lesson.vocabulary.map((word, i) => (
-              <Card key={i} className="flex items-start gap-3">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="text-xl font-bold text-emerald-600 dark:text-emerald-400">
-                      {word.es}
-                    </span>
-                    <AudioButton text={word.es} size="sm" />
-                    <span className="text-xs text-gray-400 italic">{word.pos}</span>
-                    {word.ipa && (
-                      <span className="text-xs text-gray-400 font-mono">[{word.ipa}]</span>
-                    )}
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-200 font-medium">{word.bs}</p>
-                  <div className="mt-2 bg-gray-50 dark:bg-gray-700/50 rounded-lg p-2 space-y-1">
-                    <div className="flex items-center gap-1.5">
-                      <p className="text-sm text-gray-600 dark:text-gray-300 italic">{word.example_es}</p>
-                      <AudioButton text={word.example_es} size="sm" />
-                    </div>
-                    <p className="text-xs text-gray-400">{word.example_bs}</p>
-                  </div>
-                </div>
-              </Card>
-            ))}
-            <Button onClick={goNext} className="w-full">Nastavi →</Button>
-          </div>
+          <VocabFlashcard vocab={lesson.vocabulary} onComplete={goNext} />
         )}
 
         {/* Grammar */}
@@ -321,6 +328,48 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
                 </div>
               </Card>
             ))}
+            {/* AI-generated extra questions */}
+            <div className="mt-2">
+              <h3 className="font-semibold text-gray-800 dark:text-gray-200 flex items-center gap-2">
+                <Bot className="w-4 h-4 text-purple-500" />
+                Dodatna AI pitanja:
+              </h3>
+              {aiLoading && (
+                <p className="text-sm text-gray-400 mt-2 animate-pulse">Generišem pitanja...</p>
+              )}
+              {aiQuestions.map((q, qi) => (
+                <Card key={qi} className="mt-2">
+                  <p className="font-medium text-gray-800 dark:text-gray-100 mb-2">{q.question_bs}</p>
+                  <div className="space-y-2">
+                    {q.options.map((opt, oi) => {
+                      const selected = aiAnswers[qi] === oi;
+                      const correct = aiAnswers[qi] !== null && oi === q.answerIndex;
+                      const wrong = selected && oi !== q.answerIndex;
+                      return (
+                        <button
+                          key={oi}
+                          onClick={() => {
+                            const copy = [...aiAnswers];
+                            copy[qi] = oi;
+                            setAiAnswers(copy);
+                          }}
+                          disabled={aiAnswers[qi] !== null}
+                          className={`w-full text-left p-2.5 rounded-xl border-2 text-sm transition-all ${
+                            correct ? "border-green-500 bg-green-50 dark:bg-green-900/20" :
+                            wrong ? "border-red-400 bg-red-50 dark:bg-red-900/20" :
+                            selected ? "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/20" :
+                            "border-gray-200 dark:border-gray-600 hover:border-emerald-300"
+                          }`}
+                        >
+                          {opt}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </Card>
+              ))}
+            </div>
+
             <Button onClick={goNext} className="w-full">Nastavi na vježbe →</Button>
           </div>
         )}

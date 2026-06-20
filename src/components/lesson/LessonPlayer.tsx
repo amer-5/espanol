@@ -77,9 +77,39 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
     }
   }, [aiQuestions.length, aiLoading, lesson.reading]);
 
+  // AI-extracted unknown vocab from reading text
+  type UnknownWord = { es: string; bs: string; ipa?: string };
+  const [unknownWords, setUnknownWords] = useState<UnknownWord[]>([]);
+  const [vocabLoading, setVocabLoading] = useState(false);
+
+  const loadUnknownVocab = useCallback(async () => {
+    if (unknownWords.length > 0 || vocabLoading) return;
+    setVocabLoading(true);
+    try {
+      const knownWords = [
+        ...lesson.vocabulary.map((v) => v.es),
+        ...lesson.reading.glossary.map((g) => g.es),
+      ];
+      const res = await fetch("/api/reading-vocab", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text_es: lesson.reading.text_es, knownWords }),
+      });
+      if (res.ok) {
+        const { words } = await res.json();
+        setUnknownWords(words);
+      }
+    } finally {
+      setVocabLoading(false);
+    }
+  }, [unknownWords.length, vocabLoading, lesson]);
+
   useEffect(() => {
-    if (section === "reading") loadAiQuestions();
-  }, [section, loadAiQuestions]);
+    if (section === "reading") {
+      loadAiQuestions();
+      loadUnknownVocab();
+    }
+  }, [section, loadAiQuestions, loadUnknownVocab]);
 
   const markSectionDone = (s: Section) => {
     setCompletedSections((prev) => new Set([...prev, s]));
@@ -295,6 +325,32 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
                 </div>
               )}
             </Card>
+
+            {/* Unknown words from text */}
+            {(vocabLoading || unknownWords.length > 0) && (
+              <div>
+                <h3 className="font-semibold text-gray-800 dark:text-gray-200 flex items-center gap-2 mb-2">
+                  <BookOpen className="w-4 h-4 text-blue-500" />
+                  Nove riječi iz teksta:
+                </h3>
+                {vocabLoading ? (
+                  <p className="text-sm text-gray-400 animate-pulse">Tražim nepoznate riječi...</p>
+                ) : (
+                  <div className="flex flex-wrap gap-2">
+                    {unknownWords.map((w, i) => (
+                      <div key={i} className="flex items-center gap-1.5 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-xl px-3 py-1.5">
+                        <div>
+                          <span className="font-semibold text-blue-700 dark:text-blue-300 text-sm">{w.es}</span>
+                          {w.ipa && <span className="text-xs text-gray-400 ml-1">[{w.ipa}]</span>}
+                          <span className="text-gray-500 dark:text-gray-400 text-xs ml-1">= {w.bs}</span>
+                        </div>
+                        <AudioButton text={w.es} size="sm" className="!p-1" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
 
             <h3 className="font-semibold text-gray-800 dark:text-gray-200">Pitanja razumijevanja:</h3>
             {lesson.reading.comprehensionQuestions.map((q, qi) => (

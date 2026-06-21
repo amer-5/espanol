@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { getUserId } from "@/lib/progress";
 import { speak } from "@/lib/tts";
-import { Trash2, Volume2, BookOpen, ArrowLeft } from "lucide-react";
+import { Trash2, Volume2, BookOpen, ArrowLeft, Plus, Loader2 } from "lucide-react";
 import Link from "next/link";
 
 interface Note {
@@ -16,6 +16,9 @@ interface Note {
 export default function NotesPage() {
   const [notes, setNotes] = useState<Note[]>([]);
   const [loading, setLoading] = useState(true);
+  const [inputText, setInputText] = useState("");
+  const [adding, setAdding] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const userId = getUserId();
@@ -24,6 +27,26 @@ export default function NotesPage() {
       .then(({ notes }) => setNotes(notes ?? []))
       .finally(() => setLoading(false));
   }, []);
+
+  const addManual = async () => {
+    if (!inputText.trim() || adding) return;
+    setAdding(true);
+    try {
+      const res = await fetch("/api/notes", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userId: getUserId(), selectedText: inputText.trim() }),
+      });
+      if (res.ok) {
+        const { note } = await res.json();
+        setNotes((n) => [note, ...n]);
+        setInputText("");
+        inputRef.current?.focus();
+      }
+    } finally {
+      setAdding(false);
+    }
+  };
 
   const deleteNote = async (id: number) => {
     const userId = getUserId();
@@ -48,6 +71,27 @@ export default function NotesPage() {
           </h1>
           <p className="text-sm text-gray-400">{notes.length} sačuvanih fraza</p>
         </div>
+      </div>
+
+      {/* Manual input */}
+      <div className="flex gap-2 mb-4">
+        <input
+          ref={inputRef}
+          value={inputText}
+          onChange={(e) => setInputText(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && addManual()}
+          placeholder="Upiši špansku riječ ili frazu..."
+          className="flex-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl px-4 py-3 text-sm focus:outline-none focus:border-emerald-400 text-gray-900 dark:text-white"
+          autoComplete="off"
+          spellCheck={false}
+        />
+        <button
+          onClick={addManual}
+          disabled={!inputText.trim() || adding}
+          className="w-12 h-12 rounded-2xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 text-white flex items-center justify-center transition-all cursor-pointer flex-shrink-0"
+        >
+          {adding ? <Loader2 className="w-4 h-4 animate-spin" /> : <Plus className="w-5 h-5" />}
+        </button>
       </div>
 
       {loading && (

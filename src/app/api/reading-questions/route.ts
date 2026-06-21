@@ -17,7 +17,7 @@ Reading text (Spanish): "${text_es}"
 Title: "${title}"
 Glossary: ${JSON.stringify(glossary)}
 
-Generate 3 multiple-choice comprehension questions in Bosnian about this text. Questions should test understanding of the text content.
+Generate 3 multiple-choice comprehension questions in Bosnian language (bosanski jezik, Bosnia and Herzegovina — NOT Croatian, NOT Serbian, NOT Slovenian) about this text.
 
 Return ONLY valid JSON array:
 [

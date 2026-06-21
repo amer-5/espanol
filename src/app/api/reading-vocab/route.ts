@@ -27,8 +27,8 @@ Rules:
 - Max 8 words
 - Only include words actually in the text
 
-Return ONLY valid JSON array:
-[{"es": "palabra", "bs": "prijevod", "ipa": "opcional"}]`
+Return ONLY valid JSON array with Bosnian translations (bosanski jezik, Bosnia and Herzegovina — NOT Croatian, NOT Serbian, NOT Slovenian):
+[{"es": "palabra", "bs": "prijevod na bosanskom", "ipa": "opcional"}]`
       }],
     });
 

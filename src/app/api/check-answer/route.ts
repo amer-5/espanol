@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
       max_tokens: 100,
       messages: [{
         role: "user",
-        content: `You are a Spanish language teacher. Check if the student's answer is correct.
+        content: `You are a Spanish language teacher. The student speaks Bosnian (bosanski jezik, Bosnia and Herzegovina). Check if the student's answer is correct.
 
 Exercise: ${exerciseType} (translation/fill_blank)
 Prompt: "${prompt}"

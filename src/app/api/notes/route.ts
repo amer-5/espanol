@@ -12,7 +12,7 @@ async function translateText(text: string): Promise<string> {
       max_tokens: 60,
       messages: [{
         role: "user",
-        content: `Translate this Spanish text to Bosnian. Reply with ONLY the translation, nothing else: "${text}"`
+        content: `Translate this Spanish text to Bosnian language (bosanski jezik, as spoken in Bosnia and Herzegovina). Use Bosnian vocabulary and spelling (NOT Croatian, NOT Serbian, NOT Slovenian). Reply with ONLY the translation, nothing else: "${text}"`
       }],
     });
     return res.choices[0]?.message?.content?.trim() ?? "";

@@ -10,6 +10,7 @@ import { setLessonStatus, updateStreak } from "@/lib/progress";
 import { generateDuolingoSession } from "@/lib/duolingo";
 import { Target, BookOpen, MessageSquare, FileText, Dumbbell, Bot, Award } from "lucide-react";
 import VocabFlashcard from "./VocabFlashcard";
+import SelectionMenu from "@/components/SelectionMenu";
 import Image from "next/image";
 
 type Section =
@@ -493,6 +494,7 @@ export default function LessonPlayer({ lesson }: { lesson: Lesson }) {
           </div>
         )}
       </div>
+      <SelectionMenu lessonId={lesson.id} />
     </div>
   );
 }

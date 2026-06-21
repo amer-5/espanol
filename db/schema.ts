@@ -53,6 +53,17 @@ export const streaks = pgTable("streaks", {
   lastActiveDate: text("last_active_date"), // ISO date string YYYY-MM-DD
 });
 
+export const notes = pgTable("notes", {
+  id: serial("id").primaryKey(),
+  userId: text("user_id")
+    .notNull()
+    .references(() => users.id, { onDelete: "cascade" }),
+  selectedText: text("selected_text").notNull(),
+  translation: text("translation"),
+  lessonId: text("lesson_id"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
 export const testAttempts = pgTable("test_attempts", {
   id: serial("id").primaryKey(),
   userId: text("user_id")

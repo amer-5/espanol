@@ -1,7 +1,7 @@
 import { getCurriculum } from "@/lib/lessons";
 import CourseMap from "@/components/navigation/CourseMap";
 import Link from "next/link";
-import { BookOpen, Flame, RotateCcw } from "lucide-react";
+import { BookOpen, Flame, RotateCcw, NotebookPen } from "lucide-react";
 
 export default function HomePage() {
   const curriculum = getCurriculum();
@@ -60,6 +60,10 @@ export default function HomePage() {
           <Link href="/srs" className="flex-1 flex flex-col items-center py-3 text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300">
             <RotateCcw className="w-5 h-5" />
             <span className="text-xs mt-0.5">Ponavljanje</span>
+          </Link>
+          <Link href="/notes" className="flex-1 flex flex-col items-center py-3 text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300">
+            <NotebookPen className="w-5 h-5" />
+            <span className="text-xs mt-0.5">Bilješke</span>
           </Link>
         </div>
       </nav>

@@ -14,16 +14,18 @@ function tokenize(sentence: string): string[] {
   return sentence.trim().split(/\s+/).filter(Boolean);
 }
 
-/** Add up to N distractor words from vocab ES words (not from examples) */
+/** Add up to N single-word distractors from vocab (first token of v.es only) */
 function addDistractors(correctWords: string[], allVocab: VocabItem[], count = 3): string[] {
   const distractors: string[] = [];
-  const used = new Set(correctWords.map((w) => w.toLowerCase().replace(/[¡!¿?.,]/g, "")));
+  const clean = (w: string) => w.toLowerCase().replace(/[¡!¿?.,]/g, "");
+  const used = new Set(correctWords.map(clean));
   for (const v of shuffle(allVocab)) {
-    const word = v.es.trim();
-    if (word.length < 2) continue;
-    if (used.has(word.toLowerCase())) continue;
-    distractors.push(word);
-    used.add(word.toLowerCase());
+    // Use only the first word of v.es so we don't inject full phrases as tiles
+    const firstWord = v.es.trim().split(/\s+/)[0];
+    if (!firstWord || firstWord.length < 2) continue;
+    if (used.has(clean(firstWord))) continue;
+    distractors.push(firstWord);
+    used.add(clean(firstWord));
     if (distractors.length >= count) break;
   }
   return distractors;

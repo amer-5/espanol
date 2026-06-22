@@ -40,9 +40,7 @@ export default function ChatPage() {
 
     setMessages([{
       role: "assistant",
-      content: completed.length > 0
-        ? `Hola! 👋 Ja sam tvoj AI asistent za španski. Završio si ${completed.length} lekcij${completed.length === 1 ? "u" : completed.length < 5 ? "e" : "a"}. Možemo vježbati, prevoditi ili razgovarati. Šta bi volio? 😊`
-        : `Hola! 👋 Ja sam tvoj AI asistent za španski. Mogu ti pomoći s osnovama, objašnjenjima ili prijevodima. Šta te zanima? 😊`,
+      content: "¡Hola! ¿Cómo estás?",
     }]);
   }, []);
 

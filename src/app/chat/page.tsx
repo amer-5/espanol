@@ -1,9 +1,8 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
-import { getUserId, getLocalProgress } from "@/lib/progress";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { getLocalProgress } from "@/lib/progress";
 import { speak } from "@/lib/tts";
-import { getCurriculum } from "@/lib/lessons";
-import { ArrowLeft, Send, Volume2, Bot, Loader2 } from "lucide-react";
+import { ArrowLeft, Send, Volume2, Bot, Loader2, Mic, MicOff } from "lucide-react";
 import Link from "next/link";
 
 interface Message {
@@ -11,24 +10,27 @@ interface Message {
   content: string;
 }
 
+type MicState = "idle" | "listening" | "processing";
+
 export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [knownVocab, setKnownVocab] = useState<string[]>([]);
   const [completedLessons, setCompletedLessons] = useState<string[]>([]);
+  const [micState, setMicState] = useState<MicState>("idle");
+  const [voiceMode, setVoiceMode] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
+  const recogRef = useRef<any>(null);
 
   useEffect(() => {
-    // Load completed lessons + their vocab from localStorage + curriculum
     const progress = getLocalProgress();
     const completed = Object.entries(progress)
       .filter(([, v]) => v.status === "completed")
       .map(([id]) => id);
     setCompletedLessons(completed);
 
-    // Fetch vocab for completed lessons
     if (completed.length > 0) {
       fetch(`/api/lesson-vocab?ids=${completed.join(",")}`)
         .then((r) => r.json())
@@ -36,12 +38,11 @@ export default function ChatPage() {
         .catch(() => {});
     }
 
-    // Welcome message
     setMessages([{
       role: "assistant",
       content: completed.length > 0
-        ? `Hola! 👋 Ja sam tvoj AI asistent za španski. Vidim da si završio ${completed.length} lekcij${completed.length === 1 ? "u" : completed.length < 5 ? "e" : "a"}. Možemo vježbati gradivo koje si naučio, prevoditi, ili ti mogu postavljati pitanja. Šta bi volio? 😊`
-        : `Hola! 👋 Ja sam tvoj AI asistent za španski. Još nisi završio nijednu lekciju, ali mogu ti pomoći s osnovnim pitanjima ili motivacijom. Šta te zanima? 😊`,
+        ? `Hola! 👋 Ja sam tvoj AI asistent za španski. Završio si ${completed.length} lekcij${completed.length === 1 ? "u" : completed.length < 5 ? "e" : "a"}. Možemo vježbati, prevoditi ili razgovarati. Šta bi volio? 😊`
+        : `Hola! 👋 Ja sam tvoj AI asistent za španski. Mogu ti pomoći s osnovama, objašnjenjem ili prijevodima. Šta te zanima? 😊`,
     }]);
   }, []);
 
@@ -49,10 +50,8 @@ export default function ChatPage() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const send = async () => {
-    const text = input.trim();
-    if (!text || loading) return;
-    setInput("");
+  const sendMessage = useCallback(async (text: string, autoSpeak = false) => {
+    if (!text.trim() || loading) return;
 
     const newMessages: Message[] = [...messages, { role: "user", content: text }];
     setMessages(newMessages);
@@ -62,20 +61,56 @@ export default function ChatPage() {
       const res = await fetch("/api/chat-free", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          messages: newMessages,
-          knownVocab,
-          completedLessons,
-        }),
+        body: JSON.stringify({ messages: newMessages, knownVocab, completedLessons }),
       });
       const { message } = await res.json();
-      setMessages((m) => [...m, { role: "assistant", content: message ?? "..." }]);
+      const reply = message ?? "...";
+      setMessages((m) => [...m, { role: "assistant", content: reply }]);
+      if (autoSpeak) speak(reply);
     } catch {
       setMessages((m) => [...m, { role: "assistant", content: "Greška u konekciji. Pokušaj ponovo." }]);
     } finally {
       setLoading(false);
-      setTimeout(() => inputRef.current?.focus(), 100);
     }
+  }, [messages, loading, knownVocab, completedLessons]);
+
+  const send = () => {
+    const text = input.trim();
+    if (!text) return;
+    setInput("");
+    sendMessage(text, voiceMode);
+    setTimeout(() => inputRef.current?.focus(), 100);
+  };
+
+  const startListening = () => {
+    const SR = (window as any).SpeechRecognition ?? (window as any).webkitSpeechRecognition;
+    if (!SR) {
+      alert("Prepoznavanje govora nije podržano. Koristi Chrome ili Safari.");
+      return;
+    }
+    if (micState !== "idle") {
+      recogRef.current?.stop();
+      setMicState("idle");
+      return;
+    }
+
+    setMicState("listening");
+    const rec = new SR();
+    // Detect language: if voice mode active listen in Spanish, else Bosnian/auto
+    rec.lang = voiceMode ? "es-ES" : "bs";
+    rec.interimResults = false;
+    rec.maxAlternatives = 1;
+    recogRef.current = rec;
+
+    rec.onresult = (e: any) => {
+      const transcript = e.results[0][0].transcript;
+      setMicState("processing");
+      sendMessage(transcript, voiceMode);
+      setMicState("idle");
+    };
+    rec.onerror = () => setMicState("idle");
+    rec.onend = () => setMicState((s) => s === "listening" ? "idle" : s);
+    rec.start();
   };
 
   return (
@@ -88,10 +123,22 @@ export default function ChatPage() {
         <div className="w-9 h-9 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center">
           <Bot className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
         </div>
-        <div>
+        <div className="flex-1">
           <p className="font-semibold text-gray-900 dark:text-white text-sm">AI Asistent</p>
           <p className="text-xs text-gray-400">Španski · Na osnovu tvojih lekcija</p>
         </div>
+        {/* Voice mode toggle */}
+        <button
+          onClick={() => setVoiceMode((v) => !v)}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium transition-all ${
+            voiceMode
+              ? "bg-emerald-500 text-white"
+              : "bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400"
+          }`}
+        >
+          <Mic className="w-3.5 h-3.5" />
+          {voiceMode ? "Glas ON" : "Glas OFF"}
+        </button>
       </header>
 
       {/* Messages */}
@@ -136,13 +183,8 @@ export default function ChatPage() {
 
       {/* Quick suggestions */}
       {messages.length === 1 && (
-        <div className="px-4 pb-2 flex gap-2 overflow-x-auto scrollbar-hide">
-          {[
-            "Provjeri moj prijevod",
-            "Predloži vježbu",
-            "Objasni mi...",
-            "Kako se kaže...",
-          ].map((s) => (
+        <div className="px-4 pb-2 flex gap-2 overflow-x-auto">
+          {["Provjeri moj prijevod", "Predloži vježbu", "Kako se kaže...", "Objasni mi..."].map((s) => (
             <button
               key={s}
               onClick={() => { setInput(s); inputRef.current?.focus(); }}
@@ -156,7 +198,28 @@ export default function ChatPage() {
 
       {/* Input */}
       <div className="px-4 py-3 bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800">
+        {/* Mic pulse indicator */}
+        {micState === "listening" && (
+          <div className="flex items-center gap-2 mb-2 px-1">
+            <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+            <span className="text-xs text-gray-400">Slušam... {voiceMode ? "(Govori na španskom)" : "(Govori na bosanskom)"}</span>
+          </div>
+        )}
+
         <div className="flex items-end gap-2">
+          {/* Mic button */}
+          <button
+            onClick={startListening}
+            disabled={loading || micState === "processing"}
+            className={`w-10 h-10 rounded-2xl flex items-center justify-center transition-all cursor-pointer flex-shrink-0 ${
+              micState === "listening"
+                ? "bg-red-500 text-white animate-pulse"
+                : "bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
+            }`}
+          >
+            {micState === "listening" ? <MicOff className="w-4 h-4" /> : <Mic className="w-4 h-4" />}
+          </button>
+
           <textarea
             ref={inputRef}
             value={input}
@@ -164,7 +227,7 @@ export default function ChatPage() {
             onKeyDown={(e) => {
               if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); }
             }}
-            placeholder="Pitaj nešto ili napiši na španskom..."
+            placeholder={voiceMode ? "Ili ukucaj na španskom..." : "Pitaj nešto ili napiši na španskom..."}
             rows={1}
             className="flex-1 resize-none bg-gray-100 dark:bg-gray-800 rounded-2xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 text-gray-900 dark:text-white max-h-28 overflow-y-auto"
             style={{ lineHeight: "1.5" }}
